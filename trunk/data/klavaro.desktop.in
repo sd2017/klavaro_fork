@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Klavaro
+_Comment=Yet another touch typing tutor
+
+Exec=klavaro
+Icon=/usr/share/icons/hicolor/24x24/apps/klavaro.png
+Terminal=false
+Type=Application
+Categories=Education;GTK;
+StartupNotify=true

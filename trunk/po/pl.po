@@ -1,0 +1,1608 @@
+# Polish translations for klavaro package.
+# Copyright (C) 2009 The Free Software Foundation Inc.
+# This file is distributed under the same license as the klavaro package.
+# Robert Stefaniuk <_kacprey_@gazeta.pl>, 2006 - 2007, 2011.
+# Tomasz Wojtyś <tsr84@o2.pl>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: klavaro 1.7.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-02 21:21-0300\n"
+"PO-Revision-Date: 2011-01-09 22:58+0100\n"
+"Last-Translator: Tomasz Wojtyś <tsr84@o2.pl>\n"
+"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: ../data/klavaro.desktop.in.h:1 ../data/klavaro.glade.h:59
+msgid "Yet another touch typing tutor"
+msgstr "Jeszcze jeden samouczek szybkiego pisania"
+
+#: ../data/klavaro.glade.h:1
+msgid "Klavaro - Main menu"
+msgstr "Klavaro - Menu główne"
+
+#: ../data/klavaro.glade.h:2
+msgid "Don't be shy about learning the basics!"
+msgstr "Nie wstydź się zaczynać od podstaw!"
+
+#: ../data/klavaro.glade.h:3
+msgid "Learn how to type correctly"
+msgstr "Jak poprawnie pisać"
+
+#: ../data/klavaro.glade.h:4
+msgid "Initial training for your fingers."
+msgstr "Wstępny trening palców."
+
+#: ../data/klavaro.glade.h:5
+msgid "First steps with initial training"
+msgstr "Pierwsze kroki ćwiczenia wstępnego"
+
+#: ../data/klavaro.glade.h:6
+msgid "Memorizing the keyboard practicing random keys exercises."
+msgstr "Przyswajanie klawiatury - ćwiczenia z losowymi znakami."
+
+#: ../data/klavaro.glade.h:7
+msgid "Practice with random keys"
+msgstr "Ćwiczenia z losowymi klawiszami"
+
+#. English typo: touchs -> touches
+#: ../data/klavaro.glade.h:9
+#, fuzzy
+msgid "Accelerating the touches practicing random words exercises."
+msgstr "Przyspieszanie pisania - ćwiczenia z losowymi słowami."
+
+#: ../data/klavaro.glade.h:10
+msgid "Practice with random words"
+msgstr "Ćwiczenia z losowymi słowami"
+
+#: ../data/klavaro.glade.h:11
+msgid "Becoming proficient practicing complete paragraphs exercises."
+msgstr "Osiąganie biegłości - ćwiczenia z pełnymi akapitami."
+
+#: ../data/klavaro.glade.h:12
+msgid "Practice with complete texts"
+msgstr "Ćwiczenia z pełnymi tekstami"
+
+#: ../data/klavaro.glade.h:13
+msgid ""
+"Keyboard layout for modules 1 and 2. Also used informatively in the "
+"fluidness contest."
+msgstr ""
+"Układ klawiatury modułów 1 i 2. Używany również informacyjnie w teście "
+"płynności."
+
+#: ../data/klavaro.glade.h:14
+msgid "_Keyboard:"
+msgstr "Klawiatura"
+
+#: ../data/klavaro.glade.h:15
+msgid "Language for modules 3 and 4."
+msgstr "Język modułów 3 i 4"
+
+#: ../data/klavaro.glade.h:16
+msgid "_Language:"
+msgstr "Język"
+
+#: ../data/klavaro.glade.h:17
+msgid "Variant"
+msgstr "Wariant"
+
+#: ../data/klavaro.glade.h:18
+msgid "Klavaro"
+msgstr "Klavaro"
+
+#: ../data/klavaro.glade.h:19
+msgid "Country / Custom"
+msgstr "Kraj / Własna"
+
+#: ../data/klavaro.glade.h:20
+msgid "Your language here."
+msgstr "Wybierz swój język."
+
+#: ../data/klavaro.glade.h:21
+#, fuzzy
+msgid "Speech"
+msgstr "Szybkość"
+
+#: ../data/klavaro.glade.h:22
+msgid "Little tip about this program."
+msgstr "Drobna wskazówka o tym programie"
+
+#: ../data/klavaro.glade.h:23
+msgid "_Help"
+msgstr "Pomoc"
+
+#: ../data/klavaro.glade.h:24
+msgid "General information about the program."
+msgstr "Informacje o programie"
+
+#: ../data/klavaro.glade.h:25
+msgid "_About..."
+msgstr "O programie..."
+
+#: ../data/klavaro.glade.h:26
+msgid "Exit the application immediately."
+msgstr "Kończy działanie programu"
+
+#: ../data/klavaro.glade.h:27
+msgid "_Close"
+msgstr "Zamknij"
+
+#: ../data/klavaro.glade.h:28
+msgid "Load other exercises/lessons"
+msgstr "Otwórz inne ćwiczenia/lekcje"
+
+#: ../data/klavaro.glade.h:29
+msgid "_Other texts"
+msgstr "Inne teksty"
+
+#: ../data/klavaro.glade.h:30
+msgid "_Lesson:"
+msgstr "Lekcja:"
+
+#: ../data/klavaro.glade.h:31
+msgid "Edit the character set to be used in this lesson."
+msgstr "Edytuj zestaw znaków używany w tej lekcji."
+
+#: ../data/klavaro.glade.h:32
+msgid "Edit the character set to be used in lessons 44 through 50."
+msgstr "Edytuj zestaw znaków używany w lekcjach od 44 do 50."
+
+#: ../data/klavaro.glade.h:33
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr "To jest zadanie specjalne, dostosowane do twojego profilu błędów."
+
+#: ../data/klavaro.glade.h:34 ../src/tutor.c:252
+msgid "Drag and drop text here to practice with it."
+msgstr "Przeciągnij i upuść tutaj tekst, aby z nim ćwiczyć."
+
+#: ../data/klavaro.glade.h:35
+msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+msgstr "Kliknij tu aby powtórzyć ćwiczenie. Skrót: [Ctrl R]"
+
+#: ../data/klavaro.glade.h:36
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr "Pokazuje wirtualną klawiaturę i powiązania klawiszy z palcami."
+
+#: ../data/klavaro.glade.h:37
+msgid "_Keyboard"
+msgstr "Klawiatura"
+
+#: ../data/klavaro.glade.h:38
+msgid "Select the font to be used in the exercise window."
+msgstr "Wybierz czcionkę używaną w oknie ćwiczeń."
+
+#: ../data/klavaro.glade.h:39
+msgid "_Font"
+msgstr "Czcionka"
+
+#: ../data/klavaro.glade.h:40
+msgid "Keep this checked if you want to get those nice beeps."
+msgstr "Jeśli lubisz dźwięki z głośniczka, zostaw tu ptaszek."
+
+#: ../data/klavaro.glade.h:41
+msgid "_Beep"
+msgstr "Dźwięk"
+
+#: ../data/klavaro.glade.h:42
+msgid "Co_urse information"
+msgstr "Informacja o kursie"
+
+#: ../data/klavaro.glade.h:43
+msgid "Charts showing the learning progress along the exercises."
+msgstr "Wykresy pokazujące postępy w nauce."
+
+#: ../data/klavaro.glade.h:44
+msgid "_Progress"
+msgstr "Postęp"
+
+#: ../data/klavaro.glade.h:45
+msgid "Show local and external scores from other users."
+msgstr "Pokazuj lokalne i zewnętrzne wyniki innych użytkowników."
+
+#: ../data/klavaro.glade.h:46
+msgid "_Top 10"
+msgstr "Najlepsza 10"
+
+#: ../data/klavaro.glade.h:47
+msgid "Return to the main menu."
+msgstr "Powrót do głównego menu."
+
+#: ../data/klavaro.glade.h:48
+msgid "B_ack to menu"
+msgstr "Powrót do menu"
+
+#: ../data/klavaro.glade.h:49
+msgid "Close this window."
+msgstr "Zamknij to okno."
+
+#: ../data/klavaro.glade.h:50
+msgid "Font definition"
+msgstr "Określenie czcionki"
+
+#: ../data/klavaro.glade.h:51
+msgid "Top 10"
+msgstr "Najlepsza 10"
+
+#: ../data/klavaro.glade.h:52
+msgid "Show extra information"
+msgstr "Pokazuj dodatkowe informacje"
+
+#: ../data/klavaro.glade.h:53
+msgid "Hide extra information"
+msgstr "Ukryj dodatkowe informacje"
+
+#: ../data/klavaro.glade.h:54
+msgid "Publish to the web your local scores."
+msgstr "Opublikuj swoje lokalne wyniki w sieci."
+
+#: ../data/klavaro.glade.h:55
+msgid "_Participate"
+msgstr "Uczestnictwo"
+
+#: ../data/klavaro.glade.h:56
+msgid "Download from the web the most up to date ranking."
+msgstr "Pobierz aktualny ranking z sieci."
+
+#: ../data/klavaro.glade.h:57
+msgid "_Update"
+msgstr "Odśwież"
+
+#: ../data/klavaro.glade.h:58
+msgid "About 'Klavaro'"
+msgstr "O 'Klavaro'"
+
+#: ../data/klavaro.glade.h:60
+msgid "Remember always: someone loves you!"
+msgstr "Zawsze pamiętaj: ktoś Cię kocha!"
+
+#: ../data/klavaro.glade.h:61
+msgid "Remove the selected custom layout."
+msgstr "Usuń zaznaczoną pozycję z listy"
+
+#: ../data/klavaro.glade.h:62
+msgid "_Remove"
+msgstr "Usuń"
+
+#: ../data/klavaro.glade.h:63
+msgid ""
+"Toggles the shift effect on the keys. Alternates between the upper and lower "
+"characters of the keys."
+msgstr ""
+"Odpowiednik wciśniętego shift. Przełącza między górnymi i dolnymi znakami."
+
+#: ../data/klavaro.glade.h:64
+msgid "SPACE BAR"
+msgstr "SPACJA"
+
+#: ../data/klavaro.glade.h:65 ../src/keyboard.c:1630
+msgid "thumbs"
+msgstr "kciuki"
+
+#: ../data/klavaro.glade.h:66
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../data/klavaro.glade.h:67
+msgid "Caps"
+msgstr "Caps"
+
+#: ../data/klavaro.glade.h:68
+msgid "S_ave as:"
+msgstr "Zapisz jako:"
+
+#: ../data/klavaro.glade.h:69
+msgid "Show previous screen."
+msgstr "Pokaż poprzedni obraz"
+
+#: ../data/klavaro.glade.h:70
+msgid "_Previous step"
+msgstr "Poprzedni krok"
+
+#: ../data/klavaro.glade.h:71
+msgid "Show next screen."
+msgstr "Pokaż następny obraz"
+
+#: ../data/klavaro.glade.h:72
+msgid "_Next step"
+msgstr "Następny krok"
+
+#: ../data/klavaro.glade.h:73
+msgid "Return without any modification."
+msgstr "Wyjdź bez wprowadzania zmian."
+
+#: ../data/klavaro.glade.h:74
+msgid "_Cancel"
+msgstr "Anuluj"
+
+#: ../data/klavaro.glade.h:75
+msgid "Save the current keyboard layout with the name specified above."
+msgstr "Zapisz bieżący układ klawiszy z podaną nazwą."
+
+#: ../data/klavaro.glade.h:76
+msgid "_Save and use"
+msgstr "Zapisz i użyj"
+
+#: ../data/klavaro.glade.h:77
+msgid ""
+"If you like those beautiful hands, click here to close this window keeping "
+"them."
+msgstr ""
+"Jeśli chcesz oglądać te piękne ręce, kliknij tu przed zamknięciem tego okna."
+
+#: ../data/klavaro.glade.h:78
+msgid "_Keep hands"
+msgstr "Pokazuj ręce"
+
+#: ../data/klavaro.glade.h:79
+msgid "Change language"
+msgstr "Zmień język"
+
+#: ../data/klavaro.glade.h:80
+msgid "Attention!"
+msgstr "Uwaga!"
+
+#: ../data/klavaro.glade.h:81
+msgid "Do you confirm?"
+msgstr "Potwierdzasz zmiany?"
+
+#: ../data/klavaro.glade.h:82
+msgid "_No"
+msgstr "Nie"
+
+#: ../data/klavaro.glade.h:83
+msgid "_Yes"
+msgstr "Tak"
+
+#: ../data/klavaro.glade.h:84
+msgid "Re_name:"
+msgstr "Zmień nazwę:"
+
+#: ../data/klavaro.glade.h:85
+msgid "Rename the selected item."
+msgstr "Zmień nazwę zaznaczonej pozycji"
+
+#: ../data/klavaro.glade.h:86
+msgid ""
+"Read a text file and add a copy of it here. The file must be encoded in "
+"UTF-8."
+msgstr ""
+"Otwórz plik tekstowy i wklej jego zawartość. Plik musi być kodowany w UTF-8."
+
+#: ../data/klavaro.glade.h:87
+msgid "_Open text file"
+msgstr "Otwórz plik tekstowy"
+
+#: ../data/klavaro.glade.h:88
+msgid "Paste text that was copied to the clipboard."
+msgstr "Wklej tekst ze schowka"
+
+#: ../data/klavaro.glade.h:89
+msgid "_Paste from clipboard"
+msgstr "Wklej ze schowka"
+
+#: ../data/klavaro.glade.h:90
+msgid "Remove the selected item."
+msgstr "Usuń zaznaczoną pozycję"
+
+#: ../data/klavaro.glade.h:91
+msgid "_Remove copied file"
+msgstr "Usuń skopiowany plik"
+
+#: ../data/klavaro.glade.h:92
+msgid "Apply the selected item to create an exercise."
+msgstr "Zastosuj zaznaczoną pozycję do utworzenia ćwiczenia"
+
+#: ../data/klavaro.glade.h:93
+msgid "_Apply"
+msgstr "Zastosuj"
+
+#: ../data/klavaro.glade.h:94
+msgid "Klavaro - Progress"
+msgstr "Klavaro - Postęp"
+
+#: ../data/klavaro.glade.h:95
+msgid "Value"
+msgstr "Wartość"
+
+#: ../data/klavaro.glade.h:96
+msgid "Clear all the progress data, for every module."
+msgstr "Usuń wszystkie informacje o postępach w każdym module"
+
+#: ../data/klavaro.glade.h:97
+msgid "_Reset"
+msgstr "Od początku!"
+
+#: ../data/klavaro.glade.h:98
+msgid "Close this window, returning to the exercise."
+msgstr "Zamknij to okno i powróć do ćwiczenia."
+
+#: ../data/klavaro.glade.h:99
+msgid "Klavaro - Select file"
+msgstr "Klavaro - Wybór pliku"
+
+#: ../data/klavaro.glade.h:100
+msgid "_Open"
+msgstr "Otwórz"
+
+#: ../data/klavaro.glade.h:101
+msgid "Help?"
+msgstr "Pomóc?"
+
+#: ../data/klavaro.glade.h:102
+msgid ""
+"The main menu of the application is very straightforward. Just select the "
+"type of exercise you wish to take. Do not worry about clicking any button on "
+"the screen. The buttons will never hurt you!"
+msgstr ""
+"To jest główne menu programu - jest ono bardzo proste. Należy jedynie wybrać "
+"rodzaj ćwiczeń, które zamierza się wykonywać. Nie bój się klikać w "
+"jakikolwiek przycisk - nic złego się nie stanie!"
+
+#: ../data/klavaro.glade.h:103
+msgid ""
+"Also the controls have tips which will appear if you hover over them with "
+"your mouse. These tips can come in very handy. To see how these tips work, "
+"position your mouse over the button below, and without clicking, wait for "
+"the tip to appear..."
+msgstr ""
+"Nie zapominaj też o wskazówkach pojawiających się przy każdej opcji. Czasami "
+"mogą być użyteczne. Aby zobaczyć jedną z nich, naprowadź kursor na przycisk "
+"poniżej i, bez klikania, odczekaj chwilę..."
+
+#: ../data/klavaro.glade.h:104
+msgid "This is a tip. Now you press this button to return to the main menu."
+msgstr "To jest wskazówka. Naciskając ten przycisk wrócisz do menu głównego."
+
+#: ../src/main.c:314
+msgid "(Custom)"
+msgstr "(własny)"
+
+#: ../src/main.c:315
+msgid "(Edit custom)"
+msgstr "(Edytuj własny)"
+
+#: ../src/main.c:316
+msgid "(Default)"
+msgstr "Domyślny"
+
+#: ../src/main.c:393
+#, c-format
+msgid "Dictation mode (depends on this speech synthesizer: %s)"
+msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. Set main labels (for translation)
+#.
+#: ../src/main.c:435 ../src/keyboard.c:1291
+msgid "Introduction"
+msgstr "Wstęp"
+
+#: ../src/main.c:438 ../src/top10.c:109
+msgid "Basic course"
+msgstr "Kurs podstawowy"
+
+#: ../src/main.c:441 ../src/top10.c:112
+msgid "Adaptability"
+msgstr "Adaptacja"
+
+#: ../src/main.c:444 ../src/callbacks.c:1310 ../src/top10.c:89
+#: ../src/top10.c:115
+msgid "Speed"
+msgstr "Szybkość"
+
+#: ../src/main.c:447 ../src/callbacks.c:1333 ../src/top10.c:91
+#: ../src/top10.c:118
+msgid "Fluidity"
+msgstr "Płynność"
+
+#: ../src/callbacks.c:468 ../src/tutor.c:391
+msgid "Keys:"
+msgstr "Klawisze:"
+
+#: ../src/callbacks.c:858 ../src/callbacks.c:874
+msgid "Connecting..."
+msgstr "Łączenie..."
+
+#: ../src/callbacks.c:1145
+msgid "Overwrite user layout"
+msgstr "Nadpisz układ użytkownika"
+
+#: ../src/callbacks.c:1147
+msgid "This will OVERWRITE an existent keyboard layout."
+msgstr "To NADPISZE istniejący układ klawiszy."
+
+#: ../src/callbacks.c:1154
+msgid "Remove user layout"
+msgstr "Usuń układ użytkownika"
+
+#: ../src/callbacks.c:1156
+msgid "This will REMOVE an existent keyboard layout."
+msgstr "To USUNIE istniejący układ klawiszy"
+
+#: ../src/callbacks.c:1163
+msgid "Reset progress data"
+msgstr "Usuń dane o postępach"
+
+#: ../src/callbacks.c:1164
+msgid "This will DELETE all the progress data shown in the charts."
+msgstr "To USUNIE wszystkie informacje o postępach pokazywane na wykresach"
+
+#: ../src/callbacks.c:1307 ../src/top10.c:87
+msgid "Accuracy"
+msgstr "Dokładność"
+
+#: ../src/callbacks.c:1310 ../src/tutor.c:1160
+msgid "(WPM)"
+msgstr "(SNM)"
+
+#: ../src/callbacks.c:1321
+msgid "Errors"
+msgstr "Błędy"
+
+#: ../src/callbacks.c:1324
+msgid "Touch times (s)"
+msgstr ""
+
+#: ../src/callbacks.c:1336 ../src/tutor.c:1187 ../src/top10.c:69
+msgid "Score"
+msgstr "Wynik"
+
+#. Translators: your language code (first 2 letters of your po-file)
+#: ../src/translation.c:423 ../src/translation.c:489 ../src/tutor.c:1597
+msgid "en"
+msgstr "pl"
+
+#: ../src/translation.c:576
+msgid ""
+"The basic course focuses on having you read the characters presented to you "
+"on screen and typing the corresponding keys. Remember to keep your hands "
+"correctly oriented on the home row of the keyboard at all times (see "
+"introduction on main menu)."
+msgstr ""
+"W trakcie kursu podstawowego należy odczytywać z ekranu znaki i wciskać "
+"odpowiadające im klawisze. Pamiętaj o właściwej pozycji palców w układzie "
+"podstawowym ( zobacz wstęp w menu głównym )."
+
+#: ../src/translation.c:580
+msgid ""
+"The key set used in each series will be shown in the above message line. The "
+"[Space], [Shift] and [Enter] keys may not show up there but are used very "
+"often."
+msgstr ""
+"Klawisze używane w każdej serii będą pokazane w lini powyżej. Jednakże "
+"[Spacja], [Shift] i [Enter] mogą nie być wymienione, choć będą często "
+"potrzebne."
+
+#: ../src/translation.c:583
+msgid ""
+"The message line below follows and echoes your key presses. If required, it "
+"changes and displays instructions for actions required from you."
+msgstr ""
+"W lini tekstowej na dole wypisywane są wybierane przez Ciebie znaki. Czasami "
+"pojawią się tam instrukcje dotyczące obsługi programu."
+
+#: ../src/translation.c:587
+msgid ""
+"Here you may practice and improve your memorization of all keys. There will "
+"be sentences presented with nonsense words which mix some numbers and "
+"symbols."
+msgstr ""
+"Tutaj możesz przećwiczyć i lepiej zapamiętać położenie wszystkich klawiszy. "
+"Zobaczysz zdania ułożone z bezsensownych słów, z wtrąconymi cyframi i "
+"symbolami typu znaki interpunkcyjne itp."
+
+#: ../src/translation.c:590
+msgid ""
+"In order to keep the lesson contents language and keyboard independent, "
+"accented letter combinations will probably not appear. For real word "
+"sentences, please use the fourth option of the main menu (about fluidness)."
+msgstr ""
+"Litery akcentowane ( ogonki ) prawdopodobnie się nie pojawią, aby zapewnić "
+"niezależność ćwiczenia od języka i układu klawiszy. Aby poćwiczyć wpisywanie "
+"prawdziwych słów, użyj czwartej opcji menu głównego (płynność)."
+
+#: ../src/translation.c:594
+msgid ""
+"After each exercise there will be a brief statistics panel reviewing your "
+"performance along with some relevant comments."
+msgstr ""
+"Na końcu każdego ćwiczenia pokazane są krótkie statystyki pokazujące, jak "
+"sobie radziłeś oraz pewne istotne uwagi."
+
+#: ../src/translation.c:598
+msgid ""
+"This exercise is very similar to the second one, for adaptability. The "
+"difference is that here you'll type real words."
+msgstr ""
+"To ćwiczenie jest bardzo podobne do drugiego, czyli adaptacji. Jedyna "
+"różnica polega na tym, że będziesz wpisywał prawdziwe, istniejące słowa."
+
+#: ../src/translation.c:601
+msgid ""
+"The default language is the actual one of the interface. But you may select "
+"any other texts with words you would like to use. Press the 'Other' option "
+"above and add files containing those texts."
+msgstr ""
+"Domyślnym językiem jest język interfejsu, ale można rozszerzyć zasób słów o "
+"dowolnie wybrane pliki. Wciśnij przycisk 'Inne' powyżej i dodaj pliki, z "
+"których mają być brane nowe słowa."
+
+#: ../src/translation.c:605
+msgid ""
+"With this exercise the focus is on speed. So, you are supposed to type "
+"really fast and I will only flatter you when you deserve it!"
+msgstr ""
+"W tym ćwiczeniu przyglądamy się twojej szybkości. Dlatego musisz pisać "
+"naprawdę szybko i wtedy być może udzielę ci pochwały."
+
+#: ../src/translation.c:609
+msgid ""
+"We will now use complete sentences and paragraphs which make logical sense. "
+"This may distract you while you type if you try to understand what you are "
+"entering. The previous exercises were aimed at getting you to type without "
+"interpreting and analyzing the content."
+msgstr ""
+"Teraz mamy pełne zdania i akapity posiadające sens, opisujące istniejące "
+"pojęcia. Chęć śledzenia i rozumienia tekstu może odciągać uwagę od pisania. "
+"Jeśli wykonałeś poprzednie ćwiczenia, nie będziesz miał z tym większych "
+"problemów, ponieważ jesteś przyzwyczajony do pisania bez koncentrowania się "
+"na treści."
+
+#: ../src/translation.c:613
+msgid ""
+"We do not mean to imply that the typists must behave like a robot, without "
+"understanding what they type. We do aim to develop the skill of typing, "
+"making it an automatic reflex akin to the acts of walking, talking, etc. "
+"After reaching this goal, the act of typing will become automatic and "
+"require little concentration. Then you will be able to pay attention to the "
+"real meaning of the text."
+msgstr ""
+"Nie chodzi tu o to, żebyś zachowywał się jak robot, pisząc bez żadnego "
+"zrozumienia. Chodzi jedynie o rozwinięcie techniki pisania, wytworzenie "
+"naturalnych odruchów, jak przy chodzeniu, rozmawianiu itp. Po osiągnięciu "
+"tego celu pisanie nie będzie wymagało specjalnego wysiłku - wtedy można "
+"zacząć zwracać uwagę na treść."
+
+#. English typo: minimun -> minimum
+#: ../src/translation.c:618
+#, fuzzy
+msgid ""
+"These exercises are longer. Each exercise consists of three paragraphs and "
+"the emphasis is placed on correctness and rhythm, with a minimum speed "
+"requirement. Here you will be required to use the backspace key to correct "
+"any mistakes. In other words, only input without error will be accepted."
+msgstr ""
+"Te ćwiczenia są dłuższe od poprzednich. Każde składa się z trzech paragrafów "
+"i większa uwaga poświęcana jest poprawności i rytmowi, a limit szybkości "
+"jest minimalny. Należy używać klawisza backspace do poprawiania ewentualnych "
+"błędów. Innymi słowy, jedynie bezbłędnie napisany tekst zostanie "
+"zaakceptowany."
+
+#. English typo: recomendations -> recommendations
+#: ../src/keyboard.c:1094
+#, fuzzy
+msgid ""
+"Correct positioning of the hands and fingers is very important to efficient "
+"typing. You will learn faster and type better if you follow the next "
+"recommendations."
+msgstr ""
+"Prawidłowe ułożenie dłoni i palców jest bardzo istotne w nauce pisania "
+"bezwzrokowego. Przestrzegaj ściśle poniższych wskazówek a twoja nauka będzie "
+"przebiegać szybciej."
+
+#: ../src/keyboard.c:1097
+msgid ""
+"The index-finger tips rest over each of the two keys which have a small "
+"raised mark, in the center of the keyboard."
+msgstr ""
+"Palce wskazujące spoczywają nad dwoma klawiszami, które mają na sobie małe "
+"wypustki."
+
+#: ../src/keyboard.c:1100
+msgid ""
+"These marks function as 'tactile hooks' for your fingers to remain at the "
+"correct position. This way, with a little experience, you will not need to "
+"look at the keyboard to see if your fingers are properly positioned."
+msgstr ""
+"Uwaga : te klawisze pełnią rolę 'punktów zaczepienia' całego układu. Dzięki "
+"nim, czując wypustki pod palcami wskazującymi, można bez patrzenia na "
+"klawiaturę mieć pewność, że palce są prawidłowo ułożone."
+
+#: ../src/keyboard.c:1104
+msgid ""
+"The tips of the other fingers lie naturally beside the index ones, over the "
+"keys on the same row of the keyboard."
+msgstr ""
+"Opuszki pozostałych palców naturalnie leżą obok palców wskazujących na "
+"klawiszach z tego samego rzędu."
+
+#: ../src/keyboard.c:1107
+msgid "The outside edges of your thumbs rest over the space bar."
+msgstr "Zewnętrzne górne części kciuków spoczywają na spacji."
+
+#: ../src/keyboard.c:1109
+msgid ""
+"The part of the hands closest to the wrist (the base) rest over the table, "
+"outside the keyboard. Without this kind of support the arms would quickly "
+"tire."
+msgstr ""
+"Wewnętrzne części dłoni najbliżej nadgarstka (baza) opierają się na stole, "
+"poza klawiaturą. Bez takiego podparcia ręce bardzo szybko się męczą."
+
+#: ../src/keyboard.c:1112
+msgid ""
+"This is referred to as the home position for the hands. From it the fingers "
+"move all over the keyboard, reaching all the keys as naturally and quickly "
+"as possible. To reach this goal one uses a specific relation between each "
+"key and finger. This relation will be learned gradually as you complete the "
+"basic course."
+msgstr ""
+"To jest układ podstawowy dłoni. Od niego zaczynając, palce przesuwają się po "
+"całej klawiaturze, sięgając wszystkich klawiszy tak naturalnie i szybko jak "
+"to tylko możliwe. Aby osiągnąć ten cel, każdy klawisz przypisany jest "
+"dokładnie jednemu palcu, którym może być wciskany. Tych zależności będziesz "
+"się stopniowo uczył podczas kursu podstawowego."
+
+#: ../src/keyboard.c:1118
+msgid ""
+"When learning the relation between fingers and keys, it is very important "
+"that you only move the finger which must press the key and allow all other "
+"fingers to remain in the home position."
+msgstr ""
+"Kiedy opanowujesz wciskanie klawisza właściwym palcem, musisz przestrzegać "
+"następującej zasady: za każdym razem, gdy wciskasz ten klawisz, jedynie "
+"odpowiadający mu palec jest przesuwany, a reszta spoczywa nieruchomo. Po "
+"wciśnięciu palec wraca do układu podstawowego."
+
+#: ../src/keyboard.c:1122
+msgid ""
+"After memorizing this relationship, you can relax the previous rule some, so "
+"that you can attain greater speed while typing."
+msgstr ""
+"Po opanowaniu danego klawisza możesz stosować powyższą zasadę mniej ściśle, "
+"aby skrócić czas pomiędzy wciśnięciami i rozwinąć prędkość pisania."
+
+#: ../src/keyboard.c:1125
+msgid ""
+"You should be prepared to start training with the basic course. It will take "
+"effort and patience to be successful as a typist. We trust you have these "
+"and look forward to your success!"
+msgstr ""
+"Po tych wyjaśnieniach powinieneś być w stanie rozpocząć kurs podstawowy. I "
+"zawsze pamiętaj: nauka pisania bezwzrokowego wymaga determinacji i "
+"cierpliwości! Wierzymy w Ciebie, nie zawiedź nas, dobrze?"
+
+#: ../src/keyboard.c:1136
+#, c-format
+msgid "Step %i"
+msgstr "Krok %i"
+
+#. Recommendations
+#: ../src/keyboard.c:1140
+msgid "To position the hands"
+msgstr "Ułożenie rąk"
+
+#. Final words
+#: ../src/keyboard.c:1225
+msgid "Go ahead!"
+msgstr "Idź dalej!"
+
+#: ../src/keyboard.c:1234
+msgid "Relation between fingers and keys"
+msgstr "Powiązania klawiszy z palcami"
+
+#: ../src/keyboard.c:1235
+msgid "Click on any key to see which finger you must use:"
+msgstr "Kliknij na dowolnym klawiszu aby zobaczyć którego palca użyć:"
+
+#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+msgid "Keyboard"
+msgstr "Klawiatura"
+
+#: ../src/keyboard.c:1372
+msgid "Create or modify a custom keyboard layout"
+msgstr "Utwórz lub zmień własny układ klawiatury"
+
+#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+msgid "small finger"
+msgstr "mały palec"
+
+#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+msgid "ring finger"
+msgstr "palec serdeczny"
+
+#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+msgid "middle finger"
+msgstr "palec środkowy"
+
+#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+msgid "index finger"
+msgstr "palec wskazujący"
+
+#: ../src/keyboard.c:1728
+msgid "Press and edit me"
+msgstr "Naciśnij dowolny klawisz"
+
+#: ../src/tutor.c:176
+msgid "Lesson:"
+msgstr "Lekcja:"
+
+#: ../src/tutor.c:186
+msgid "Paragraphs:"
+msgstr "Akapitów:"
+
+#: ../src/tutor.c:219
+msgid "Klavaro - Basic Course"
+msgstr "Klavaro - Kurs Podstawowy"
+
+#: ../src/tutor.c:224
+msgid "Klavaro - Adaptability"
+msgstr "Klavaro - Adaptacja"
+
+#: ../src/tutor.c:227
+msgid ""
+"Adaptability exercises: automating the fingers responses, typing over all "
+"the keyboard."
+msgstr ""
+"Ćwiczenia przystosowujące: zautomatyzowanie reakcji palców, opanowanie całej "
+"klawiatury."
+
+#: ../src/tutor.c:232
+msgid "Klavaro - Velocity"
+msgstr "Klavaro - Szybkość"
+
+#: ../src/tutor.c:233
+msgid "Velocity exercises: accelerate typing real words."
+msgstr "Ćwiczenia szybkości: przyspieszanie pisania rzeczywistych słów."
+
+#: ../src/tutor.c:237
+msgid "Klavaro - Fluidness"
+msgstr "Klavaro - Płynność"
+
+#: ../src/tutor.c:239
+msgid "Fluidness exercises: accuracy typing good sense paragraphs."
+msgstr "Ćwiczenia płynności: dokładne wpisywanie sensownych akapitów."
+
+#: ../src/tutor.c:301
+msgid "End of exercise. Press [Enter] to start another."
+msgstr "Koniec ćwiczenia. [Enter] przenosi do następnego."
+
+#: ../src/tutor.c:329
+msgid "Learning the key positions."
+msgstr "Uczenie się położenia klawiszy."
+
+#: ../src/tutor.c:332
+msgid "Press any key to start the exercise. "
+msgstr "Naciśnij dowolny klawisz, aby rozpocząć ćwiczenie. "
+
+#: ../src/tutor.c:440 ../src/tutor.c:443
+msgid "Start typing when you are ready. "
+msgstr "Kiedy będziesz gotów, zacznij pisać. "
+
+#: ../src/tutor.c:441
+msgid "Use backspace to correct errors."
+msgstr ""
+
+#: ../src/tutor.c:885
+#, c-format
+msgid ""
+"ps.: logging not performed for this session: the number of typed characters "
+"(%i) must be greater than %i."
+msgstr ""
+"ps: w tej sesji nie jest wykonywane logowanie: liczba wpisanych znaków (%i) "
+"musi być większa niż %i."
+
+#: ../src/tutor.c:1027
+msgid "ps.: you have entered the Top 10 list, great!"
+msgstr "ps.: jesteś na liście dziesięciu najlepszych, gratulacje!"
+
+#: ../src/tutor.c:1039
+msgid ""
+"ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
+"the language currently selected: we can't account for it in the 'Top 10' "
+"contest."
+msgstr ""
+"ps: napisany tekst nie wygląda na zwykły tekst wybranego aktualnie języka: "
+"nie można zaliczyć go do listy \"nalepsze 10\"."
+
+#. Begin the accuracy
+#: ../src/tutor.c:1087
+msgid "STATISTICS"
+msgstr "STATYSTYKI"
+
+#: ../src/tutor.c:1088
+msgid "Elapsed time:"
+msgstr "Czas trwania:"
+
+#: ../src/tutor.c:1089
+msgid "minute and"
+msgid_plural "minutes and"
+msgstr[0] "minuta i"
+msgstr[1] "minuty i"
+msgstr[2] "minut i"
+
+#: ../src/tutor.c:1090
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "sekunda"
+msgstr[1] "sekundy"
+msgstr[2] "sekund"
+
+#: ../src/tutor.c:1091
+msgid "Error ratio:"
+msgstr "Współczynnik błędów:"
+
+#: ../src/tutor.c:1091
+msgid "Accuracy:"
+msgstr "Dokładność:"
+
+#: ../src/tutor.c:1112 ../src/tutor.c:1137 ../src/tutor.c:1160
+#: ../src/tutor.c:1186
+msgid "Goal:"
+msgstr "Cel:"
+
+#: ../src/tutor.c:1119
+msgid "Characters per second:"
+msgstr "Znaków na sekundę:"
+
+#: ../src/tutor.c:1137
+msgid "(CPS)"
+msgstr "(ZNS)"
+
+#: ../src/tutor.c:1142
+msgid "Words per minute:"
+msgstr "Słów na minutę:"
+
+#: ../src/tutor.c:1167
+msgid "Fluidness:"
+msgstr "Płynność:"
+
+#: ../src/tutor.c:1194
+msgid "Comments:"
+msgstr "Uwagi:"
+
+#: ../src/tutor.c:1676
+msgid "space"
+msgstr ""
+
+#. Translators: the name of letter Y
+#: ../src/tutor.c:1681
+msgid "wye"
+msgstr ""
+
+#. Translators: the name of the Return key
+#: ../src/tutor.c:1685
+msgid "enter"
+msgstr ""
+
+#: ../src/tutor.c:1691
+msgid "apostrophe"
+msgstr ""
+
+#. Translators: double quote symbol: "
+#: ../src/tutor.c:1695
+msgid "quote"
+msgstr ""
+
+#. Translators: ampersand symbol: &
+#: ../src/tutor.c:1699
+msgid "ampersand"
+msgstr ""
+
+#. Error frequencies or touch times
+#.
+#: ../src/plot.c:308
+msgid "Character"
+msgstr ""
+
+#: ../src/plot.c:319
+msgid "Date & Time"
+msgstr "Data i czas"
+
+#: ../src/basic.c:331
+msgid "Positions of keys seems to be learned!"
+msgstr "Położenie klawiszy wygląda na opanowane!"
+
+#: ../src/basic.c:332
+msgid ""
+" Congratulations!\n"
+" You have accomplished the entire basic course.\n"
+" Go to the next type of exercise: adaptability.\n"
+" There you will practice mainly the accuracy.\n"
+msgstr ""
+" Gratulacje! Ukończyłeś cały kurs podstawowy.\n"
+" Pora przejść do następnego typu ćwiczeń: adaptacja.\n"
+" Tam będzie ćwiczona głównie dokładność.\n"
+
+#: ../src/basic.c:338
+msgid ""
+" All right, now you got it!\n"
+" Go to the next lesson.\n"
+msgstr ""
+" Dobrze, chyba załapałeś!\n"
+" Przejdź do następnej lekcji.\n"
+
+#: ../src/adaptability.c:217
+msgid ""
+" Your accuracy rate is below 90%...\n"
+" Could you please try again to improve it?\n"
+msgstr ""
+"Twój poziom dokładności jest poniżej 90%...\n"
+"Spróbujesz jeszcze raz żeby go polepszyć?\n"
+
+#: ../src/adaptability.c:222
+msgid ""
+" You are doing well. But...\n"
+" Could you make the accuracy reach 95%?\n"
+msgstr ""
+" Idzie Ci nieźle, ale...\n"
+" Czy jesteś w stanie osiągnąć dokładność co najmniej 95%?\n"
+
+#: ../src/adaptability.c:225
+#, c-format
+msgid ""
+" You are almost there, but your accuracy rate is still below %.0f%%.\n"
+" Try a few more times, or maybe you're getting upset, so go to other kind of "
+"exercise.\n"
+msgstr ""
+" Jesteś blisko celu, ale dokładność jest ciągle poniżej %.0f%%.\n"
+" Spróbuj jeszcze kilka razy, a może masz już dość, jeśli tak to przejdź do "
+"innego ćwiczenia.\n"
+
+#: ../src/adaptability.c:232
+#, c-format
+msgid ""
+" Very good!\n"
+" You succeeded with an accuracy rate above %.0f%%.\n"
+" Now it is time to increase your velocity.\n"
+" Go to the 3rd exercise at the main menu.\n"
+msgstr ""
+" Świetnie!\n"
+" Udało Ci się osiągnąć dokładność powyżej %.0f%%.\n"
+" Czas teraz popracować nad szybkością.\n"
+" Przejdź do trzeciego ćwiczenia w menu głównym\n"
+
+#: ../src/velocity.c:313 ../src/fluidness.c:435
+#, fuzzy
+msgid "Pasted_or_dropped"
+msgstr "Pasted_or_dropped"
+
+#: ../src/velocity.c:432
+msgid ""
+" You are just beginning.\n"
+" Be patient, try it again every day, rest and don't worry so much:\n"
+" persistence and practice will improve your velocity.\n"
+msgstr ""
+"Dopiero zaczynasz.\n"
+"Zachowaj cierpliwość, próbuj codziennie, odpoczywaj, nie martw się za "
+"wiele:\n"
+"wytrwałość i praktyka zwiększą twoją prędkość.\n"
+
+#: ../src/velocity.c:436
+msgid ""
+" Still away from the highway. You can make better...\n"
+" Try at least 20 WPM.\n"
+msgstr ""
+" Ciągle daleko od ekspresu. Stać Cię na więcej... Spróbuj osiągnąć "
+"przynajmniej 20 SNM.\n"
+
+#: ../src/velocity.c:439
+msgid ""
+" You are doing well, but need to go faster.\n"
+" And don't forget the accuracy. Try to get 30 WPM.\n"
+msgstr ""
+" Idzie Ci nieźle, ale spróbuj pisać szybciej.\n"
+" Nie zapomnij jednak o dokładności. Spróbuj\n"
+" przyspieszyć do 30 SNM.\n"
+
+#: ../src/velocity.c:443
+msgid ""
+" Fine. Now you need to start running.\n"
+" Can you reach 40 WPM?\n"
+msgstr ""
+" Dobrze. Czas włączyć turbo.\n"
+" Czy potrafisz osiągnąć 40 SNM?\n"
+
+#: ../src/velocity.c:446
+#, c-format
+msgid ""
+" Very good. You are almost there.\n"
+" Can you finally reach %.0f WPM?\n"
+msgstr ""
+" Bardzo dobrze. Niewiele ci brakuje.\n"
+" Czy możesz w końcu dojść do %.0f SNM?\n"
+
+#: ../src/velocity.c:451
+msgid ""
+" Excellent. For this course, that is enough.\n"
+" Try now the fluidness exercises, OK?\n"
+msgstr ""
+" Świetnie. Jak na ten kurs to wystarczy.\n"
+" Teraz spróbuj ćwiczeń z płynności, OK?\n"
+
+#: ../src/velocity.c:455
+msgid ""
+" Fast! Are you training for a competition?\n"
+" So, try to get 70 WPM!\n"
+msgstr ""
+" Szybko! Przygotowujesz się do zawodów?\n"
+" W takim razie spróbuj osiągnąć 70SNM!\n"
+
+#: ../src/velocity.c:458
+msgid ""
+" Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
+" Are you afraid of reaching 80 WPM?\n"
+msgstr ""
+" Elita \"qwerty\". Czas teraz przejść na tryb Dvorak.\n"
+" Bałbyś się o palce, gdybyś pisał 80 SNM?\n"
+
+#: ../src/velocity.c:462
+msgid ""
+" Dvorak mode dominated!\n"
+" Can you fly at 90 WPM?\n"
+msgstr ""
+" Tryb Dvorak podbity!\n"
+" Czy potrafisz pruć z prędkością 90 SNM?\n"
+
+#: ../src/velocity.c:466
+msgid ""
+" Dvorak master!\n"
+" I have no words to express my admiration!\n"
+msgstr ""
+" Mistrz Dvoraka!\n"
+" Brak mi słów, aby wyrazić mój podziw!\n"
+
+#: ../src/fluidness.c:545
+#, c-format
+msgid ""
+" You type accurately but not so fast.\n"
+" Can you reach %.0f WPM?\n"
+msgstr ""
+" Umiesz pisać dokładnie, ale nie szybko.\n"
+" Czy potrafisz osiągnąć %.0f SNM?\n"
+
+#: ../src/fluidness.c:548
+#, c-format
+msgid ""
+" Your rhythm is not so constant. Calm down.\n"
+" For now, try to make the fluidness greater than %i%%.\n"
+msgstr ""
+" Twój rytm jest niejednostajny. Odpręż się.\n"
+"Na razie spróbuj osiągnąć płynność większą niż %i%%.\n"
+
+#: ../src/fluidness.c:551
+#, c-format
+msgid ""
+" You are almost getting there. Type more fluently.\n"
+" I want a fluidness greater than %.0f%%.\n"
+msgstr ""
+" Prawie Ci się udało. Pisz płynniej.\n"
+"Wymagana jest płynność większa niż %.0f%%.\n"
+
+#: ../src/fluidness.c:554
+msgid ""
+" Congratulations!\n"
+" It seems to me that you are a professional.\n"
+" You don't need this program (me) anymore.\n"
+" Hope you have enjoyed. Thanks and be happy!\n"
+msgstr ""
+" Gratulacje! Wygląda na to, że jesteś profesjonalistą.\n"
+" Nie potrzebujesz więcej tego programu.\n"
+" Dobrze się bawiłeś? Dzięki i powodzenia!\n"
+
+#: ../src/fluidness.c:559
+msgid ""
+" How can you type so fast?\n"
+" You have exceeded all my expectations.\n"
+" Are you a machine? Could you teach me?\n"
+" I can not help you anymore. Go to an expert!\n"
+msgstr ""
+" Jak to możliwe, że piszesz tak szybko?\n"
+" To przechodzi wszelkie oczekiwania.\n"
+" Jesteś cyborgiem? Mógłbyś mnie poduczyć?\n"
+" Nie mogę więcej pomóc. Zgłoś się do eksperta!\n"
+
+#: ../src/top10.c:67
+msgid "Name"
+msgstr "Imię"
+
+#: ../src/top10.c:93
+msgid "Chars"
+msgstr "Znaki"
+
+#: ../src/top10.c:95
+msgid "When"
+msgstr "Kiedy"
+
+#: ../src/top10.c:124
+#, fuzzy
+msgid "Local scores"
+msgstr ""
+"Wyniki lokalne\n"
+"Wyniki zewnętrzne"
+
+#: ../src/top10.c:125
+#, fuzzy
+msgid "External scores"
+msgstr ""
+"Wyniki lokalne\n"
+"Wyniki zewnętrzne"
+
+#: ../src/top10.c:719
+msgid "Empty ranking. Please practice fluidness."
+msgstr "Pusty ranking. Poćwicz trochę płynność."
+
+#: ../src/top10.c:816
+msgid "Not able to download files"
+msgstr "Nie można pobrać plików"
+
+#: ../src/top10.c:816 ../src/top10.c:906
+msgid "not found"
+msgstr "nie znaleziono"
+
+#: ../src/top10.c:817 ../src/top10.c:907
+msgid "Are you sure you have it installed in your system?"
+msgstr "Na pewno masz to zainstalowane w swoim systemie?"
+
+#: ../src/top10.c:861
+msgid "Could not download file from the host server."
+msgstr "Nie można pobrać pliku z serwera."
+
+#: ../src/top10.c:906
+msgid "Not able to upload files"
+msgstr "Nie można wysłać plików"
+
+#: ../src/top10.c:987
+msgid "Could not upload/download scores."
+msgstr "Nie można wysłać/pobrać wyników."
+
+#~ msgid "Default"
+#~ msgstr "Domyślny"
+
+#, fuzzy
+#~ msgid "A flexible touch typing tutor"
+#~ msgstr "Jeszcze jeden samouczek szybkiego pisania"
+
+#, fuzzy
+#~ msgid "About..."
+#~ msgstr "O programie..."
+
+#, fuzzy
+#~ msgid ""
+#~ " You did not succeed.\n"
+#~ " The accuracy must be above %.0f%%.\n"
+#~ " Try again!\n"
+#~ msgstr ""
+#~ " Nie udało się.\n"
+#~ " Dokładność musi być powyżej 95 %.\n"
+#~ " Spróbuj jeszcze raz!\n"
+
+#, fuzzy
+#~ msgid ""
+#~ " Your error rate is too high.\n"
+#~ " Maybe you are not ready to practice this exercise.\n"
+#~ " Did you accomplish most of the basic course lessons?\n"
+#~ msgstr ""
+#~ " Nie wyglądasz na gotowego do zrobienia tego ćwiczenia.\n"
+#~ " Twoja dokładność jest niższa niż 90%...\n"
+#~ " Spróbuj przerobić większość lekcji kursu podstawowego.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ " Your accuracy rate is not good enough.\n"
+#~ " I only can rely on you if it is greater than %.0f%%.\n"
+#~ " Please calm down and try it again.\n"
+#~ msgstr ""
+#~ " Twoja dokładność jest za niska.\n"
+#~ " Mógłbym na tobie polegać, gdyby była większa niż 97 %.\n"
+#~ " Proszę to powtórzyć.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ " Your accuracy rate is not good enough.\n"
+#~ " I want it greater than %.0f%%.\n"
+#~ msgstr ""
+#~ " Twoja dokładność jest za niska.\n"
+#~ " Potrzeba, by była większa niż 98 %.\n"
+
+#~ msgid "Velocity"
+#~ msgstr "Szybkość"
+
+#~ msgid "Fluidness"
+#~ msgstr "Płynność"
+
+#, fuzzy
+#~ msgid "WPM"
+#~ msgstr "(SNM)"
+
+#~ msgid "Accuracy (%)"
+#~ msgstr "Dokładność (%)"
+
+#, fuzzy
+#~ msgid "Speed (WPM)"
+#~ msgstr "(SNM)"
+
+#, fuzzy
+#~ msgid "Fluidity (%)"
+#~ msgstr "Płynność (%)"
+
+#~ msgid "Go to the exercise's introduction."
+#~ msgstr "Przejdź  do wstępu do ćwiczeń."
+
+#~ msgid "Informations about this application, Klavaro."
+#~ msgstr "Informacje o tym programie, Klavaro."
+
+#~ msgid ""
+#~ "1)  The index-finger tips rest over each of the two keys which have a "
+#~ "small raised mark, in the center of the keyboard. Most keyboards are of "
+#~ "the 'qwerty' type, where these two keys are the 'F' and the 'J' keys. On "
+#~ "the other hand, in an American Dvorak keyboard, they are the 'U' and the "
+#~ "'H' keys."
+#~ msgstr ""
+#~ "1)  Opuszki palców wskazujących opierają się na klawiszach z wypustkami, "
+#~ "w centralnej części klawiatury. Większość klawiatur jest typu 'qwerty', w "
+#~ "nich te klawisze to 'F' oraz 'J'. Z kolei w amerykańskich klawiaturach "
+#~ "typu Dvorak są to 'U' oraz 'H'."
+
+#~ msgid "Virtual Keyboard"
+#~ msgstr "Wirtualna Klawiatura"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#, fuzzy
+#~ msgid "gtk-cancel"
+#~ msgstr "Anuluj"
+
+#~ msgid "basic course"
+#~ msgstr "kurs podstawowy"
+
+#~ msgid "adaptability exercises"
+#~ msgstr "ćwiczenia adaptacyjne"
+
+#~ msgid "velocity exercises"
+#~ msgstr "ćwiczenia szybkości"
+
+#~ msgid "fluidness exercises"
+#~ msgstr "ćwiczenia płynności"
+
+#~ msgid "--> Default"
+#~ msgstr "--> Domyślne"
+
+#~ msgid "Velocity (WPM)"
+#~ msgstr "Szybkość (SNM)"
+
+#~ msgid ""
+#~ "This will CHANGE also this interface.\n"
+#~ "If you are selecting a language you do not understand, \n"
+#~ "maybe it will be difficult to get back to the previous one."
+#~ msgstr ""
+#~ "To spowoduje zmianę także TEGO interfejsu.\n"
+#~ "Jeśli wybierzesz język, którego nie rozumiesz, \n"
+#~ "możesz mieć problemy z powrotem do obecnego."
+
+#~ msgid ""
+#~ "Oops! You must save the\n"
+#~ "modified keyboard layout\n"
+#~ "or choose another one\n"
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Ups! Muszisz zapisać\n"
+#~ "Zmieniony układ klawiszy\n"
+#~ "albo wybrać inny\n"
+#~ "aby przejść dalej."
+
+#~ msgid "Press the correspondent key on the real keyboard."
+#~ msgstr "Naciśnij odpowiedni klawisz na swojej klawiaturze."
+
+#~ msgid "Reset lesson"
+#~ msgstr "Wyzeruj lekcję"
+
+#~ msgid ""
+#~ "Confirming this, you will have to accomplish\n"
+#~ "all the lessons again, since the first one,\n"
+#~ "because its count will be RESET."
+#~ msgstr ""
+#~ "Wybierając tę opcję, będziesz musiał ukończyć\n"
+#~ "wszystkie lekcje począwszy od pierwszej,\n"
+#~ "ponieważ ich licznik zostanie WYZEROWANY."
+
+#~ msgid "+"
+#~ msgstr "+"
+
+#~ msgid "Click here with the mouse and press a key."
+#~ msgstr "Kliknij tu myszą i wciśnij klawisz"
+
+#~ msgid "Close without any modification. Hotkey: [Esc]"
+#~ msgstr "Zamknij bez żadnych modyfikacji. Skrót: [Esc]"
+
+#, fuzzy
+#~ msgid "Random keys"
+#~ msgstr "losowe klawisze"
+
+#, fuzzy
+#~ msgid "Random words"
+#~ msgstr "losowe słowa"
+
+#~ msgid "Exit"
+#~ msgstr "Zakończ"
+
+#~ msgid "Klavaro - Select or create your keyboard layout"
+#~ msgstr "Klavaro - Wybierz lub stwórz układ klawiszy"
+
+#~ msgid "Original layouts"
+#~ msgstr "Oryginalne układy"
+
+#~ msgid "Custom layouts"
+#~ msgstr "Własne układy"
+
+#~ msgid "Load"
+#~ msgstr "Otwórz"
+
+#~ msgid ""
+#~ "Remove the layout shown above from the user defined list of available "
+#~ "ones."
+#~ msgstr ""
+#~ "Usuń układ pokazany powyżej z listy układów stworzonych przez użytkownika."
+
+#~ msgid "New custom layout"
+#~ msgstr "Nowy własny układ"
+
+#~ msgid "Edit"
+#~ msgstr "Edytuj"
+
+#~ msgid "Select the above keyboard layout."
+#~ msgstr "Wybierz powyższy układ klawiszy."
+
+#~ msgid "Select"
+#~ msgstr "Wybierz"
+
+#~ msgid "Layout to be selected"
+#~ msgstr "Układ do zastosowania"
+
+#~ msgid "VIRTUAL KEYBOARD"
+#~ msgstr "WIRTUALNA KLAWIATURA"
+
+#~ msgid "( layout modified: save it before get out )"
+#~ msgstr "( układ zmieniony: zapisz go zanim skończysz )"
+
+#~ msgid "( layout saved as \".tmp\" )"
+#~ msgstr "( układ zapisany jako \".tmp\" )"
+
+#~ msgid "Revert to the current lesson."
+#~ msgstr "Wraca do bieżącej lekcji, aby ją przerobić."
+
+#~ msgid "Revert"
+#~ msgstr "Wróć"
+
+#~ msgid ""
+#~ "Forgets the current lesson, restarting the course from the introduction."
+#~ msgstr "Porzuca bieżącą lekcję, zaczynając cały kurs od początku."
+
+#~ msgid "Other"
+#~ msgstr "Inne"
+
+#~ msgid "Sound"
+#~ msgstr "Dźwięk"
+
+#~ msgid "Restart"
+#~ msgstr "Powtórz"
+
+#~ msgid "Apply selected"
+#~ msgstr "Wybierz zaznaczone"
+
+#~ msgid "Read from file... (UTF-8)"
+#~ msgstr "Czytaj z pliku... (UTF-8)"
+
+#~ msgid "Learning evolution:"
+#~ msgstr "Przebieg nauki:"
+
+#~ msgid "Shows the accuracy for the last 50 exercises accomplished."
+#~ msgstr "Pokazuje dokładność dla ostatnich 50 ukończonych ćwiczeń."
+
+#~ msgid "Shows the velocity for the last 50 exercises accomplished."
+#~ msgstr "Pokazuje szybkość dla ostatnich 50 ukończonych ćwiczeń."
+
+#~ msgid "Shows the fluidness for the last 50 exercises accomplished."
+#~ msgstr "Pokazuje płynność dla ostatnich 50 ukończonych ćwiczeń."
+
+#, fuzzy
+#~ msgid "Shows the scores for the last 50 exercises accomplished."
+#~ msgstr "Pokazuje płynność dla ostatnich 50 ukończonych ćwiczeń."
+
+#~ msgid "Return"
+#~ msgstr "Powrót"
+
+#~ msgid "Version:"
+#~ msgstr "Wersja:"
+
+#~ msgid "by:"
+#~ msgstr "Twórca:"
+
+#~ msgid "E-mail:"
+#~ msgstr "E-mail:"
+
+#~ msgid "Home-page:"
+#~ msgstr "Strona domowa:"
+
+#~ msgid "STARTED! => "
+#~ msgstr "RUSZYŁ! => "
+
+#~ msgid "<<==  End of lesson. Press [Enter] to start another. ==>> "
+#~ msgstr "<<== Koniec lekcji. [Enter] przenosi do następnej. ==>>"
+
+#~ msgid "Press any key to start the lesson. "
+#~ msgstr "Naciśnij dowolny klawisz, aby rozpocząć lekcję. "
+
+#~ msgid "Choose or edit the keyboard layout used by you."
+#~ msgstr "Wybierz lub zmodyfikuj używany układ klawiszy."
+
+#~ msgid "Define"
+#~ msgstr "Zmień"
+
+#~ msgid "Choose the language of this interface and of the whole course."
+#~ msgstr "Wybierz język dla interfejsu i całego kursu."
+
+#~ msgid "Apply the language selected beside."
+#~ msgstr "Zastosuj język wskazany obok."
+
+#~ msgid "Update!"
+#~ msgstr "Odśwież!"
+
+#~ msgid "< Configuring >"
+#~ msgstr "< Konfiguracja >"
+
+#~ msgid "< Learning >"
+#~ msgstr "< Nauka >"
+
+#~ msgid "Choose one of the originally available keyboard layouts."
+#~ msgstr "Wybierz jeden z wbudowanych układów klawiszy."
+
+#~ msgid "Choose one of these user defined keyboard layouts."
+#~ msgstr "Wybierz jeden z własnoręcznie stworzonych układów klawiszy."
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Nie można odnaleźć pliku graficznego: %s"
+
+#~ msgid "<____|"
+#~ msgstr "<____|"
+
+#~ msgid "<---"
+#~ msgstr "<---"
+
+#~ msgid "|-->|"
+#~ msgstr "|-->|"
+
+#~ msgid " -->"
+#~ msgstr "--->"
+
+#~ msgid "[ _1 ] -"
+#~ msgstr "[ _1 ] -"
+
+#~ msgid "[ _2 ] -"
+#~ msgstr "[ _2 ] -"
+
+#~ msgid "[ _3 ] -"
+#~ msgstr "[ _3 ] -"
+
+#~ msgid "[ _4 ] -"
+#~ msgstr "[ _4 ] -"
+
+#~ msgid "[ _0 ] -"
+#~ msgstr "[ _0 ] -"
+
+#, fuzzy
+#~ msgid "Configure host"
+#~ msgstr "< Konfiguracja >"
+
+#, fuzzy
+#~ msgid "Default host"
+#~ msgstr "Domyślny"

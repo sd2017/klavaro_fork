@@ -1,0 +1,1620 @@
+# Klavaro - Traduko al Swedish
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the klavaro package.
+# Nils Pettersson <npe@ingfanp.com>, 2007 - 2008
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-02 21:21-0300\n"
+"PO-Revision-Date: 2008-05-20 20:35+0100\n"
+"Last-Translator: Nils Pettersson <npe@ingfanp.com>\n"
+"Language-Team: SWEDISH <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../data/klavaro.desktop.in.h:1 ../data/klavaro.glade.h:59
+msgid "Yet another touch typing tutor"
+msgstr "Ännu en tangentbords tränare"
+
+#: ../data/klavaro.glade.h:1
+msgid "Klavaro - Main menu"
+msgstr "Klavaro - Huvudmeny"
+
+#: ../data/klavaro.glade.h:2
+msgid "Don't be shy about learning the basics!"
+msgstr "Var inte blyg för att lära grunderna!"
+
+#: ../data/klavaro.glade.h:3
+#, fuzzy
+msgid "Learn how to type correctly"
+msgstr "hur man skriver korrekt"
+
+#: ../data/klavaro.glade.h:4
+msgid "Initial training for your fingers."
+msgstr "Start träning för dina fingrar."
+
+#: ../data/klavaro.glade.h:5
+#, fuzzy
+msgid "First steps with initial training"
+msgstr "start träning"
+
+#: ../data/klavaro.glade.h:6
+msgid "Memorizing the keyboard practicing random keys exercises."
+msgstr "Memorera tangentbordsträningens slumpmässiga tangenter övningar"
+
+#: ../data/klavaro.glade.h:7
+#, fuzzy
+msgid "Practice with random keys"
+msgstr "kompletta texter"
+
+#. English typo: touchs -> touches
+#: ../data/klavaro.glade.h:9
+#, fuzzy
+msgid "Accelerating the touches practicing random words exercises."
+msgstr "Öka hastigheten för  övningar med slumpmässiga ord."
+
+#: ../data/klavaro.glade.h:10
+#, fuzzy
+msgid "Practice with random words"
+msgstr "kompletta texter"
+
+#: ../data/klavaro.glade.h:11
+msgid "Becoming proficient practicing complete paragraphs exercises."
+msgstr "Bli kunnig genom träning på kompletta stycken."
+
+#: ../data/klavaro.glade.h:12
+#, fuzzy
+msgid "Practice with complete texts"
+msgstr "kompletta texter"
+
+#: ../data/klavaro.glade.h:13
+msgid ""
+"Keyboard layout for modules 1 and 2. Also used informatively in the "
+"fluidness contest."
+msgstr ""
+
+#: ../data/klavaro.glade.h:14
+#, fuzzy
+msgid "_Keyboard:"
+msgstr "Tangentbord"
+
+#: ../data/klavaro.glade.h:15
+msgid "Language for modules 3 and 4."
+msgstr ""
+
+#: ../data/klavaro.glade.h:16
+#, fuzzy
+msgid "_Language:"
+msgstr "Språk"
+
+#: ../data/klavaro.glade.h:17
+msgid "Variant"
+msgstr ""
+
+#: ../data/klavaro.glade.h:18
+#, fuzzy
+msgid "Klavaro"
+msgstr "'Klavaro'"
+
+#: ../data/klavaro.glade.h:19
+msgid "Country / Custom"
+msgstr ""
+
+#: ../data/klavaro.glade.h:20
+msgid "Your language here."
+msgstr ""
+
+#: ../data/klavaro.glade.h:21
+msgid "Speech"
+msgstr ""
+
+#: ../data/klavaro.glade.h:22
+msgid "Little tip about this program."
+msgstr "Litet tips om detta program"
+
+#: ../data/klavaro.glade.h:23
+#, fuzzy
+msgid "_Help"
+msgstr "Hjälp"
+
+#: ../data/klavaro.glade.h:24
+#, fuzzy
+msgid "General information about the program."
+msgstr "Litet tips om detta program"
+
+#: ../data/klavaro.glade.h:25
+#, fuzzy
+msgid "_About..."
+msgstr "Om..."
+
+#: ../data/klavaro.glade.h:26
+#, fuzzy
+msgid "Exit the application immediately."
+msgstr "Avsluta programmet omedelbart. Snabbval: [Ctrl-Q]"
+
+#: ../data/klavaro.glade.h:27
+#, fuzzy
+msgid "_Close"
+msgstr "Stäng"
+
+#: ../data/klavaro.glade.h:28
+#, fuzzy
+msgid "Load other exercises/lessons"
+msgstr "Öppna andra övningar/lektioner. Snabbval: [Ctrl-O]"
+
+#: ../data/klavaro.glade.h:29
+#, fuzzy
+msgid "_Other texts"
+msgstr "kompletta texter"
+
+#: ../data/klavaro.glade.h:30
+#, fuzzy
+msgid "_Lesson:"
+msgstr "Lektion:"
+
+#: ../data/klavaro.glade.h:31
+msgid "Edit the character set to be used in this lesson."
+msgstr "Ändra teckenuppsättningen som skall användas i denna lektion."
+
+#: ../data/klavaro.glade.h:32
+#, fuzzy
+msgid "Edit the character set to be used in lessons 44 through 50."
+msgstr "Ändra teckenuppsättningen som skall användas i denna lektion."
+
+#: ../data/klavaro.glade.h:33
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr ""
+
+#: ../data/klavaro.glade.h:34 ../src/tutor.c:252
+msgid "Drag and drop text here to practice with it."
+msgstr "Dra och släpp text här för att öva på den."
+
+#: ../data/klavaro.glade.h:35
+msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+msgstr "Tryck här för att starta om övningarna. Snabbval: [Ctrl R]"
+
+#: ../data/klavaro.glade.h:36
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr ""
+"Visa det virtuella tangentbordet och relationen mellan fingrar och tangenter."
+
+#: ../data/klavaro.glade.h:37
+#, fuzzy
+msgid "_Keyboard"
+msgstr "Tangentbord"
+
+#: ../data/klavaro.glade.h:38
+msgid "Select the font to be used in the exercise window."
+msgstr "Välj typsnitt att använda i övningsfönstret."
+
+#: ../data/klavaro.glade.h:39
+msgid "_Font"
+msgstr ""
+
+#: ../data/klavaro.glade.h:40
+#, fuzzy
+msgid "Keep this checked if you want to get those nice beeps."
+msgstr ""
+"Bibehåll denna ikryssad om du vill höra dessa vackra pip. Snabbval: [Ctrl S]"
+
+#: ../data/klavaro.glade.h:41
+#, fuzzy
+msgid "_Beep"
+msgstr "Hjälp"
+
+#: ../data/klavaro.glade.h:42
+msgid "Co_urse information"
+msgstr ""
+
+#: ../data/klavaro.glade.h:43
+msgid "Charts showing the learning progress along the exercises."
+msgstr "Diagram som visar utbildningsframsteg vid sidan av övningarna."
+
+#: ../data/klavaro.glade.h:44
+#, fuzzy
+msgid "_Progress"
+msgstr "Framsteg"
+
+#: ../data/klavaro.glade.h:45
+msgid "Show local and external scores from other users."
+msgstr ""
+
+#: ../data/klavaro.glade.h:46
+msgid "_Top 10"
+msgstr ""
+
+#: ../data/klavaro.glade.h:47
+#, fuzzy
+msgid "Return to the main menu."
+msgstr "Återgå till huvudmenyn. Snabbval: [Ctrl-Q]"
+
+#: ../data/klavaro.glade.h:48
+msgid "B_ack to menu"
+msgstr ""
+
+#: ../data/klavaro.glade.h:49
+#, fuzzy
+msgid "Close this window."
+msgstr "Stäng detta fönster och återgå till lektionen. Snabbval: [Esc]"
+
+#: ../data/klavaro.glade.h:50
+msgid "Font definition"
+msgstr "Typsnitts definition"
+
+#: ../data/klavaro.glade.h:51
+msgid "Top 10"
+msgstr ""
+
+#: ../data/klavaro.glade.h:52
+msgid "Show extra information"
+msgstr ""
+
+#: ../data/klavaro.glade.h:53
+msgid "Hide extra information"
+msgstr ""
+
+#: ../data/klavaro.glade.h:54
+msgid "Publish to the web your local scores."
+msgstr ""
+
+#: ../data/klavaro.glade.h:55
+msgid "_Participate"
+msgstr ""
+
+#: ../data/klavaro.glade.h:56
+msgid "Download from the web the most up to date ranking."
+msgstr ""
+
+#: ../data/klavaro.glade.h:57
+#, fuzzy
+msgid "_Update"
+msgstr "Uppdatera"
+
+#: ../data/klavaro.glade.h:58
+msgid "About 'Klavaro'"
+msgstr "Om 'Klavaro'"
+
+#: ../data/klavaro.glade.h:60
+msgid "Remember always: someone loves you!"
+msgstr "Minns alltid: någon älskar dig!"
+
+#: ../data/klavaro.glade.h:61
+#, fuzzy
+msgid "Remove the selected custom layout."
+msgstr "Ta bort valet från listan ovan."
+
+#: ../data/klavaro.glade.h:62
+#, fuzzy
+msgid "_Remove"
+msgstr "Ta bort"
+
+#: ../data/klavaro.glade.h:63
+msgid ""
+"Toggles the shift effect on the keys. Alternates between the upper and lower "
+"characters of the keys."
+msgstr ""
+"Växlar SHIFT påverkan på tangenterna. Alternerar mellan övre och undre "
+"tecken på tangenterna."
+
+#: ../data/klavaro.glade.h:64
+msgid "SPACE BAR"
+msgstr "MELLANSLAG"
+
+#: ../data/klavaro.glade.h:65 ../src/keyboard.c:1630
+msgid "thumbs"
+msgstr "tummar"
+
+#: ../data/klavaro.glade.h:66
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../data/klavaro.glade.h:67
+msgid "Caps"
+msgstr "Caps"
+
+#: ../data/klavaro.glade.h:68
+#, fuzzy
+msgid "S_ave as:"
+msgstr "Spara"
+
+#: ../data/klavaro.glade.h:69
+msgid "Show previous screen."
+msgstr ""
+
+#: ../data/klavaro.glade.h:70
+msgid "_Previous step"
+msgstr ""
+
+#: ../data/klavaro.glade.h:71
+msgid "Show next screen."
+msgstr ""
+
+#: ../data/klavaro.glade.h:72
+msgid "_Next step"
+msgstr ""
+
+#: ../data/klavaro.glade.h:73
+#, fuzzy
+msgid "Return without any modification."
+msgstr "Återgå utan några ändringar. Snabbval: [Esc]"
+
+#: ../data/klavaro.glade.h:74
+#, fuzzy
+msgid "_Cancel"
+msgstr "Avbryt"
+
+#: ../data/klavaro.glade.h:75
+msgid "Save the current keyboard layout with the name specified above."
+msgstr "Spara nuvarande tangentbords layout med namnet specificerat ovan."
+
+#: ../data/klavaro.glade.h:76
+#, fuzzy
+msgid "_Save and use"
+msgstr "Spara"
+
+#: ../data/klavaro.glade.h:77
+#, fuzzy
+msgid ""
+"If you like those beautiful hands, click here to close this window keeping "
+"them."
+msgstr ""
+"Om du tycker om dessa vackra händer vid sidan, klicka här innan du stänger "
+"detta fönster."
+
+#: ../data/klavaro.glade.h:78
+#, fuzzy
+msgid "_Keep hands"
+msgstr "Håll händerna"
+
+#: ../data/klavaro.glade.h:79
+msgid "Change language"
+msgstr "Byt språk"
+
+#: ../data/klavaro.glade.h:80
+msgid "Attention!"
+msgstr "Observera!"
+
+#: ../data/klavaro.glade.h:81
+msgid "Do you confirm?"
+msgstr "Bekräftar du?"
+
+#: ../data/klavaro.glade.h:82
+#, fuzzy
+msgid "_No"
+msgstr "Nej"
+
+#: ../data/klavaro.glade.h:83
+#, fuzzy
+msgid "_Yes"
+msgstr "Ja"
+
+#: ../data/klavaro.glade.h:84
+#, fuzzy
+msgid "Re_name:"
+msgstr "Ta bort"
+
+#: ../data/klavaro.glade.h:85
+#, fuzzy
+msgid "Rename the selected item."
+msgstr "Ta bort valet från listan ovan."
+
+#: ../data/klavaro.glade.h:86
+msgid ""
+"Read a text file and add a copy of it here. The file must be encoded in "
+"UTF-8."
+msgstr "Läs en textfil och lägg en kopia här. Filen måste vara i format UTF-8."
+
+#: ../data/klavaro.glade.h:87
+msgid "_Open text file"
+msgstr ""
+
+#: ../data/klavaro.glade.h:88
+#, fuzzy
+msgid "Paste text that was copied to the clipboard."
+msgstr "Klistra in text som kopierats till urklipp. Snabbval: [Ctrl-V]"
+
+#: ../data/klavaro.glade.h:89
+msgid "_Paste from clipboard"
+msgstr ""
+
+#: ../data/klavaro.glade.h:90
+#, fuzzy
+msgid "Remove the selected item."
+msgstr "Ta bort valet från listan ovan."
+
+#: ../data/klavaro.glade.h:91
+#, fuzzy
+msgid "_Remove copied file"
+msgstr "Ta bort vald"
+
+#: ../data/klavaro.glade.h:92
+msgid "Apply the selected item to create an exercise."
+msgstr "Tillämpa valet för att skapa en övning."
+
+#: ../data/klavaro.glade.h:93
+msgid "_Apply"
+msgstr ""
+
+#: ../data/klavaro.glade.h:94
+msgid "Klavaro - Progress"
+msgstr "Klavaro - Framsteg"
+
+#: ../data/klavaro.glade.h:95
+msgid "Value"
+msgstr ""
+
+#: ../data/klavaro.glade.h:96
+msgid "Clear all the progress data, for every module."
+msgstr ""
+
+#: ../data/klavaro.glade.h:97
+#, fuzzy
+msgid "_Reset"
+msgstr "Återställ!"
+
+#: ../data/klavaro.glade.h:98
+#, fuzzy
+msgid "Close this window, returning to the exercise."
+msgstr "Stäng detta fönster, återgå till övningarna. Snabbval: [Esc]"
+
+#: ../data/klavaro.glade.h:99
+msgid "Klavaro - Select file"
+msgstr "Klavaro - Välj fil"
+
+#: ../data/klavaro.glade.h:100
+msgid "_Open"
+msgstr ""
+
+#: ../data/klavaro.glade.h:101
+msgid "Help?"
+msgstr "Hjälp?"
+
+#: ../data/klavaro.glade.h:102
+#, fuzzy
+msgid ""
+"The main menu of the application is very straightforward. Just select the "
+"type of exercise you wish to take. Do not worry about clicking any button on "
+"the screen. The buttons will never hurt you!"
+msgstr ""
+"Det är huvudmenyn i programmet och den är väldigt enkel. Bara välj vilken "
+"övning du vill göra. Var inte rädd för att klicka på någon knapp: De kommer "
+"aldrig att skada dig!"
+
+#: ../data/klavaro.glade.h:103
+msgid ""
+"Also the controls have tips which will appear if you hover over them with "
+"your mouse. These tips can come in very handy. To see how these tips work, "
+"position your mouse over the button below, and without clicking, wait for "
+"the tip to appear..."
+msgstr ""
+"Glöm inte bort att vänta på tipsen som visas över varje kontroll. Ibland kan "
+"de vara användbara. För att se hur tipsen fungerar svävar du med muspekaren "
+"över ett menyval, en knapp eller en textruta och väntar en liten stund (utan "
+"att klicka)..."
+
+#: ../data/klavaro.glade.h:104
+msgid "This is a tip. Now you press this button to return to the main menu."
+msgstr ""
+"Detta är ett tips. Tryck nu på denna knapp för att återgå till huvudmenyen."
+
+#: ../src/main.c:314
+msgid "(Custom)"
+msgstr ""
+
+#: ../src/main.c:315
+msgid "(Edit custom)"
+msgstr ""
+
+#: ../src/main.c:316
+#, fuzzy
+msgid "(Default)"
+msgstr "Grundinställning"
+
+#: ../src/main.c:393
+#, c-format
+msgid "Dictation mode (depends on this speech synthesizer: %s)"
+msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Set main labels (for translation)
+#.
+#: ../src/main.c:435 ../src/keyboard.c:1291
+msgid "Introduction"
+msgstr "Introduktion"
+
+#: ../src/main.c:438 ../src/top10.c:109
+msgid "Basic course"
+msgstr "Grundkurs"
+
+#: ../src/main.c:441 ../src/top10.c:112
+msgid "Adaptability"
+msgstr "Anpassning"
+
+#: ../src/main.c:444 ../src/callbacks.c:1310 ../src/top10.c:89
+#: ../src/top10.c:115
+msgid "Speed"
+msgstr ""
+
+#: ../src/main.c:447 ../src/callbacks.c:1333 ../src/top10.c:91
+#: ../src/top10.c:118
+msgid "Fluidity"
+msgstr ""
+
+#: ../src/callbacks.c:468 ../src/tutor.c:391
+#, fuzzy
+msgid "Keys:"
+msgstr "Tangenter: %s"
+
+#: ../src/callbacks.c:858 ../src/callbacks.c:874
+msgid "Connecting..."
+msgstr ""
+
+#: ../src/callbacks.c:1145
+msgid "Overwrite user layout"
+msgstr "Skriv över användarlayout"
+
+#: ../src/callbacks.c:1147
+msgid "This will OVERWRITE an existent keyboard layout."
+msgstr "Detta kommer att SKRIVA ÖVER en existerande tangentbords layout."
+
+#: ../src/callbacks.c:1154
+msgid "Remove user layout"
+msgstr "Ta bort användarlayout"
+
+#: ../src/callbacks.c:1156
+msgid "This will REMOVE an existent keyboard layout."
+msgstr "Detta kommer att TA BORT en existerande tangentbords layout."
+
+#: ../src/callbacks.c:1163
+msgid "Reset progress data"
+msgstr ""
+
+#: ../src/callbacks.c:1164
+msgid "This will DELETE all the progress data shown in the charts."
+msgstr ""
+
+#: ../src/callbacks.c:1307 ../src/top10.c:87
+msgid "Accuracy"
+msgstr "Noggrannhet"
+
+#: ../src/callbacks.c:1310 ../src/tutor.c:1160
+msgid "(WPM)"
+msgstr "(WPM)"
+
+#: ../src/callbacks.c:1321
+msgid "Errors"
+msgstr ""
+
+#: ../src/callbacks.c:1324
+msgid "Touch times (s)"
+msgstr ""
+
+#: ../src/callbacks.c:1336 ../src/tutor.c:1187 ../src/top10.c:69
+msgid "Score"
+msgstr ""
+
+#. Translators: your language code (first 2 letters of your po-file)
+#: ../src/translation.c:423 ../src/translation.c:489 ../src/tutor.c:1597
+msgid "en"
+msgstr "sv"
+
+#: ../src/translation.c:576
+msgid ""
+"The basic course focuses on having you read the characters presented to you "
+"on screen and typing the corresponding keys. Remember to keep your hands "
+"correctly oriented on the home row of the keyboard at all times (see "
+"introduction on main menu)."
+msgstr ""
+"I grundkursen förväntas du läsa bokstäverna som visas i fönstret och trycka "
+"ner motsvarande tangent. Kom ihåg den korrekta placeringen av fingrarna i "
+"startpositionen på tangentbordet (se vidare introduktionen på huvudmenyn)."
+
+#: ../src/translation.c:580
+msgid ""
+"The key set used in each series will be shown in the above message line. The "
+"[Space], [Shift] and [Enter] keys may not show up there but are used very "
+"often."
+msgstr ""
+"Tangenterna som används vid varje serie visas på den ovanstående "
+"meddelanderaden. [MELLANSLAG], [SKIFT] och [ENTER] tangenterna kanske inte "
+"visas där men man vet att de används väldigt ofta."
+
+#: ../src/translation.c:583
+msgid ""
+"The message line below follows and echoes your key presses. If required, it "
+"changes and displays instructions for actions required from you."
+msgstr ""
+"Meddelanderaden nertill följer och ekar dina tangentbordstryckningar. Om det "
+"krävs kommer raden att ändras och ge instruktioner om en åtgärd som krävs av "
+"dig."
+
+#: ../src/translation.c:587
+msgid ""
+"Here you may practice and improve your memorization of all keys. There will "
+"be sentences presented with nonsense words which mix some numbers and "
+"symbols."
+msgstr ""
+"Här kan du öva och bättre minnas alla tangenters platser. Du blir "
+"presenterad meningar med meningslösa ord och en blandning av siffror och "
+"symboler."
+
+#: ../src/translation.c:590
+msgid ""
+"In order to keep the lesson contents language and keyboard independent, "
+"accented letter combinations will probably not appear. For real word "
+"sentences, please use the fourth option of the main menu (about fluidness)."
+msgstr ""
+"Bokstäver med accent dyker förmodligen inte upp. Detta för att bli oberoende "
+"av språk och tangentbordslayout. För att träna meningar med verkliga ord "
+"skall du använda det fjärde valet från huvudmenyn (dvs. Flytande)."
+
+#: ../src/translation.c:594
+msgid ""
+"After each exercise there will be a brief statistics panel reviewing your "
+"performance along with some relevant comments."
+msgstr ""
+"Vid slutet av varje övning visas en liten ruta med statistik över din "
+"prestation samt relevanta kommentarer."
+
+#: ../src/translation.c:598
+msgid ""
+"This exercise is very similar to the second one, for adaptability. The "
+"difference is that here you'll type real words."
+msgstr ""
+"Den här övningen liknar väldigt mycket den andra, för anpassning. Skillnaden "
+"är: här kommer du att skriva med verkliga ord från ditt språk."
+
+#: ../src/translation.c:601
+msgid ""
+"The default language is the actual one of the interface. But you may select "
+"any other texts with words you would like to use. Press the 'Other' option "
+"above and add files containing those texts."
+msgstr ""
+"Grundspråket är detsamma som användargränssnittet har. Men du kan "
+"fortfarande välja vilken som helst annan text med ord som du skulle vilja "
+"använda. Tryck på 'Annat' valet ovan och lägg till filer som innehåller "
+"sådana texter."
+
+#: ../src/translation.c:605
+msgid ""
+"With this exercise the focus is on speed. So, you are supposed to type "
+"really fast and I will only flatter you when you deserve it!"
+msgstr ""
+"Med den här övningen så har jag ögonen på hastigheten. Jaha, du förmodas "
+"skriva riktigt snabbt och jag kommer att smickra helt uppriktigt."
+
+#: ../src/translation.c:609
+msgid ""
+"We will now use complete sentences and paragraphs which make logical sense. "
+"This may distract you while you type if you try to understand what you are "
+"entering. The previous exercises were aimed at getting you to type without "
+"interpreting and analyzing the content."
+msgstr ""
+"Nu har vi fullständiga meningar och stycken som är begripliga och uttrycker "
+"väl definierade ideér. Detta kan påverka skrivarens uppmärksamhet när hon/"
+"han försöker förstå vad man skriver ner. Om du har tränat på de föregående "
+"övningarna förmodas du inte ha några svårigheter med det eftersom du måste "
+"skriva utan att tolka och analysera."
+
+#: ../src/translation.c:613
+msgid ""
+"We do not mean to imply that the typists must behave like a robot, without "
+"understanding what they type. We do aim to develop the skill of typing, "
+"making it an automatic reflex akin to the acts of walking, talking, etc. "
+"After reaching this goal, the act of typing will become automatic and "
+"require little concentration. Then you will be able to pay attention to the "
+"real meaning of the text."
+msgstr ""
+"Vi menar inte att en skrivare måste uppföra sig som en robot utan att förstå "
+"det som skrivs. Men vi siktar helt enkelt på att utveckla skrivskickligheten "
+"och göra den till en automatisk reflex. Precis som när man går, talar, etc. "
+"Efter att detta mål har nåtts kommer inte själva skrivandet att vara en kamp "
+"längre. Då kommer du att bli i stånd till att visa uppmärksamhet på den "
+"verkliga meningen i texten."
+
+#. English typo: minimun -> minimum
+#: ../src/translation.c:618
+#, fuzzy
+msgid ""
+"These exercises are longer. Each exercise consists of three paragraphs and "
+"the emphasis is placed on correctness and rhythm, with a minimum speed "
+"requirement. Here you will be required to use the backspace key to correct "
+"any mistakes. In other words, only input without error will be accepted."
+msgstr ""
+"Dessa övningar är längre. Var och en har en uppställning med tre stycken och "
+"större vikt läggs vid korrekthet och rytm med en minimal hastighets gräns. "
+"Här måste du använda radera (backspace) tangenten för att rätta till "
+"eventuella misstag. Med andra ord, endast texter som skrivits in utan fel "
+"kommer att bli accepterade."
+
+#. English typo: recomendations -> recommendations
+#: ../src/keyboard.c:1094
+#, fuzzy
+msgid ""
+"Correct positioning of the hands and fingers is very important to efficient "
+"typing. You will learn faster and type better if you follow the next "
+"recommendations."
+msgstr ""
+"Korrekt placering av händer och fingrar är väldigt viktigt för att skriva "
+"effektivt. Följ noggrant de här givna rekommendationerna så kommer din "
+"inlärning att ske snabbare."
+
+#: ../src/keyboard.c:1097
+msgid ""
+"The index-finger tips rest over each of the two keys which have a small "
+"raised mark, in the center of the keyboard."
+msgstr ""
+
+#: ../src/keyboard.c:1100
+#, fuzzy
+msgid ""
+"These marks function as 'tactile hooks' for your fingers to remain at the "
+"correct position. This way, with a little experience, you will not need to "
+"look at the keyboard to see if your fingers are properly positioned."
+msgstr ""
+"Obs: Dessa små upphöjda markeringar fungerar som 'taktila hakar' för dina "
+"fingrar för att de skall veta att de har en korrekt placering. Med lite "
+"erfarenhet behöver du inte längre titta på tangentbordet för att vara "
+"övertygad."
+
+#: ../src/keyboard.c:1104
+#, fuzzy
+msgid ""
+"The tips of the other fingers lie naturally beside the index ones, over the "
+"keys on the same row of the keyboard."
+msgstr ""
+"3)  Fingertopparna på de andra fingrarna ligger naturligt bredvid "
+"pekfingrarna, över tangenterna på samma rad."
+
+#: ../src/keyboard.c:1107
+#, fuzzy
+msgid "The outside edges of your thumbs rest over the space bar."
+msgstr "2)  Sidorna på tummarna vilar över mellanslagstangenten."
+
+#: ../src/keyboard.c:1109
+#, fuzzy
+msgid ""
+"The part of the hands closest to the wrist (the base) rest over the table, "
+"outside the keyboard. Without this kind of support the arms would quickly "
+"tire."
+msgstr ""
+"4)  Den delen av händerna som är närmast handleden vilar mot bordet, utanför "
+"tangentbordet. Utan detta stöd skulle armarna snabbt tröttna."
+
+#: ../src/keyboard.c:1112
+msgid ""
+"This is referred to as the home position for the hands. From it the fingers "
+"move all over the keyboard, reaching all the keys as naturally and quickly "
+"as possible. To reach this goal one uses a specific relation between each "
+"key and finger. This relation will be learned gradually as you complete the "
+"basic course."
+msgstr ""
+"Detta är grundpositionen för händerna. Från denna position kan fingrarna "
+"röra sig över hela tangentbordet och nå alla tangenter så naturligt och "
+"snabbt som det är möjligt. För att nå detta mål använder man en specifik "
+"relation mellan varje tangent och en del fingrar. Denna relation lärs in "
+"gradvis under grundkursen."
+
+#: ../src/keyboard.c:1118
+msgid ""
+"When learning the relation between fingers and keys, it is very important "
+"that you only move the finger which must press the key and allow all other "
+"fingers to remain in the home position."
+msgstr ""
+"När man lär sig vilka fingrar som trycker ned vilka tangenter så skall man "
+"eftersträva att endast det berörda fingret rör sig mot just den tangenten. "
+"Behåll alla de andra fingrarna i sin ursprungliga position."
+
+#: ../src/keyboard.c:1122
+msgid ""
+"After memorizing this relationship, you can relax the previous rule some, so "
+"that you can attain greater speed while typing."
+msgstr ""
+"Efter att ha begrundat denna relation så tillåts du lätta en smula på regeln "
+"så att det är möjligt att utveckla högre hastighet för tangentbordsnedslag."
+
+#: ../src/keyboard.c:1125
+msgid ""
+"You should be prepared to start training with the basic course. It will take "
+"effort and patience to be successful as a typist. We trust you have these "
+"and look forward to your success!"
+msgstr ""
+"Efter dessa korta förklaringar förmodas du vara beredd att starta träningen "
+"i grundkursen. Kom alltid ihåg: att lära sig skriva korrekt kräver vilja och "
+"tålamod! Vi litar på dig, gör oss inte besvikna!"
+
+#: ../src/keyboard.c:1136
+#, c-format
+msgid "Step %i"
+msgstr ""
+
+#. Recommendations
+#: ../src/keyboard.c:1140
+#, fuzzy
+msgid "To position the hands"
+msgstr "För att placera händerna:"
+
+#. Final words
+#: ../src/keyboard.c:1225
+msgid "Go ahead!"
+msgstr ""
+
+#: ../src/keyboard.c:1234
+#, fuzzy
+msgid "Relation between fingers and keys"
+msgstr "Förhållande mellan fingrarna och tangenterna"
+
+#: ../src/keyboard.c:1235
+#, fuzzy
+msgid "Click on any key to see which finger you must use:"
+msgstr ""
+"Tryck på någon tangent ovan\n"
+"för att se här vilket\n"
+"finger du måste använda:"
+
+#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+msgid "Keyboard"
+msgstr "Tangentbord"
+
+#: ../src/keyboard.c:1372
+#, fuzzy
+msgid "Create or modify a custom keyboard layout"
+msgstr "Skriv ett namn för ny tangentbords layout."
+
+#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+msgid "small finger"
+msgstr "fjärde fingret"
+
+#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+msgid "ring finger"
+msgstr "tredje fingret"
+
+#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+msgid "middle finger"
+msgstr "andra fingret"
+
+#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+msgid "index finger"
+msgstr "pekfingret"
+
+#: ../src/keyboard.c:1728
+#, fuzzy
+msgid "Press and edit me"
+msgstr "Tryck en tangent"
+
+#: ../src/tutor.c:176
+msgid "Lesson:"
+msgstr "Lektion:"
+
+#: ../src/tutor.c:186
+msgid "Paragraphs:"
+msgstr "Stycken:"
+
+#: ../src/tutor.c:219
+msgid "Klavaro - Basic Course"
+msgstr "Klavaro - Grundkurs"
+
+#: ../src/tutor.c:224
+msgid "Klavaro - Adaptability"
+msgstr "Klavaro - Anpassning"
+
+#: ../src/tutor.c:227
+msgid ""
+"Adaptability exercises: automating the fingers responses, typing over all "
+"the keyboard."
+msgstr ""
+"Anpassnings övningar: Automatisera fingerspetskänslan, skriv över hela "
+"tangentbordet."
+
+#: ../src/tutor.c:232
+msgid "Klavaro - Velocity"
+msgstr "Klavaro - Hastighet"
+
+#: ../src/tutor.c:233
+msgid "Velocity exercises: accelerate typing real words."
+msgstr "Hastighetsövningar: Öka hastigheten i att skriva hela ord."
+
+#: ../src/tutor.c:237
+msgid "Klavaro - Fluidness"
+msgstr "Klavaro - Fluiditet"
+
+#: ../src/tutor.c:239
+msgid "Fluidness exercises: accuracy typing good sense paragraphs."
+msgstr "Fluiditets övningar: Skriva förnuftiga hela stycken."
+
+#: ../src/tutor.c:301
+#, fuzzy
+msgid "End of exercise. Press [Enter] to start another."
+msgstr "<<==  Slut på övningen. Tryck [Enter] för att starta en ny. ==>> "
+
+#: ../src/tutor.c:329
+msgid "Learning the key positions."
+msgstr "Inlärning av tangenternas placeringar."
+
+#: ../src/tutor.c:332
+msgid "Press any key to start the exercise. "
+msgstr "Tryck någon tangent för att starta övningen. "
+
+#: ../src/tutor.c:440 ../src/tutor.c:443
+msgid "Start typing when you are ready. "
+msgstr "Börja skriv när du är klar. "
+
+#: ../src/tutor.c:441
+msgid "Use backspace to correct errors."
+msgstr ""
+
+#: ../src/tutor.c:885
+#, c-format
+msgid ""
+"ps.: logging not performed for this session: the number of typed characters "
+"(%i) must be greater than %i."
+msgstr ""
+
+#: ../src/tutor.c:1027
+msgid "ps.: you have entered the Top 10 list, great!"
+msgstr ""
+
+#: ../src/tutor.c:1039
+msgid ""
+"ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
+"the language currently selected: we can't account for it in the 'Top 10' "
+"contest."
+msgstr ""
+
+#. Begin the accuracy
+#: ../src/tutor.c:1087
+msgid "STATISTICS"
+msgstr "STATISTIK"
+
+#: ../src/tutor.c:1088
+msgid "Elapsed time:"
+msgstr "Förfluten tid:"
+
+#: ../src/tutor.c:1089
+msgid "minute and"
+msgid_plural "minutes and"
+msgstr[0] "minut och"
+msgstr[1] "minuter och"
+
+#: ../src/tutor.c:1090
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "sekund"
+msgstr[1] "sekunder"
+
+#: ../src/tutor.c:1091
+msgid "Error ratio:"
+msgstr ""
+
+#: ../src/tutor.c:1091
+msgid "Accuracy:"
+msgstr "Noggranhet:"
+
+#: ../src/tutor.c:1112 ../src/tutor.c:1137 ../src/tutor.c:1160
+#: ../src/tutor.c:1186
+msgid "Goal:"
+msgstr "Mål:"
+
+#: ../src/tutor.c:1119
+msgid "Characters per second:"
+msgstr "Tecken per sekund:"
+
+#: ../src/tutor.c:1137
+msgid "(CPS)"
+msgstr "(CPS)"
+
+#: ../src/tutor.c:1142
+msgid "Words per minute:"
+msgstr "Ord per minut:"
+
+#: ../src/tutor.c:1167
+msgid "Fluidness:"
+msgstr "Fluiditet:"
+
+#: ../src/tutor.c:1194
+msgid "Comments:"
+msgstr "Kommentarer:"
+
+#: ../src/tutor.c:1676
+msgid "space"
+msgstr ""
+
+#. Translators: the name of letter Y
+#: ../src/tutor.c:1681
+msgid "wye"
+msgstr ""
+
+#. Translators: the name of the Return key
+#: ../src/tutor.c:1685
+msgid "enter"
+msgstr ""
+
+#: ../src/tutor.c:1691
+msgid "apostrophe"
+msgstr ""
+
+#. Translators: double quote symbol: "
+#: ../src/tutor.c:1695
+msgid "quote"
+msgstr ""
+
+#. Translators: ampersand symbol: &
+#: ../src/tutor.c:1699
+msgid "ampersand"
+msgstr ""
+
+#. Error frequencies or touch times
+#.
+#: ../src/plot.c:308
+msgid "Character"
+msgstr ""
+
+#: ../src/plot.c:319
+msgid "Date & Time"
+msgstr ""
+
+#: ../src/basic.c:331
+msgid "Positions of keys seems to be learned!"
+msgstr "Tangenternas placering verkar vara inlärd!"
+
+#: ../src/basic.c:332
+msgid ""
+" Congratulations!\n"
+" You have accomplished the entire basic course.\n"
+" Go to the next type of exercise: adaptability.\n"
+" There you will practice mainly the accuracy.\n"
+msgstr ""
+" Gratulerar!\n"
+" Du har lyckats med hela grundkursen.\n"
+" Fortsätt med nästa typ av övning: anpassning.\n"
+" Där kommer du att huvudsakligen öva noggrannhet.\n"
+
+#: ../src/basic.c:338
+msgid ""
+" All right, now you got it!\n"
+" Go to the next lesson.\n"
+msgstr ""
+" Helt riktigt, du har greppat!\n"
+" Fortsätt med nästa lektion.\n"
+
+#: ../src/adaptability.c:217
+msgid ""
+" Your accuracy rate is below 90%...\n"
+" Could you please try again to improve it?\n"
+msgstr ""
+
+#: ../src/adaptability.c:222
+#, fuzzy
+msgid ""
+" You are doing well. But...\n"
+" Could you make the accuracy reach 95%?\n"
+msgstr ""
+" Det går bra för dig. Men...\n"
+" Kan du försöka uppnå en noggrannhet på minst 95 %?\n"
+
+#: ../src/adaptability.c:225
+#, fuzzy, c-format
+msgid ""
+" You are almost there, but your accuracy rate is still below %.0f%%.\n"
+" Try a few more times, or maybe you're getting upset, so go to other kind of "
+"exercise.\n"
+msgstr ""
+" Du är nästan där, men din noggrannhet är fortfarande under 98 %.\n"
+" Försök ytterligare några gånger så att jag kan utvärdera din hastighet.\n"
+
+#: ../src/adaptability.c:232
+#, fuzzy, c-format
+msgid ""
+" Very good!\n"
+" You succeeded with an accuracy rate above %.0f%%.\n"
+" Now it is time to increase your velocity.\n"
+" Go to the 3rd exercise at the main menu.\n"
+msgstr ""
+" Mycket bra!\n"
+" Du lyckades uppnå en noggrannhet på över 98%.\n"
+" Nu är det dags att öka din hastighet.\n"
+" Gå till den 3:e övningen på huvudmenyn.\n"
+
+#: ../src/velocity.c:313 ../src/fluidness.c:435
+msgid "Pasted_or_dropped"
+msgstr "Inklistrad_eller_släppt"
+
+#: ../src/velocity.c:432
+msgid ""
+" You are just beginning.\n"
+" Be patient, try it again every day, rest and don't worry so much:\n"
+" persistence and practice will improve your velocity.\n"
+msgstr ""
+
+#: ../src/velocity.c:436
+msgid ""
+" Still away from the highway. You can make better...\n"
+" Try at least 20 WPM.\n"
+msgstr ""
+" Fortfarande vid sidan av de stora vägarna. Du kan bättre än så...\n"
+" Försök nå åtminstone 20 WPM.\n"
+
+#: ../src/velocity.c:439
+msgid ""
+" You are doing well, but need to go faster.\n"
+" And don't forget the accuracy. Try to get 30 WPM.\n"
+msgstr ""
+" Det går bra för dig men du behöver bli snabbare.\n"
+" Glöm inte bort noggrannheten. Försök att nå 30 WPM.\n"
+
+#: ../src/velocity.c:443
+msgid ""
+" Fine. Now you need to start running.\n"
+" Can you reach 40 WPM?\n"
+msgstr ""
+" Fint. Nu skall du försöka springa.\n"
+" Kan du försöka nå 40 WPM?\n"
+
+#: ../src/velocity.c:446
+#, fuzzy, c-format
+msgid ""
+" Very good. You are almost there.\n"
+" Can you finally reach %.0f WPM?\n"
+msgstr ""
+" Mycket bra. Du är nästan där.\n"
+" Kan du till slut nå 50 WPM?\n"
+
+#: ../src/velocity.c:451
+msgid ""
+" Excellent. For this course, that is enough.\n"
+" Try now the fluidness exercises, OK?\n"
+msgstr ""
+" Excellent. Tillräckligt för den här kursen.\n"
+" Försök nu fluiditets övningarna, OK?\n"
+
+#: ../src/velocity.c:455
+msgid ""
+" Fast! Are you training for a competition?\n"
+" So, try to get 70 WPM!\n"
+msgstr ""
+" Snabbt! Tränar du för en tävling?\n"
+" Så, försök att nå 70 WPM!\n"
+
+#: ../src/velocity.c:458
+msgid ""
+" Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
+" Are you afraid of reaching 80 WPM?\n"
+msgstr ""
+" Toppen på \"qwerty\". Nu är det dags att byta till Dvorak moden.\n"
+" Är du rädd för att nå 80 WPM?\n"
+
+#: ../src/velocity.c:462
+msgid ""
+" Dvorak mode dominated!\n"
+" Can you fly at 90 WPM?\n"
+msgstr ""
+" Dvorak moden avklarad!\n"
+" Kan du flyga på 90 WPM?\n"
+
+#: ../src/velocity.c:466
+msgid ""
+" Dvorak master!\n"
+" I have no words to express my admiration!\n"
+msgstr ""
+" Dvorak mästare!\n"
+" Jag har inte ord för min beundran!\n"
+
+#: ../src/fluidness.c:545
+#, fuzzy, c-format
+msgid ""
+" You type accurately but not so fast.\n"
+" Can you reach %.0f WPM?\n"
+msgstr ""
+" Du skriver noggrant men inte snabbt.\n"
+" Kan du nå 50 WPM?\n"
+
+#: ../src/fluidness.c:548
+#, fuzzy, c-format
+msgid ""
+" Your rhythm is not so constant. Calm down.\n"
+" For now, try to make the fluidness greater than %i%%.\n"
+msgstr ""
+" Din rytm är inte så konstant. Ta det lugnt.\n"
+" Försök nu att nå en fluiditet större än 70%.\n"
+
+#: ../src/fluidness.c:551
+#, fuzzy, c-format
+msgid ""
+" You are almost getting there. Type more fluently.\n"
+" I want a fluidness greater than %.0f%%.\n"
+msgstr ""
+" Du har nästan nått fram. Skriv mera flytande.\n"
+" Jag vill ha en fluditet större än 80%.\n"
+
+#: ../src/fluidness.c:554
+msgid ""
+" Congratulations!\n"
+" It seems to me that you are a professional.\n"
+" You don't need this program (me) anymore.\n"
+" Hope you have enjoyed. Thanks and be happy!\n"
+msgstr ""
+" Gratulerar!\n"
+" För mig ser det ut som att du är professionell.\n"
+" Du behöver inte detta program (mig) längre.\n"
+" Hoppas du har haft trevligt. Tack och var glad!\n"
+
+#: ../src/fluidness.c:559
+msgid ""
+" How can you type so fast?\n"
+" You have exceeded all my expectations.\n"
+" Are you a machine? Could you teach me?\n"
+" I can not help you anymore. Go to an expert!\n"
+msgstr ""
+" Hur kan du skriva så snabbt?\n"
+" Du har överträffat alla mina förväntningar.\n"
+" Är du en maskin? Kan du lära mig?\n"
+" Jag kan inte hjälpa dig längre. Gå till en expert!\n"
+
+#: ../src/top10.c:67
+msgid "Name"
+msgstr ""
+
+#: ../src/top10.c:93
+#, fuzzy
+msgid "Chars"
+msgstr "Caps"
+
+#: ../src/top10.c:95
+msgid "When"
+msgstr ""
+
+#: ../src/top10.c:124
+msgid "Local scores"
+msgstr ""
+
+#: ../src/top10.c:125
+msgid "External scores"
+msgstr ""
+
+#: ../src/top10.c:719
+msgid "Empty ranking. Please practice fluidness."
+msgstr ""
+
+#: ../src/top10.c:816
+msgid "Not able to download files"
+msgstr ""
+
+#: ../src/top10.c:816 ../src/top10.c:906
+msgid "not found"
+msgstr ""
+
+#: ../src/top10.c:817 ../src/top10.c:907
+msgid "Are you sure you have it installed in your system?"
+msgstr ""
+
+#: ../src/top10.c:861
+msgid "Could not download file from the host server."
+msgstr ""
+
+#: ../src/top10.c:906
+msgid "Not able to upload files"
+msgstr ""
+
+#: ../src/top10.c:987
+msgid "Could not upload/download scores."
+msgstr ""
+
+#~ msgid "Default"
+#~ msgstr "Grundinställning"
+
+#, fuzzy
+#~ msgid "A flexible touch typing tutor"
+#~ msgstr "Ännu en tangentbords tränare"
+
+#, fuzzy
+#~ msgid "About..."
+#~ msgstr "Om..."
+
+#, fuzzy
+#~ msgid ""
+#~ " You did not succeed.\n"
+#~ " The accuracy must be above %.0f%%.\n"
+#~ " Try again!\n"
+#~ msgstr ""
+#~ " Du klarade det inte.\n"
+#~ " Noggrannheten måste vara över 95 %.\n"
+#~ " Försök igen!\n"
+
+#, fuzzy
+#~ msgid ""
+#~ " Your error rate is too high.\n"
+#~ " Maybe you are not ready to practice this exercise.\n"
+#~ " Did you accomplish most of the basic course lessons?\n"
+#~ msgstr ""
+#~ " Du är inte klar att börja med denna övning än.\n"
+#~ " Din noggrannhet är under 90 %...\n"
+#~ " Försök klara av de flesta av grundkursens lektioner.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ " Your accuracy rate is not good enough.\n"
+#~ " I only can rely on you if it is greater than %.0f%%.\n"
+#~ " Please calm down and try it again.\n"
+#~ msgstr ""
+#~ " Din noggrannhet är för låg.\n"
+#~ " Jag kan bara förlita mig på dig om den är större än 97 %.\n"
+#~ " Var vänlig och försök igen.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ " Your accuracy rate is not good enough.\n"
+#~ " I want it greater than %.0f%%.\n"
+#~ msgstr ""
+#~ " Din noggrannhet är för låg.\n"
+#~ " Jag vill ha den bättre än 98 %.\n"
+
+#~ msgid "Velocity"
+#~ msgstr "Hastighet"
+
+#~ msgid "Fluidness"
+#~ msgstr "Flytande"
+
+#, fuzzy
+#~ msgid "WPM"
+#~ msgstr "(WPM)"
+
+#~ msgid "Accuracy (%)"
+#~ msgstr "Noggranhet (%)"
+
+#, fuzzy
+#~ msgid "Speed (WPM)"
+#~ msgstr "(WPM)"
+
+#, fuzzy
+#~ msgid "Fluidity (%)"
+#~ msgstr "Fluiditet (%)"
+
+#~ msgid "Go to the exercise's introduction."
+#~ msgstr "Gå till starten för övningarna."
+
+#~ msgid "Informations about this application, Klavaro."
+#~ msgstr "Information om detta program, Klavaro."
+
+#~ msgid ""
+#~ "1)  The index-finger tips rest over each of the two keys which have a "
+#~ "small raised mark, in the center of the keyboard. Most keyboards are of "
+#~ "the 'qwerty' type, where these two keys are the 'F' and the 'J' keys. On "
+#~ "the other hand, in an American Dvorak keyboard, they are the 'U' and the "
+#~ "'H' keys."
+#~ msgstr ""
+#~ "1)  Pekfingren vilar över var och en av de två tangenter som har en liten "
+#~ "upphöjning och som befinner sig i tangentbordets centrala del (mitten). "
+#~ "De flesta tangentbord är av typen 'qwerty' och då är tangenterna 'F' och "
+#~ "'J'. Å andra sidan, på ett amerikanskt Dvorak tangentbord så är "
+#~ "tangenterna 'U' och 'H'."
+
+#~ msgid "Virtual Keyboard"
+#~ msgstr "Virtuellt Tangentbord"
+
+#~ msgid "Paste"
+#~ msgstr "Klistra in"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#, fuzzy
+#~ msgid "gtk-cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "basic course"
+#~ msgstr "grundkurs"
+
+#~ msgid "adaptability exercises"
+#~ msgstr "anpassningsövningar"
+
+#~ msgid "velocity exercises"
+#~ msgstr "hastighetsövningar"
+
+#~ msgid "fluidness exercises"
+#~ msgstr "fluiditetsövningar"
+
+#~ msgid "--> Default"
+#~ msgstr "--> Grundinställning"
+
+#~ msgid "Velocity (WPM)"
+#~ msgstr "Hastighet (WPM)"
+
+#~ msgid ""
+#~ "This will CHANGE also this interface.\n"
+#~ "If you are selecting a language you do not understand, \n"
+#~ "maybe it will be difficult to get back to the previous one."
+#~ msgstr ""
+#~ "Detta kommer att ÄNDRA även detta gränssnitt.\n"
+#~ "Om du väljer ett språk du inte förstår, \n"
+#~ "kanske det blir svårt att återgå till föregående."
+
+#~ msgid ""
+#~ "Oops! You must save the\n"
+#~ "modified keyboard layout\n"
+#~ "or choose another one\n"
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Oops! Du måste spara den\n"
+#~ "ändrade tangentbords layouten\n"
+#~ "eller välja en annan\n"
+#~ "innan du fortsätter."
+
+#~ msgid "Press the correspondent key on the real keyboard."
+#~ msgstr "Tryck på motsvarande tangent på det verkliga tangentbordet."
+
+#~ msgid "Reset lesson"
+#~ msgstr "Återställ lektion"
+
+#~ msgid ""
+#~ "Confirming this, you will have to accomplish\n"
+#~ "all the lessons again, since the first one,\n"
+#~ "because its count will be RESET."
+#~ msgstr ""
+#~ "Om du bekräftar detta måste du klara av\n"
+#~ "alla lektioner från början\n"
+#~ "eftersom räknaren ÅTERSTÄLLS."
+
+#~ msgid "+"
+#~ msgstr "+"
+
+#~ msgid "Click here with the mouse and press a key."
+#~ msgstr "Klicka här med musen och tryck en tangent."
+
+#~ msgid "Close without any modification. Hotkey: [Esc]"
+#~ msgstr "Stäng utan att ändra. Snabbval: [Esc]"
+
+#, fuzzy
+#~ msgid "Random keys"
+#~ msgstr "slumpmässiga tangenter"
+
+#, fuzzy
+#~ msgid "Random words"
+#~ msgstr "slumpmässiga ord"
+
+#~ msgid "Exit"
+#~ msgstr "Avsluta"
+
+#~ msgid "Klavaro - Select or create your keyboard layout"
+#~ msgstr "Klavaro - Välj eller skapa din tangentbords layout"
+
+#~ msgid "Original layouts"
+#~ msgstr "Ursprungliga layouts"
+
+#~ msgid "Custom layouts"
+#~ msgstr "Skräddarsydda layouts"
+
+#~ msgid "Load"
+#~ msgstr "Ladda"
+
+#~ msgid ""
+#~ "Remove the layout shown above from the user defined list of available "
+#~ "ones."
+#~ msgstr ""
+#~ "Ta bort layout (visad ovan) från användar definierad lista över "
+#~ "tillgängliga."
+
+#~ msgid "New custom layout"
+#~ msgstr "Ny skräddarsydd layout"
+
+#~ msgid "Edit"
+#~ msgstr "Editera"
+
+#~ msgid "Select the above keyboard layout."
+#~ msgstr "Välj tangentbords layouten ovanför."
+
+#~ msgid "Select"
+#~ msgstr "Välj"
+
+#~ msgid "Layout to be selected"
+#~ msgstr "Layout som skall väljas"
+
+#~ msgid "VIRTUAL KEYBOARD"
+#~ msgstr "VIRTUELLT TANGENTBORD"
+
+#~ msgid "( layout modified: save it before get out )"
+#~ msgstr "( layout ändrad: spara innan återgång )"
+
+#~ msgid "( layout saved as \".tmp\" )"
+#~ msgstr "( layout sparad som \".tmp\" )"
+
+#~ msgid "Revert to the current lesson."
+#~ msgstr "Återgår till nuvarande lektion som skall färdigställas."
+
+#~ msgid "Revert"
+#~ msgstr "Återgå"
+
+#~ msgid ""
+#~ "Forgets the current lesson, restarting the course from the introduction."
+#~ msgstr ""
+#~ "Glömmer bort lektionen som skulle färdigställas, startar om kursen från "
+#~ "början."
+
+#~ msgid "Other"
+#~ msgstr "Annat"
+
+#~ msgid "Sound"
+#~ msgstr "Ljud"
+
+#~ msgid "Restart"
+#~ msgstr "Starta om"
+
+#~ msgid "Apply selected"
+#~ msgstr "Tillämpa val"
+
+#~ msgid "Read from file... (UTF-8)"
+#~ msgstr "Läs från fil... (UTF-8)"
+
+#~ msgid "Learning evolution:"
+#~ msgstr "Inlärning utveckling:"
+
+#~ msgid "Shows the accuracy for the last 50 exercises accomplished."
+#~ msgstr "Visar noggrannheten för de senaste 50 utförda övningarna."
+
+#~ msgid "Shows the velocity for the last 50 exercises accomplished."
+#~ msgstr "Visar hastigheten för de senaste 50 utförda övningarna."
+
+#~ msgid "Shows the fluidness for the last 50 exercises accomplished."
+#~ msgstr "Visar fluiditet för de senaste 50 utförda övningarna."
+
+#, fuzzy
+#~ msgid "Shows the scores for the last 50 exercises accomplished."
+#~ msgstr "Visar fluiditet för de senaste 50 utförda övningarna."
+
+#~ msgid "Return"
+#~ msgstr "Återgå"
+
+#~ msgid "Version:"
+#~ msgstr "Version:"
+
+#~ msgid "by:"
+#~ msgstr "av:"
+
+#~ msgid "E-mail:"
+#~ msgstr "E-post:"
+
+#~ msgid "Home-page:"
+#~ msgstr "Hemsida:"
+
+#~ msgid "STARTED! => "
+#~ msgstr "STARTAD! => "
+
+#~ msgid "<<==  End of lesson. Press [Enter] to start another. ==>> "
+#~ msgstr "<<==  Slut på lektion. Tryck [Enter] för att starta en ny. ==>> "
+
+#~ msgid "Press any key to start the lesson. "
+#~ msgstr "Tryck någon tangent för att starta lektionen. "
+
+#~ msgid "Choose or edit the keyboard layout used by you."
+#~ msgstr "Välj eller ändra tangentbordsbeskrivning som du använder"
+
+#~ msgid "Define"
+#~ msgstr "Definiera"
+
+#~ msgid "Choose the language of this interface and of the whole course."
+#~ msgstr "Välj språket för detta gränssnitt och för hela kursen"
+
+#~ msgid "Apply the language selected beside."
+#~ msgstr "Tillämpa språket som valts vid sidan av."
+
+#~ msgid "Update!"
+#~ msgstr "Uppdatera!"
+
+#~ msgid "< Configuring >"
+#~ msgstr "< Konfigurera >"
+
+#~ msgid "< Learning >"
+#~ msgstr "< Inlärande >"
+
+#~ msgid "Choose one of the originally available keyboard layouts."
+#~ msgstr "Välj en av de ursprungligt tillgängliga tangentbords layouterna"
+
+#~ msgid "Choose one of these user defined keyboard layouts."
+#~ msgstr "Välj en av dessa användardefinierade tangentbord layouts."
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Kan inte hitta en pixmap fil: %s"
