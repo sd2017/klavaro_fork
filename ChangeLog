@@ -1,4 +1,14 @@
-2013-04-?? Felipe Castro (-) <fefcas@gmail.com>
+2013-08-?? Felipe Castro (-) <fefcas@gmail.com>
+
+	* Release 1.9.9
+	* Added translations:
+	- Greek (missing .words and .paragraphs)
+	* Changed:
+	- Updated the greek keyboard layout, the old one is renamed to qwerty_old.
+	- Default foreground color for the tutor practice text made more greenish.
+	- Updated autotools and gettext infrastructure.
+
+2013-08-01 Felipe Castro (-) <fefcas@gmail.com>
 
 	* Release 1.9.8
 	* Updated translations:

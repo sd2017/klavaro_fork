@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([klavaro],[1.9.8],[fefcas@gmail.com])
+AC_INIT([klavaro],[1.9.9],[fefcas@gmail.com])
 AC_CONFIG_SRCDIR([config.h.in])
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([-Wall])
@@ -21,6 +21,7 @@ dnl For Linux:
 pkg_modules="gtk+-2.0 >= 2.16.0"
 dnl For Windows:
 dnl pkg_modules="gtk+-2.0 >= 2.16.0 gtkdatabox >= 0.9.1.1"
+
 PKG_CHECK_MODULES(PACKAGE, [$pkg_modules])
 AC_SUBST(PACKAGE_CFLAGS)
 AC_SUBST(PACKAGE_LIBS)
@@ -29,13 +30,18 @@ AC_CHECK_LIB([gtkdatabox], [gtk_databox_new])
 AC_CHECK_LIB([curl], [curl_global_init])
 AC_CHECK_LIB([m], [sqrt])
 
+AC_FUNC_STRTOD
+AC_CHECK_FUNCS([memmove memset rint setlocale sqrt strcasecmp strchr strdup strerror strrchr strstr strtoul])
+
 GETTEXT_PACKAGE=klavaro
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
 
 dnl Add the languages which your application supports here.
-ALL_LINGUAS="ar bg bn cs da de en_GB eo eu es fr gl hu it kk ky nb nl pl pt_BR ru sv te uk ur vi wo zh_CN"
-AM_GLIB_GNU_GETTEXT
+ALL_LINGUAS="ar bg bn cs da de en_GB el eo eu es fr gl hu it kk ky nb nl pl pt_BR ru sv te uk ur vi wo zh_CN"
+AM_GNU_GETTEXT([external])
+AM_GNU_GETTEXT_VERSION([0.18])
+dnl AM_GLIB_GNU_GETTEXT
 
 AM_CONDITIONAL(IS_WIN32, test `uname` = "MINGW32_NT-6.1")
 AM_CONDITIONAL(IS_POSIX, test  `uname` != "MINGW32_NT-6.1" -a `uname` != "Darwin")

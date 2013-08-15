@@ -3,6 +3,9 @@ using it. It is very simple and full of tips. Most of the buttons
 have some tip showing what they will do.
 
 If you have to compile, please read the INSTALL file.
+And also, specific libs you have to install (on Debian): 
+- libgtk2.0-dev
+ libgtkdatabox-0.9.1-1-dev 
 
 See also the web site:
 http://klavaro.sourceforge.net

@@ -30,6 +30,7 @@
 "Čeština (cs) [qwertz_cz]\n" \
 "Dansk (da) [qwerty_dk]\n" \
 "Deutsch (de) [qwertz_de]\n" \
+"ελληνικά (el) [qwerty_gr]\n" \
 "English (C) [qwerty_us]\n" \
 "English UK (en_GB) [qwerty_uk]\n" \
 "Esperanto (eo) [dvorak_eo_eurokeys]\n" \
@@ -37,18 +38,18 @@
 "Euskara (eu) [qwerty_es]\n" \
 "Français (fr) [azerty_fr]\n" \
 "Galego (gl) [qwerty_es]\n" \
-"Қазақ (kk) [jtsuken_kk]\n" \
-"Кыргызча (ky) [jtsuken_ru]\n" \
 "Magyar (hu) [qwertz_hu]\n" \
 "Italiano (it) [qwerty_it]\n" \
+"Қазақ (kk) [jtsuken_kk]\n" \
+"Кыргызча (ky) [jtsuken_ru]\n" \
 "Nederlands (nl) [qwerty_us]\n" \
 "Polski (pl) [qwerty_pl_us]\n" \
 "Português (pt_BR) [qwerty_br_abnt2]\n" \
 "Русский (ru) [jtsuken_ru]\n" \
 "Svenska (sv) [qwerty_se]\n" \
+"తెలుగు (te) [qwerty_us]\n" \
 "Українська (uk) [jtsuken_ua]\n" \
 "اردو (ur) [qwerty_pk_crulp]\n" \
-"తెలుగు (te) [qwerty_us]\n" \
 "Tiếng Việt (vi) [qwerty_us]\n" \
 "Wolof (wo) [azerty_fr]\n" \
 "简体字 (zh_CN) [qwerty_cn_us]"

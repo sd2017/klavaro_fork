@@ -24,7 +24,7 @@
 # define TUTOR_BLACK "#000000"
 # define TUTOR_GRAY "#dddddd"
 # define TUTOR_GRAY_LITE "#eeece8"
-# define TUTOR_CREAM "#faf8f8"
+# define TUTOR_CREAM "#f0f2ca" /* "#faf8f8" before */
 # define TUTOR_WHITE "#fffefe"
 
 typedef enum
