@@ -114,7 +114,6 @@ velo_init_dict (gchar * list_name)
 		g_free (tmp_name);
 		tmp_name = trans_lang_get_similar_file_name (".words");
 		g_message ("not found, loading from file:\n %s", tmp_name);
-		gdk_beep ();
 	}
 
 	if (g_file_get_contents (tmp_name, &tmp_buf, NULL, NULL))

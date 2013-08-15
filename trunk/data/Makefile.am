@@ -60,6 +60,7 @@ klavaro_data = \
 	qwerty_cz.kbd \
 	qwerty_dk.kbd \
 	qwerty_gr.kbd \
+	qwerty_gr_old.kbd \
 	qwerty_es.kbd \
 	qwerty_il.kbd \
 	qwerty_il_old.kbd \

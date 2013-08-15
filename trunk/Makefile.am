@@ -2,6 +2,6 @@
 
 SUBDIRS = src data po doc
 
-EXTRA_DIST = TODO intltool-extract.in intltool-merge.in intltool-update.in
+EXTRA_DIST = TODO ABOUT-NLS intltool-extract.in intltool-merge.in intltool-update.in
 
  

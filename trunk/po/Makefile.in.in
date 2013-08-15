@@ -49,8 +49,8 @@ MSGFMT = @MSGFMT@
 XGETTEXT = @XGETTEXT@
 INTLTOOL_UPDATE = @INTLTOOL_UPDATE@
 INTLTOOL_EXTRACT = @INTLTOOL_EXTRACT@
-MSGMERGE = INTLTOOL_EXTRACT=$(INTLTOOL_EXTRACT) srcdir=$(srcdir) $(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --dist
-GENPOT   = INTLTOOL_EXTRACT=$(INTLTOOL_EXTRACT) srcdir=$(srcdir) $(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --pot
+MSGMERGE = INTLTOOL_EXTRACT="$(INTLTOOL_EXTRACT)" XGETTEXT="$(XGETTEXT)" srcdir=$(srcdir) $(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --dist
+GENPOT   = INTLTOOL_EXTRACT="$(INTLTOOL_EXTRACT)" XGETTEXT="$(XGETTEXT)" srcdir=$(srcdir) $(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --pot
 
 ALL_LINGUAS = @ALL_LINGUAS@
 
@@ -63,7 +63,7 @@ USE_LINGUAS=$(shell if test -n "$(USER_LINGUAS)" -o -n "$(LINGUAS)"; then LLINGU
 POFILES=$(shell LINGUAS="$(PO_LINGUAS)"; for lang in $$LINGUAS; do printf "$$lang.po "; done)
 
 DISTFILES = Makefile.in.in POTFILES.in $(POFILES)
-EXTRA_DISTFILES = ChangeLog POTFILES.skip Makevars LINGUAS $(GETTEXT_PACKAGE).pot
+EXTRA_DISTFILES = ChangeLog POTFILES.skip Makevars LINGUAS
 
 POTFILES = \
 # This comment gets stripped out
@@ -73,15 +73,20 @@ CATALOGS=$(shell LINGUAS="$(USE_LINGUAS)"; for lang in $$LINGUAS; do printf "$$l
 .SUFFIXES:
 .SUFFIXES: .po .pox .gmo .mo .msg .cat
 
+AM_DEFAULT_VERBOSITY = @AM_DEFAULT_VERBOSITY@
+INTLTOOL_V_MSGFMT = $(INTLTOOL__v_MSGFMT_$(V))
+INTLTOOL__v_MSGFMT_= $(INTLTOOL__v_MSGFMT_$(AM_DEFAULT_VERBOSITY))
+INTLTOOL__v_MSGFMT_0 = @echo "  MSGFMT" $@;
+
 .po.pox:
 	$(MAKE) $(GETTEXT_PACKAGE).pot
 	$(MSGMERGE) $< $(GETTEXT_PACKAGE).pot -o $*.pox
 
 .po.mo:
-	$(MSGFMT) -o $@ $<
+	$(INTLTOOL_V_MSGFMT)$(MSGFMT) -o $@ $<
 
 .po.gmo:
-	file=`echo $* | sed 's,.*/,,'`.gmo \
+	$(INTLTOOL_V_MSGFMT)file=`echo $* | sed 's,.*/,,'`.gmo \
 	  && rm -f $$file && $(GMSGFMT) -o $$file $<
 
 .po.cat:
@@ -149,7 +154,7 @@ check: all $(GETTEXT_PACKAGE).pot
 	fi
 
 mostlyclean:
-	rm -f *.pox *.old.po cat-id-tbl.tmp
+	rm -f *.pox $(GETTEXT_PACKAGE).pot *.old.po cat-id-tbl.tmp
 	rm -f .intltool-merge-cache
 
 clean: mostlyclean
@@ -162,7 +167,6 @@ maintainer-clean: distclean
 	@echo "This command is intended for maintainers to use;"
 	@echo "it deletes files that may require special tools to rebuild."
 	rm -f Makefile.in.in
-	rm -f $(GETTEXT_PACKAGE).pot 
 
 distdir = ../$(PACKAGE)-$(VERSION)/$(subdir)
 dist distdir: $(DISTFILES)
