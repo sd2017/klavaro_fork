@@ -1,6 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
+dnl AC_PREREQ([2.21])
 AC_INIT([klavaro],[2.00],[fefcas@gmail.com])
 AC_CONFIG_SRCDIR([config.h.in])
 AC_CONFIG_HEADERS([config.h])
@@ -19,6 +20,7 @@ AC_CHECK_HEADERS([locale.h stdlib.h string.h unistd.h curl/curl.h gtkdatabox.h])
 
 dnl For Linux:
 pkg_modules="gtk+-2.0 >= 2.16.0"
+dnl pkg_modules="gtk+-3.0 >= 3.8.4"
 dnl For Windows:
 dnl pkg_modules="gtk+-2.0 >= 2.16.0 gtkdatabox >= 0.9.1.1"
 

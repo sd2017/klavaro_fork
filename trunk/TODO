@@ -1,7 +1,6 @@
 _______________________________________________________________
 Simple list of things that could be done in future (long term) releases:
 
-- Allow the user to delete his full name from the web, at Top 10 (or Top 200). Stop reading "~/.config/klavaro" subdir.
 - Possibility to change the goals for accuracy, speed, fluidness, at least from the preferences file.
 - Collect wrong words (or slow typed ones), and create special exercises with them (velocity module).
 - Print report after completion of a fluidity session.
@@ -10,6 +9,7 @@ Simple list of things that could be done in future (long term) releases:
 __________________________________
 And suggestions that won't be done:
 
+- Allow the user to delete his full name from the web, at Top 10 (or Top 200). No way to make this secure, the user should ask the maintainer to do that.
 - Get rid of the main menu window, moving all actions there to the tutor window (no reason to change the "game" style of the application).
 - Add some kind of lessons for the numeric pad (the user may create custom lessons for this).
 - Support for AltGr symbols (also here, the user may create custom lessons).
