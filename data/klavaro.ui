@@ -1949,7 +1949,7 @@
     <property name="skip_taskbar_hint">True</property>
     <property name="deletable">False</property>
     <property name="program_name">Klavaro</property>
-    <property name="copyright">Copyright (C) Free Software Foundation 2008-2011</property>
+    <property name="copyright">Copyright (C) Free Software Foundation 2008-2013</property>
     <property name="comments" translatable="yes">Yet another touch typing tutor</property>
     <property name="website">http://klavaro.sourceforge.net/</property>
     <property name="website_label">klavaro.sf.net</property>
