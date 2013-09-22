@@ -163,28 +163,6 @@ main_preferences_save ()
 /*
  * End of interface, start of private functions
  */
-static void
-main_stats_relocate (gchar * fname)
-{
-	gchar *old;
-	gchar *new;
-
-	g_assert (fname);
-	old = g_build_filename (main_path_user (), fname, NULL);
-	if (!g_file_test (old, G_FILE_TEST_IS_REGULAR))
-	{
-		g_free (old);
-		return;
-	}
-	new = g_build_filename (main_path_stats (), fname, NULL);
-	if (g_rename (old, new) != 0)
-		g_print ("Failed to relocate stats file.\n\tCheck your old file: %s\n\tNew location to be used:%s\n",
-			 old, new);
-	else
-		g_print ("File relocated.\n\tFrom: %s\n\tTo: %s\n", old, new);
-	g_free (old);
-	g_free (new);
-}
 
 /**********************************************************************
  * Initialize the value of the global variables
@@ -193,13 +171,7 @@ static void
 main_initialize_global_variables ()
 {
 	gchar *tmp;
-	gchar *path_score_old;
-	gchar *fname;
-	gint chr;
 	FILE *fh;
-	FILE *fh_from;
-	FILE *fh_to;
-	GDir *kscdir;
 
 	/* Set the home user dir
 	 */
@@ -210,7 +182,7 @@ main_initialize_global_variables ()
 			g_error ("Sorry, not able to create the user config dir: %s", path.user);
 	}
 
-	/* Set the home user stats dir (update to new local/share dir)
+	/* Set the home user stats dir (~/.local/share dir)
 	 */
 	if (UNIX_OK)
 		path.stats = g_build_filename (g_get_user_data_dir (), "klavaro", NULL);
@@ -219,12 +191,6 @@ main_initialize_global_variables ()
 	if (!g_file_test (path.stats, G_FILE_TEST_IS_DIR))
 	{
 		g_mkdir_with_parents (path.stats, DIR_PERM);
-		main_stats_relocate ("stat_basic.txt");
-		main_stats_relocate ("stat_adapt.txt");
-		main_stats_relocate ("stat_velo.txt");
-		main_stats_relocate ("stat_fluid.txt");
-		main_stats_relocate ("scores_fluid.txt");
-		main_stats_relocate ("deviation_fluid.txt");
 	}
 
 	/* Get a valid data path.
@@ -247,48 +213,11 @@ main_initialize_global_variables ()
 	g_free (tmp);
 
 	/* Get a valid scoring path.
-	 * Updating from /var/games/klavaro to $XDG_USER_DATA_DIR/klavaro/ksc
 	 */
-	if (UNIX_OK)
-		path_score_old = g_strdup ("/var/games/klavaro");
-	else
-		path_score_old = g_build_filename ((g_get_system_data_dirs ())[0], PACKAGE, NULL);
 	path.score = g_build_filename (path.stats, "ksc", NULL);
 	if (!g_file_test (path.score, G_FILE_TEST_IS_DIR))
 	{
 		g_mkdir_with_parents (path.score, DIR_PERM);
-		kscdir = g_dir_open (path_score_old, 0, NULL);
-		if (kscdir)
-		{
-			while ((fname = (gchar *) g_dir_read_name (kscdir)))
-			{
-				if (!g_str_has_suffix (fname, ".ksc"))
-					continue;
-
-				tmp = g_build_filename (path_score_old, fname, NULL);
-				fh_from = g_fopen (tmp, "rb");
-				g_free (tmp);
-				if (!fh_from)
-					continue;
-
-				tmp = g_build_filename (path.score, fname, NULL);
-				fh_to = g_fopen (tmp, "wb");
-				g_free (tmp);
-				if (!fh_to)
-				{
-					fclose (fh_from);
-					continue;
-				}
-
-				// Copy from to
-				while ((chr = getc (fh_from)) != EOF)
-					putc (chr, fh_to);
-
-				fclose (fh_from);
-				fclose (fh_to);
-			}
-			g_dir_close (kscdir);
-		}
 	}
 	//g_message (path.score);
 

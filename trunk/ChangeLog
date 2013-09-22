@@ -1,6 +1,9 @@
-2013-09-?? Felipe Castro (-) <fefcas@gmail.com>
+2013-09-22 Felipe Castro (-) <fefcas@gmail.com>
 
 	* Release 2.00
+	* Changed:
+	- ru.paragraphs for practicing module fluidity in Russian.
+	- Not relocating very old paths to the "newer" ones.
 
 2013-08-31 Felipe Castro (-) <fefcas@gmail.com>
 
