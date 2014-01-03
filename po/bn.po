@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.1.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2013-11-21 07:19-0200\n"
+"POT-Creation-Date: 2014-01-03 15:15-0200\n"
 "PO-Revision-Date: 2008-11-05 16:51+0600\n"
 "Last-Translator: Md. Rezwan Shahid <rafi6047@yahoo.com>\n"
 "Language-Team: Bangla/Bengali <l10n@ankur.org.bd>\n"
@@ -506,6 +506,10 @@ msgstr "অন্যান্য ব্যবহারকারীদের স�
 msgid "_Top 10"
 msgstr "সেরা ১০"
 
+#: ../data/klavaro.desktop.in.h:2
+msgid "keyboard;typing;tutorial;"
+msgstr ""
+
 #: ../src/main.c:243
 msgid "(Custom)"
 msgstr ""
@@ -604,11 +608,11 @@ msgid "Score"
 msgstr "স্কোর"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:423 ../src/translation.c:489 ../src/tutor.c:1597
+#: ../src/translation.c:485 ../src/tutor.c:1597
 msgid "en"
 msgstr "bn"
 
-#: ../src/translation.c:576
+#: ../src/translation.c:572
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -619,7 +623,7 @@ msgstr ""
 "(key) চাপতে হবে। কীবোর্ডের হোম অবস্থান থেকে সঠিক অবস্থানে আঙ্গুল গুলো সরানো মনে "
 "রাখবেন (প্রধান মেনুতে নির্দেশনা দে‌‌‌‌‌‌‌‌‌‌‌‌‌খুন)।"
 
-#: ../src/translation.c:580
+#: ../src/translation.c:576
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -629,7 +633,7 @@ msgstr ""
 "[শিফট], এবং [এন্টার] কীগুলো সেখানে নাও দেখানো হতে পারে কারন সবাই জানে যে এগুলো "
 "খুব বেশি ব্যবহার করা হয়।"
 
-#: ../src/translation.c:583
+#: ../src/translation.c:579
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -637,7 +641,7 @@ msgstr ""
 "নিচের বার্তা লাইন আপনার স্পর্শ অনুসরন করে এবং  সেই অক্ষরটি দেখায়। যদি প্রয়োজন হয়, "
 "তাহলে এটি আপনার করনীয় পরিবর্তন করবে এবং এ সম্পর্কে নির্দেশনা দিবে।"
 
-#: ../src/translation.c:587
+#: ../src/translation.c:583
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -646,7 +650,7 @@ msgstr ""
 "এখানে আপনি অনুশীলন করতে পারবেন এবং সবগুলো কী (key) এর অবস্থান মুখস্থ করতে পারবেন। "
 "এতে কিছু অর্থ বিহীন শব্দ, মিশ্রিত অবস্থায় বিভিন্ন সংখ্যা এবং চিহ্ন থাকবে।"
 
-#: ../src/translation.c:590
+#: ../src/translation.c:586
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -656,7 +660,7 @@ msgstr ""
 "পারে। বাক্য ব্যবহার করে আসল শব্দের অনুশীলন করতে প্রধান মেনুর (দ্রুততা সম্পর্কে) ৪র্থ "
 "পছন্দ ব্যবহার করুন।"
 
-#: ../src/translation.c:594
+#: ../src/translation.c:590
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -664,7 +668,7 @@ msgstr ""
 "প্রত্যেক অনুশীলনীর শেষে, আপনার কর্মদক্ষতার একটি পরিসংখ্যান এবং এর সাথে সম্পর্কিত "
 "মন্তব্য আপনাকে দেখানো হবে।"
 
-#: ../src/translation.c:598
+#: ../src/translation.c:594
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -672,7 +676,7 @@ msgstr ""
 "এই অনুশীলনটিও দ্বিতীয় অনুশীলনটির মত, খাপ খাওয়ানোর জন্য। পার্থক্য হলো এখানে আপনাকে "
 "প্রকৃত শব্দসমূহ টাইপ করতে হবে।"
 
-#: ../src/translation.c:601
+#: ../src/translation.c:597
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -682,7 +686,7 @@ msgstr ""
 "কোনো টেক্সট নির্বাচন করতে পারবেন। উপরের 'অণ্য' অপশনটি চাপুন এবং ওই টেক্সটসমূহ "
 "ধারণকারী ফাইলগুলো যুক্ত করুন।"
 
-#: ../src/translation.c:605
+#: ../src/translation.c:601
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -690,7 +694,7 @@ msgstr ""
 "এই অনুশীলনের উদ্দেশ্য হলো গতি। তাই, আপনাকে খুব  দ্রুত টাইপ করতে হবে এবং কেবলমাত্র "
 "তখনই আমি আপনাকে সাধুবাদ জানাবো যখন আপনি এটির যোগ্যতা অর্জন করবেন!"
 
-#: ../src/translation.c:609
+#: ../src/translation.c:605
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -702,7 +706,7 @@ msgstr ""
 "অনুশীলনগুলো করে থাকেন, তাহলে এতে আপনার কোন রকম অসুবিধা হওয়ার কথা না যেহেতু "
 "টেক্সটকে না বুঝে এবং গবেযনা না করে টাইপ করার অভ্যাস আপনার হয়ে গিয়েছে।"
 
-#: ../src/translation.c:613
+#: ../src/translation.c:609
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -717,7 +721,7 @@ msgstr ""
 "অর্থের দিকে মনোযোগ দিতে পারবেন।"
 
 #. English typo: minimun -> minimum
-#: ../src/translation.c:618
+#: ../src/translation.c:614
 #, fuzzy
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
@@ -1080,7 +1084,7 @@ msgstr ""
 " ঠিক আছে, এবার হয়েছে!\n"
 " পরবর্তী শিক্ষাতে যান।\n"
 
-#: ../src/adaptability.c:217
+#: ../src/adaptability.c:221
 msgid ""
 " Your accuracy rate is below 90%...\n"
 " Could you please try again to improve it?\n"
@@ -1088,7 +1092,7 @@ msgstr ""
 " আপনার নির্ভুলতার মাত্রা ৯০% এর নিচে...\n"
 " আপনি কি অনুগ্রহ করে এর উন্নতি করার চেষ্টা করবেন?\n"
 
-#: ../src/adaptability.c:222
+#: ../src/adaptability.c:226
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach 95%?\n"
@@ -1096,7 +1100,7 @@ msgstr ""
 " আপনি ভালো করছেন। কিন্তু...\n"
 " আপনি কি নির্ভুলতার মাত্রা ৯৫% এ নিতে পারেন?\n"
 
-#: ../src/adaptability.c:225
+#: ../src/adaptability.c:229
 #, fuzzy, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -1107,7 +1111,7 @@ msgstr ""
 " আরো কয়েকবার চেষ্টা করুন, অথবা আপনি হয়তো বিষন্ন হয়ে পরছেন, তাই অন্য ধরনের "
 "অনুশীলন এ যান।\n"
 
-#: ../src/adaptability.c:232
+#: ../src/adaptability.c:236
 #, fuzzy, c-format
 msgid ""
 " Very good!\n"

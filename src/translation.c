@@ -348,9 +348,8 @@ trans_init_language_env ()
 	if (lang_ok == FALSE)
 	{
 		g_free (tmp_code);
-		//tmp_code = g_strdup ("eo");
 		tmp_code = g_strdup ("C");
-		g_message ("as your prefered locales aren't available, "
+		g_message ("as your preferred locale isn't available, "
 			       "we are using this neutral one: \"%s\"", tmp_code);
 	}
 

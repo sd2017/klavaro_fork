@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-1.9.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2013-11-21 07:19-0200\n"
+"POT-Creation-Date: 2014-01-03 15:15-0200\n"
 "PO-Revision-Date: 2013-05-14 11:47-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
@@ -461,6 +461,10 @@ msgstr "Montri lokan kaj eksteran poentaron de aliaj uzuloj."
 msgid "_Top 10"
 msgstr "_10 Plej"
 
+#: ../data/klavaro.desktop.in.h:2
+msgid "keyboard;typing;tutorial;"
+msgstr ""
+
 #: ../src/main.c:243
 msgid "(Custom)"
 msgstr "(Propra)"
@@ -557,11 +561,11 @@ msgid "Score"
 msgstr "Poentaro"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:423 ../src/translation.c:489 ../src/tutor.c:1597
+#: ../src/translation.c:485 ../src/tutor.c:1597
 msgid "en"
 msgstr "eo"
 
-#: ../src/translation.c:576
+#: ../src/translation.c:572
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -573,7 +577,7 @@ msgstr ""
 "konforme al la ripoza pozicio sur la klavaro (legu la enkondukon el la ĉefa "
 "menuo)."
 
-#: ../src/translation.c:580
+#: ../src/translation.c:576
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -583,7 +587,7 @@ msgstr ""
 "strio. La klavoj [Spaco], [Levigo] kaj [Enigo] ne montriĝos tie, tamen oni "
 "scias, ke ili estas ofte uzataj."
 
-#: ../src/translation.c:583
+#: ../src/translation.c:579
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -591,7 +595,7 @@ msgstr ""
 "La malsupra mesaĝo-strio ripetigas viajn klav-tuŝojn. Laŭnecese ĝi ŝanĝiĝos "
 "montrante instrukcion, kiu postulas iun agon de vi."
 
-#: ../src/translation.c:587
+#: ../src/translation.c:583
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -601,7 +605,7 @@ msgstr ""
 "Estos prezentataj frazoj sensence kunmetitaj per ordinaraj vortoj kaj per "
 "miksinte kelkajn numerojn kaj simbolojn."
 
-#: ../src/translation.c:590
+#: ../src/translation.c:586
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -611,7 +615,7 @@ msgstr ""
 "klavar-aranĝo. Por trejni per frazoj kun realaj vortoj, uzu la 4-an opcion "
 "el la ĉefa menuo (pri flueco)."
 
-#: ../src/translation.c:594
+#: ../src/translation.c:590
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -619,7 +623,7 @@ msgstr ""
 "Je la fino de ĉiu ekzerco, montriĝos mallonga statistika resumo pri via "
 "lerteco, kune kun iuj konsiderindaj komentoj."
 
-#: ../src/translation.c:598
+#: ../src/translation.c:594
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -627,7 +631,7 @@ msgstr ""
 "Tiu ĉi ekzerco tre similas al tiu dua, por adapteco. La diferenco estas: tie "
 "ĉi vi tajpos realajn vortojn el via propra lingvo."
 
-#: ../src/translation.c:601
+#: ../src/translation.c:597
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -637,7 +641,7 @@ msgstr ""
 "alia teksto enhavantan vortojn, kiujn vi dezirus uzi. Por tio, premu la "
 "supran opcion 'Alia' kaj aldonu dosieron enhavantan tiujn vortojn."
 
-#: ../src/translation.c:605
+#: ../src/translation.c:601
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -645,7 +649,7 @@ msgstr ""
 "Dume mi kontrolos vian rapidecon. Do, vi strebu tajpi vere rapide tiel, ke "
 "mi povu sincere flati vin."
 
-#: ../src/translation.c:609
+#: ../src/translation.c:605
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -658,7 +662,7 @@ msgstr ""
 "ekzercojn, tiel vi ne sentos iajn ajn malfacilecojn, supozeble ke vi "
 "kutimiĝis al tajpadi ne interpretante kaj ne analizante."
 
-#: ../src/translation.c:613
+#: ../src/translation.c:609
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -674,7 +678,7 @@ msgstr ""
 "via atento povos turniĝi al la signifo mem."
 
 #. English typo: minimun -> minimum
-#: ../src/translation.c:618
+#: ../src/translation.c:614
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -1026,7 +1030,7 @@ msgstr ""
 " Tutcerte, nun vi sukcesis!\n"
 " Iru al la sekva leciono.\n"
 
-#: ../src/adaptability.c:217
+#: ../src/adaptability.c:221
 msgid ""
 " Your accuracy rate is below 90%...\n"
 " Could you please try again to improve it?\n"
@@ -1034,7 +1038,7 @@ msgstr ""
 " Via korekteco estas pli malalta ol 90%...\n"
 " Ĉu vi povus provi refoje plibonigi ĝin?\n"
 
-#: ../src/adaptability.c:222
+#: ../src/adaptability.c:226
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach 95%?\n"
@@ -1042,7 +1046,7 @@ msgstr ""
 " Vi iras bone. Sed...\n"
 " Ĉu vi povus plialtigi la korektecon al 95%?\n"
 
-#: ../src/adaptability.c:225
+#: ../src/adaptability.c:229
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -1053,7 +1057,7 @@ msgstr ""
 " Reprovu iomete plifoje, aŭ eble vi ekenuas, do iru al alia tipo de "
 "ekzerco.\n"
 
-#: ../src/adaptability.c:232
+#: ../src/adaptability.c:236
 #, c-format
 msgid ""
 " Very good!\n"

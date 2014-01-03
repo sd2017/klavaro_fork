@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.4-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2013-11-21 07:19-0200\n"
+"POT-Creation-Date: 2014-01-03 15:15-0200\n"
 "PO-Revision-Date: 2012-01-18 16:30+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
@@ -462,6 +462,10 @@ msgstr "Helyi és távoli felhasználók pontszámainak megjelenítése."
 msgid "_Top 10"
 msgstr "_Top 10"
 
+#: ../data/klavaro.desktop.in.h:2
+msgid "keyboard;typing;tutorial;"
+msgstr ""
+
 #: ../src/main.c:243
 msgid "(Custom)"
 msgstr "(Egyéni)"
@@ -558,11 +562,11 @@ msgid "Score"
 msgstr "Eredmény"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:423 ../src/translation.c:489 ../src/tutor.c:1597
+#: ../src/translation.c:485 ../src/tutor.c:1597
 msgid "en"
 msgstr "hu"
 
-#: ../src/translation.c:576
+#: ../src/translation.c:572
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -573,7 +577,7 @@ msgstr ""
 "üsd le a megfelelő billentyűt. Tartsd az ujjaid mindig a billentyűzet "
 "alapsorán (lásd a bevezetőt a főmenüben)."
 
-#: ../src/translation.c:580
+#: ../src/translation.c:576
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -583,7 +587,7 @@ msgstr ""
 "felsorolva. A [Szóköz], a [Shift] és az [Enter] billentyűk nem jelennek meg, "
 "ám azokat is gyakran használjuk."
 
-#: ../src/translation.c:583
+#: ../src/translation.c:579
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -591,7 +595,7 @@ msgstr ""
 "A lenti üzenetsor követi és kiírja, amit gépelsz. Szükség esetén "
 "megváltozik, és tájékoztat az aktuális tennivalókról."
 
-#: ../src/translation.c:587
+#: ../src/translation.c:583
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -601,7 +605,7 @@ msgstr ""
 "elhelyezkedését. Értelmetlen szavakból, számokból és jelekből álló "
 "sorozatokat kell majd gépelned."
 
-#: ../src/translation.c:590
+#: ../src/translation.c:586
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -612,7 +616,7 @@ msgstr ""
 "gyakorlásához válaszd a negyedik lehetőséget a főmenüben (a "
 "folyamatosságról)."
 
-#: ../src/translation.c:594
+#: ../src/translation.c:590
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -620,7 +624,7 @@ msgstr ""
 "Minden gyakorlat végén láthatsz egy rövid statisztikát a teljesítményedről, "
 "néhány vonatkozó megjegyzéssel kiegészítve."
 
-#: ../src/translation.c:598
+#: ../src/translation.c:594
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -628,7 +632,7 @@ msgstr ""
 "Ez a gyakorlat nagyon hasonlít a második, készségfejlesztő gyakorlathoz. A "
 "különbség, hogy itt értelmes szavakat fogsz gépelni."
 
-#: ../src/translation.c:601
+#: ../src/translation.c:597
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -638,7 +642,7 @@ msgstr ""
 "választhatsz más, gépelendő szavakat tartalmazó szövegeket is. Nyomd meg az "
 "„Egyéb” gombot, és válaszd ki a szövegeket tartalmazó fájlokat."
 
-#: ../src/translation.c:605
+#: ../src/translation.c:601
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -646,7 +650,7 @@ msgstr ""
 "Ebben a leckében a gyorsaságra koncentrálunk. Tehát igazán gyorsan kell "
 "gépelned, ha ki akarod érdemelni a dicséretet."
 
-#: ../src/translation.c:609
+#: ../src/translation.c:605
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -657,7 +661,7 @@ msgstr ""
 "Ez elvonhatja a figyelmed, ha megpróbálod megérteni, amit írsz. A korábbi "
 "gyakorlatok célja a tartalom értelmezése és elemzése nélküli gépelése volt."
 
-#: ../src/translation.c:613
+#: ../src/translation.c:609
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -673,7 +677,7 @@ msgstr ""
 "a szöveg értelmére is lehet koncentrálni."
 
 #. English typo: minimun -> minimum
-#: ../src/translation.c:618
+#: ../src/translation.c:614
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -1027,7 +1031,7 @@ msgstr ""
 " Folytasd a következő leckével.\n"
 
 # konyvjelzo
-#: ../src/adaptability.c:217
+#: ../src/adaptability.c:221
 msgid ""
 " Your accuracy rate is below 90%...\n"
 " Could you please try again to improve it?\n"
@@ -1035,7 +1039,7 @@ msgstr ""
 " A pontosságod 90% alatt volt…\n"
 " Megpróbálnád ismét, hogy jobban menjen?\n"
 
-#: ../src/adaptability.c:222
+#: ../src/adaptability.c:226
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach 95%?\n"
@@ -1043,7 +1047,7 @@ msgstr ""
 " Jól csinálod. Csak…\n"
 " El tudnád érni a 95%-os pontosságot?\n"
 
-#: ../src/adaptability.c:225
+#: ../src/adaptability.c:229
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -1054,7 +1058,7 @@ msgstr ""
 " Próbáld még párszor, vagy ha kezd bosszantani, csinálj inkább más "
 "gyakorlatokat.\n"
 
-#: ../src/adaptability.c:232
+#: ../src/adaptability.c:236
 #, c-format
 msgid ""
 " Very good!\n"
