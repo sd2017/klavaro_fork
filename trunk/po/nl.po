@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.5-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2013-11-21 07:19-0200\n"
+"POT-Creation-Date: 2014-01-03 15:15-0200\n"
 "PO-Revision-Date: 2012-06-05 15:42+0200\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -467,6 +467,10 @@ msgstr "Lokale en externe scores van andere gebruikers tonen."
 msgid "_Top 10"
 msgstr "_Top 10"
 
+#: ../data/klavaro.desktop.in.h:2
+msgid "keyboard;typing;tutorial;"
+msgstr ""
+
 #: ../src/main.c:243
 msgid "(Custom)"
 msgstr "(aangepast)"
@@ -566,11 +570,11 @@ msgid "Score"
 msgstr "Score"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:423 ../src/translation.c:489 ../src/tutor.c:1597
+#: ../src/translation.c:485 ../src/tutor.c:1597
 msgid "en"
 msgstr "nl"
 
-#: ../src/translation.c:576
+#: ../src/translation.c:572
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -582,7 +586,7 @@ msgstr ""
 "je handen op de basisrij van het toetsenbord te houden (zie de Inleiding in "
 "het hoofdmenu)."
 
-#: ../src/translation.c:580
+#: ../src/translation.c:576
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -592,7 +596,7 @@ msgstr ""
 "getoond. Het kan zijn dat de [Spatie]-, [Shift]- en [Enter]-toetsen daar "
 "niet verschijnen maar toch vaak gebruikt worden."
 
-#: ../src/translation.c:583
+#: ../src/translation.c:579
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -600,7 +604,7 @@ msgstr ""
 "De berichtenregel onderaan geeft de toetsen weer die je indrukte. Indien "
 "nodig toont het instructies voor vereiste acties."
 
-#: ../src/translation.c:587
+#: ../src/translation.c:583
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -610,7 +614,7 @@ msgstr ""
 "zinnen worden getoond met niet-bestaande woorden en enkele cijfers en "
 "symbolen."
 
-#: ../src/translation.c:590
+#: ../src/translation.c:586
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -620,7 +624,7 @@ msgstr ""
 "met accenten waarschijnlijk niet verschijnen. Gebruik voor echte zinnen de "
 "vierde optie van het hoofdmenu (Vloeiendheid)."
 
-#: ../src/translation.c:594
+#: ../src/translation.c:590
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -628,7 +632,7 @@ msgstr ""
 "Na elke oefening zal een kort statistisch overzicht van je prestaties "
 "getoond worden, samen met enkele relevante commentaren."
 
-#: ../src/translation.c:598
+#: ../src/translation.c:594
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -636,7 +640,7 @@ msgstr ""
 "Deze oefening is vergelijkbaar met de tweede (Flexibiliteit). Het verschil "
 "is dat je hier bestaande woorden zult typen."
 
-#: ../src/translation.c:601
+#: ../src/translation.c:597
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -646,7 +650,7 @@ msgstr ""
 "selecteren met woorden die je graag zou oefenen. Klik op de keuze 'Overig' "
 "bovenaan om bestanden toe te voegen die de gewenste tekst bevatten."
 
-#: ../src/translation.c:605
+#: ../src/translation.c:601
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -654,7 +658,7 @@ msgstr ""
 "Bij deze oefening ligt de nadruk op snelheid. Het is dus de bedoeling om zo "
 "snel mogelijk te typen; ik zal je enkel vleien wanneer je het verdient!"
 
-#: ../src/translation.c:609
+#: ../src/translation.c:605
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -666,7 +670,7 @@ msgstr ""
 "begrijpen wat je typt. De voorgaande oefeningen waren erop gericht om je te "
 "leren typen zonder de inhoud te analyseren en te interpreteren."
 
-#: ../src/translation.c:613
+#: ../src/translation.c:609
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -683,7 +687,7 @@ msgstr ""
 "vereisen. Dan zul je aandacht kunnen besteden aan de betekenis van de tekst."
 
 #. English typo: minimun -> minimum
-#: ../src/translation.c:618
+#: ../src/translation.c:614
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -1038,7 +1042,7 @@ msgstr ""
 " Goed zo, je begrijpt het!\n"
 " Ga naar de volgende les.\n"
 
-#: ../src/adaptability.c:217
+#: ../src/adaptability.c:221
 msgid ""
 " Your accuracy rate is below 90%...\n"
 " Could you please try again to improve it?\n"
@@ -1046,7 +1050,7 @@ msgstr ""
 " Je nauwkeurigheid is minder dan 90%...\n"
 " Wil je het opnieuw proberen om het te verbeteren?\n"
 
-#: ../src/adaptability.c:222
+#: ../src/adaptability.c:226
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach 95%?\n"
@@ -1054,7 +1058,7 @@ msgstr ""
 " Je doet het goed. Maar...\n"
 " Kun je je nauwkeurigheid op zijn minst 95% krijgen?\n"
 
-#: ../src/adaptability.c:225
+#: ../src/adaptability.c:229
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -1065,7 +1069,7 @@ msgstr ""
 " Probeer het nog een paar keer opnieuw, of ga naar een ander soort oefening "
 "als je er genoeg van hebt. \n"
 
-#: ../src/adaptability.c:232
+#: ../src/adaptability.c:236
 #, c-format
 msgid ""
 " Very good!\n"

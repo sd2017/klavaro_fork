@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Klavaro
 _Comment=Yet another touch typing tutor
+_Keywords=keyboard;typing;tutorial;
 
 Exec=klavaro
 Icon=klavaro

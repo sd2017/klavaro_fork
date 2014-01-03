@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-1.9.0-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2013-11-21 07:19-0200\n"
+"POT-Creation-Date: 2014-01-03 15:15-0200\n"
 "PO-Revision-Date: 2011-03-26 13:19+0100\n"
 "Last-Translator: Axel Bojer <axelb@skolelinux.no>\n"
 "Language-Team: Norwegian Bokmaal <i18n-nb@lister.ping.uio.no>\n"
@@ -462,6 +462,10 @@ msgstr "Vis lokale og eksterne poeng fra andre brukere."
 msgid "_Top 10"
 msgstr "_Ti på topp"
 
+#: ../data/klavaro.desktop.in.h:2
+msgid "keyboard;typing;tutorial;"
+msgstr ""
+
 #: ../src/main.c:243
 msgid "(Custom)"
 msgstr "(Selvvalgt)"
@@ -558,11 +562,11 @@ msgid "Score"
 msgstr "Poeng"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:423 ../src/translation.c:489 ../src/tutor.c:1597
+#: ../src/translation.c:485 ../src/tutor.c:1597
 msgid "en"
 msgstr "nb"
 
-#: ../src/translation.c:576
+#: ../src/translation.c:572
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -574,7 +578,7 @@ msgstr ""
 "hendene rett plassert på ledetastene på tastaturet (se introduksjonen i "
 "hovedmenyen)."
 
-#: ../src/translation.c:580
+#: ../src/translation.c:576
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -584,7 +588,7 @@ msgstr ""
 "ovenfor. Tastene [Mellomrom], [Shift] og [Return] blir kanskje ikke vist, "
 "men brukes ganske ofte."
 
-#: ../src/translation.c:583
+#: ../src/translation.c:579
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -592,7 +596,7 @@ msgstr ""
 "Meldingslinja nedenfor følger og gjentar dine inntastinger. Hvis det trengs, "
 "så endrer den seg og viser instruksjoner for de handlingene du skal utføre."
 
-#: ../src/translation.c:587
+#: ../src/translation.c:583
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -602,7 +606,7 @@ msgstr ""
 "på tastaturet. Du vil få se setninger med meningsløse ord som også "
 "inneholder tall og symboler."
 
-#: ../src/translation.c:590
+#: ../src/translation.c:586
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -613,7 +617,7 @@ msgstr ""
 "med aksenttegn. For å øve med ordentlige ord og setninger, se de andre "
 "valgene i hovedmenyen (om flyt)."
 
-#: ../src/translation.c:594
+#: ../src/translation.c:590
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -621,7 +625,7 @@ msgstr ""
 "Etter hver øvelse vil du få en kort statistikk over din framgang, sammen med "
 "noen passende kommentarer."
 
-#: ../src/translation.c:598
+#: ../src/translation.c:594
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -629,7 +633,7 @@ msgstr ""
 "Denne øvelsen er veldig lik nummer to, for tilpasningsevne. Forskellen er at "
 "du her skriver ordentlige ord."
 
-#: ../src/translation.c:601
+#: ../src/translation.c:597
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -639,7 +643,7 @@ msgstr ""
 "du også velge en hvilken som helst annen tekst med ord om du vil. Trykk på "
 "«Andre tekster» ovenfor og legg til filer med den teksten du vil øve på."
 
-#: ../src/translation.c:605
+#: ../src/translation.c:601
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -647,7 +651,7 @@ msgstr ""
 "I denne øvelsen fokuseres det på hastighet. Så det forventes at du taster "
 "virkelig raskt og du vil få ros når du fortjener det!"
 
-#: ../src/translation.c:609
+#: ../src/translation.c:605
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -659,7 +663,7 @@ msgstr ""
 "tidligere øvelsene hadde som mål å få deg til å skrive uten å fortolke og "
 "analysere innholdet."
 
-#: ../src/translation.c:613
+#: ../src/translation.c:609
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -675,7 +679,7 @@ msgstr ""
 "konsentrasjon. Da kan du rette oppmerksomheten mot tekstinnholdet."
 
 #. English typo: minimun -> minimum
-#: ../src/translation.c:618
+#: ../src/translation.c:614
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -1031,7 +1035,7 @@ msgstr ""
 " Nå har du det!\n"
 " Gå til den neste leksjonen.\n"
 
-#: ../src/adaptability.c:217
+#: ../src/adaptability.c:221
 msgid ""
 " Your accuracy rate is below 90%...\n"
 " Could you please try again to improve it?\n"
@@ -1039,7 +1043,7 @@ msgstr ""
 " Du skriver under 90 % rett ...\n"
 " Kunne du prøve å forbedre dette?\n"
 
-#: ../src/adaptability.c:222
+#: ../src/adaptability.c:226
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach 95%?\n"
@@ -1047,7 +1051,7 @@ msgstr ""
 " Du klarer deg godt. Men ...\n"
 " Kan du klare minst 95 % rett?\n"
 
-#: ../src/adaptability.c:225
+#: ../src/adaptability.c:229
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -1058,7 +1062,7 @@ msgstr ""
 " Prøv et par ganger til, eller hvis du er litt urolig, så prøv med en annen "
 "øvelse.\n"
 
-#: ../src/adaptability.c:232
+#: ../src/adaptability.c:236
 #, c-format
 msgid ""
 " Very good!\n"

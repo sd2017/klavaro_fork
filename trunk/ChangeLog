@@ -1,3 +1,12 @@
+2014-??-??  Felipe Castro (-) <fefcas@gmail.com>;
+
+	* Release ?.??
+	* Fixed:
+	- Typo: prefered --> preferred
+	- manpage: minus as hyphen corrected with escapes (\-)
+	* Added:
+	- Keywords in the .desktop file.
+
 2014-01-03  Felipe Castro (-) <fefcas@gmail.com>; gettextize (=)
 
 	* Release 2.01

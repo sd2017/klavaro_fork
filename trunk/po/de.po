@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.5-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2013-11-21 07:19-0200\n"
+"POT-Creation-Date: 2014-01-03 15:15-0200\n"
 "PO-Revision-Date: 2012-06-03 20:09+0200\n"
 "Last-Translator: Hermann J. Beckers <hj.beckers@onlinehome.de>\n"
 "Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
@@ -475,6 +475,10 @@ msgstr "Zeige lokale und externe Punktestände anderer Benutzer."
 msgid "_Top 10"
 msgstr "_Top 10"
 
+#: ../data/klavaro.desktop.in.h:2
+msgid "keyboard;typing;tutorial;"
+msgstr ""
+
 #: ../src/main.c:243
 msgid "(Custom)"
 msgstr "(angepasst)"
@@ -571,11 +575,11 @@ msgid "Score"
 msgstr "Werte"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:423 ../src/translation.c:489 ../src/tutor.c:1597
+#: ../src/translation.c:485 ../src/tutor.c:1597
 msgid "en"
 msgstr "de"
 
-#: ../src/translation.c:576
+#: ../src/translation.c:572
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -587,7 +591,7 @@ msgstr ""
 "Position der Finger auf der Startposition auf der Tastatur (s. Einführung im "
 "Hauptmenü)."
 
-#: ../src/translation.c:580
+#: ../src/translation.c:576
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -597,7 +601,7 @@ msgstr ""
 "gezeigt. Die [Leer]-, [Umschalt]- und [Eingabe]-Tasten werden nicht "
 "angezeigt, aber sie werden oft benutzt."
 
-#: ../src/translation.c:583
+#: ../src/translation.c:579
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -605,7 +609,7 @@ msgstr ""
 "Die untere Nachrichtenzeile folgt Ihren Eingaben. Falls erforderlich, "
 "wechselt sie und gibt Ihnen Hinweise auf eine von Ihnen erwartete Aktion."
 
-#: ../src/translation.c:587
+#: ../src/translation.c:583
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -614,7 +618,7 @@ msgstr ""
 "Hier üben Sie und merken Sie sich die Position aller Tasten. Es werden Sätze "
 "mit unsinnigen Worten angezeigt, gemischt mit einigen Zahlen und Symbolen."
 
-#: ../src/translation.c:590
+#: ../src/translation.c:586
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -624,7 +628,7 @@ msgstr ""
 "der Tastaturbelegung zu bleiben. Zum Üben von Sätzen mit richtigen Worten "
 "benutzen Sie bitte die 4. Option des Hauptmenüs (über Schreibflüssigkeit)."
 
-#: ../src/translation.c:594
+#: ../src/translation.c:590
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -632,7 +636,7 @@ msgstr ""
 "Am Ende jeder Übung wird eine kurze Statistik über Ihre Leistung angezeigt, "
 "zusammen mit einigen relevanten Kommentaren."
 
-#: ../src/translation.c:598
+#: ../src/translation.c:594
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -640,7 +644,7 @@ msgstr ""
 "Diese Übung ist der zweiten Übung zur Anpaßbarkeit sehr ähnlich. Der "
 "Unterschied: Nun üben Sie richtige Worte in Ihrer Sprache."
 
-#: ../src/translation.c:601
+#: ../src/translation.c:597
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -651,7 +655,7 @@ msgstr ""
 "möchten. Wählen Sie die Option 'Andere' und fügen Sie Dateien mit diesen "
 "Texten hinzu."
 
-#: ../src/translation.c:605
+#: ../src/translation.c:601
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -660,7 +664,7 @@ msgstr ""
 "wirklich schnell schreiben und ich werde nur schmeichelhaft sein, wenn Sie "
 "es verdient haben."
 
-#: ../src/translation.c:609
+#: ../src/translation.c:605
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -672,7 +676,7 @@ msgstr ""
 "zu verstehen. Die bisherigen Übungen zielten darauf ab, Sie ohne "
 "Interpretation und Analyse des Textes zum Schreiben zu bringen."
 
-#: ../src/translation.c:613
+#: ../src/translation.c:609
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -689,7 +693,7 @@ msgstr ""
 "auf den Text-Inhalt richten."
 
 #. English typo: minimun -> minimum
-#: ../src/translation.c:618
+#: ../src/translation.c:614
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -1050,7 +1054,7 @@ msgstr ""
 " In Ordnung, nun haben Sie es geschafft!\n"
 " Gehen Sie zur nächsten Lektion.\n"
 
-#: ../src/adaptability.c:217
+#: ../src/adaptability.c:221
 msgid ""
 " Your accuracy rate is below 90%...\n"
 " Could you please try again to improve it?\n"
@@ -1058,7 +1062,7 @@ msgstr ""
 " Ihre Genauigkeit liegt unter 90 % ...\n"
 " Würden Sie es zur Verbesserung erneut versuchen?\n"
 
-#: ../src/adaptability.c:222
+#: ../src/adaptability.c:226
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach 95%?\n"
@@ -1066,7 +1070,7 @@ msgstr ""
 " Sie machen es gut. Aber ...\n"
 " Können Sie eine Genauigkeit von mindestens 95 % erreichen?\n"
 
-#: ../src/adaptability.c:225
+#: ../src/adaptability.c:229
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -1078,7 +1082,7 @@ msgstr ""
 " Versuchen Sie es noch mehrmals, oder falls Sie aufgeregt sind, führen Sie "
 "eine andere Übung durch.\n"
 
-#: ../src/adaptability.c:232
+#: ../src/adaptability.c:236
 #, c-format
 msgid ""
 " Very good!\n"
