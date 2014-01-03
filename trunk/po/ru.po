@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.5-pre2\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-15 10:38-0300\n"
+"Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2013-11-21 07:19-0200\n"
 "PO-Revision-Date: 2012-11-12 22:13+0300\n"
 "Last-Translator: Pavel Maryanov <acid@jack.kiev.ua>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
@@ -19,424 +19,53 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../data/klavaro.desktop.in.h:1 ../data/klavaro.glade.h:59
-msgid "Yet another touch typing tutor"
-msgstr "Ещё один клавиатурный тренажёр"
-
 #: ../data/klavaro.glade.h:1
-msgid "Klavaro - Main menu"
-msgstr "Klavaro: главное меню"
-
-#: ../data/klavaro.glade.h:2
-msgid "Don't be shy about learning the basics!"
-msgstr "Не бойтесь начать обучение «с нуля»"
-
-#: ../data/klavaro.glade.h:3
-msgid "Learn how to type correctly"
-msgstr "Научитесь печатать правильно"
-
-#: ../data/klavaro.glade.h:4
-msgid "Initial training for your fingers."
-msgstr "Начальная тренировка для пальцев"
-
-#: ../data/klavaro.glade.h:5
-msgid "First steps with initial training"
-msgstr "Первый шаг — начальная тренировка"
-
-#: ../data/klavaro.glade.h:6
-msgid "Memorizing the keyboard practicing random keys exercises."
-msgstr "Запоминайте клавиатуру, выполняя упражнения со случайными клавишами"
-
-#: ../data/klavaro.glade.h:7
-msgid "Practice with random keys"
-msgstr "Практика со случайными клавишами"
-
-#. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:9
-msgid "Accelerating the touches practicing random words exercises."
-msgstr "Наращивайте скорость, практикуясь в наборе случайных слов"
-
-#: ../data/klavaro.glade.h:10
-msgid "Practice with random words"
-msgstr "Практика со случайными словами"
-
-#: ../data/klavaro.glade.h:11
-msgid "Becoming proficient practicing complete paragraphs exercises."
-msgstr "Повышайте мастерство, практикуясь в наборе целых абзацев"
-
-#: ../data/klavaro.glade.h:12
-msgid "Practice with complete texts"
-msgstr "Практика с объёмными текстами"
-
-#: ../data/klavaro.glade.h:13
-msgid ""
-"Keyboard layout for modules 1 and 2. Also used informatively in the "
-"fluidness contest."
-msgstr ""
-"Раскладка клавиатуры для модулей 1 и 2. Используется также в обучении "
-"плавности набора."
-
-#: ../data/klavaro.glade.h:14
-msgid "_Keyboard:"
-msgstr "_Клавиатура:"
-
-#: ../data/klavaro.glade.h:15
-msgid "Language for modules 3 and 4."
-msgstr "Язык для модулей 3 и 4"
-
-#: ../data/klavaro.glade.h:16
-msgid "_Language:"
-msgstr "_Язык:"
-
-#: ../data/klavaro.glade.h:17
-msgid "Variant"
-msgstr "Вариант"
-
-#: ../data/klavaro.glade.h:18
-msgid "Klavaro"
-msgstr "Klavaro"
-
-#: ../data/klavaro.glade.h:19
-msgid "Country / Custom"
-msgstr "Выберите свою страну"
-
-#: ../data/klavaro.glade.h:20
-msgid "Your language here."
-msgstr "Выберите свой язык"
-
-#: ../data/klavaro.glade.h:21
-msgid "Speech"
-msgstr "Речь"
-
-#: ../data/klavaro.glade.h:22
-msgid "Little tip about this program."
-msgstr "Небольшой совет по использованию программы"
-
-#: ../data/klavaro.glade.h:23
-msgid "_Help"
-msgstr "_Справка"
-
-#: ../data/klavaro.glade.h:24
-msgid "General information about the program."
-msgstr "Общие сведения об этой программе"
-
-#: ../data/klavaro.glade.h:25
-msgid "_About..."
-msgstr "О прогр_амме..."
-
-#: ../data/klavaro.glade.h:26
-msgid "Exit the application immediately."
-msgstr "Закрыть приложение"
-
-#: ../data/klavaro.glade.h:27
-msgid "_Close"
-msgstr "_Закрыть"
-
-#: ../data/klavaro.glade.h:28
-msgid "Load other exercises/lessons"
-msgstr "Загрузить другой курс/упражнение"
-
-#: ../data/klavaro.glade.h:29
-msgid "_Other texts"
-msgstr "_Другой текст"
-
-#: ../data/klavaro.glade.h:30
-msgid "_Lesson:"
-msgstr "_Урок:"
-
-#: ../data/klavaro.glade.h:31
-msgid "Edit the character set to be used in this lesson."
-msgstr "Редактировать набор символов для использования в этом уроке"
-
-#: ../data/klavaro.glade.h:32
-msgid "Edit the character set to be used in lessons 44 through 50."
-msgstr "Редактировать набор символов для использования в уроках с 44 по 50"
-
-#: ../data/klavaro.glade.h:33
-msgid "This is a specific exercise, adjusted to your error profile."
-msgstr "Это специальное упражнение, основанное на вашем профиле ошибок"
-
-#: ../data/klavaro.glade.h:34 ../src/tutor.c:252
-msgid "Drag and drop text here to practice with it."
-msgstr "Перетащите сюда текст, чтобы попрактиковаться с ним"
-
-#: ../data/klavaro.glade.h:35
-msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-msgstr "Нажмите здесь для перезапуска упражнения. Быстрый вызов: [CTRL+R]"
-
-#: ../data/klavaro.glade.h:36
-msgid "Show the virtual keyboard and the relation between fingers and keys."
-msgstr "Показать виртуальную клавиатуру и связь пальцев и клавиш"
-
-#: ../data/klavaro.glade.h:37
-msgid "_Keyboard"
-msgstr "_Клавиатура"
-
-#: ../data/klavaro.glade.h:38
-msgid "Select the font to be used in the exercise window."
-msgstr "Выбор шрифта для упражнения"
-
-#: ../data/klavaro.glade.h:39
-msgid "_Font"
-msgstr "_Шрифт"
-
-#: ../data/klavaro.glade.h:40
-msgid "Keep this checked if you want to get those nice beeps."
-msgstr "Если эта кнопка не нажата, звуки будут отключены"
-
-#: ../data/klavaro.glade.h:41
-msgid "_Beep"
-msgstr "_Сигнал"
-
-#: ../data/klavaro.glade.h:42
-msgid "Co_urse information"
-msgstr "Сведения о к_урсе"
-
-#: ../data/klavaro.glade.h:43
-msgid "Charts showing the learning progress along the exercises."
-msgstr "Диаграммы со статистикой обучения в упражнениях"
-
-#: ../data/klavaro.glade.h:44
-msgid "_Progress"
-msgstr "_Статистика"
-
-#: ../data/klavaro.glade.h:45
-msgid "Show local and external scores from other users."
-msgstr "Показать локальные и внешние очки других пользователей"
-
-#: ../data/klavaro.glade.h:46
-msgid "_Top 10"
-msgstr "_Десятка лучших"
-
-#: ../data/klavaro.glade.h:47
-msgid "Return to the main menu."
-msgstr "Возврат в главное меню"
-
-#: ../data/klavaro.glade.h:48
-msgid "B_ack to menu"
-msgstr "_Главное меню"
-
-#: ../data/klavaro.glade.h:49
-msgid "Close this window."
-msgstr "Закрыть это окно"
-
-#: ../data/klavaro.glade.h:50
-msgid "Font definition"
-msgstr "Выбор шрифта"
-
-#: ../data/klavaro.glade.h:51
-msgid "Top 10"
-msgstr "Десятка лучших"
-
-#: ../data/klavaro.glade.h:52
-msgid "Show extra information"
-msgstr "Показать доп. сведения"
-
-#: ../data/klavaro.glade.h:53
-msgid "Hide extra information"
-msgstr "Скрыть доп. сведения"
-
-#: ../data/klavaro.glade.h:54
-msgid "Publish to the web your local scores."
-msgstr "Опубликовать свой результат в Интернете"
-
-#: ../data/klavaro.glade.h:55
-msgid "_Participate"
-msgstr "_Участвовать"
-
-#: ../data/klavaro.glade.h:56
-msgid "Download from the web the most up to date ranking."
-msgstr "Загрузить из Интернета обновлённые данные"
-
-#: ../data/klavaro.glade.h:57
-msgid "_Update"
-msgstr "_Обновить"
-
-#: ../data/klavaro.glade.h:58
 msgid "About 'Klavaro'"
 msgstr "О программе Klavaro"
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:2 ../data/klavaro.desktop.in.h:1
+msgid "Yet another touch typing tutor"
+msgstr "Ещё один клавиатурный тренажёр"
+
+#: ../data/klavaro.glade.h:3
 msgid "Remember always: someone loves you!"
 msgstr "Помните: вас кто-то любит"
 
-#: ../data/klavaro.glade.h:61
-msgid "Remove the selected custom layout."
-msgstr "Удалить выбранную раскладку"
-
-#: ../data/klavaro.glade.h:62
-msgid "_Remove"
-msgstr "_Удалить"
-
-#: ../data/klavaro.glade.h:63
-msgid ""
-"Toggles the shift effect on the keys. Alternates between the upper and lower "
-"characters of the keys."
-msgstr ""
-"Нажатие клавиши [SHIFT] переключает ввод между верхними и нижними символами "
-"клавиш"
-
-#: ../data/klavaro.glade.h:64
-msgid "SPACE BAR"
-msgstr "[ПРОБЕЛ]"
-
-#: ../data/klavaro.glade.h:65 ../src/keyboard.c:1630
-msgid "thumbs"
-msgstr "большие пальцы"
-
-#: ../data/klavaro.glade.h:66
-msgid "Ctrl"
-msgstr "[CTRL]"
-
-#: ../data/klavaro.glade.h:67
-msgid "Caps"
-msgstr "[CAPS]"
-
-#: ../data/klavaro.glade.h:68
-msgid "S_ave as:"
-msgstr "Сохранить _как:"
-
-#: ../data/klavaro.glade.h:69
-msgid "Show previous screen."
-msgstr "Предыдущий шаг"
-
-#: ../data/klavaro.glade.h:70
-msgid "_Previous step"
-msgstr "_Назад"
-
-#: ../data/klavaro.glade.h:71
-msgid "Show next screen."
-msgstr "Следующий шаг"
-
-#: ../data/klavaro.glade.h:72
-msgid "_Next step"
-msgstr "_Вперёд"
-
-#: ../data/klavaro.glade.h:73
-msgid "Return without any modification."
-msgstr "Закрыть без изменений"
-
-#: ../data/klavaro.glade.h:74
-msgid "_Cancel"
-msgstr "_Отменить"
-
-#: ../data/klavaro.glade.h:75
-msgid "Save the current keyboard layout with the name specified above."
-msgstr "Сохранить текущую раскладку под ранее заданным именем"
-
-#: ../data/klavaro.glade.h:76
-msgid "_Save and use"
-msgstr "_Сохранить и использовать"
-
-#: ../data/klavaro.glade.h:77
-msgid ""
-"If you like those beautiful hands, click here to close this window keeping "
-"them."
-msgstr ""
-"Если вам понравились эти руки, нажмите эту кнопку, чтобы закрыть окно и "
-"оставить руки"
-
-#: ../data/klavaro.glade.h:78
-msgid "_Keep hands"
-msgstr "_Оставить руки"
-
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:4
 msgid "Change language"
 msgstr "Сменить язык"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:5
 msgid "Attention!"
 msgstr "Внимание!"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:6
 msgid "Do you confirm?"
 msgstr "Продолжить?"
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:7
 msgid "_No"
 msgstr "_Нет"
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:8
 msgid "_Yes"
 msgstr "_Да"
 
-#: ../data/klavaro.glade.h:84
-msgid "Re_name:"
-msgstr "_Переименовать:"
-
-#: ../data/klavaro.glade.h:85
-msgid "Rename the selected item."
-msgstr "Переименовать выбранный элемент"
-
-#: ../data/klavaro.glade.h:86
-msgid ""
-"Read a text file and add a copy of it here. The file must be encoded in "
-"UTF-8."
-msgstr ""
-"Прочитать текст из файла и поместить копию сюда. Файл должен быть в "
-"кодировке UTF-8."
-
-#: ../data/klavaro.glade.h:87
-msgid "_Open text file"
-msgstr "_Открыть текстовый файл"
-
-#: ../data/klavaro.glade.h:88
-msgid "Paste text that was copied to the clipboard."
-msgstr "Вставить текст, скопированный в буфер обмена"
-
-#: ../data/klavaro.glade.h:89
-msgid "_Paste from clipboard"
-msgstr "_Вставить из буфера обмена"
-
-#: ../data/klavaro.glade.h:90
-msgid "Remove the selected item."
-msgstr "Удалить выделенный элемент"
-
-#: ../data/klavaro.glade.h:91
-msgid "_Remove copied file"
-msgstr "_Удалить скопированный файл"
-
-#: ../data/klavaro.glade.h:92
-msgid "Apply the selected item to create an exercise."
-msgstr "Создать упражнение на основе выбранного элемента"
-
-#: ../data/klavaro.glade.h:93
-msgid "_Apply"
-msgstr "_Применить"
-
-#: ../data/klavaro.glade.h:94
-msgid "Klavaro - Progress"
-msgstr "Klavaro: статистика"
-
-#: ../data/klavaro.glade.h:95
-msgid "Value"
-msgstr "Значение"
-
-#: ../data/klavaro.glade.h:96
-msgid "Clear all the progress data, for every module."
-msgstr "Очистить данные для всех модулей"
-
-#: ../data/klavaro.glade.h:97
-msgid "_Reset"
-msgstr "_Сбросить"
-
-#: ../data/klavaro.glade.h:98
-msgid "Close this window, returning to the exercise."
-msgstr "Закрыть окно и вернуться к упражнению"
-
-#: ../data/klavaro.glade.h:99
-msgid "Klavaro - Select file"
-msgstr "Klavaro: выбор файла"
-
-#: ../data/klavaro.glade.h:100
-msgid "_Open"
-msgstr "_Открыть"
-
-#: ../data/klavaro.glade.h:101
+#: ../data/klavaro.glade.h:9
 msgid "Help?"
 msgstr "Справка"
 
-#: ../data/klavaro.glade.h:102
+#: ../data/klavaro.glade.h:10
+msgid "This is a tip. Now you press this button to return to the main menu."
+msgstr ""
+"Это всплывающая подсказка. Теперь нажмите эту клавишу для возврата в главное "
+"меню."
+
+#: ../data/klavaro.glade.h:11
+msgid "B_ack to menu"
+msgstr "_Главное меню"
+
+#: ../data/klavaro.glade.h:12
 msgid ""
 "The main menu of the application is very straightforward. Just select the "
 "type of exercise you wish to take. Do not worry about clicking any button on "
@@ -445,7 +74,7 @@ msgstr ""
 "Главное меню приложения очень простое. Просто выберите в нём нужный тип "
 "упражнения. Не бойтесь нажимать кнопки — ничего страшного не произойдёт."
 
-#: ../data/klavaro.glade.h:103
+#: ../data/klavaro.glade.h:13
 msgid ""
 "Also the controls have tips which will appear if you hover over them with "
 "your mouse. These tips can come in very handy. To see how these tips work, "
@@ -457,25 +86,396 @@ msgstr ""
 "наведите курсор мыши на кнопку ниже и не нажимайте её, пока не появится "
 "сообщение..."
 
-#: ../data/klavaro.glade.h:104
-msgid "This is a tip. Now you press this button to return to the main menu."
-msgstr ""
-"Это всплывающая подсказка. Теперь нажмите эту клавишу для возврата в главное "
-"меню."
+#: ../data/klavaro.glade.h:14
+msgid "Klavaro - Select file"
+msgstr "Klavaro: выбор файла"
 
-#: ../src/main.c:314
+#: ../data/klavaro.glade.h:15
+msgid "_Cancel"
+msgstr "_Отменить"
+
+#: ../data/klavaro.glade.h:16
+msgid "_Open"
+msgstr "_Открыть"
+
+#: ../data/klavaro.glade.h:17
+msgid "Font definition"
+msgstr "Выбор шрифта"
+
+#: ../data/klavaro.glade.h:18
+msgid "Klavaro"
+msgstr "Klavaro"
+
+#: ../data/klavaro.glade.h:19
+msgid "Re_name:"
+msgstr "_Переименовать:"
+
+#: ../data/klavaro.glade.h:20
+msgid "Rename the selected item."
+msgstr "Переименовать выбранный элемент"
+
+#: ../data/klavaro.glade.h:21
+msgid ""
+"Read a text file and add a copy of it here. The file must be encoded in "
+"UTF-8."
+msgstr ""
+"Прочитать текст из файла и поместить копию сюда. Файл должен быть в "
+"кодировке UTF-8."
+
+#: ../data/klavaro.glade.h:22
+msgid "_Open text file"
+msgstr "_Открыть текстовый файл"
+
+#: ../data/klavaro.glade.h:23
+msgid "Paste text that was copied to the clipboard."
+msgstr "Вставить текст, скопированный в буфер обмена"
+
+#: ../data/klavaro.glade.h:24
+msgid "_Paste from clipboard"
+msgstr "_Вставить из буфера обмена"
+
+#: ../data/klavaro.glade.h:25
+msgid "Remove the selected item."
+msgstr "Удалить выделенный элемент"
+
+#: ../data/klavaro.glade.h:26
+msgid "_Remove copied file"
+msgstr "_Удалить скопированный файл"
+
+#: ../data/klavaro.glade.h:27
+msgid "Apply the selected item to create an exercise."
+msgstr "Создать упражнение на основе выбранного элемента"
+
+#: ../data/klavaro.glade.h:28
+msgid "_Apply"
+msgstr "_Применить"
+
+#: ../data/klavaro.glade.h:29
+msgid "Close this window."
+msgstr "Закрыть это окно"
+
+#: ../data/klavaro.glade.h:30
+msgid "_Close"
+msgstr "_Закрыть"
+
+#: ../data/klavaro.glade.h:31
+msgid "Country / Custom"
+msgstr "Выберите свою страну"
+
+#: ../data/klavaro.glade.h:32
+msgid "Variant"
+msgstr "Вариант"
+
+#: ../data/klavaro.glade.h:33
+msgid "Remove the selected custom layout."
+msgstr "Удалить выбранную раскладку"
+
+#: ../data/klavaro.glade.h:34
+msgid "_Remove"
+msgstr "_Удалить"
+
+#: ../data/klavaro.glade.h:35
+msgid ""
+"Toggles the shift effect on the keys. Alternates between the upper and lower "
+"characters of the keys."
+msgstr ""
+"Нажатие клавиши [SHIFT] переключает ввод между верхними и нижними символами "
+"клавиш"
+
+#: ../data/klavaro.glade.h:36
+msgid "SPACE BAR"
+msgstr "[ПРОБЕЛ]"
+
+#: ../data/klavaro.glade.h:37 ../src/keyboard.c:1630
+msgid "thumbs"
+msgstr "большие пальцы"
+
+#: ../data/klavaro.glade.h:38
+msgid "Ctrl"
+msgstr "[CTRL]"
+
+#: ../data/klavaro.glade.h:39
+msgid "Caps"
+msgstr "[CAPS]"
+
+#: ../data/klavaro.glade.h:40
+msgid "S_ave as:"
+msgstr "Сохранить _как:"
+
+#: ../data/klavaro.glade.h:41
+msgid "Show previous screen."
+msgstr "Предыдущий шаг"
+
+#: ../data/klavaro.glade.h:42
+msgid "_Previous step"
+msgstr "_Назад"
+
+#: ../data/klavaro.glade.h:43
+msgid "Show next screen."
+msgstr "Следующий шаг"
+
+#: ../data/klavaro.glade.h:44
+msgid "_Next step"
+msgstr "_Вперёд"
+
+#: ../data/klavaro.glade.h:45
+msgid "Return without any modification."
+msgstr "Закрыть без изменений"
+
+#: ../data/klavaro.glade.h:46
+msgid "Save the current keyboard layout with the name specified above."
+msgstr "Сохранить текущую раскладку под ранее заданным именем"
+
+#: ../data/klavaro.glade.h:47
+msgid "_Save and use"
+msgstr "_Сохранить и использовать"
+
+#: ../data/klavaro.glade.h:48
+msgid ""
+"If you like those beautiful hands, click here to close this window keeping "
+"them."
+msgstr ""
+"Если вам понравились эти руки, нажмите эту кнопку, чтобы закрыть окно и "
+"оставить руки"
+
+#: ../data/klavaro.glade.h:49
+msgid "_Keep hands"
+msgstr "_Оставить руки"
+
+#: ../data/klavaro.glade.h:50
+msgid "Klavaro - Main menu"
+msgstr "Klavaro: главное меню"
+
+#: ../data/klavaro.glade.h:51
+msgid "Don't be shy about learning the basics!"
+msgstr "Не бойтесь начать обучение «с нуля»"
+
+#: ../data/klavaro.glade.h:52
+msgid "Learn how to type correctly"
+msgstr "Научитесь печатать правильно"
+
+#: ../data/klavaro.glade.h:53
+msgid "Initial training for your fingers."
+msgstr "Начальная тренировка для пальцев"
+
+#: ../data/klavaro.glade.h:54
+msgid "First steps with initial training"
+msgstr "Первый шаг — начальная тренировка"
+
+#: ../data/klavaro.glade.h:55
+msgid "Memorizing the keyboard practicing random keys exercises."
+msgstr "Запоминайте клавиатуру, выполняя упражнения со случайными клавишами"
+
+#: ../data/klavaro.glade.h:56
+msgid "Practice with random keys"
+msgstr "Практика со случайными клавишами"
+
+#. English typo: touchs -> touches
+#: ../data/klavaro.glade.h:58
+msgid "Accelerating the touches practicing random words exercises."
+msgstr "Наращивайте скорость, практикуясь в наборе случайных слов"
+
+#: ../data/klavaro.glade.h:59
+msgid "Practice with random words"
+msgstr "Практика со случайными словами"
+
+#: ../data/klavaro.glade.h:60
+msgid "Becoming proficient practicing complete paragraphs exercises."
+msgstr "Повышайте мастерство, практикуясь в наборе целых абзацев"
+
+#: ../data/klavaro.glade.h:61
+msgid "Practice with complete texts"
+msgstr "Практика с объёмными текстами"
+
+#: ../data/klavaro.glade.h:62
+msgid ""
+"Keyboard layout for modules 1 and 2. Also used informatively in the "
+"fluidness contest."
+msgstr ""
+"Раскладка клавиатуры для модулей 1 и 2. Используется также в обучении "
+"плавности набора."
+
+#: ../data/klavaro.glade.h:63
+msgid "_Keyboard:"
+msgstr "_Клавиатура:"
+
+#: ../data/klavaro.glade.h:64
+msgid "Language for modules 3 and 4."
+msgstr "Язык для модулей 3 и 4"
+
+#: ../data/klavaro.glade.h:65
+msgid "_Language:"
+msgstr "_Язык:"
+
+#: ../data/klavaro.glade.h:66
+msgid "Your language here."
+msgstr "Выберите свой язык"
+
+#: ../data/klavaro.glade.h:67
+msgid "Speech"
+msgstr "Речь"
+
+#: ../data/klavaro.glade.h:68
+msgid "Little tip about this program."
+msgstr "Небольшой совет по использованию программы"
+
+#: ../data/klavaro.glade.h:69
+msgid "_Help"
+msgstr "_Справка"
+
+#: ../data/klavaro.glade.h:70
+msgid "General information about the program."
+msgstr "Общие сведения об этой программе"
+
+#: ../data/klavaro.glade.h:71
+msgid "_About..."
+msgstr "О прогр_амме..."
+
+#: ../data/klavaro.glade.h:72
+msgid "Exit the application immediately."
+msgstr "Закрыть приложение"
+
+#: ../data/klavaro.glade.h:73
+msgid "Klavaro - Progress"
+msgstr "Klavaro: статистика"
+
+#: ../data/klavaro.glade.h:74
+msgid "_Lesson:"
+msgstr "_Урок:"
+
+#: ../data/klavaro.glade.h:75
+msgid "Value"
+msgstr "Значение"
+
+#: ../data/klavaro.glade.h:76
+msgid "Close this window, returning to the exercise."
+msgstr "Закрыть окно и вернуться к упражнению"
+
+#: ../data/klavaro.glade.h:77
+msgid "Clear all the progress data, for every module."
+msgstr "Очистить данные для всех модулей"
+
+#: ../data/klavaro.glade.h:78
+msgid "_Reset"
+msgstr "_Сбросить"
+
+#: ../data/klavaro.glade.h:79
+msgid "Top 10"
+msgstr "Десятка лучших"
+
+#: ../data/klavaro.glade.h:80
+msgid "Show extra information"
+msgstr "Показать доп. сведения"
+
+#: ../data/klavaro.glade.h:81
+msgid "Hide extra information"
+msgstr "Скрыть доп. сведения"
+
+#: ../data/klavaro.glade.h:82
+msgid "Publish to the web your local scores."
+msgstr "Опубликовать свой результат в Интернете"
+
+#: ../data/klavaro.glade.h:83
+msgid "_Participate"
+msgstr "_Участвовать"
+
+#: ../data/klavaro.glade.h:84
+msgid "Download from the web the most up to date ranking."
+msgstr "Загрузить из Интернета обновлённые данные"
+
+#: ../data/klavaro.glade.h:85
+msgid "_Update"
+msgstr "_Обновить"
+
+#: ../data/klavaro.glade.h:86
+msgid "Load other exercises/lessons"
+msgstr "Загрузить другой курс/упражнение"
+
+#: ../data/klavaro.glade.h:87
+msgid "_Other texts"
+msgstr "_Другой текст"
+
+#: ../data/klavaro.glade.h:88
+msgid "Edit the character set to be used in this lesson."
+msgstr "Редактировать набор символов для использования в этом уроке"
+
+#: ../data/klavaro.glade.h:89
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr "Это специальное упражнение, основанное на вашем профиле ошибок"
+
+#: ../data/klavaro.glade.h:90
+msgid "Edit the character set to be used in lessons 44 through 50."
+msgstr "Редактировать набор символов для использования в уроках с 44 по 50"
+
+#: ../data/klavaro.glade.h:91 ../src/tutor.c:252
+msgid "Drag and drop text here to practice with it."
+msgstr "Перетащите сюда текст, чтобы попрактиковаться с ним"
+
+#: ../data/klavaro.glade.h:92
+msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+msgstr "Нажмите здесь для перезапуска упражнения. Быстрый вызов: [CTRL+R]"
+
+#: ../data/klavaro.glade.h:93
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr "Показать виртуальную клавиатуру и связь пальцев и клавиш"
+
+#: ../data/klavaro.glade.h:94
+msgid "_Keyboard"
+msgstr "_Клавиатура"
+
+#: ../data/klavaro.glade.h:95
+msgid "Select the font to be used in the exercise window."
+msgstr "Выбор шрифта для упражнения"
+
+#: ../data/klavaro.glade.h:96
+msgid "_Font"
+msgstr "_Шрифт"
+
+#: ../data/klavaro.glade.h:97
+msgid "Keep this checked if you want to get those nice beeps."
+msgstr "Если эта кнопка не нажата, звуки будут отключены"
+
+#: ../data/klavaro.glade.h:98
+msgid "_Beep"
+msgstr "_Сигнал"
+
+#: ../data/klavaro.glade.h:99
+msgid "Co_urse information"
+msgstr "Сведения о к_урсе"
+
+#: ../data/klavaro.glade.h:100
+msgid "Charts showing the learning progress along the exercises."
+msgstr "Диаграммы со статистикой обучения в упражнениях"
+
+#: ../data/klavaro.glade.h:101
+msgid "_Progress"
+msgstr "_Статистика"
+
+#: ../data/klavaro.glade.h:102
+msgid "Return to the main menu."
+msgstr "Возврат в главное меню"
+
+#: ../data/klavaro.glade.h:103
+msgid "Show local and external scores from other users."
+msgstr "Показать локальные и внешние очки других пользователей"
+
+#: ../data/klavaro.glade.h:104
+msgid "_Top 10"
+msgstr "_Десятка лучших"
+
+#: ../src/main.c:243
 msgid "(Custom)"
 msgstr "(другая)"
 
-#: ../src/main.c:315
+#: ../src/main.c:244
 msgid "(Edit custom)"
 msgstr "(изменить другую)"
 
-#: ../src/main.c:316
+#: ../src/main.c:245
 msgid "(Default)"
 msgstr "(по умолчанию)"
 
-#: ../src/main.c:393
+#: ../src/main.c:322
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
@@ -485,24 +485,24 @@ msgstr[2] "Режим диктовки (зависит от этих синте�
 
 #. Set main labels (for translation)
 #.
-#: ../src/main.c:435 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1291
 msgid "Introduction"
 msgstr "Введение"
 
-#: ../src/main.c:438 ../src/top10.c:109
+#: ../src/main.c:367 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Начальный курс"
 
-#: ../src/main.c:441 ../src/top10.c:112
+#: ../src/main.c:370 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Адаптивность"
 
-#: ../src/main.c:444 ../src/callbacks.c:1310 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1310 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Скорость"
 
-#: ../src/main.c:447 ../src/callbacks.c:1333 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1333 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Плавность"
@@ -1073,11 +1073,11 @@ msgstr ""
 " Теперь пора повышать скорость набора.\n"
 " Переходите к третьему упражнению в главном меню\n"
 
-#: ../src/velocity.c:313 ../src/fluidness.c:435
+#: ../src/velocity.c:312 ../src/fluidness.c:435
 msgid "Pasted_or_dropped"
 msgstr "Вставленный или перетащенный"
 
-#: ../src/velocity.c:432
+#: ../src/velocity.c:431
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
@@ -1088,7 +1088,7 @@ msgstr ""
 "волнуйтесь:\n"
 " терпение и труд всё перетрут.\n"
 
-#: ../src/velocity.c:436
+#: ../src/velocity.c:435
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try at least 20 WPM.\n"
@@ -1096,7 +1096,7 @@ msgstr ""
 " Не стоит так торопиться. Вы способны на большее...\n"
 " Придерживайтесь скорости в 20 слов в минуту.\n"
 
-#: ../src/velocity.c:439
+#: ../src/velocity.c:438
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get 30 WPM.\n"
@@ -1105,7 +1105,7 @@ msgstr ""
 " Однако не забывайте о точности.\n"
 " Попробуйте достичь скорости в 30 слов в минуту.\n"
 
-#: ../src/velocity.c:443
+#: ../src/velocity.c:442
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach 40 WPM?\n"
@@ -1113,7 +1113,7 @@ msgstr ""
 " Прекрасно. Наконец-то вы зашевелились.\n"
 " Как насчёт 40 слов в минуту?\n"
 
-#: ../src/velocity.c:446
+#: ../src/velocity.c:445
 #, c-format
 msgid ""
 " Very good. You are almost there.\n"
@@ -1122,7 +1122,7 @@ msgstr ""
 " Очень хорошо. Вы почти у цели.\n"
 " Может всё-таки поднапряжётесь и достигнете %.0f слов в минуту?\n"
 
-#: ../src/velocity.c:451
+#: ../src/velocity.c:450
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
@@ -1130,7 +1130,7 @@ msgstr ""
 " Великолепно. Для этого курса этого достаточно.\n"
 " Теперь пора переходить к упражнениям на плавность.\n"
 
-#: ../src/velocity.c:455
+#: ../src/velocity.c:454
 msgid ""
 " Fast! Are you training for a competition?\n"
 " So, try to get 70 WPM!\n"
@@ -1138,7 +1138,7 @@ msgstr ""
 " А вы шустрец! Куда-то спешите?\n"
 " Тогда разгоняйтесь до 70 слов в минуту!\n"
 
-#: ../src/velocity.c:458
+#: ../src/velocity.c:457
 msgid ""
 " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 " Are you afraid of reaching 80 WPM?\n"
@@ -1146,7 +1146,7 @@ msgstr ""
 " Это предел для «qwerty». Пора переходить в режим Дворак.\n"
 " Разгонитесь до 80 слов в минуту?\n"
 
-#: ../src/velocity.c:462
+#: ../src/velocity.c:461
 msgid ""
 " Dvorak mode dominated!\n"
 " Can you fly at 90 WPM?\n"
@@ -1154,7 +1154,7 @@ msgstr ""
 " Режим Дворак оправдал себя!\n"
 " Пора взлетать до 90 слов в минуту\n"
 
-#: ../src/velocity.c:466
+#: ../src/velocity.c:465
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"

@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-1.9.5-pre2\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-15 10:38-0300\n"
+"Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2013-11-21 07:19-0200\n"
 "PO-Revision-Date: 2012-09-18 23:44+0200\n"
 "Last-Translator: Gorka Azkarate <gorkaazkarate@gmail.com>\n"
 "Language-Team: Basque <translation-team-eu@lists.sourceforge.net>\n"
@@ -17,429 +17,52 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Virtaal 0.7.0\n"
 
-#: ../data/klavaro.desktop.in.h:1 ../data/klavaro.glade.h:59
-msgid "Yet another touch typing tutor"
-msgstr "Oraindik ere, beste ukitze-mekanografia tutore bat"
-
 #: ../data/klavaro.glade.h:1
-msgid "Klavaro - Main menu"
-msgstr "Klavaro - Menu nagusia"
-
-#: ../data/klavaro.glade.h:2
-msgid "Don't be shy about learning the basics!"
-msgstr "Ez zaitez lotsatu oinarrizkoena ikasteagatik!"
-
-#: ../data/klavaro.glade.h:3
-msgid "Learn how to type correctly"
-msgstr "Ikas ezazu behar bezala mekanografiatzen"
-
-#: ../data/klavaro.glade.h:4
-msgid "Initial training for your fingers."
-msgstr "Hasierako entrenamendua zure atzamarrentzat."
-
-#: ../data/klavaro.glade.h:5
-msgid "First steps with initial training"
-msgstr "Hasierako entrenamenduko lehen urratsak"
-
-#: ../data/klavaro.glade.h:6
-msgid "Memorizing the keyboard practicing random keys exercises."
-msgstr ""
-"Giltzadia, teklatua, buruz ikasten ausazko giltzak sakatzeko ariketekin."
-
-#: ../data/klavaro.glade.h:7
-msgid "Practice with random keys"
-msgstr "Praktikatu ausazko giltzekin"
-
-#. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:9
-msgid "Accelerating the touches practicing random words exercises."
-msgstr "Lasterragotzen joaldiak, ukitze aldiak, ausazko hitzekin praktikatzen."
-
-#: ../data/klavaro.glade.h:10
-msgid "Practice with random words"
-msgstr "Praktikatu ausazko hitzekin"
-
-#: ../data/klavaro.glade.h:11
-msgid "Becoming proficient practicing complete paragraphs exercises."
-msgstr "Trebe bilakatzen paragrafo osoko ariketekin praktikatzen."
-
-#: ../data/klavaro.glade.h:12
-msgid "Practice with complete texts"
-msgstr "Praktikatu testu osoekin"
-
-#: ../data/klavaro.glade.h:13
-msgid ""
-"Keyboard layout for modules 1 and 2. Also used informatively in the "
-"fluidness contest."
-msgstr ""
-"Giltzadiaren diseinua 1 eta 2 moduluentzat. Jariakortasun testuinguruan "
-"informatzeko ere erabilia."
-
-#: ../data/klavaro.glade.h:14
-msgid "_Keyboard:"
-msgstr "_Giltzadia:"
-
-#: ../data/klavaro.glade.h:15
-msgid "Language for modules 3 and 4."
-msgstr "3 eta 4 moduluentzako hizkuntza."
-
-#: ../data/klavaro.glade.h:16
-msgid "_Language:"
-msgstr "_Hizkuntza:"
-
-#: ../data/klavaro.glade.h:17
-msgid "Variant"
-msgstr "Aldaera"
-
-#: ../data/klavaro.glade.h:18
-msgid "Klavaro"
-msgstr "Klavaro"
-
-#: ../data/klavaro.glade.h:19
-msgid "Country / Custom"
-msgstr "Herrialdea / Pertsonalizatu"
-
-#: ../data/klavaro.glade.h:20
-msgid "Your language here."
-msgstr "Hemen zure hizkuntza."
-
-#: ../data/klavaro.glade.h:21
-msgid "Speech"
-msgstr "Hitzaldia"
-
-#: ../data/klavaro.glade.h:22
-msgid "Little tip about this program."
-msgstr "Aholkutxo bat programa honi buruz."
-
-#: ../data/klavaro.glade.h:23
-msgid "_Help"
-msgstr "_Laguntza"
-
-#: ../data/klavaro.glade.h:24
-msgid "General information about the program."
-msgstr "Programari buruzko informazio orokorra."
-
-#: ../data/klavaro.glade.h:25
-msgid "_About..."
-msgstr "_Jakingarri..."
-
-#: ../data/klavaro.glade.h:26
-msgid "Exit the application immediately."
-msgstr "Irten programatik berehala."
-
-#: ../data/klavaro.glade.h:27
-msgid "_Close"
-msgstr "_Itxi"
-
-#: ../data/klavaro.glade.h:28
-msgid "Load other exercises/lessons"
-msgstr "Kargatu beste ariketa/ikasgai batzuk"
-
-#: ../data/klavaro.glade.h:29
-msgid "_Other texts"
-msgstr "_Beste testu batzuk"
-
-#: ../data/klavaro.glade.h:30
-msgid "_Lesson:"
-msgstr "I_kasgaia:"
-
-#: ../data/klavaro.glade.h:31
-msgid "Edit the character set to be used in this lesson."
-msgstr "Editatu ikasgai honetan erabiliko den karaktere multzoa."
-
-#: ../data/klavaro.glade.h:32
-msgid "Edit the character set to be used in lessons 44 through 50."
-msgstr "Editatu 44 ikasgaitik 50 ikasgaira erabiliko den karaktere multzoa."
-
-#: ../data/klavaro.glade.h:33
-msgid "This is a specific exercise, adjusted to your error profile."
-msgstr "Ariketa hau berariaz zure akats profilerako prestatu den ariketa da."
-
-#: ../data/klavaro.glade.h:34 ../src/tutor.c:252
-msgid "Drag and drop text here to practice with it."
-msgstr "Herrestan eraman testua eta askatu hemen testuarekin praktikatzeko."
-
-#: ../data/klavaro.glade.h:35
-msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-msgstr "Sakatu hementxe ariketa berriro hasteko. Laster-tekla: [Ktrl R]"
-
-#: ../data/klavaro.glade.h:36
-msgid "Show the virtual keyboard and the relation between fingers and keys."
-msgstr "Erakutsi giltzadi birtuala eta atzamar eta giltzen arteko erlazioa."
-
-#: ../data/klavaro.glade.h:37
-msgid "_Keyboard"
-msgstr "_Giltzadia"
-
-#: ../data/klavaro.glade.h:38
-msgid "Select the font to be used in the exercise window."
-msgstr "Aukeratu zein letra-tipo erabiliko den ariketa leihoan."
-
-#: ../data/klavaro.glade.h:39
-msgid "_Font"
-msgstr "Letra-_tipoa"
-
-#: ../data/klavaro.glade.h:40
-msgid "Keep this checked if you want to get those nice beeps."
-msgstr "Begira ezazu hau ondo beep zaratatxo eder horiek lortu nahi badituzu."
-
-#: ../data/klavaro.glade.h:41
-msgid "_Beep"
-msgstr "_Soinu-seinalea"
-
-#: ../data/klavaro.glade.h:42
-msgid "Co_urse information"
-msgstr "Ikas_taroaren informazioa"
-
-#: ../data/klavaro.glade.h:43
-msgid "Charts showing the learning progress along the exercises."
-msgstr ""
-"Ariketak egiterakoan ikasketa prozesuan lortutako aurrerapena erakusten "
-"duten grafikoak."
-
-#: ../data/klavaro.glade.h:44
-msgid "_Progress"
-msgstr "_Aurrerapena"
-
-#: ../data/klavaro.glade.h:45
-msgid "Show local and external scores from other users."
-msgstr "Erakutsi beste erabiltzaileen barruko eta kanpoko emaitzak."
-
-#: ../data/klavaro.glade.h:46
-msgid "_Top 10"
-msgstr " _Top 10 (Hamar onenak)"
-
-#: ../data/klavaro.glade.h:47
-msgid "Return to the main menu."
-msgstr "Atzera menu nagusira."
-
-#: ../data/klavaro.glade.h:48
-msgid "B_ack to menu"
-msgstr "Atzera _menura"
-
-#: ../data/klavaro.glade.h:49
-msgid "Close this window."
-msgstr "Itxi leiho hau."
-
-#: ../data/klavaro.glade.h:50
-msgid "Font definition"
-msgstr "Letra tipoaren definizioa"
-
-#: ../data/klavaro.glade.h:51
-msgid "Top 10"
-msgstr "Top 10 (Hamar onenak)"
-
-#: ../data/klavaro.glade.h:52
-msgid "Show extra information"
-msgstr "Erakutsi aparteko informazioa"
-
-#: ../data/klavaro.glade.h:53
-msgid "Hide extra information"
-msgstr "Ezkutatu aparteko informazioa"
-
-#: ../data/klavaro.glade.h:54
-msgid "Publish to the web your local scores."
-msgstr ""
-"Argitaratu interneten lortu dituzun emaitzak. Argitaratu barneko emaitzak."
-
-#: ../data/klavaro.glade.h:55
-msgid "_Participate"
-msgstr "_Parte hartu"
-
-#: ../data/klavaro.glade.h:56
-msgid "Download from the web the most up to date ranking."
-msgstr "Deskargatu internetetik ranking eguneraketa."
-
-#: ../data/klavaro.glade.h:57
-msgid "_Update"
-msgstr "_Eguneratu"
-
-#: ../data/klavaro.glade.h:58
 msgid "About 'Klavaro'"
 msgstr "'Klavaro' honi buruz"
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:2 ../data/klavaro.desktop.in.h:1
+msgid "Yet another touch typing tutor"
+msgstr "Oraindik ere, beste ukitze-mekanografia tutore bat"
+
+#: ../data/klavaro.glade.h:3
 msgid "Remember always: someone loves you!"
 msgstr "Gogoratu ezazu beti: norbaitek maite zaitu!"
 
-#: ../data/klavaro.glade.h:61
-msgid "Remove the selected custom layout."
-msgstr "Ezabatu hautatutako itxura pertsonalizatua."
-
-#: ../data/klavaro.glade.h:62
-msgid "_Remove"
-msgstr "E_zabatu"
-
-#: ../data/klavaro.glade.h:63
-msgid ""
-"Toggles the shift effect on the keys. Alternates between the upper and lower "
-"characters of the keys."
-msgstr ""
-"Txandakatzen du giltzen letra larriak/xeheak aukera. Txandakatze ditu "
-"giltzen goiko/beheko karaktereak (adibidez !/1; \"/2; $/4)."
-
-#: ../data/klavaro.glade.h:64
-msgid "SPACE BAR"
-msgstr "HUTSARTE BARRA"
-
-#: ../data/klavaro.glade.h:65 ../src/keyboard.c:1630
-msgid "thumbs"
-msgstr "erpuruak"
-
-#: ../data/klavaro.glade.h:66
-msgid "Ctrl"
-msgstr "Ktrl"
-
-#: ../data/klavaro.glade.h:67
-msgid "Caps"
-msgstr "Letra larriak"
-
-#: ../data/klavaro.glade.h:68
-msgid "S_ave as:"
-msgstr "_Gorde honela:"
-
-#: ../data/klavaro.glade.h:69
-msgid "Show previous screen."
-msgstr "Erakutsi aurreko pantaila."
-
-#: ../data/klavaro.glade.h:70
-msgid "_Previous step"
-msgstr "_Aurreko urratsa"
-
-#: ../data/klavaro.glade.h:71
-msgid "Show next screen."
-msgstr "Erakutsi hurrengo pantaila."
-
-#: ../data/klavaro.glade.h:72
-msgid "_Next step"
-msgstr "Hur_rengo urratsa"
-
-#: ../data/klavaro.glade.h:73
-msgid "Return without any modification."
-msgstr "Itzuli aldaketarik gabe."
-
-#: ../data/klavaro.glade.h:74
-msgid "_Cancel"
-msgstr "_Utzi bertan behera"
-
-#: ../data/klavaro.glade.h:75
-msgid "Save the current keyboard layout with the name specified above."
-msgstr "Gorde ezazu oraingo giltzadiaren itxura behean zehaztutako izenarekin."
-
-#: ../data/klavaro.glade.h:76
-msgid "_Save and use"
-msgstr "Gorde eta _erabili"
-
-#: ../data/klavaro.glade.h:77
-msgid ""
-"If you like those beautiful hands, click here to close this window keeping "
-"them."
-msgstr ""
-"Esku eder hauek gustukoak baldin badituzu, egin ezazu klik hemen leiho hau "
-"ixteko eskuak begi bistan mantenduz."
-
-#: ../data/klavaro.glade.h:78
-msgid "_Keep hands"
-msgstr "_Mantendu eskuak"
-
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:4
 msgid "Change language"
 msgstr "Aldatu hizkuntza"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:5
 msgid "Attention!"
 msgstr "Adi egon!"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:6
 msgid "Do you confirm?"
 msgstr "Baieztatzen duzu?"
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:7
 msgid "_No"
 msgstr "E_z"
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:8
 msgid "_Yes"
 msgstr "_Bai"
 
-#: ../data/klavaro.glade.h:84
-msgid "Re_name:"
-msgstr "Berr_izendatu:"
-
-#: ../data/klavaro.glade.h:85
-msgid "Rename the selected item."
-msgstr "Berrizendatu hautatutako zera hori."
-
-#: ../data/klavaro.glade.h:86
-msgid ""
-"Read a text file and add a copy of it here. The file must be encoded in "
-"UTF-8."
-msgstr ""
-"Irakur ezazu fitxategiaren testua eta gehitu bere kopia bat hementxe. "
-"Fitxategia UTF-8 horren bidez kodeturik egon beharko du (hau da, 8-bit UCS/"
-"Unicode Transformazio Formatua) ."
-
-#: ../data/klavaro.glade.h:87
-msgid "_Open text file"
-msgstr "_Open text formatuko fitxategia"
-
-#: ../data/klavaro.glade.h:88
-msgid "Paste text that was copied to the clipboard."
-msgstr "Itsatsi arbelean kopiatu den testua."
-
-#: ../data/klavaro.glade.h:89
-msgid "_Paste from clipboard"
-msgstr "It_satsi arbelean dagoena"
-
-#: ../data/klavaro.glade.h:90
-msgid "Remove the selected item."
-msgstr "Ezabatu hautatutako zera hori."
-
-#: ../data/klavaro.glade.h:91
-msgid "_Remove copied file"
-msgstr "E_zabatu kopiatutako fitxategia"
-
-#: ../data/klavaro.glade.h:92
-msgid "Apply the selected item to create an exercise."
-msgstr "Erabili hautatutako gaia ariketa bat sortzeko."
-
-#: ../data/klavaro.glade.h:93
-msgid "_Apply"
-msgstr "_Erabili"
-
-#: ../data/klavaro.glade.h:94
-msgid "Klavaro - Progress"
-msgstr "Klavaro - Aurrerapena"
-
-#: ../data/klavaro.glade.h:95
-msgid "Value"
-msgstr "Balioa"
-
-#: ../data/klavaro.glade.h:96
-msgid "Clear all the progress data, for every module."
-msgstr "Ezabatu aurrerapen datu guztiak modu guztietatik."
-
-#: ../data/klavaro.glade.h:97
-msgid "_Reset"
-msgstr "_Berrezarri"
-
-#: ../data/klavaro.glade.h:98
-msgid "Close this window, returning to the exercise."
-msgstr "Itxi leihoa, ariketara itzuliz."
-
-#: ../data/klavaro.glade.h:99
-msgid "Klavaro - Select file"
-msgstr "Klavaro - Hautatu fitxategia"
-
-#: ../data/klavaro.glade.h:100
-msgid "_Open"
-msgstr "_Zabaldu"
-
-#: ../data/klavaro.glade.h:101
+#: ../data/klavaro.glade.h:9
 msgid "Help?"
 msgstr "Laguntzarik behar?"
 
-#: ../data/klavaro.glade.h:102
+#: ../data/klavaro.glade.h:10
+msgid "This is a tip. Now you press this button to return to the main menu."
+msgstr ""
+"Hauxe aholku bat da. Orain sakatu botoi honetan menu nagusira atzera joateko."
+
+#: ../data/klavaro.glade.h:11
+msgid "B_ack to menu"
+msgstr "Atzera _menura"
+
+#: ../data/klavaro.glade.h:12
 msgid ""
 "The main menu of the application is very straightforward. Just select the "
 "type of exercise you wish to take. Do not worry about clicking any button on "
@@ -449,7 +72,7 @@ msgstr ""
 "nahi duzun ariketa mota. Ez kezkatu pantailan ager daitezkeen botoietan klik "
 "egin behar izatearekin. Botoiek ez dizuten minik egingo!"
 
-#: ../data/klavaro.glade.h:103
+#: ../data/klavaro.glade.h:13
 msgid ""
 "Also the controls have tips which will appear if you hover over them with "
 "your mouse. These tips can come in very handy. To see how these tips work, "
@@ -462,24 +85,401 @@ msgstr ""
 "sagua beheko botoiaren gainean eta klik egin gabe itxaron ezazu une batean "
 "eta aholkua hortxe agertuko zaizu, begien aurrean..."
 
-#: ../data/klavaro.glade.h:104
-msgid "This is a tip. Now you press this button to return to the main menu."
-msgstr ""
-"Hauxe aholku bat da. Orain sakatu botoi honetan menu nagusira atzera joateko."
+#: ../data/klavaro.glade.h:14
+msgid "Klavaro - Select file"
+msgstr "Klavaro - Hautatu fitxategia"
 
-#: ../src/main.c:314
+#: ../data/klavaro.glade.h:15
+msgid "_Cancel"
+msgstr "_Utzi bertan behera"
+
+#: ../data/klavaro.glade.h:16
+msgid "_Open"
+msgstr "_Zabaldu"
+
+#: ../data/klavaro.glade.h:17
+msgid "Font definition"
+msgstr "Letra tipoaren definizioa"
+
+#: ../data/klavaro.glade.h:18
+msgid "Klavaro"
+msgstr "Klavaro"
+
+#: ../data/klavaro.glade.h:19
+msgid "Re_name:"
+msgstr "Berr_izendatu:"
+
+#: ../data/klavaro.glade.h:20
+msgid "Rename the selected item."
+msgstr "Berrizendatu hautatutako zera hori."
+
+#: ../data/klavaro.glade.h:21
+msgid ""
+"Read a text file and add a copy of it here. The file must be encoded in "
+"UTF-8."
+msgstr ""
+"Irakur ezazu fitxategiaren testua eta gehitu bere kopia bat hementxe. "
+"Fitxategia UTF-8 horren bidez kodeturik egon beharko du (hau da, 8-bit UCS/"
+"Unicode Transformazio Formatua) ."
+
+#: ../data/klavaro.glade.h:22
+msgid "_Open text file"
+msgstr "_Open text formatuko fitxategia"
+
+#: ../data/klavaro.glade.h:23
+msgid "Paste text that was copied to the clipboard."
+msgstr "Itsatsi arbelean kopiatu den testua."
+
+#: ../data/klavaro.glade.h:24
+msgid "_Paste from clipboard"
+msgstr "It_satsi arbelean dagoena"
+
+#: ../data/klavaro.glade.h:25
+msgid "Remove the selected item."
+msgstr "Ezabatu hautatutako zera hori."
+
+#: ../data/klavaro.glade.h:26
+msgid "_Remove copied file"
+msgstr "E_zabatu kopiatutako fitxategia"
+
+#: ../data/klavaro.glade.h:27
+msgid "Apply the selected item to create an exercise."
+msgstr "Erabili hautatutako gaia ariketa bat sortzeko."
+
+#: ../data/klavaro.glade.h:28
+msgid "_Apply"
+msgstr "_Erabili"
+
+#: ../data/klavaro.glade.h:29
+msgid "Close this window."
+msgstr "Itxi leiho hau."
+
+#: ../data/klavaro.glade.h:30
+msgid "_Close"
+msgstr "_Itxi"
+
+#: ../data/klavaro.glade.h:31
+msgid "Country / Custom"
+msgstr "Herrialdea / Pertsonalizatu"
+
+#: ../data/klavaro.glade.h:32
+msgid "Variant"
+msgstr "Aldaera"
+
+#: ../data/klavaro.glade.h:33
+msgid "Remove the selected custom layout."
+msgstr "Ezabatu hautatutako itxura pertsonalizatua."
+
+#: ../data/klavaro.glade.h:34
+msgid "_Remove"
+msgstr "E_zabatu"
+
+#: ../data/klavaro.glade.h:35
+msgid ""
+"Toggles the shift effect on the keys. Alternates between the upper and lower "
+"characters of the keys."
+msgstr ""
+"Txandakatzen du giltzen letra larriak/xeheak aukera. Txandakatze ditu "
+"giltzen goiko/beheko karaktereak (adibidez !/1; \"/2; $/4)."
+
+#: ../data/klavaro.glade.h:36
+msgid "SPACE BAR"
+msgstr "HUTSARTE BARRA"
+
+#: ../data/klavaro.glade.h:37 ../src/keyboard.c:1630
+msgid "thumbs"
+msgstr "erpuruak"
+
+#: ../data/klavaro.glade.h:38
+msgid "Ctrl"
+msgstr "Ktrl"
+
+#: ../data/klavaro.glade.h:39
+msgid "Caps"
+msgstr "Letra larriak"
+
+#: ../data/klavaro.glade.h:40
+msgid "S_ave as:"
+msgstr "_Gorde honela:"
+
+#: ../data/klavaro.glade.h:41
+msgid "Show previous screen."
+msgstr "Erakutsi aurreko pantaila."
+
+#: ../data/klavaro.glade.h:42
+msgid "_Previous step"
+msgstr "_Aurreko urratsa"
+
+#: ../data/klavaro.glade.h:43
+msgid "Show next screen."
+msgstr "Erakutsi hurrengo pantaila."
+
+#: ../data/klavaro.glade.h:44
+msgid "_Next step"
+msgstr "Hur_rengo urratsa"
+
+#: ../data/klavaro.glade.h:45
+msgid "Return without any modification."
+msgstr "Itzuli aldaketarik gabe."
+
+#: ../data/klavaro.glade.h:46
+msgid "Save the current keyboard layout with the name specified above."
+msgstr "Gorde ezazu oraingo giltzadiaren itxura behean zehaztutako izenarekin."
+
+#: ../data/klavaro.glade.h:47
+msgid "_Save and use"
+msgstr "Gorde eta _erabili"
+
+#: ../data/klavaro.glade.h:48
+msgid ""
+"If you like those beautiful hands, click here to close this window keeping "
+"them."
+msgstr ""
+"Esku eder hauek gustukoak baldin badituzu, egin ezazu klik hemen leiho hau "
+"ixteko eskuak begi bistan mantenduz."
+
+#: ../data/klavaro.glade.h:49
+msgid "_Keep hands"
+msgstr "_Mantendu eskuak"
+
+#: ../data/klavaro.glade.h:50
+msgid "Klavaro - Main menu"
+msgstr "Klavaro - Menu nagusia"
+
+#: ../data/klavaro.glade.h:51
+msgid "Don't be shy about learning the basics!"
+msgstr "Ez zaitez lotsatu oinarrizkoena ikasteagatik!"
+
+#: ../data/klavaro.glade.h:52
+msgid "Learn how to type correctly"
+msgstr "Ikas ezazu behar bezala mekanografiatzen"
+
+#: ../data/klavaro.glade.h:53
+msgid "Initial training for your fingers."
+msgstr "Hasierako entrenamendua zure atzamarrentzat."
+
+#: ../data/klavaro.glade.h:54
+msgid "First steps with initial training"
+msgstr "Hasierako entrenamenduko lehen urratsak"
+
+#: ../data/klavaro.glade.h:55
+msgid "Memorizing the keyboard practicing random keys exercises."
+msgstr ""
+"Giltzadia, teklatua, buruz ikasten ausazko giltzak sakatzeko ariketekin."
+
+#: ../data/klavaro.glade.h:56
+msgid "Practice with random keys"
+msgstr "Praktikatu ausazko giltzekin"
+
+#. English typo: touchs -> touches
+#: ../data/klavaro.glade.h:58
+msgid "Accelerating the touches practicing random words exercises."
+msgstr "Lasterragotzen joaldiak, ukitze aldiak, ausazko hitzekin praktikatzen."
+
+#: ../data/klavaro.glade.h:59
+msgid "Practice with random words"
+msgstr "Praktikatu ausazko hitzekin"
+
+#: ../data/klavaro.glade.h:60
+msgid "Becoming proficient practicing complete paragraphs exercises."
+msgstr "Trebe bilakatzen paragrafo osoko ariketekin praktikatzen."
+
+#: ../data/klavaro.glade.h:61
+msgid "Practice with complete texts"
+msgstr "Praktikatu testu osoekin"
+
+#: ../data/klavaro.glade.h:62
+msgid ""
+"Keyboard layout for modules 1 and 2. Also used informatively in the "
+"fluidness contest."
+msgstr ""
+"Giltzadiaren diseinua 1 eta 2 moduluentzat. Jariakortasun testuinguruan "
+"informatzeko ere erabilia."
+
+#: ../data/klavaro.glade.h:63
+msgid "_Keyboard:"
+msgstr "_Giltzadia:"
+
+#: ../data/klavaro.glade.h:64
+msgid "Language for modules 3 and 4."
+msgstr "3 eta 4 moduluentzako hizkuntza."
+
+#: ../data/klavaro.glade.h:65
+msgid "_Language:"
+msgstr "_Hizkuntza:"
+
+#: ../data/klavaro.glade.h:66
+msgid "Your language here."
+msgstr "Hemen zure hizkuntza."
+
+#: ../data/klavaro.glade.h:67
+msgid "Speech"
+msgstr "Hitzaldia"
+
+#: ../data/klavaro.glade.h:68
+msgid "Little tip about this program."
+msgstr "Aholkutxo bat programa honi buruz."
+
+#: ../data/klavaro.glade.h:69
+msgid "_Help"
+msgstr "_Laguntza"
+
+#: ../data/klavaro.glade.h:70
+msgid "General information about the program."
+msgstr "Programari buruzko informazio orokorra."
+
+#: ../data/klavaro.glade.h:71
+msgid "_About..."
+msgstr "_Jakingarri..."
+
+#: ../data/klavaro.glade.h:72
+msgid "Exit the application immediately."
+msgstr "Irten programatik berehala."
+
+#: ../data/klavaro.glade.h:73
+msgid "Klavaro - Progress"
+msgstr "Klavaro - Aurrerapena"
+
+#: ../data/klavaro.glade.h:74
+msgid "_Lesson:"
+msgstr "I_kasgaia:"
+
+#: ../data/klavaro.glade.h:75
+msgid "Value"
+msgstr "Balioa"
+
+#: ../data/klavaro.glade.h:76
+msgid "Close this window, returning to the exercise."
+msgstr "Itxi leihoa, ariketara itzuliz."
+
+#: ../data/klavaro.glade.h:77
+msgid "Clear all the progress data, for every module."
+msgstr "Ezabatu aurrerapen datu guztiak modu guztietatik."
+
+#: ../data/klavaro.glade.h:78
+msgid "_Reset"
+msgstr "_Berrezarri"
+
+#: ../data/klavaro.glade.h:79
+msgid "Top 10"
+msgstr "Top 10 (Hamar onenak)"
+
+#: ../data/klavaro.glade.h:80
+msgid "Show extra information"
+msgstr "Erakutsi aparteko informazioa"
+
+#: ../data/klavaro.glade.h:81
+msgid "Hide extra information"
+msgstr "Ezkutatu aparteko informazioa"
+
+#: ../data/klavaro.glade.h:82
+msgid "Publish to the web your local scores."
+msgstr ""
+"Argitaratu interneten lortu dituzun emaitzak. Argitaratu barneko emaitzak."
+
+#: ../data/klavaro.glade.h:83
+msgid "_Participate"
+msgstr "_Parte hartu"
+
+#: ../data/klavaro.glade.h:84
+msgid "Download from the web the most up to date ranking."
+msgstr "Deskargatu internetetik ranking eguneraketa."
+
+#: ../data/klavaro.glade.h:85
+msgid "_Update"
+msgstr "_Eguneratu"
+
+#: ../data/klavaro.glade.h:86
+msgid "Load other exercises/lessons"
+msgstr "Kargatu beste ariketa/ikasgai batzuk"
+
+#: ../data/klavaro.glade.h:87
+msgid "_Other texts"
+msgstr "_Beste testu batzuk"
+
+#: ../data/klavaro.glade.h:88
+msgid "Edit the character set to be used in this lesson."
+msgstr "Editatu ikasgai honetan erabiliko den karaktere multzoa."
+
+#: ../data/klavaro.glade.h:89
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr "Ariketa hau berariaz zure akats profilerako prestatu den ariketa da."
+
+#: ../data/klavaro.glade.h:90
+msgid "Edit the character set to be used in lessons 44 through 50."
+msgstr "Editatu 44 ikasgaitik 50 ikasgaira erabiliko den karaktere multzoa."
+
+#: ../data/klavaro.glade.h:91 ../src/tutor.c:252
+msgid "Drag and drop text here to practice with it."
+msgstr "Herrestan eraman testua eta askatu hemen testuarekin praktikatzeko."
+
+#: ../data/klavaro.glade.h:92
+msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+msgstr "Sakatu hementxe ariketa berriro hasteko. Laster-tekla: [Ktrl R]"
+
+#: ../data/klavaro.glade.h:93
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr "Erakutsi giltzadi birtuala eta atzamar eta giltzen arteko erlazioa."
+
+#: ../data/klavaro.glade.h:94
+msgid "_Keyboard"
+msgstr "_Giltzadia"
+
+#: ../data/klavaro.glade.h:95
+msgid "Select the font to be used in the exercise window."
+msgstr "Aukeratu zein letra-tipo erabiliko den ariketa leihoan."
+
+#: ../data/klavaro.glade.h:96
+msgid "_Font"
+msgstr "Letra-_tipoa"
+
+#: ../data/klavaro.glade.h:97
+msgid "Keep this checked if you want to get those nice beeps."
+msgstr "Begira ezazu hau ondo beep zaratatxo eder horiek lortu nahi badituzu."
+
+#: ../data/klavaro.glade.h:98
+msgid "_Beep"
+msgstr "_Soinu-seinalea"
+
+#: ../data/klavaro.glade.h:99
+msgid "Co_urse information"
+msgstr "Ikas_taroaren informazioa"
+
+#: ../data/klavaro.glade.h:100
+msgid "Charts showing the learning progress along the exercises."
+msgstr ""
+"Ariketak egiterakoan ikasketa prozesuan lortutako aurrerapena erakusten "
+"duten grafikoak."
+
+#: ../data/klavaro.glade.h:101
+msgid "_Progress"
+msgstr "_Aurrerapena"
+
+#: ../data/klavaro.glade.h:102
+msgid "Return to the main menu."
+msgstr "Atzera menu nagusira."
+
+#: ../data/klavaro.glade.h:103
+msgid "Show local and external scores from other users."
+msgstr "Erakutsi beste erabiltzaileen barruko eta kanpoko emaitzak."
+
+#: ../data/klavaro.glade.h:104
+msgid "_Top 10"
+msgstr " _Top 10 (Hamar onenak)"
+
+#: ../src/main.c:243
 msgid "(Custom)"
 msgstr "(Pertsonalizatua)"
 
-#: ../src/main.c:315
+#: ../src/main.c:244
 msgid "(Edit custom)"
 msgstr "(Pertsonalizatu)"
 
-#: ../src/main.c:316
+#: ../src/main.c:245
 msgid "(Default)"
 msgstr "(Lehenetsia)"
 
-#: ../src/main.c:393
+#: ../src/main.c:322
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
@@ -488,24 +488,24 @@ msgstr[1] "Diktatze modua (ahots-sintetizadore hauetariko baten menpe: %s)"
 
 #. Set main labels (for translation)
 #.
-#: ../src/main.c:435 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1291
 msgid "Introduction"
 msgstr "Sarrera"
 
-#: ../src/main.c:438 ../src/top10.c:109
+#: ../src/main.c:367 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Oinarrizko ikastaroa"
 
-#: ../src/main.c:441 ../src/top10.c:112
+#: ../src/main.c:370 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Moldagarritasuna"
 
-#: ../src/main.c:444 ../src/callbacks.c:1310 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1310 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Lastertasuna"
 
-#: ../src/main.c:447 ../src/callbacks.c:1333 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1333 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Jariakortasuna"
@@ -1097,11 +1097,11 @@ msgstr ""
 " Orain zure lastertasuna hobetzeko garaia da.\n"
 " Zoaz hirugarren ariketara menu nagusian.\n"
 
-#: ../src/velocity.c:313 ../src/fluidness.c:435
+#: ../src/velocity.c:312 ../src/fluidness.c:435
 msgid "Pasted_or_dropped"
 msgstr "Txertatua_edo_itsatsia"
 
-#: ../src/velocity.c:432
+#: ../src/velocity.c:431
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
@@ -1112,7 +1112,7 @@ msgstr ""
 "gehiegi kezkatu:\n"
 " praktikak eta jarraikitasunak zure lastertasunean nabarituko dira.\n"
 
-#: ../src/velocity.c:436
+#: ../src/velocity.c:435
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try at least 20 WPM.\n"
@@ -1120,7 +1120,7 @@ msgstr ""
 " Oraindik ez gara autobidean sartu. Hobeto egin dezakezu...\n"
 " Saia zaitez gutxienez 20 hitz minutuko lortzen.\n"
 
-#: ../src/velocity.c:439
+#: ../src/velocity.c:438
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get 30 WPM.\n"
@@ -1128,7 +1128,7 @@ msgstr ""
 " Ondo ari zara baina azkarrago beharko duzu.\n"
 " Eta ez ahaztu zehaztasuna. Saia zaitez 30 hitz minutuko lortzen.\n"
 
-#: ../src/velocity.c:443
+#: ../src/velocity.c:442
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach 40 WPM?\n"
@@ -1136,7 +1136,7 @@ msgstr ""
 " Ongi. Orain korrika egiten hasi beharko.\n"
 " Irits zintezke 40 hitz minutuko lastertasuneraino?\n"
 
-#: ../src/velocity.c:446
+#: ../src/velocity.c:445
 #, c-format
 msgid ""
 " Very good. You are almost there.\n"
@@ -1145,7 +1145,7 @@ msgstr ""
 " Oso ongi. Hortxe-hortxe zaude.\n"
 " Azkenik, irits zaitezke %.0f hitz minutuko lastertasuna lortzeraino?\n"
 
-#: ../src/velocity.c:451
+#: ../src/velocity.c:450
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
@@ -1153,7 +1153,7 @@ msgstr ""
 " Bikain. Ikastaro honi dagokionez, nahikoa da.\n"
 " Saiatuko zara orain jariakortasun ariketekin?\n"
 
-#: ../src/velocity.c:455
+#: ../src/velocity.c:454
 msgid ""
 " Fast! Are you training for a competition?\n"
 " So, try to get 70 WPM!\n"
@@ -1161,7 +1161,7 @@ msgstr ""
 " Azkar! Lehiaketa baterako prestatzen ari zara ala?\n"
 " Bada, saia zaitez 70 hitz minutuko lortzen!\n"
 
-#: ../src/velocity.c:458
+#: ../src/velocity.c:457
 msgid ""
 " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 " Are you afraid of reaching 80 WPM?\n"
@@ -1169,7 +1169,7 @@ msgstr ""
 " \"qwerty\" giltzadiko onenak. Orain, bada garaia Dvorak modura aldatzeko.\n"
 " Kezkatuta zaude 80 hitz minutuko mugarekin?\n"
 
-#: ../src/velocity.c:462
+#: ../src/velocity.c:461
 msgid ""
 " Dvorak mode dominated!\n"
 " Can you fly at 90 WPM?\n"
@@ -1177,7 +1177,7 @@ msgstr ""
 " Dvorak moduan bikain ibili zara!\n"
 " Gora egin dezakezu 90 hitz minutuko mugaraino?\n"
 
-#: ../src/velocity.c:466
+#: ../src/velocity.c:465
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"

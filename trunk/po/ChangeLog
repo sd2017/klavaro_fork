@@ -1,0 +1,7 @@
+2013-11-21  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.in.in: Upgrade to gettext-0.18.3.
+	* Rules-quot: Upgrade to gettext-0.18.3.
+	* en@boldquot.header: New file, from gettext-0.18.3.
+	* en@quot.header: New file, from gettext-0.18.3.
+

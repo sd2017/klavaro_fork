@@ -10,7 +10,7 @@
 /*  along with this program.  If not, see <http://www.gnu.org/licenses/>.    */
 /*****************************************************************************/
 
-#include "gtkdatabox.h"
+#include <gtkdatabox.h>
 
 #define TEXTMAXLEN 8000
 

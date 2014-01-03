@@ -18,8 +18,8 @@
 #include <glib.h>
 #include <glib/gstdio.h>
 #include <gtk/gtk.h>
+#include <gtkdatabox.h>
 
-#include "gtkdatabox.h"
 #include "auxiliar.h"
 #include "main.h"
 #include "translation.h"
