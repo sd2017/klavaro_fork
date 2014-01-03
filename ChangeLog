@@ -6,6 +6,9 @@
 	name (klavaro), not the complete absolute path: more general.
 	- Italian translation, _Next <==> _Previous (by hand, waiting update
 	from the Translation Project)
+	- Symbols '-' and '\' at middle of words are avoided now; and '´' is
+	avoided at end of words (adapt module).
+	- It was aborting in Windows systems where LANG=en_US.
 	* Changed:
 	= Makefile.am (ACLOCAL_AMFLAGS): New variable.
 	= (EXTRA_DIST): Add m4/ChangeLog.

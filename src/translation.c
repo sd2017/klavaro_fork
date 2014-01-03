@@ -379,10 +379,12 @@ trans_set_combo_language ()
 		cmb = GTK_COMBO_BOX (get_wg ("combobox_language"));
 
 	tmp_code = main_preferences_get_string ("interface", "language");
-	if (tmp_code == NULL)
+	if (tmp_code == NULL || g_str_equal ("en_US", tmp_code))
 	{
-		g_message ("NULL language code detected. So, using \"C\".");
+		g_message ("Using \"C\" as language code.");
 		main_preferences_set_string ("interface", "language", "C");
+		if (tmp_code)
+			g_free (tmp_code);
 		tmp_code = g_strdup ("C");
 	}
 	gtk_combo_box_remove_text (cmb, 0);
@@ -415,12 +417,7 @@ trans_set_combo_language ()
 	}
 	recur = FALSE;
 
-	if (tmp_code[0] == 'C')
-	{
-		g_free (tmp_code);
-		tmp_code = g_strdup ("en");
-	}
-	if (tmp_code[0] == _("en")[0] && tmp_code[1] == _("en")[1])
+	if (g_str_has_prefix (tmp_code, "en") || g_str_equal (tmp_code, "C"))
 		gtk_widget_show (get_wg ("checkbutton_speech"));
 	else
 		gtk_widget_hide (get_wg ("checkbutton_speech"));
