@@ -84,7 +84,11 @@ subdir = data
 DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(top_srcdir)/mkinstalldirs
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
-am__aclocal_m4_deps = $(top_srcdir)/configure.ac
+am__aclocal_m4_deps = $(top_srcdir)/m4/gettext.m4 \
+	$(top_srcdir)/m4/iconv.m4 $(top_srcdir)/m4/lib-ld.m4 \
+	$(top_srcdir)/m4/lib-link.m4 $(top_srcdir)/m4/lib-prefix.m4 \
+	$(top_srcdir)/m4/nls.m4 $(top_srcdir)/m4/po.m4 \
+	$(top_srcdir)/m4/progtest.m4 $(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
@@ -472,10 +476,10 @@ klavaro_data = \
 pkgdata_DATA = $(klavaro_data)
 @IS_WIN32_FALSE@EXTRA_DIST = $(klavaro_data) \
 @IS_WIN32_FALSE@	$(desktop_in_file) \
-@IS_WIN32_FALSE@	klavaro.glade
+@IS_WIN32_FALSE@	klavaro.ui
 
 @IS_WIN32_TRUE@EXTRA_DIST = $(klavaro_data) \
-@IS_WIN32_TRUE@	klavaro.glade
+@IS_WIN32_TRUE@	klavaro.ui
 
 @IS_WIN32_FALSE@desktopdir = $(prefix)/$(DATADIRNAME)/applications
 @IS_WIN32_FALSE@desktop_in_file = klavaro.desktop.in
@@ -831,9 +835,6 @@ uninstall-am: uninstall-desktopDATA uninstall-pkgdataDATA
 	uninstall-pkgdataDATA
 
 @IS_WIN32_FALSE@@INTLTOOL_DESKTOP_RULE@
-
-klavaro.ui: klavaro.glade
-	$(GTKBLDRCONV) $< $@
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

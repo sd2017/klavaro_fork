@@ -18,8 +18,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-1.9.5-pre2\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-15 10:38-0300\n"
+"Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2013-11-21 07:19-0200\n"
 "PO-Revision-Date: 2012-06-05 16:07+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -29,425 +29,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/klavaro.desktop.in.h:1 ../data/klavaro.glade.h:59
-msgid "Yet another touch typing tutor"
-msgstr "Endnu et værktøj til øvelse af maskinskrivning"
-
 #: ../data/klavaro.glade.h:1
-msgid "Klavaro - Main menu"
-msgstr "Klavaro - hovedmenu"
-
-#: ../data/klavaro.glade.h:2
-msgid "Don't be shy about learning the basics!"
-msgstr "Hold dig ikke tilbage for at lære det basale!"
-
-#: ../data/klavaro.glade.h:3
-msgid "Learn how to type correctly"
-msgstr "Lær korrekt maskinskrivning"
-
-#: ../data/klavaro.glade.h:4
-msgid "Initial training for your fingers."
-msgstr "Indledende træning af dine fingre."
-
-#: ../data/klavaro.glade.h:5
-msgid "First steps with initial training"
-msgstr "De første trin med den indledende træning"
-
-#: ../data/klavaro.glade.h:6
-msgid "Memorizing the keyboard practicing random keys exercises."
-msgstr "Huskeøvelser med træning af tilfældige taster."
-
-#: ../data/klavaro.glade.h:7
-msgid "Practice with random keys"
-msgstr "Øvelse med tilfældige taster"
-
-#. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:9
-msgid "Accelerating the touches practicing random words exercises."
-msgstr "Øge følelsen med træning af tilfældige ord."
-
-#: ../data/klavaro.glade.h:10
-msgid "Practice with random words"
-msgstr "Øvelse med tilfældige ord"
-
-#: ../data/klavaro.glade.h:11
-msgid "Becoming proficient practicing complete paragraphs exercises."
-msgstr "Blive fortrolig med træning af hele tekstafsnit."
-
-#: ../data/klavaro.glade.h:12
-msgid "Practice with complete texts"
-msgstr "Øvelse med hele tekster"
-
-#: ../data/klavaro.glade.h:13
-msgid ""
-"Keyboard layout for modules 1 and 2. Also used informatively in the "
-"fluidness contest."
-msgstr ""
-"Tastaturlayout for modulerne 1 og 2. Bruges også informativt i den flydende "
-"indtastningskonkurrence."
-
-#: ../data/klavaro.glade.h:14
-msgid "_Keyboard:"
-msgstr "_Tastatur:"
-
-#: ../data/klavaro.glade.h:15
-msgid "Language for modules 3 and 4."
-msgstr "Sprog for modulerne 3 og 4."
-
-#: ../data/klavaro.glade.h:16
-msgid "_Language:"
-msgstr "_Sprog:"
-
-#: ../data/klavaro.glade.h:17
-msgid "Variant"
-msgstr "Variant"
-
-#: ../data/klavaro.glade.h:18
-msgid "Klavaro"
-msgstr "Klavaro"
-
-#: ../data/klavaro.glade.h:19
-msgid "Country / Custom"
-msgstr "Land / tilpasset"
-
-#: ../data/klavaro.glade.h:20
-msgid "Your language here."
-msgstr "Dit sprog her."
-
-#: ../data/klavaro.glade.h:21
-msgid "Speech"
-msgstr "Tale"
-
-#: ../data/klavaro.glade.h:22
-msgid "Little tip about this program."
-msgstr "Et lille fif om dette program."
-
-#: ../data/klavaro.glade.h:23
-msgid "_Help"
-msgstr "_Hjælp"
-
-#: ../data/klavaro.glade.h:24
-msgid "General information about the program."
-msgstr "Generel information om programmet."
-
-#: ../data/klavaro.glade.h:25
-msgid "_About..."
-msgstr "_Om..."
-
-#: ../data/klavaro.glade.h:26
-msgid "Exit the application immediately."
-msgstr "Afslut programmet øjeblikkeligt."
-
-#: ../data/klavaro.glade.h:27
-msgid "_Close"
-msgstr "_Luk"
-
-#: ../data/klavaro.glade.h:28
-msgid "Load other exercises/lessons"
-msgstr "Hent andre øvelser/lektioner"
-
-#: ../data/klavaro.glade.h:29
-msgid "_Other texts"
-msgstr "_Andre tekster"
-
-#: ../data/klavaro.glade.h:30
-msgid "_Lesson:"
-msgstr "_Lektion:"
-
-#: ../data/klavaro.glade.h:31
-msgid "Edit the character set to be used in this lesson."
-msgstr "Rediger det karaktersæt som skal bruges i denne lektion."
-
-#: ../data/klavaro.glade.h:32
-msgid "Edit the character set to be used in lessons 44 through 50."
-msgstr "Rediger det karaktersæt som skal bruges i lektion 44 til 50."
-
-#: ../data/klavaro.glade.h:33
-msgid "This is a specific exercise, adjusted to your error profile."
-msgstr "Dette er en specifik øvelse, justeret til din fejlprofil."
-
-#: ../data/klavaro.glade.h:34 ../src/tutor.c:252
-msgid "Drag and drop text here to practice with it."
-msgstr "Træk og slip tekst her for at øve med den."
-
-#: ../data/klavaro.glade.h:35
-msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-msgstr "Tryk her for at starte øvelsen igen. Genvejstast: [Ctrl R]"
-
-#: ../data/klavaro.glade.h:36
-msgid "Show the virtual keyboard and the relation between fingers and keys."
-msgstr "Vis det virtuelle tastatur og forbindelsen mellem fingre og taster."
-
-#: ../data/klavaro.glade.h:37
-msgid "_Keyboard"
-msgstr "_Tastatur"
-
-#: ../data/klavaro.glade.h:38
-msgid "Select the font to be used in the exercise window."
-msgstr "Vælg skrifttypen der skal bruges i øvelsesvinduet."
-
-#: ../data/klavaro.glade.h:39
-msgid "_Font"
-msgstr "_Skrifttype"
-
-#: ../data/klavaro.glade.h:40
-msgid "Keep this checked if you want to get those nice beeps."
-msgstr "Hold denne afkrydset hvis du vil bevare de dejlige små bip."
-
-#: ../data/klavaro.glade.h:41
-msgid "_Beep"
-msgstr "_Bip"
-
-#: ../data/klavaro.glade.h:42
-msgid "Co_urse information"
-msgstr "_Undervisningsinformation"
-
-#: ../data/klavaro.glade.h:43
-msgid "Charts showing the learning progress along the exercises."
-msgstr "Grafer der viser indlæringsfremskridtet igennem øvelserne."
-
-#: ../data/klavaro.glade.h:44
-msgid "_Progress"
-msgstr "_Fremskridt"
-
-#: ../data/klavaro.glade.h:45
-msgid "Show local and external scores from other users."
-msgstr "Vis lokale og eksterne point fra andre brugere."
-
-#: ../data/klavaro.glade.h:46
-msgid "_Top 10"
-msgstr "_Top 10"
-
-#: ../data/klavaro.glade.h:47
-msgid "Return to the main menu."
-msgstr "Retur til hovedmenuen."
-
-#: ../data/klavaro.glade.h:48
-msgid "B_ack to menu"
-msgstr "Tilb_age til menu"
-
-#: ../data/klavaro.glade.h:49
-msgid "Close this window."
-msgstr "Luk dette vindue."
-
-#: ../data/klavaro.glade.h:50
-msgid "Font definition"
-msgstr "Skrifttypedefinition"
-
-#: ../data/klavaro.glade.h:51
-msgid "Top 10"
-msgstr "Top 10"
-
-#: ../data/klavaro.glade.h:52
-msgid "Show extra information"
-msgstr "Vis ekstra information"
-
-#: ../data/klavaro.glade.h:53
-msgid "Hide extra information"
-msgstr "Skjul ekstra information"
-
-#: ../data/klavaro.glade.h:54
-msgid "Publish to the web your local scores."
-msgstr "Udgiv dine lokale point på nettet."
-
-#: ../data/klavaro.glade.h:55
-msgid "_Participate"
-msgstr "_Deltag"
-
-#: ../data/klavaro.glade.h:56
-msgid "Download from the web the most up to date ranking."
-msgstr "Hent den opdaterede rangering fra nettet."
-
-#: ../data/klavaro.glade.h:57
-msgid "_Update"
-msgstr "_Opdater"
-
-#: ../data/klavaro.glade.h:58
 msgid "About 'Klavaro'"
 msgstr "Om »Klavaro«"
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:2 ../data/klavaro.desktop.in.h:1
+msgid "Yet another touch typing tutor"
+msgstr "Endnu et værktøj til øvelse af maskinskrivning"
+
+#: ../data/klavaro.glade.h:3
 msgid "Remember always: someone loves you!"
 msgstr "Husk altid: Nogen elsker dig!"
 
-#: ../data/klavaro.glade.h:61
-msgid "Remove the selected custom layout."
-msgstr "Fjern det valgte brugerlayout."
-
-#: ../data/klavaro.glade.h:62
-msgid "_Remove"
-msgstr "Fje_rn"
-
-#: ../data/klavaro.glade.h:63
-msgid ""
-"Toggles the shift effect on the keys. Alternates between the upper and lower "
-"characters of the keys."
-msgstr ""
-"Skifter mellem skift-effekten på tasterne. Skifter mellem de øvre og nedre "
-"tegn på tasterne."
-
-#: ../data/klavaro.glade.h:64
-msgid "SPACE BAR"
-msgstr "MELLEMRUM"
-
-#: ../data/klavaro.glade.h:65 ../src/keyboard.c:1630
-msgid "thumbs"
-msgstr "tommelfingre"
-
-#: ../data/klavaro.glade.h:66
-msgid "Ctrl"
-msgstr "Ctrl"
-
-# versaler, store bogstaver
-#: ../data/klavaro.glade.h:67
-msgid "Caps"
-msgstr "Versaler"
-
-#: ../data/klavaro.glade.h:68
-msgid "S_ave as:"
-msgstr "G_em som:"
-
-#: ../data/klavaro.glade.h:69
-msgid "Show previous screen."
-msgstr "Vis forrige skærm."
-
-#: ../data/klavaro.glade.h:70
-msgid "_Previous step"
-msgstr "_Forrige trin"
-
-#: ../data/klavaro.glade.h:71
-msgid "Show next screen."
-msgstr "Vis næste skærm."
-
-#: ../data/klavaro.glade.h:72
-msgid "_Next step"
-msgstr "_Næste trin"
-
-#: ../data/klavaro.glade.h:73
-msgid "Return without any modification."
-msgstr "Retur uden nogen ændringer."
-
-#: ../data/klavaro.glade.h:74
-msgid "_Cancel"
-msgstr "_Afbryd"
-
-#: ../data/klavaro.glade.h:75
-msgid "Save the current keyboard layout with the name specified above."
-msgstr "Gem det aktuelle tastaturlayout med det ovenfor angivne navn."
-
-#: ../data/klavaro.glade.h:76
-msgid "_Save and use"
-msgstr "_Gem og brug"
-
-#: ../data/klavaro.glade.h:77
-msgid ""
-"If you like those beautiful hands, click here to close this window keeping "
-"them."
-msgstr ""
-"Hvis du kan li' de smukke hænder, så klik her for at lukke dette vindue og "
-"beholde dem."
-
-#: ../data/klavaro.glade.h:78
-msgid "_Keep hands"
-msgstr "_Behold hænder"
-
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:4
 msgid "Change language"
 msgstr "Ændr sprog"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:5
 msgid "Attention!"
 msgstr "Klar!"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:6
 msgid "Do you confirm?"
 msgstr "Bekræfter du?"
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:7
 msgid "_No"
 msgstr "_Nej"
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:8
 msgid "_Yes"
 msgstr "_Ja"
 
-#: ../data/klavaro.glade.h:84
-msgid "Re_name:"
-msgstr "_Omdøb:"
-
-#: ../data/klavaro.glade.h:85
-msgid "Rename the selected item."
-msgstr "Omdøb det valgte punkt."
-
-#: ../data/klavaro.glade.h:86
-msgid ""
-"Read a text file and add a copy of it here. The file must be encoded in "
-"UTF-8."
-msgstr ""
-"Læs en tekstfil og tilføj en kopi af den her. Filen skal være i formatet "
-"UTF-8."
-
-#: ../data/klavaro.glade.h:87
-msgid "_Open text file"
-msgstr "_Åbn tekstfil"
-
-#: ../data/klavaro.glade.h:88
-msgid "Paste text that was copied to the clipboard."
-msgstr "Indsæt tekst som blev kopieret til udklipsholderen."
-
-#: ../data/klavaro.glade.h:89
-msgid "_Paste from clipboard"
-msgstr "_Indsæt fra udklipsholder"
-
-#: ../data/klavaro.glade.h:90
-msgid "Remove the selected item."
-msgstr "Fjern det valgte punkt."
-
-#: ../data/klavaro.glade.h:91
-msgid "_Remove copied file"
-msgstr "_Fjern kopieret fil"
-
-#: ../data/klavaro.glade.h:92
-msgid "Apply the selected item to create an exercise."
-msgstr "Anvend det valgte punkt for at oprette en øvelse."
-
-#: ../data/klavaro.glade.h:93
-msgid "_Apply"
-msgstr "_Anvend"
-
-#: ../data/klavaro.glade.h:94
-msgid "Klavaro - Progress"
-msgstr "Klavaro - fremskridt"
-
-#: ../data/klavaro.glade.h:95
-msgid "Value"
-msgstr "Værdi"
-
-#: ../data/klavaro.glade.h:96
-msgid "Clear all the progress data, for every module."
-msgstr "Ryd alle data om fremgang, for alle moduler."
-
-#: ../data/klavaro.glade.h:97
-msgid "_Reset"
-msgstr "_Nulstil"
-
-#: ../data/klavaro.glade.h:98
-msgid "Close this window, returning to the exercise."
-msgstr "Luk dette vindue, retur til øvelsen."
-
-#: ../data/klavaro.glade.h:99
-msgid "Klavaro - Select file"
-msgstr "Klavaro - vælg fil"
-
-#: ../data/klavaro.glade.h:100
-msgid "_Open"
-msgstr "_Åbn"
-
-#: ../data/klavaro.glade.h:101
+#: ../data/klavaro.glade.h:9
 msgid "Help?"
 msgstr "Hjælp?"
 
-#: ../data/klavaro.glade.h:102
+#: ../data/klavaro.glade.h:10
+msgid "This is a tip. Now you press this button to return to the main menu."
+msgstr ""
+"Dette er et fif. Tryk nu på denne knap for at returnere til hovedmenuen."
+
+#: ../data/klavaro.glade.h:11
+msgid "B_ack to menu"
+msgstr "Tilb_age til menu"
+
+#: ../data/klavaro.glade.h:12
 msgid ""
 "The main menu of the application is very straightforward. Just select the "
 "type of exercise you wish to take. Do not worry about clicking any button on "
@@ -457,7 +84,7 @@ msgstr ""
 "i. Du skal ikke bekymre dig om at klikke på nogen af knapperne på skærmen. "
 "Knapperne vil aldrig gøre dig noget!"
 
-#: ../data/klavaro.glade.h:103
+#: ../data/klavaro.glade.h:13
 msgid ""
 "Also the controls have tips which will appear if you hover over them with "
 "your mouse. These tips can come in very handy. To see how these tips work, "
@@ -468,24 +95,397 @@ msgstr ""
 "Disse fif kan være gode. For at se hvordan de virker, så placer musen over "
 "knappen nedenfor, og uden at klikke, vent til fiffet fremkommer..."
 
-#: ../data/klavaro.glade.h:104
-msgid "This is a tip. Now you press this button to return to the main menu."
-msgstr ""
-"Dette er et fif. Tryk nu på denne knap for at returnere til hovedmenuen."
+#: ../data/klavaro.glade.h:14
+msgid "Klavaro - Select file"
+msgstr "Klavaro - vælg fil"
 
-#: ../src/main.c:314
+#: ../data/klavaro.glade.h:15
+msgid "_Cancel"
+msgstr "_Afbryd"
+
+#: ../data/klavaro.glade.h:16
+msgid "_Open"
+msgstr "_Åbn"
+
+#: ../data/klavaro.glade.h:17
+msgid "Font definition"
+msgstr "Skrifttypedefinition"
+
+#: ../data/klavaro.glade.h:18
+msgid "Klavaro"
+msgstr "Klavaro"
+
+#: ../data/klavaro.glade.h:19
+msgid "Re_name:"
+msgstr "_Omdøb:"
+
+#: ../data/klavaro.glade.h:20
+msgid "Rename the selected item."
+msgstr "Omdøb det valgte punkt."
+
+#: ../data/klavaro.glade.h:21
+msgid ""
+"Read a text file and add a copy of it here. The file must be encoded in "
+"UTF-8."
+msgstr ""
+"Læs en tekstfil og tilføj en kopi af den her. Filen skal være i formatet "
+"UTF-8."
+
+#: ../data/klavaro.glade.h:22
+msgid "_Open text file"
+msgstr "_Åbn tekstfil"
+
+#: ../data/klavaro.glade.h:23
+msgid "Paste text that was copied to the clipboard."
+msgstr "Indsæt tekst som blev kopieret til udklipsholderen."
+
+#: ../data/klavaro.glade.h:24
+msgid "_Paste from clipboard"
+msgstr "_Indsæt fra udklipsholder"
+
+#: ../data/klavaro.glade.h:25
+msgid "Remove the selected item."
+msgstr "Fjern det valgte punkt."
+
+#: ../data/klavaro.glade.h:26
+msgid "_Remove copied file"
+msgstr "_Fjern kopieret fil"
+
+#: ../data/klavaro.glade.h:27
+msgid "Apply the selected item to create an exercise."
+msgstr "Anvend det valgte punkt for at oprette en øvelse."
+
+#: ../data/klavaro.glade.h:28
+msgid "_Apply"
+msgstr "_Anvend"
+
+#: ../data/klavaro.glade.h:29
+msgid "Close this window."
+msgstr "Luk dette vindue."
+
+#: ../data/klavaro.glade.h:30
+msgid "_Close"
+msgstr "_Luk"
+
+#: ../data/klavaro.glade.h:31
+msgid "Country / Custom"
+msgstr "Land / tilpasset"
+
+#: ../data/klavaro.glade.h:32
+msgid "Variant"
+msgstr "Variant"
+
+#: ../data/klavaro.glade.h:33
+msgid "Remove the selected custom layout."
+msgstr "Fjern det valgte brugerlayout."
+
+#: ../data/klavaro.glade.h:34
+msgid "_Remove"
+msgstr "Fje_rn"
+
+#: ../data/klavaro.glade.h:35
+msgid ""
+"Toggles the shift effect on the keys. Alternates between the upper and lower "
+"characters of the keys."
+msgstr ""
+"Skifter mellem skift-effekten på tasterne. Skifter mellem de øvre og nedre "
+"tegn på tasterne."
+
+#: ../data/klavaro.glade.h:36
+msgid "SPACE BAR"
+msgstr "MELLEMRUM"
+
+#: ../data/klavaro.glade.h:37 ../src/keyboard.c:1630
+msgid "thumbs"
+msgstr "tommelfingre"
+
+#: ../data/klavaro.glade.h:38
+msgid "Ctrl"
+msgstr "Ctrl"
+
+# versaler, store bogstaver
+#: ../data/klavaro.glade.h:39
+msgid "Caps"
+msgstr "Versaler"
+
+#: ../data/klavaro.glade.h:40
+msgid "S_ave as:"
+msgstr "G_em som:"
+
+#: ../data/klavaro.glade.h:41
+msgid "Show previous screen."
+msgstr "Vis forrige skærm."
+
+#: ../data/klavaro.glade.h:42
+msgid "_Previous step"
+msgstr "_Forrige trin"
+
+#: ../data/klavaro.glade.h:43
+msgid "Show next screen."
+msgstr "Vis næste skærm."
+
+#: ../data/klavaro.glade.h:44
+msgid "_Next step"
+msgstr "_Næste trin"
+
+#: ../data/klavaro.glade.h:45
+msgid "Return without any modification."
+msgstr "Retur uden nogen ændringer."
+
+#: ../data/klavaro.glade.h:46
+msgid "Save the current keyboard layout with the name specified above."
+msgstr "Gem det aktuelle tastaturlayout med det ovenfor angivne navn."
+
+#: ../data/klavaro.glade.h:47
+msgid "_Save and use"
+msgstr "_Gem og brug"
+
+#: ../data/klavaro.glade.h:48
+msgid ""
+"If you like those beautiful hands, click here to close this window keeping "
+"them."
+msgstr ""
+"Hvis du kan li' de smukke hænder, så klik her for at lukke dette vindue og "
+"beholde dem."
+
+#: ../data/klavaro.glade.h:49
+msgid "_Keep hands"
+msgstr "_Behold hænder"
+
+#: ../data/klavaro.glade.h:50
+msgid "Klavaro - Main menu"
+msgstr "Klavaro - hovedmenu"
+
+#: ../data/klavaro.glade.h:51
+msgid "Don't be shy about learning the basics!"
+msgstr "Hold dig ikke tilbage for at lære det basale!"
+
+#: ../data/klavaro.glade.h:52
+msgid "Learn how to type correctly"
+msgstr "Lær korrekt maskinskrivning"
+
+#: ../data/klavaro.glade.h:53
+msgid "Initial training for your fingers."
+msgstr "Indledende træning af dine fingre."
+
+#: ../data/klavaro.glade.h:54
+msgid "First steps with initial training"
+msgstr "De første trin med den indledende træning"
+
+#: ../data/klavaro.glade.h:55
+msgid "Memorizing the keyboard practicing random keys exercises."
+msgstr "Huskeøvelser med træning af tilfældige taster."
+
+#: ../data/klavaro.glade.h:56
+msgid "Practice with random keys"
+msgstr "Øvelse med tilfældige taster"
+
+#. English typo: touchs -> touches
+#: ../data/klavaro.glade.h:58
+msgid "Accelerating the touches practicing random words exercises."
+msgstr "Øge følelsen med træning af tilfældige ord."
+
+#: ../data/klavaro.glade.h:59
+msgid "Practice with random words"
+msgstr "Øvelse med tilfældige ord"
+
+#: ../data/klavaro.glade.h:60
+msgid "Becoming proficient practicing complete paragraphs exercises."
+msgstr "Blive fortrolig med træning af hele tekstafsnit."
+
+#: ../data/klavaro.glade.h:61
+msgid "Practice with complete texts"
+msgstr "Øvelse med hele tekster"
+
+#: ../data/klavaro.glade.h:62
+msgid ""
+"Keyboard layout for modules 1 and 2. Also used informatively in the "
+"fluidness contest."
+msgstr ""
+"Tastaturlayout for modulerne 1 og 2. Bruges også informativt i den flydende "
+"indtastningskonkurrence."
+
+#: ../data/klavaro.glade.h:63
+msgid "_Keyboard:"
+msgstr "_Tastatur:"
+
+#: ../data/klavaro.glade.h:64
+msgid "Language for modules 3 and 4."
+msgstr "Sprog for modulerne 3 og 4."
+
+#: ../data/klavaro.glade.h:65
+msgid "_Language:"
+msgstr "_Sprog:"
+
+#: ../data/klavaro.glade.h:66
+msgid "Your language here."
+msgstr "Dit sprog her."
+
+#: ../data/klavaro.glade.h:67
+msgid "Speech"
+msgstr "Tale"
+
+#: ../data/klavaro.glade.h:68
+msgid "Little tip about this program."
+msgstr "Et lille fif om dette program."
+
+#: ../data/klavaro.glade.h:69
+msgid "_Help"
+msgstr "_Hjælp"
+
+#: ../data/klavaro.glade.h:70
+msgid "General information about the program."
+msgstr "Generel information om programmet."
+
+#: ../data/klavaro.glade.h:71
+msgid "_About..."
+msgstr "_Om..."
+
+#: ../data/klavaro.glade.h:72
+msgid "Exit the application immediately."
+msgstr "Afslut programmet øjeblikkeligt."
+
+#: ../data/klavaro.glade.h:73
+msgid "Klavaro - Progress"
+msgstr "Klavaro - fremskridt"
+
+#: ../data/klavaro.glade.h:74
+msgid "_Lesson:"
+msgstr "_Lektion:"
+
+#: ../data/klavaro.glade.h:75
+msgid "Value"
+msgstr "Værdi"
+
+#: ../data/klavaro.glade.h:76
+msgid "Close this window, returning to the exercise."
+msgstr "Luk dette vindue, retur til øvelsen."
+
+#: ../data/klavaro.glade.h:77
+msgid "Clear all the progress data, for every module."
+msgstr "Ryd alle data om fremgang, for alle moduler."
+
+#: ../data/klavaro.glade.h:78
+msgid "_Reset"
+msgstr "_Nulstil"
+
+#: ../data/klavaro.glade.h:79
+msgid "Top 10"
+msgstr "Top 10"
+
+#: ../data/klavaro.glade.h:80
+msgid "Show extra information"
+msgstr "Vis ekstra information"
+
+#: ../data/klavaro.glade.h:81
+msgid "Hide extra information"
+msgstr "Skjul ekstra information"
+
+#: ../data/klavaro.glade.h:82
+msgid "Publish to the web your local scores."
+msgstr "Udgiv dine lokale point på nettet."
+
+#: ../data/klavaro.glade.h:83
+msgid "_Participate"
+msgstr "_Deltag"
+
+#: ../data/klavaro.glade.h:84
+msgid "Download from the web the most up to date ranking."
+msgstr "Hent den opdaterede rangering fra nettet."
+
+#: ../data/klavaro.glade.h:85
+msgid "_Update"
+msgstr "_Opdater"
+
+#: ../data/klavaro.glade.h:86
+msgid "Load other exercises/lessons"
+msgstr "Hent andre øvelser/lektioner"
+
+#: ../data/klavaro.glade.h:87
+msgid "_Other texts"
+msgstr "_Andre tekster"
+
+#: ../data/klavaro.glade.h:88
+msgid "Edit the character set to be used in this lesson."
+msgstr "Rediger det karaktersæt som skal bruges i denne lektion."
+
+#: ../data/klavaro.glade.h:89
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr "Dette er en specifik øvelse, justeret til din fejlprofil."
+
+#: ../data/klavaro.glade.h:90
+msgid "Edit the character set to be used in lessons 44 through 50."
+msgstr "Rediger det karaktersæt som skal bruges i lektion 44 til 50."
+
+#: ../data/klavaro.glade.h:91 ../src/tutor.c:252
+msgid "Drag and drop text here to practice with it."
+msgstr "Træk og slip tekst her for at øve med den."
+
+#: ../data/klavaro.glade.h:92
+msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+msgstr "Tryk her for at starte øvelsen igen. Genvejstast: [Ctrl R]"
+
+#: ../data/klavaro.glade.h:93
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr "Vis det virtuelle tastatur og forbindelsen mellem fingre og taster."
+
+#: ../data/klavaro.glade.h:94
+msgid "_Keyboard"
+msgstr "_Tastatur"
+
+#: ../data/klavaro.glade.h:95
+msgid "Select the font to be used in the exercise window."
+msgstr "Vælg skrifttypen der skal bruges i øvelsesvinduet."
+
+#: ../data/klavaro.glade.h:96
+msgid "_Font"
+msgstr "_Skrifttype"
+
+#: ../data/klavaro.glade.h:97
+msgid "Keep this checked if you want to get those nice beeps."
+msgstr "Hold denne afkrydset hvis du vil bevare de dejlige små bip."
+
+#: ../data/klavaro.glade.h:98
+msgid "_Beep"
+msgstr "_Bip"
+
+#: ../data/klavaro.glade.h:99
+msgid "Co_urse information"
+msgstr "_Undervisningsinformation"
+
+#: ../data/klavaro.glade.h:100
+msgid "Charts showing the learning progress along the exercises."
+msgstr "Grafer der viser indlæringsfremskridtet igennem øvelserne."
+
+#: ../data/klavaro.glade.h:101
+msgid "_Progress"
+msgstr "_Fremskridt"
+
+#: ../data/klavaro.glade.h:102
+msgid "Return to the main menu."
+msgstr "Retur til hovedmenuen."
+
+#: ../data/klavaro.glade.h:103
+msgid "Show local and external scores from other users."
+msgstr "Vis lokale og eksterne point fra andre brugere."
+
+#: ../data/klavaro.glade.h:104
+msgid "_Top 10"
+msgstr "_Top 10"
+
+#: ../src/main.c:243
 msgid "(Custom)"
 msgstr "(Brugertilpasset)"
 
-#: ../src/main.c:315
+#: ../src/main.c:244
 msgid "(Edit custom)"
 msgstr "(Rediger brugertilpasset)"
 
-#: ../src/main.c:316
+#: ../src/main.c:245
 msgid "(Default)"
 msgstr "(Standard)"
 
-#: ../src/main.c:393
+#: ../src/main.c:322
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
@@ -494,24 +494,24 @@ msgstr[1] "Diktafontilstand (afhænger af en af disse talesynthesizere: %s)"
 
 #. Set main labels (for translation)
 #.
-#: ../src/main.c:435 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1291
 msgid "Introduction"
 msgstr "Introduktion"
 
-#: ../src/main.c:438 ../src/top10.c:109
+#: ../src/main.c:367 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Grundlæggende øvelse"
 
-#: ../src/main.c:441 ../src/top10.c:112
+#: ../src/main.c:370 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Tilpasningsevne"
 
-#: ../src/main.c:444 ../src/callbacks.c:1310 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1310 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Hastighed"
 
-#: ../src/main.c:447 ../src/callbacks.c:1333 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1333 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Flydenhed"
@@ -1080,11 +1080,11 @@ msgstr ""
 " Nu er det på tide at øge din hastighed.\n"
 " Gå til den tredje øvelse i hovedmenuen.\n"
 
-#: ../src/velocity.c:313 ../src/fluidness.c:435
+#: ../src/velocity.c:312 ../src/fluidness.c:435
 msgid "Pasted_or_dropped"
 msgstr "Indsat_eller_sluppet"
 
-#: ../src/velocity.c:432
+#: ../src/velocity.c:431
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
@@ -1094,7 +1094,7 @@ msgstr ""
 " Vær tålmodig, prøv hver dag, hvil og bekymr dig ikke så meget:\n"
 " ihærdighed og øvelse vil øge din hastighed.\n"
 
-#: ../src/velocity.c:436
+#: ../src/velocity.c:435
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try at least 20 WPM.\n"
@@ -1102,7 +1102,7 @@ msgstr ""
 " Stadig langt fra hovedvejen. Du kan gøre det bedre...\n"
 " Forsøg i det mindste at nå 20 OPM.\n"
 
-#: ../src/velocity.c:439
+#: ../src/velocity.c:438
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get 30 WPM.\n"
@@ -1110,7 +1110,7 @@ msgstr ""
 " Du gør det godt, men det skal gå hurtigere.\n"
 " Og glem ikke præcisionen. Forsøg at nå 30 OPM.\n"
 
-#: ../src/velocity.c:443
+#: ../src/velocity.c:442
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach 40 WPM?\n"
@@ -1118,7 +1118,7 @@ msgstr ""
 " Fint. Nu skal du i gang med hastigheden.\n"
 " Kan du nå 40 OPM?\n"
 
-#: ../src/velocity.c:446
+#: ../src/velocity.c:445
 #, c-format
 msgid ""
 " Very good. You are almost there.\n"
@@ -1127,7 +1127,7 @@ msgstr ""
 " Rigtig godt. Du er der næsten.\n"
 " Kan du nu nå %.0f OPM?\n"
 
-#: ../src/velocity.c:451
+#: ../src/velocity.c:450
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
@@ -1135,7 +1135,7 @@ msgstr ""
 " Glimrende. Til dette kursus er det nok.\n"
 " Forsøg nu med øvelser til øgning af den flydende indtastning, okay?\n"
 
-#: ../src/velocity.c:455
+#: ../src/velocity.c:454
 msgid ""
 " Fast! Are you training for a competition?\n"
 " So, try to get 70 WPM!\n"
@@ -1143,7 +1143,7 @@ msgstr ""
 " Hurtigt! Træner du til en konkurrence?\n"
 " Så forsøg at nå 70 OPM!\n"
 
-#: ../src/velocity.c:458
+#: ../src/velocity.c:457
 msgid ""
 " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 " Are you afraid of reaching 80 WPM?\n"
@@ -1151,7 +1151,7 @@ msgstr ""
 " Toppen af »qwerty«. Nu er det på tide at skifte til Dvoraktilstand.\n"
 " Er du bange for at nå 80 OPM?\n"
 
-#: ../src/velocity.c:462
+#: ../src/velocity.c:461
 msgid ""
 " Dvorak mode dominated!\n"
 " Can you fly at 90 WPM?\n"
@@ -1159,7 +1159,7 @@ msgstr ""
 " Dvoraktilstand erobret!\n"
 " Kan du flyve af sted med 90 OPM?\n"
 
-#: ../src/velocity.c:466
+#: ../src/velocity.c:465
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"

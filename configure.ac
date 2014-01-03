@@ -2,7 +2,7 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
 dnl AC_PREREQ([2.21])
-AC_INIT([klavaro],[2.00],[fefcas@gmail.com])
+AC_INIT([klavaro],[2.01],[fefcas@gmail.com])
 AC_CONFIG_SRCDIR([config.h.in])
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([-Wall])
@@ -12,7 +12,8 @@ AC_PROG_CC
 AC_PROG_INSTALL
 AC_PROG_MAKE_SET
 dnl For Windows, comment out this one (then do an "autoreconf"):
-IT_PROG_INTLTOOL ([0.23])
+IT_PROG_INTLTOOL ([0.50])
+dnl IT_PROG_INTLTOOL ([0.23])
 AC_CHECK_PROG([GTKBLDRCONV], [gtk-builder-convert], [gtk-builder-convert], [false])
 
 AC_HEADER_STDC
@@ -40,9 +41,9 @@ AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
 
 dnl Add the languages which your application supports here.
-ALL_LINGUAS="ar bg bn cs da de en_GB el eo eu es fr gl hu it kk ky nb nl pl pt_BR ru sv te uk ur vi wo zh_CN"
 AM_GNU_GETTEXT([external])
-AM_GNU_GETTEXT_VERSION([0.18])
+AM_GNU_GETTEXT_VERSION([0.18.3])
+dnl ALL_LINGUAS="ar bg bn cs da de en_GB el eo eu es fr gl hu it kk ky nb nl pl pt_BR ru sv te uk ur vi wo zh_CN"
 dnl AM_GLIB_GNU_GETTEXT
 
 AM_CONDITIONAL(IS_WIN32, test `uname` = "MINGW32_NT-6.1")

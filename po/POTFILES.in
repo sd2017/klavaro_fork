@@ -1,7 +1,7 @@
 # List of source files containing translatable strings.
 
-data/klavaro.desktop.in
 data/klavaro.glade
+data/klavaro.desktop.in
 src/main.c
 src/callbacks.c
 src/translation.c

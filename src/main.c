@@ -257,13 +257,13 @@ main_gtkbuilder_translation_workaround ()
 	it = ls;
 	do
 	{
-		if (GTK_OBJECT_TYPE (it->data) == GTK_TYPE_LABEL)
+		if (G_OBJECT_TYPE (it->data) == GTK_TYPE_LABEL)
 		{
 			lb = (gchar *) gtk_label_get_label (GTK_LABEL (it->data));
 			if (lb[0] != '\0')
 				gtk_label_set_text_with_mnemonic (GTK_LABEL (it->data), _(lb));
 		}
-		else if (GTK_OBJECT_TYPE (it->data) == GTK_TYPE_ENTRY)
+		else if (G_OBJECT_TYPE (it->data) == GTK_TYPE_ENTRY)
 		{
 			lb = gtk_entry_get_icon_tooltip_text (GTK_ENTRY (it->data), GTK_ENTRY_ICON_SECONDARY);
 			if (lb)
@@ -272,7 +272,7 @@ main_gtkbuilder_translation_workaround ()
 					gtk_entry_set_icon_tooltip_text (GTK_ENTRY (it->data), GTK_ENTRY_ICON_SECONDARY, _(lb));
 			}
 		}
-		else if (GTK_OBJECT_TYPE (it->data) == GTK_TYPE_WINDOW)
+		else if (G_OBJECT_TYPE (it->data) == GTK_TYPE_WINDOW)
 			gtk_window_set_title (GTK_WINDOW (it->data), _(gtk_window_get_title (GTK_WINDOW (it->data))));
 
 		if (GTK_IS_WIDGET (it->data))
