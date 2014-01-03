@@ -131,8 +131,12 @@ adapt_create_word (gunichar word[MAX_WORD_LEN + 1])
 		{
 			/* Symbol */
 			word[i] = symbols[rand () % slen];
-			if (rand () % 12)
-			{	/* end of word: space after symbol */
+			if (word[i] == L'\\' && i > 0)
+				word[i] = L'-';
+			if (word[i] == L'´' && i > 0)
+				word[i] = L'`';
+			if (rand () % 5 || word[i] == L'-' || word[i] == L'\\')
+			{	/* space after symbol ==> end of word (most often) */
 				word[i + 1] = L'\0';
 				return;
 			}
