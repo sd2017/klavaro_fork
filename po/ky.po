@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-1.9.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-03 15:15-0200\n"
+"POT-Creation-Date: 2014-01-04 16:42-0200\n"
 "PO-Revision-Date: 2013-11-21 07:38+0600\n"
 "Last-Translator: Chyngyz Dzhumaliev <kyrgyzl10n@gmail.com>\n"
 "Language-Team: Kirghiz <i18n-team-ky-kyrgyz@lists.sourceforge.net>\n"
@@ -19,443 +19,9 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: ../data/klavaro.glade.h:1
-msgid "About 'Klavaro'"
-msgstr "'Klavaro' жөнүндө"
-
-#: ../data/klavaro.glade.h:2 ../data/klavaro.desktop.in.h:1
+#: ../data/klavaro.desktop.in.h:1
 msgid "Yet another touch typing tutor"
 msgstr "Дагы бир баскычтоп машыктыргычы"
-
-#: ../data/klavaro.glade.h:3
-msgid "Remember always: someone loves you!"
-msgstr "Эч качан унутпаңыз: бирөө сизди жакшы көрөт!"
-
-#: ../data/klavaro.glade.h:4
-msgid "Change language"
-msgstr "Тилди өзгөртүү"
-
-#: ../data/klavaro.glade.h:5
-msgid "Attention!"
-msgstr "Көңүл буруңуз!"
-
-#: ../data/klavaro.glade.h:6
-msgid "Do you confirm?"
-msgstr "Сиз аныктайсызбы?"
-
-#: ../data/klavaro.glade.h:7
-msgid "_No"
-msgstr "_Жок"
-
-#: ../data/klavaro.glade.h:8
-msgid "_Yes"
-msgstr "_Ооба"
-
-#: ../data/klavaro.glade.h:9
-msgid "Help?"
-msgstr "Жардам?"
-
-#: ../data/klavaro.glade.h:10
-msgid "This is a tip. Now you press this button to return to the main menu."
-msgstr ""
-"Бул калкуучу билдирме болот. Эми сиз башкы менюга кайтуу үчүн бул баскычты "
-"басыңыз."
-
-#: ../data/klavaro.glade.h:11
-msgid "B_ack to menu"
-msgstr "Менюга к_айтуу"
-
-#: ../data/klavaro.glade.h:12
-msgid ""
-"The main menu of the application is very straightforward. Just select the "
-"type of exercise you wish to take. Do not worry about clicking any button on "
-"the screen. The buttons will never hurt you!"
-msgstr ""
-
-#: ../data/klavaro.glade.h:13
-msgid ""
-"Also the controls have tips which will appear if you hover over them with "
-"your mouse. These tips can come in very handy. To see how these tips work, "
-"position your mouse over the button below, and without clicking, wait for "
-"the tip to appear..."
-msgstr ""
-
-#: ../data/klavaro.glade.h:14
-msgid "Klavaro - Select file"
-msgstr "Klavaro - Файл тандоо"
-
-#: ../data/klavaro.glade.h:15
-msgid "_Cancel"
-msgstr "_Айнуу"
-
-#: ../data/klavaro.glade.h:16
-msgid "_Open"
-msgstr "_Ачуу"
-
-#: ../data/klavaro.glade.h:17
-msgid "Font definition"
-msgstr "Арипти аныктоо"
-
-#: ../data/klavaro.glade.h:18
-msgid "Klavaro"
-msgstr "Klavaro"
-
-#: ../data/klavaro.glade.h:19
-msgid "Re_name:"
-msgstr "Атын _өзгөртүү:"
-
-#: ../data/klavaro.glade.h:20
-msgid "Rename the selected item."
-msgstr "Тандалган элементтин атын өзгөртүү."
-
-#: ../data/klavaro.glade.h:21
-msgid ""
-"Read a text file and add a copy of it here. The file must be encoded in "
-"UTF-8."
-msgstr ""
-"Текст файлын окуп жана көчүрмөсүн бул жерге кошуу. Файл UTF-8 кодировкасында "
-"болуш керек."
-
-#: ../data/klavaro.glade.h:22
-msgid "_Open text file"
-msgstr "_Текст файлын ачуу"
-
-#: ../data/klavaro.glade.h:23
-msgid "Paste text that was copied to the clipboard."
-msgstr "Алмашуу буферине көчүрүлгөн текстти коюу."
-
-#: ../data/klavaro.glade.h:24
-msgid "_Paste from clipboard"
-msgstr "_Алмашуу буферинен коюу"
-
-#: ../data/klavaro.glade.h:25
-msgid "Remove the selected item."
-msgstr "Тандалган элементти өчүрүү."
-
-#: ../data/klavaro.glade.h:26
-msgid "_Remove copied file"
-msgstr "_Көчүрүлгөн файлды өчүрүү"
-
-#: ../data/klavaro.glade.h:27
-msgid "Apply the selected item to create an exercise."
-msgstr "Тандалган элементтен көнүгүүнү жаратып колдонуу."
-
-#: ../data/klavaro.glade.h:28
-msgid "_Apply"
-msgstr "_Колдонуу"
-
-#: ../data/klavaro.glade.h:29
-msgid "Close this window."
-msgstr "Бул терезени жабуу"
-
-#: ../data/klavaro.glade.h:30
-msgid "_Close"
-msgstr "Жа_буу"
-
-#: ../data/klavaro.glade.h:31
-msgid "Country / Custom"
-msgstr "Өлкө / Башка"
-
-#: ../data/klavaro.glade.h:32
-msgid "Variant"
-msgstr "Вариант"
-
-#: ../data/klavaro.glade.h:33
-msgid "Remove the selected custom layout."
-msgstr "Тандалган жайылманы өчүрүү"
-
-#: ../data/klavaro.glade.h:34
-msgid "_Remove"
-msgstr "Ө_чүрүү"
-
-#: ../data/klavaro.glade.h:35
-msgid ""
-"Toggles the shift effect on the keys. Alternates between the upper and lower "
-"characters of the keys."
-msgstr "Shift клавишасы үстүңкү жана астыңкы символдордун ортосунан которот."
-
-#: ../data/klavaro.glade.h:36
-msgid "SPACE BAR"
-msgstr "БОШТУК"
-
-#: ../data/klavaro.glade.h:37 ../src/keyboard.c:1630
-msgid "thumbs"
-msgstr "баш бармак"
-
-#: ../data/klavaro.glade.h:38
-msgid "Ctrl"
-msgstr "Ctrl"
-
-#: ../data/klavaro.glade.h:39
-msgid "Caps"
-msgstr "Caps"
-
-#: ../data/klavaro.glade.h:40
-msgid "S_ave as:"
-msgstr "Ат коюп с_актоо:"
-
-#: ../data/klavaro.glade.h:41
-msgid "Show previous screen."
-msgstr "Мурунку экранды көрсөтүү"
-
-#: ../data/klavaro.glade.h:42
-msgid "_Previous step"
-msgstr "_Мурунку кадам"
-
-#: ../data/klavaro.glade.h:43
-msgid "Show next screen."
-msgstr "Кийинки экранды көрсөтүү"
-
-#: ../data/klavaro.glade.h:44
-msgid "_Next step"
-msgstr "_Кийинки кадам"
-
-#: ../data/klavaro.glade.h:45
-msgid "Return without any modification."
-msgstr "Эч нерсени өзгөртпөй кайтуу"
-
-#: ../data/klavaro.glade.h:46
-msgid "Save the current keyboard layout with the name specified above."
-msgstr "Кезектеги ариптакта жайылмасын жогоруда көрсөтүлгөн аты менен сактоо"
-
-#: ../data/klavaro.glade.h:47
-msgid "_Save and use"
-msgstr "_Сактап анан колдонуу"
-
-#: ../data/klavaro.glade.h:48
-msgid ""
-"If you like those beautiful hands, click here to close this window keeping "
-"them."
-msgstr ""
-"Эгер сизге тиги кооз колдор жагып калса, анда аларды калтырып бул жерди "
-"басып терезени жабыңыз."
-
-#: ../data/klavaro.glade.h:49
-msgid "_Keep hands"
-msgstr "_Колдорду калтыруу"
-
-#: ../data/klavaro.glade.h:50
-msgid "Klavaro - Main menu"
-msgstr "Klavaro - Башкы меню"
-
-#: ../data/klavaro.glade.h:51
-msgid "Don't be shy about learning the basics!"
-msgstr "Негиздерди үйрөнүү жөнүндө уялбаңыз!"
-
-#: ../data/klavaro.glade.h:52
-msgid "Learn how to type correctly"
-msgstr "Кантип туура тергенди үйрөнүңүз"
-
-#: ../data/klavaro.glade.h:53
-msgid "Initial training for your fingers."
-msgstr "Сиздин бармактарыңыз үчүн баштапкы окуу"
-
-#: ../data/klavaro.glade.h:54
-msgid "First steps with initial training"
-msgstr "Баштапкы окуунун биринчи кадамдары"
-
-#: ../data/klavaro.glade.h:55
-msgid "Memorizing the keyboard practicing random keys exercises."
-msgstr "Туш келди баскычтар көнүгүүлөрүн аткарып ариптактаны эске тутуу"
-
-#: ../data/klavaro.glade.h:56
-msgid "Practice with random keys"
-msgstr "Кокустук баскычтар менен көнүгүңүз"
-
-#. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:58
-msgid "Accelerating the touches practicing random words exercises."
-msgstr "Кокустук сөздөрдүн көнүгүүлөрүн аткарып терүүнү ылдамдатуу."
-
-#: ../data/klavaro.glade.h:59
-msgid "Practice with random words"
-msgstr "Кокустук сөздөр менен көнүгүңүз"
-
-#: ../data/klavaro.glade.h:60
-msgid "Becoming proficient practicing complete paragraphs exercises."
-msgstr "Толук параграфтардын көнүгүүлөрүн аткарып чебер болуу"
-
-#: ../data/klavaro.glade.h:61
-msgid "Practice with complete texts"
-msgstr "Толук тексттер менен көнүгүңүз"
-
-#: ../data/klavaro.glade.h:62
-msgid ""
-"Keyboard layout for modules 1 and 2. Also used informatively in the "
-"fluidness contest."
-msgstr ""
-
-#: ../data/klavaro.glade.h:63
-msgid "_Keyboard:"
-msgstr "_Ариптакта:"
-
-#: ../data/klavaro.glade.h:64
-msgid "Language for modules 3 and 4."
-msgstr "3 жана 4 модуль үчүн тил."
-
-#: ../data/klavaro.glade.h:65
-msgid "_Language:"
-msgstr "_Тили:"
-
-#: ../data/klavaro.glade.h:66
-msgid "Your language here."
-msgstr "Сиздин тилиңиз бул жерде"
-
-#: ../data/klavaro.glade.h:67
-msgid "Speech"
-msgstr "Сүйлөө"
-
-#: ../data/klavaro.glade.h:68
-msgid "Little tip about this program."
-msgstr "Бул программа жөнүндө кичинекей кеңеш"
-
-#: ../data/klavaro.glade.h:69
-msgid "_Help"
-msgstr "_Жардам"
-
-#: ../data/klavaro.glade.h:70
-msgid "General information about the program."
-msgstr "Программа жөнүндө жалпы маалымат"
-
-#: ../data/klavaro.glade.h:71
-msgid "_About..."
-msgstr "_Программа жөнүндө..."
-
-#: ../data/klavaro.glade.h:72
-msgid "Exit the application immediately."
-msgstr "Тиркемеден токтоосуз чыгуу"
-
-#: ../data/klavaro.glade.h:73
-msgid "Klavaro - Progress"
-msgstr "Klavaro - Жетишкендик"
-
-#: ../data/klavaro.glade.h:74
-msgid "_Lesson:"
-msgstr "_Сабак:"
-
-#: ../data/klavaro.glade.h:75
-msgid "Value"
-msgstr "Мааниси"
-
-#: ../data/klavaro.glade.h:76
-msgid "Close this window, returning to the exercise."
-msgstr "Терезени жабып көнүгүүгө кайтуу."
-
-#: ../data/klavaro.glade.h:77
-msgid "Clear all the progress data, for every module."
-msgstr "Ар бир модуль үчүн бүт жетишкендик жөнүндө маалыматты тазалоо."
-
-#: ../data/klavaro.glade.h:78
-msgid "_Reset"
-msgstr "_Түшүрүү"
-
-#: ../data/klavaro.glade.h:79
-msgid "Top 10"
-msgstr "Төбөл 10"
-
-#: ../data/klavaro.glade.h:80
-msgid "Show extra information"
-msgstr "Кошумча маалыматты көрсөтүү"
-
-#: ../data/klavaro.glade.h:81
-msgid "Hide extra information"
-msgstr "Кошумча маалыматты жашыруу"
-
-#: ../data/klavaro.glade.h:82
-msgid "Publish to the web your local scores."
-msgstr "Сиздин жердик упайларыңызды желеге жарыялоо."
-
-#: ../data/klavaro.glade.h:83
-msgid "_Participate"
-msgstr "_Катышуу"
-
-#: ../data/klavaro.glade.h:84
-msgid "Download from the web the most up to date ranking."
-msgstr "Желеден эң акыркы жаңыртылган рейтингди жүктөп алуу."
-
-#: ../data/klavaro.glade.h:85
-msgid "_Update"
-msgstr "_Жаңылоо"
-
-#: ../data/klavaro.glade.h:86
-msgid "Load other exercises/lessons"
-msgstr "Башка көнүгүүлөрдү/сабактарды жүктөө"
-
-#: ../data/klavaro.glade.h:87
-msgid "_Other texts"
-msgstr "_Башка тексттер"
-
-#: ../data/klavaro.glade.h:88
-msgid "Edit the character set to be used in this lesson."
-msgstr "Бул сабакта колдонулуучу символдордун топтомун ондоңуз."
-
-#: ../data/klavaro.glade.h:89
-msgid "This is a specific exercise, adjusted to your error profile."
-msgstr ""
-
-#: ../data/klavaro.glade.h:90
-msgid "Edit the character set to be used in lessons 44 through 50."
-msgstr ""
-"44 баштап 50 чейинки сабактарында колдонулуучу символдордун топтомун ондоо."
-
-#: ../data/klavaro.glade.h:91 ../src/tutor.c:252
-msgid "Drag and drop text here to practice with it."
-msgstr "Текст менен көнүгүш үчүн, аны бул жерге көчүрүңүз."
-
-#: ../data/klavaro.glade.h:92
-msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-msgstr "Көнүгүүнү кайта башташ үчүн бул жерди басыңыз. Ысык клавиша: [Ctrl R]"
-
-#: ../data/klavaro.glade.h:93
-msgid "Show the virtual keyboard and the relation between fingers and keys."
-msgstr ""
-"Манжалар менен баскычтардын ортосундагы мамилени виртуалдык ариптактадан "
-"көрсөтүү."
-
-#: ../data/klavaro.glade.h:94
-msgid "_Keyboard"
-msgstr "_Ариптакта"
-
-#: ../data/klavaro.glade.h:95
-msgid "Select the font to be used in the exercise window."
-msgstr "Көнүгүүнүн терезесинде колдонулуучу шрифтти тандоо."
-
-#: ../data/klavaro.glade.h:96
-msgid "_Font"
-msgstr "_Арип"
-
-#: ../data/klavaro.glade.h:97
-msgid "Keep this checked if you want to get those nice beeps."
-msgstr ""
-"Эгер сиз ушу сонун сигналды уккуңуз келсе, муну басылган бойдон калтырыңыз."
-
-#: ../data/klavaro.glade.h:98
-msgid "_Beep"
-msgstr "_Сигнал"
-
-#: ../data/klavaro.glade.h:99
-msgid "Co_urse information"
-msgstr "Ку_рс жөнүндө маалымат"
-
-#: ../data/klavaro.glade.h:100
-msgid "Charts showing the learning progress along the exercises."
-msgstr "Көнүгүүлөрдүн окуу жетишкендигин көрсөтүүчү графиктери."
-
-#: ../data/klavaro.glade.h:101
-msgid "_Progress"
-msgstr "_Жетишкендик"
-
-#: ../data/klavaro.glade.h:102
-msgid "Return to the main menu."
-msgstr "Башкы менюга кайтуу"
-
-#: ../data/klavaro.glade.h:103
-msgid "Show local and external scores from other users."
-msgstr "Башка колдонуучулардын жердик жана тышкы упайларын көрсөтүү."
-
-#: ../data/klavaro.glade.h:104
-msgid "_Top 10"
-msgstr "_Төбөл 10"
 
 #: ../data/klavaro.desktop.in.h:2
 msgid "keyboard;typing;tutorial;"
@@ -767,6 +333,10 @@ msgstr "ортон"
 msgid "index finger"
 msgstr "сөөмөй"
 
+#: ../src/keyboard.c:1630
+msgid "thumbs"
+msgstr "баш бармак"
+
 #: ../src/keyboard.c:1728
 msgid "Press and edit me"
 msgstr "Мени басып ондоңуз"
@@ -808,6 +378,10 @@ msgstr "Klavaro - Жай-салмактуулук"
 #: ../src/tutor.c:239
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr ""
+
+#: ../src/tutor.c:252
+msgid "Drag and drop text here to practice with it."
+msgstr "Текст менен көнүгүш үчүн, аны бул жерге көчүрүңүз."
 
 #: ../src/tutor.c:301
 msgid "End of exercise. Press [Enter] to start another."
@@ -1134,6 +708,315 @@ msgstr "Файлдарды жүктөө оңунан чыккан жок"
 #: ../src/top10.c:987
 msgid "Could not upload/download scores."
 msgstr "Упайларды жүктөөгө/жүктөп алууга мүмкүн эмес."
+
+#~ msgid "About 'Klavaro'"
+#~ msgstr "'Klavaro' жөнүндө"
+
+#~ msgid "Remember always: someone loves you!"
+#~ msgstr "Эч качан унутпаңыз: бирөө сизди жакшы көрөт!"
+
+#~ msgid "Change language"
+#~ msgstr "Тилди өзгөртүү"
+
+#~ msgid "Attention!"
+#~ msgstr "Көңүл буруңуз!"
+
+#~ msgid "Do you confirm?"
+#~ msgstr "Сиз аныктайсызбы?"
+
+#~ msgid "_No"
+#~ msgstr "_Жок"
+
+#~ msgid "_Yes"
+#~ msgstr "_Ооба"
+
+#~ msgid "Help?"
+#~ msgstr "Жардам?"
+
+#~ msgid "This is a tip. Now you press this button to return to the main menu."
+#~ msgstr ""
+#~ "Бул калкуучу билдирме болот. Эми сиз башкы менюга кайтуу үчүн бул "
+#~ "баскычты басыңыз."
+
+#~ msgid "B_ack to menu"
+#~ msgstr "Менюга к_айтуу"
+
+#~ msgid "Klavaro - Select file"
+#~ msgstr "Klavaro - Файл тандоо"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Айнуу"
+
+#~ msgid "_Open"
+#~ msgstr "_Ачуу"
+
+#~ msgid "Font definition"
+#~ msgstr "Арипти аныктоо"
+
+#~ msgid "Re_name:"
+#~ msgstr "Атын _өзгөртүү:"
+
+#~ msgid "Rename the selected item."
+#~ msgstr "Тандалган элементтин атын өзгөртүү."
+
+#~ msgid ""
+#~ "Read a text file and add a copy of it here. The file must be encoded in "
+#~ "UTF-8."
+#~ msgstr ""
+#~ "Текст файлын окуп жана көчүрмөсүн бул жерге кошуу. Файл UTF-8 "
+#~ "кодировкасында болуш керек."
+
+#~ msgid "_Open text file"
+#~ msgstr "_Текст файлын ачуу"
+
+#~ msgid "Paste text that was copied to the clipboard."
+#~ msgstr "Алмашуу буферине көчүрүлгөн текстти коюу."
+
+#~ msgid "_Paste from clipboard"
+#~ msgstr "_Алмашуу буферинен коюу"
+
+#~ msgid "Remove the selected item."
+#~ msgstr "Тандалган элементти өчүрүү."
+
+#~ msgid "_Remove copied file"
+#~ msgstr "_Көчүрүлгөн файлды өчүрүү"
+
+#~ msgid "Apply the selected item to create an exercise."
+#~ msgstr "Тандалган элементтен көнүгүүнү жаратып колдонуу."
+
+#~ msgid "_Apply"
+#~ msgstr "_Колдонуу"
+
+#~ msgid "Close this window."
+#~ msgstr "Бул терезени жабуу"
+
+#~ msgid "_Close"
+#~ msgstr "Жа_буу"
+
+#~ msgid "Remove the selected custom layout."
+#~ msgstr "Тандалган жайылманы өчүрүү"
+
+#~ msgid "_Remove"
+#~ msgstr "Ө_чүрүү"
+
+#~ msgid ""
+#~ "Toggles the shift effect on the keys. Alternates between the upper and "
+#~ "lower characters of the keys."
+#~ msgstr ""
+#~ "Shift клавишасы үстүңкү жана астыңкы символдордун ортосунан которот."
+
+#~ msgid "SPACE BAR"
+#~ msgstr "БОШТУК"
+
+#~ msgid "Ctrl"
+#~ msgstr "Ctrl"
+
+#~ msgid "Caps"
+#~ msgstr "Caps"
+
+#~ msgid "S_ave as:"
+#~ msgstr "Ат коюп с_актоо:"
+
+#~ msgid "Show previous screen."
+#~ msgstr "Мурунку экранды көрсөтүү"
+
+#~ msgid "_Previous step"
+#~ msgstr "_Мурунку кадам"
+
+#~ msgid "Show next screen."
+#~ msgstr "Кийинки экранды көрсөтүү"
+
+#~ msgid "_Next step"
+#~ msgstr "_Кийинки кадам"
+
+#~ msgid "Return without any modification."
+#~ msgstr "Эч нерсени өзгөртпөй кайтуу"
+
+#~ msgid "Save the current keyboard layout with the name specified above."
+#~ msgstr ""
+#~ "Кезектеги ариптакта жайылмасын жогоруда көрсөтүлгөн аты менен сактоо"
+
+#~ msgid "_Save and use"
+#~ msgstr "_Сактап анан колдонуу"
+
+#~ msgid ""
+#~ "If you like those beautiful hands, click here to close this window "
+#~ "keeping them."
+#~ msgstr ""
+#~ "Эгер сизге тиги кооз колдор жагып калса, анда аларды калтырып бул жерди "
+#~ "басып терезени жабыңыз."
+
+#~ msgid "_Keep hands"
+#~ msgstr "_Колдорду калтыруу"
+
+#~ msgid "Klavaro - Main menu"
+#~ msgstr "Klavaro - Башкы меню"
+
+#~ msgid "Don't be shy about learning the basics!"
+#~ msgstr "Негиздерди үйрөнүү жөнүндө уялбаңыз!"
+
+#~ msgid "Learn how to type correctly"
+#~ msgstr "Кантип туура тергенди үйрөнүңүз"
+
+#~ msgid "Initial training for your fingers."
+#~ msgstr "Сиздин бармактарыңыз үчүн баштапкы окуу"
+
+#~ msgid "First steps with initial training"
+#~ msgstr "Баштапкы окуунун биринчи кадамдары"
+
+#~ msgid "Memorizing the keyboard practicing random keys exercises."
+#~ msgstr "Туш келди баскычтар көнүгүүлөрүн аткарып ариптактаны эске тутуу"
+
+#~ msgid "Practice with random keys"
+#~ msgstr "Кокустук баскычтар менен көнүгүңүз"
+
+#~ msgid "Accelerating the touches practicing random words exercises."
+#~ msgstr "Кокустук сөздөрдүн көнүгүүлөрүн аткарып терүүнү ылдамдатуу."
+
+#~ msgid "Practice with random words"
+#~ msgstr "Кокустук сөздөр менен көнүгүңүз"
+
+#~ msgid "Becoming proficient practicing complete paragraphs exercises."
+#~ msgstr "Толук параграфтардын көнүгүүлөрүн аткарып чебер болуу"
+
+#~ msgid "Practice with complete texts"
+#~ msgstr "Толук тексттер менен көнүгүңүз"
+
+#~ msgid "_Keyboard:"
+#~ msgstr "_Ариптакта:"
+
+#~ msgid "Language for modules 3 and 4."
+#~ msgstr "3 жана 4 модуль үчүн тил."
+
+#~ msgid "_Language:"
+#~ msgstr "_Тили:"
+
+#~ msgid "Speech"
+#~ msgstr "Сүйлөө"
+
+#~ msgid "Little tip about this program."
+#~ msgstr "Бул программа жөнүндө кичинекей кеңеш"
+
+#~ msgid "_Help"
+#~ msgstr "_Жардам"
+
+#~ msgid "General information about the program."
+#~ msgstr "Программа жөнүндө жалпы маалымат"
+
+#~ msgid "_About..."
+#~ msgstr "_Программа жөнүндө..."
+
+#~ msgid "Exit the application immediately."
+#~ msgstr "Тиркемеден токтоосуз чыгуу"
+
+#~ msgid "Klavaro - Progress"
+#~ msgstr "Klavaro - Жетишкендик"
+
+#~ msgid "_Lesson:"
+#~ msgstr "_Сабак:"
+
+#~ msgid "Value"
+#~ msgstr "Мааниси"
+
+#~ msgid "Close this window, returning to the exercise."
+#~ msgstr "Терезени жабып көнүгүүгө кайтуу."
+
+#~ msgid "Clear all the progress data, for every module."
+#~ msgstr "Ар бир модуль үчүн бүт жетишкендик жөнүндө маалыматты тазалоо."
+
+#~ msgid "_Reset"
+#~ msgstr "_Түшүрүү"
+
+#~ msgid "Top 10"
+#~ msgstr "Төбөл 10"
+
+#~ msgid "Show extra information"
+#~ msgstr "Кошумча маалыматты көрсөтүү"
+
+#~ msgid "Hide extra information"
+#~ msgstr "Кошумча маалыматты жашыруу"
+
+#~ msgid "Publish to the web your local scores."
+#~ msgstr "Сиздин жердик упайларыңызды желеге жарыялоо."
+
+#~ msgid "_Participate"
+#~ msgstr "_Катышуу"
+
+#~ msgid "Download from the web the most up to date ranking."
+#~ msgstr "Желеден эң акыркы жаңыртылган рейтингди жүктөп алуу."
+
+#~ msgid "_Update"
+#~ msgstr "_Жаңылоо"
+
+#~ msgid "Load other exercises/lessons"
+#~ msgstr "Башка көнүгүүлөрдү/сабактарды жүктөө"
+
+#~ msgid "_Other texts"
+#~ msgstr "_Башка тексттер"
+
+#~ msgid "Edit the character set to be used in this lesson."
+#~ msgstr "Бул сабакта колдонулуучу символдордун топтомун ондоңуз."
+
+#~ msgid "Edit the character set to be used in lessons 44 through 50."
+#~ msgstr ""
+#~ "44 баштап 50 чейинки сабактарында колдонулуучу символдордун топтомун "
+#~ "ондоо."
+
+#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+#~ msgstr ""
+#~ "Көнүгүүнү кайта башташ үчүн бул жерди басыңыз. Ысык клавиша: [Ctrl R]"
+
+#~ msgid "Show the virtual keyboard and the relation between fingers and keys."
+#~ msgstr ""
+#~ "Манжалар менен баскычтардын ортосундагы мамилени виртуалдык ариптактадан "
+#~ "көрсөтүү."
+
+#~ msgid "_Keyboard"
+#~ msgstr "_Ариптакта"
+
+#~ msgid "Select the font to be used in the exercise window."
+#~ msgstr "Көнүгүүнүн терезесинде колдонулуучу шрифтти тандоо."
+
+#~ msgid "_Font"
+#~ msgstr "_Арип"
+
+#~ msgid "Keep this checked if you want to get those nice beeps."
+#~ msgstr ""
+#~ "Эгер сиз ушу сонун сигналды уккуңуз келсе, муну басылган бойдон "
+#~ "калтырыңыз."
+
+#~ msgid "_Beep"
+#~ msgstr "_Сигнал"
+
+#~ msgid "Co_urse information"
+#~ msgstr "Ку_рс жөнүндө маалымат"
+
+#~ msgid "Charts showing the learning progress along the exercises."
+#~ msgstr "Көнүгүүлөрдүн окуу жетишкендигин көрсөтүүчү графиктери."
+
+#~ msgid "_Progress"
+#~ msgstr "_Жетишкендик"
+
+#~ msgid "Return to the main menu."
+#~ msgstr "Башкы менюга кайтуу"
+
+#~ msgid "Show local and external scores from other users."
+#~ msgstr "Башка колдонуучулардын жердик жана тышкы упайларын көрсөтүү."
+
+#~ msgid "_Top 10"
+#~ msgstr "_Төбөл 10"
+
+#~ msgid "Klavaro"
+#~ msgstr "Klavaro"
+
+#~ msgid "Country / Custom"
+#~ msgstr "Өлкө / Башка"
+
+#~ msgid "Variant"
+#~ msgstr "Вариант"
+
+#~ msgid "Your language here."
+#~ msgstr "Сиздин тилиңиз бул жерде"
 
 #~ msgid "Default"
 #~ msgstr "Жарыяланбаган"

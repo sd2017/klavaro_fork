@@ -166,7 +166,7 @@ cursor_on (gpointer data)
 	if (cursor.blink == FALSE)
 		return FALSE;
 
-	if (! GTK_WIDGET_VISIBLE (get_wg ("window_tutor")))
+	if (! gtk_widget_get_visible (get_wg ("window_tutor")))
 	{
 		cursor.blink = FALSE;
 		return FALSE;
@@ -191,7 +191,7 @@ cursor_off (gpointer data)
 	if (cursor.blink == FALSE)
 		return FALSE;
 
-	if (! GTK_WIDGET_VISIBLE (get_wg ("window_tutor")))
+	if (! gtk_widget_get_visible (get_wg ("window_tutor")))
 	{
 		cursor.blink = FALSE;
 		return FALSE;

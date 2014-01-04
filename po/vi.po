@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-1.9.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-03 15:15-0200\n"
+"POT-Creation-Date: 2014-01-04 16:42-0200\n"
 "PO-Revision-Date: 2013-05-04 08:19+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <translation-team-vi@lists.sourceforge.net>\n"
@@ -19,444 +19,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=1;\n"
 "X-Generator: Poedit 1.5.5\n"
 
-#: ../data/klavaro.glade.h:1
-msgid "About 'Klavaro'"
-msgstr "Giới thiệu về 'Klavaro'"
-
-#: ../data/klavaro.glade.h:2 ../data/klavaro.desktop.in.h:1
+#: ../data/klavaro.desktop.in.h:1
 msgid "Yet another touch typing tutor"
 msgstr "Đây là một chương trình học gõ bàn phím máy tính khác dành cho bạn"
-
-#: ../data/klavaro.glade.h:3
-msgid "Remember always: someone loves you!"
-msgstr "Luôn nhớ rằng: có người yêu quí bạn!"
-
-#: ../data/klavaro.glade.h:4
-msgid "Change language"
-msgstr "Thay đổi ngôn ngữ"
-
-#: ../data/klavaro.glade.h:5
-msgid "Attention!"
-msgstr "Chú ý!"
-
-#: ../data/klavaro.glade.h:6
-msgid "Do you confirm?"
-msgstr "Bạn có khẳng định không?"
-
-#: ../data/klavaro.glade.h:7
-msgid "_No"
-msgstr "Khô_ng"
-
-#: ../data/klavaro.glade.h:8
-msgid "_Yes"
-msgstr "Đồn_g ý"
-
-#: ../data/klavaro.glade.h:9
-msgid "Help?"
-msgstr "Trợ giúp?"
-
-#: ../data/klavaro.glade.h:10
-msgid "This is a tip. Now you press this button to return to the main menu."
-msgstr "Đây là mẹo nhỏ. Bây giờ bạn nhấn nút này để quay lại trình đơn chính."
-
-#: ../data/klavaro.glade.h:11
-msgid "B_ack to menu"
-msgstr "Qu_ay lại trình đơn"
-
-#: ../data/klavaro.glade.h:12
-msgid ""
-"The main menu of the application is very straightforward. Just select the "
-"type of exercise you wish to take. Do not worry about clicking any button on "
-"the screen. The buttons will never hurt you!"
-msgstr ""
-"Trình đơn chính của chương trình rất dễ dùng. Chỉ việc chọn kiểu bài học "
-"mình muốn. Không cần phải lo lắng về việc bấm chuột vào bất kỳ nút nào trên "
-"màn hình. Chúng chẳng làm hỏng gì cả đâu!"
-
-#: ../data/klavaro.glade.h:13
-msgid ""
-"Also the controls have tips which will appear if you hover over them with "
-"your mouse. These tips can come in very handy. To see how these tips work, "
-"position your mouse over the button below, and without clicking, wait for "
-"the tip to appear..."
-msgstr ""
-"Các điều khiển cũng có các hướng dẫn hiện ra nếu bạn di chuyển con chuột qua "
-"chúng. Chúng là cần thiết. Để biết chúng làm việc như thế nào, di chuyển con "
-"trỏ chuột qua nút ở phía dưới nhưng đừng bấm chuột, chờ nó xuất hiện..."
-
-#: ../data/klavaro.glade.h:14
-msgid "Klavaro - Select file"
-msgstr "Klavaro - Chọn tập tin"
-
-#: ../data/klavaro.glade.h:15
-msgid "_Cancel"
-msgstr "_Hủy bỏ"
-
-#: ../data/klavaro.glade.h:16
-msgid "_Open"
-msgstr "_Mở"
-
-#: ../data/klavaro.glade.h:17
-msgid "Font definition"
-msgstr "Xác định phông chữ"
-
-#: ../data/klavaro.glade.h:18
-msgid "Klavaro"
-msgstr "Klavaro"
-
-#: ../data/klavaro.glade.h:19
-msgid "Re_name:"
-msgstr "Đổi tê_n:"
-
-#: ../data/klavaro.glade.h:20
-msgid "Rename the selected item."
-msgstr "Đổi tên mục đã được chọn."
-
-#: ../data/klavaro.glade.h:21
-msgid ""
-"Read a text file and add a copy of it here. The file must be encoded in "
-"UTF-8."
-msgstr ""
-"Đọc tập tin văn bản và thêm bản sao của nó vào đây. Tập tin phải sử dụng "
-"bảng mã UTF-8."
-
-#: ../data/klavaro.glade.h:22
-msgid "_Open text file"
-msgstr "_Mở tập tin văn bản"
-
-#: ../data/klavaro.glade.h:23
-msgid "Paste text that was copied to the clipboard."
-msgstr "Dán chữ mà bạn đã sao chép trong clipboard."
-
-#: ../data/klavaro.glade.h:24
-msgid "_Paste from clipboard"
-msgstr "_Dán từ clipboard"
-
-#: ../data/klavaro.glade.h:25
-msgid "Remove the selected item."
-msgstr "Gỡ bỏ mục đã được chọn."
-
-#: ../data/klavaro.glade.h:26
-msgid "_Remove copied file"
-msgstr "_Xóa bỏ tập tin đã sao chép"
-
-#: ../data/klavaro.glade.h:27
-msgid "Apply the selected item to create an exercise."
-msgstr "Áp dụng một mục đã chọn để tạo ra một bài luyện tập mới."
-
-#: ../data/klavaro.glade.h:28
-msgid "_Apply"
-msgstr "Á_p dụng"
-
-#: ../data/klavaro.glade.h:29
-msgid "Close this window."
-msgstr "Đóng cửa sổ ảnh này lại."
-
-#: ../data/klavaro.glade.h:30
-msgid "_Close"
-msgstr "Đón_g"
-
-#: ../data/klavaro.glade.h:31
-msgid "Country / Custom"
-msgstr "Quốc gia/ Thói quen"
-
-#: ../data/klavaro.glade.h:32
-msgid "Variant"
-msgstr "Biến thể"
-
-#: ../data/klavaro.glade.h:33
-msgid "Remove the selected custom layout."
-msgstr "Gỡ bỏ giao diện được chọn."
-
-#: ../data/klavaro.glade.h:34
-msgid "_Remove"
-msgstr "_Xóa bỏ"
-
-#: ../data/klavaro.glade.h:35
-msgid ""
-"Toggles the shift effect on the keys. Alternates between the upper and lower "
-"characters of the keys."
-msgstr "Nhấn thả phím shift. Chuyển đổi giữa gõ chữ hoa và chữ thường."
-
-#: ../data/klavaro.glade.h:36
-msgid "SPACE BAR"
-msgstr "PHÍM CÁCH"
-
-#: ../data/klavaro.glade.h:37 ../src/keyboard.c:1630
-msgid "thumbs"
-msgstr "ngón tay cái"
-
-#: ../data/klavaro.glade.h:38
-msgid "Ctrl"
-msgstr "Ctrl"
-
-#: ../data/klavaro.glade.h:39
-msgid "Caps"
-msgstr "Phím Caps"
-
-#: ../data/klavaro.glade.h:40
-msgid "S_ave as:"
-msgstr "_Ghi lại bằng tên mới:"
-
-#: ../data/klavaro.glade.h:41
-msgid "Show previous screen."
-msgstr "Hiển thị màn hình trước."
-
-#: ../data/klavaro.glade.h:42
-msgid "_Previous step"
-msgstr "Kết quả t_rước"
-
-#: ../data/klavaro.glade.h:43
-msgid "Show next screen."
-msgstr "Hiển thị màn hình tiếp."
-
-#: ../data/klavaro.glade.h:44
-msgid "_Next step"
-msgstr "Tì_m tiếp"
-
-#: ../data/klavaro.glade.h:45
-msgid "Return without any modification."
-msgstr "Quay lại mà không thay đổi gì."
-
-#: ../data/klavaro.glade.h:46
-msgid "Save the current keyboard layout with the name specified above."
-msgstr "Lưu lại giao diện bàn phím hiện hành với tên được chỉ ra ở phía trên."
-
-#: ../data/klavaro.glade.h:47
-msgid "_Save and use"
-msgstr "_Lưu lại và sử dụng"
-
-#: ../data/klavaro.glade.h:48
-msgid ""
-"If you like those beautiful hands, click here to close this window keeping "
-"them."
-msgstr ""
-"Nếu bạn thích các hình đôi bàn tay bên cạnh, bấm vào đây để đóng cửa sổ này "
-"và giữ chúng lại."
-
-#: ../data/klavaro.glade.h:49
-msgid "_Keep hands"
-msgstr "_Hiện bàn tay"
-
-#: ../data/klavaro.glade.h:50
-msgid "Klavaro - Main menu"
-msgstr "Klavaro - Trình đơn chính"
-
-#: ../data/klavaro.glade.h:51
-msgid "Don't be shy about learning the basics!"
-msgstr "Không nên trốn tránh việc học các bài học cơ bản!"
-
-#: ../data/klavaro.glade.h:52
-msgid "Learn how to type correctly"
-msgstr "Học cách gõ bàn phím đúng phương pháp"
-
-#: ../data/klavaro.glade.h:53
-msgid "Initial training for your fingers."
-msgstr "Bắt đầu luyện tập các ngón tay của bạn."
-
-#: ../data/klavaro.glade.h:54
-msgid "First steps with initial training"
-msgstr "Bước đầu tiên với việc khởi tạo tiến trình luyện tập"
-
-#: ../data/klavaro.glade.h:55
-msgid "Memorizing the keyboard practicing random keys exercises."
-msgstr "Học thuộc bàn phím bằng cách luyện tập với phím ngẫu nhiên."
-
-#: ../data/klavaro.glade.h:56
-msgid "Practice with random keys"
-msgstr "Luyện tập với phím ngẫu nhiên"
-
-#. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:58
-msgid "Accelerating the touches practicing random words exercises."
-msgstr "Gia tăng tốc độ gõ bằng cách luyện với những từ ngẫu nhiên."
-
-#: ../data/klavaro.glade.h:59
-msgid "Practice with random words"
-msgstr "Luyện với những từ ngẫu nhiên."
-
-#: ../data/klavaro.glade.h:60
-msgid "Becoming proficient practicing complete paragraphs exercises."
-msgstr "Để thành thạo cần hoàn thành các bài luyện tập gõ các đoạn văn."
-
-#: ../data/klavaro.glade.h:61
-msgid "Practice with complete texts"
-msgstr "Luyện tập với một đoạn văn thật"
-
-#: ../data/klavaro.glade.h:62
-msgid ""
-"Keyboard layout for modules 1 and 2. Also used informatively in the "
-"fluidness contest."
-msgstr "Bố trí bàn phím cho mô đun 1 và 2. Cũng dùng trong bài thi gõ tự do."
-
-#: ../data/klavaro.glade.h:63
-msgid "_Keyboard:"
-msgstr "_Bàn phím:"
-
-#: ../data/klavaro.glade.h:64
-msgid "Language for modules 3 and 4."
-msgstr "Ngôn ngữ cho mô đun 3 và 4."
-
-#: ../data/klavaro.glade.h:65
-msgid "_Language:"
-msgstr "_Ngôn ngữ:"
-
-#: ../data/klavaro.glade.h:66
-msgid "Your language here."
-msgstr "Ngôn ngữ của bạn ở đây."
-
-#: ../data/klavaro.glade.h:67
-msgid "Speech"
-msgstr "Phát âm"
-
-#: ../data/klavaro.glade.h:68
-msgid "Little tip about this program."
-msgstr "Mẹo nhỏ khi sử dụng chương trình này."
-
-#: ../data/klavaro.glade.h:69
-msgid "_Help"
-msgstr "_Trợ giúp"
-
-#: ../data/klavaro.glade.h:70
-msgid "General information about the program."
-msgstr "Giới thiệu một số thông tin về chương trình."
-
-#: ../data/klavaro.glade.h:71
-msgid "_About..."
-msgstr "_Giới thiệu..."
-
-#: ../data/klavaro.glade.h:72
-msgid "Exit the application immediately."
-msgstr "Thoát khỏi ứng dụng ngay lập tức."
-
-#: ../data/klavaro.glade.h:73
-msgid "Klavaro - Progress"
-msgstr "Klavaro - Sự tiến triển"
-
-#: ../data/klavaro.glade.h:74
-msgid "_Lesson:"
-msgstr "_Bài học:"
-
-#: ../data/klavaro.glade.h:75
-msgid "Value"
-msgstr "Giá trị"
-
-#: ../data/klavaro.glade.h:76
-msgid "Close this window, returning to the exercise."
-msgstr "Đóng cửa sổ này, quay lại phần luyện tập."
-
-#: ../data/klavaro.glade.h:77
-msgid "Clear all the progress data, for every module."
-msgstr "Xóa dữ liệu lưu tiến trình, cho tất cả các mô đun."
-
-#: ../data/klavaro.glade.h:78
-msgid "_Reset"
-msgstr "Đặt _lại"
-
-#: ../data/klavaro.glade.h:79
-msgid "Top 10"
-msgstr "Top 10"
-
-#: ../data/klavaro.glade.h:80
-msgid "Show extra information"
-msgstr "Hiển thị thông tin phụ"
-
-#: ../data/klavaro.glade.h:81
-msgid "Hide extra information"
-msgstr "Ẩn thông tin mở rộng"
-
-#: ../data/klavaro.glade.h:82
-msgid "Publish to the web your local scores."
-msgstr "Xuất bản thông tin tới trang mạng điểm của bạn."
-
-#: ../data/klavaro.glade.h:83
-msgid "_Participate"
-msgstr "_Tham gia"
-
-#: ../data/klavaro.glade.h:84
-msgid "Download from the web the most up to date ranking."
-msgstr "Tải về từ trang web xếp hạng mới nhất."
-
-#: ../data/klavaro.glade.h:85
-msgid "_Update"
-msgstr "_Cập nhật"
-
-#: ../data/klavaro.glade.h:86
-msgid "Load other exercises/lessons"
-msgstr "Tải bài tập/bài học khác"
-
-#: ../data/klavaro.glade.h:87
-msgid "_Other texts"
-msgstr "Văn bản _khác"
-
-#: ../data/klavaro.glade.h:88
-msgid "Edit the character set to be used in this lesson."
-msgstr "Hiệu chỉnh bộ ký tự sử dụng trong bài học này."
-
-#: ../data/klavaro.glade.h:89
-msgid "This is a specific exercise, adjusted to your error profile."
-msgstr "Đây là bài tập đặc thù, hãy chỉnh sửa thông tin cá nhân bị lỗi."
-
-#: ../data/klavaro.glade.h:90
-msgid "Edit the character set to be used in lessons 44 through 50."
-msgstr "Hiệu chỉnh bộ ký tự sử dụng trong bài học từ 44 đến 50."
-
-#: ../data/klavaro.glade.h:91 ../src/tutor.c:252
-msgid "Drag and drop text here to practice with it."
-msgstr "Kéo và thả đoạn văn vào đây để luyện tập với nó."
-
-#: ../data/klavaro.glade.h:92
-msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-msgstr "Bấm vào đây để đặt lại bài tập. Phím nóng: [Ctrl R]"
-
-#: ../data/klavaro.glade.h:93
-msgid "Show the virtual keyboard and the relation between fingers and keys."
-msgstr "Hiển thị bàn phím ảo và sự liên hệ giữa các ngón tay và phím."
-
-#: ../data/klavaro.glade.h:94
-msgid "_Keyboard"
-msgstr "_Bàn phím"
-
-#: ../data/klavaro.glade.h:95
-msgid "Select the font to be used in the exercise window."
-msgstr "Chọn phông chữ sử dụng trong cửa sổ bài tập."
-
-#: ../data/klavaro.glade.h:96
-msgid "_Font"
-msgstr "_Font"
-
-#: ../data/klavaro.glade.h:97
-msgid "Keep this checked if you want to get those nice beeps."
-msgstr "Giữ dấu kiểm này được đánh nếu bạn muốn có tiếng bíp hay."
-
-#: ../data/klavaro.glade.h:98
-msgid "_Beep"
-msgstr "Tiếng _bíp."
-
-#: ../data/klavaro.glade.h:99
-msgid "Co_urse information"
-msgstr "Thông tin về _khóa học"
-
-#: ../data/klavaro.glade.h:100
-msgid "Charts showing the learning progress along the exercises."
-msgstr ""
-"Biểu đồ biểu thị cho bạn sự tiến triển việc học trong suốt bài luyện tập."
-
-#: ../data/klavaro.glade.h:101
-msgid "_Progress"
-msgstr "_Tiến trình"
-
-#: ../data/klavaro.glade.h:102
-msgid "Return to the main menu."
-msgstr "Quay lại trình đơn chính."
-
-#: ../data/klavaro.glade.h:103
-msgid "Show local and external scores from other users."
-msgstr "Xem điểm nội bộ và trên mạng từ những người dùng khác."
-
-#: ../data/klavaro.glade.h:104
-msgid "_Top 10"
-msgstr "_Top 10"
 
 #: ../data/klavaro.desktop.in.h:2
 msgid "keyboard;typing;tutorial;"
@@ -824,6 +389,10 @@ msgstr "ngón giữa"
 msgid "index finger"
 msgstr "ngón trỏ"
 
+#: ../src/keyboard.c:1630
+msgid "thumbs"
+msgstr "ngón tay cái"
+
 #: ../src/keyboard.c:1728
 msgid "Press and edit me"
 msgstr "Bấm vào và sửa chữa"
@@ -868,6 +437,10 @@ msgstr "Klavaro - Luyện gõ trôi chảy"
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr ""
 "Bài tập gõ trôi chảy: tập gõ phím chính xác với các đoạn văn hay và có nghĩa."
+
+#: ../src/tutor.c:252
+msgid "Drag and drop text here to practice with it."
+msgstr "Kéo và thả đoạn văn vào đây để luyện tập với nó."
 
 #: ../src/tutor.c:301
 msgid "End of exercise. Press [Enter] to start another."
@@ -1254,6 +827,336 @@ msgstr "Không thể tải lên các tập tin"
 #: ../src/top10.c:987
 msgid "Could not upload/download scores."
 msgstr "Không thể tải lên/xuống bảng điểm."
+
+#~ msgid "About 'Klavaro'"
+#~ msgstr "Giới thiệu về 'Klavaro'"
+
+#~ msgid "Remember always: someone loves you!"
+#~ msgstr "Luôn nhớ rằng: có người yêu quí bạn!"
+
+#~ msgid "Change language"
+#~ msgstr "Thay đổi ngôn ngữ"
+
+#~ msgid "Attention!"
+#~ msgstr "Chú ý!"
+
+#~ msgid "Do you confirm?"
+#~ msgstr "Bạn có khẳng định không?"
+
+#~ msgid "_No"
+#~ msgstr "Khô_ng"
+
+#~ msgid "_Yes"
+#~ msgstr "Đồn_g ý"
+
+#~ msgid "Help?"
+#~ msgstr "Trợ giúp?"
+
+#~ msgid "This is a tip. Now you press this button to return to the main menu."
+#~ msgstr ""
+#~ "Đây là mẹo nhỏ. Bây giờ bạn nhấn nút này để quay lại trình đơn chính."
+
+#~ msgid "B_ack to menu"
+#~ msgstr "Qu_ay lại trình đơn"
+
+#~ msgid ""
+#~ "The main menu of the application is very straightforward. Just select the "
+#~ "type of exercise you wish to take. Do not worry about clicking any button "
+#~ "on the screen. The buttons will never hurt you!"
+#~ msgstr ""
+#~ "Trình đơn chính của chương trình rất dễ dùng. Chỉ việc chọn kiểu bài học "
+#~ "mình muốn. Không cần phải lo lắng về việc bấm chuột vào bất kỳ nút nào "
+#~ "trên màn hình. Chúng chẳng làm hỏng gì cả đâu!"
+
+#~ msgid ""
+#~ "Also the controls have tips which will appear if you hover over them with "
+#~ "your mouse. These tips can come in very handy. To see how these tips "
+#~ "work, position your mouse over the button below, and without clicking, "
+#~ "wait for the tip to appear..."
+#~ msgstr ""
+#~ "Các điều khiển cũng có các hướng dẫn hiện ra nếu bạn di chuyển con chuột "
+#~ "qua chúng. Chúng là cần thiết. Để biết chúng làm việc như thế nào, di "
+#~ "chuyển con trỏ chuột qua nút ở phía dưới nhưng đừng bấm chuột, chờ nó "
+#~ "xuất hiện..."
+
+#~ msgid "Klavaro - Select file"
+#~ msgstr "Klavaro - Chọn tập tin"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Hủy bỏ"
+
+#~ msgid "_Open"
+#~ msgstr "_Mở"
+
+#~ msgid "Font definition"
+#~ msgstr "Xác định phông chữ"
+
+#~ msgid "Re_name:"
+#~ msgstr "Đổi tê_n:"
+
+#~ msgid "Rename the selected item."
+#~ msgstr "Đổi tên mục đã được chọn."
+
+#~ msgid ""
+#~ "Read a text file and add a copy of it here. The file must be encoded in "
+#~ "UTF-8."
+#~ msgstr ""
+#~ "Đọc tập tin văn bản và thêm bản sao của nó vào đây. Tập tin phải sử dụng "
+#~ "bảng mã UTF-8."
+
+#~ msgid "_Open text file"
+#~ msgstr "_Mở tập tin văn bản"
+
+#~ msgid "Paste text that was copied to the clipboard."
+#~ msgstr "Dán chữ mà bạn đã sao chép trong clipboard."
+
+#~ msgid "_Paste from clipboard"
+#~ msgstr "_Dán từ clipboard"
+
+#~ msgid "Remove the selected item."
+#~ msgstr "Gỡ bỏ mục đã được chọn."
+
+#~ msgid "_Remove copied file"
+#~ msgstr "_Xóa bỏ tập tin đã sao chép"
+
+#~ msgid "Apply the selected item to create an exercise."
+#~ msgstr "Áp dụng một mục đã chọn để tạo ra một bài luyện tập mới."
+
+#~ msgid "_Apply"
+#~ msgstr "Á_p dụng"
+
+#~ msgid "Close this window."
+#~ msgstr "Đóng cửa sổ ảnh này lại."
+
+#~ msgid "_Close"
+#~ msgstr "Đón_g"
+
+#~ msgid "Remove the selected custom layout."
+#~ msgstr "Gỡ bỏ giao diện được chọn."
+
+#~ msgid "_Remove"
+#~ msgstr "_Xóa bỏ"
+
+#~ msgid ""
+#~ "Toggles the shift effect on the keys. Alternates between the upper and "
+#~ "lower characters of the keys."
+#~ msgstr "Nhấn thả phím shift. Chuyển đổi giữa gõ chữ hoa và chữ thường."
+
+#~ msgid "SPACE BAR"
+#~ msgstr "PHÍM CÁCH"
+
+#~ msgid "Ctrl"
+#~ msgstr "Ctrl"
+
+#~ msgid "Caps"
+#~ msgstr "Phím Caps"
+
+#~ msgid "S_ave as:"
+#~ msgstr "_Ghi lại bằng tên mới:"
+
+#~ msgid "Show previous screen."
+#~ msgstr "Hiển thị màn hình trước."
+
+#~ msgid "_Previous step"
+#~ msgstr "Kết quả t_rước"
+
+#~ msgid "Show next screen."
+#~ msgstr "Hiển thị màn hình tiếp."
+
+#~ msgid "_Next step"
+#~ msgstr "Tì_m tiếp"
+
+#~ msgid "Return without any modification."
+#~ msgstr "Quay lại mà không thay đổi gì."
+
+#~ msgid "Save the current keyboard layout with the name specified above."
+#~ msgstr ""
+#~ "Lưu lại giao diện bàn phím hiện hành với tên được chỉ ra ở phía trên."
+
+#~ msgid "_Save and use"
+#~ msgstr "_Lưu lại và sử dụng"
+
+#~ msgid ""
+#~ "If you like those beautiful hands, click here to close this window "
+#~ "keeping them."
+#~ msgstr ""
+#~ "Nếu bạn thích các hình đôi bàn tay bên cạnh, bấm vào đây để đóng cửa sổ "
+#~ "này và giữ chúng lại."
+
+#~ msgid "_Keep hands"
+#~ msgstr "_Hiện bàn tay"
+
+#~ msgid "Klavaro - Main menu"
+#~ msgstr "Klavaro - Trình đơn chính"
+
+#~ msgid "Don't be shy about learning the basics!"
+#~ msgstr "Không nên trốn tránh việc học các bài học cơ bản!"
+
+#~ msgid "Learn how to type correctly"
+#~ msgstr "Học cách gõ bàn phím đúng phương pháp"
+
+#~ msgid "Initial training for your fingers."
+#~ msgstr "Bắt đầu luyện tập các ngón tay của bạn."
+
+#~ msgid "First steps with initial training"
+#~ msgstr "Bước đầu tiên với việc khởi tạo tiến trình luyện tập"
+
+#~ msgid "Memorizing the keyboard practicing random keys exercises."
+#~ msgstr "Học thuộc bàn phím bằng cách luyện tập với phím ngẫu nhiên."
+
+#~ msgid "Practice with random keys"
+#~ msgstr "Luyện tập với phím ngẫu nhiên"
+
+#~ msgid "Accelerating the touches practicing random words exercises."
+#~ msgstr "Gia tăng tốc độ gõ bằng cách luyện với những từ ngẫu nhiên."
+
+#~ msgid "Practice with random words"
+#~ msgstr "Luyện với những từ ngẫu nhiên."
+
+#~ msgid "Becoming proficient practicing complete paragraphs exercises."
+#~ msgstr "Để thành thạo cần hoàn thành các bài luyện tập gõ các đoạn văn."
+
+#~ msgid "Practice with complete texts"
+#~ msgstr "Luyện tập với một đoạn văn thật"
+
+#~ msgid ""
+#~ "Keyboard layout for modules 1 and 2. Also used informatively in the "
+#~ "fluidness contest."
+#~ msgstr ""
+#~ "Bố trí bàn phím cho mô đun 1 và 2. Cũng dùng trong bài thi gõ tự do."
+
+#~ msgid "_Keyboard:"
+#~ msgstr "_Bàn phím:"
+
+#~ msgid "Language for modules 3 and 4."
+#~ msgstr "Ngôn ngữ cho mô đun 3 và 4."
+
+#~ msgid "_Language:"
+#~ msgstr "_Ngôn ngữ:"
+
+#~ msgid "Speech"
+#~ msgstr "Phát âm"
+
+#~ msgid "Little tip about this program."
+#~ msgstr "Mẹo nhỏ khi sử dụng chương trình này."
+
+#~ msgid "_Help"
+#~ msgstr "_Trợ giúp"
+
+#~ msgid "General information about the program."
+#~ msgstr "Giới thiệu một số thông tin về chương trình."
+
+#~ msgid "_About..."
+#~ msgstr "_Giới thiệu..."
+
+#~ msgid "Exit the application immediately."
+#~ msgstr "Thoát khỏi ứng dụng ngay lập tức."
+
+#~ msgid "Klavaro - Progress"
+#~ msgstr "Klavaro - Sự tiến triển"
+
+#~ msgid "_Lesson:"
+#~ msgstr "_Bài học:"
+
+#~ msgid "Value"
+#~ msgstr "Giá trị"
+
+#~ msgid "Close this window, returning to the exercise."
+#~ msgstr "Đóng cửa sổ này, quay lại phần luyện tập."
+
+#~ msgid "Clear all the progress data, for every module."
+#~ msgstr "Xóa dữ liệu lưu tiến trình, cho tất cả các mô đun."
+
+#~ msgid "_Reset"
+#~ msgstr "Đặt _lại"
+
+#~ msgid "Top 10"
+#~ msgstr "Top 10"
+
+#~ msgid "Show extra information"
+#~ msgstr "Hiển thị thông tin phụ"
+
+#~ msgid "Hide extra information"
+#~ msgstr "Ẩn thông tin mở rộng"
+
+#~ msgid "Publish to the web your local scores."
+#~ msgstr "Xuất bản thông tin tới trang mạng điểm của bạn."
+
+#~ msgid "_Participate"
+#~ msgstr "_Tham gia"
+
+#~ msgid "Download from the web the most up to date ranking."
+#~ msgstr "Tải về từ trang web xếp hạng mới nhất."
+
+#~ msgid "_Update"
+#~ msgstr "_Cập nhật"
+
+#~ msgid "Load other exercises/lessons"
+#~ msgstr "Tải bài tập/bài học khác"
+
+#~ msgid "_Other texts"
+#~ msgstr "Văn bản _khác"
+
+#~ msgid "Edit the character set to be used in this lesson."
+#~ msgstr "Hiệu chỉnh bộ ký tự sử dụng trong bài học này."
+
+#~ msgid "This is a specific exercise, adjusted to your error profile."
+#~ msgstr "Đây là bài tập đặc thù, hãy chỉnh sửa thông tin cá nhân bị lỗi."
+
+#~ msgid "Edit the character set to be used in lessons 44 through 50."
+#~ msgstr "Hiệu chỉnh bộ ký tự sử dụng trong bài học từ 44 đến 50."
+
+#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+#~ msgstr "Bấm vào đây để đặt lại bài tập. Phím nóng: [Ctrl R]"
+
+#~ msgid "Show the virtual keyboard and the relation between fingers and keys."
+#~ msgstr "Hiển thị bàn phím ảo và sự liên hệ giữa các ngón tay và phím."
+
+#~ msgid "_Keyboard"
+#~ msgstr "_Bàn phím"
+
+#~ msgid "Select the font to be used in the exercise window."
+#~ msgstr "Chọn phông chữ sử dụng trong cửa sổ bài tập."
+
+#~ msgid "_Font"
+#~ msgstr "_Font"
+
+#~ msgid "Keep this checked if you want to get those nice beeps."
+#~ msgstr "Giữ dấu kiểm này được đánh nếu bạn muốn có tiếng bíp hay."
+
+#~ msgid "_Beep"
+#~ msgstr "Tiếng _bíp."
+
+#~ msgid "Co_urse information"
+#~ msgstr "Thông tin về _khóa học"
+
+#~ msgid "Charts showing the learning progress along the exercises."
+#~ msgstr ""
+#~ "Biểu đồ biểu thị cho bạn sự tiến triển việc học trong suốt bài luyện tập."
+
+#~ msgid "_Progress"
+#~ msgstr "_Tiến trình"
+
+#~ msgid "Return to the main menu."
+#~ msgstr "Quay lại trình đơn chính."
+
+#~ msgid "Show local and external scores from other users."
+#~ msgstr "Xem điểm nội bộ và trên mạng từ những người dùng khác."
+
+#~ msgid "_Top 10"
+#~ msgstr "_Top 10"
+
+#~ msgid "Klavaro"
+#~ msgstr "Klavaro"
+
+#~ msgid "Country / Custom"
+#~ msgstr "Quốc gia/ Thói quen"
+
+#~ msgid "Variant"
+#~ msgstr "Biến thể"
+
+#~ msgid "Your language here."
+#~ msgstr "Ngôn ngữ của bạn ở đây."
 
 #~ msgid "Default"
 #~ msgstr "Mặc định"

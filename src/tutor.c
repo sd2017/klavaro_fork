@@ -1568,7 +1568,7 @@ tutor_beep ()
 	GtkWidget *wg;
 
 	wg = get_wg ("togglebutton_tutor_beep");
-	if ((GTK_TOGGLE_BUTTON (wg))->active)
+	if (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (wg)))
 		gdk_beep ();
 }
 
@@ -1588,7 +1588,7 @@ tutor_speak_string (gchar *string, gboolean wait)
 
 	if (espeak_OK == FALSE)
 		return;
-	if (!GTK_WIDGET_VISIBLE (wg) )
+	if (!gtk_widget_get_visible (wg) )
 		return;
 	if (!gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (wg)) )
 		return;

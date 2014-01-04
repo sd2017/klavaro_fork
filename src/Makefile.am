@@ -18,12 +18,18 @@ klavaro_SOURCES = \
 	accuracy.c accuracy.h \
 	top10.c top10.h 
 
-AM_CPPFLAGS = @PACKAGE_CFLAGS@ \
-	-DPACKAGE_DATA_DIR=\""$(datadir)"\" \
-	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\"
+AM_CPPFLAGS = @GTK_CFLAGS@ \
+	      -DPACKAGE_DATA_DIR=\""$(datadir)"\" \
+	      -DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\"
 
-klavaro_LDADD = @PACKAGE_LIBS@ -lgmodule-2.0
-AM_CFLAGS = -Wall
+AM_CFLAGS = -Wextra \
+	    -I$(top_srcdir)/gtkdatabox
+
+AM_LDFLAGS = -static
+
+klavaro_LDADD = @GTK_LIBS@ \
+		-lgmodule-2.0 \
+	       	$(top_srcdir)/gtkdatabox/libgtkdatabox.la
 
 if IS_POSIX
 AM_CFLAGS += -export-dynamic

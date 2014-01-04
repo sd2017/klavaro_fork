@@ -124,8 +124,8 @@ static void
 plot_error_frequencies ()
 {
 	gint i;
-	GdkColor color;
-	GdkColor color_black;
+	GdkRGBA color;
+	GdkRGBA color_black;
 	GtkDatabox *box;
 
 	box = GTK_DATABOX (plot.databox);
@@ -154,11 +154,11 @@ plot_error_frequencies ()
 
 	/* White background
 	 */
-	gdk_color_parse ("#ffffff", &color);
-	gtk_widget_modify_bg (plot.databox, GTK_STATE_NORMAL, &color);
+	gdk_rgba_parse (&color, "#ffffff");
+	gtk_widget_override_background_color (plot.databox, GTK_STATE_FLAG_NORMAL, &color);
 	 
-	gdk_color_parse ("#000000", &color_black);
-	gdk_color_parse (PLOT_GREEN_2, &color);
+	gdk_rgba_parse (&color_black, "#000000");
+	gdk_rgba_parse (&color, PLOT_GREEN_2);
 
 	/* Point limits */
 	plot.limits = gtk_databox_points_new (2, plot.lim.x, plot.lim.y, &color_black, 1);
@@ -189,8 +189,8 @@ static void
 plot_touch_times ()
 {
 	gint i;
-	GdkColor color;
-	GdkColor color_black;
+	GdkRGBA color;
+	GdkRGBA color_black;
 	GtkDatabox *box;
 
 	box = GTK_DATABOX (plot.databox);
@@ -219,11 +219,11 @@ plot_touch_times ()
 
 	/* White background
 	 */
-	gdk_color_parse ("#ffffff", &color);
-	gtk_widget_modify_bg (plot.databox, GTK_STATE_NORMAL, &color);
+	gdk_rgba_parse (&color, "#ffffff");
+	gtk_widget_override_background_color (plot.databox, GTK_STATE_FLAG_NORMAL, &color);
 	 
-	gdk_color_parse ("#000000", &color_black);
-	gdk_color_parse (PLOT_PURPLE, &color);
+	gdk_rgba_parse (&color_black, "#000000");
+	gdk_rgba_parse (&color, PLOT_PURPLE);
 
 	/* Point limits */
 	plot.limits = gtk_databox_points_new (2, plot.lim.x, plot.lim.y, &color_black, 1);
@@ -290,8 +290,8 @@ plot_draw_chart (gint field)
 	gchar *tmp_locale;
 	gchar tmp_str[2000];
 	FILE *fh;
-	GdkColor color, color2, color3;
-	GdkColor color_black;
+	GdkRGBA color, color2, color3;
+	GdkRGBA color_black;
 	GtkDatabox *box;
 
 	box = GTK_DATABOX (plot.databox);
@@ -498,14 +498,14 @@ plot_draw_chart (gint field)
 	if (i == 0)
 	{
 		g_message ("no valid data to plot.");
-		gdk_color_parse ("#ccccce", &color);
-		gtk_widget_modify_bg (plot.databox, GTK_STATE_NORMAL, &color);
+		gdk_rgba_parse (&color, "#ccccce");
+		gtk_widget_override_background_color (plot.databox, GTK_STATE_FLAG_NORMAL, &color);
 		return;
 	}
 	else
 	{
-		gdk_color_parse ("#ffffff", &color);
-		gtk_widget_modify_bg (plot.databox, GTK_STATE_NORMAL, &color);
+		gdk_rgba_parse (&color, "#ffffff");
+		gtk_widget_override_background_color (plot.databox, GTK_STATE_FLAG_NORMAL, &color);
 	}
 	n_points = i;
 
@@ -518,35 +518,35 @@ plot_draw_chart (gint field)
 	plot.lim.y[0] = 0;
 	plot.lim.y[1] = 100;
 	 
-	gdk_color_parse ("#000000", &color_black);
+	gdk_rgba_parse (&color_black, "#000000");
 	switch (field)
 	{
 	case 1:
 		plot.lim.y[0] = 60;
 		plot.goal.y[0] = tutor_goal_accuracy ();
-		gdk_color_parse (PLOT_GREEN, &color);
-		gdk_color_parse (PLOT_GREEN_2, &color2);
-		gdk_color_parse (PLOT_GREEN_3, &color3);
+		gdk_rgba_parse (&color, PLOT_GREEN);
+		gdk_rgba_parse (&color2, PLOT_GREEN_2);
+		gdk_rgba_parse (&color3, PLOT_GREEN_3);
 		break;
 	case 2:
 		plot.lim.y[1] = 120;
 		plot.goal.y[0] = tutor_goal_speed ();
-		gdk_color_parse (PLOT_RED, &color);
-		gdk_color_parse (PLOT_RED_2, &color2);
-		gdk_color_parse (PLOT_RED_3, &color3);
+		gdk_rgba_parse (&color, PLOT_RED);
+		gdk_rgba_parse (&color2, PLOT_RED_2);
+		gdk_rgba_parse (&color3, PLOT_RED_3);
 		break;
 	case 3:
 		plot.goal.y[0] = tutor_goal_fluidity ();
-		gdk_color_parse (PLOT_BLUE, &color);
-		gdk_color_parse (PLOT_BLUE_2, &color2);
-		gdk_color_parse (PLOT_BLUE_3, &color3);
+		gdk_rgba_parse (&color, PLOT_BLUE);
+		gdk_rgba_parse (&color2, PLOT_BLUE_2);
+		gdk_rgba_parse (&color3, PLOT_BLUE_3);
 		break;
 	case 4:
 		plot.lim.y[1] = 10;
 		plot.goal.y[0] = -1;
-		gdk_color_parse (PLOT_ORANGE, &color);
-		gdk_color_parse (PLOT_ORANGE_2, &color2);
-		gdk_color_parse (PLOT_ORANGE_3, &color3);
+		gdk_rgba_parse (&color, PLOT_ORANGE);
+		gdk_rgba_parse (&color2, PLOT_ORANGE_2);
+		gdk_rgba_parse (&color3, PLOT_ORANGE_3);
 	}
 	plot.goal.y[1] = plot.goal.y[0];
 
@@ -580,12 +580,12 @@ plot_draw_chart (gint field)
 	gtk_databox_graph_add (box, plot.line_outter);
 
 	/* Goal limit */
-	gdk_color_parse ("#999999", &color3);
+	gdk_rgba_parse (&color3, "#999999");
 	plot.line_goal = gtk_databox_lines_new (2, plot.goal.x, plot.goal.y, &color3, 1);
 	gtk_databox_graph_add (box, plot.line_goal);
 
 	/* Grid */
-	gdk_color_parse ("#dddddd", &color);
+	gdk_rgba_parse (&color, "#dddddd");
 	if (field == 1)
 		plot.grid = gtk_databox_grid_new (3, 3, &color, 1);
 	else if (field == 2)
@@ -611,7 +611,7 @@ plot_pointer_update (gdouble x)
 
 	box = GTK_DATABOX (plot.databox);
 
-	gdk_drawable_get_size (GDK_DRAWABLE (gtk_databox_get_backing_pixmap (box)), &width, NULL);
+	width = gdk_window_get_width (GDK_WINDOW (box));
 
 	n = rintf (x / width * (DATA_POINTS + 2)) - 1; // Round integer from float
 	if (n == n_prev)
