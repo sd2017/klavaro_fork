@@ -6,6 +6,9 @@
 	- manpage: minus as hyphen corrected with escapes (\-)
 	* Added:
 	- Keywords in the .desktop file.
+	* Changed:
+	- GtkDatabox is incorporated, because its last release do not support
+	GTK3 yet.
 
 2014-01-03  Felipe Castro (-) <fefcas@gmail.com>; gettextize (=)
 

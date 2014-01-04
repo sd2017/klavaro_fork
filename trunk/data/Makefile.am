@@ -140,6 +140,7 @@ pkgdata_DATA = $(klavaro_data)
 
 if IS_WIN32
 EXTRA_DIST = $(klavaro_data) \
+	klavaro.glade \
 	klavaro.ui
 else
 desktopdir = $(prefix)/$(DATADIRNAME)/applications
@@ -148,5 +149,6 @@ desktop_DATA = $(desktop_in_file:.desktop.in=.desktop)
 @INTLTOOL_DESKTOP_RULE@
 EXTRA_DIST = $(klavaro_data) \
 	$(desktop_in_file) \
+	klavaro.glade \
 	klavaro.ui
 endif

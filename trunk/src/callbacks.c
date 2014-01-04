@@ -126,7 +126,7 @@ on_combobox_language_changed (GtkComboBox *cmb, gpointer user_data)
 
 	if (callbacks_shield)
 		return;
-	tmp = gtk_combo_box_get_active_text (cmb);
+	tmp = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (cmb));
 	trans_change_language (tmp);
 	g_free (tmp);
 
@@ -161,7 +161,7 @@ on_combobox_kbd_variant_changed (GtkComboBox *cmb, gpointer user_data)
 	if (callbacks_shield)
 		return;
 
-	tmp = gtk_combo_box_get_active_text (cmb);
+	tmp = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (cmb));
 	if (g_str_equal (tmp, KEYB_EDIT))
 		keyb_mode_edit ();
 	else
@@ -179,7 +179,7 @@ on_combobox_kbd_variant_changed (GtkComboBox *cmb, gpointer user_data)
 }
 
 G_MODULE_EXPORT void
-on_window_main_destroy (GtkObject *obj, gpointer data)
+on_window_main_destroy (GtkWidget *obj, gpointer data)
 {
 	if (callbacks_shield)
 		return;
@@ -461,7 +461,7 @@ on_togglebutton_edit_basic_lesson_toggled (GtkToggleButton * togglebutton, gpoin
 
 		tmp_name = g_ucs4_to_utf8 (basic_get_char_set (), -1, NULL, NULL, NULL);
 		gtk_entry_set_text (GTK_ENTRY (wg), g_strstrip (tmp_name));
-		gtk_entry_set_position (GTK_ENTRY (wg), -1);
+		gtk_editable_set_position (GTK_EDITABLE (wg), -1);
 		g_free (tmp_name);
 
 		gtk_widget_set_sensitive (get_wg ("spinbutton_lesson"), FALSE);
@@ -527,7 +527,7 @@ on_button_tutor_top10_clicked (GtkButton * button, gpointer user_data)
 G_MODULE_EXPORT void
 on_button_tutor_show_keyb_clicked (GtkButton * button, gpointer user_data)
 {
-	if (GTK_WIDGET_VISIBLE (get_wg ("window_hints")))
+	if (gtk_widget_get_visible (get_wg ("window_hints")))
 		window_save ("hints");
 	keyb_mode_hint ();
 }
@@ -609,11 +609,11 @@ G_MODULE_EXPORT void
 on_button_tutor_back_clicked (GtkButton *button, gpointer user_data)
 {
 	window_save ("tutor");
-	if (GTK_WIDGET_VISIBLE (get_wg ("window_hints")))
+	if (gtk_widget_get_visible (get_wg ("window_hints")))
 		window_save ("hints");
-	if (GTK_WIDGET_VISIBLE (get_wg ("window_top10")))
+	if (gtk_widget_get_visible (get_wg ("window_top10")))
 		window_save ("top10");
-	if (GTK_WIDGET_VISIBLE (get_wg ("window_stat")))
+	if (gtk_widget_get_visible (get_wg ("window_stat")))
 		window_save ("stat");
 	gtk_widget_hide (get_wg ("window_tutor"));
 	gtk_widget_hide (get_wg ("window_hints"));
@@ -625,7 +625,7 @@ on_button_tutor_back_clicked (GtkButton *button, gpointer user_data)
 }
 
 G_MODULE_EXPORT void
-on_window_tutor_destroy (GtkObject * object, gpointer user_data)
+on_window_tutor_destroy (GtkWidget * object, gpointer user_data)
 {
 	if (callbacks_shield)
 		return;
@@ -799,7 +799,7 @@ on_combobox_top10_language_changed (GtkComboBox *cmb, gpointer user_data)
 
 	if (callbacks_shield)
 		return;
-	tmp = gtk_combo_box_get_active_text (cmb);
+	tmp = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (cmb));
 	trans_change_language (tmp);
 	g_free (tmp);
 
@@ -915,7 +915,7 @@ on_combobox_keyboard_country_changed (GtkComboBox *cmb, gpointer user_data)
 		return;
 
 	keyb_set_combo_kbd_variant ("combobox_keyboard_country", "combobox_keyboard_variant");
-	tmp = gtk_combo_box_get_active_text (cmb);
+	tmp = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (cmb));
 	if (g_str_equal (tmp, KEYB_CUSTOM) &&
 		gtk_combo_box_get_active ( GTK_COMBO_BOX (get_wg ("combobox_keyboard_variant")) ) > -1 )
 	{
@@ -936,7 +936,7 @@ on_combobox_keyboard_variant_changed (GtkComboBox *cmb, gpointer user_data)
 
 	keyb_update_from_variant ("combobox_keyboard_country", "combobox_keyboard_variant");
 
-	tmp = gtk_combo_box_get_active_text (GTK_COMBO_BOX (get_wg ("combobox_keyboard_country")));
+	tmp = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (get_wg ("combobox_keyboard_country")));
 	if (g_str_equal (tmp, KEYB_CUSTOM) &&
 		gtk_combo_box_get_active (cmb) > -1 )
 
@@ -981,7 +981,7 @@ on_button_kb_save_clicked (GtkButton * button, gpointer user_data)
 	keyb_set_name (tmp);
 	g_free (tmp);
 
-	gtk_label_set (GTK_LABEL (get_wg ("label_confirm_action")), "OVERWRITE");
+	gtk_label_set_text (GTK_LABEL (get_wg ("label_confirm_action")), "OVERWRITE");
 	if (g_file_test (tmp_path, G_FILE_TEST_IS_REGULAR))
 		gtk_widget_show (get_wg ("dialog_confirm"));
 	else
@@ -1011,8 +1011,8 @@ on_button_keyboard_close_clicked (GtkButton *but, gpointer user_data)
 G_MODULE_EXPORT void
 on_button_keyboard_hands_clicked (GtkButton *but, gpointer user_data)
 {
-	if (GTK_WIDGET_VISIBLE (get_wg ("window_tutor")))
-		if (GTK_WIDGET_VISIBLE (get_wg ("hbox_keyboard_hints")))
+	if (gtk_widget_get_visible (get_wg ("window_tutor")))
+		if (gtk_widget_get_visible (get_wg ("hbox_keyboard_hints")))
 		{
 			gtk_widget_show (get_wg ("window_hints"));
 			hints_update_from_char (cursor_get_char ());
@@ -1049,7 +1049,7 @@ on_toggle_shift1_toggled (GtkToggleButton * togglebutton, gpointer user_data)
 	keyb_update_virtual_layout ();
 	keyb_edit_none ();
 
-	if (GTK_WIDGET_VISIBLE (get_wg ("hbox_keyboard_hints")))
+	if (gtk_widget_get_visible (get_wg ("hbox_keyboard_hints")))
 		hints_update_from_button (GTK_BUTTON (togglebutton));
 }
 
@@ -1065,7 +1065,7 @@ on_toggle_shift2_toggled (GtkToggleButton * togglebutton, gpointer user_data)
 	keyb_update_virtual_layout ();
 	keyb_edit_none ();
 
-	if (GTK_WIDGET_VISIBLE (get_wg ("hbox_keyboard_hints")))
+	if (gtk_widget_get_visible (get_wg ("hbox_keyboard_hints")))
 		hints_update_from_button (GTK_BUTTON (togglebutton));
 }
 
@@ -1093,7 +1093,7 @@ on_virtual_key_grab_focus (GtkWidget *wg, gpointer user_data)
 	if (callbacks_shield)
 		return;
 
-	if ( GTK_WIDGET_VISIBLE (get_wg ("hbox_keyboard_hints")) )
+	if ( gtk_widget_get_visible (get_wg ("hbox_keyboard_hints")) )
 		hints_update_from_button (GTK_BUTTON (wg));
 	else
 		keyb_edit_button (GTK_BUTTON (wg));
@@ -1105,7 +1105,7 @@ on_virtual_key_clicked (GtkButton * button, gpointer user_data)
 	if (callbacks_shield)
 		return;
 
-	if ( GTK_WIDGET_VISIBLE (get_wg ("hbox_keyboard_hints")) )
+	if ( gtk_widget_get_visible (get_wg ("hbox_keyboard_hints")) )
 		hints_update_from_button (button);
 	else
 		keyb_edit_button (button);
@@ -1303,12 +1303,12 @@ on_combobox_stat_module_changed (GtkComboBox *cmb, gpointer user_data)
 
 	callbacks_shield_set (TRUE);
 	for (i = 0; i < 4; i++)
-		gtk_combo_box_remove_text (GTK_COMBO_BOX (get_wg ("combobox_stat_type")), 0);
+		gtk_combo_box_text_remove (GTK_COMBO_BOX_TEXT (get_wg ("combobox_stat_type")), 0);
 	tmp = g_strdup_printf ("%s (%%)", _("Accuracy"));
-	gtk_combo_box_insert_text (GTK_COMBO_BOX (get_wg ("combobox_stat_type")), 0, tmp);
+	gtk_combo_box_text_insert_text (GTK_COMBO_BOX_TEXT (get_wg ("combobox_stat_type")), 0, tmp);
 	g_free (tmp);
 	tmp = g_strdup_printf ("%s %s", _("Speed"), _("(WPM)"));
-	gtk_combo_box_insert_text (GTK_COMBO_BOX (get_wg ("combobox_stat_type")), 1, tmp);
+	gtk_combo_box_text_insert_text (GTK_COMBO_BOX_TEXT (get_wg ("combobox_stat_type")), 1, tmp);
 	g_free (tmp);
 
 	switch (gtk_combo_box_get_active (cmb))
@@ -1319,10 +1319,10 @@ on_combobox_stat_module_changed (GtkComboBox *cmb, gpointer user_data)
 	case 1:
 		win_title = g_strdup_printf ("%s (%s)", stat_title, keyb_mode_get_name ());
 		tmp = g_strdup_printf ("%s", _("Errors"));
-		gtk_combo_box_insert_text (GTK_COMBO_BOX (get_wg ("combobox_stat_type")), 2, tmp);
+		gtk_combo_box_text_insert_text (GTK_COMBO_BOX_TEXT (get_wg ("combobox_stat_type")), 2, tmp);
 		g_free (tmp);
 		tmp = g_strdup_printf ("%s", _("Touch times (s)"));
-		gtk_combo_box_insert_text (GTK_COMBO_BOX (get_wg ("combobox_stat_type")), 3, tmp);
+		gtk_combo_box_text_insert_text (GTK_COMBO_BOX_TEXT (get_wg ("combobox_stat_type")), 3, tmp);
 		g_free (tmp);
 		break;
 	case 2:
@@ -1331,10 +1331,10 @@ on_combobox_stat_module_changed (GtkComboBox *cmb, gpointer user_data)
 	case 3:
 		win_title = g_strdup_printf ("%s (%s)", stat_title, trans_get_current_language ());
 		tmp = g_strdup_printf ("%s (%%)", _("Fluidity"));
-		gtk_combo_box_insert_text (GTK_COMBO_BOX (get_wg ("combobox_stat_type")), 2, tmp);
+		gtk_combo_box_text_insert_text (GTK_COMBO_BOX_TEXT (get_wg ("combobox_stat_type")), 2, tmp);
 		g_free (tmp);
 		tmp = g_strdup_printf ("%s (0-10)", _("Score"));
-		gtk_combo_box_insert_text (GTK_COMBO_BOX (get_wg ("combobox_stat_type")), 3, tmp);
+		gtk_combo_box_text_insert_text (GTK_COMBO_BOX_TEXT (get_wg ("combobox_stat_type")), 3, tmp);
 		g_free (tmp);
 		break;
 	default:

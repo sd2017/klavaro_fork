@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.4-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-03 15:15-0200\n"
+"POT-Creation-Date: 2014-01-04 16:42-0200\n"
 "PO-Revision-Date: 2012-01-18 16:30+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
@@ -19,448 +19,9 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ../data/klavaro.glade.h:1
-msgid "About 'Klavaro'"
-msgstr "A Klavaro névjegye"
-
-#: ../data/klavaro.glade.h:2 ../data/klavaro.desktop.in.h:1
+#: ../data/klavaro.desktop.in.h:1
 msgid "Yet another touch typing tutor"
 msgstr "Ingyenes és szabad gépírásoktató program"
-
-#: ../data/klavaro.glade.h:3
-msgid "Remember always: someone loves you!"
-msgstr "Mindig jusson eszedbe: valaki szeret téged!"
-
-#: ../data/klavaro.glade.h:4
-msgid "Change language"
-msgstr "Nyelv megváltoztatása"
-
-#: ../data/klavaro.glade.h:5
-msgid "Attention!"
-msgstr "Figyelem!"
-
-#: ../data/klavaro.glade.h:6
-msgid "Do you confirm?"
-msgstr "Folytatod?"
-
-#: ../data/klavaro.glade.h:7
-msgid "_No"
-msgstr "_Nem"
-
-#: ../data/klavaro.glade.h:8
-msgid "_Yes"
-msgstr "_Igen"
-
-#: ../data/klavaro.glade.h:9
-msgid "Help?"
-msgstr "Súgó"
-
-#: ../data/klavaro.glade.h:10
-msgid "This is a tip. Now you press this button to return to the main menu."
-msgstr ""
-"Ez egy buboréksúgó. Nyomd meg ezt a gombot a visszatéréshez a főmenübe."
-
-#: ../data/klavaro.glade.h:11
-msgid "B_ack to menu"
-msgstr "_Vissza a menübe"
-
-#: ../data/klavaro.glade.h:12
-msgid ""
-"The main menu of the application is very straightforward. Just select the "
-"type of exercise you wish to take. Do not worry about clicking any button on "
-"the screen. The buttons will never hurt you!"
-msgstr ""
-"Az alkalmazás főmenüje nagyon egyszerű. Csak válaszd ki, milyen fajta "
-"gyakorlatot csinálnál szívesen. Kattints bátran bármely gombra: nem fognak "
-"bántani."
-
-#: ../data/klavaro.glade.h:13
-msgid ""
-"Also the controls have tips which will appear if you hover over them with "
-"your mouse. These tips can come in very handy. To see how these tips work, "
-"position your mouse over the button below, and without clicking, wait for "
-"the tip to appear..."
-msgstr ""
-"Ne feledd a vezérlőelemek fölött megjelenő buboréksúgókat. Néha hasznosak "
-"tudnak lenni. Ennek bemutatásához vidd az egérmutatót a lenti gomb fölé, és "
-"a gomb megnyomása nélkül várj egy kicsit a súgó felbukkanására..."
-
-#: ../data/klavaro.glade.h:14
-msgid "Klavaro - Select file"
-msgstr "Klavaro - válassz fájlt"
-
-#: ../data/klavaro.glade.h:15
-msgid "_Cancel"
-msgstr "Mé_gse"
-
-#: ../data/klavaro.glade.h:16
-msgid "_Open"
-msgstr "_Megnyitás"
-
-#: ../data/klavaro.glade.h:17
-msgid "Font definition"
-msgstr "Betűkészlet"
-
-#: ../data/klavaro.glade.h:18
-msgid "Klavaro"
-msgstr "Klavaro"
-
-#: ../data/klavaro.glade.h:19
-msgid "Re_name:"
-msgstr "Át_nevezés:"
-
-#: ../data/klavaro.glade.h:20
-msgid "Rename the selected item."
-msgstr "A kiválasztott elem átnevezése."
-
-#: ../data/klavaro.glade.h:21
-msgid ""
-"Read a text file and add a copy of it here. The file must be encoded in "
-"UTF-8."
-msgstr ""
-"Szöveges fájl beolvasása és másolat készítése. A fájlnak UTF-8 kódolásúnak "
-"kell lennie."
-
-#: ../data/klavaro.glade.h:22
-msgid "_Open text file"
-msgstr "Szö_vegfájl megnyitása"
-
-#: ../data/klavaro.glade.h:23
-msgid "Paste text that was copied to the clipboard."
-msgstr "A vágólapra másolt szöveg beillesztése."
-
-#: ../data/klavaro.glade.h:24
-msgid "_Paste from clipboard"
-msgstr "Beillesztés _vágólapról"
-
-#: ../data/klavaro.glade.h:25
-msgid "Remove the selected item."
-msgstr "A kiválasztott elem eltávolítása."
-
-#: ../data/klavaro.glade.h:26
-msgid "_Remove copied file"
-msgstr "A _másolt fájl eltávolítása"
-
-#: ../data/klavaro.glade.h:27
-msgid "Apply the selected item to create an exercise."
-msgstr "A kiválasztott elemből gyakorlat készítése."
-
-#: ../data/klavaro.glade.h:28
-msgid "_Apply"
-msgstr "_Alkalmaz"
-
-#: ../data/klavaro.glade.h:29
-msgid "Close this window."
-msgstr "Ablak bezárása."
-
-#: ../data/klavaro.glade.h:30
-msgid "_Close"
-msgstr "_Bezárás"
-
-#: ../data/klavaro.glade.h:31
-msgid "Country / Custom"
-msgstr "Ország/egyéni"
-
-#: ../data/klavaro.glade.h:32
-msgid "Variant"
-msgstr "Változat"
-
-#: ../data/klavaro.glade.h:33
-msgid "Remove the selected custom layout."
-msgstr "A kiválasztott egyedi elrendezés eltávolítása."
-
-#: ../data/klavaro.glade.h:34
-msgid "_Remove"
-msgstr "_Eltávolítás"
-
-#: ../data/klavaro.glade.h:35
-msgid ""
-"Toggles the shift effect on the keys. Alternates between the upper and lower "
-"characters of the keys."
-msgstr ""
-"A Shift mód átváltása. A billentyűzet alsó és felső karakterei között vált."
-
-#: ../data/klavaro.glade.h:36
-msgid "SPACE BAR"
-msgstr "SZÓKÖZ"
-
-#: ../data/klavaro.glade.h:37 ../src/keyboard.c:1630
-msgid "thumbs"
-msgstr "hüvelykujjak"
-
-#: ../data/klavaro.glade.h:38
-msgid "Ctrl"
-msgstr "Ctrl"
-
-#: ../data/klavaro.glade.h:39
-msgid "Caps"
-msgstr "Caps"
-
-#: ../data/klavaro.glade.h:40
-msgid "S_ave as:"
-msgstr "Mentés _másként:"
-
-#: ../data/klavaro.glade.h:41
-msgid "Show previous screen."
-msgstr "Előző képernyő megjelenítése"
-
-#: ../data/klavaro.glade.h:42
-msgid "_Previous step"
-msgstr "_Előző lépés"
-
-#: ../data/klavaro.glade.h:43
-msgid "Show next screen."
-msgstr "Következő képernyő megjelenítése"
-
-#: ../data/klavaro.glade.h:44
-msgid "_Next step"
-msgstr "_Következő lépés"
-
-#: ../data/klavaro.glade.h:45
-msgid "Return without any modification."
-msgstr "Visszalépés a változtatások elvetésével."
-
-#: ../data/klavaro.glade.h:46
-msgid "Save the current keyboard layout with the name specified above."
-msgstr "A jelenlegi billentyűzetkiosztás elmentése a fent megadott néven."
-
-#: ../data/klavaro.glade.h:47
-msgid "_Save and use"
-msgstr "Mentés és _használat"
-
-#: ../data/klavaro.glade.h:48
-msgid ""
-"If you like those beautiful hands, click here to close this window keeping "
-"them."
-msgstr ""
-"Ha szereted ezeket a gyönyörű kezeket, kattints ide az ablak bezárásához a "
-"kezek megtartásával."
-
-#: ../data/klavaro.glade.h:49
-msgid "_Keep hands"
-msgstr "Ke_zek megtartása"
-
-#: ../data/klavaro.glade.h:50
-msgid "Klavaro - Main menu"
-msgstr "Klavaro – Főmenü"
-
-#: ../data/klavaro.glade.h:51
-msgid "Don't be shy about learning the basics!"
-msgstr "Ne szégyelld megtanulni az alapokat!"
-
-#: ../data/klavaro.glade.h:52
-msgid "Learn how to type correctly"
-msgstr "Tanulj meg helyesen gépelni"
-
-#: ../data/klavaro.glade.h:53
-msgid "Initial training for your fingers."
-msgstr "Alapozó ujjgyakorlatok."
-
-#: ../data/klavaro.glade.h:54
-msgid "First steps with initial training"
-msgstr "Első, alapozó lépések"
-
-#: ../data/klavaro.glade.h:55
-msgid "Memorizing the keyboard practicing random keys exercises."
-msgstr ""
-"A billentyűk helyének memorizálása véletlenszerű karakterek leütésével."
-
-#: ../data/klavaro.glade.h:56
-msgid "Practice with random keys"
-msgstr "Gyakorlás véletlen billentyűkkel"
-
-#. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:58
-msgid "Accelerating the touches practicing random words exercises."
-msgstr "Az írási sebesség növelése véletlenszerű szavak gépelésével."
-
-#: ../data/klavaro.glade.h:59
-msgid "Practice with random words"
-msgstr "Gyakorlás véletlen szavakkal"
-
-#: ../data/klavaro.glade.h:60
-msgid "Becoming proficient practicing complete paragraphs exercises."
-msgstr "Haladó gyakorlatok teljes bekezdések gépelésével."
-
-#: ../data/klavaro.glade.h:61
-msgid "Practice with complete texts"
-msgstr "Gyakorlás teljes szövegekkel"
-
-#: ../data/klavaro.glade.h:62
-msgid ""
-"Keyboard layout for modules 1 and 2. Also used informatively in the "
-"fluidness contest."
-msgstr ""
-"Billentyűzetkiosztás az 1. és 2. modulhoz. A folyamatossági versenyben a "
-"használata informatív."
-
-#: ../data/klavaro.glade.h:63
-msgid "_Keyboard:"
-msgstr "Bille_ntyűzet:"
-
-#: ../data/klavaro.glade.h:64
-msgid "Language for modules 3 and 4."
-msgstr "Nyelv a 3. és 4. modulhoz."
-
-#: ../data/klavaro.glade.h:65
-msgid "_Language:"
-msgstr "Nye_lv:"
-
-#: ../data/klavaro.glade.h:66
-msgid "Your language here."
-msgstr "A nyelved."
-
-#: ../data/klavaro.glade.h:67
-msgid "Speech"
-msgstr "Beszéd"
-
-#: ../data/klavaro.glade.h:68
-msgid "Little tip about this program."
-msgstr "Rövid információk a programról."
-
-#: ../data/klavaro.glade.h:69
-msgid "_Help"
-msgstr "_Súgó"
-
-#: ../data/klavaro.glade.h:70
-msgid "General information about the program."
-msgstr "Általános információk a programról."
-
-#: ../data/klavaro.glade.h:71
-msgid "_About..."
-msgstr "_Névjegy…"
-
-#: ../data/klavaro.glade.h:72
-msgid "Exit the application immediately."
-msgstr "Azonnali kilépés"
-
-#: ../data/klavaro.glade.h:73
-msgid "Klavaro - Progress"
-msgstr "Klavaro - Fejlődés"
-
-#: ../data/klavaro.glade.h:74
-msgid "_Lesson:"
-msgstr "_Lecke:"
-
-#: ../data/klavaro.glade.h:75
-msgid "Value"
-msgstr "Érték"
-
-#: ../data/klavaro.glade.h:76
-msgid "Close this window, returning to the exercise."
-msgstr "Ablak bezárása, visszatérés a gyakorlathoz."
-
-#: ../data/klavaro.glade.h:77
-msgid "Clear all the progress data, for every module."
-msgstr "Minden előrehaladási adat törlése az összes modulból."
-
-#: ../data/klavaro.glade.h:78
-msgid "_Reset"
-msgstr "_Visszaállítás"
-
-#: ../data/klavaro.glade.h:79
-msgid "Top 10"
-msgstr "Top 10"
-
-#: ../data/klavaro.glade.h:80
-msgid "Show extra information"
-msgstr "További információk megjelenítése"
-
-#: ../data/klavaro.glade.h:81
-msgid "Hide extra information"
-msgstr "További információk elrejtése"
-
-#: ../data/klavaro.glade.h:82
-msgid "Publish to the web your local scores."
-msgstr "A helyi eredmények közzététele a weben."
-
-#: ../data/klavaro.glade.h:83
-msgid "_Participate"
-msgstr "_Részvétel"
-
-#: ../data/klavaro.glade.h:84
-msgid "Download from the web the most up to date ranking."
-msgstr "A legfrissebb rangsorok letöltése a webről."
-
-#: ../data/klavaro.glade.h:85
-msgid "_Update"
-msgstr "_Frissítés"
-
-#: ../data/klavaro.glade.h:86
-msgid "Load other exercises/lessons"
-msgstr "Más gyakorlatok/leckék betöltése"
-
-#: ../data/klavaro.glade.h:87
-msgid "_Other texts"
-msgstr "Más s_zövegek"
-
-#: ../data/klavaro.glade.h:88
-msgid "Edit the character set to be used in this lesson."
-msgstr "A leckében használandó karakterkészlet szerkesztése."
-
-#: ../data/klavaro.glade.h:89
-msgid "This is a specific exercise, adjusted to your error profile."
-msgstr "Ez egy egyedi gyakorlat, a hibaprofilodhoz igazítva."
-
-#: ../data/klavaro.glade.h:90
-msgid "Edit the character set to be used in lessons 44 through 50."
-msgstr "A 44-50 leckékben használandó karakterkészlet szerkesztése."
-
-#: ../data/klavaro.glade.h:91 ../src/tutor.c:252
-msgid "Drag and drop text here to practice with it."
-msgstr "Húzza ide a szöveget a gyakorlás megkezdéséhez vele."
-
-#: ../data/klavaro.glade.h:92
-msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-msgstr "Kattints ide a gyakorlat újrakezdéséhez. Gyorsbillentyű: [Ctrl-R]"
-
-#: ../data/klavaro.glade.h:93
-msgid "Show the virtual keyboard and the relation between fingers and keys."
-msgstr "A virtuális billentyűzet és a helyes ujjrend megjelenítése."
-
-#: ../data/klavaro.glade.h:94
-msgid "_Keyboard"
-msgstr "Bill_entyűzet"
-
-#: ../data/klavaro.glade.h:95
-msgid "Select the font to be used in the exercise window."
-msgstr "Válaszd ki a gyakorlatok során használt betűkészletet."
-
-#: ../data/klavaro.glade.h:96
-msgid "_Font"
-msgstr "_Betűkészlet"
-
-#: ../data/klavaro.glade.h:97
-msgid "Keep this checked if you want to get those nice beeps."
-msgstr "Ezt bejelölve a program hangjelzéseket ad."
-
-#: ../data/klavaro.glade.h:98
-msgid "_Beep"
-msgstr "_Hangjelzés"
-
-#: ../data/klavaro.glade.h:99
-msgid "Co_urse information"
-msgstr "_Tanfolyam-információk"
-
-#: ../data/klavaro.glade.h:100
-msgid "Charts showing the learning progress along the exercises."
-msgstr "A fejlődést mutató diagramok."
-
-#: ../data/klavaro.glade.h:101
-msgid "_Progress"
-msgstr "_Fejlődés"
-
-#: ../data/klavaro.glade.h:102
-msgid "Return to the main menu."
-msgstr "Visszatérés a főmenübe."
-
-#: ../data/klavaro.glade.h:103
-msgid "Show local and external scores from other users."
-msgstr "Helyi és távoli felhasználók pontszámainak megjelenítése."
-
-#: ../data/klavaro.glade.h:104
-msgid "_Top 10"
-msgstr "_Top 10"
 
 #: ../data/klavaro.desktop.in.h:2
 msgid "keyboard;typing;tutorial;"
@@ -826,6 +387,10 @@ msgstr "középső ujj"
 msgid "index finger"
 msgstr "mutatóujj"
 
+#: ../src/keyboard.c:1630
+msgid "thumbs"
+msgstr "hüvelykujjak"
+
 #: ../src/keyboard.c:1728
 msgid "Press and edit me"
 msgstr "Nyomd meg a szerkesztéshez"
@@ -870,6 +435,10 @@ msgstr "Klavaro – Folytonosság"
 #: ../src/tutor.c:239
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr "Folytonossági gyakorlatok: értelmes bekezdések pontos gépelése."
+
+#: ../src/tutor.c:252
+msgid "Drag and drop text here to practice with it."
+msgstr "Húzza ide a szöveget a gyakorlás megkezdéséhez vele."
 
 #: ../src/tutor.c:301
 msgid "End of exercise. Press [Enter] to start another."
@@ -1256,6 +825,337 @@ msgstr "A fájlokat nem lehet feltölteni"
 #: ../src/top10.c:987
 msgid "Could not upload/download scores."
 msgstr "A pontszámok feltöltése/letöltése sikertelen."
+
+#~ msgid "About 'Klavaro'"
+#~ msgstr "A Klavaro névjegye"
+
+#~ msgid "Remember always: someone loves you!"
+#~ msgstr "Mindig jusson eszedbe: valaki szeret téged!"
+
+#~ msgid "Change language"
+#~ msgstr "Nyelv megváltoztatása"
+
+#~ msgid "Attention!"
+#~ msgstr "Figyelem!"
+
+#~ msgid "Do you confirm?"
+#~ msgstr "Folytatod?"
+
+#~ msgid "_No"
+#~ msgstr "_Nem"
+
+#~ msgid "_Yes"
+#~ msgstr "_Igen"
+
+#~ msgid "Help?"
+#~ msgstr "Súgó"
+
+#~ msgid "This is a tip. Now you press this button to return to the main menu."
+#~ msgstr ""
+#~ "Ez egy buboréksúgó. Nyomd meg ezt a gombot a visszatéréshez a főmenübe."
+
+#~ msgid "B_ack to menu"
+#~ msgstr "_Vissza a menübe"
+
+#~ msgid ""
+#~ "The main menu of the application is very straightforward. Just select the "
+#~ "type of exercise you wish to take. Do not worry about clicking any button "
+#~ "on the screen. The buttons will never hurt you!"
+#~ msgstr ""
+#~ "Az alkalmazás főmenüje nagyon egyszerű. Csak válaszd ki, milyen fajta "
+#~ "gyakorlatot csinálnál szívesen. Kattints bátran bármely gombra: nem "
+#~ "fognak bántani."
+
+#~ msgid ""
+#~ "Also the controls have tips which will appear if you hover over them with "
+#~ "your mouse. These tips can come in very handy. To see how these tips "
+#~ "work, position your mouse over the button below, and without clicking, "
+#~ "wait for the tip to appear..."
+#~ msgstr ""
+#~ "Ne feledd a vezérlőelemek fölött megjelenő buboréksúgókat. Néha hasznosak "
+#~ "tudnak lenni. Ennek bemutatásához vidd az egérmutatót a lenti gomb fölé, "
+#~ "és a gomb megnyomása nélkül várj egy kicsit a súgó felbukkanására..."
+
+#~ msgid "Klavaro - Select file"
+#~ msgstr "Klavaro - válassz fájlt"
+
+#~ msgid "_Cancel"
+#~ msgstr "Mé_gse"
+
+#~ msgid "_Open"
+#~ msgstr "_Megnyitás"
+
+#~ msgid "Font definition"
+#~ msgstr "Betűkészlet"
+
+#~ msgid "Re_name:"
+#~ msgstr "Át_nevezés:"
+
+#~ msgid "Rename the selected item."
+#~ msgstr "A kiválasztott elem átnevezése."
+
+#~ msgid ""
+#~ "Read a text file and add a copy of it here. The file must be encoded in "
+#~ "UTF-8."
+#~ msgstr ""
+#~ "Szöveges fájl beolvasása és másolat készítése. A fájlnak UTF-8 "
+#~ "kódolásúnak kell lennie."
+
+#~ msgid "_Open text file"
+#~ msgstr "Szö_vegfájl megnyitása"
+
+#~ msgid "Paste text that was copied to the clipboard."
+#~ msgstr "A vágólapra másolt szöveg beillesztése."
+
+#~ msgid "_Paste from clipboard"
+#~ msgstr "Beillesztés _vágólapról"
+
+#~ msgid "Remove the selected item."
+#~ msgstr "A kiválasztott elem eltávolítása."
+
+#~ msgid "_Remove copied file"
+#~ msgstr "A _másolt fájl eltávolítása"
+
+#~ msgid "Apply the selected item to create an exercise."
+#~ msgstr "A kiválasztott elemből gyakorlat készítése."
+
+#~ msgid "_Apply"
+#~ msgstr "_Alkalmaz"
+
+#~ msgid "Close this window."
+#~ msgstr "Ablak bezárása."
+
+#~ msgid "_Close"
+#~ msgstr "_Bezárás"
+
+#~ msgid "Remove the selected custom layout."
+#~ msgstr "A kiválasztott egyedi elrendezés eltávolítása."
+
+#~ msgid "_Remove"
+#~ msgstr "_Eltávolítás"
+
+#~ msgid ""
+#~ "Toggles the shift effect on the keys. Alternates between the upper and "
+#~ "lower characters of the keys."
+#~ msgstr ""
+#~ "A Shift mód átváltása. A billentyűzet alsó és felső karakterei között "
+#~ "vált."
+
+#~ msgid "SPACE BAR"
+#~ msgstr "SZÓKÖZ"
+
+#~ msgid "Ctrl"
+#~ msgstr "Ctrl"
+
+#~ msgid "Caps"
+#~ msgstr "Caps"
+
+#~ msgid "S_ave as:"
+#~ msgstr "Mentés _másként:"
+
+#~ msgid "Show previous screen."
+#~ msgstr "Előző képernyő megjelenítése"
+
+#~ msgid "_Previous step"
+#~ msgstr "_Előző lépés"
+
+#~ msgid "Show next screen."
+#~ msgstr "Következő képernyő megjelenítése"
+
+#~ msgid "_Next step"
+#~ msgstr "_Következő lépés"
+
+#~ msgid "Return without any modification."
+#~ msgstr "Visszalépés a változtatások elvetésével."
+
+#~ msgid "Save the current keyboard layout with the name specified above."
+#~ msgstr "A jelenlegi billentyűzetkiosztás elmentése a fent megadott néven."
+
+#~ msgid "_Save and use"
+#~ msgstr "Mentés és _használat"
+
+#~ msgid ""
+#~ "If you like those beautiful hands, click here to close this window "
+#~ "keeping them."
+#~ msgstr ""
+#~ "Ha szereted ezeket a gyönyörű kezeket, kattints ide az ablak bezárásához "
+#~ "a kezek megtartásával."
+
+#~ msgid "_Keep hands"
+#~ msgstr "Ke_zek megtartása"
+
+#~ msgid "Klavaro - Main menu"
+#~ msgstr "Klavaro – Főmenü"
+
+#~ msgid "Don't be shy about learning the basics!"
+#~ msgstr "Ne szégyelld megtanulni az alapokat!"
+
+#~ msgid "Learn how to type correctly"
+#~ msgstr "Tanulj meg helyesen gépelni"
+
+#~ msgid "Initial training for your fingers."
+#~ msgstr "Alapozó ujjgyakorlatok."
+
+#~ msgid "First steps with initial training"
+#~ msgstr "Első, alapozó lépések"
+
+#~ msgid "Memorizing the keyboard practicing random keys exercises."
+#~ msgstr ""
+#~ "A billentyűk helyének memorizálása véletlenszerű karakterek leütésével."
+
+#~ msgid "Practice with random keys"
+#~ msgstr "Gyakorlás véletlen billentyűkkel"
+
+#~ msgid "Accelerating the touches practicing random words exercises."
+#~ msgstr "Az írási sebesség növelése véletlenszerű szavak gépelésével."
+
+#~ msgid "Practice with random words"
+#~ msgstr "Gyakorlás véletlen szavakkal"
+
+#~ msgid "Becoming proficient practicing complete paragraphs exercises."
+#~ msgstr "Haladó gyakorlatok teljes bekezdések gépelésével."
+
+#~ msgid "Practice with complete texts"
+#~ msgstr "Gyakorlás teljes szövegekkel"
+
+#~ msgid ""
+#~ "Keyboard layout for modules 1 and 2. Also used informatively in the "
+#~ "fluidness contest."
+#~ msgstr ""
+#~ "Billentyűzetkiosztás az 1. és 2. modulhoz. A folyamatossági versenyben a "
+#~ "használata informatív."
+
+#~ msgid "_Keyboard:"
+#~ msgstr "Bille_ntyűzet:"
+
+#~ msgid "Language for modules 3 and 4."
+#~ msgstr "Nyelv a 3. és 4. modulhoz."
+
+#~ msgid "_Language:"
+#~ msgstr "Nye_lv:"
+
+#~ msgid "Speech"
+#~ msgstr "Beszéd"
+
+#~ msgid "Little tip about this program."
+#~ msgstr "Rövid információk a programról."
+
+#~ msgid "_Help"
+#~ msgstr "_Súgó"
+
+#~ msgid "General information about the program."
+#~ msgstr "Általános információk a programról."
+
+#~ msgid "_About..."
+#~ msgstr "_Névjegy…"
+
+#~ msgid "Exit the application immediately."
+#~ msgstr "Azonnali kilépés"
+
+#~ msgid "Klavaro - Progress"
+#~ msgstr "Klavaro - Fejlődés"
+
+#~ msgid "_Lesson:"
+#~ msgstr "_Lecke:"
+
+#~ msgid "Value"
+#~ msgstr "Érték"
+
+#~ msgid "Close this window, returning to the exercise."
+#~ msgstr "Ablak bezárása, visszatérés a gyakorlathoz."
+
+#~ msgid "Clear all the progress data, for every module."
+#~ msgstr "Minden előrehaladási adat törlése az összes modulból."
+
+#~ msgid "_Reset"
+#~ msgstr "_Visszaállítás"
+
+#~ msgid "Top 10"
+#~ msgstr "Top 10"
+
+#~ msgid "Show extra information"
+#~ msgstr "További információk megjelenítése"
+
+#~ msgid "Hide extra information"
+#~ msgstr "További információk elrejtése"
+
+#~ msgid "Publish to the web your local scores."
+#~ msgstr "A helyi eredmények közzététele a weben."
+
+#~ msgid "_Participate"
+#~ msgstr "_Részvétel"
+
+#~ msgid "Download from the web the most up to date ranking."
+#~ msgstr "A legfrissebb rangsorok letöltése a webről."
+
+#~ msgid "_Update"
+#~ msgstr "_Frissítés"
+
+#~ msgid "Load other exercises/lessons"
+#~ msgstr "Más gyakorlatok/leckék betöltése"
+
+#~ msgid "_Other texts"
+#~ msgstr "Más s_zövegek"
+
+#~ msgid "Edit the character set to be used in this lesson."
+#~ msgstr "A leckében használandó karakterkészlet szerkesztése."
+
+#~ msgid "This is a specific exercise, adjusted to your error profile."
+#~ msgstr "Ez egy egyedi gyakorlat, a hibaprofilodhoz igazítva."
+
+#~ msgid "Edit the character set to be used in lessons 44 through 50."
+#~ msgstr "A 44-50 leckékben használandó karakterkészlet szerkesztése."
+
+#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+#~ msgstr "Kattints ide a gyakorlat újrakezdéséhez. Gyorsbillentyű: [Ctrl-R]"
+
+#~ msgid "Show the virtual keyboard and the relation between fingers and keys."
+#~ msgstr "A virtuális billentyűzet és a helyes ujjrend megjelenítése."
+
+#~ msgid "_Keyboard"
+#~ msgstr "Bill_entyűzet"
+
+#~ msgid "Select the font to be used in the exercise window."
+#~ msgstr "Válaszd ki a gyakorlatok során használt betűkészletet."
+
+#~ msgid "_Font"
+#~ msgstr "_Betűkészlet"
+
+#~ msgid "Keep this checked if you want to get those nice beeps."
+#~ msgstr "Ezt bejelölve a program hangjelzéseket ad."
+
+#~ msgid "_Beep"
+#~ msgstr "_Hangjelzés"
+
+#~ msgid "Co_urse information"
+#~ msgstr "_Tanfolyam-információk"
+
+#~ msgid "Charts showing the learning progress along the exercises."
+#~ msgstr "A fejlődést mutató diagramok."
+
+#~ msgid "_Progress"
+#~ msgstr "_Fejlődés"
+
+#~ msgid "Return to the main menu."
+#~ msgstr "Visszatérés a főmenübe."
+
+#~ msgid "Show local and external scores from other users."
+#~ msgstr "Helyi és távoli felhasználók pontszámainak megjelenítése."
+
+#~ msgid "_Top 10"
+#~ msgstr "_Top 10"
+
+#~ msgid "Klavaro"
+#~ msgstr "Klavaro"
+
+#~ msgid "Country / Custom"
+#~ msgstr "Ország/egyéni"
+
+#~ msgid "Variant"
+#~ msgstr "Változat"
+
+#~ msgid "Your language here."
+#~ msgstr "A nyelved."
 
 #~ msgid "Default"
 #~ msgstr "Alapértelmezett"

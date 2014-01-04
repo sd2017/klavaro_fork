@@ -22,11 +22,11 @@
    */
 #undef HAVE_DCGETTEXT
 
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
 /* Define if the GNU gettext() function is already present or preinstalled. */
 #undef HAVE_GETTEXT
-
-/* Define to 1 if you have the <gtkdatabox.h> header file. */
-#undef HAVE_GTKDATABOX_H
 
 /* Define if you have the iconv() function and it works. */
 #undef HAVE_ICONV
@@ -36,9 +36,6 @@
 
 /* Define to 1 if you have the `curl' library (-lcurl). */
 #undef HAVE_LIBCURL
-
-/* Define to 1 if you have the `gtkdatabox' library (-lgtkdatabox). */
-#undef HAVE_LIBGTKDATABOX
 
 /* Define to 1 if you have the `m' library (-lm). */
 #undef HAVE_LIBM
@@ -105,6 +102,10 @@
 
 /* Define to 1 if you have the <unistd.h> header file. */
 #undef HAVE_UNISTD_H
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
 
 /* Name of package */
 #undef PACKAGE

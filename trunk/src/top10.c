@@ -105,24 +105,24 @@ top10_init ()
 	 */
 	cmb = GTK_COMBO_BOX (get_wg ("combobox_stat_module"));
 	for (i = 0; i < 4; i++)
-		gtk_combo_box_remove_text (cmb, 0);
+		gtk_combo_box_text_remove (GTK_COMBO_BOX_TEXT (cmb), 0);
 	str = g_strdup_printf ("1 - %s", _("Basic course"));
-	gtk_combo_box_append_text (cmb, str);
+	gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (cmb), str);
 	g_free (str);
 	str = g_strdup_printf ("2 - %s", _("Adaptability"));
-	gtk_combo_box_append_text (cmb, str);
+	gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (cmb), str);
 	g_free (str);
 	str = g_strdup_printf ("3 - %s", _("Speed"));
-	gtk_combo_box_append_text (cmb, str);
+	gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (cmb), str);
 	g_free (str);
 	str = g_strdup_printf ("4 - %s", _("Fluidity"));
-	gtk_combo_box_append_text (cmb, str);
+	gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (cmb), str);
 	g_free (str);
 	// Fix missing translation bug
 	cmb = GTK_COMBO_BOX (get_wg ("combobox_top10"));
-	gtk_combo_box_remove_text (cmb, 0);
-	gtk_combo_box_append_text (cmb, _("Local scores"));
-	gtk_combo_box_append_text (cmb, _("External scores"));
+	gtk_combo_box_text_remove (GTK_COMBO_BOX_TEXT (cmb), 0);
+	gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (cmb), _("Local scores"));
+	gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (cmb), _("External scores"));
 }
 
 void

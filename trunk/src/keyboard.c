@@ -206,7 +206,7 @@ keyb_create_virtual_keys ()
 	gint i, j;
 	gchar *hlp;
 	GtkFixed *fix;
-	GdkColor color;
+	GdkRGBA color;
 	
 	/* Set color of space key
 	 */
@@ -214,8 +214,8 @@ keyb_create_virtual_keys ()
 		hlp = main_preferences_get_string ("colors", "key_5");
 	else
 		hlp = g_strdup (KEYB_PURPLE);
-	gdk_color_parse (hlp, &color);
-	gtk_widget_modify_bg (get_wg ("but_space"), GTK_STATE_NORMAL, &color);
+	gdk_rgba_parse (&color, hlp);
+	gtk_widget_override_background_color (get_wg ("but_space"), GTK_STATE_FLAG_NORMAL, &color);
 	g_free (hlp);
 
 	/* Set text color of keys
@@ -224,7 +224,7 @@ keyb_create_virtual_keys ()
 		hlp = main_preferences_get_string ("colors", "key_fg");
 	else
 		hlp = g_strdup (KEYB_BLACK);
-	gdk_color_parse (hlp, &color);
+	gdk_rgba_parse (&color, hlp);
 	g_free (hlp);
 
 	/* Create and position buttons and labels
@@ -242,8 +242,8 @@ keyb_create_virtual_keys ()
   			g_signal_connect_after ((gpointer) keyb.but[i][j], "grab-focus",
 				       	G_CALLBACK (on_virtual_key_grab_focus), NULL);
 			keyb.lab[i][j] = gtk_label_new ("0");
-			gtk_widget_modify_fg (keyb.lab[i][j], GTK_STATE_NORMAL, &color);
-			gtk_widget_modify_fg (keyb.lab[i][j], GTK_STATE_PRELIGHT, &color);
+			gtk_widget_override_color (keyb.lab[i][j], GTK_STATE_FLAG_NORMAL, &color);
+			gtk_widget_override_color (keyb.lab[i][j], GTK_STATE_FLAG_PRELIGHT, &color);
 			gtk_container_add (GTK_CONTAINER (keyb.but[i][j]), keyb.lab[i][j]);
 
 			if (i > 0)
@@ -272,7 +272,7 @@ keyb_create_virtual_keys ()
 	gtk_widget_set_size_request (keyb.entry, 28, 28);
 	gtk_entry_set_max_length (GTK_ENTRY (keyb.entry), 1);
 	gtk_entry_set_alignment (GTK_ENTRY (keyb.entry), 0.5);
-	g_object_set (GTK_OBJECT (keyb.entry), "shadow-type", GTK_SHADOW_NONE, NULL);
+	g_object_set (G_OBJECT (keyb.entry), "shadow-type", GTK_SHADOW_NONE, NULL);
   	g_signal_connect_after ((gpointer) keyb.entry, "changed", G_CALLBACK (on_virtual_key_changed), NULL);
 }
 
@@ -569,9 +569,9 @@ keyb_remove_user_layout ()
 	callbacks_shield_set (TRUE);
 
 	cmb = GTK_COMBO_BOX (get_wg ("combobox_keyboard_variant"));
-	aux = gtk_combo_box_get_active_text (cmb);
+	aux = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (cmb));
 	active = gtk_combo_box_get_active (cmb);
-	gtk_combo_box_remove_text (cmb, active);
+	gtk_combo_box_text_remove (GTK_COMBO_BOX_TEXT (cmb), active);
 
 	tmp_name = g_strconcat (main_path_user (), G_DIR_SEPARATOR_S, aux, ".kbd", NULL);
 	g_unlink (tmp_name);
@@ -767,12 +767,12 @@ keyb_update_from_variant (gchar *cmb_country, gchar *cmb_variant)
 	GtkComboBox *cmb;
 
 	cmb = GTK_COMBO_BOX (get_wg (cmb_country));
-	country = gtk_combo_box_get_active_text (cmb);
+	country = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (cmb));
 	if (country == NULL)
 		return;
 
 	cmb = GTK_COMBO_BOX (get_wg (cmb_variant));
-	variant = gtk_combo_box_get_active_text (cmb);
+	variant = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (cmb));
 	if (variant == NULL)
 	{
 		g_free (country);
@@ -844,11 +844,11 @@ keyb_set_combo_kbd_variant (gchar *cmb_country, gchar *cmb_variant)
 		valid = gtk_tree_model_iter_next (tmd, &iter);
 	}
 	for (i = 0; i < n; i++)
-		gtk_combo_box_remove_text (cmb, 0);
+		gtk_combo_box_text_remove (GTK_COMBO_BOX_TEXT (cmb), 0);
 
 	/* Get the selected country text
 	 */
-	country_txt = gtk_combo_box_get_active_text (GTK_COMBO_BOX (get_wg (cmb_country)));
+	country_txt = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (get_wg (cmb_country)));
 	if (country_txt == NULL)
 	{
 		g_warning ("Country combo not set, so nothing done with variant combo.");
@@ -866,7 +866,7 @@ keyb_set_combo_kbd_variant (gchar *cmb_country, gchar *cmb_variant)
 		{
 			if (g_str_equal (layouts.orig[i].country, country_txt))
 			{
-				gtk_combo_box_append_text (cmb, layouts.orig[i].variant);
+				gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (cmb), layouts.orig[i].variant);
 				n++;
 			}
 		}
@@ -877,7 +877,7 @@ keyb_set_combo_kbd_variant (gchar *cmb_country, gchar *cmb_variant)
 			gchar *variant;
 
 			gtk_combo_box_set_active (cmb, i);
-			variant = gtk_combo_box_get_active_text (cmb);
+			variant = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (cmb));
 			if (g_str_equal (variant, current))
 			{
 				g_free (variant);
@@ -908,12 +908,12 @@ keyb_set_combo_kbd_variant (gchar *cmb_country, gchar *cmb_variant)
 		n = 0;
 		if (g_str_equal (cmb_variant, "combobox_kbd_variant"))
 		{
-			gtk_combo_box_append_text (cmb, KEYB_EDIT);
+			gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (cmb), KEYB_EDIT);
 			n++;
 		}
 		for (i = 0; i < layouts.n_cust; i++)
 		{
-			gtk_combo_box_append_text (cmb, layouts.cust[i].name);
+			gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (cmb), layouts.cust[i].name);
 			n++;
 		}
 
@@ -922,7 +922,7 @@ keyb_set_combo_kbd_variant (gchar *cmb_country, gchar *cmb_variant)
 			gchar *variant;
 
 			gtk_combo_box_set_active (cmb, i);
-			variant = gtk_combo_box_get_active_text (cmb);
+			variant = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (cmb));
 			if (g_str_equal (variant, keyb.name))
 			{
 				g_free (variant);
@@ -935,7 +935,7 @@ keyb_set_combo_kbd_variant (gchar *cmb_country, gchar *cmb_variant)
 		{
 			if (n > 1)
 				gtk_combo_box_set_active (cmb, 1);
-			else if (! GTK_WIDGET_VISIBLE (get_wg ("window_keyboard")))
+			else if (! gtk_widget_get_visible (get_wg ("window_keyboard")))
 			{
 				gtk_combo_box_set_active (cmb, 0);
 				keyb_mode_edit ();
@@ -981,7 +981,7 @@ keyb_set_combo_kbd (gchar *cmb_country, gchar *cmb_variant)
 	keyb_set_keyboard_layouts (); // if already initialized, this sets only the custom layouts
 
 	cmb = GTK_COMBO_BOX (get_wg (cmb_country));
-	gtk_combo_box_remove_text (cmb, 0);
+	gtk_combo_box_text_remove (GTK_COMBO_BOX_TEXT (cmb), 0);
 	keyb.cmb_n = 0;
 	for (i = 0; i < layouts.n_orig; i++)
 	{
@@ -994,11 +994,11 @@ keyb_set_combo_kbd (gchar *cmb_country, gchar *cmb_variant)
 		}
 		if (j < 0)
 		{
-			gtk_combo_box_append_text (cmb, layouts.orig[i].country);
+			gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (cmb), layouts.orig[i].country);
 			keyb.cmb_n++;
 		}
 	}
-	gtk_combo_box_prepend_text (cmb, KEYB_CUSTOM);
+	gtk_combo_box_text_prepend_text (GTK_COMBO_BOX_TEXT (cmb), KEYB_CUSTOM);
 	keyb.cmb_n++;
 
 	keyb_update_combos (cmb_country, cmb_variant);
@@ -1031,7 +1031,7 @@ keyb_update_combos (gchar *cmb_country, gchar *cmb_variant)
 		{
 
 			gtk_combo_box_set_active (cmb, i);
-			country = gtk_combo_box_get_active_text (cmb);
+			country = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (cmb));
 			current = keyb_get_country (keyb.name);
 			if (g_str_equal (country, current))
 			{
@@ -1241,7 +1241,7 @@ keyb_intro_step (gint step)
 
 	/* Blind people want no fancy autonomous buttons jumping around */
 	wg = get_wg ("checkbutton_speech");
-	if (GTK_WIDGET_VISIBLE (wg) && gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (wg)))
+	if (gtk_widget_get_visible (wg) && gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (wg)))
 		hints_demo_fingers (0);
 
 	if (step == 0)
@@ -1270,8 +1270,8 @@ keyb_mode_get_name ()
 	if (kbname != NULL)
 		g_free (kbname);
 
-	country = gtk_combo_box_get_active_text (GTK_COMBO_BOX (get_wg ("combobox_kbd_country")));
-	variant = gtk_combo_box_get_active_text (GTK_COMBO_BOX (get_wg ("combobox_kbd_variant")));
+	country = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (get_wg ("combobox_kbd_country")));
+	variant = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (get_wg ("combobox_kbd_variant")));
 	kbname = g_strdup_printf ("%s - %s", country, variant);
 	g_free (country);
 	g_free (variant);
@@ -1498,7 +1498,7 @@ keyb_edit_next (void)
 		keyb.pos.i = 0;
 
 	gtk_widget_hide (keyb.entry);
-	if (GTK_WIDGET_SENSITIVE (keyb.but[keyb.pos.i][keyb.pos.j]))
+	if (gtk_widget_get_sensitive (keyb.but[keyb.pos.i][keyb.pos.j]))
 	{
 		gtk_widget_grab_focus (keyb.but[keyb.pos.i][keyb.pos.j]);
 		return TRUE;
@@ -1739,7 +1739,7 @@ hints_set_tips ()
 		for (j = 0; j < j_max; j++)
 		{
 			tmp = hints_string_from_charcode (hints[i][j]);
-			if (! GTK_WIDGET_VISIBLE (get_wg ("hbox_keyboard_hints")))
+			if (! gtk_widget_get_visible (get_wg ("hbox_keyboard_hints")))
 				gtk_widget_set_tooltip_text (keyb.but[i][j], editme);
 			else
 				gtk_widget_set_tooltip_text (keyb.but[i][j], tmp);
@@ -1753,7 +1753,7 @@ hints_set_colors ()
 {
 	gint i, j;
 	gint j_max;
-	GdkColor color;
+	GdkRGBA color;
 
 	if (hints_is_initialized == FALSE)
 	{
@@ -1766,8 +1766,8 @@ hints_set_colors ()
 		j_max = KEY_LINE_LEN - (i == 0 ? 1 : (i == 1 ? 2 : 3));
 		for (j = 0; j < j_max; j++)
 		{
-			gdk_color_parse (hints_color_from_charcode (hints[i][j]), &color);
-			gtk_widget_modify_bg (keyb.but[i][j], GTK_STATE_NORMAL, &color);
+			gdk_rgba_parse (&color, hints_color_from_charcode (hints[i][j]));
+			gtk_widget_override_background_color (keyb.but[i][j], GTK_STATE_FLAG_NORMAL, &color);
 		}
 	}
 }
@@ -1812,7 +1812,7 @@ hints_update_from_char (gunichar character)
 	gchar file_name[32];
 	gint i, j;
 
-	if (! GTK_WIDGET_VISIBLE (get_wg ("window_hints")))
+	if (! gtk_widget_get_visible (get_wg ("window_hints")))
 		return;
 
 	strcpy (file_name, "hands_0.png");

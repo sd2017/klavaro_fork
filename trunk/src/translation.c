@@ -386,11 +386,11 @@ trans_set_combo_language ()
 			g_free (tmp_code);
 		tmp_code = g_strdup ("C");
 	}
-	gtk_combo_box_remove_text (cmb, 0);
+	gtk_combo_box_text_remove (GTK_COMBO_BOX_TEXT (cmb), 0);
 	for (i = 0, i_env = -1; i < lang_num; i++)
 	{
 		langcode = g_strdup_printf ("%s (%s)", lang[i].name, lang[i].code);
-		gtk_combo_box_append_text (cmb, langcode);
+		gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (cmb), langcode);
 		if (g_str_equal (lang[i].code, tmp_code))
 			i_env = i;
 		else if (g_str_has_prefix (tmp_code, lang[i].code))
