@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-1.9.5-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-04 16:42-0200\n"
+"POT-Creation-Date: 2014-01-04 17:03-0200\n"
 "PO-Revision-Date: 2012-06-05 16:07+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -29,115 +29,531 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/klavaro.desktop.in.h:1
+#: data/klavaro.ui:7
+msgid "About 'Klavaro'"
+msgstr "Om »Klavaro«"
+
+#: data/klavaro.ui:16
 msgid "Yet another touch typing tutor"
 msgstr "Endnu et værktøj til øvelse af maskinskrivning"
 
-#: ../data/klavaro.desktop.in.h:2
-msgid "keyboard;typing;tutorial;"
-msgstr ""
+#: data/klavaro.ui:82
+msgid "Remember always: someone loves you!"
+msgstr "Husk altid: Nogen elsker dig!"
 
-#: ../src/main.c:243
+#: data/klavaro.ui:109
+msgid "Change language"
+msgstr "Ændr sprog"
+
+#: data/klavaro.ui:131
+msgid "Attention!"
+msgstr "Klar!"
+
+#: data/klavaro.ui:168
+msgid "Do you confirm?"
+msgstr "Bekræfter du?"
+
+#: data/klavaro.ui:231
+msgid "_No"
+msgstr "_Nej"
+
+#: data/klavaro.ui:288
+msgid "_Yes"
+msgstr "_Ja"
+
+#: data/klavaro.ui:323
+msgid "Help?"
+msgstr "Hjælp?"
+
+#: data/klavaro.ui:346
+msgid "This is a tip. Now you press this button to return to the main menu."
+msgstr ""
+"Dette er et fif. Tryk nu på denne knap for at returnere til hovedmenuen."
+
+#: data/klavaro.ui:376 data/klavaro.ui:4136
+msgid "B_ack to menu"
+msgstr "Tilb_age til menu"
+
+#: data/klavaro.ui:432
+msgid ""
+"The main menu of the application is very straightforward. Just select the "
+"type of exercise you wish to take. Do not worry about clicking any button on "
+"the screen. The buttons will never hurt you!"
+msgstr ""
+"Hovedmenuen i programmet er ligetil. Vælg den type øvelse du ønsker at øve "
+"i. Du skal ikke bekymre dig om at klikke på nogen af knapperne på skærmen. "
+"Knapperne vil aldrig gøre dig noget!"
+
+#: data/klavaro.ui:449
+msgid ""
+"Also the controls have tips which will appear if you hover over them with "
+"your mouse. These tips can come in very handy. To see how these tips work, "
+"position your mouse over the button below, and without clicking, wait for "
+"the tip to appear..."
+msgstr ""
+"Styringen har også tip som vil fremkomme hvis du placerer musen over dem. "
+"Disse fif kan være gode. For at se hvordan de virker, så placer musen over "
+"knappen nedenfor, og uden at klikke, vent til fiffet fremkommer..."
+
+#: data/klavaro.ui:479
+msgid "Klavaro - Select file"
+msgstr "Klavaro - vælg fil"
+
+#: data/klavaro.ui:528 data/klavaro.ui:986 data/klavaro.ui:1898
+msgid "_Cancel"
+msgstr "_Afbryd"
+
+#: data/klavaro.ui:580
+msgid "_Open"
+msgstr "_Åbn"
+
+#: data/klavaro.ui:621
+msgid "Font definition"
+msgstr "Skrifttypedefinition"
+
+#: data/klavaro.ui:764
+msgid "Re_name:"
+msgstr "_Omdøb:"
+
+#: data/klavaro.ui:778
+msgid "Rename the selected item."
+msgstr "Omdøb det valgte punkt."
+
+#: data/klavaro.ui:806
+msgid ""
+"Read a text file and add a copy of it here. The file must be encoded in "
+"UTF-8."
+msgstr ""
+"Læs en tekstfil og tilføj en kopi af den her. Filen skal være i formatet "
+"UTF-8."
+
+#: data/klavaro.ui:831
+msgid "_Open text file"
+msgstr "_Åbn tekstfil"
+
+#: data/klavaro.ui:855
+msgid "Paste text that was copied to the clipboard."
+msgstr "Indsæt tekst som blev kopieret til udklipsholderen."
+
+#: data/klavaro.ui:880
+msgid "_Paste from clipboard"
+msgstr "_Indsæt fra udklipsholder"
+
+#: data/klavaro.ui:904
+msgid "Remove the selected item."
+msgstr "Fjern det valgte punkt."
+
+#: data/klavaro.ui:929
+msgid "_Remove copied file"
+msgstr "_Fjern kopieret fil"
+
+#: data/klavaro.ui:1013
+msgid "Apply the selected item to create an exercise."
+msgstr "Anvend det valgte punkt for at oprette en øvelse."
+
+#: data/klavaro.ui:1042
+msgid "_Apply"
+msgstr "_Anvend"
+
+#: data/klavaro.ui:1122 data/klavaro.ui:1981 data/klavaro.ui:3423
+msgid "Close this window."
+msgstr "Luk dette vindue."
+
+#: data/klavaro.ui:1152 data/klavaro.ui:2012 data/klavaro.ui:2762
+#: data/klavaro.ui:2994 data/klavaro.ui:3451 data/klavaro.ui:4088
+msgid "_Close"
+msgstr "_Luk"
+
+#: data/klavaro.ui:1380
+msgid "Remove the selected custom layout."
+msgstr "Fjern det valgte brugerlayout."
+
+#: data/klavaro.ui:1409
+msgid "_Remove"
+msgstr "Fje_rn"
+
+#: data/klavaro.ui:1523 data/klavaro.ui:1568
+msgid ""
+"Toggles the shift effect on the keys. Alternates between the upper and lower "
+"characters of the keys."
+msgstr ""
+"Skifter mellem skift-effekten på tasterne. Skifter mellem de øvre og nedre "
+"tegn på tasterne."
+
+#: data/klavaro.ui:1542
+msgid "SPACE BAR"
+msgstr "MELLEMRUM"
+
+#: data/klavaro.ui:1552 src/keyboard.c:1630
+msgid "thumbs"
+msgstr "tommelfingre"
+
+#: data/klavaro.ui:1638
+msgid "Ctrl"
+msgstr "Ctrl"
+
+# versaler, store bogstaver
+#: data/klavaro.ui:1653
+msgid "Caps"
+msgstr "Versaler"
+
+#: data/klavaro.ui:1705
+msgid "S_ave as:"
+msgstr "G_em som:"
+
+#: data/klavaro.ui:1744
+msgid "Show previous screen."
+msgstr "Vis forrige skærm."
+
+#: data/klavaro.ui:1774
+msgid "_Previous step"
+msgstr "_Forrige trin"
+
+#: data/klavaro.ui:1803
+msgid "Show next screen."
+msgstr "Vis næste skærm."
+
+#: data/klavaro.ui:1833
+msgid "_Next step"
+msgstr "_Næste trin"
+
+#: data/klavaro.ui:1870
+msgid "Return without any modification."
+msgstr "Retur uden nogen ændringer."
+
+#: data/klavaro.ui:1927
+msgid "Save the current keyboard layout with the name specified above."
+msgstr "Gem det aktuelle tastaturlayout med det ovenfor angivne navn."
+
+#: data/klavaro.ui:1955
+msgid "_Save and use"
+msgstr "_Gem og brug"
+
+#: data/klavaro.ui:2038
+msgid ""
+"If you like those beautiful hands, click here to close this window keeping "
+"them."
+msgstr ""
+"Hvis du kan li' de smukke hænder, så klik her for at lukke dette vindue og "
+"beholde dem."
+
+#: data/klavaro.ui:2068
+msgid "_Keep hands"
+msgstr "_Behold hænder"
+
+#: data/klavaro.ui:2102
+msgid "Klavaro - Main menu"
+msgstr "Klavaro - hovedmenu"
+
+#: data/klavaro.ui:2121
+msgid "Don't be shy about learning the basics!"
+msgstr "Hold dig ikke tilbage for at lære det basale!"
+
+#: data/klavaro.ui:2169
+msgid "Learn how to type correctly"
+msgstr "Lær korrekt maskinskrivning"
+
+#: data/klavaro.ui:2198
+msgid "Initial training for your fingers."
+msgstr "Indledende træning af dine fingre."
+
+#: data/klavaro.ui:2246
+msgid "First steps with initial training"
+msgstr "De første trin med den indledende træning"
+
+#: data/klavaro.ui:2275
+msgid "Memorizing the keyboard practicing random keys exercises."
+msgstr "Huskeøvelser med træning af tilfældige taster."
+
+#: data/klavaro.ui:2323
+msgid "Practice with random keys"
+msgstr "Øvelse med tilfældige taster"
+
+#. English typo: touchs -> touches
+#: data/klavaro.ui:2352
+msgid "Accelerating the touches practicing random words exercises."
+msgstr "Øge følelsen med træning af tilfældige ord."
+
+#: data/klavaro.ui:2400
+msgid "Practice with random words"
+msgstr "Øvelse med tilfældige ord"
+
+#: data/klavaro.ui:2429
+msgid "Becoming proficient practicing complete paragraphs exercises."
+msgstr "Blive fortrolig med træning af hele tekstafsnit."
+
+#: data/klavaro.ui:2477
+msgid "Practice with complete texts"
+msgstr "Øvelse med hele tekster"
+
+#: data/klavaro.ui:2520
+msgid ""
+"Keyboard layout for modules 1 and 2. Also used informatively in the "
+"fluidness contest."
+msgstr ""
+"Tastaturlayout for modulerne 1 og 2. Bruges også informativt i den flydende "
+"indtastningskonkurrence."
+
+#: data/klavaro.ui:2522
+msgid "_Keyboard:"
+msgstr "_Tastatur:"
+
+#: data/klavaro.ui:2535
+msgid "Language for modules 3 and 4."
+msgstr "Sprog for modulerne 3 og 4."
+
+#: data/klavaro.ui:2537
+msgid "_Language:"
+msgstr "_Sprog:"
+
+#: data/klavaro.ui:2546
+msgid "Speech"
+msgstr "Tale"
+
+#: data/klavaro.ui:2620
+msgid "Little tip about this program."
+msgstr "Et lille fif om dette program."
+
+#: data/klavaro.ui:2650
+msgid "_Help"
+msgstr "_Hjælp"
+
+#: data/klavaro.ui:2676
+msgid "General information about the program."
+msgstr "Generel information om programmet."
+
+#: data/klavaro.ui:2706
+msgid "_About..."
+msgstr "_Om..."
+
+#: data/klavaro.ui:2732 data/klavaro.ui:4064
+msgid "Exit the application immediately."
+msgstr "Afslut programmet øjeblikkeligt."
+
+#: data/klavaro.ui:2798
+msgid "Klavaro - Progress"
+msgstr "Klavaro - fremskridt"
+
+#: data/klavaro.ui:2847 data/klavaro.ui:3575
+msgid "_Lesson:"
+msgstr "_Lektion:"
+
+#: data/klavaro.ui:2920
+msgid "Value"
+msgstr "Værdi"
+
+#: data/klavaro.ui:2964
+msgid "Close this window, returning to the exercise."
+msgstr "Luk dette vindue, retur til øvelsen."
+
+#: data/klavaro.ui:3034
+msgid "Clear all the progress data, for every module."
+msgstr "Ryd alle data om fremgang, for alle moduler."
+
+#: data/klavaro.ui:3065
+msgid "_Reset"
+msgstr "_Nulstil"
+
+#: data/klavaro.ui:3102
+msgid "Top 10"
+msgstr "Top 10"
+
+#: data/klavaro.ui:3223
+msgid "Show extra information"
+msgstr "Vis ekstra information"
+
+#: data/klavaro.ui:3245
+msgid "Hide extra information"
+msgstr "Skjul ekstra information"
+
+#: data/klavaro.ui:3299
+msgid "Publish to the web your local scores."
+msgstr "Udgiv dine lokale point på nettet."
+
+#: data/klavaro.ui:3328
+msgid "_Participate"
+msgstr "_Deltag"
+
+#: data/klavaro.ui:3355
+msgid "Download from the web the most up to date ranking."
+msgstr "Hent den opdaterede rangering fra nettet."
+
+#: data/klavaro.ui:3384
+msgid "_Update"
+msgstr "_Opdater"
+
+#: data/klavaro.ui:3515
+msgid "Load other exercises/lessons"
+msgstr "Hent andre øvelser/lektioner"
+
+#: data/klavaro.ui:3540
+msgid "_Other texts"
+msgstr "_Andre tekster"
+
+#: data/klavaro.ui:3635
+msgid "Edit the character set to be used in this lesson."
+msgstr "Rediger det karaktersæt som skal bruges i denne lektion."
+
+#: data/klavaro.ui:3651
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr "Dette er en specifik øvelse, justeret til din fejlprofil."
+
+#: data/klavaro.ui:3678
+msgid "Edit the character set to be used in lessons 44 through 50."
+msgstr "Rediger det karaktersæt som skal bruges i lektion 44 til 50."
+
+#: data/klavaro.ui:3750 src/tutor.c:252
+msgid "Drag and drop text here to practice with it."
+msgstr "Træk og slip tekst her for at øve med den."
+
+#: data/klavaro.ui:3779
+msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+msgstr "Tryk her for at starte øvelsen igen. Genvejstast: [Ctrl R]"
+
+#: data/klavaro.ui:3808
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr "Vis det virtuelle tastatur og forbindelsen mellem fingre og taster."
+
+#: data/klavaro.ui:3834
+msgid "_Keyboard"
+msgstr "_Tastatur"
+
+#: data/klavaro.ui:3858
+msgid "Select the font to be used in the exercise window."
+msgstr "Vælg skrifttypen der skal bruges i øvelsesvinduet."
+
+#: data/klavaro.ui:3883
+msgid "_Font"
+msgstr "_Skrifttype"
+
+#: data/klavaro.ui:3907
+msgid "Keep this checked if you want to get those nice beeps."
+msgstr "Hold denne afkrydset hvis du vil bevare de dejlige små bip."
+
+#: data/klavaro.ui:3934
+msgid "_Beep"
+msgstr "_Bip"
+
+#: data/klavaro.ui:3992
+msgid "Co_urse information"
+msgstr "_Undervisningsinformation"
+
+#: data/klavaro.ui:4016
+msgid "Charts showing the learning progress along the exercises."
+msgstr "Grafer der viser indlæringsfremskridtet igennem øvelserne."
+
+#: data/klavaro.ui:4039
+msgid "_Progress"
+msgstr "_Fremskridt"
+
+#: data/klavaro.ui:4113
+msgid "Return to the main menu."
+msgstr "Retur til hovedmenuen."
+
+#: data/klavaro.ui:4162
+msgid "Show local and external scores from other users."
+msgstr "Vis lokale og eksterne point fra andre brugere."
+
+#: data/klavaro.ui:4185
+msgid "_Top 10"
+msgstr "_Top 10"
+
+#: src/main.c:243
 msgid "(Custom)"
 msgstr "(Brugertilpasset)"
 
-#: ../src/main.c:244
+#: src/main.c:244
 msgid "(Edit custom)"
 msgstr "(Rediger brugertilpasset)"
 
-#: ../src/main.c:245
+#: src/main.c:245
 msgid "(Default)"
 msgstr "(Standard)"
 
-#: ../src/main.c:322
+#: src/main.c:322
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] "Diktafontilstand (afhænger af denne talesynthesizer: %s)"
 msgstr[1] "Diktafontilstand (afhænger af en af disse talesynthesizere: %s)"
 
-#. Set main labels (for translation)
-#.
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: src/main.c:364 src/keyboard.c:1291
 msgid "Introduction"
 msgstr "Introduktion"
 
-#: ../src/main.c:367 ../src/top10.c:109
+#: src/main.c:367 src/top10.c:109
 msgid "Basic course"
 msgstr "Grundlæggende øvelse"
 
-#: ../src/main.c:370 ../src/top10.c:112
+#: src/main.c:370 src/top10.c:112
 msgid "Adaptability"
 msgstr "Tilpasningsevne"
 
-#: ../src/main.c:373 ../src/callbacks.c:1310 ../src/top10.c:89
-#: ../src/top10.c:115
+#: src/main.c:373 src/callbacks.c:1310 src/top10.c:89 src/top10.c:115
 msgid "Speed"
 msgstr "Hastighed"
 
-#: ../src/main.c:376 ../src/callbacks.c:1333 ../src/top10.c:91
-#: ../src/top10.c:118
+#: src/main.c:376 src/callbacks.c:1333 src/top10.c:91 src/top10.c:118
 msgid "Fluidity"
 msgstr "Flydenhed"
 
-#: ../src/callbacks.c:468 ../src/tutor.c:391
+#: src/callbacks.c:468 src/tutor.c:391
 msgid "Keys:"
 msgstr "Taster:"
 
-#: ../src/callbacks.c:858 ../src/callbacks.c:874
+#: src/callbacks.c:858 src/callbacks.c:874
 msgid "Connecting..."
 msgstr "Forbinder..."
 
-#: ../src/callbacks.c:1145
+#: src/callbacks.c:1145
 msgid "Overwrite user layout"
 msgstr "Overskriv brugerlayout"
 
-#: ../src/callbacks.c:1147
+#: src/callbacks.c:1147
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Dette vil OVERSKRIVE et eksisterende tastaturlayout."
 
-#: ../src/callbacks.c:1154
+#: src/callbacks.c:1154
 msgid "Remove user layout"
 msgstr "Fjern brugerlayout"
 
-#: ../src/callbacks.c:1156
+#: src/callbacks.c:1156
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Dette vil FJERNE et eksisterende tastaturlayout."
 
-#: ../src/callbacks.c:1163
+#: src/callbacks.c:1163
 msgid "Reset progress data"
 msgstr "Nulstil data for fremskridt"
 
-#: ../src/callbacks.c:1164
+#: src/callbacks.c:1164
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "Dette vil SLETTE alle de data for fremskridt som vises i diagrammerne."
 
-#: ../src/callbacks.c:1307 ../src/top10.c:87
+#: src/callbacks.c:1307 src/top10.c:87
 msgid "Accuracy"
 msgstr "Præcision"
 
-#: ../src/callbacks.c:1310 ../src/tutor.c:1160
+#: src/callbacks.c:1310 src/tutor.c:1160
 msgid "(WPM)"
 msgstr "(OPM)"
 
-#: ../src/callbacks.c:1321
+#: src/callbacks.c:1321
 msgid "Errors"
 msgstr "Fejl"
 
-#: ../src/callbacks.c:1324
+#: src/callbacks.c:1324
 msgid "Touch times (s)"
 msgstr "Tastetid (s)"
 
-#: ../src/callbacks.c:1336 ../src/tutor.c:1187 ../src/top10.c:69
+#: src/callbacks.c:1336 src/tutor.c:1187 src/top10.c:69
 msgid "Score"
 msgstr "Point"
 
-#. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1597
+#: src/translation.c:485 src/tutor.c:1597
 msgid "en"
 msgstr "da"
 
-#: ../src/translation.c:572
+#: src/translation.c:572
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -149,7 +565,7 @@ msgstr ""
 "holde dine hænder korrekt placeret på udgangstasterne på tastaturet (se "
 "introduktionen på hovedmenuen)."
 
-#: ../src/translation.c:576
+#: src/translation.c:576
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -159,7 +575,7 @@ msgstr ""
 "Tasterne [Mellemrum], [Skift] og [Retur] bliver måske ikke vist men bruges "
 "ret ofte."
 
-#: ../src/translation.c:579
+#: src/translation.c:579
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -167,7 +583,7 @@ msgstr ""
 "Beskedlinjen nedenfor følger og gentager dine tastninger. Hvis krævet ændrer "
 "den sig og viser instruktioner for handlinger der kræves af dig."
 
-#: ../src/translation.c:583
+#: src/translation.c:583
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -177,7 +593,7 @@ msgstr ""
 "taster. Der vil blive vist sætninger med nonsens ord iblandet nogle tal og "
 "symboler."
 
-#: ../src/translation.c:586
+#: src/translation.c:586
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -187,7 +603,7 @@ msgstr ""
 "højst sandsynlig ikke fremgå. For rigtige ordsætninger, så brug venligst den "
 "fjerde valgmulighed i hovedmenuen (om flydenhed)."
 
-#: ../src/translation.c:590
+#: src/translation.c:590
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -195,7 +611,7 @@ msgstr ""
 "Efter hver øvelse vil der være en kort statistisk fremvisning af din "
 "præstation, sammen med nogle relevante kommentarer."
 
-#: ../src/translation.c:594
+#: src/translation.c:594
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -203,7 +619,7 @@ msgstr ""
 "Denne øvelse er meget lig nummer to, for tilpasningsevne. Forskellen er at "
 "du her indtaster rigtige ord."
 
-#: ../src/translation.c:597
+#: src/translation.c:597
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -213,7 +629,7 @@ msgstr ""
 "anden tekst med ord du ønsker at bruge. Tryk på »Andre tekster« ovenfor og "
 "tilføj filer der indeholder de ønskede tekster."
 
-#: ../src/translation.c:601
+#: src/translation.c:601
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -221,7 +637,7 @@ msgstr ""
 "Denne øvelses fokus er hastighed. Så det forventes at du taster virkelig "
 "hurtigt og jeg vil kun smigre dig når du fortjener det!"
 
-#: ../src/translation.c:605
+#: src/translation.c:605
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -233,7 +649,7 @@ msgstr ""
 "indtaster. De tidligere øvelser havde som mål at få dig til at taste uden at "
 "fortolke og analysere indholdet."
 
-#: ../src/translation.c:609
+#: src/translation.c:609
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -249,8 +665,7 @@ msgstr ""
 "særlig stor koncentration. Så vil du være i stand til at bruge "
 "opmærksomheden på indholdet af teksten."
 
-#. English typo: minimun -> minimum
-#: ../src/translation.c:614
+#: src/translation.c:614
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -262,8 +677,7 @@ msgstr ""
 "Her vil du skulle bruge slet tilbage-tasten for at rette fejltagelser. Med "
 "andre ord, kun inddata uden fejl vil blive accepteret."
 
-#. English typo: recomendations -> recommendations
-#: ../src/keyboard.c:1094
+#: src/keyboard.c:1094
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -273,7 +687,7 @@ msgstr ""
 "tastning. Du vil lære hurtigere og taste bedre hvis du følger de næste "
 "anbefalinger."
 
-#: ../src/keyboard.c:1097
+#: src/keyboard.c:1097
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -281,7 +695,7 @@ msgstr ""
 "Pegefingrene hviler på de to taster som har en lille forhøjning. De er "
 "placeret i midten af tastaturet."
 
-#: ../src/keyboard.c:1100
+#: src/keyboard.c:1100
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -292,7 +706,7 @@ msgstr ""
 "længere behøve at kigge på tastaturet, hvor at se om fingrene er korrekt "
 "placeret."
 
-#: ../src/keyboard.c:1104
+#: src/keyboard.c:1104
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -300,11 +714,11 @@ msgstr ""
 "Spidsen af de andre fingre ligger naturligt ved siden af pegefingrene, på "
 "den samme række af taster på tastaturet."
 
-#: ../src/keyboard.c:1107
+#: src/keyboard.c:1107
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "Den yderste del af dine tommelfingre hviler på mellemrumstasten."
 
-#: ../src/keyboard.c:1109
+#: src/keyboard.c:1109
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -313,7 +727,7 @@ msgstr ""
 "Den del af hånden der er nærmest vristen (basen) hviler over bordet, udenfor "
 "tastaturet. Uden denne støtte vil armene hurtigt blive trætte."
 
-#: ../src/keyboard.c:1112
+#: src/keyboard.c:1112
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -327,7 +741,7 @@ msgstr ""
 "tast og finger. Denne sammenhæng vil blive indlært gradvist i det "
 "grundlæggende kursus."
 
-#: ../src/keyboard.c:1118
+#: src/keyboard.c:1118
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -337,7 +751,7 @@ msgstr ""
 "at du kun bevæger den finger der skal trykke på tasten og lader alle de "
 "andre fingre blive i deres udgangsposition."
 
-#: ../src/keyboard.c:1122
+#: src/keyboard.c:1122
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -345,7 +759,7 @@ msgstr ""
 "Efter at denne sammenhæng er lært udenad, kan du mindske overholdelsen af "
 "den tidligere regel, så du kan bruge opnå højere fart under tastning."
 
-#: ../src/keyboard.c:1125
+#: src/keyboard.c:1125
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -355,78 +769,72 @@ msgstr ""
 "Det kræver slid og tålmodighed at blive maskinskriver. Vi stoler på, at du "
 "har disse egenskaber og glæder os til din success!"
 
-#: ../src/keyboard.c:1136
+#: src/keyboard.c:1136
 #, c-format
 msgid "Step %i"
 msgstr "Trin %i"
 
-#. Recommendations
-#: ../src/keyboard.c:1140
+#: src/keyboard.c:1140
 msgid "To position the hands"
 msgstr "Placering af hænderne"
 
-#. Final words
-#: ../src/keyboard.c:1225
+#: src/keyboard.c:1225
 msgid "Go ahead!"
 msgstr "Bare gå i gang!"
 
-#: ../src/keyboard.c:1234
+#: src/keyboard.c:1234
 msgid "Relation between fingers and keys"
 msgstr "Forbindelse mellem fingre og taster"
 
-#: ../src/keyboard.c:1235
+#: src/keyboard.c:1235
 msgid "Click on any key to see which finger you must use:"
 msgstr "Klik på en tilfældig tast for at se hvilken finger du skal bruge:"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: src/keyboard.c:1291 src/keyboard.c:1325
 msgid "Keyboard"
 msgstr "Tastatur"
 
-#: ../src/keyboard.c:1372
+#: src/keyboard.c:1372
 msgid "Create or modify a custom keyboard layout"
 msgstr "Opret eller ændr et brugertilpasset tastaturlayout"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: src/keyboard.c:1618 src/keyboard.c:1642
 msgid "small finger"
 msgstr "lillefinger"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: src/keyboard.c:1621 src/keyboard.c:1639
 msgid "ring finger"
 msgstr "ringfinger"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: src/keyboard.c:1624 src/keyboard.c:1636
 msgid "middle finger"
 msgstr "langefinger"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: src/keyboard.c:1627 src/keyboard.c:1633
 msgid "index finger"
 msgstr "pegefinger"
 
-#: ../src/keyboard.c:1630
-msgid "thumbs"
-msgstr "tommelfingre"
-
-#: ../src/keyboard.c:1728
+#: src/keyboard.c:1728
 msgid "Press and edit me"
 msgstr "Tryk og rediger mig"
 
-#: ../src/tutor.c:176
+#: src/tutor.c:176
 msgid "Lesson:"
 msgstr "Lektion:"
 
-#: ../src/tutor.c:186
+#: src/tutor.c:186
 msgid "Paragraphs:"
 msgstr "Tekstafsnit:"
 
-#: ../src/tutor.c:219
+#: src/tutor.c:219
 msgid "Klavaro - Basic Course"
 msgstr "Klavaro - grundlæggende øvelse"
 
-#: ../src/tutor.c:224
+#: src/tutor.c:224
 msgid "Klavaro - Adaptability"
 msgstr "Klavaro - Tilpasningsevne"
 
-#: ../src/tutor.c:227
+#: src/tutor.c:227
 msgid ""
 "Adaptability exercises: automating the fingers responses, typing over all "
 "the keyboard."
@@ -434,47 +842,43 @@ msgstr ""
 "Øvelser for tilpasningsevne: Automatisk respons fra fingrene, indtastning på "
 "hele tastaturet."
 
-#: ../src/tutor.c:232
+#: src/tutor.c:232
 msgid "Klavaro - Velocity"
 msgstr "Klavaro - hastighed"
 
-#: ../src/tutor.c:233
+#: src/tutor.c:233
 msgid "Velocity exercises: accelerate typing real words."
 msgstr "Hastighedsøvelser: Øg hastigheden under indtastning af rigtige ord."
 
-#: ../src/tutor.c:237
+#: src/tutor.c:237
 msgid "Klavaro - Fluidness"
 msgstr "Klavaro - Flydende tastning"
 
-#: ../src/tutor.c:239
+#: src/tutor.c:239
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr "Øvelser til flydende tastning: præcision ved at taste tekstafsnit."
 
-#: ../src/tutor.c:252
-msgid "Drag and drop text here to practice with it."
-msgstr "Træk og slip tekst her for at øve med den."
-
-#: ../src/tutor.c:301
+#: src/tutor.c:301
 msgid "End of exercise. Press [Enter] to start another."
 msgstr "Slut på øvelse. Tryk [Retur] for at starte en ny."
 
-#: ../src/tutor.c:329
+#: src/tutor.c:329
 msgid "Learning the key positions."
 msgstr "Indlæring af tastpositionerne."
 
-#: ../src/tutor.c:332
+#: src/tutor.c:332
 msgid "Press any key to start the exercise. "
 msgstr "Tryk på en tast for at starte øvelsen. "
 
-#: ../src/tutor.c:440 ../src/tutor.c:443
+#: src/tutor.c:440 src/tutor.c:443
 msgid "Start typing when you are ready. "
 msgstr "Begynd at taste når du er klar. "
 
-#: ../src/tutor.c:441
+#: src/tutor.c:441
 msgid "Use backspace to correct errors."
 msgstr "Brug mellemrum til at rette fejl."
 
-#: ../src/tutor.c:885
+#: src/tutor.c:885
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
@@ -483,11 +887,11 @@ msgstr ""
 "ps: Logning udføres ikke for denne øvelse: Antallet af indtastede tegn (%i) "
 "skal være større end %i."
 
-#: ../src/tutor.c:1027
+#: src/tutor.c:1027
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "ps.: Du er kommet på listen over de bedste 10, glimrende!"
 
-#: ../src/tutor.c:1039
+#: src/tutor.c:1039
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
@@ -496,103 +900,95 @@ msgstr ""
 "ps: Teksten, du netop har indtastet, ligner ikke tilsvarende tekster i det "
 "valgte sprog: Vi kan ikke indregne den i konkurrencen om top 10."
 
-#. Begin the accuracy
-#: ../src/tutor.c:1087
+#: src/tutor.c:1087
 msgid "STATISTICS"
 msgstr "STATISTIK"
 
-#: ../src/tutor.c:1088
+#: src/tutor.c:1088
 msgid "Elapsed time:"
 msgstr "Forløbet tid:"
 
-#: ../src/tutor.c:1089
+#: src/tutor.c:1089
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "minut og"
 msgstr[1] "minutter og"
 
-#: ../src/tutor.c:1090
+#: src/tutor.c:1090
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "sekund"
 msgstr[1] "sekunder"
 
-#: ../src/tutor.c:1091
+#: src/tutor.c:1091
 msgid "Error ratio:"
 msgstr "Fejlniveau:"
 
-#: ../src/tutor.c:1091
+#: src/tutor.c:1091
 msgid "Accuracy:"
 msgstr "Præcision:"
 
-#: ../src/tutor.c:1112 ../src/tutor.c:1137 ../src/tutor.c:1160
-#: ../src/tutor.c:1186
+#: src/tutor.c:1112 src/tutor.c:1137 src/tutor.c:1160 src/tutor.c:1186
 msgid "Goal:"
 msgstr "Mål:"
 
-#: ../src/tutor.c:1119
+#: src/tutor.c:1119
 msgid "Characters per second:"
 msgstr "Tegn per sekund:"
 
-#: ../src/tutor.c:1137
+#: src/tutor.c:1137
 msgid "(CPS)"
 msgstr "(KPS)"
 
-#: ../src/tutor.c:1142
+#: src/tutor.c:1142
 msgid "Words per minute:"
 msgstr "Ord per minut:"
 
-#: ../src/tutor.c:1167
+#: src/tutor.c:1167
 msgid "Fluidness:"
 msgstr "Flydende indtasting:"
 
-#: ../src/tutor.c:1194
+#: src/tutor.c:1194
 msgid "Comments:"
 msgstr "Bemærkninger:"
 
-#: ../src/tutor.c:1676
+#: src/tutor.c:1676
 msgid "space"
 msgstr "mellemrum"
 
-#. Translators: the name of letter Y
-#: ../src/tutor.c:1681
+#: src/tutor.c:1681
 msgid "wye"
 msgstr "y"
 
-#. Translators: the name of the Return key
-#: ../src/tutor.c:1685
+#: src/tutor.c:1685
 msgid "enter"
 msgstr "retur"
 
-#: ../src/tutor.c:1691
+#: src/tutor.c:1691
 msgid "apostrophe"
 msgstr "apostrof"
 
-#. Translators: double quote symbol: "
-#: ../src/tutor.c:1695
+#: src/tutor.c:1695
 msgid "quote"
 msgstr "anførelsestegn"
 
-#. Translators: ampersand symbol: &
-#: ../src/tutor.c:1699
+#: src/tutor.c:1699
 msgid "ampersand"
 msgstr "og-tegn"
 
-#. Error frequencies or touch times
-#.
-#: ../src/plot.c:308
+#: src/plot.c:308
 msgid "Character"
 msgstr "Tegn"
 
-#: ../src/plot.c:319
+#: src/plot.c:319
 msgid "Date & Time"
 msgstr "Dato & tid"
 
-#: ../src/basic.c:331
+#: src/basic.c:331
 msgid "Positions of keys seems to be learned!"
 msgstr "Tasternes placering ser ud til at været lært!"
 
-#: ../src/basic.c:332
+#: src/basic.c:332
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -604,7 +1000,7 @@ msgstr ""
 " Gå til den næste type af øvelser: Tilpasningsevne.\n"
 " Der vil du hovedsagelig træne præcisionen.\n"
 
-#: ../src/basic.c:338
+#: src/basic.c:338
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
@@ -612,7 +1008,7 @@ msgstr ""
 " Nu har du det!\n"
 " Gå til den næste lektion.\n"
 
-#: ../src/adaptability.c:221
+#: src/adaptability.c:221
 msgid ""
 " Your accuracy rate is below 90%...\n"
 " Could you please try again to improve it?\n"
@@ -620,7 +1016,7 @@ msgstr ""
 " Din præcision er under 90 %...\n"
 " Kunne du venligst forsøge at forbedre den?\n"
 
-#: ../src/adaptability.c:226
+#: src/adaptability.c:226
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach 95%?\n"
@@ -628,7 +1024,7 @@ msgstr ""
 " Du klarer dig godt. Men...\n"
 " Kan du få præcisionsraten op på 95 %?\n"
 
-#: ../src/adaptability.c:229
+#: src/adaptability.c:229
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -639,7 +1035,7 @@ msgstr ""
 " Forsøg et par gange mere, eller hvis du er lidt oprevet så forsøg med en "
 "anden øvelse.\n"
 
-#: ../src/adaptability.c:236
+#: src/adaptability.c:236
 #, c-format
 msgid ""
 " Very good!\n"
@@ -652,11 +1048,11 @@ msgstr ""
 " Nu er det på tide at øge din hastighed.\n"
 " Gå til den tredje øvelse i hovedmenuen.\n"
 
-#: ../src/velocity.c:312 ../src/fluidness.c:435
+#: src/velocity.c:312 src/fluidness.c:435
 msgid "Pasted_or_dropped"
 msgstr "Indsat_eller_sluppet"
 
-#: ../src/velocity.c:431
+#: src/velocity.c:431
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
@@ -666,7 +1062,7 @@ msgstr ""
 " Vær tålmodig, prøv hver dag, hvil og bekymr dig ikke så meget:\n"
 " ihærdighed og øvelse vil øge din hastighed.\n"
 
-#: ../src/velocity.c:435
+#: src/velocity.c:435
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try at least 20 WPM.\n"
@@ -674,7 +1070,7 @@ msgstr ""
 " Stadig langt fra hovedvejen. Du kan gøre det bedre...\n"
 " Forsøg i det mindste at nå 20 OPM.\n"
 
-#: ../src/velocity.c:438
+#: src/velocity.c:438
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get 30 WPM.\n"
@@ -682,7 +1078,7 @@ msgstr ""
 " Du gør det godt, men det skal gå hurtigere.\n"
 " Og glem ikke præcisionen. Forsøg at nå 30 OPM.\n"
 
-#: ../src/velocity.c:442
+#: src/velocity.c:442
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach 40 WPM?\n"
@@ -690,7 +1086,7 @@ msgstr ""
 " Fint. Nu skal du i gang med hastigheden.\n"
 " Kan du nå 40 OPM?\n"
 
-#: ../src/velocity.c:445
+#: src/velocity.c:445
 #, c-format
 msgid ""
 " Very good. You are almost there.\n"
@@ -699,7 +1095,7 @@ msgstr ""
 " Rigtig godt. Du er der næsten.\n"
 " Kan du nu nå %.0f OPM?\n"
 
-#: ../src/velocity.c:450
+#: src/velocity.c:450
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
@@ -707,7 +1103,7 @@ msgstr ""
 " Glimrende. Til dette kursus er det nok.\n"
 " Forsøg nu med øvelser til øgning af den flydende indtastning, okay?\n"
 
-#: ../src/velocity.c:454
+#: src/velocity.c:454
 msgid ""
 " Fast! Are you training for a competition?\n"
 " So, try to get 70 WPM!\n"
@@ -715,7 +1111,7 @@ msgstr ""
 " Hurtigt! Træner du til en konkurrence?\n"
 " Så forsøg at nå 70 OPM!\n"
 
-#: ../src/velocity.c:457
+#: src/velocity.c:457
 msgid ""
 " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 " Are you afraid of reaching 80 WPM?\n"
@@ -723,7 +1119,7 @@ msgstr ""
 " Toppen af »qwerty«. Nu er det på tide at skifte til Dvoraktilstand.\n"
 " Er du bange for at nå 80 OPM?\n"
 
-#: ../src/velocity.c:461
+#: src/velocity.c:461
 msgid ""
 " Dvorak mode dominated!\n"
 " Can you fly at 90 WPM?\n"
@@ -731,7 +1127,7 @@ msgstr ""
 " Dvoraktilstand erobret!\n"
 " Kan du flyve af sted med 90 OPM?\n"
 
-#: ../src/velocity.c:465
+#: src/velocity.c:465
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
@@ -739,7 +1135,7 @@ msgstr ""
 " Dvorakmester!\n"
 " Ingen ord kan udtrykke min beundring!\n"
 
-#: ../src/fluidness.c:545
+#: src/fluidness.c:545
 #, c-format
 msgid ""
 " You type accurately but not so fast.\n"
@@ -748,7 +1144,7 @@ msgstr ""
 " Du taster præcist men ikke så hurtigt.\n"
 " Kan du nå %.0f OPM?\n"
 
-#: ../src/fluidness.c:548
+#: src/fluidness.c:548
 #, c-format
 msgid ""
 " Your rhythm is not so constant. Calm down.\n"
@@ -757,7 +1153,7 @@ msgstr ""
 " Din rytme er ikke konstant. Tag det roligt.\n"
 " Forsøg nu at gøre tastningens flydning større end %i%%.\n"
 
-#: ../src/fluidness.c:551
+#: src/fluidness.c:551
 #, c-format
 msgid ""
 " You are almost getting there. Type more fluently.\n"
@@ -766,7 +1162,7 @@ msgstr ""
 " Du er der næsten. Tast mere flydende.\n"
 " Jeg ser gerne en flydende indtastning større end %.0f%%.\n"
 
-#: ../src/fluidness.c:554
+#: src/fluidness.c:554
 msgid ""
 " Congratulations!\n"
 " It seems to me that you are a professional.\n"
@@ -778,7 +1174,7 @@ msgstr ""
 " Du har ikke længere bruge for dette program (mig).\n"
 " Håber du havde det sjovt. Tak og hyg dig!\n"
 
-#: ../src/fluidness.c:559
+#: src/fluidness.c:559
 msgid ""
 " How can you type so fast?\n"
 " You have exceeded all my expectations.\n"
@@ -790,372 +1186,53 @@ msgstr ""
 " Er du en maskine? Kan du lære mig det?\n"
 " Jeg kan ikke hjælpe dig yderligere. Gå til en ekspert!\n"
 
-#: ../src/top10.c:67
+#: src/top10.c:67
 msgid "Name"
 msgstr "Navn"
 
-#: ../src/top10.c:93
+#: src/top10.c:93
 msgid "Chars"
 msgstr "Kar"
 
-#: ../src/top10.c:95
+#: src/top10.c:95
 msgid "When"
 msgstr "Hvornår"
 
-#: ../src/top10.c:124
+#: src/top10.c:124
 msgid "Local scores"
 msgstr "Lokale point"
 
-#: ../src/top10.c:125
+#: src/top10.c:125
 msgid "External scores"
 msgstr "Eksterne point"
 
-#: ../src/top10.c:719
+#: src/top10.c:719
 msgid "Empty ranking. Please practice fluidness."
 msgstr "Uden for point. Øv venligst den flydende indtastning."
 
-#: ../src/top10.c:816
+#: src/top10.c:816
 msgid "Not able to download files"
 msgstr "Kan ikke hente filer"
 
-#: ../src/top10.c:816 ../src/top10.c:906
+#: src/top10.c:816 src/top10.c:906
 msgid "not found"
 msgstr "ikke fundet"
 
-#: ../src/top10.c:817 ../src/top10.c:907
+#: src/top10.c:817 src/top10.c:907
 msgid "Are you sure you have it installed in your system?"
 msgstr "Er du sikker på, at det er installeret på dit system?"
 
-#: ../src/top10.c:861
+#: src/top10.c:861
 msgid "Could not download file from the host server."
 msgstr "Kunne ikke hente fil fra værtsserver."
 
-#: ../src/top10.c:906
+#: src/top10.c:906
 msgid "Not able to upload files"
 msgstr "Kunne ikke overføre filer"
 
-#: ../src/top10.c:987
+#: src/top10.c:987
 msgid "Could not upload/download scores."
 msgstr "Kunne ikke overføre/hente point."
-
-#~ msgid "About 'Klavaro'"
-#~ msgstr "Om »Klavaro«"
-
-#~ msgid "Remember always: someone loves you!"
-#~ msgstr "Husk altid: Nogen elsker dig!"
-
-#~ msgid "Change language"
-#~ msgstr "Ændr sprog"
-
-#~ msgid "Attention!"
-#~ msgstr "Klar!"
-
-#~ msgid "Do you confirm?"
-#~ msgstr "Bekræfter du?"
-
-#~ msgid "_No"
-#~ msgstr "_Nej"
-
-#~ msgid "_Yes"
-#~ msgstr "_Ja"
-
-#~ msgid "Help?"
-#~ msgstr "Hjælp?"
-
-#~ msgid "This is a tip. Now you press this button to return to the main menu."
-#~ msgstr ""
-#~ "Dette er et fif. Tryk nu på denne knap for at returnere til hovedmenuen."
-
-#~ msgid "B_ack to menu"
-#~ msgstr "Tilb_age til menu"
-
-#~ msgid ""
-#~ "The main menu of the application is very straightforward. Just select the "
-#~ "type of exercise you wish to take. Do not worry about clicking any button "
-#~ "on the screen. The buttons will never hurt you!"
-#~ msgstr ""
-#~ "Hovedmenuen i programmet er ligetil. Vælg den type øvelse du ønsker at "
-#~ "øve i. Du skal ikke bekymre dig om at klikke på nogen af knapperne på "
-#~ "skærmen. Knapperne vil aldrig gøre dig noget!"
-
-#~ msgid ""
-#~ "Also the controls have tips which will appear if you hover over them with "
-#~ "your mouse. These tips can come in very handy. To see how these tips "
-#~ "work, position your mouse over the button below, and without clicking, "
-#~ "wait for the tip to appear..."
-#~ msgstr ""
-#~ "Styringen har også tip som vil fremkomme hvis du placerer musen over dem. "
-#~ "Disse fif kan være gode. For at se hvordan de virker, så placer musen "
-#~ "over knappen nedenfor, og uden at klikke, vent til fiffet fremkommer..."
-
-#~ msgid "Klavaro - Select file"
-#~ msgstr "Klavaro - vælg fil"
-
-#~ msgid "_Cancel"
-#~ msgstr "_Afbryd"
-
-#~ msgid "_Open"
-#~ msgstr "_Åbn"
-
-#~ msgid "Font definition"
-#~ msgstr "Skrifttypedefinition"
-
-#~ msgid "Re_name:"
-#~ msgstr "_Omdøb:"
-
-#~ msgid "Rename the selected item."
-#~ msgstr "Omdøb det valgte punkt."
-
-#~ msgid ""
-#~ "Read a text file and add a copy of it here. The file must be encoded in "
-#~ "UTF-8."
-#~ msgstr ""
-#~ "Læs en tekstfil og tilføj en kopi af den her. Filen skal være i formatet "
-#~ "UTF-8."
-
-#~ msgid "_Open text file"
-#~ msgstr "_Åbn tekstfil"
-
-#~ msgid "Paste text that was copied to the clipboard."
-#~ msgstr "Indsæt tekst som blev kopieret til udklipsholderen."
-
-#~ msgid "_Paste from clipboard"
-#~ msgstr "_Indsæt fra udklipsholder"
-
-#~ msgid "Remove the selected item."
-#~ msgstr "Fjern det valgte punkt."
-
-#~ msgid "_Remove copied file"
-#~ msgstr "_Fjern kopieret fil"
-
-#~ msgid "Apply the selected item to create an exercise."
-#~ msgstr "Anvend det valgte punkt for at oprette en øvelse."
-
-#~ msgid "_Apply"
-#~ msgstr "_Anvend"
-
-#~ msgid "Close this window."
-#~ msgstr "Luk dette vindue."
-
-#~ msgid "_Close"
-#~ msgstr "_Luk"
-
-#~ msgid "Remove the selected custom layout."
-#~ msgstr "Fjern det valgte brugerlayout."
-
-#~ msgid "_Remove"
-#~ msgstr "Fje_rn"
-
-#~ msgid ""
-#~ "Toggles the shift effect on the keys. Alternates between the upper and "
-#~ "lower characters of the keys."
-#~ msgstr ""
-#~ "Skifter mellem skift-effekten på tasterne. Skifter mellem de øvre og "
-#~ "nedre tegn på tasterne."
-
-#~ msgid "SPACE BAR"
-#~ msgstr "MELLEMRUM"
-
-#~ msgid "Ctrl"
-#~ msgstr "Ctrl"
-
-# versaler, store bogstaver
-#~ msgid "Caps"
-#~ msgstr "Versaler"
-
-#~ msgid "S_ave as:"
-#~ msgstr "G_em som:"
-
-#~ msgid "Show previous screen."
-#~ msgstr "Vis forrige skærm."
-
-#~ msgid "_Previous step"
-#~ msgstr "_Forrige trin"
-
-#~ msgid "Show next screen."
-#~ msgstr "Vis næste skærm."
-
-#~ msgid "_Next step"
-#~ msgstr "_Næste trin"
-
-#~ msgid "Return without any modification."
-#~ msgstr "Retur uden nogen ændringer."
-
-#~ msgid "Save the current keyboard layout with the name specified above."
-#~ msgstr "Gem det aktuelle tastaturlayout med det ovenfor angivne navn."
-
-#~ msgid "_Save and use"
-#~ msgstr "_Gem og brug"
-
-#~ msgid ""
-#~ "If you like those beautiful hands, click here to close this window "
-#~ "keeping them."
-#~ msgstr ""
-#~ "Hvis du kan li' de smukke hænder, så klik her for at lukke dette vindue "
-#~ "og beholde dem."
-
-#~ msgid "_Keep hands"
-#~ msgstr "_Behold hænder"
-
-#~ msgid "Klavaro - Main menu"
-#~ msgstr "Klavaro - hovedmenu"
-
-#~ msgid "Don't be shy about learning the basics!"
-#~ msgstr "Hold dig ikke tilbage for at lære det basale!"
-
-#~ msgid "Learn how to type correctly"
-#~ msgstr "Lær korrekt maskinskrivning"
-
-#~ msgid "Initial training for your fingers."
-#~ msgstr "Indledende træning af dine fingre."
-
-#~ msgid "First steps with initial training"
-#~ msgstr "De første trin med den indledende træning"
-
-#~ msgid "Memorizing the keyboard practicing random keys exercises."
-#~ msgstr "Huskeøvelser med træning af tilfældige taster."
-
-#~ msgid "Practice with random keys"
-#~ msgstr "Øvelse med tilfældige taster"
-
-#~ msgid "Accelerating the touches practicing random words exercises."
-#~ msgstr "Øge følelsen med træning af tilfældige ord."
-
-#~ msgid "Practice with random words"
-#~ msgstr "Øvelse med tilfældige ord"
-
-#~ msgid "Becoming proficient practicing complete paragraphs exercises."
-#~ msgstr "Blive fortrolig med træning af hele tekstafsnit."
-
-#~ msgid "Practice with complete texts"
-#~ msgstr "Øvelse med hele tekster"
-
-#~ msgid ""
-#~ "Keyboard layout for modules 1 and 2. Also used informatively in the "
-#~ "fluidness contest."
-#~ msgstr ""
-#~ "Tastaturlayout for modulerne 1 og 2. Bruges også informativt i den "
-#~ "flydende indtastningskonkurrence."
-
-#~ msgid "_Keyboard:"
-#~ msgstr "_Tastatur:"
-
-#~ msgid "Language for modules 3 and 4."
-#~ msgstr "Sprog for modulerne 3 og 4."
-
-#~ msgid "_Language:"
-#~ msgstr "_Sprog:"
-
-#~ msgid "Speech"
-#~ msgstr "Tale"
-
-#~ msgid "Little tip about this program."
-#~ msgstr "Et lille fif om dette program."
-
-#~ msgid "_Help"
-#~ msgstr "_Hjælp"
-
-#~ msgid "General information about the program."
-#~ msgstr "Generel information om programmet."
-
-#~ msgid "_About..."
-#~ msgstr "_Om..."
-
-#~ msgid "Exit the application immediately."
-#~ msgstr "Afslut programmet øjeblikkeligt."
-
-#~ msgid "Klavaro - Progress"
-#~ msgstr "Klavaro - fremskridt"
-
-#~ msgid "_Lesson:"
-#~ msgstr "_Lektion:"
-
-#~ msgid "Value"
-#~ msgstr "Værdi"
-
-#~ msgid "Close this window, returning to the exercise."
-#~ msgstr "Luk dette vindue, retur til øvelsen."
-
-#~ msgid "Clear all the progress data, for every module."
-#~ msgstr "Ryd alle data om fremgang, for alle moduler."
-
-#~ msgid "_Reset"
-#~ msgstr "_Nulstil"
-
-#~ msgid "Top 10"
-#~ msgstr "Top 10"
-
-#~ msgid "Show extra information"
-#~ msgstr "Vis ekstra information"
-
-#~ msgid "Hide extra information"
-#~ msgstr "Skjul ekstra information"
-
-#~ msgid "Publish to the web your local scores."
-#~ msgstr "Udgiv dine lokale point på nettet."
-
-#~ msgid "_Participate"
-#~ msgstr "_Deltag"
-
-#~ msgid "Download from the web the most up to date ranking."
-#~ msgstr "Hent den opdaterede rangering fra nettet."
-
-#~ msgid "_Update"
-#~ msgstr "_Opdater"
-
-#~ msgid "Load other exercises/lessons"
-#~ msgstr "Hent andre øvelser/lektioner"
-
-#~ msgid "_Other texts"
-#~ msgstr "_Andre tekster"
-
-#~ msgid "Edit the character set to be used in this lesson."
-#~ msgstr "Rediger det karaktersæt som skal bruges i denne lektion."
-
-#~ msgid "This is a specific exercise, adjusted to your error profile."
-#~ msgstr "Dette er en specifik øvelse, justeret til din fejlprofil."
-
-#~ msgid "Edit the character set to be used in lessons 44 through 50."
-#~ msgstr "Rediger det karaktersæt som skal bruges i lektion 44 til 50."
-
-#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-#~ msgstr "Tryk her for at starte øvelsen igen. Genvejstast: [Ctrl R]"
-
-#~ msgid "Show the virtual keyboard and the relation between fingers and keys."
-#~ msgstr "Vis det virtuelle tastatur og forbindelsen mellem fingre og taster."
-
-#~ msgid "_Keyboard"
-#~ msgstr "_Tastatur"
-
-#~ msgid "Select the font to be used in the exercise window."
-#~ msgstr "Vælg skrifttypen der skal bruges i øvelsesvinduet."
-
-#~ msgid "_Font"
-#~ msgstr "_Skrifttype"
-
-#~ msgid "Keep this checked if you want to get those nice beeps."
-#~ msgstr "Hold denne afkrydset hvis du vil bevare de dejlige små bip."
-
-#~ msgid "_Beep"
-#~ msgstr "_Bip"
-
-#~ msgid "Co_urse information"
-#~ msgstr "_Undervisningsinformation"
-
-#~ msgid "Charts showing the learning progress along the exercises."
-#~ msgstr "Grafer der viser indlæringsfremskridtet igennem øvelserne."
-
-#~ msgid "_Progress"
-#~ msgstr "_Fremskridt"
-
-#~ msgid "Return to the main menu."
-#~ msgstr "Retur til hovedmenuen."
-
-#~ msgid "Show local and external scores from other users."
-#~ msgstr "Vis lokale og eksterne point fra andre brugere."
-
-#~ msgid "_Top 10"
-#~ msgstr "_Top 10"
 
 #~ msgid "Klavaro"
 #~ msgstr "Klavaro"

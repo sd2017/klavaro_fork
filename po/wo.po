@@ -7,126 +7,539 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.4\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-04 16:42-0200\n"
+"POT-Creation-Date: 2014-01-04 17:03-0200\n"
 "PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Dominique Rochefort <dominique@orisma.ca>\n"
 "Language-Team: Wolof <wo@li.org>\n"
-"Language: \n"
+"Language: wo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Translate Toolkit 1.9.0\n"
 
-#: ../data/klavaro.desktop.in.h:1
+#: data/klavaro.ui:7
+msgid "About 'Klavaro'"
+msgstr "Ci mbiri \"Klavaro\""
+
+#: data/klavaro.ui:16
 msgid "Yet another touch typing tutor"
 msgstr "xeltéefub njàngum daktilo"
 
-#: ../data/klavaro.desktop.in.h:2
-msgid "keyboard;typing;tutorial;"
-msgstr ""
+#: data/klavaro.ui:82
+msgid "Remember always: someone loves you!"
+msgstr "Fàttaliku-léen bés bu nekk ne am na ku leen bëgg!"
 
-#: ../src/main.c:243
+#: data/klavaro.ui:109
+msgid "Change language"
+msgstr "Soppi lammiñ"
+
+#: data/klavaro.ui:131
+msgid "Attention!"
+msgstr "Moytul!"
+
+#: data/klavaro.ui:168
+msgid "Do you confirm?"
+msgstr "Ndax woor na la?"
+
+#: data/klavaro.ui:231
+msgid "_No"
+msgstr "Déedéed"
+
+#: data/klavaro.ui:288
+msgid "_Yes"
+msgstr "Waaw"
+
+#: data/klavaro.ui:323
+msgid "Help?"
+msgstr "Ndimbal?"
+
+#: data/klavaro.ui:346
+msgid "This is a tip. Now you press this button to return to the main menu."
+msgstr "Lii ab xelal la. Bës leen ci butoŋ bi ngir dellusi ci njël lu mag li. "
+
+#: data/klavaro.ui:376 data/klavaro.ui:4136
+msgid "B_ack to menu"
+msgstr "Dellusi ci njël li"
+
+#: data/klavaro.ui:432
+msgid ""
+"The main menu of the application is very straightforward. Just select the "
+"type of exercise you wish to take. Do not worry about clicking any button on "
+"the screen. The buttons will never hurt you!"
+msgstr ""
+"Jël lu mag li ñeel xeltéef bi lu yomb la. Fal leen rekk xeetu jéemantu bi "
+"ngeen fas yéenée def. Buléen ragal a cuq butoŋ yi, duñu leen ngaañ"
+
+#: data/klavaro.ui:449
+msgid ""
+"Also the controls have tips which will appear if you hover over them with "
+"your mouse. These tips can come in very handy. To see how these tips work, "
+"position your mouse over the button below, and without clicking, wait for "
+"the tip to appear..."
+msgstr ""
+"Te itam, butoŋ bu nekk dafa am waxtaanu ndimbal mu koy mottali. Ngir wone "
+"ko, tegal jinax ji ci kow butoŋ bi bañ a cuq te xaar tuuti..."
+
+#: data/klavaro.ui:479
+msgid "Klavaro - Select file"
+msgstr "Klavaro - Tànnum dencukaay"
+
+#: data/klavaro.ui:528 data/klavaro.ui:986 data/klavaro.ui:1898
+msgid "_Cancel"
+msgstr "Neenal"
+
+#: data/klavaro.ui:580
+msgid "_Open"
+msgstr "Ubbi"
+
+#: data/klavaro.ui:621
+msgid "Font definition"
+msgstr "Tànnum njabootu  araf"
+
+#: data/klavaro.ui:764
+msgid "Re_name:"
+msgstr "Sàkkalaat tur:"
+
+#: data/klavaro.ui:778
+msgid "Rename the selected item."
+msgstr "Sàkkalaat tur mbir mi  faluwoon"
+
+#: data/klavaro.ui:806
+msgid ""
+"Read a text file and add a copy of it here. The file must be encoded in "
+"UTF-8."
+msgstr ""
+"Njàng ab dencukaayu mbind te roof fii ab duppit. Dencukaay bi dafa war a "
+"nekk lu nu fas ci UTF-8"
+
+#: data/klavaro.ui:831
+msgid "_Open text file"
+msgstr "Ubbi dencukaayu mbind yi"
+
+#: data/klavaro.ui:855
+msgid "Paste text that was copied to the clipboard."
+msgstr "Taf mbind wi ñu duppiwoon ci dencandikaay bi."
+
+#: data/klavaro.ui:880
+msgid "_Paste from clipboard"
+msgstr "Taf bu dale ca dencandikaay ba"
+
+#: data/klavaro.ui:904
+msgid "Remove the selected item."
+msgstr "Màbb mbir mi falu."
+
+#: data/klavaro.ui:929
+msgid "_Remove copied file"
+msgstr "_Màbb duppi dencukaay bi"
+
+#: data/klavaro.ui:1013
+msgid "Apply the selected item to create an exercise."
+msgstr "Jëfe mbir mi falu ngir sos ab jéemantu"
+
+#: data/klavaro.ui:1042
+msgid "_Apply"
+msgstr "Jëfe"
+
+#: data/klavaro.ui:1122 data/klavaro.ui:1981 data/klavaro.ui:3423
+msgid "Close this window."
+msgstr "Tëj palanteer bii."
+
+#: data/klavaro.ui:1152 data/klavaro.ui:2012 data/klavaro.ui:2762
+#: data/klavaro.ui:2994 data/klavaro.ui:3451 data/klavaro.ui:4088
+msgid "_Close"
+msgstr "Tëj"
+
+#: data/klavaro.ui:1380
+msgid "Remove the selected custom layout."
+msgstr "Màbb tëralinu solal wi nu faloon"
+
+#: data/klavaro.ui:1409
+msgid "_Remove"
+msgstr "_Màbb"
+
+#: data/klavaro.ui:1523 data/klavaro.ui:1568
+msgid ""
+"Toggles the shift effect on the keys. Alternates between the upper and lower "
+"characters of the keys."
+msgstr "Jaabante diggante arafu mage yi ak yu ndaw yi ci butoŋ yi"
+
+#: data/klavaro.ui:1542
+msgid "SPACE BAR"
+msgstr "Bànqaasu teqale"
+
+#: data/klavaro.ui:1552 src/keyboard.c:1630
+msgid "thumbs"
+msgstr "Puus"
+
+#: data/klavaro.ui:1638
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: data/klavaro.ui:1653
+msgid "Caps"
+msgstr "Xomb. Rajj"
+
+#: data/klavaro.ui:1705
+msgid "S_ave as:"
+msgstr "aar ci"
+
+#: data/klavaro.ui:1744
+msgid "Show previous screen."
+msgstr "Wone seetukaay bi jiitu"
+
+#: data/klavaro.ui:1774
+msgid "_Previous step"
+msgstr "Tollu tollu bi jiitu"
+
+#: data/klavaro.ui:1803
+msgid "Show next screen."
+msgstr "Wone seetukaay bi ci topp"
+
+#: data/klavaro.ui:1833
+msgid "_Next step"
+msgstr "Bi ci topp"
+
+#: data/klavaro.ui:1870
+msgid "Return without any modification."
+msgstr "Dellusi te bañ a jefe benn coppite"
+
+#: data/klavaro.ui:1927
+msgid "Save the current keyboard layout with the name specified above."
+msgstr "Aar tabalu arafukaay bi ñu tollu ak tur wi ñu wone ci kow."
+
+#: data/klavaro.ui:1955
+msgid "_Save and use"
+msgstr "Aar te jëfandikoo"
+
+#: data/klavaro.ui:2038
+msgid ""
+"If you like those beautiful hands, click here to close this window keeping "
+"them."
+msgstr ""
+"Su ngéen soppee loxo yu jekk yii, cuq leen fii ngir tëj palanteer bi te "
+"dencaale leen."
+
+#: data/klavaro.ui:2068
+msgid "_Keep hands"
+msgstr "Denc loxo yi"
+
+#: data/klavaro.ui:2102
+msgid "Klavaro - Main menu"
+msgstr "Klavaro - Njël lu mag"
+
+#: data/klavaro.ui:2121
+msgid "Don't be shy about learning the basics!"
+msgstr "Bu leen am xel ñaar ci jàng cosaan yi"
+
+#: data/klavaro.ui:2169
+msgid "Learn how to type correctly"
+msgstr "Nan la ñuy tàppee mu aw yoon"
+
+#: data/klavaro.ui:2198
+msgid "Initial training for your fingers."
+msgstr "Tàggatum baaraam gi jëkk."
+
+#: data/klavaro.ui:2246
+msgid "First steps with initial training"
+msgstr "Jéego bi jëkk: tàggatum ndoorte"
+
+#: data/klavaro.ui:2275
+msgid "Memorizing the keyboard practicing random keys exercises."
+msgstr "Mokkal arafukaay gi wéeru ci ndimbalu butoŋ bu mu mën di doon."
+
+#: data/klavaro.ui:2323
+msgid "Practice with random keys"
+msgstr "Tàggat ak ay butoŋ yu mu mën di doon"
+
+#. English typo: touchs -> touches
+#: data/klavaro.ui:2352
+msgid "Accelerating the touches practicing random words exercises."
+msgstr ""
+"Gaawalug mbind mi ak ay jéemantu yu sukkandiku ci baat yu mu mën di nekk"
+
+#: data/klavaro.ui:2400
+msgid "Practice with random words"
+msgstr "Tàggat ak ay baat yu mu mën di doon"
+
+#: data/klavaro.ui:2429
+msgid "Becoming proficient practicing complete paragraphs exercises."
+msgstr " Nekksiléen ku xaran ak jéemantu yi sukkandiku ci xise yu mët sëkk,."
+
+#: data/klavaro.ui:2477
+msgid "Practice with complete texts"
+msgstr "Tàggat ak ay mbind yu mët sëkk"
+
+#: data/klavaro.ui:2520
+msgid ""
+"Keyboard layout for modules 1 and 2. Also used informatively in the "
+"fluidness contest."
+msgstr ""
+"Xamle arafukaay ci modil 1 ak 2. Ba tey itam moom lañuy jëfandikoo ci saaru "
+"rattaxal yi."
+
+#: data/klavaro.ui:2522
+msgid "_Keyboard:"
+msgstr "Arafukaay"
+
+#: data/klavaro.ui:2535
+msgid "Language for modules 3 and 4."
+msgstr "Lammiñ ngir sumb 3 ak 4"
+
+#: data/klavaro.ui:2537
+msgid "_Language:"
+msgstr "Làmmiñ"
+
+#: data/klavaro.ui:2546
+msgid "Speech"
+msgstr "Fitté"
+
+#: data/klavaro.ui:2620
+msgid "Little tip about this program."
+msgstr "Pexe su ndaw ngir porogaraam bii."
+
+#: data/klavaro.ui:2650
+msgid "_Help"
+msgstr "Ndimbal"
+
+#: data/klavaro.ui:2676
+msgid "General information about the program."
+msgstr "Xibaar yu ëmb lépp te aju ci xeltéef gii."
+
+#: data/klavaro.ui:2706
+msgid "_About..."
+msgstr "Ci mbiri..."
+
+#: data/klavaro.ui:2732 data/klavaro.ui:4064
+msgid "Exit the application immediately."
+msgstr "Génnal leegi ci jefekaay bii: Gàttal : [Ctrl-Q]"
+
+#: data/klavaro.ui:2798
+msgid "Klavaro - Progress"
+msgstr "Klavaro - Jéego yi"
+
+#: data/klavaro.ui:2847 data/klavaro.ui:3575
+msgid "_Lesson:"
+msgstr "Saar"
+
+#: data/klavaro.ui:2920
+msgid "Value"
+msgstr "Dayo"
+
+#: data/klavaro.ui:2964
+msgid "Close this window, returning to the exercise."
+msgstr "Tëj palanteer bii, dellusi ci jéemantu bi."
+
+#: data/klavaro.ui:3034
+msgid "Clear all the progress data, for every module."
+msgstr "Far xibaar yi aju ci fi nu tollu, ci modil yépp."
+
+#: data/klavaro.ui:3065
+msgid "_Reset"
+msgstr "_Suqaliwaat"
+
+#: data/klavaro.ui:3102
+msgid "Top 10"
+msgstr "Top 10"
+
+#: data/klavaro.ui:3223
+msgid "Show extra information"
+msgstr "Wone xibaar yi yokku"
+
+#: data/klavaro.ui:3245
+msgid "Hide extra information"
+msgstr "Nëbb xibaar yi yokku"
+
+#: data/klavaro.ui:3299
+msgid "Publish to the web your local scores."
+msgstr "Yéene say manoore ci internet"
+
+#: data/klavaro.ui:3328
+msgid "_Participate"
+msgstr "Bokk"
+
+#: data/klavaro.ui:3355
+msgid "Download from the web the most up to date ranking."
+msgstr "Yebléen ci internet ndenc yi gën a ànd ak jamono."
+
+#: data/klavaro.ui:3384
+msgid "_Update"
+msgstr "_Yeesal"
+
+#: data/klavaro.ui:3515
+msgid "Load other exercises/lessons"
+msgstr "Ubbi yeneeni jéemantu/saar/ Gàttal :  [Ctrl-O]"
+
+#: data/klavaro.ui:3540
+msgid "_Other texts"
+msgstr "Yeneeni mbind"
+
+#: data/klavaro.ui:3635
+msgid "Edit the character set to be used in this lesson."
+msgstr "Soppiléen njabootu araf yi ñu war a jëfandikoo ci saar wii."
+
+#: data/klavaro.ui:3651
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr ""
+"Lii jéemantu bu beru la, dañu koo méngaleek njuumte yi ngay faral di def."
+
+#: data/klavaro.ui:3678
+msgid "Edit the character set to be used in lessons 44 through 50."
+msgstr "Soppiléen njabootu araf yi ñu war a jëfandikoo ci saar 44 ba 50."
+
+#: data/klavaro.ui:3750 src/tutor.c:252
+msgid "Drag and drop text here to practice with it."
+msgstr "Diriléen te teg mbind wi fii ngir tàggat sa bopp ci tàppe."
+
+#: data/klavaro.ui:3779
+msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+msgstr "Bësal fii ngir tàmbaliwaat jéemantu bi. Gàttal :  [Ctrl R]"
+
+#: data/klavaro.ui:3808
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr "Wonem arafukaay bi ñu nataal ak ni baaraam yeek butoŋ yi ànde"
+
+#: data/klavaro.ui:3834
+msgid "_Keyboard"
+msgstr "Arafukaay"
+
+#: data/klavaro.ui:3858
+msgid "Select the font to be used in the exercise window."
+msgstr ""
+" Fal-léen njabootu araf yi ngéen di jëfandikoo ci palanteeru jéemantu yii"
+
+#: data/klavaro.ui:3883
+msgid "_Font"
+msgstr "Araf"
+
+#: data/klavaro.ui:3907
+msgid "Keep this checked if you want to get those nice beeps."
+msgstr "Danu koo war a bàyyi cig pal su ngeen bëgge dégg dégtu yu neex yii."
+
+#: data/klavaro.ui:3934
+msgid "_Beep"
+msgstr "Bip "
+
+#: data/klavaro.ui:3992
+msgid "Co_urse information"
+msgstr "Xibaar ci saar wi"
+
+#: data/klavaro.ui:4016
+msgid "Charts showing the learning progress along the exercises."
+msgstr "Nataal wuy wone ni nuy jëme kanam ci saa su nuy  jéemantu."
+
+#: data/klavaro.ui:4039
+msgid "_Progress"
+msgstr "_Jéego yi"
+
+#: data/klavaro.ui:4113
+msgid "Return to the main menu."
+msgstr "Dellusi ci jël lu mag li"
+
+#: data/klavaro.ui:4162
+msgid "Show local and external scores from other users."
+msgstr "Wone manoore biir ak biti yu yeneeni jëfandikookat."
+
+#: data/klavaro.ui:4185
+msgid "_Top 10"
+msgstr "_Top 10"
+
+#: src/main.c:243
 msgid "(Custom)"
 msgstr "(solal)"
 
-#: ../src/main.c:244
+#: src/main.c:244
 msgid "(Edit custom)"
 msgstr "(Jagal jëmmalin yu ñu solal)"
 
-#: ../src/main.c:245
+#: src/main.c:245
 msgid "(Default)"
 msgstr "(Ñakk ndigal)"
 
-#: ../src/main.c:322
+#: src/main.c:322
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] "Anamu fitté (aju ci dëxëñukaayu wax : %s)"
 msgstr[1] "Anamu fitté (aju ci dëxëñukaayu wax ji : %s)"
 
-#. Set main labels (for translation)
-#.
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: src/main.c:364 src/keyboard.c:1291
 msgid "Introduction"
 msgstr "Ubbite"
 
-#: ../src/main.c:367 ../src/top10.c:109
+#: src/main.c:367 src/top10.c:109
 msgid "Basic course"
 msgstr "Saari cosaan"
 
-#: ../src/main.c:370 ../src/top10.c:112
+#: src/main.c:370 src/top10.c:112
 msgid "Adaptability"
 msgstr "Mën a ànd"
 
-#: ../src/main.c:373 ../src/callbacks.c:1310 ../src/top10.c:89
-#: ../src/top10.c:115
+#: src/main.c:373 src/callbacks.c:1310 src/top10.c:89 src/top10.c:115
 msgid "Speed"
 msgstr "Gaawaay"
 
-#: ../src/main.c:376 ../src/callbacks.c:1333 ../src/top10.c:91
-#: ../src/top10.c:118
+#: src/main.c:376 src/callbacks.c:1333 src/top10.c:91 src/top10.c:118
 msgid "Fluidity"
 msgstr "Rataxaay"
 
-#: ../src/callbacks.c:468 ../src/tutor.c:391
+#: src/callbacks.c:468 src/tutor.c:391
 msgid "Keys:"
 msgstr "Butoŋ yi:"
 
-#: ../src/callbacks.c:858 ../src/callbacks.c:874
+#: src/callbacks.c:858 src/callbacks.c:874
 msgid "Connecting..."
 msgstr "Jokkoo baa ngi ci yoon..."
 
-#: ../src/callbacks.c:1145
+#: src/callbacks.c:1145
 msgid "Overwrite user layout"
 msgstr "Nappaaje benn taabalu arafukaay gu ñu solal"
 
-#: ../src/callbacks.c:1147
+#: src/callbacks.c:1147
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Lii dafay nappaaje benn taabalu arafukaay bu jotoon a am ba noppi"
 
-#: ../src/callbacks.c:1154
+#: src/callbacks.c:1154
 msgid "Remove user layout"
 msgstr "Màbb ab taabalu arafukaay gu ñu solal"
 
-#: ../src/callbacks.c:1156
+#: src/callbacks.c:1156
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Lii nii dafay màbb ab taabalu arafukaay bu jotoon a am"
 
-#: ../src/callbacks.c:1163
+#: src/callbacks.c:1163
 msgid "Reset progress data"
 msgstr "far rootaani yokkute"
 
-#: ../src/callbacks.c:1164
+#: src/callbacks.c:1164
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "Lii nii dafay far rootaani yokkute yépp yi ñu wone ci xise yi."
 
-#: ../src/callbacks.c:1307 ../src/top10.c:87
+#: src/callbacks.c:1307 src/top10.c:87
 msgid "Accuracy"
 msgstr "Jubaay"
 
-#: ../src/callbacks.c:1310 ../src/tutor.c:1160
+#: src/callbacks.c:1310 src/tutor.c:1160
 msgid "(WPM)"
 msgstr "MPM"
 
-#: ../src/callbacks.c:1321
+#: src/callbacks.c:1321
 msgid "Errors"
 msgstr "Njuumte yi"
 
-#: ../src/callbacks.c:1324
+#: src/callbacks.c:1324
 msgid "Touch times (s)"
 msgstr ""
 
-#: ../src/callbacks.c:1336 ../src/tutor.c:1187 ../src/top10.c:69
+#: src/callbacks.c:1336 src/tutor.c:1187 src/top10.c:69
 msgid "Score"
 msgstr "Manoore"
 
-#. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1597
+#: src/translation.c:485 src/tutor.c:1597
 msgid "en"
 msgstr "wo"
 
-#: ../src/translation.c:572
+#: src/translation.c:572
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -137,7 +550,7 @@ msgstr ""
 "palanteer bi, te bës butoŋ yi ñu méngool. Fàttalikuléen taxawaayi baaraam yi "
 "ci arafukaay gi ( yëral ubbite gi ci jël lu mag li)."
 
-#: ../src/translation.c:576
+#: src/translation.c:576
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -147,7 +560,7 @@ msgstr ""
 "buton (Espace), (Shift) ak (Enter) defuñu leen ci ndaxte dañu leen di "
 "jëfandikoo saa su nekk."
 
-#: ../src/translation.c:579
+#: src/translation.c:579
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -155,7 +568,7 @@ msgstr ""
 "Sàppe bi ci topp day wone xeetu araf yi méngook butoŋ yi ngeen di bës. Su ko "
 "soxlaa, mbind mi dafay soppeeku su ko defee mu wone ndigal yu bees."
 
-#: ../src/translation.c:583
+#: src/translation.c:583
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -165,7 +578,7 @@ msgstr ""
 "sukkandiku ci ay baat yu amul tekki, dañu jaxase ay araf, ay lim aki "
 "jëmm(symbol)"
 
-#: ../src/translation.c:586
+#: src/translation.c:586
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -174,7 +587,7 @@ msgstr ""
 " Ngir sukkandi ci kàddu ëmb baat dëgg ba tàggatu, demléen ca ñeenteelu "
 "tànneef gi ci jël lu mag li ( ci wàllu rattaxal)"
 
-#: ../src/translation.c:590
+#: src/translation.c:590
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -182,7 +595,7 @@ msgstr ""
 "Di ngéen gis ci njeextel jéemantu bu nekk seeni manoore, ak ay benn benni "
 "gis gis ngir jëmale léen kanam."
 
-#: ../src/translation.c:594
+#: src/translation.c:594
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -190,7 +603,7 @@ msgstr ""
 "Bii jéemantu dafay nirook ñaareel biy wax lu jëm mën a soppiku. Wuutu gi : "
 "fii da ngéen fiy tàppe ay baat dëggantaan ci seenug làmmiñ "
 
-#: ../src/translation.c:597
+#: src/translation.c:597
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -200,7 +613,7 @@ msgstr ""
 "a tànn yeneen mbind ak ay baat yu ngeen bëgg a jëfandikoo. Cuq leen ci "
 "tànneef \"Yeneen\" (ci kow) te yokk ci dencukaay yi ëmb waxtaan yi."
 
-#: ../src/translation.c:601
+#: src/translation.c:601
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -208,7 +621,7 @@ msgstr ""
 "Li ñu gën a soxal ci jéemantu jii mooy gaawaay. Koon, dangeen war a tàppe nu "
 "mu gën a gaawe! Jommal leen ma!"
 
-#: ../src/translation.c:605
+#: src/translation.c:605
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -220,7 +633,7 @@ msgstr ""
 "def ngéen jéemantu yi jiitu ni mu ware, waru léen a am jafe-jafe, ndaxte war "
 "ngéen a bind te du ngeen am benn gis-gis cimbind mi wi."
 
-#: ../src/translation.c:609
+#: src/translation.c:609
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -235,8 +648,7 @@ msgstr ""
 "dootul nekk coono: kon léegi, mën ngéen a def seen xelaat yépp ci maanaa "
 "mbind wi."
 
-#. English typo: minimun -> minimum
-#: ../src/translation.c:614
+#: src/translation.c:614
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -248,8 +660,7 @@ msgstr ""
 "wara jëfandikoo caabi far ngir defar yenn njumte yi. Mën nañu wax ni mbind "
 "yi ñu tappe te amul njumte rekk lañuy nangu."
 
-#. English typo: recomendations -> recommendations
-#: ../src/keyboard.c:1094
+#: src/keyboard.c:1094
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -259,7 +670,7 @@ msgstr ""
 "tegu. Su fekkee ne topp ngeen tegtal yii ni mu ware, seen njàng dafay gën a "
 "gaaw."
 
-#: ../src/keyboard.c:1097
+#: src/keyboard.c:1097
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -267,7 +678,7 @@ msgstr ""
 "Gindikaay yiy wone fi baaraamu joxañ bi di tege ci arafukaay bi mooy ñaari "
 "buton yu dëll yu nekk ci diggi arafukaay bi. "
 
-#: ../src/keyboard.c:1100
+#: src/keyboard.c:1100
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -277,7 +688,7 @@ msgstr ""
 "palaas. Niki noonu, ak tuuti jaar-jaar, dootul soxla ngeen di xool arafukaay "
 "bi ngir xam ndax baaraam yi tegu nañu fi ñu war a nekk."
 
-#: ../src/keyboard.c:1104
+#: src/keyboard.c:1104
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -286,11 +697,11 @@ msgstr ""
 "butoŋ yi bokk sàppe. Bu fekkee ne arafukaay \"azerty\"/ \"qsdf\" fare ci  "
 "loxo càmmooñ bi ak \"jklm ci loxo ndeyjoor."
 
-#: ../src/keyboard.c:1107
+#: src/keyboard.c:1107
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr " Catu baaraamu dëy yi dañuy tegu ci banqaasu teqale bi."
 
-#: ../src/keyboard.c:1109
+#: src/keyboard.c:1109
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -299,7 +710,7 @@ msgstr ""
 "Tiwu njara yi tegu ci taabal ji, fu bokkul ci arafukaay bi. Su dul loolu, "
 "loxo yi dañuy gaaw a toqi."
 
-#: ../src/keyboard.c:1112
+#: src/keyboard.c:1112
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -313,7 +724,7 @@ msgstr ""
 "benn baaraam . Jokkoo yooyu lañu leen di jàngal ndànk-ndànd ci saaru cosaan "
 "wi."
 
-#: ../src/keyboard.c:1118
+#: src/keyboard.c:1118
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -323,7 +734,7 @@ msgstr ""
 "baaraam bi war. Te yeneen baaraam yi des ci seen taxawaay wa ñu amoon ca "
 "ndoorte la."
 
-#: ../src/keyboard.c:1122
+#: src/keyboard.c:1122
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -331,7 +742,7 @@ msgstr ""
 "Bu ngeen demee ba jàpp lëkkaloo yii, mën ngeen a topp tegtal yi jiitu ci "
 "anam yu gën a woyof, su ko defee ngeen mën a yokk seen gaawaay."
 
-#: ../src/keyboard.c:1125
+#: src/keyboard.c:1125
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -341,125 +752,115 @@ msgstr ""
 "di fàttaliku bés bu nekk : njàngum daktilo dafa laaj muñ, bañ a yàkkamti ! "
 "Wóolu nañu leen, bu ngeen ñu rusloo."
 
-#: ../src/keyboard.c:1136
+#: src/keyboard.c:1136
 #, c-format
 msgid "Step %i"
 msgstr "Tollu tollu %i"
 
-#. Recommendations
-#: ../src/keyboard.c:1140
+#: src/keyboard.c:1140
 msgid "To position the hands"
 msgstr "Tegléen seeni loxo fi war"
 
-#. Final words
-#: ../src/keyboard.c:1225
+#: src/keyboard.c:1225
 msgid "Go ahead!"
 msgstr "Dem na de! Ayca!"
 
-#: ../src/keyboard.c:1234
+#: src/keyboard.c:1234
 msgid "Relation between fingers and keys"
 msgstr "Lëkkaloo  baaraam yeek butoŋu arafukaay bi "
 
-#: ../src/keyboard.c:1235
+#: src/keyboard.c:1235
 msgid "Click on any key to see which finger you must use:"
 msgstr "Bësal ci benn butoŋ ngir gis ban baaraam ngeen war a jëfandikoo"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: src/keyboard.c:1291 src/keyboard.c:1325
 msgid "Keyboard"
 msgstr "Arafukaay "
 
-#: ../src/keyboard.c:1372
+#: src/keyboard.c:1372
 msgid "Create or modify a custom keyboard layout"
 msgstr "Joxléen tur tëraliinu bu bees bu arafukaay bi. "
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: src/keyboard.c:1618 src/keyboard.c:1642
 msgid "small finger"
 msgstr "baaraamu sanqaleeñ"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: src/keyboard.c:1621 src/keyboard.c:1639
 msgid "ring finger"
 msgstr "Baaraamu jaaro"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: src/keyboard.c:1624 src/keyboard.c:1636
 msgid "middle finger"
 msgstr "Baaraam bu mag bi"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: src/keyboard.c:1627 src/keyboard.c:1633
 msgid "index finger"
 msgstr "Baaraam joxoñ"
 
-#: ../src/keyboard.c:1630
-msgid "thumbs"
-msgstr "Puus"
-
-#: ../src/keyboard.c:1728
+#: src/keyboard.c:1728
 msgid "Press and edit me"
 msgstr "Bësléen ma ngir jagal ma"
 
-#: ../src/tutor.c:176
+#: src/tutor.c:176
 msgid "Lesson:"
 msgstr "Saar"
 
-#: ../src/tutor.c:186
+#: src/tutor.c:186
 msgid "Paragraphs:"
 msgstr "Xise"
 
-#: ../src/tutor.c:219
+#: src/tutor.c:219
 msgid "Klavaro - Basic Course"
 msgstr "Klavaro - Saaru ndorte"
 
-#: ../src/tutor.c:224
+#: src/tutor.c:224
 msgid "Klavaro - Adaptability"
 msgstr "klavaro - Dëppale"
 
-#: ../src/tutor.c:227
+#: src/tutor.c:227
 msgid ""
 "Adaptability exercises: automating the fingers responses, typing over all "
 "the keyboard."
 msgstr ""
 "Jéemantu dëppaloo: baaraam yiy dem na mu ware, jëfandikoo arafukaay bi yépp."
 
-#: ../src/tutor.c:232
+#: src/tutor.c:232
 msgid "Klavaro - Velocity"
 msgstr "Klavaro - Gaawaay"
 
-#: ../src/tutor.c:233
+#: src/tutor.c:233
 msgid "Velocity exercises: accelerate typing real words."
 msgstr "Jéemantu gu ñeel gaawaay ; gaawal ci kow mbindum baat dëggantaan"
 
-#: ../src/tutor.c:237
+#: src/tutor.c:237
 msgid "Klavaro - Fluidness"
 msgstr "Klavaro - Rataxaay"
 
-#: ../src/tutor.c:239
+#: src/tutor.c:239
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr "Jéemantu rattaxaay :  Tappe bu jub ak mbindum xise bu am maanaa."
 
-#: ../src/tutor.c:252
-msgid "Drag and drop text here to practice with it."
-msgstr "Diriléen te teg mbind wi fii ngir tàggat sa bopp ci tàppe."
-
-#: ../src/tutor.c:301
+#: src/tutor.c:301
 msgid "End of exercise. Press [Enter] to start another."
 msgstr "Njeextel jéemantu. Bësal ci [Entrée-Duggal]  ngir tàmbali beneen."
 
-#: ../src/tutor.c:329
+#: src/tutor.c:329
 msgid "Learning the key positions."
 msgstr "Njàngum féetéwaayu (palaasu) butoŋ yi"
 
-#: ../src/tutor.c:332
+#: src/tutor.c:332
 msgid "Press any key to start the exercise. "
 msgstr "Bësal ci benn butoŋ ngir tàmbali jéemantu bi."
 
-#: ../src/tutor.c:440 ../src/tutor.c:443
+#: src/tutor.c:440 src/tutor.c:443
 msgid "Start typing when you are ready. "
 msgstr "Tàmbalil tàppe su fekkee ne pare nga (njekk nga)."
 
-#: ../src/tutor.c:441
+#: src/tutor.c:441
 msgid "Use backspace to correct errors."
 msgstr ""
 
-#: ../src/tutor.c:885
+#: src/tutor.c:885
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
@@ -468,11 +869,11 @@ msgstr ""
 "PS: amul benni xibaarukaay bu ñeel njàng mii : limu araf yi u tàppe (%i) "
 "dafa war a gën a bari %i. "
 
-#: ../src/tutor.c:1027
+#: src/tutor.c:1027
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "PS: dugg nga ci lim\"Top10), waaw góor!"
 
-#: ../src/tutor.c:1039
+#: src/tutor.c:1039
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
@@ -481,103 +882,95 @@ msgstr ""
 "PS: Mbind mi nga dugal dafa mel ni bokkul ak mbind yu niróo yi ci làkk wi ñu "
 "fal : mëneesul koo boole ci raw gaddu\"Top 10\""
 
-#. Begin the accuracy
-#: ../src/tutor.c:1087
+#: src/tutor.c:1087
 msgid "STATISTICS"
 msgstr "LIM YI"
 
-#: ../src/tutor.c:1088
+#: src/tutor.c:1088
 msgid "Elapsed time:"
 msgstr "Diir bi jàll"
 
-#: ../src/tutor.c:1089
+#: src/tutor.c:1089
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "simili ak"
 msgstr[1] "Simili ak"
 
-#: ../src/tutor.c:1090
+#: src/tutor.c:1090
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "saa"
 msgstr[1] "Saa"
 
-#: ../src/tutor.c:1091
+#: src/tutor.c:1091
 msgid "Error ratio:"
 msgstr "Ni njuumte yi tollu: "
 
-#: ../src/tutor.c:1091
+#: src/tutor.c:1091
 msgid "Accuracy:"
 msgstr "Jubaay:"
 
-#: ../src/tutor.c:1112 ../src/tutor.c:1137 ../src/tutor.c:1160
-#: ../src/tutor.c:1186
+#: src/tutor.c:1112 src/tutor.c:1137 src/tutor.c:1160 src/tutor.c:1186
 msgid "Goal:"
 msgstr "Jëmu:"
 
-#: ../src/tutor.c:1119
+#: src/tutor.c:1119
 msgid "Characters per second:"
 msgstr "Araf ci sa"
 
-#: ../src/tutor.c:1137
+#: src/tutor.c:1137
 msgid "(CPS)"
 msgstr "(CPS)"
 
-#: ../src/tutor.c:1142
+#: src/tutor.c:1142
 msgid "Words per minute:"
 msgstr "Baat ci simili"
 
-#: ../src/tutor.c:1167
+#: src/tutor.c:1167
 msgid "Fluidness:"
 msgstr "Rattaxaay"
 
-#: ../src/tutor.c:1194
+#: src/tutor.c:1194
 msgid "Comments:"
 msgstr "Gis-gis"
 
-#: ../src/tutor.c:1676
+#: src/tutor.c:1676
 msgid "space"
 msgstr "diggante"
 
-#. Translators: the name of letter Y
-#: ../src/tutor.c:1681
+#: src/tutor.c:1681
 msgid "wye"
 msgstr "Biddiw"
 
-#. Translators: the name of the Return key
-#: ../src/tutor.c:1685
+#: src/tutor.c:1685
 msgid "enter"
 msgstr "dugal"
 
-#: ../src/tutor.c:1691
+#: src/tutor.c:1691
 msgid "apostrophe"
 msgstr "cofu"
 
-#. Translators: double quote symbol: "
-#: ../src/tutor.c:1695
+#: src/tutor.c:1695
 msgid "quote"
 msgstr "këmbu cofu"
 
-#. Translators: ampersand symbol: &
-#: ../src/tutor.c:1699
+#: src/tutor.c:1699
 msgid "ampersand"
 msgstr "'ak' móoluwaay"
 
-#. Error frequencies or touch times
-#.
-#: ../src/plot.c:308
+#: src/plot.c:308
 msgid "Character"
 msgstr ""
 
-#: ../src/plot.c:319
+#: src/plot.c:319
 msgid "Date & Time"
 msgstr "Bés ak waxtu"
 
-#: ../src/basic.c:331
+#: src/basic.c:331
 msgid "Positions of keys seems to be learned!"
 msgstr "Palaasu butoŋ yi mel na ni mokk na!"
 
-#: ../src/basic.c:332
+#: src/basic.c:332
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -589,7 +982,7 @@ msgstr ""
 " Demléen ci xeeti jéemantu yii: dëppale, \n"
 " Da ngéen di gën a def ay jéemantu yu ñeel jubaay, \n"
 
-#: ../src/basic.c:338
+#: src/basic.c:338
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
@@ -597,7 +990,7 @@ msgstr ""
 "Baax na, sottal ngéen ko!\n"
 " Jàll-léen ci saar wi ci topp. \n"
 
-#: ../src/adaptability.c:221
+#: src/adaptability.c:221
 msgid ""
 " Your accuracy rate is below 90%...\n"
 " Could you please try again to improve it?\n"
@@ -605,7 +998,7 @@ msgstr ""
 "Seen tolluwaay ci mbind mu jub ëppul 90%...\n"
 "Ndax mën ngéen a dooraat ngir yokk ko?\n"
 
-#: ../src/adaptability.c:226
+#: src/adaptability.c:226
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach 95%?\n"
@@ -613,7 +1006,7 @@ msgstr ""
 "Ni ngéen di defe baax na. Waaye...\n"
 " jéemléen a yegg ci mbindin mu jub gën gaa néew 95%. \n"
 
-#: ../src/adaptability.c:229
+#: src/adaptability.c:229
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -624,7 +1017,7 @@ msgstr ""
 "yées %.0f%%\n"
 "Jéemaatléen\n"
 
-#: ../src/adaptability.c:236
+#: src/adaptability.c:236
 #, c-format
 msgid ""
 " Very good!\n"
@@ -637,11 +1030,11 @@ msgstr ""
 " Léegi, dafa jot ngéen yokk seen gaawaay.\n"
 " Demléen ci ñetteelu jéemantu bi te tàmbalee ca jël lu mag la.\n"
 
-#: ../src/velocity.c:312 ../src/fluidness.c:435
+#: src/velocity.c:312 src/fluidness.c:435
 msgid "Pasted_or_dropped"
 msgstr "taf mbaa teg"
 
-#: ../src/velocity.c:431
+#: src/velocity.c:431
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
@@ -651,7 +1044,7 @@ msgstr ""
 "Bu léen yàkkamti, jéemaatléen bés bu nekk, buléen faale:\n"
 "Yàgg ceeg sax ci dina tax ngeen gën a yokk seen gaawaay. \n"
 
-#: ../src/velocity.c:435
+#: src/velocity.c:435
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try at least 20 WPM.\n"
@@ -659,7 +1052,7 @@ msgstr ""
 "Ba tey sori ngéen xàll wu mag wi. War ngéen a mën lu gën a baax lii.../"
 "nJéemleena jot lu gën ga neew 20 MPM.\n"
 
-#: ../src/velocity.c:438
+#: src/velocity.c:438
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get 30 WPM.\n"
@@ -667,7 +1060,7 @@ msgstr ""
 "Yéen a ngi koy doxal bu baax, waaye na gën a gaaw. \n"
 "Te buléen fàtte jubaay bi. jéemléen a yegg ba 30 baat ci simili bu nekk,\n"
 
-#: ../src/velocity.c:442
+#: src/velocity.c:442
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach 40 WPM?\n"
@@ -675,7 +1068,7 @@ msgstr ""
 "Baax na. Léegi, mën ngéen a jéem a daw.\n"
 "Ndax di ngéen mën a dem ba 40 baat ci similili?\n"
 
-#: ../src/velocity.c:445
+#: src/velocity.c:445
 #, c-format
 msgid ""
 " Very good. You are almost there.\n"
@@ -684,7 +1077,7 @@ msgstr ""
 "Baax na lool. Jàpp ngéen ko daanaka.\n"
 "Léegi, mën ngéen a yegg ci..%.0f...simili?\n"
 
-#: ../src/velocity.c:450
+#: src/velocity.c:450
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
@@ -692,7 +1085,7 @@ msgstr ""
 " Dox na. Doy na nii ci saar wii.\n"
 " Jéemantu ngéen léegi ci rattaxaay gi, baax na?\n"
 
-#: ../src/velocity.c:454
+#: src/velocity.c:454
 msgid ""
 " Fast! Are you training for a competition?\n"
 " So, try to get 70 WPM!\n"
@@ -700,7 +1093,7 @@ msgstr ""
 "Gaaw na lool. Ndax di gnéen tàggatu ngir jongante.Su fekkee loolu la "
 "jéemleen agg 70 MPM !\n"
 
-#: ../src/velocity.c:457
+#: src/velocity.c:457
 msgid ""
 " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 " Are you afraid of reaching 80 WPM?\n"
@@ -708,7 +1101,7 @@ msgstr ""
 "Fi manoore mën a yem ci \"qwerty\". Jot na ñu jàmm ci nekkinu \"Dvorak. /"
 "nNdax dangéen ragal a yegg ci 80 baat ci simili bu nekk?\n"
 
-#: ../src/velocity.c:461
+#: src/velocity.c:461
 msgid ""
 " Dvorak mode dominated!\n"
 " Can you fly at 90 WPM?\n"
@@ -716,7 +1109,7 @@ msgstr ""
 "Noot ngéen nekkinu Dvorak!\n"
 "Ndax mën ngéen a naaw ba 90 baat ci simili bu nekk?\n"
 
-#: ../src/velocity.c:465
+#: src/velocity.c:465
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
@@ -724,7 +1117,7 @@ msgstr ""
 "Ub nga làmbu Dvorak! \n"
 "Xamu ma naka laay waxe sama cofeel! \n"
 
-#: ../src/fluidness.c:545
+#: src/fluidness.c:545
 #, c-format
 msgid ""
 " You type accurately but not so fast.\n"
@@ -733,7 +1126,7 @@ msgstr ""
 "Sa tàppe jub na waaye gaawul.\n"
 "Ndax mën ngéen a yegg ci..%.0f...simili?\n"
 
-#: ../src/fluidness.c:548
+#: src/fluidness.c:548
 #, c-format
 msgid ""
 " Your rhythm is not so constant. Calm down.\n"
@@ -742,7 +1135,7 @@ msgstr ""
 "Seen doxin dees na. Dalal.\n"
 " Léegi, jéemléen a yegg ci wàllu rattaxaay ci lu weesu ..%i%%.\n"
 
-#: ../src/fluidness.c:551
+#: src/fluidness.c:551
 #, c-format
 msgid ""
 " You are almost getting there. Type more fluently.\n"
@@ -751,7 +1144,7 @@ msgstr ""
 "Daanaka yeggsi nga ci. Ni ngéen di tàppee na gën a yomb./Damaa bëggoon a am "
 "rattaxaay bu toll ci ..%.0f%% mbaa lu ko ëpp/ \n"
 
-#: ../src/fluidness.c:554
+#: src/fluidness.c:554
 msgid ""
 " Congratulations!\n"
 " It seems to me that you are a professional.\n"
@@ -762,7 +1155,7 @@ msgstr ""
 "Dangaa mel ni li sa liggéey la!Soxlaatu léen porogaraam bii!/nYaakaar naa ne "
 "neex na la! Jërëjëf jàmm ak xéewal!\n"
 
-#: ../src/fluidness.c:559
+#: src/fluidness.c:559
 msgid ""
 " How can you type so fast?\n"
 " You have exceeded all my expectations.\n"
@@ -774,371 +1167,53 @@ msgstr ""
 "Ndax masin ngéen? Ndax di gneen ma mën a jàngal.\n"
 "Mënatuma léen a jàppale. Seetiléen ku xereñ: \n"
 
-#: ../src/top10.c:67
+#: src/top10.c:67
 msgid "Name"
 msgstr "Tur"
 
-#: ../src/top10.c:93
+#: src/top10.c:93
 msgid "Chars"
 msgstr "Araf yi"
 
-#: ../src/top10.c:95
+#: src/top10.c:95
 msgid "When"
 msgstr "Kañ"
 
-#: ../src/top10.c:124
+#: src/top10.c:124
 msgid "Local scores"
 msgstr "Manoore biir"
 
-#: ../src/top10.c:125
+#: src/top10.c:125
 msgid "External scores"
 msgstr "Manoorey biti"
 
-#: ../src/top10.c:719
+#: src/top10.c:719
 msgid "Empty ranking. Please practice fluidness."
 msgstr "Toftal gu deful dara. Taggat leen seen bopp ci rataxaay."
 
-#: ../src/top10.c:816
+#: src/top10.c:816
 msgid "Not able to download files"
 msgstr "Mëneesul a yeb  dencukaay yi"
 
-#: ../src/top10.c:816 ../src/top10.c:906
+#: src/top10.c:816 src/top10.c:906
 msgid "not found"
 msgstr "Kenn xamul fu mu nekk"
 
-#: ../src/top10.c:817 ../src/top10.c:907
+#: src/top10.c:817 src/top10.c:907
 msgid "Are you sure you have it installed in your system?"
 msgstr "Ndax wóor na la ne sampu na ci sa doxalin?"
 
-#: ../src/top10.c:861
+#: src/top10.c:861
 msgid "Could not download file from the host server."
 msgstr "Mëneesul a yeb dencukaay bii ca masinu (serwëëru) njaatigé ba."
 
-#: ../src/top10.c:906
+#: src/top10.c:906
 msgid "Not able to upload files"
 msgstr "Mëneesul a yónnee dencukaay yi."
 
-#: ../src/top10.c:987
+#: src/top10.c:987
 msgid "Could not upload/download scores."
 msgstr "Mënuñu yónnee/yeb ay manoore."
-
-#~ msgid "About 'Klavaro'"
-#~ msgstr "Ci mbiri \"Klavaro\""
-
-#~ msgid "Remember always: someone loves you!"
-#~ msgstr "Fàttaliku-léen bés bu nekk ne am na ku leen bëgg!"
-
-#~ msgid "Change language"
-#~ msgstr "Soppi lammiñ"
-
-#~ msgid "Attention!"
-#~ msgstr "Moytul!"
-
-#~ msgid "Do you confirm?"
-#~ msgstr "Ndax woor na la?"
-
-#~ msgid "_No"
-#~ msgstr "Déedéed"
-
-#~ msgid "_Yes"
-#~ msgstr "Waaw"
-
-#~ msgid "Help?"
-#~ msgstr "Ndimbal?"
-
-#~ msgid "This is a tip. Now you press this button to return to the main menu."
-#~ msgstr ""
-#~ "Lii ab xelal la. Bës leen ci butoŋ bi ngir dellusi ci njël lu mag li. "
-
-#~ msgid "B_ack to menu"
-#~ msgstr "Dellusi ci njël li"
-
-#~ msgid ""
-#~ "The main menu of the application is very straightforward. Just select the "
-#~ "type of exercise you wish to take. Do not worry about clicking any button "
-#~ "on the screen. The buttons will never hurt you!"
-#~ msgstr ""
-#~ "Jël lu mag li ñeel xeltéef bi lu yomb la. Fal leen rekk xeetu jéemantu bi "
-#~ "ngeen fas yéenée def. Buléen ragal a cuq butoŋ yi, duñu leen ngaañ"
-
-#~ msgid ""
-#~ "Also the controls have tips which will appear if you hover over them with "
-#~ "your mouse. These tips can come in very handy. To see how these tips "
-#~ "work, position your mouse over the button below, and without clicking, "
-#~ "wait for the tip to appear..."
-#~ msgstr ""
-#~ "Te itam, butoŋ bu nekk dafa am waxtaanu ndimbal mu koy mottali. Ngir wone "
-#~ "ko, tegal jinax ji ci kow butoŋ bi bañ a cuq te xaar tuuti..."
-
-#~ msgid "Klavaro - Select file"
-#~ msgstr "Klavaro - Tànnum dencukaay"
-
-#~ msgid "_Cancel"
-#~ msgstr "Neenal"
-
-#~ msgid "_Open"
-#~ msgstr "Ubbi"
-
-#~ msgid "Font definition"
-#~ msgstr "Tànnum njabootu  araf"
-
-#~ msgid "Re_name:"
-#~ msgstr "Sàkkalaat tur:"
-
-#~ msgid "Rename the selected item."
-#~ msgstr "Sàkkalaat tur mbir mi  faluwoon"
-
-#~ msgid ""
-#~ "Read a text file and add a copy of it here. The file must be encoded in "
-#~ "UTF-8."
-#~ msgstr ""
-#~ "Njàng ab dencukaayu mbind te roof fii ab duppit. Dencukaay bi dafa war a "
-#~ "nekk lu nu fas ci UTF-8"
-
-#~ msgid "_Open text file"
-#~ msgstr "Ubbi dencukaayu mbind yi"
-
-#~ msgid "Paste text that was copied to the clipboard."
-#~ msgstr "Taf mbind wi ñu duppiwoon ci dencandikaay bi."
-
-#~ msgid "_Paste from clipboard"
-#~ msgstr "Taf bu dale ca dencandikaay ba"
-
-#~ msgid "Remove the selected item."
-#~ msgstr "Màbb mbir mi falu."
-
-#~ msgid "_Remove copied file"
-#~ msgstr "_Màbb duppi dencukaay bi"
-
-#~ msgid "Apply the selected item to create an exercise."
-#~ msgstr "Jëfe mbir mi falu ngir sos ab jéemantu"
-
-#~ msgid "_Apply"
-#~ msgstr "Jëfe"
-
-#~ msgid "Close this window."
-#~ msgstr "Tëj palanteer bii."
-
-#~ msgid "_Close"
-#~ msgstr "Tëj"
-
-#~ msgid "Remove the selected custom layout."
-#~ msgstr "Màbb tëralinu solal wi nu faloon"
-
-#~ msgid "_Remove"
-#~ msgstr "_Màbb"
-
-#~ msgid ""
-#~ "Toggles the shift effect on the keys. Alternates between the upper and "
-#~ "lower characters of the keys."
-#~ msgstr "Jaabante diggante arafu mage yi ak yu ndaw yi ci butoŋ yi"
-
-#~ msgid "SPACE BAR"
-#~ msgstr "Bànqaasu teqale"
-
-#~ msgid "Ctrl"
-#~ msgstr "Ctrl"
-
-#~ msgid "Caps"
-#~ msgstr "Xomb. Rajj"
-
-#~ msgid "S_ave as:"
-#~ msgstr "aar ci"
-
-#~ msgid "Show previous screen."
-#~ msgstr "Wone seetukaay bi jiitu"
-
-#~ msgid "_Previous step"
-#~ msgstr "Tollu tollu bi jiitu"
-
-#~ msgid "Show next screen."
-#~ msgstr "Wone seetukaay bi ci topp"
-
-#~ msgid "_Next step"
-#~ msgstr "Bi ci topp"
-
-#~ msgid "Return without any modification."
-#~ msgstr "Dellusi te bañ a jefe benn coppite"
-
-#~ msgid "Save the current keyboard layout with the name specified above."
-#~ msgstr "Aar tabalu arafukaay bi ñu tollu ak tur wi ñu wone ci kow."
-
-#~ msgid "_Save and use"
-#~ msgstr "Aar te jëfandikoo"
-
-#~ msgid ""
-#~ "If you like those beautiful hands, click here to close this window "
-#~ "keeping them."
-#~ msgstr ""
-#~ "Su ngéen soppee loxo yu jekk yii, cuq leen fii ngir tëj palanteer bi te "
-#~ "dencaale leen."
-
-#~ msgid "_Keep hands"
-#~ msgstr "Denc loxo yi"
-
-#~ msgid "Klavaro - Main menu"
-#~ msgstr "Klavaro - Njël lu mag"
-
-#~ msgid "Don't be shy about learning the basics!"
-#~ msgstr "Bu leen am xel ñaar ci jàng cosaan yi"
-
-#~ msgid "Learn how to type correctly"
-#~ msgstr "Nan la ñuy tàppee mu aw yoon"
-
-#~ msgid "Initial training for your fingers."
-#~ msgstr "Tàggatum baaraam gi jëkk."
-
-#~ msgid "First steps with initial training"
-#~ msgstr "Jéego bi jëkk: tàggatum ndoorte"
-
-#~ msgid "Memorizing the keyboard practicing random keys exercises."
-#~ msgstr "Mokkal arafukaay gi wéeru ci ndimbalu butoŋ bu mu mën di doon."
-
-#~ msgid "Practice with random keys"
-#~ msgstr "Tàggat ak ay butoŋ yu mu mën di doon"
-
-#~ msgid "Accelerating the touches practicing random words exercises."
-#~ msgstr ""
-#~ "Gaawalug mbind mi ak ay jéemantu yu sukkandiku ci baat yu mu mën di nekk"
-
-#~ msgid "Practice with random words"
-#~ msgstr "Tàggat ak ay baat yu mu mën di doon"
-
-#~ msgid "Becoming proficient practicing complete paragraphs exercises."
-#~ msgstr ""
-#~ " Nekksiléen ku xaran ak jéemantu yi sukkandiku ci xise yu mët sëkk,."
-
-#~ msgid "Practice with complete texts"
-#~ msgstr "Tàggat ak ay mbind yu mët sëkk"
-
-#~ msgid ""
-#~ "Keyboard layout for modules 1 and 2. Also used informatively in the "
-#~ "fluidness contest."
-#~ msgstr ""
-#~ "Xamle arafukaay ci modil 1 ak 2. Ba tey itam moom lañuy jëfandikoo ci "
-#~ "saaru rattaxal yi."
-
-#~ msgid "_Keyboard:"
-#~ msgstr "Arafukaay"
-
-#~ msgid "Language for modules 3 and 4."
-#~ msgstr "Lammiñ ngir sumb 3 ak 4"
-
-#~ msgid "_Language:"
-#~ msgstr "Làmmiñ"
-
-#~ msgid "Speech"
-#~ msgstr "Fitté"
-
-#~ msgid "Little tip about this program."
-#~ msgstr "Pexe su ndaw ngir porogaraam bii."
-
-#~ msgid "_Help"
-#~ msgstr "Ndimbal"
-
-#~ msgid "General information about the program."
-#~ msgstr "Xibaar yu ëmb lépp te aju ci xeltéef gii."
-
-#~ msgid "_About..."
-#~ msgstr "Ci mbiri..."
-
-#~ msgid "Exit the application immediately."
-#~ msgstr "Génnal leegi ci jefekaay bii: Gàttal : [Ctrl-Q]"
-
-#~ msgid "Klavaro - Progress"
-#~ msgstr "Klavaro - Jéego yi"
-
-#~ msgid "_Lesson:"
-#~ msgstr "Saar"
-
-#~ msgid "Value"
-#~ msgstr "Dayo"
-
-#~ msgid "Close this window, returning to the exercise."
-#~ msgstr "Tëj palanteer bii, dellusi ci jéemantu bi."
-
-#~ msgid "Clear all the progress data, for every module."
-#~ msgstr "Far xibaar yi aju ci fi nu tollu, ci modil yépp."
-
-#~ msgid "_Reset"
-#~ msgstr "_Suqaliwaat"
-
-#~ msgid "Top 10"
-#~ msgstr "Top 10"
-
-#~ msgid "Show extra information"
-#~ msgstr "Wone xibaar yi yokku"
-
-#~ msgid "Hide extra information"
-#~ msgstr "Nëbb xibaar yi yokku"
-
-#~ msgid "Publish to the web your local scores."
-#~ msgstr "Yéene say manoore ci internet"
-
-#~ msgid "_Participate"
-#~ msgstr "Bokk"
-
-#~ msgid "Download from the web the most up to date ranking."
-#~ msgstr "Yebléen ci internet ndenc yi gën a ànd ak jamono."
-
-#~ msgid "_Update"
-#~ msgstr "_Yeesal"
-
-#~ msgid "Load other exercises/lessons"
-#~ msgstr "Ubbi yeneeni jéemantu/saar/ Gàttal :  [Ctrl-O]"
-
-#~ msgid "_Other texts"
-#~ msgstr "Yeneeni mbind"
-
-#~ msgid "Edit the character set to be used in this lesson."
-#~ msgstr "Soppiléen njabootu araf yi ñu war a jëfandikoo ci saar wii."
-
-#~ msgid "This is a specific exercise, adjusted to your error profile."
-#~ msgstr ""
-#~ "Lii jéemantu bu beru la, dañu koo méngaleek njuumte yi ngay faral di def."
-
-#~ msgid "Edit the character set to be used in lessons 44 through 50."
-#~ msgstr "Soppiléen njabootu araf yi ñu war a jëfandikoo ci saar 44 ba 50."
-
-#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-#~ msgstr "Bësal fii ngir tàmbaliwaat jéemantu bi. Gàttal :  [Ctrl R]"
-
-#~ msgid "Show the virtual keyboard and the relation between fingers and keys."
-#~ msgstr "Wonem arafukaay bi ñu nataal ak ni baaraam yeek butoŋ yi ànde"
-
-#~ msgid "_Keyboard"
-#~ msgstr "Arafukaay"
-
-#~ msgid "Select the font to be used in the exercise window."
-#~ msgstr ""
-#~ " Fal-léen njabootu araf yi ngéen di jëfandikoo ci palanteeru jéemantu yii"
-
-#~ msgid "_Font"
-#~ msgstr "Araf"
-
-#~ msgid "Keep this checked if you want to get those nice beeps."
-#~ msgstr "Danu koo war a bàyyi cig pal su ngeen bëgge dégg dégtu yu neex yii."
-
-#~ msgid "_Beep"
-#~ msgstr "Bip "
-
-#~ msgid "Co_urse information"
-#~ msgstr "Xibaar ci saar wi"
-
-#~ msgid "Charts showing the learning progress along the exercises."
-#~ msgstr "Nataal wuy wone ni nuy jëme kanam ci saa su nuy  jéemantu."
-
-#~ msgid "_Progress"
-#~ msgstr "_Jéego yi"
-
-#~ msgid "Return to the main menu."
-#~ msgstr "Dellusi ci jël lu mag li"
-
-#~ msgid "Show local and external scores from other users."
-#~ msgstr "Wone manoore biir ak biti yu yeneeni jëfandikookat."
-
-#~ msgid "_Top 10"
-#~ msgstr "_Top 10"
 
 #~ msgid "Klavaro"
 #~ msgstr "Klavaro"

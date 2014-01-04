@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.0-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-04 16:42-0200\n"
+"POT-Creation-Date: 2014-01-04 17:03-0200\n"
 "PO-Revision-Date: 2011-03-31 14:17+0800\n"
 "Last-Translator: Yuwei Yu <acevery@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -17,115 +17,520 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: ../data/klavaro.desktop.in.h:1
+#: data/klavaro.ui:7
+msgid "About 'Klavaro'"
+msgstr "关于“Klavaro”"
+
+#: data/klavaro.ui:16
 msgid "Yet another touch typing tutor"
 msgstr "就是另一个盲打训练的家庭教师"
 
-#: ../data/klavaro.desktop.in.h:2
-msgid "keyboard;typing;tutorial;"
-msgstr ""
+#: data/klavaro.ui:82
+msgid "Remember always: someone loves you!"
+msgstr "永远记住: 有些人是爱你的!"
 
-#: ../src/main.c:243
+#: data/klavaro.ui:109
+msgid "Change language"
+msgstr "改变语言"
+
+#: data/klavaro.ui:131
+msgid "Attention!"
+msgstr "注意！"
+
+#: data/klavaro.ui:168
+msgid "Do you confirm?"
+msgstr "你确定？"
+
+#: data/klavaro.ui:231
+msgid "_No"
+msgstr "否(_N)"
+
+#: data/klavaro.ui:288
+msgid "_Yes"
+msgstr "是(_Y)"
+
+#: data/klavaro.ui:323
+msgid "Help?"
+msgstr "帮助？"
+
+#: data/klavaro.ui:346
+msgid "This is a tip. Now you press this button to return to the main menu."
+msgstr "    这是一个提示。现在你按下这个按钮以回到主菜单。"
+
+#: data/klavaro.ui:376 data/klavaro.ui:4136
+msgid "B_ack to menu"
+msgstr "回到菜单"
+
+#: data/klavaro.ui:432
+msgid ""
+"The main menu of the application is very straightforward. Just select the "
+"type of exercise you wish to take. Do not worry about clicking any button on "
+"the screen. The buttons will never hurt you!"
+msgstr ""
+"    这个程序的主菜单非常直观。直接选择你想做的练习。不要担心点击屏幕上的任何"
+"一个按钮。这些按钮永远不会伤害你！"
+
+#: data/klavaro.ui:449
+msgid ""
+"Also the controls have tips which will appear if you hover over them with "
+"your mouse. These tips can come in very handy. To see how these tips work, "
+"position your mouse over the button below, and without clicking, wait for "
+"the tip to appear..."
+msgstr ""
+"    同时这些控件会显示一些提示，只要你把鼠标停留在它们上面。这些提示会非常方"
+"便。想看看这些提示怎么工作，把你的鼠标放在这些按钮上面，但不要点击，等一下这"
+"些提示出现..."
+
+#: data/klavaro.ui:479
+msgid "Klavaro - Select file"
+msgstr "Klavaro - 选择文件"
+
+#: data/klavaro.ui:528 data/klavaro.ui:986 data/klavaro.ui:1898
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: data/klavaro.ui:580
+msgid "_Open"
+msgstr "打开(_O)"
+
+#: data/klavaro.ui:621
+msgid "Font definition"
+msgstr "字体定义"
+
+#: data/klavaro.ui:764
+msgid "Re_name:"
+msgstr "重命名(_n)："
+
+#: data/klavaro.ui:778
+msgid "Rename the selected item."
+msgstr "重命名选定项。"
+
+#: data/klavaro.ui:806
+msgid ""
+"Read a text file and add a copy of it here. The file must be encoded in "
+"UTF-8."
+msgstr "读取一个本文文件并添加它的一个拷贝到这里。文件必须以UTF-8编码。"
+
+#: data/klavaro.ui:831
+msgid "_Open text file"
+msgstr "打开文本文件(_O)"
+
+#: data/klavaro.ui:855
+msgid "Paste text that was copied to the clipboard."
+msgstr "从粘贴板拷贝已经复制的文本"
+
+#: data/klavaro.ui:880
+msgid "_Paste from clipboard"
+msgstr "从粘贴板粘贴(_P)"
+
+#: data/klavaro.ui:904
+msgid "Remove the selected item."
+msgstr "移除选择的项目。"
+
+#: data/klavaro.ui:929
+msgid "_Remove copied file"
+msgstr "移除复制的文件(_R)"
+
+#: data/klavaro.ui:1013
+msgid "Apply the selected item to create an exercise."
+msgstr "应用选择的项目来生成一个练习。"
+
+#: data/klavaro.ui:1042
+msgid "_Apply"
+msgstr "应用(_A)"
+
+#: data/klavaro.ui:1122 data/klavaro.ui:1981 data/klavaro.ui:3423
+msgid "Close this window."
+msgstr "关闭本窗口。"
+
+#: data/klavaro.ui:1152 data/klavaro.ui:2012 data/klavaro.ui:2762
+#: data/klavaro.ui:2994 data/klavaro.ui:3451 data/klavaro.ui:4088
+msgid "_Close"
+msgstr "关闭(_C)"
+
+#: data/klavaro.ui:1380
+msgid "Remove the selected custom layout."
+msgstr "移除选择的定制布局。"
+
+#: data/klavaro.ui:1409
+msgid "_Remove"
+msgstr "移除(_R)"
+
+#: data/klavaro.ui:1523 data/klavaro.ui:1568
+msgid ""
+"Toggles the shift effect on the keys. Alternates between the upper and lower "
+"characters of the keys."
+msgstr "切换“Shift”效果，在按键的上、下两行的字母间切换。"
+
+#: data/klavaro.ui:1542
+msgid "SPACE BAR"
+msgstr "空格键"
+
+#: data/klavaro.ui:1552 src/keyboard.c:1630
+msgid "thumbs"
+msgstr "拇指"
+
+#: data/klavaro.ui:1638
+msgid "Ctrl"
+msgstr "Ctrl键"
+
+#: data/klavaro.ui:1653
+msgid "Caps"
+msgstr "大写锁定键(Caps)"
+
+#: data/klavaro.ui:1705
+msgid "S_ave as:"
+msgstr "另存为(_a):"
+
+#: data/klavaro.ui:1744
+msgid "Show previous screen."
+msgstr "显示上一屏。"
+
+#: data/klavaro.ui:1774
+msgid "_Previous step"
+msgstr "上一步(_P)"
+
+#: data/klavaro.ui:1803
+msgid "Show next screen."
+msgstr "显示下一屏。"
+
+#: data/klavaro.ui:1833
+msgid "_Next step"
+msgstr "下一步(_N)"
+
+#: data/klavaro.ui:1870
+msgid "Return without any modification."
+msgstr "放弃所有修改而返回。"
+
+#: data/klavaro.ui:1927
+msgid "Save the current keyboard layout with the name specified above."
+msgstr "以上面指定的名称保存当前的键盘布局。"
+
+#: data/klavaro.ui:1955
+msgid "_Save and use"
+msgstr "保存并使用(_S)"
+
+#: data/klavaro.ui:2038
+msgid ""
+"If you like those beautiful hands, click here to close this window keeping "
+"them."
+msgstr "如果你喜欢这些漂亮的手，点击这里关闭当前窗口但继续显示它们。"
+
+#: data/klavaro.ui:2068
+msgid "_Keep hands"
+msgstr "显示指法(_K)"
+
+#: data/klavaro.ui:2102
+msgid "Klavaro - Main menu"
+msgstr "Klavaro - 主菜单"
+
+#: data/klavaro.ui:2121
+msgid "Don't be shy about learning the basics!"
+msgstr "不要羞于学习基础的东西！"
+
+#: data/klavaro.ui:2169
+msgid "Learn how to type correctly"
+msgstr "学习如何正确地打字"
+
+#: data/klavaro.ui:2198
+msgid "Initial training for your fingers."
+msgstr "对手指的初步训练。"
+
+#: data/klavaro.ui:2246
+msgid "First steps with initial training"
+msgstr "开始训练的最初几步"
+
+#: data/klavaro.ui:2275
+msgid "Memorizing the keyboard practicing random keys exercises."
+msgstr "用随机的按键训练记忆键盘。"
+
+#: data/klavaro.ui:2323
+msgid "Practice with random keys"
+msgstr "用随机的按键训练"
+
+#. English typo: touchs -> touches
+#: data/klavaro.ui:2352
+msgid "Accelerating the touches practicing random words exercises."
+msgstr "用随机词来加速盲打。"
+
+#: data/klavaro.ui:2400
+msgid "Practice with random words"
+msgstr "用随机的词训练"
+
+#: data/klavaro.ui:2429
+msgid "Becoming proficient practicing complete paragraphs exercises."
+msgstr "用完整的段落训练以达到专家水平。"
+
+#: data/klavaro.ui:2477
+msgid "Practice with complete texts"
+msgstr "用完整的文字练习"
+
+#: data/klavaro.ui:2520
+msgid ""
+"Keyboard layout for modules 1 and 2. Also used informatively in the "
+"fluidness contest."
+msgstr "用于模块1和2的键盘布局。也用于提供流畅比赛中的相应信息。"
+
+#: data/klavaro.ui:2522
+msgid "_Keyboard:"
+msgstr "键盘(_K)："
+
+#: data/klavaro.ui:2535
+msgid "Language for modules 3 and 4."
+msgstr "用于模块3和4的语言。"
+
+#: data/klavaro.ui:2537
+msgid "_Language:"
+msgstr "语言(_L)："
+
+#: data/klavaro.ui:2546
+msgid "Speech"
+msgstr "语音"
+
+#: data/klavaro.ui:2620
+msgid "Little tip about this program."
+msgstr "关于程序的小贴士。"
+
+#: data/klavaro.ui:2650
+msgid "_Help"
+msgstr "帮助(_H)"
+
+#: data/klavaro.ui:2676
+msgid "General information about the program."
+msgstr "关于程序的一般信息。"
+
+#: data/klavaro.ui:2706
+msgid "_About..."
+msgstr "关于(_A)..."
+
+#: data/klavaro.ui:2732 data/klavaro.ui:4064
+msgid "Exit the application immediately."
+msgstr "马上结束程序。"
+
+#: data/klavaro.ui:2798
+msgid "Klavaro - Progress"
+msgstr "Klavaro - 进展"
+
+#: data/klavaro.ui:2847 data/klavaro.ui:3575
+msgid "_Lesson:"
+msgstr "课程(_L)："
+
+#: data/klavaro.ui:2920
+msgid "Value"
+msgstr "值"
+
+#: data/klavaro.ui:2964
+msgid "Close this window, returning to the exercise."
+msgstr "关闭这个窗口，回到练习中。"
+
+#: data/klavaro.ui:3034
+msgid "Clear all the progress data, for every module."
+msgstr "清除所有练习数据，所有模块的。"
+
+#: data/klavaro.ui:3065
+msgid "_Reset"
+msgstr "重置(_R)"
+
+#: data/klavaro.ui:3102
+msgid "Top 10"
+msgstr "冠军榜"
+
+#: data/klavaro.ui:3223
+msgid "Show extra information"
+msgstr "显示额外信息"
+
+#: data/klavaro.ui:3245
+msgid "Hide extra information"
+msgstr "隐藏额外信息"
+
+#: data/klavaro.ui:3299
+msgid "Publish to the web your local scores."
+msgstr "把你的本地分数发布到网络上。"
+
+#: data/klavaro.ui:3328
+msgid "_Participate"
+msgstr "参与(_P)"
+
+#: data/klavaro.ui:3355
+msgid "Download from the web the most up to date ranking."
+msgstr "从网络上下载最新的排名。"
+
+#: data/klavaro.ui:3384
+msgid "_Update"
+msgstr "更新(_U)"
+
+#: data/klavaro.ui:3515
+msgid "Load other exercises/lessons"
+msgstr "加载其他练习/课程"
+
+#: data/klavaro.ui:3540
+msgid "_Other texts"
+msgstr "其它文字"
+
+#: data/klavaro.ui:3635
+msgid "Edit the character set to be used in this lesson."
+msgstr "编辑本课中使用的字母集。"
+
+#: data/klavaro.ui:3651
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr "这是一个专门的练习，根据你的错误资料而调整。"
+
+#: data/klavaro.ui:3678
+msgid "Edit the character set to be used in lessons 44 through 50."
+msgstr "编辑从44课到50课使用的字母集。"
+
+#: data/klavaro.ui:3750 src/tutor.c:252
+msgid "Drag and drop text here to practice with it."
+msgstr "把文字拖放到这里来练习。"
+
+#: data/klavaro.ui:3779
+msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+msgstr "点击这里而重新开始练习。热键: [Ctrl R]"
+
+#: data/klavaro.ui:3808
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr "显示虚拟键盘以及手指和按键的关系。"
+
+#: data/klavaro.ui:3834
+msgid "_Keyboard"
+msgstr "键盘(_K)"
+
+#: data/klavaro.ui:3858
+msgid "Select the font to be used in the exercise window."
+msgstr "选择练习窗口中使用的字体。"
+
+#: data/klavaro.ui:3883
+msgid "_Font"
+msgstr "字体(_F)"
+
+#: data/klavaro.ui:3907
+msgid "Keep this checked if you want to get those nice beeps."
+msgstr "如果你想获得好的报错声就选择这个。"
+
+#: data/klavaro.ui:3934
+msgid "_Beep"
+msgstr "报错(_B)"
+
+#: data/klavaro.ui:3992
+msgid "Co_urse information"
+msgstr "课程信息(_u)"
+
+#: data/klavaro.ui:4016
+msgid "Charts showing the learning progress along the exercises."
+msgstr "展示学习进展的图表。"
+
+#: data/klavaro.ui:4039
+msgid "_Progress"
+msgstr "进展(_P)"
+
+#: data/klavaro.ui:4113
+msgid "Return to the main menu."
+msgstr "回到主菜单。"
+
+#: data/klavaro.ui:4162
+msgid "Show local and external scores from other users."
+msgstr "显示本地和外部其他用户的分数。"
+
+#: data/klavaro.ui:4185
+msgid "_Top 10"
+msgstr "冠军榜(_T)"
+
+#: src/main.c:243
 msgid "(Custom)"
 msgstr "(定制)"
 
-#: ../src/main.c:244
+#: src/main.c:244
 msgid "(Edit custom)"
 msgstr "(编辑定制)"
 
-#: ../src/main.c:245
+#: src/main.c:245
 msgid "(Default)"
 msgstr "(默认)"
 
-#: ../src/main.c:322
+#: src/main.c:322
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] "语音模式（取决于这个语音合成器： %s）"
 msgstr[1] "语音模式（取决于这些语音合成器： %s）"
 
-#. Set main labels (for translation)
-#.
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: src/main.c:364 src/keyboard.c:1291
 msgid "Introduction"
 msgstr "介绍"
 
-#: ../src/main.c:367 ../src/top10.c:109
+#: src/main.c:367 src/top10.c:109
 msgid "Basic course"
 msgstr "基础课程"
 
-#: ../src/main.c:370 ../src/top10.c:112
+#: src/main.c:370 src/top10.c:112
 msgid "Adaptability"
 msgstr "适应性"
 
-#: ../src/main.c:373 ../src/callbacks.c:1310 ../src/top10.c:89
-#: ../src/top10.c:115
+#: src/main.c:373 src/callbacks.c:1310 src/top10.c:89 src/top10.c:115
 msgid "Speed"
 msgstr "速度"
 
-#: ../src/main.c:376 ../src/callbacks.c:1333 ../src/top10.c:91
-#: ../src/top10.c:118
+#: src/main.c:376 src/callbacks.c:1333 src/top10.c:91 src/top10.c:118
 msgid "Fluidity"
 msgstr "流畅性"
 
-#: ../src/callbacks.c:468 ../src/tutor.c:391
+#: src/callbacks.c:468 src/tutor.c:391
 msgid "Keys:"
 msgstr "按键："
 
-#: ../src/callbacks.c:858 ../src/callbacks.c:874
+#: src/callbacks.c:858 src/callbacks.c:874
 msgid "Connecting..."
 msgstr "连接..."
 
-#: ../src/callbacks.c:1145
+#: src/callbacks.c:1145
 msgid "Overwrite user layout"
 msgstr "覆盖用户布局"
 
-#: ../src/callbacks.c:1147
+#: src/callbacks.c:1147
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "这将 覆盖 一个已有的键盘布局。"
 
-#: ../src/callbacks.c:1154
+#: src/callbacks.c:1154
 msgid "Remove user layout"
 msgstr "移除用户布局"
 
-#: ../src/callbacks.c:1156
+#: src/callbacks.c:1156
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "这将移除一个已有的键盘布局。"
 
-#: ../src/callbacks.c:1163
+#: src/callbacks.c:1163
 msgid "Reset progress data"
 msgstr "重置进展数据"
 
-#: ../src/callbacks.c:1164
+#: src/callbacks.c:1164
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "这将会 删除 所有显示在图表的进展数据。"
 
-#: ../src/callbacks.c:1307 ../src/top10.c:87
+#: src/callbacks.c:1307 src/top10.c:87
 msgid "Accuracy"
 msgstr "精度"
 
-#: ../src/callbacks.c:1310 ../src/tutor.c:1160
+#: src/callbacks.c:1310 src/tutor.c:1160
 msgid "(WPM)"
 msgstr "(词每分钟)"
 
-#: ../src/callbacks.c:1321
+#: src/callbacks.c:1321
 msgid "Errors"
 msgstr "错误"
 
-#: ../src/callbacks.c:1324
+#: src/callbacks.c:1324
 msgid "Touch times (s)"
 msgstr ""
 
-#: ../src/callbacks.c:1336 ../src/tutor.c:1187 ../src/top10.c:69
+#: src/callbacks.c:1336 src/tutor.c:1187 src/top10.c:69
 msgid "Score"
 msgstr "得分"
 
-#. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1597
+#: src/translation.c:485 src/tutor.c:1597
 msgid "en"
 msgstr "en"
 
-#: ../src/translation.c:572
+#: src/translation.c:572
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -135,7 +540,7 @@ msgstr ""
 "    基础课程专注于使你根据显示在屏幕上的字母按下相应的按键。记住要保持你的手"
 "总是正确地放在键盘的本行上(见主菜单中的介绍)。"
 
-#: ../src/translation.c:576
+#: src/translation.c:576
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -144,7 +549,7 @@ msgstr ""
 "    每个系列使用的按键会在上方的消息行中显示。[空格]、[Shift]和[回车]键可能不"
 "会显示，但它们很常用。"
 
-#: ../src/translation.c:579
+#: src/translation.c:579
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -152,7 +557,7 @@ msgstr ""
 "    下方的消息行跟随并显示你按下的键。需要的时候，它会改变为显示你需要采取的"
 "下一步行动。"
 
-#: ../src/translation.c:583
+#: src/translation.c:583
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -161,7 +566,7 @@ msgstr ""
 "    这里你将练习并改进你对所有键位的记忆，通过一些由没有意义的词组成的，并混"
 "杂着数字和符号的句子。"
 
-#: ../src/translation.c:586
+#: src/translation.c:586
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -170,13 +575,13 @@ msgstr ""
 "    为了保持课程内容独立于语言和键盘，带有音调的字母组合可能不会出现。练习由"
 "真实词语组成的句子，请使用主菜单中的第四个练习(关于流畅性的)。"
 
-#: ../src/translation.c:590
+#: src/translation.c:590
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
 msgstr "    在每个练习后会有一个简要的统计检查你的表现并提供相应的建议。"
 
-#: ../src/translation.c:594
+#: src/translation.c:594
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -184,7 +589,7 @@ msgstr ""
 "    这个练习和第二个练习(关于适应性的)非常相似。不同的是，这里你会输入真正的"
 "单词。"
 
-#: ../src/translation.c:597
+#: src/translation.c:597
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -193,7 +598,7 @@ msgstr ""
 "    默认语言是界面的语言。但你可以选择你喜欢的含有其他字词的文本。按下上方"
 "的'其它'按钮并添加包含这些文本的文件。"
 
-#: ../src/translation.c:601
+#: src/translation.c:601
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -201,7 +606,7 @@ msgstr ""
 "    这个练习专注于速度。所以，你将被假定为打得非常快，而我也只会在你足够好时"
 "才会夸你！"
 
-#: ../src/translation.c:605
+#: src/translation.c:605
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -212,7 +617,7 @@ msgstr ""
 "可能会分散你的注意力。之前的练习目标是使你在不需要理解和分析内容的情况下学会"
 "打字。"
 
-#: ../src/translation.c:609
+#: src/translation.c:609
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -226,8 +631,7 @@ msgstr ""
 "就会自然而然且不需要什么注意力。这时，你就可以轻松把注意力放到文字的意思上"
 "了。"
 
-#. English typo: minimun -> minimum
-#: ../src/translation.c:614
+#: src/translation.c:614
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -238,8 +642,7 @@ msgstr ""
 "放在了正确率和节奏上。这里，要求你使用退格键(Backspace)去修正错误。也就是说，"
 "只有完全正确的输入才会被接受。"
 
-#. English typo: recomendations -> recommendations
-#: ../src/keyboard.c:1094
+#: src/keyboard.c:1094
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -248,13 +651,13 @@ msgstr ""
 "    正确的摆放你的手和手指对于高效地打字是非常重要的。如果你遵循下面的建议，"
 "你将会打得更快更好。"
 
-#: ../src/keyboard.c:1097
+#: src/keyboard.c:1097
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
 msgstr "    食指的指尖放在键盘中央那两个有小凸点的键上。"
 
-#: ../src/keyboard.c:1100
+#: src/keyboard.c:1100
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -263,17 +666,17 @@ msgstr ""
 "    这两个凸点的是使你保持正确手指位置的“触点”。这样，通过一些感觉，你就不需"
 "要去看键盘来确定你的手指是否正确地摆放。"
 
-#: ../src/keyboard.c:1104
+#: src/keyboard.c:1104
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
 msgstr "    其它手指的指尖自然地摆在食指边上，放在键盘相同一行的其它键上。"
 
-#: ../src/keyboard.c:1107
+#: src/keyboard.c:1107
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "    大拇指的外沿放在空格键上。"
 
-#: ../src/keyboard.c:1109
+#: src/keyboard.c:1109
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -282,7 +685,7 @@ msgstr ""
 "    手最靠近手腕的部分放在键盘外的桌子上。失去这样的支持，手臂将很快就疲劳"
 "了。"
 
-#: ../src/keyboard.c:1112
+#: src/keyboard.c:1112
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -294,7 +697,7 @@ msgstr ""
 "有键。为了达到这个目标，需要在每一个按键和手指间建立一个专门的关系。这个关系"
 "将在你完成基础课程中逐步学会。"
 
-#: ../src/keyboard.c:1118
+#: src/keyboard.c:1118
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -303,7 +706,7 @@ msgstr ""
 "    当你学习手指和按钮的关系时，非常重要的一点是在保持其它手指在本位不动的情"
 "况下，仅仅移动击键的那个手指。"
 
-#: ../src/keyboard.c:1122
+#: src/keyboard.c:1122
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -311,7 +714,7 @@ msgstr ""
 "    在记下这一关系后，你可以稍微放松一点上面的规则，从而你可以获得更快的打字"
 "速度。"
 
-#: ../src/keyboard.c:1125
+#: src/keyboard.c:1125
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -320,135 +723,125 @@ msgstr ""
 "    你已经准备好开始基础课程的训练了。成为打字高手需要努力和耐心。我们相信你"
 "拥有这些并期待你的成功！"
 
-#: ../src/keyboard.c:1136
+#: src/keyboard.c:1136
 #, c-format
 msgid "Step %i"
 msgstr "步骤 %i"
 
-#. Recommendations
-#: ../src/keyboard.c:1140
+#: src/keyboard.c:1140
 msgid "To position the hands"
 msgstr "手的放法"
 
-#. Final words
-#: ../src/keyboard.c:1225
+#: src/keyboard.c:1225
 msgid "Go ahead!"
 msgstr "开始吧！"
 
-#: ../src/keyboard.c:1234
+#: src/keyboard.c:1234
 msgid "Relation between fingers and keys"
 msgstr "手指和键的关系"
 
-#: ../src/keyboard.c:1235
+#: src/keyboard.c:1235
 msgid "Click on any key to see which finger you must use:"
 msgstr "点击任何键来看看你必须用哪一个手指:"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: src/keyboard.c:1291 src/keyboard.c:1325
 msgid "Keyboard"
 msgstr "键盘"
 
-#: ../src/keyboard.c:1372
+#: src/keyboard.c:1372
 msgid "Create or modify a custom keyboard layout"
 msgstr "创建或修改一个定制的键盘布局"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: src/keyboard.c:1618 src/keyboard.c:1642
 msgid "small finger"
 msgstr "小指"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: src/keyboard.c:1621 src/keyboard.c:1639
 msgid "ring finger"
 msgstr "无名指"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: src/keyboard.c:1624 src/keyboard.c:1636
 msgid "middle finger"
 msgstr "中指"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: src/keyboard.c:1627 src/keyboard.c:1633
 msgid "index finger"
 msgstr "食指"
 
-#: ../src/keyboard.c:1630
-msgid "thumbs"
-msgstr "拇指"
-
-#: ../src/keyboard.c:1728
+#: src/keyboard.c:1728
 msgid "Press and edit me"
 msgstr "按下并编辑我"
 
-#: ../src/tutor.c:176
+#: src/tutor.c:176
 msgid "Lesson:"
 msgstr "课程："
 
-#: ../src/tutor.c:186
+#: src/tutor.c:186
 msgid "Paragraphs:"
 msgstr "段落："
 
-#: ../src/tutor.c:219
+#: src/tutor.c:219
 msgid "Klavaro - Basic Course"
 msgstr "Klavaro - 基础课程"
 
-#: ../src/tutor.c:224
+#: src/tutor.c:224
 msgid "Klavaro - Adaptability"
 msgstr "Klavaro - 适应性"
 
-#: ../src/tutor.c:227
+#: src/tutor.c:227
 msgid ""
 "Adaptability exercises: automating the fingers responses, typing over all "
 "the keyboard."
 msgstr "适应性练习：使手指的反应自动化，在整个键盘上打字。"
 
-#: ../src/tutor.c:232
+#: src/tutor.c:232
 msgid "Klavaro - Velocity"
 msgstr "Klavaro - 速度"
 
-#: ../src/tutor.c:233
+#: src/tutor.c:233
 msgid "Velocity exercises: accelerate typing real words."
 msgstr "速度练习：提高真实词语的打字速度。"
 
-#: ../src/tutor.c:237
+#: src/tutor.c:237
 msgid "Klavaro - Fluidness"
 msgstr "Klavaro - 流畅性"
 
-#: ../src/tutor.c:239
+#: src/tutor.c:239
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr "流畅性练习：精确地打有意义的段落。"
 
-#: ../src/tutor.c:252
-msgid "Drag and drop text here to practice with it."
-msgstr "把文字拖放到这里来练习。"
-
-#: ../src/tutor.c:301
+#: src/tutor.c:301
 msgid "End of exercise. Press [Enter] to start another."
 msgstr "练习结束，请按[回车]开始另一个。"
 
-#: ../src/tutor.c:329
+#: src/tutor.c:329
 msgid "Learning the key positions."
 msgstr "学习键位。"
 
-#: ../src/tutor.c:332
+#: src/tutor.c:332
 msgid "Press any key to start the exercise. "
 msgstr "按任意键开始练习。"
 
-#: ../src/tutor.c:440 ../src/tutor.c:443
+#: src/tutor.c:440 src/tutor.c:443
 msgid "Start typing when you are ready. "
 msgstr "当你准备好时就开始打字。"
 
-#: ../src/tutor.c:441
+#: src/tutor.c:441
 msgid "Use backspace to correct errors."
 msgstr ""
 
-#: ../src/tutor.c:885
+#: src/tutor.c:885
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
 "(%i) must be greater than %i."
 msgstr "    注意：当前的练习并没有被记录下来：打的字符数(%i)必须大于%i。"
 
-#: ../src/tutor.c:1027
+#: src/tutor.c:1027
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "    注意：你进入了冠军榜了，太棒了！"
 
-#: ../src/tutor.c:1039
+#: src/tutor.c:1039
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
@@ -456,103 +849,95 @@ msgid ""
 msgstr ""
 "    注意：你刚刚打的好像和你当前选择的语言不同：我们不能将它记入冠军榜中。"
 
-#. Begin the accuracy
-#: ../src/tutor.c:1087
+#: src/tutor.c:1087
 msgid "STATISTICS"
 msgstr "统计"
 
-#: ../src/tutor.c:1088
+#: src/tutor.c:1088
 msgid "Elapsed time:"
 msgstr "使用时间："
 
-#: ../src/tutor.c:1089
+#: src/tutor.c:1089
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "分钟和"
 msgstr[1] "分钟和"
 
-#: ../src/tutor.c:1090
+#: src/tutor.c:1090
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "秒"
 msgstr[1] "秒"
 
-#: ../src/tutor.c:1091
+#: src/tutor.c:1091
 msgid "Error ratio:"
 msgstr "错误率："
 
-#: ../src/tutor.c:1091
+#: src/tutor.c:1091
 msgid "Accuracy:"
 msgstr "准确率："
 
-#: ../src/tutor.c:1112 ../src/tutor.c:1137 ../src/tutor.c:1160
-#: ../src/tutor.c:1186
+#: src/tutor.c:1112 src/tutor.c:1137 src/tutor.c:1160 src/tutor.c:1186
 msgid "Goal:"
 msgstr "目标："
 
-#: ../src/tutor.c:1119
+#: src/tutor.c:1119
 msgid "Characters per second:"
 msgstr "字符数每秒："
 
-#: ../src/tutor.c:1137
+#: src/tutor.c:1137
 msgid "(CPS)"
 msgstr "(字每秒)"
 
-#: ../src/tutor.c:1142
+#: src/tutor.c:1142
 msgid "Words per minute:"
 msgstr "词每分钟："
 
-#: ../src/tutor.c:1167
+#: src/tutor.c:1167
 msgid "Fluidness:"
 msgstr "流畅性："
 
-#: ../src/tutor.c:1194
+#: src/tutor.c:1194
 msgid "Comments:"
 msgstr "评价："
 
-#: ../src/tutor.c:1676
+#: src/tutor.c:1676
 msgid "space"
 msgstr "空格"
 
-#. Translators: the name of letter Y
-#: ../src/tutor.c:1681
+#: src/tutor.c:1681
 msgid "wye"
 msgstr "Y"
 
-#. Translators: the name of the Return key
-#: ../src/tutor.c:1685
+#: src/tutor.c:1685
 msgid "enter"
 msgstr "回车"
 
-#: ../src/tutor.c:1691
+#: src/tutor.c:1691
 msgid "apostrophe"
 msgstr "单引号"
 
-#. Translators: double quote symbol: "
-#: ../src/tutor.c:1695
+#: src/tutor.c:1695
 msgid "quote"
 msgstr "双引号"
 
-#. Translators: ampersand symbol: &
-#: ../src/tutor.c:1699
+#: src/tutor.c:1699
 msgid "ampersand"
 msgstr "＆"
 
-#. Error frequencies or touch times
-#.
-#: ../src/plot.c:308
+#: src/plot.c:308
 msgid "Character"
 msgstr ""
 
-#: ../src/plot.c:319
+#: src/plot.c:319
 msgid "Date & Time"
 msgstr "日期和时间"
 
-#: ../src/basic.c:331
+#: src/basic.c:331
 msgid "Positions of keys seems to be learned!"
 msgstr "看起来你已经学会了键位！"
 
-#: ../src/basic.c:332
+#: src/basic.c:332
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -564,7 +949,7 @@ msgstr ""
 "    进到下一个类型的练习：适应性。\n"
 "    那里，你将会主要练习精确性。\n"
 
-#: ../src/basic.c:338
+#: src/basic.c:338
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
@@ -572,7 +957,7 @@ msgstr ""
 "    好的，你学会了！\n"
 "    进到下一课。\n"
 
-#: ../src/adaptability.c:221
+#: src/adaptability.c:221
 msgid ""
 " Your accuracy rate is below 90%...\n"
 " Could you please try again to improve it?\n"
@@ -580,7 +965,7 @@ msgstr ""
 "    你的准确率低于90%...\n"
 "    你能再试一次来提高它吗？\n"
 
-#: ../src/adaptability.c:226
+#: src/adaptability.c:226
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach 95%?\n"
@@ -588,7 +973,7 @@ msgstr ""
 "    你做得很好，但是...\n"
 "    你能使准确率达到95%吗？\n"
 
-#: ../src/adaptability.c:229
+#: src/adaptability.c:229
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -598,7 +983,7 @@ msgstr ""
 "    你就要成功了，但你的准确率还是低于 %.0f%%.\n"
 "    再多试几次，或许你生气了，那就到其它类型的练习吧。\n"
 
-#: ../src/adaptability.c:236
+#: src/adaptability.c:236
 #, c-format
 msgid ""
 " Very good!\n"
@@ -611,11 +996,11 @@ msgstr ""
 "    现在是时候提高你的速度了。\n"
 "    进到主菜单中的第三个练习。\n"
 
-#: ../src/velocity.c:312 ../src/fluidness.c:435
+#: src/velocity.c:312 src/fluidness.c:435
 msgid "Pasted_or_dropped"
 msgstr "粘贴或拖放的"
 
-#: ../src/velocity.c:431
+#: src/velocity.c:431
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
@@ -625,7 +1010,7 @@ msgstr ""
 "    请耐心，每天试一试，休息且不要太在意：\n"
 "    坚持和练习将会提高你的速度。\n"
 
-#: ../src/velocity.c:435
+#: src/velocity.c:435
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try at least 20 WPM.\n"
@@ -633,7 +1018,7 @@ msgstr ""
 "    依然远离高速公路。你可以做得更好...\n"
 "    试着达到至少20个词每分钟。\n"
 
-#: ../src/velocity.c:438
+#: src/velocity.c:438
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get 30 WPM.\n"
@@ -641,7 +1026,7 @@ msgstr ""
 "    你做得很好，但需要更快一些。\n"
 "    同时不要忘了准确率。试着达到30个词每分钟。\n"
 
-#: ../src/velocity.c:442
+#: src/velocity.c:442
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach 40 WPM?\n"
@@ -649,7 +1034,7 @@ msgstr ""
 "    很好。现在你需要开始跑起来了。\n"
 "    你能达到40个词每分钟吗？\n"
 
-#: ../src/velocity.c:445
+#: src/velocity.c:445
 #, c-format
 msgid ""
 " Very good. You are almost there.\n"
@@ -658,7 +1043,7 @@ msgstr ""
 "    非常好。你几乎成功了。\n"
 "    你能最后达到%.0f个词每分钟吗？\n"
 
-#: ../src/velocity.c:450
+#: src/velocity.c:450
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
@@ -666,7 +1051,7 @@ msgstr ""
 "    太棒了。对于这个课程，这足够了。\n"
 "    现在试一下流畅性练习好吗？\n"
 
-#: ../src/velocity.c:454
+#: src/velocity.c:454
 msgid ""
 " Fast! Are you training for a competition?\n"
 " So, try to get 70 WPM!\n"
@@ -674,7 +1059,7 @@ msgstr ""
 "    真快！你是在准备打字比赛吗？\n"
 "    那就试快达到70个词每分钟！\n"
 
-#: ../src/velocity.c:457
+#: src/velocity.c:457
 msgid ""
 " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 " Are you afraid of reaching 80 WPM?\n"
@@ -682,7 +1067,7 @@ msgstr ""
 "    “qwerty”的极限了。现在是时候换到 Dvorak 模式了。\n"
 "    你害怕达到80个词每分钟吗？\n"
 
-#: ../src/velocity.c:461
+#: src/velocity.c:461
 msgid ""
 " Dvorak mode dominated!\n"
 " Can you fly at 90 WPM?\n"
@@ -690,7 +1075,7 @@ msgstr ""
 "    Dvorak 模式主宰！\n"
 "    你能飞到90个词每分钟吗？\n"
 
-#: ../src/velocity.c:465
+#: src/velocity.c:465
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
@@ -698,7 +1083,7 @@ msgstr ""
 "    Dvorak 专家！\n"
 "    我已经找不到词来表达我的敬仰之情了！\n"
 
-#: ../src/fluidness.c:545
+#: src/fluidness.c:545
 #, c-format
 msgid ""
 " You type accurately but not so fast.\n"
@@ -707,7 +1092,7 @@ msgstr ""
 "    你打得很精确，但不是那么快。\n"
 "    你能达到%.0f个词每分钟吗？\n"
 
-#: ../src/fluidness.c:548
+#: src/fluidness.c:548
 #, c-format
 msgid ""
 " Your rhythm is not so constant. Calm down.\n"
@@ -716,7 +1101,7 @@ msgstr ""
 "    你的节奏不是那么固定。冷静。\n"
 "    从现在开始，试着使流畅性超过%i%%。\n"
 
-#: ../src/fluidness.c:551
+#: src/fluidness.c:551
 #, c-format
 msgid ""
 " You are almost getting there. Type more fluently.\n"
@@ -725,7 +1110,7 @@ msgstr ""
 "    你几乎成功了。打得更流畅一些。\n"
 "    我想要流畅性大于%.0f%%。\n"
 
-#: ../src/fluidness.c:554
+#: src/fluidness.c:554
 msgid ""
 " Congratulations!\n"
 " It seems to me that you are a professional.\n"
@@ -737,7 +1122,7 @@ msgstr ""
 "    你不再需要这个程序了。\n"
 "    希望你享受了它。谢谢，祝你快乐！\n"
 
-#: ../src/fluidness.c:559
+#: src/fluidness.c:559
 msgid ""
 " How can you type so fast?\n"
 " You have exceeded all my expectations.\n"
@@ -749,361 +1134,53 @@ msgstr ""
 "    你是一个打字机吗？你能教我吗？\n"
 "    我再也帮不了你了。去找个专家了吧！\n"
 
-#: ../src/top10.c:67
+#: src/top10.c:67
 msgid "Name"
 msgstr "名字"
 
-#: ../src/top10.c:93
+#: src/top10.c:93
 msgid "Chars"
 msgstr "字符数"
 
-#: ../src/top10.c:95
+#: src/top10.c:95
 msgid "When"
 msgstr "什么时候"
 
-#: ../src/top10.c:124
+#: src/top10.c:124
 msgid "Local scores"
 msgstr "本地分数"
 
-#: ../src/top10.c:125
+#: src/top10.c:125
 msgid "External scores"
 msgstr "外部分数"
 
-#: ../src/top10.c:719
+#: src/top10.c:719
 msgid "Empty ranking. Please practice fluidness."
 msgstr "空的排行。请练习流畅性。"
 
-#: ../src/top10.c:816
+#: src/top10.c:816
 msgid "Not able to download files"
 msgstr "无法下载文件"
 
-#: ../src/top10.c:816 ../src/top10.c:906
+#: src/top10.c:816 src/top10.c:906
 msgid "not found"
 msgstr "没有找到"
 
-#: ../src/top10.c:817 ../src/top10.c:907
+#: src/top10.c:817 src/top10.c:907
 msgid "Are you sure you have it installed in your system?"
 msgstr "你确定你的系统中有装它吗？"
 
-#: ../src/top10.c:861
+#: src/top10.c:861
 msgid "Could not download file from the host server."
 msgstr "无法从服务器上下载文件。"
 
-#: ../src/top10.c:906
+#: src/top10.c:906
 msgid "Not able to upload files"
 msgstr "无法上传文件"
 
-#: ../src/top10.c:987
+#: src/top10.c:987
 msgid "Could not upload/download scores."
 msgstr "无法上传/下载分数。"
-
-#~ msgid "About 'Klavaro'"
-#~ msgstr "关于“Klavaro”"
-
-#~ msgid "Remember always: someone loves you!"
-#~ msgstr "永远记住: 有些人是爱你的!"
-
-#~ msgid "Change language"
-#~ msgstr "改变语言"
-
-#~ msgid "Attention!"
-#~ msgstr "注意！"
-
-#~ msgid "Do you confirm?"
-#~ msgstr "你确定？"
-
-#~ msgid "_No"
-#~ msgstr "否(_N)"
-
-#~ msgid "_Yes"
-#~ msgstr "是(_Y)"
-
-#~ msgid "Help?"
-#~ msgstr "帮助？"
-
-#~ msgid "This is a tip. Now you press this button to return to the main menu."
-#~ msgstr "    这是一个提示。现在你按下这个按钮以回到主菜单。"
-
-#~ msgid "B_ack to menu"
-#~ msgstr "回到菜单"
-
-#~ msgid ""
-#~ "The main menu of the application is very straightforward. Just select the "
-#~ "type of exercise you wish to take. Do not worry about clicking any button "
-#~ "on the screen. The buttons will never hurt you!"
-#~ msgstr ""
-#~ "    这个程序的主菜单非常直观。直接选择你想做的练习。不要担心点击屏幕上的任"
-#~ "何一个按钮。这些按钮永远不会伤害你！"
-
-#~ msgid ""
-#~ "Also the controls have tips which will appear if you hover over them with "
-#~ "your mouse. These tips can come in very handy. To see how these tips "
-#~ "work, position your mouse over the button below, and without clicking, "
-#~ "wait for the tip to appear..."
-#~ msgstr ""
-#~ "    同时这些控件会显示一些提示，只要你把鼠标停留在它们上面。这些提示会非常"
-#~ "方便。想看看这些提示怎么工作，把你的鼠标放在这些按钮上面，但不要点击，等一"
-#~ "下这些提示出现..."
-
-#~ msgid "Klavaro - Select file"
-#~ msgstr "Klavaro - 选择文件"
-
-#~ msgid "_Cancel"
-#~ msgstr "取消(_C)"
-
-#~ msgid "_Open"
-#~ msgstr "打开(_O)"
-
-#~ msgid "Font definition"
-#~ msgstr "字体定义"
-
-#~ msgid "Re_name:"
-#~ msgstr "重命名(_n)："
-
-#~ msgid "Rename the selected item."
-#~ msgstr "重命名选定项。"
-
-#~ msgid ""
-#~ "Read a text file and add a copy of it here. The file must be encoded in "
-#~ "UTF-8."
-#~ msgstr "读取一个本文文件并添加它的一个拷贝到这里。文件必须以UTF-8编码。"
-
-#~ msgid "_Open text file"
-#~ msgstr "打开文本文件(_O)"
-
-#~ msgid "Paste text that was copied to the clipboard."
-#~ msgstr "从粘贴板拷贝已经复制的文本"
-
-#~ msgid "_Paste from clipboard"
-#~ msgstr "从粘贴板粘贴(_P)"
-
-#~ msgid "Remove the selected item."
-#~ msgstr "移除选择的项目。"
-
-#~ msgid "_Remove copied file"
-#~ msgstr "移除复制的文件(_R)"
-
-#~ msgid "Apply the selected item to create an exercise."
-#~ msgstr "应用选择的项目来生成一个练习。"
-
-#~ msgid "_Apply"
-#~ msgstr "应用(_A)"
-
-#~ msgid "Close this window."
-#~ msgstr "关闭本窗口。"
-
-#~ msgid "_Close"
-#~ msgstr "关闭(_C)"
-
-#~ msgid "Remove the selected custom layout."
-#~ msgstr "移除选择的定制布局。"
-
-#~ msgid "_Remove"
-#~ msgstr "移除(_R)"
-
-#~ msgid ""
-#~ "Toggles the shift effect on the keys. Alternates between the upper and "
-#~ "lower characters of the keys."
-#~ msgstr "切换“Shift”效果，在按键的上、下两行的字母间切换。"
-
-#~ msgid "SPACE BAR"
-#~ msgstr "空格键"
-
-#~ msgid "Ctrl"
-#~ msgstr "Ctrl键"
-
-#~ msgid "Caps"
-#~ msgstr "大写锁定键(Caps)"
-
-#~ msgid "S_ave as:"
-#~ msgstr "另存为(_a):"
-
-#~ msgid "Show previous screen."
-#~ msgstr "显示上一屏。"
-
-#~ msgid "_Previous step"
-#~ msgstr "上一步(_P)"
-
-#~ msgid "Show next screen."
-#~ msgstr "显示下一屏。"
-
-#~ msgid "_Next step"
-#~ msgstr "下一步(_N)"
-
-#~ msgid "Return without any modification."
-#~ msgstr "放弃所有修改而返回。"
-
-#~ msgid "Save the current keyboard layout with the name specified above."
-#~ msgstr "以上面指定的名称保存当前的键盘布局。"
-
-#~ msgid "_Save and use"
-#~ msgstr "保存并使用(_S)"
-
-#~ msgid ""
-#~ "If you like those beautiful hands, click here to close this window "
-#~ "keeping them."
-#~ msgstr "如果你喜欢这些漂亮的手，点击这里关闭当前窗口但继续显示它们。"
-
-#~ msgid "_Keep hands"
-#~ msgstr "显示指法(_K)"
-
-#~ msgid "Klavaro - Main menu"
-#~ msgstr "Klavaro - 主菜单"
-
-#~ msgid "Don't be shy about learning the basics!"
-#~ msgstr "不要羞于学习基础的东西！"
-
-#~ msgid "Learn how to type correctly"
-#~ msgstr "学习如何正确地打字"
-
-#~ msgid "Initial training for your fingers."
-#~ msgstr "对手指的初步训练。"
-
-#~ msgid "First steps with initial training"
-#~ msgstr "开始训练的最初几步"
-
-#~ msgid "Memorizing the keyboard practicing random keys exercises."
-#~ msgstr "用随机的按键训练记忆键盘。"
-
-#~ msgid "Practice with random keys"
-#~ msgstr "用随机的按键训练"
-
-#~ msgid "Accelerating the touches practicing random words exercises."
-#~ msgstr "用随机词来加速盲打。"
-
-#~ msgid "Practice with random words"
-#~ msgstr "用随机的词训练"
-
-#~ msgid "Becoming proficient practicing complete paragraphs exercises."
-#~ msgstr "用完整的段落训练以达到专家水平。"
-
-#~ msgid "Practice with complete texts"
-#~ msgstr "用完整的文字练习"
-
-#~ msgid ""
-#~ "Keyboard layout for modules 1 and 2. Also used informatively in the "
-#~ "fluidness contest."
-#~ msgstr "用于模块1和2的键盘布局。也用于提供流畅比赛中的相应信息。"
-
-#~ msgid "_Keyboard:"
-#~ msgstr "键盘(_K)："
-
-#~ msgid "Language for modules 3 and 4."
-#~ msgstr "用于模块3和4的语言。"
-
-#~ msgid "_Language:"
-#~ msgstr "语言(_L)："
-
-#~ msgid "Speech"
-#~ msgstr "语音"
-
-#~ msgid "Little tip about this program."
-#~ msgstr "关于程序的小贴士。"
-
-#~ msgid "_Help"
-#~ msgstr "帮助(_H)"
-
-#~ msgid "General information about the program."
-#~ msgstr "关于程序的一般信息。"
-
-#~ msgid "_About..."
-#~ msgstr "关于(_A)..."
-
-#~ msgid "Exit the application immediately."
-#~ msgstr "马上结束程序。"
-
-#~ msgid "Klavaro - Progress"
-#~ msgstr "Klavaro - 进展"
-
-#~ msgid "_Lesson:"
-#~ msgstr "课程(_L)："
-
-#~ msgid "Value"
-#~ msgstr "值"
-
-#~ msgid "Close this window, returning to the exercise."
-#~ msgstr "关闭这个窗口，回到练习中。"
-
-#~ msgid "Clear all the progress data, for every module."
-#~ msgstr "清除所有练习数据，所有模块的。"
-
-#~ msgid "_Reset"
-#~ msgstr "重置(_R)"
-
-#~ msgid "Top 10"
-#~ msgstr "冠军榜"
-
-#~ msgid "Show extra information"
-#~ msgstr "显示额外信息"
-
-#~ msgid "Hide extra information"
-#~ msgstr "隐藏额外信息"
-
-#~ msgid "Publish to the web your local scores."
-#~ msgstr "把你的本地分数发布到网络上。"
-
-#~ msgid "_Participate"
-#~ msgstr "参与(_P)"
-
-#~ msgid "Download from the web the most up to date ranking."
-#~ msgstr "从网络上下载最新的排名。"
-
-#~ msgid "_Update"
-#~ msgstr "更新(_U)"
-
-#~ msgid "Load other exercises/lessons"
-#~ msgstr "加载其他练习/课程"
-
-#~ msgid "_Other texts"
-#~ msgstr "其它文字"
-
-#~ msgid "Edit the character set to be used in this lesson."
-#~ msgstr "编辑本课中使用的字母集。"
-
-#~ msgid "This is a specific exercise, adjusted to your error profile."
-#~ msgstr "这是一个专门的练习，根据你的错误资料而调整。"
-
-#~ msgid "Edit the character set to be used in lessons 44 through 50."
-#~ msgstr "编辑从44课到50课使用的字母集。"
-
-#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-#~ msgstr "点击这里而重新开始练习。热键: [Ctrl R]"
-
-#~ msgid "Show the virtual keyboard and the relation between fingers and keys."
-#~ msgstr "显示虚拟键盘以及手指和按键的关系。"
-
-#~ msgid "_Keyboard"
-#~ msgstr "键盘(_K)"
-
-#~ msgid "Select the font to be used in the exercise window."
-#~ msgstr "选择练习窗口中使用的字体。"
-
-#~ msgid "_Font"
-#~ msgstr "字体(_F)"
-
-#~ msgid "Keep this checked if you want to get those nice beeps."
-#~ msgstr "如果你想获得好的报错声就选择这个。"
-
-#~ msgid "_Beep"
-#~ msgstr "报错(_B)"
-
-#~ msgid "Co_urse information"
-#~ msgstr "课程信息(_u)"
-
-#~ msgid "Charts showing the learning progress along the exercises."
-#~ msgstr "展示学习进展的图表。"
-
-#~ msgid "_Progress"
-#~ msgstr "进展(_P)"
-
-#~ msgid "Return to the main menu."
-#~ msgstr "回到主菜单。"
-
-#~ msgid "Show local and external scores from other users."
-#~ msgstr "显示本地和外部其他用户的分数。"
-
-#~ msgid "_Top 10"
-#~ msgstr "冠军榜(_T)"
 
 #~ msgid "Klavaro"
 #~ msgstr "Klavaro"
