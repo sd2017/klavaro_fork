@@ -615,94 +615,6 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
       <action-widget response="0">button_filechooser_open</action-widget>
     </action-widgets>
   </object>
-  <object class="GtkFontSelectionDialog" id="fontselectiondialog_tutor">
-    <property name="can_focus">False</property>
-    <property name="border_width">4</property>
-    <property name="title" translatable="yes">Font definition</property>
-    <property name="window_position">mouse</property>
-    <property name="destroy_with_parent">True</property>
-    <property name="type_hint">dialog</property>
-    <property name="skip_taskbar_hint">True</property>
-    <property name="deletable">False</property>
-    <property name="gravity">center</property>
-    <signal name="response" handler="on_fontselectiondialog_tutor_response" swapped="no"/>
-    <child internal-child="vbox">
-      <object class="GtkBox" id="fontselectiondialog-vbox1">
-        <property name="can_focus">False</property>
-        <child internal-child="action_area">
-          <object class="GtkButtonBox" id="fontselectiondialog-action_area1">
-            <property name="can_focus">False</property>
-            <child internal-child="cancel_button">
-              <object class="GtkButton" id="cancel_button1">
-                <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="can_default">True</property>
-                <property name="receives_default">False</property>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack_type">end</property>
-                <property name="position">0</property>
-              </packing>
-            </child>
-            <child internal-child="apply_button">
-              <object class="GtkButton" id="apply_button1">
-                <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="can_default">True</property>
-                <property name="receives_default">False</property>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack_type">end</property>
-                <property name="position">1</property>
-              </packing>
-            </child>
-            <child internal-child="ok_button">
-              <object class="GtkButton" id="ok_button1">
-                <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="can_default">True</property>
-                <property name="receives_default">False</property>
-                <property name="yalign">0.49000000953674316</property>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack_type">end</property>
-                <property name="position">2</property>
-              </packing>
-            </child>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="pack_type">end</property>
-            <property name="position">0</property>
-          </packing>
-        </child>
-        <child internal-child="font_selection">
-          <object class="GtkFontSelection" id="font_selection1">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="border_width">4</property>
-          </object>
-          <packing>
-            <property name="expand">True</property>
-            <property name="fill">True</property>
-            <property name="position">1</property>
-          </packing>
-        </child>
-      </object>
-    </child>
-    <action-widgets>
-      <action-widget response="0">cancel_button1</action-widget>
-      <action-widget response="0">apply_button1</action-widget>
-      <action-widget response="0">ok_button1</action-widget>
-    </action-widgets>
-  </object>
   <object class="GtkWindow" id="popup_other">
     <property name="width_request">450</property>
     <property name="height_request">400</property>
@@ -1745,8 +1657,8 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                 <property name="can_focus">True</property>
                 <property name="receives_default">False</property>
                 <property name="tooltip_text" translatable="yes">Show previous screen.</property>
-                <accelerator key="Left" signal="clicked" modifiers="GDK_SHIFT_MASK"/>
                 <accelerator key="Left" signal="clicked"/>
+                <accelerator key="Left" signal="clicked" modifiers="GDK_SHIFT_MASK"/>
                 <signal name="clicked" handler="on_button_keyboard_previous_clicked" swapped="no"/>
                 <child>
                   <object class="GtkAlignment" id="alignment3">
@@ -1804,8 +1716,8 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                 <property name="can_default">True</property>
                 <property name="receives_default">False</property>
                 <property name="tooltip_text" translatable="yes">Show next screen.</property>
-                <accelerator key="Right" signal="clicked" modifiers="GDK_SHIFT_MASK"/>
                 <accelerator key="Right" signal="clicked"/>
+                <accelerator key="Right" signal="clicked" modifiers="GDK_SHIFT_MASK"/>
                 <signal name="clicked" handler="on_button_keyboard_next_clicked" swapped="no"/>
                 <child>
                   <object class="GtkAlignment" id="alignment2">
@@ -3751,7 +3663,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                 <property name="has_default">True</property>
                 <property name="tooltip_text" translatable="yes">Drag and drop text here to practice with it.</property>
                 <property name="secondary_icon_stock">gtk-clear</property>
-                <property name="secondary_icon_tooltip_text">Press here to restart the exercise. Hotkey: [Ctrl-R]</property>
+                <property name="secondary_icon_tooltip_text" translatable="yes">Press here to restart the exercise. Hotkey: [Ctrl-R]</property>
                 <signal name="insert-text" handler="on_entry_mesg_insert_text" after="yes" swapped="no"/>
                 <signal name="activate" handler="on_entry_mesg_activate" after="yes" swapped="no"/>
                 <signal name="delete-text" handler="on_entry_mesg_delete_text" after="yes" swapped="no"/>
@@ -3763,6 +3675,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
               <packing>
                 <property name="expand">True</property>
                 <property name="fill">True</property>
+                <property name="padding">5</property>
                 <property name="position">0</property>
               </packing>
             </child>
@@ -3771,8 +3684,8 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="visible_window">False</property>
-                <accelerator key="R" signal="grab_focus" modifiers="GDK_CONTROL_MASK"/>
                 <accelerator key="r" signal="grab_focus" modifiers="GDK_CONTROL_MASK"/>
+                <accelerator key="R" signal="grab_focus" modifiers="GDK_CONTROL_MASK"/>
                 <signal name="grab-focus" handler="on_eventbox_tutor_restart_grab_focus" swapped="no"/>
                 <child>
                   <object class="GtkButton" id="button_tutor_restart">
@@ -3782,8 +3695,8 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                     <property name="border_width">4</property>
                     <property name="relief">none</property>
                     <property name="focus_on_click">False</property>
-                    <accelerator key="r" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
                     <accelerator key="R" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
+                    <accelerator key="r" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
                     <signal name="clicked" handler="on_button_tutor_restart_clicked" swapped="no"/>
                     <child>
                       <object class="GtkImage" id="image1">
@@ -3848,51 +3761,21 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
               <packing>
                 <property name="expand">False</property>
                 <property name="fill">False</property>
-                <property name="padding">2</property>
                 <property name="position">2</property>
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="button_tutor_font">
+              <object class="GtkFontButton" id="fontbutton_tutor">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
-                <property name="receives_default">False</property>
-                <property name="tooltip_text" translatable="yes">Select the font to be used in the exercise window.</property>
+                <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Font definition</property>
                 <property name="relief">none</property>
-                <signal name="clicked" handler="on_button_tutor_font_clicked" swapped="no"/>
-                <child>
-                  <object class="GtkHBox" id="hbox3">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <child>
-                      <object class="GtkImage" id="image_font">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="xpad">2</property>
-                        <property name="stock">gtk-select-font</property>
-                        <property name="icon-size">3</property>
-                      </object>
-                      <packing>
-                        <property name="expand">True</property>
-                        <property name="fill">True</property>
-                        <property name="position">0</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkLabel" id="label5">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="label" translatable="yes">_Font</property>
-                        <property name="use_underline">True</property>
-                      </object>
-                      <packing>
-                        <property name="expand">True</property>
-                        <property name="fill">True</property>
-                        <property name="position">1</property>
-                      </packing>
-                    </child>
-                  </object>
-                </child>
+                <property name="font">Monospace 12</property>
+                <property name="preview_text">EĤOŜANĜO ĈIUĴAŬDE eĥoŝanĝo ĉiuĵaŭde</property>
+                <property name="title" translatable="yes">Font definition</property>
+                <property name="font_name">Monospace Bold 12</property>
+                <signal name="font-set" handler="on_fontbutton_tutor_font_set" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -3947,6 +3830,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
               <packing>
                 <property name="expand">False</property>
                 <property name="fill">False</property>
+                <property name="padding">1</property>
                 <property name="position">4</property>
               </packing>
             </child>

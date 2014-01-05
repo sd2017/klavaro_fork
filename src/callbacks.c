@@ -281,6 +281,7 @@ on_text_tutor_realize (GtkWidget * widget, gpointer user_data)
 		main_preferences_set_string ("tutor", "lesson_font", tmp_font);
 	}
 	gtk_text_buffer_create_tag (buf, "lesson_font", "font", tmp_font, NULL);
+	gtk_font_button_set_font_name (GTK_FONT_BUTTON (get_wg ("fontbutton_tutor")), tmp_font);
 
 	/* Change default font throughout the widget */
 	font_desc = pango_font_description_from_string (tmp_font);
@@ -469,20 +470,7 @@ on_button_tutor_show_keyb_clicked (GtkButton * button, gpointer user_data)
 }
 
 G_MODULE_EXPORT void
-on_button_tutor_font_clicked (gpointer user_data)
-{
-	GtkWidget *wg;
-	gchar *font;
-
-	wg = get_wg ("fontselectiondialog_tutor");
-	font = main_preferences_get_string ("tutor", "lesson_font");
-	gtk_font_selection_dialog_set_font_name (GTK_FONT_SELECTION_DIALOG (wg), font);
- 	gtk_widget_show (wg);
-	g_free (font);
-}
-
-G_MODULE_EXPORT void
-on_fontselectiondialog_tutor_response (GtkDialog * dialog, gint response_id, gpointer user_data)
+on_fontbutton_tutor_font_set (GtkFontButton * fbut, gpointer user_data)
 {
 	GtkWidget *wg;
 	GtkTextBuffer *buf;
@@ -491,18 +479,12 @@ on_fontselectiondialog_tutor_response (GtkDialog * dialog, gint response_id, gpo
 	GtkTextIter end;
 	gchar *tmp_font;
 
-	if (response_id == GTK_RESPONSE_CANCEL)
-		tmp_font = main_preferences_get_string ("tutor", "lesson_font");
-	else
-		tmp_font =
-			g_strdup (gtk_font_selection_dialog_get_font_name
-				  (GTK_FONT_SELECTION_DIALOG (dialog)));
-
+	tmp_font = g_strdup (gtk_font_button_get_font_name (fbut));
 	if (tmp_font == NULL)
 		tmp_font = g_strdup (LESSON_FONT);
-
-	if (response_id == GTK_RESPONSE_OK)
-		main_preferences_set_string ("tutor", "lesson_font", tmp_font);
+	if (strlen (tmp_font) == 0)
+		tmp_font = g_strdup (LESSON_FONT);
+	main_preferences_set_string ("tutor", "lesson_font", tmp_font);
 
 	wg = get_wg ("text_tutor");
 	buf = gtk_text_view_get_buffer (GTK_TEXT_VIEW (wg));
@@ -514,9 +496,6 @@ on_fontselectiondialog_tutor_response (GtkDialog * dialog, gint response_id, gpo
 	gtk_text_buffer_apply_tag_by_name (buf, "lesson_font", &start, &end);
 
 	g_free (tmp_font);
-
-	if (response_id != GTK_RESPONSE_APPLY)
-		gtk_widget_hide (get_wg ("fontselectiondialog_tutor"));
 }
 
 G_MODULE_EXPORT void
