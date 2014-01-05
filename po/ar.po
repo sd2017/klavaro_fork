@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.3.0\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-04 17:03-0200\n"
+"POT-Creation-Date: 2014-01-05 12:05-0200\n"
 "PO-Revision-Date: 2009-10-20 13:59+0300\n"
 "Last-Translator: Usama Akkad <uakkad@gmail.com>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -18,51 +18,51 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural= n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: data/klavaro.ui:7
+#: ../data/klavaro.glade.h:1
 msgid "About 'Klavaro'"
 msgstr "حول 'كلفاروا'"
 
-#: data/klavaro.ui:16
+#: ../data/klavaro.glade.h:2 ../data/klavaro.desktop.in.h:1
 msgid "Yet another touch typing tutor"
 msgstr "جولة تعليم طباعة أخرى جديدة"
 
-#: data/klavaro.ui:82
+#: ../data/klavaro.glade.h:3
 msgid "Remember always: someone loves you!"
 msgstr "تذكر دائما: شخص ما يحبك!"
 
-#: data/klavaro.ui:109
+#: ../data/klavaro.glade.h:4
 msgid "Change language"
 msgstr "غير اللغة"
 
-#: data/klavaro.ui:131
+#: ../data/klavaro.glade.h:5
 msgid "Attention!"
 msgstr "إنتباه!"
 
-#: data/klavaro.ui:168
+#: ../data/klavaro.glade.h:6
 msgid "Do you confirm?"
 msgstr "أتؤكد؟"
 
-#: data/klavaro.ui:231
+#: ../data/klavaro.glade.h:7
 msgid "_No"
 msgstr "_لا"
 
-#: data/klavaro.ui:288
+#: ../data/klavaro.glade.h:8
 msgid "_Yes"
 msgstr "_نعم"
 
-#: data/klavaro.ui:323
+#: ../data/klavaro.glade.h:9
 msgid "Help?"
 msgstr "مساعدة؟"
 
-#: data/klavaro.ui:346
+#: ../data/klavaro.glade.h:10
 msgid "This is a tip. Now you press this button to return to the main menu."
 msgstr "هذا تلميح. الآن انقر هذا الزر للعودة للقائمة الرئيسية."
 
-#: data/klavaro.ui:376 data/klavaro.ui:4136
+#: ../data/klavaro.glade.h:11
 msgid "B_ack to menu"
 msgstr "ارجع لل_قائمة"
 
-#: data/klavaro.ui:432
+#: ../data/klavaro.glade.h:12
 msgid ""
 "The main menu of the application is very straightforward. Just select the "
 "type of exercise you wish to take. Do not worry about clicking any button on "
@@ -71,7 +71,7 @@ msgstr ""
 "القائمة الرئيسية للبرنامج ميسرة جدا. حدد نوع التمرين الذي تريده. لا تقلق من "
 "ضغط أي زر على الشاشة. لن تضرك الأزرار أبدا!"
 
-#: data/klavaro.ui:449
+#: ../data/klavaro.glade.h:13
 msgid ""
 "Also the controls have tips which will appear if you hover over them with "
 "your mouse. These tips can come in very handy. To see how these tips work, "
@@ -81,192 +81,191 @@ msgstr ""
 "أيضا الأزرار  لها تلميحات تظهر عند الوقوف عليها. التلميحات هذه مفيدة. لترى "
 "كيف تعمل, ضع مؤشر الفأرة على الزر ادناه, ودون نقر, انتظر ظهور التلميح..."
 
-#: data/klavaro.ui:479
+#: ../data/klavaro.glade.h:14
 msgid "Klavaro - Select file"
 msgstr "كلفاروا - حدد ملفا"
 
-#: data/klavaro.ui:528 data/klavaro.ui:986 data/klavaro.ui:1898
+#: ../data/klavaro.glade.h:15
 msgid "_Cancel"
 msgstr "إ_لغ"
 
-#: data/klavaro.ui:580
+#: ../data/klavaro.glade.h:16
 msgid "_Open"
 msgstr "ا_فتح"
 
-#: data/klavaro.ui:621
+#: ../data/klavaro.glade.h:17
 msgid "Font definition"
 msgstr "تعريف الخط"
 
-#: data/klavaro.ui:764
+#: ../data/klavaro.glade.h:18
 msgid "Re_name:"
 msgstr "أعد ال_تسمية:"
 
-#: data/klavaro.ui:778
+#: ../data/klavaro.glade.h:19
 msgid "Rename the selected item."
 msgstr "أعد تسمية العنصر المحدد."
 
-#: data/klavaro.ui:806
+#: ../data/klavaro.glade.h:20
 msgid ""
 "Read a text file and add a copy of it here. The file must be encoded in "
 "UTF-8."
 msgstr "اقرأ ملفا نصيا و اضف نسخة منه هنا. يجب أن يكون بترميز UTF-8."
 
-#: data/klavaro.ui:831
+#: ../data/klavaro.glade.h:21
 msgid "_Open text file"
 msgstr "ا_فتح ملفا نصيا"
 
-#: data/klavaro.ui:855
+#: ../data/klavaro.glade.h:22
 msgid "Paste text that was copied to the clipboard."
 msgstr "الصق الملف المنسوخ للحافظة."
 
-#: data/klavaro.ui:880
+#: ../data/klavaro.glade.h:23
 msgid "_Paste from clipboard"
 msgstr "أ_لصق من الحافظة"
 
-#: data/klavaro.ui:904
+#: ../data/klavaro.glade.h:24
 msgid "Remove the selected item."
 msgstr "أزل العنصر المحدد."
 
-#: data/klavaro.ui:929
+#: ../data/klavaro.glade.h:25
 msgid "_Remove copied file"
 msgstr "أ_زل العناصر المنسوخة"
 
-#: data/klavaro.ui:1013
+#: ../data/klavaro.glade.h:26
 msgid "Apply the selected item to create an exercise."
 msgstr "طبق العناصر المحددة لتطبيق تمرين."
 
-#: data/klavaro.ui:1042
+#: ../data/klavaro.glade.h:27
 msgid "_Apply"
 msgstr "_طبق"
 
-#: data/klavaro.ui:1122 data/klavaro.ui:1981 data/klavaro.ui:3423
+#: ../data/klavaro.glade.h:28
 msgid "Close this window."
 msgstr "أغلق هذه النافذة."
 
-#: data/klavaro.ui:1152 data/klavaro.ui:2012 data/klavaro.ui:2762
-#: data/klavaro.ui:2994 data/klavaro.ui:3451 data/klavaro.ui:4088
+#: ../data/klavaro.glade.h:29
 msgid "_Close"
 msgstr "أ_غلق"
 
-#: data/klavaro.ui:1380
+#: ../data/klavaro.glade.h:30
 msgid "Remove the selected custom layout."
 msgstr "أزل الشريحة المخصصة المحددة."
 
-#: data/klavaro.ui:1409
+#: ../data/klavaro.glade.h:31
 msgid "_Remove"
 msgstr "أ_زل"
 
-#: data/klavaro.ui:1523 data/klavaro.ui:1568
+#: ../data/klavaro.glade.h:32
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
 msgstr "بدل تأثير Shift على المفاتيح. يبدل بين العالي و المنخفضل للمفاتيح."
 
-#: data/klavaro.ui:1542
+#: ../data/klavaro.glade.h:33
 msgid "SPACE BAR"
 msgstr "زر المسافة"
 
-#: data/klavaro.ui:1552 src/keyboard.c:1630
+#: ../data/klavaro.glade.h:34 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "مصغرات"
 
-#: data/klavaro.ui:1638
+#: ../data/klavaro.glade.h:35
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: data/klavaro.ui:1653
+#: ../data/klavaro.glade.h:36
 msgid "Caps"
 msgstr "Caps"
 
-#: data/klavaro.ui:1705
+#: ../data/klavaro.glade.h:37
 msgid "S_ave as:"
 msgstr "ا_حفظ كـ:"
 
-#: data/klavaro.ui:1744
+#: ../data/klavaro.glade.h:38
 msgid "Show previous screen."
 msgstr "اعرض الشاشة السابقة."
 
-#: data/klavaro.ui:1774
+#: ../data/klavaro.glade.h:39
 msgid "_Previous step"
 msgstr "ال_خطوة السابقة"
 
-#: data/klavaro.ui:1803
+#: ../data/klavaro.glade.h:40
 msgid "Show next screen."
 msgstr "اعرض الشاشة التالية."
 
-#: data/klavaro.ui:1833
+#: ../data/klavaro.glade.h:41
 msgid "_Next step"
 msgstr "الخطوة ال_تالية"
 
-#: data/klavaro.ui:1870
+#: ../data/klavaro.glade.h:42
 msgid "Return without any modification."
 msgstr "ارجع من دون أي تعديل."
 
-#: data/klavaro.ui:1927
+#: ../data/klavaro.glade.h:43
 msgid "Save the current keyboard layout with the name specified above."
 msgstr "احفظ تخطيط المفاتيح الحالي بالاسم المحدد أعلاه."
 
-#: data/klavaro.ui:1955
+#: ../data/klavaro.glade.h:44
 msgid "_Save and use"
 msgstr "ا_حفظ و استخدم"
 
-#: data/klavaro.ui:2038
+#: ../data/klavaro.glade.h:45
 msgid ""
 "If you like those beautiful hands, click here to close this window keeping "
 "them."
 msgstr "إن اعجبتك هذه الأيادي الجميلة, أنقر هنا لغلق هذه النافذة وابقائهم."
 
-#: data/klavaro.ui:2068
+#: ../data/klavaro.glade.h:46
 msgid "_Keep hands"
 msgstr "أ_بق الأيادي"
 
-#: data/klavaro.ui:2102
+#: ../data/klavaro.glade.h:47
 msgid "Klavaro - Main menu"
 msgstr "كلفاروا - القائمة الرئيسية"
 
-#: data/klavaro.ui:2121
+#: ../data/klavaro.glade.h:48
 msgid "Don't be shy about learning the basics!"
 msgstr "لا تكن خجولا من تعلم الأساسيات!"
 
-#: data/klavaro.ui:2169
+#: ../data/klavaro.glade.h:49
 msgid "Learn how to type correctly"
 msgstr "تعلم طريقة الطباعة الصحيحة"
 
-#: data/klavaro.ui:2198
+#: ../data/klavaro.glade.h:50
 msgid "Initial training for your fingers."
 msgstr "تدريب ابتدائي لأصابعك."
 
-#: data/klavaro.ui:2246
+#: ../data/klavaro.glade.h:51
 msgid "First steps with initial training"
 msgstr "الخطوات الأولى للتعليم الابتدائي"
 
-#: data/klavaro.ui:2275
+#: ../data/klavaro.glade.h:52
 msgid "Memorizing the keyboard practicing random keys exercises."
 msgstr "حفظ لوحة المفاتيح بتمارين مفاتيح عشوائية."
 
-#: data/klavaro.ui:2323
+#: ../data/klavaro.glade.h:53
 msgid "Practice with random keys"
 msgstr "التمرن بمفاتيح عشوائية"
 
 #. English typo: touchs -> touches
-#: data/klavaro.ui:2352
+#: ../data/klavaro.glade.h:55
 #, fuzzy
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "تسريع اللمسات بالتمرن على كلمات عشوائية."
 
-#: data/klavaro.ui:2400
+#: ../data/klavaro.glade.h:56
 msgid "Practice with random words"
 msgstr "التدرب بكلمات عشوائية"
 
-#: data/klavaro.ui:2429
+#: ../data/klavaro.glade.h:57
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "الإتقان بالتمرن على فقرات كاملة."
 
-#: data/klavaro.ui:2477
+#: ../data/klavaro.glade.h:58
 msgid "Practice with complete texts"
 msgstr "تمرن بفقرات كاملة"
 
-#: data/klavaro.ui:2520
+#: ../data/klavaro.glade.h:59
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
@@ -274,184 +273,190 @@ msgstr ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
 
-#: data/klavaro.ui:2522
+#: ../data/klavaro.glade.h:60
 msgid "_Keyboard:"
 msgstr "_لوحة المفاتيح:"
 
-#: data/klavaro.ui:2535
+#: ../data/klavaro.glade.h:61
 msgid "Language for modules 3 and 4."
 msgstr "اللغة للمكون 3 و 4."
 
-#: data/klavaro.ui:2537
+#: ../data/klavaro.glade.h:62
 msgid "_Language:"
 msgstr "الل_غة:"
 
-#: data/klavaro.ui:2546
+#: ../data/klavaro.glade.h:63
 #, fuzzy
 msgid "Speech"
 msgstr "السرعة"
 
-#: data/klavaro.ui:2620
+#: ../data/klavaro.glade.h:64
 msgid "Little tip about this program."
 msgstr "لمحة صغيرة عن البرنامج."
 
-#: data/klavaro.ui:2650
+#: ../data/klavaro.glade.h:65
 msgid "_Help"
 msgstr "_مساعدة"
 
-#: data/klavaro.ui:2676
+#: ../data/klavaro.glade.h:66
 msgid "General information about the program."
 msgstr "معلومات عامة عن البرنامج."
 
-#: data/klavaro.ui:2706
+#: ../data/klavaro.glade.h:67
 msgid "_About..."
 msgstr "_حول..."
 
-#: data/klavaro.ui:2732 data/klavaro.ui:4064
+#: ../data/klavaro.glade.h:68
 msgid "Exit the application immediately."
 msgstr "اخرج من البرنامج مباشرة."
 
-#: data/klavaro.ui:2798
+#: ../data/klavaro.glade.h:69
 msgid "Klavaro - Progress"
 msgstr "كلفاروا - الانجاز"
 
-#: data/klavaro.ui:2847 data/klavaro.ui:3575
+#: ../data/klavaro.glade.h:70
 msgid "_Lesson:"
 msgstr "_دروس:"
 
-#: data/klavaro.ui:2920
+#: ../data/klavaro.glade.h:71
 msgid "Value"
 msgstr "القيمة"
 
-#: data/klavaro.ui:2964
+#: ../data/klavaro.glade.h:72
 msgid "Close this window, returning to the exercise."
 msgstr "أغلق هذه النافذة, للعودة للتمرين."
 
-#: data/klavaro.ui:3034
+#: ../data/klavaro.glade.h:73
 msgid "Clear all the progress data, for every module."
 msgstr "امسح كل معلومات التقدم, لكل الوحدات."
 
-#: data/klavaro.ui:3065
+#: ../data/klavaro.glade.h:74
 msgid "_Reset"
 msgstr "_صفر"
 
-#: data/klavaro.ui:3102
+#: ../data/klavaro.glade.h:75
 msgid "Top 10"
 msgstr "أفضل 10"
 
-#: data/klavaro.ui:3223
+#: ../data/klavaro.glade.h:76
 msgid "Show extra information"
 msgstr "أظهر مزيدا من المعلومات"
 
-#: data/klavaro.ui:3245
+#: ../data/klavaro.glade.h:77
 msgid "Hide extra information"
 msgstr "أخف المعلومات الإضافية"
 
-#: data/klavaro.ui:3299
+#: ../data/klavaro.glade.h:78
 msgid "Publish to the web your local scores."
 msgstr "ارسل نتائجك المحلية للانترنت."
 
-#: data/klavaro.ui:3328
+#: ../data/klavaro.glade.h:79
 msgid "_Participate"
 msgstr "_شارك"
 
-#: data/klavaro.ui:3355
+#: ../data/klavaro.glade.h:80
 msgid "Download from the web the most up to date ranking."
 msgstr "أنزل آخر التقييمات من الانترنت."
 
-#: data/klavaro.ui:3384
+#: ../data/klavaro.glade.h:81
 msgid "_Update"
 msgstr "_حدث"
 
-#: data/klavaro.ui:3515
+#: ../data/klavaro.glade.h:82
 msgid "Load other exercises/lessons"
 msgstr "حمل تمارين/دروس أخرى"
 
-#: data/klavaro.ui:3540
+#: ../data/klavaro.glade.h:83
 msgid "_Other texts"
 msgstr "_نصوص أخرى"
 
-#: data/klavaro.ui:3635
+#: ../data/klavaro.glade.h:84
 msgid "Edit the character set to be used in this lesson."
 msgstr "حرر مجموعة المحارف المستخدمة في هذا الدرس."
 
-#: data/klavaro.ui:3651
+#: ../data/klavaro.glade.h:85
 msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "هذا تمرين خاص, عدل وفقا لسجل أخطائك."
 
-#: data/klavaro.ui:3678
-msgid "Edit the character set to be used in lessons 44 through 50."
+#: ../data/klavaro.glade.h:86
+#, fuzzy
+msgid ""
+"Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr "حرر مجموعة المحارف المستخدمة من الدرس 44 إلى 50."
 
-#: data/klavaro.ui:3750 src/tutor.c:252
+#: ../data/klavaro.glade.h:87 ../src/tutor.c:252
 msgid "Drag and drop text here to practice with it."
 msgstr "اسحب و أفلت نصا هنا للتمرين عليه."
 
-#: data/klavaro.ui:3779
+#: ../data/klavaro.glade.h:88
 msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
 msgstr "انقر هنا لإعادة بدء التمرين. المفتاح السريع: [Ctrl R]"
 
-#: data/klavaro.ui:3808
+#: ../data/klavaro.glade.h:89
 msgid "Show the virtual keyboard and the relation between fingers and keys."
 msgstr "أظهر لوحة مفاتيح و الربط بين المفاتيح و الأصابع."
 
-#: data/klavaro.ui:3834
+#: ../data/klavaro.glade.h:90
 msgid "_Keyboard"
 msgstr "_لوحة مفاتيح"
 
-#: data/klavaro.ui:3858
+#: ../data/klavaro.glade.h:91
 msgid "Select the font to be used in the exercise window."
 msgstr "اختر خط نافذة التمرين."
 
-#: data/klavaro.ui:3883
+#: ../data/klavaro.glade.h:92
 msgid "_Font"
 msgstr "ال_خط"
 
-#: data/klavaro.ui:3907
+#: ../data/klavaro.glade.h:93
 msgid "Keep this checked if you want to get those nice beeps."
 msgstr "ابقه محددا لسماع النغمات اللطيفة."
 
-#: data/klavaro.ui:3934
+#: ../data/klavaro.glade.h:94
 msgid "_Beep"
 msgstr "_نغمة"
 
-#: data/klavaro.ui:3992
+#: ../data/klavaro.glade.h:95
 msgid "Co_urse information"
 msgstr "معلومات ال_درس"
 
-#: data/klavaro.ui:4016
+#: ../data/klavaro.glade.h:96
 msgid "Charts showing the learning progress along the exercises."
 msgstr "المخططات التي تعرض سير التعلم  خلال التمرن."
 
-#: data/klavaro.ui:4039
+#: ../data/klavaro.glade.h:97
 msgid "_Progress"
 msgstr "_التقدم"
 
-#: data/klavaro.ui:4113
+#: ../data/klavaro.glade.h:98
 msgid "Return to the main menu."
 msgstr "العودة للقائمة الرئيسية."
 
-#: data/klavaro.ui:4162
+#: ../data/klavaro.glade.h:99
 msgid "Show local and external scores from other users."
 msgstr "أظهر المعدلات المحلية و الخارجية من مستخدمين آخرين."
 
-#: data/klavaro.ui:4185
+#: ../data/klavaro.glade.h:100
 msgid "_Top 10"
 msgstr "أ_فضل 10"
 
-#: src/main.c:243
+#: ../data/klavaro.desktop.in.h:2
+msgid "keyboard;typing;tutorial;"
+msgstr ""
+
+#: ../src/main.c:243
 msgid "(Custom)"
 msgstr "(مخصص)"
 
-#: src/main.c:244
+#: ../src/main.c:244
 msgid "(Edit custom)"
 msgstr "(حرر المخصص)"
 
-#: src/main.c:245
+#: ../src/main.c:245
 msgid "(Default)"
 msgstr "(الافتراضي)"
 
-#: src/main.c:322
+#: ../src/main.c:322
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
@@ -462,83 +467,88 @@ msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
 
-#: src/main.c:364 src/keyboard.c:1291
+#. Set main labels (for translation)
+#.
+#: ../src/main.c:364 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "مقدمة"
 
-#: src/main.c:367 src/top10.c:109
+#: ../src/main.c:367 ../src/top10.c:109
 msgid "Basic course"
 msgstr "درس ابتدائي"
 
-#: src/main.c:370 src/top10.c:112
+#: ../src/main.c:370 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "التكيف"
 
-#: src/main.c:373 src/callbacks.c:1310 src/top10.c:89 src/top10.c:115
+#: ../src/main.c:373 ../src/callbacks.c:1246 ../src/top10.c:89
+#: ../src/top10.c:115
 msgid "Speed"
 msgstr "السرعة"
 
-#: src/main.c:376 src/callbacks.c:1333 src/top10.c:91 src/top10.c:118
+#: ../src/main.c:376 ../src/callbacks.c:1269 ../src/top10.c:91
+#: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "الانسيابية"
 
-#: src/callbacks.c:468 src/tutor.c:391
+#: ../src/callbacks.c:404 ../src/tutor.c:391
 msgid "Keys:"
 msgstr "المفاتيح:"
 
-#: src/callbacks.c:858 src/callbacks.c:874
+#: ../src/callbacks.c:794 ../src/callbacks.c:810
 msgid "Connecting..."
 msgstr "الاتصال..."
 
-#: src/callbacks.c:1145
+#: ../src/callbacks.c:1081
 msgid "Overwrite user layout"
 msgstr "غير خريطة المستخدم"
 
-#: src/callbacks.c:1147
+#: ../src/callbacks.c:1083
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "سيغير هذا خريطة مفاتيح سابقة."
 
-#: src/callbacks.c:1154
+#: ../src/callbacks.c:1090
 msgid "Remove user layout"
 msgstr "أزل خريطة المستخدم"
 
-#: src/callbacks.c:1156
+#: ../src/callbacks.c:1092
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "سيزيل هذا خريطة مفاتيح مسبقة"
 
-#: src/callbacks.c:1163
+#: ../src/callbacks.c:1099
 msgid "Reset progress data"
 msgstr "صفر بيانات التقدم"
 
-#: src/callbacks.c:1164
+#: ../src/callbacks.c:1100
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "سيحذف هذا كل بيانات التقدم المعروضة في المخططات."
 
-#: src/callbacks.c:1307 src/top10.c:87
+#: ../src/callbacks.c:1243 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "الدقة"
 
-#: src/callbacks.c:1310 src/tutor.c:1160
+#: ../src/callbacks.c:1246 ../src/tutor.c:1163
 msgid "(WPM)"
 msgstr "(ك.د)"
 
-#: src/callbacks.c:1321
+#: ../src/callbacks.c:1257
 msgid "Errors"
 msgstr "الأخطاء"
 
-#: src/callbacks.c:1324
+#: ../src/callbacks.c:1260
 msgid "Touch times (s)"
 msgstr ""
 
-#: src/callbacks.c:1336 src/tutor.c:1187 src/top10.c:69
+#: ../src/callbacks.c:1272 ../src/tutor.c:1190 ../src/top10.c:69
 msgid "Score"
 msgstr "المعدل"
 
-#: src/translation.c:485 src/tutor.c:1597
+#. Translators: your language code (first 2 letters of your po-file)
+#: ../src/translation.c:485 ../src/tutor.c:1600
 msgid "en"
 msgstr "ar"
 
-#: src/translation.c:572
+#: ../src/translation.c:572
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -549,7 +559,7 @@ msgstr ""
 "تذكر أن عليك ابقاء يديك بشكل صحيح على الصف المنزل للوحة المفاتيح دائما (انظر "
 "المقدمة في القائمة الرئيسية)"
 
-#: src/translation.c:576
+#: ../src/translation.c:576
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -558,7 +568,7 @@ msgstr ""
 "مجموعة المفاتيح المستخدمة في كل سلسلة ستعرض لك في سطر الرسالة . مفاتيح  "
 "[Space], [Shift] و [Enter] قد لا تظهر لك هناك لكن ستسخدم كثيرا."
 
-#: src/translation.c:579
+#: ../src/translation.c:579
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -566,7 +576,7 @@ msgstr ""
 "سطر الرسالة ادناه يتبع و يعكس ضغطاتك للمفاتيح. وقت الحاجة, يتغير ويعرض "
 "تعليمات عما يجب عليك فعله."
 
-#: src/translation.c:583
+#: ../src/translation.c:583
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -575,7 +585,7 @@ msgstr ""
 "هنا يمكنك التمرن و تطوير حفظ لكل المفاتيح. ستقدم لك جمل مع كلمات بلا معنى "
 "تخلط بين الأرقام و الرموز."
 
-#: src/translation.c:586
+#: ../src/translation.c:586
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -584,20 +594,20 @@ msgstr ""
 "لإبقاء محتوى الدرس و لوحة المفاتيح مستقلين, جمع الأحرف المعلمة لن يظهر. لجمل "
 "بكلمات حقيقية, استخدم الخيار الرابع من القائمة الرئيسية (حول الإنسابية)."
 
-#: src/translation.c:590
+#: ../src/translation.c:590
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
 msgstr ""
 "بعد كل تمرين سيكون هناك لوح إحصائي يراجع أدائك مع بعض التعليقات المتعلقة."
 
-#: src/translation.c:594
+#: ../src/translation.c:594
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
 msgstr "هذا التمرين مشابه للثاني, للتكيف. الفرق أنك ستطبع هنا كلمات حقيقية."
 
-#: src/translation.c:597
+#: ../src/translation.c:597
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -607,7 +617,7 @@ msgstr ""
 "مع كلمات تريد استخدامها. اضغط خيار ’غير ذلك’  أعلاه و أضف الملفات التي تحوي "
 "تلك النصوص."
 
-#: src/translation.c:601
+#: ../src/translation.c:601
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -615,7 +625,7 @@ msgstr ""
 "مع هذا التمرين التركيز هو على السرعة. لذا, عليك أن تطبع سريعا و ستسمع "
 "الاطراء عندما تستحقه!"
 
-#: src/translation.c:605
+#: ../src/translation.c:605
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -625,7 +635,7 @@ msgstr ""
 "ستسخدم جمل و كلمات كاملة منطقية. قد يشتتك هذا أثناء الطباعة إن كنت تحاول فهم "
 "ما تطبع. التمرين السابق كان يهدف لجعلك تطبع دون تفسير أو تحليل ما تطبع."
 
-#: src/translation.c:609
+#: ../src/translation.c:609
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -639,7 +649,8 @@ msgstr ""
 "إلخ. بعد الوصول لهذا الهدف, فعل الطباعة سيصبح تلقائيا و يتطلب تركيزا أقل. "
 "بعدها سستمكن من الانتباه للمعنى الحقيقي للنص."
 
-#: src/translation.c:614
+#. English typo: minimun -> minimum
+#: ../src/translation.c:614
 #, fuzzy
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
@@ -651,7 +662,8 @@ msgstr ""
 "الإيقاع, بأقل سرعة. هنا سيطلب منك استخدام زر المسح للخلف لتصحيح أي خطأ. "
 "بمعنى آخر, فقط الإدخال دون أخطاء سيقبل."
 
-#: src/keyboard.c:1094
+#. English typo: recomendations -> recommendations
+#: ../src/keyboard.c:1095
 #, fuzzy
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
@@ -661,7 +673,7 @@ msgstr ""
 "التموضع الصحيح لليدين و الأصابع مهم جدا للطباعة الفعالة. ستتعلم أسرع و تطبع "
 "أحسن إذا اتبعت التوصيات التالية."
 
-#: src/keyboard.c:1097
+#: ../src/keyboard.c:1098
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -669,7 +681,7 @@ msgstr ""
 "رأسي اصبع السبابة تقعان على كل من المفتاحين اللذان يحملان نتوئين صغيرين, في "
 "وسط لوحة المفاتيح."
 
-#: src/keyboard.c:1100
+#: ../src/keyboard.c:1101
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -679,7 +691,7 @@ msgstr ""
 "الطريقة, بخبرة بسيطة, لن تحتاج للنظر للوحة المفاتيح للتحقق من أن اصابعك "
 "متوضعة بشكل صحيح."
 
-#: src/keyboard.c:1104
+#: ../src/keyboard.c:1105
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -687,11 +699,11 @@ msgstr ""
 "رؤوس الأصابع الأخرى تقف طبيعيا بجانب السبابة, فوق الأحرف التي على نفس الصف "
 "في لوحة المفاتيح."
 
-#: src/keyboard.c:1107
+#: ../src/keyboard.c:1108
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "الحواف الخارجية للإبهام تنام على شريط المسافة."
 
-#: src/keyboard.c:1109
+#: ../src/keyboard.c:1110
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -700,7 +712,7 @@ msgstr ""
 "الجزء من اليدين الأقرب للمعصم يوضع على الطاولة, خارج لوحة المفاتيح. دون هكذا "
 "تموضع سيتعب الذراعان بسرعة.."
 
-#: src/keyboard.c:1112
+#: ../src/keyboard.c:1113
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -712,7 +724,7 @@ msgstr ""
 "لجميع المفاتيح بسرعة و بطبيعية قدر الإمكان. للوصول لهذا الهدف هناك علاقة بين "
 "كل اصبع و مفتاح. هذه العلاقة ستتعلم تدريجيا مع تعلمك للدرس الابتدائي."
 
-#: src/keyboard.c:1118
+#: ../src/keyboard.c:1119
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -721,7 +733,7 @@ msgstr ""
 "عند تعلمك للعلاقة بين الأصابع و المفاتيح, من المهم جدا أن تحرك فقط الأصبع "
 "الذي عليه ضغط المفتاح و إبقاء الأصابع الأخرى في منزلها الأساسي."
 
-#: src/keyboard.c:1122
+#: ../src/keyboard.c:1123
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -729,7 +741,7 @@ msgstr ""
 "بعد حفظ هذه العلاقة, يمكنك ان تتحرر من القاعدة السابقة قليلا, لتحصل على سرعة "
 "أكبر أثناء الطباعة."
 
-#: src/keyboard.c:1125
+#: ../src/keyboard.c:1126
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -738,114 +750,116 @@ msgstr ""
 "يجب أن تكون جاهزا للبدأ بالتمرين مع الدرس الأساسي. سيأخذ منك صبرا و مجهودا "
 "لتكون ناجحا كطابع. نثق بأنك تمتلك ذلك و نتطلع لنجاحك!"
 
-#: src/keyboard.c:1136
+#: ../src/keyboard.c:1137
 #, c-format
 msgid "Step %i"
 msgstr "الخطوة %i"
 
-#: src/keyboard.c:1140
+#. Recommendations
+#: ../src/keyboard.c:1141
 msgid "To position the hands"
 msgstr "لتموضع اليدين"
 
-#: src/keyboard.c:1225
+#. Final words
+#: ../src/keyboard.c:1226
 msgid "Go ahead!"
 msgstr "انطلق!"
 
-#: src/keyboard.c:1234
+#: ../src/keyboard.c:1235
 msgid "Relation between fingers and keys"
 msgstr "العلاقة بين الأصابع و المفاتيح"
 
-#: src/keyboard.c:1235
+#: ../src/keyboard.c:1236
 msgid "Click on any key to see which finger you must use:"
 msgstr "انقر على أي مفتاح لمعرفة اي اصبع عليك استخدامه:"
 
-#: src/keyboard.c:1291 src/keyboard.c:1325
+#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
 msgid "Keyboard"
 msgstr "لوحة المفاتيح"
 
-#: src/keyboard.c:1372
+#: ../src/keyboard.c:1373
 msgid "Create or modify a custom keyboard layout"
 msgstr "أنشأ او عدل خريطة لوحة مفاتيح مخصصة"
 
-#: src/keyboard.c:1618 src/keyboard.c:1642
+#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
 msgid "small finger"
 msgstr "الخنصر"
 
-#: src/keyboard.c:1621 src/keyboard.c:1639
+#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
 msgid "ring finger"
 msgstr "البنصر"
 
-#: src/keyboard.c:1624 src/keyboard.c:1636
+#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
 msgid "middle finger"
 msgstr "الوسطى"
 
-#: src/keyboard.c:1627 src/keyboard.c:1633
+#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
 msgid "index finger"
 msgstr "السبابة"
 
-#: src/keyboard.c:1728
+#: ../src/keyboard.c:1729
 msgid "Press and edit me"
 msgstr "اضغط و حررني"
 
-#: src/tutor.c:176
+#: ../src/tutor.c:176
 msgid "Lesson:"
 msgstr "الدرس:"
 
-#: src/tutor.c:186
+#: ../src/tutor.c:186
 msgid "Paragraphs:"
 msgstr "الفقرات:"
 
-#: src/tutor.c:219
+#: ../src/tutor.c:219
 msgid "Klavaro - Basic Course"
 msgstr "كلفاروا - درس ابتدائي"
 
-#: src/tutor.c:224
+#: ../src/tutor.c:224
 msgid "Klavaro - Adaptability"
 msgstr "كلفاروا - التكييف"
 
-#: src/tutor.c:227
+#: ../src/tutor.c:227
 msgid ""
 "Adaptability exercises: automating the fingers responses, typing over all "
 "the keyboard."
 msgstr "تمارين التكيف: تلقائية إجابة الأصابع, الكتابة على كل اللوحة."
 
-#: src/tutor.c:232
+#: ../src/tutor.c:232
 msgid "Klavaro - Velocity"
 msgstr "كلفاروا - السرعة"
 
-#: src/tutor.c:233
+#: ../src/tutor.c:233
 msgid "Velocity exercises: accelerate typing real words."
 msgstr "تمارين السرعة: تسريع طباعة كلمات حقيقية."
 
-#: src/tutor.c:237
+#: ../src/tutor.c:237
 msgid "Klavaro - Fluidness"
 msgstr "كلفاروا - الإنسيابية"
 
-#: src/tutor.c:239
+#: ../src/tutor.c:239
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr "تمارين الإنسيابية: طباعة فقرات منطقية بدقة."
 
-#: src/tutor.c:301
+#: ../src/tutor.c:301
 msgid "End of exercise. Press [Enter] to start another."
 msgstr "نهاية التمرين. اضغط [إدخال] لبدء آخر."
 
-#: src/tutor.c:329
+#: ../src/tutor.c:329
 msgid "Learning the key positions."
 msgstr "تعلم مواضع المفاتيح."
 
-#: src/tutor.c:332
+#: ../src/tutor.c:332
 msgid "Press any key to start the exercise. "
 msgstr "اضغط اي مفتاح لبدء التمرين."
 
-#: src/tutor.c:440 src/tutor.c:443
+#: ../src/tutor.c:443 ../src/tutor.c:446
 msgid "Start typing when you are ready. "
 msgstr "ابدأ الطباعة عندما تستعد."
 
-#: src/tutor.c:441
+#: ../src/tutor.c:444
 msgid "Use backspace to correct errors."
 msgstr ""
 
-#: src/tutor.c:885
+#: ../src/tutor.c:888
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
@@ -854,11 +868,11 @@ msgstr ""
 "ملاحظة: التسجيل لم يعمل لهذه الجلسة: عدد المحارف المطبوعة  (%i) يجب أن "
 "يتجاوز %i."
 
-#: src/tutor.c:1027
+#: ../src/tutor.c:1030
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "ملاحظة: لقد دخلت قائمة العشرة الأوائل, عظيم!"
 
-#: src/tutor.c:1039
+#: ../src/tutor.c:1042
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
@@ -867,15 +881,16 @@ msgstr ""
 "ملاحظة: النص الذي أدخلته لا يبدو أنه مشابه لنص من اللغة المحددة: لا يمكن "
 "احتسابه في مسابقة ’العشرة الأوائل’."
 
-#: src/tutor.c:1087
+#. Begin the accuracy
+#: ../src/tutor.c:1090
 msgid "STATISTICS"
 msgstr "الاحصاءات"
 
-#: src/tutor.c:1088
+#: ../src/tutor.c:1091
 msgid "Elapsed time:"
 msgstr "الوقت المنقضي:"
 
-#: src/tutor.c:1089
+#: ../src/tutor.c:1092
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "لا دقائق و"
@@ -885,7 +900,7 @@ msgstr[3] "دقائق و"
 msgstr[4] "دقيقة و"
 msgstr[5] "دقيقة و"
 
-#: src/tutor.c:1090
+#: ../src/tutor.c:1093
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "لا ثوان"
@@ -895,75 +910,82 @@ msgstr[3] "ثوان"
 msgstr[4] "ثانية"
 msgstr[5] "ثانية"
 
-#: src/tutor.c:1091
+#: ../src/tutor.c:1094
 msgid "Error ratio:"
 msgstr "نسبة الخطأ:"
 
-#: src/tutor.c:1091
+#: ../src/tutor.c:1094
 msgid "Accuracy:"
 msgstr "الدقة:"
 
-#: src/tutor.c:1112 src/tutor.c:1137 src/tutor.c:1160 src/tutor.c:1186
+#: ../src/tutor.c:1115 ../src/tutor.c:1140 ../src/tutor.c:1163
+#: ../src/tutor.c:1189
 msgid "Goal:"
 msgstr "الهدف:"
 
-#: src/tutor.c:1119
+#: ../src/tutor.c:1122
 msgid "Characters per second:"
 msgstr "محرف في الثانية:"
 
-#: src/tutor.c:1137
+#: ../src/tutor.c:1140
 msgid "(CPS)"
 msgstr "(م.ث)"
 
-#: src/tutor.c:1142
+#: ../src/tutor.c:1145
 msgid "Words per minute:"
 msgstr "كلمة في الدقيقة:"
 
-#: src/tutor.c:1167
+#: ../src/tutor.c:1170
 msgid "Fluidness:"
 msgstr "الإنسيابية:"
 
-#: src/tutor.c:1194
+#: ../src/tutor.c:1197
 msgid "Comments:"
 msgstr "التعليقات:"
 
-#: src/tutor.c:1676
+#: ../src/tutor.c:1679
 msgid "space"
 msgstr ""
 
-#: src/tutor.c:1681
+#. Translators: the name of letter Y
+#: ../src/tutor.c:1684
 msgid "wye"
 msgstr ""
 
-#: src/tutor.c:1685
+#. Translators: the name of the Return key
+#: ../src/tutor.c:1688
 msgid "enter"
 msgstr ""
 
-#: src/tutor.c:1691
+#: ../src/tutor.c:1694
 msgid "apostrophe"
 msgstr ""
 
-#: src/tutor.c:1695
+#. Translators: double quote symbol: "
+#: ../src/tutor.c:1698
 msgid "quote"
 msgstr ""
 
-#: src/tutor.c:1699
+#. Translators: ampersand symbol: &
+#: ../src/tutor.c:1702
 msgid "ampersand"
 msgstr ""
 
-#: src/plot.c:308
+#. Error frequencies or touch times
+#.
+#: ../src/plot.c:308
 msgid "Character"
 msgstr ""
 
-#: src/plot.c:319
+#: ../src/plot.c:319
 msgid "Date & Time"
 msgstr "الوقت & التاريخ"
 
-#: src/basic.c:331
+#: ../src/basic.c:331
 msgid "Positions of keys seems to be learned!"
 msgstr "يبدو أنك تعلمت مواضع المفاتيح!"
 
-#: src/basic.c:332
+#: ../src/basic.c:332
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -975,7 +997,7 @@ msgstr ""
 "إذهب للنوع التالي من التمارين:التكيف.\n"
 "هناك ستتعلم الدقة كأساس.\n"
 
-#: src/basic.c:338
+#: ../src/basic.c:338
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
@@ -983,7 +1005,7 @@ msgstr ""
 "تماما, لقد أحسنت!\n"
 "اذهب للدرس التالي.\n"
 
-#: src/adaptability.c:221
+#: ../src/adaptability.c:221
 msgid ""
 " Your accuracy rate is below 90%...\n"
 " Could you please try again to improve it?\n"
@@ -991,7 +1013,7 @@ msgstr ""
 "معدل دقتك أدنى من 90%...\n"
 "هل يمكنك المحاولة مجددا لتحسينها؟\n"
 
-#: src/adaptability.c:226
+#: ../src/adaptability.c:226
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach 95%?\n"
@@ -999,7 +1021,7 @@ msgstr ""
 "أنت تحسن صنعا. لكن...\n"
 "هل يمكنك إيصال الدقة إلى 95%؟\n"
 
-#: src/adaptability.c:229
+#: ../src/adaptability.c:229
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
@@ -1009,7 +1031,7 @@ msgstr ""
 "وصلت تقريبا, لكن دقتك مازال تحت  %.0f%%.\n"
 "حاول مرات أخرى, لربما شعرت بالضيق, انتقل لنوع آخر من التمارين.\n"
 
-#: src/adaptability.c:236
+#: ../src/adaptability.c:236
 #, c-format
 msgid ""
 " Very good!\n"
@@ -1022,11 +1044,11 @@ msgstr ""
 "إنه الوقت المناسب لزيادة السرعة.\n"
 "اذهب للتمرين الثالث في القائمة الرئيسية.\n"
 
-#: src/velocity.c:312 src/fluidness.c:435
+#: ../src/velocity.c:312 ../src/fluidness.c:435
 msgid "Pasted_or_dropped"
 msgstr "ملصق_أو_مسقط"
 
-#: src/velocity.c:431
+#: ../src/velocity.c:431
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
@@ -1036,7 +1058,7 @@ msgstr ""
 "كن صبورا, حاول مجدد كل يوم, استرح ولا تقلق كثيرا:\n"
 "الإصرار و التمرين سيزيد سرعتك.\n"
 
-#: src/velocity.c:435
+#: ../src/velocity.c:435
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try at least 20 WPM.\n"
@@ -1044,7 +1066,7 @@ msgstr ""
 "مازلت بعيدا من الطريق السريع. يمكنك عمل أفضل من هذا...\n"
 "حاول على الأقل 20 ك.د.\n"
 
-#: src/velocity.c:438
+#: ../src/velocity.c:438
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get 30 WPM.\n"
@@ -1052,7 +1074,7 @@ msgstr ""
 "أحسنت صنعا, لكن عليك زيادة السرعة.\n"
 "وتنبه للدقة. حاول الوصول ل 30 ك.د.\n"
 
-#: src/velocity.c:442
+#: ../src/velocity.c:442
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach 40 WPM?\n"
@@ -1060,7 +1082,7 @@ msgstr ""
 "جيد. الآن يمكنك الركض.\n"
 "أيمكنك الوصول ل 40 ك.د؟\n"
 
-#: src/velocity.c:445
+#: ../src/velocity.c:445
 #, c-format
 msgid ""
 " Very good. You are almost there.\n"
@@ -1069,7 +1091,7 @@ msgstr ""
 "جيد جدا. شارفت على الوصول.\n"
 "أخيرا أتستطيع بلوغ %.0f ك.د؟\n"
 
-#: src/velocity.c:450
+#: ../src/velocity.c:450
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
@@ -1077,7 +1099,7 @@ msgstr ""
 "ممتاز. بالنسبة لهذا الدرس, هذا يكفي.\n"
 "جرب الآن تمارين الانسيابية, موافق؟\n"
 
-#: src/velocity.c:454
+#: ../src/velocity.c:454
 msgid ""
 " Fast! Are you training for a competition?\n"
 " So, try to get 70 WPM!\n"
@@ -1085,7 +1107,7 @@ msgstr ""
 "سريع! هل تتدرب على مسابقة؟\n"
 "إذا, جرب الوصول ل 70 ك.د!\n"
 
-#: src/velocity.c:457
+#: ../src/velocity.c:457
 msgid ""
 " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 " Are you afraid of reaching 80 WPM?\n"
@@ -1093,7 +1115,7 @@ msgstr ""
 "قمة \"qwerty\". الآن عليك التغيير لوضع Dvorak.\n"
 "هل أنت خائف من الوصول ل 80 ك.د?\n"
 
-#: src/velocity.c:461
+#: ../src/velocity.c:461
 msgid ""
 " Dvorak mode dominated!\n"
 " Can you fly at 90 WPM?\n"
@@ -1101,7 +1123,7 @@ msgstr ""
 "السيطرة على وضع Dvorak!\n"
 "هل يمكنك الطيران بسرعة 90 ك.د؟\n"
 
-#: src/velocity.c:465
+#: ../src/velocity.c:465
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
@@ -1109,7 +1131,7 @@ msgstr ""
 "زعيم Dvorak!\n"
 "اعجزتني الكلمات للتعبير عن احترامي!\n"
 
-#: src/fluidness.c:545
+#: ../src/fluidness.c:545
 #, c-format
 msgid ""
 " You type accurately but not so fast.\n"
@@ -1118,7 +1140,7 @@ msgstr ""
 "أنت تكتب بدقة لكن ببطئ.\n"
 "أيمكنك بلوغ %.0f ك.د؟\n"
 
-#: src/fluidness.c:548
+#: ../src/fluidness.c:548
 #, c-format
 msgid ""
 " Your rhythm is not so constant. Calm down.\n"
@@ -1127,7 +1149,7 @@ msgstr ""
 "إيقاعك غير ثابت. اهدأ.\n"
 "للوقت الحالي, حاول جعل الإنسيابية أكبر من %i%%.\n"
 
-#: src/fluidness.c:551
+#: ../src/fluidness.c:551
 #, c-format
 msgid ""
 " You are almost getting there. Type more fluently.\n"
@@ -1136,7 +1158,7 @@ msgstr ""
 "شارفت على الوصول. اكتب بانسيابة أكبر.\n"
 "اريد رؤية انسيابية أكبر من %.0f%%.\n"
 
-#: src/fluidness.c:554
+#: ../src/fluidness.c:554
 msgid ""
 " Congratulations!\n"
 " It seems to me that you are a professional.\n"
@@ -1148,7 +1170,7 @@ msgstr ""
 "لست بحاجة لهذا البرنامج بعد الآن.\n"
 "آمل أن تكون قضيت وقتا ممتعا. شكرا و حياة طيبة!\n"
 
-#: src/fluidness.c:559
+#: ../src/fluidness.c:559
 msgid ""
 " How can you type so fast?\n"
 " You have exceeded all my expectations.\n"
@@ -1160,57 +1182,57 @@ msgstr ""
 "أأنت آلة؟ هل يمكنك أن تعلمني؟\n"
 "لا يمكنني مساعدتك بعد الآن. إذهب لمحترف!\n"
 
-#: src/top10.c:67
+#: ../src/top10.c:67
 msgid "Name"
 msgstr "الاسم"
 
-#: src/top10.c:93
+#: ../src/top10.c:93
 msgid "Chars"
 msgstr "المحرف"
 
-#: src/top10.c:95
+#: ../src/top10.c:95
 msgid "When"
 msgstr "عندما"
 
-#: src/top10.c:124
+#: ../src/top10.c:124
 #, fuzzy
 msgid "Local scores"
 msgstr ""
 "المعدلات المحلية\n"
 "معدلات خارجية"
 
-#: src/top10.c:125
+#: ../src/top10.c:125
 #, fuzzy
 msgid "External scores"
 msgstr ""
 "المعدلات المحلية\n"
 "معدلات خارجية"
 
-#: src/top10.c:719
+#: ../src/top10.c:719
 msgid "Empty ranking. Please practice fluidness."
 msgstr "تقييمات فارغة. رجاء تمرن على الانسيابية."
 
-#: src/top10.c:816
+#: ../src/top10.c:816
 msgid "Not able to download files"
 msgstr "غير قادر على تنزيل الملف"
 
-#: src/top10.c:816 src/top10.c:906
+#: ../src/top10.c:816 ../src/top10.c:906
 msgid "not found"
 msgstr "مفقود"
 
-#: src/top10.c:817 src/top10.c:907
+#: ../src/top10.c:817 ../src/top10.c:907
 msgid "Are you sure you have it installed in your system?"
 msgstr "أمتأكد من أنك ثبته على جهازك؟"
 
-#: src/top10.c:861
+#: ../src/top10.c:861
 msgid "Could not download file from the host server."
 msgstr "تعذر التنزيل من الخادوم المضيف."
 
-#: src/top10.c:906
+#: ../src/top10.c:906
 msgid "Not able to upload files"
 msgstr "تعذر رفع الملف"
 
-#: src/top10.c:987
+#: ../src/top10.c:987
 msgid "Could not upload/download scores."
 msgstr "تعذر رفع/تنزيل المعدلات."
 

@@ -269,9 +269,10 @@ keyb_create_virtual_keys ()
 	 */
   	keyb.entry = gtk_entry_new ();
   	gtk_fixed_put (fix, keyb.entry, 2, 2);
-	gtk_widget_set_size_request (keyb.entry, 28, 28);
+	gtk_entry_set_width_chars (GTK_ENTRY (keyb.entry), 1);
 	gtk_entry_set_max_length (GTK_ENTRY (keyb.entry), 1);
 	gtk_entry_set_alignment (GTK_ENTRY (keyb.entry), 0.5);
+	gtk_widget_set_size_request (keyb.entry, 28, 28);
 	g_object_set (G_OBJECT (keyb.entry), "shadow-type", GTK_SHADOW_NONE, NULL);
   	g_signal_connect_after ((gpointer) keyb.entry, "changed", G_CALLBACK (on_virtual_key_changed), NULL);
 }

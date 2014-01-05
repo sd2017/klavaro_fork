@@ -309,7 +309,7 @@ tutor_update_intro ()
 	gchar *tmp_name;
 	gchar *text;
 	gchar *color_bg;
-	GdkColor color;
+	GdkRGBA color;
 	GtkWidget *wg;
 	GtkLabel *wg_label;
 	GtkTextView *wg_text;
@@ -347,8 +347,8 @@ tutor_update_intro ()
 		color_bg = main_preferences_get_string ("colors", "text_intro_bg");
 	else
 		color_bg = g_strdup (TUTOR_WHITE);
-	gdk_color_parse (color_bg, &color);
-	gtk_widget_modify_base (get_wg ("text_tutor"), GTK_STATE_INSENSITIVE, &color);
+	gdk_rgba_parse (&color, color_bg);
+	gtk_widget_override_background_color (get_wg ("text_tutor"), GTK_STATE_FLAG_INSENSITIVE, &color);
 	g_free (color_bg);
 
 	wg = get_wg ("scrolledwindow_tutor_main");
@@ -366,7 +366,7 @@ tutor_update_start ()
 	gchar *tmp_name;
 	gchar *text;
 	gchar *color_bg;
-	GdkColor color;
+	GdkRGBA color;
 	GtkWidget *wg;
 	GtkTextBuffer *buf;
 	GtkTextIter start;
@@ -418,13 +418,16 @@ tutor_update_start ()
 		color_bg = main_preferences_get_string ("colors", "char_untouched_bg");
 	else
 		color_bg = g_strdup (TUTOR_CREAM);
-	gdk_color_parse (color_bg, &color);
-	gtk_widget_modify_base (get_wg ("text_tutor"), GTK_STATE_INSENSITIVE, &color);
+	gdk_rgba_parse (&color, color_bg);
+	gtk_widget_override_background_color (get_wg ("text_tutor"), GTK_STATE_FLAG_INSENSITIVE, &color);
 	g_free (color_bg);
 
 	gtk_text_buffer_get_bounds (buf, &start, &end);
 	gtk_text_iter_backward_char (&end);
 	gtk_text_buffer_apply_tag_by_name (buf, "lesson_font", &start, &end);
+
+	/* Trying to minimize automatic wrapping because of cursor blinking:
+	*/
 	end = start;
 	while (gtk_text_iter_forward_word_end (&end))
 	{

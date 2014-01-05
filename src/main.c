@@ -462,7 +462,7 @@ main (int argc, char *argv[])
 	gui = gtk_builder_new ();
 	gtk_builder_set_translation_domain (gui, NULL);
 
-	tmp = g_build_filename (main_path_data (), "klavaro.ui", NULL);
+	tmp = g_build_filename (main_path_data (), "klavaro.glade", NULL);
 	if (g_file_test (tmp, G_FILE_TEST_IS_REGULAR))
 		success = gtk_builder_add_from_file (gui, tmp, NULL);
 	else

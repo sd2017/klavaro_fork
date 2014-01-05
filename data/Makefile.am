@@ -3,7 +3,7 @@
 SUBDIRS = icons
 
 klavaro_data = \
-	klavaro.ui \
+	klavaro.glade \
 	klavaro_96x96.png \
 	beep.png \
 	fluid.png \
@@ -139,14 +139,13 @@ klavaro_data = \
 pkgdata_DATA = $(klavaro_data)
 
 if IS_WIN32
-EXTRA_DIST = $(klavaro_data) \
-	klavaro.ui
+EXTRA_DIST = $(klavaro_data)
 else
 desktopdir = $(prefix)/$(DATADIRNAME)/applications
 desktop_in_file = klavaro.desktop.in
 desktop_DATA = $(desktop_in_file:.desktop.in=.desktop)
 @INTLTOOL_DESKTOP_RULE@
+DISTCLEANFILES = klavaro.desktop
 EXTRA_DIST = $(klavaro_data) \
-	$(desktop_in_file) \
-	klavaro.ui
+	$(desktop_in_file)
 endif
