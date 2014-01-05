@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.0-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-05 12:05-0200\n"
+"POT-Creation-Date: 2014-01-05 15:22-0200\n"
 "PO-Revision-Date: 2011-03-31 14:17+0800\n"
 "Last-Translator: Yuwei Yu <acevery@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -94,295 +94,296 @@ msgid "_Open"
 msgstr "打开(_O)"
 
 #: ../data/klavaro.glade.h:17
-msgid "Font definition"
-msgstr "字体定义"
-
-#: ../data/klavaro.glade.h:18
 msgid "Re_name:"
 msgstr "重命名(_n)："
 
-#: ../data/klavaro.glade.h:19
+#: ../data/klavaro.glade.h:18
 msgid "Rename the selected item."
 msgstr "重命名选定项。"
 
-#: ../data/klavaro.glade.h:20
+#: ../data/klavaro.glade.h:19
 msgid ""
 "Read a text file and add a copy of it here. The file must be encoded in "
 "UTF-8."
 msgstr "读取一个本文文件并添加它的一个拷贝到这里。文件必须以UTF-8编码。"
 
-#: ../data/klavaro.glade.h:21
+#: ../data/klavaro.glade.h:20
 msgid "_Open text file"
 msgstr "打开文本文件(_O)"
 
-#: ../data/klavaro.glade.h:22
+#: ../data/klavaro.glade.h:21
 msgid "Paste text that was copied to the clipboard."
 msgstr "从粘贴板拷贝已经复制的文本"
 
-#: ../data/klavaro.glade.h:23
+#: ../data/klavaro.glade.h:22
 msgid "_Paste from clipboard"
 msgstr "从粘贴板粘贴(_P)"
 
-#: ../data/klavaro.glade.h:24
+#: ../data/klavaro.glade.h:23
 msgid "Remove the selected item."
 msgstr "移除选择的项目。"
 
-#: ../data/klavaro.glade.h:25
+#: ../data/klavaro.glade.h:24
 msgid "_Remove copied file"
 msgstr "移除复制的文件(_R)"
 
-#: ../data/klavaro.glade.h:26
+#: ../data/klavaro.glade.h:25
 msgid "Apply the selected item to create an exercise."
 msgstr "应用选择的项目来生成一个练习。"
 
-#: ../data/klavaro.glade.h:27
+#: ../data/klavaro.glade.h:26
 msgid "_Apply"
 msgstr "应用(_A)"
 
-#: ../data/klavaro.glade.h:28
+#: ../data/klavaro.glade.h:27
 msgid "Close this window."
 msgstr "关闭本窗口。"
 
-#: ../data/klavaro.glade.h:29
+#: ../data/klavaro.glade.h:28
 msgid "_Close"
 msgstr "关闭(_C)"
 
-#: ../data/klavaro.glade.h:30
+#: ../data/klavaro.glade.h:29
 msgid "Remove the selected custom layout."
 msgstr "移除选择的定制布局。"
 
-#: ../data/klavaro.glade.h:31
+#: ../data/klavaro.glade.h:30
 msgid "_Remove"
 msgstr "移除(_R)"
 
-#: ../data/klavaro.glade.h:32
+#: ../data/klavaro.glade.h:31
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
 msgstr "切换“Shift”效果，在按键的上、下两行的字母间切换。"
 
-#: ../data/klavaro.glade.h:33
+#: ../data/klavaro.glade.h:32
 msgid "SPACE BAR"
 msgstr "空格键"
 
-#: ../data/klavaro.glade.h:34 ../src/keyboard.c:1631
+#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "拇指"
 
-#: ../data/klavaro.glade.h:35
+#: ../data/klavaro.glade.h:34
 msgid "Ctrl"
 msgstr "Ctrl键"
 
-#: ../data/klavaro.glade.h:36
+#: ../data/klavaro.glade.h:35
 msgid "Caps"
 msgstr "大写锁定键(Caps)"
 
-#: ../data/klavaro.glade.h:37
+#: ../data/klavaro.glade.h:36
 msgid "S_ave as:"
 msgstr "另存为(_a):"
 
-#: ../data/klavaro.glade.h:38
+#: ../data/klavaro.glade.h:37
 msgid "Show previous screen."
 msgstr "显示上一屏。"
 
-#: ../data/klavaro.glade.h:39
+#: ../data/klavaro.glade.h:38
 msgid "_Previous step"
 msgstr "上一步(_P)"
 
-#: ../data/klavaro.glade.h:40
+#: ../data/klavaro.glade.h:39
 msgid "Show next screen."
 msgstr "显示下一屏。"
 
-#: ../data/klavaro.glade.h:41
+#: ../data/klavaro.glade.h:40
 msgid "_Next step"
 msgstr "下一步(_N)"
 
-#: ../data/klavaro.glade.h:42
+#: ../data/klavaro.glade.h:41
 msgid "Return without any modification."
 msgstr "放弃所有修改而返回。"
 
-#: ../data/klavaro.glade.h:43
+#: ../data/klavaro.glade.h:42
 msgid "Save the current keyboard layout with the name specified above."
 msgstr "以上面指定的名称保存当前的键盘布局。"
 
-#: ../data/klavaro.glade.h:44
+#: ../data/klavaro.glade.h:43
 msgid "_Save and use"
 msgstr "保存并使用(_S)"
 
-#: ../data/klavaro.glade.h:45
+#: ../data/klavaro.glade.h:44
 msgid ""
 "If you like those beautiful hands, click here to close this window keeping "
 "them."
 msgstr "如果你喜欢这些漂亮的手，点击这里关闭当前窗口但继续显示它们。"
 
-#: ../data/klavaro.glade.h:46
+#: ../data/klavaro.glade.h:45
 msgid "_Keep hands"
 msgstr "显示指法(_K)"
 
-#: ../data/klavaro.glade.h:47
+#: ../data/klavaro.glade.h:46
 msgid "Klavaro - Main menu"
 msgstr "Klavaro - 主菜单"
 
-#: ../data/klavaro.glade.h:48
+#: ../data/klavaro.glade.h:47
 msgid "Don't be shy about learning the basics!"
 msgstr "不要羞于学习基础的东西！"
 
-#: ../data/klavaro.glade.h:49
+#: ../data/klavaro.glade.h:48
 msgid "Learn how to type correctly"
 msgstr "学习如何正确地打字"
 
-#: ../data/klavaro.glade.h:50
+#: ../data/klavaro.glade.h:49
 msgid "Initial training for your fingers."
 msgstr "对手指的初步训练。"
 
-#: ../data/klavaro.glade.h:51
+#: ../data/klavaro.glade.h:50
 msgid "First steps with initial training"
 msgstr "开始训练的最初几步"
 
-#: ../data/klavaro.glade.h:52
+#: ../data/klavaro.glade.h:51
 msgid "Memorizing the keyboard practicing random keys exercises."
 msgstr "用随机的按键训练记忆键盘。"
 
-#: ../data/klavaro.glade.h:53
+#: ../data/klavaro.glade.h:52
 msgid "Practice with random keys"
 msgstr "用随机的按键训练"
 
 #. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:54
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "用随机词来加速盲打。"
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:55
 msgid "Practice with random words"
 msgstr "用随机的词训练"
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:56
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "用完整的段落训练以达到专家水平。"
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:57
 msgid "Practice with complete texts"
 msgstr "用完整的文字练习"
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:58
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
 msgstr "用于模块1和2的键盘布局。也用于提供流畅比赛中的相应信息。"
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:59
 msgid "_Keyboard:"
 msgstr "键盘(_K)："
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:60
 msgid "Language for modules 3 and 4."
 msgstr "用于模块3和4的语言。"
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:61
 msgid "_Language:"
 msgstr "语言(_L)："
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:62
 msgid "Speech"
 msgstr "语音"
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:63
 msgid "Little tip about this program."
 msgstr "关于程序的小贴士。"
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:64
 msgid "_Help"
 msgstr "帮助(_H)"
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:65
 msgid "General information about the program."
 msgstr "关于程序的一般信息。"
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:66
 msgid "_About..."
 msgstr "关于(_A)..."
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:67
 msgid "Exit the application immediately."
 msgstr "马上结束程序。"
 
-#: ../data/klavaro.glade.h:69
+#: ../data/klavaro.glade.h:68
 msgid "Klavaro - Progress"
 msgstr "Klavaro - 进展"
 
-#: ../data/klavaro.glade.h:70
+#: ../data/klavaro.glade.h:69
 msgid "_Lesson:"
 msgstr "课程(_L)："
 
-#: ../data/klavaro.glade.h:71
+#: ../data/klavaro.glade.h:70
 msgid "Value"
 msgstr "值"
 
-#: ../data/klavaro.glade.h:72
+#: ../data/klavaro.glade.h:71
 msgid "Close this window, returning to the exercise."
 msgstr "关闭这个窗口，回到练习中。"
 
-#: ../data/klavaro.glade.h:73
+#: ../data/klavaro.glade.h:72
 msgid "Clear all the progress data, for every module."
 msgstr "清除所有练习数据，所有模块的。"
 
-#: ../data/klavaro.glade.h:74
+#: ../data/klavaro.glade.h:73
 msgid "_Reset"
 msgstr "重置(_R)"
 
-#: ../data/klavaro.glade.h:75
+#: ../data/klavaro.glade.h:74
 msgid "Top 10"
 msgstr "冠军榜"
 
-#: ../data/klavaro.glade.h:76
+#: ../data/klavaro.glade.h:75
 msgid "Show extra information"
 msgstr "显示额外信息"
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:76
 msgid "Hide extra information"
 msgstr "隐藏额外信息"
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:77
 msgid "Publish to the web your local scores."
 msgstr "把你的本地分数发布到网络上。"
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:78
 msgid "_Participate"
 msgstr "参与(_P)"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:79
 msgid "Download from the web the most up to date ranking."
 msgstr "从网络上下载最新的排名。"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:80
 msgid "_Update"
 msgstr "更新(_U)"
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:81
 msgid "Load other exercises/lessons"
 msgstr "加载其他练习/课程"
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:82
 msgid "_Other texts"
 msgstr "其它文字"
 
-#: ../data/klavaro.glade.h:84
+#: ../data/klavaro.glade.h:83
 msgid "Edit the character set to be used in this lesson."
 msgstr "编辑本课中使用的字母集。"
 
-#: ../data/klavaro.glade.h:85
+#: ../data/klavaro.glade.h:84
 msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "这是一个专门的练习，根据你的错误资料而调整。"
 
-#: ../data/klavaro.glade.h:86
+#: ../data/klavaro.glade.h:85
 #, fuzzy
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr "编辑从44课到50课使用的字母集。"
 
-#: ../data/klavaro.glade.h:87 ../src/tutor.c:252
+#: ../data/klavaro.glade.h:86 ../src/tutor.c:252
 msgid "Drag and drop text here to practice with it."
 msgstr "把文字拖放到这里来练习。"
+
+#: ../data/klavaro.glade.h:87
+#, fuzzy
+msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
+msgstr "点击这里而重新开始练习。热键: [Ctrl R]"
 
 #: ../data/klavaro.glade.h:88
 msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
@@ -397,42 +398,38 @@ msgid "_Keyboard"
 msgstr "键盘(_K)"
 
 #: ../data/klavaro.glade.h:91
-msgid "Select the font to be used in the exercise window."
-msgstr "选择练习窗口中使用的字体。"
+msgid "Font definition"
+msgstr "字体定义"
 
 #: ../data/klavaro.glade.h:92
-msgid "_Font"
-msgstr "字体(_F)"
-
-#: ../data/klavaro.glade.h:93
 msgid "Keep this checked if you want to get those nice beeps."
 msgstr "如果你想获得好的报错声就选择这个。"
 
-#: ../data/klavaro.glade.h:94
+#: ../data/klavaro.glade.h:93
 msgid "_Beep"
 msgstr "报错(_B)"
 
-#: ../data/klavaro.glade.h:95
+#: ../data/klavaro.glade.h:94
 msgid "Co_urse information"
 msgstr "课程信息(_u)"
 
-#: ../data/klavaro.glade.h:96
+#: ../data/klavaro.glade.h:95
 msgid "Charts showing the learning progress along the exercises."
 msgstr "展示学习进展的图表。"
 
-#: ../data/klavaro.glade.h:97
+#: ../data/klavaro.glade.h:96
 msgid "_Progress"
 msgstr "进展(_P)"
 
-#: ../data/klavaro.glade.h:98
+#: ../data/klavaro.glade.h:97
 msgid "Return to the main menu."
 msgstr "回到主菜单。"
 
-#: ../data/klavaro.glade.h:99
+#: ../data/klavaro.glade.h:98
 msgid "Show local and external scores from other users."
 msgstr "显示本地和外部其他用户的分数。"
 
-#: ../data/klavaro.glade.h:100
+#: ../data/klavaro.glade.h:99
 msgid "_Top 10"
 msgstr "冠军榜(_T)"
 
@@ -473,65 +470,65 @@ msgstr "基础课程"
 msgid "Adaptability"
 msgstr "适应性"
 
-#: ../src/main.c:373 ../src/callbacks.c:1246 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1225 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "速度"
 
-#: ../src/main.c:376 ../src/callbacks.c:1269 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1248 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "流畅性"
 
-#: ../src/callbacks.c:404 ../src/tutor.c:391
+#: ../src/callbacks.c:405 ../src/tutor.c:391
 msgid "Keys:"
 msgstr "按键："
 
-#: ../src/callbacks.c:794 ../src/callbacks.c:810
+#: ../src/callbacks.c:773 ../src/callbacks.c:789
 msgid "Connecting..."
 msgstr "连接..."
 
-#: ../src/callbacks.c:1081
+#: ../src/callbacks.c:1060
 msgid "Overwrite user layout"
 msgstr "覆盖用户布局"
 
-#: ../src/callbacks.c:1083
+#: ../src/callbacks.c:1062
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "这将 覆盖 一个已有的键盘布局。"
 
-#: ../src/callbacks.c:1090
+#: ../src/callbacks.c:1069
 msgid "Remove user layout"
 msgstr "移除用户布局"
 
-#: ../src/callbacks.c:1092
+#: ../src/callbacks.c:1071
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "这将移除一个已有的键盘布局。"
 
-#: ../src/callbacks.c:1099
+#: ../src/callbacks.c:1078
 msgid "Reset progress data"
 msgstr "重置进展数据"
 
-#: ../src/callbacks.c:1100
+#: ../src/callbacks.c:1079
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "这将会 删除 所有显示在图表的进展数据。"
 
-#: ../src/callbacks.c:1243 ../src/top10.c:87
+#: ../src/callbacks.c:1222 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "精度"
 
-#: ../src/callbacks.c:1246 ../src/tutor.c:1163
+#: ../src/callbacks.c:1225 ../src/tutor.c:1163
 msgid "(WPM)"
 msgstr "(词每分钟)"
 
-#: ../src/callbacks.c:1257
+#: ../src/callbacks.c:1236
 msgid "Errors"
 msgstr "错误"
 
-#: ../src/callbacks.c:1260
+#: ../src/callbacks.c:1239
 msgid "Touch times (s)"
 msgstr ""
 
-#: ../src/callbacks.c:1272 ../src/tutor.c:1190 ../src/top10.c:69
+#: ../src/callbacks.c:1251 ../src/tutor.c:1190 ../src/top10.c:69
 msgid "Score"
 msgstr "得分"
 
@@ -1203,6 +1200,12 @@ msgstr "无法上传文件"
 #: ../src/top10.c:987
 msgid "Could not upload/download scores."
 msgstr "无法上传/下载分数。"
+
+#~ msgid "Select the font to be used in the exercise window."
+#~ msgstr "选择练习窗口中使用的字体。"
+
+#~ msgid "_Font"
+#~ msgstr "字体(_F)"
 
 #~ msgid "Klavaro"
 #~ msgstr "Klavaro"

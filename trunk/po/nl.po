@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.5-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-05 12:05-0200\n"
+"POT-Creation-Date: 2014-01-05 15:22-0200\n"
 "PO-Revision-Date: 2012-06-05 15:42+0200\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -102,18 +102,14 @@ msgid "_Open"
 msgstr "_Openen"
 
 #: ../data/klavaro.glade.h:17
-msgid "Font definition"
-msgstr "Lettertypedefinitie"
-
-#: ../data/klavaro.glade.h:18
 msgid "Re_name:"
 msgstr "_Hernoemen:"
 
-#: ../data/klavaro.glade.h:19
+#: ../data/klavaro.glade.h:18
 msgid "Rename the selected item."
 msgstr "Het geselecteerde item hernoemen."
 
-#: ../data/klavaro.glade.h:20
+#: ../data/klavaro.glade.h:19
 msgid ""
 "Read a text file and add a copy of it here. The file must be encoded in "
 "UTF-8."
@@ -121,51 +117,51 @@ msgstr ""
 "Een tekstbestand inlezen en een kopie ervan hier invoegen. Het bestand moet "
 "gecodeerd zijn in UTF-8."
 
-#: ../data/klavaro.glade.h:21
+#: ../data/klavaro.glade.h:20
 msgid "_Open text file"
 msgstr "Tekstbestand _openen"
 
-#: ../data/klavaro.glade.h:22
+#: ../data/klavaro.glade.h:21
 msgid "Paste text that was copied to the clipboard."
 msgstr "Tekst vanaf het klembord plakken."
 
-#: ../data/klavaro.glade.h:23
+#: ../data/klavaro.glade.h:22
 msgid "_Paste from clipboard"
 msgstr "_Plakken vanaf klembord"
 
-#: ../data/klavaro.glade.h:24
+#: ../data/klavaro.glade.h:23
 msgid "Remove the selected item."
 msgstr "Het geselecteerde item verwijderen."
 
-#: ../data/klavaro.glade.h:25
+#: ../data/klavaro.glade.h:24
 msgid "_Remove copied file"
 msgstr "Gekopieerd bestand _verwijderen"
 
-#: ../data/klavaro.glade.h:26
+#: ../data/klavaro.glade.h:25
 msgid "Apply the selected item to create an exercise."
 msgstr "Het geselecteerde item toepassen om een oefening aan te maken."
 
-#: ../data/klavaro.glade.h:27
+#: ../data/klavaro.glade.h:26
 msgid "_Apply"
 msgstr "_Toepassen"
 
-#: ../data/klavaro.glade.h:28
+#: ../data/klavaro.glade.h:27
 msgid "Close this window."
 msgstr "Dit venster sluiten."
 
-#: ../data/klavaro.glade.h:29
+#: ../data/klavaro.glade.h:28
 msgid "_Close"
 msgstr "Sl_uiten"
 
-#: ../data/klavaro.glade.h:30
+#: ../data/klavaro.glade.h:29
 msgid "Remove the selected custom layout."
 msgstr "De geselecteerde aangepaste indeling verwijderen."
 
-#: ../data/klavaro.glade.h:31
+#: ../data/klavaro.glade.h:30
 msgid "_Remove"
 msgstr "_Verwijderen"
 
-#: ../data/klavaro.glade.h:32
+#: ../data/klavaro.glade.h:31
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
@@ -173,55 +169,55 @@ msgstr ""
 "Schakelt Shift aan of uit; wisselt tussen de bovenste en onderste tekens van "
 "de toetsen."
 
-#: ../data/klavaro.glade.h:33
+#: ../data/klavaro.glade.h:32
 msgid "SPACE BAR"
 msgstr "SPATIEBALK"
 
-#: ../data/klavaro.glade.h:34 ../src/keyboard.c:1631
+#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "duimen"
 
-#: ../data/klavaro.glade.h:35
+#: ../data/klavaro.glade.h:34
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: ../data/klavaro.glade.h:36
+#: ../data/klavaro.glade.h:35
 msgid "Caps"
 msgstr "Capslock"
 
-#: ../data/klavaro.glade.h:37
+#: ../data/klavaro.glade.h:36
 msgid "S_ave as:"
 msgstr "Opslaan _als:"
 
-#: ../data/klavaro.glade.h:38
+#: ../data/klavaro.glade.h:37
 msgid "Show previous screen."
 msgstr "Vorig scherm tonen."
 
-#: ../data/klavaro.glade.h:39
+#: ../data/klavaro.glade.h:38
 msgid "_Previous step"
 msgstr "_Vorige stap"
 
-#: ../data/klavaro.glade.h:40
+#: ../data/klavaro.glade.h:39
 msgid "Show next screen."
 msgstr "Volgend scherm tonen."
 
-#: ../data/klavaro.glade.h:41
+#: ../data/klavaro.glade.h:40
 msgid "_Next step"
 msgstr "V_olgende stap"
 
-#: ../data/klavaro.glade.h:42
+#: ../data/klavaro.glade.h:41
 msgid "Return without any modification."
 msgstr "Terug zonder aanpassingen."
 
-#: ../data/klavaro.glade.h:43
+#: ../data/klavaro.glade.h:42
 msgid "Save the current keyboard layout with the name specified above."
 msgstr "Deze toetsenbordindeling opslaan onder de bovenstaande naam."
 
-#: ../data/klavaro.glade.h:44
+#: ../data/klavaro.glade.h:43
 msgid "_Save and use"
 msgstr "_Opslaan en gebruiken"
 
-#: ../data/klavaro.glade.h:45
+#: ../data/klavaro.glade.h:44
 msgid ""
 "If you like those beautiful hands, click here to close this window keeping "
 "them."
@@ -229,56 +225,56 @@ msgstr ""
 "Als je die mooie handen graag ziet, klik dan hier om dit venster te sluiten "
 "en ze te behouden."
 
-#: ../data/klavaro.glade.h:46
+#: ../data/klavaro.glade.h:45
 msgid "_Keep hands"
 msgstr "_Handen behouden"
 
-#: ../data/klavaro.glade.h:47
+#: ../data/klavaro.glade.h:46
 msgid "Klavaro - Main menu"
 msgstr "Klavaro - Hoofdmenu"
 
-#: ../data/klavaro.glade.h:48
+#: ../data/klavaro.glade.h:47
 msgid "Don't be shy about learning the basics!"
 msgstr "Wees niet te verlegen om de basisvaardigheden te leren!"
 
-#: ../data/klavaro.glade.h:49
+#: ../data/klavaro.glade.h:48
 msgid "Learn how to type correctly"
 msgstr "Leer de juiste manier van typen"
 
-#: ../data/klavaro.glade.h:50
+#: ../data/klavaro.glade.h:49
 msgid "Initial training for your fingers."
 msgstr "Eerste training voor je vingers."
 
-#: ../data/klavaro.glade.h:51
+#: ../data/klavaro.glade.h:50
 msgid "First steps with initial training"
 msgstr "Eerste stappen van de training"
 
-#: ../data/klavaro.glade.h:52
+#: ../data/klavaro.glade.h:51
 msgid "Memorizing the keyboard practicing random keys exercises."
 msgstr "Je het toetsenbord inprenten door te oefenen met willekeurige toetsen."
 
-#: ../data/klavaro.glade.h:53
+#: ../data/klavaro.glade.h:52
 msgid "Practice with random keys"
 msgstr "Oefen met willekeurige toetsen"
 
 #. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:54
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "Je snelheid verhogen door te oefenen met willekeurige woorden."
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:55
 msgid "Practice with random words"
 msgstr "Oefen met willekeurige woorden"
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:56
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "Bekwaam worden door te oefenen met volledige alinea's."
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:57
 msgid "Practice with complete texts"
 msgstr "Oefen met complete teksten"
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:58
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
@@ -286,119 +282,124 @@ msgstr ""
 "Toetsenbordindeling voor modules 1 en 2; wordt ook informatief gebruikt in "
 "de vloeiendtypenwedstrijd."
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:59
 msgid "_Keyboard:"
 msgstr "Toetsen_bord:"
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:60
 msgid "Language for modules 3 and 4."
 msgstr "Taal voor modules 3 en 4."
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:61
 msgid "_Language:"
 msgstr "_Taal:"
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:62
 msgid "Speech"
 msgstr "Spraak"
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:63
 msgid "Little tip about this program."
 msgstr "Kleine toelichting bij dit programma."
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:64
 msgid "_Help"
 msgstr "_Hulp"
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:65
 msgid "General information about the program."
 msgstr "Algemene informatie over het programma."
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:66
 msgid "_About..."
 msgstr "_Info..."
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:67
 msgid "Exit the application immediately."
 msgstr "Het programma onmiddellijk afsluiten."
 
-#: ../data/klavaro.glade.h:69
+#: ../data/klavaro.glade.h:68
 msgid "Klavaro - Progress"
 msgstr "Klavaro - Voortgang"
 
-#: ../data/klavaro.glade.h:70
+#: ../data/klavaro.glade.h:69
 msgid "_Lesson:"
 msgstr "_Les:"
 
-#: ../data/klavaro.glade.h:71
+#: ../data/klavaro.glade.h:70
 msgid "Value"
 msgstr "Waarde"
 
-#: ../data/klavaro.glade.h:72
+#: ../data/klavaro.glade.h:71
 msgid "Close this window, returning to the exercise."
 msgstr "Dit venster sluiten; teruggaan naar de oefening."
 
-#: ../data/klavaro.glade.h:73
+#: ../data/klavaro.glade.h:72
 msgid "Clear all the progress data, for every module."
 msgstr "Alle voortgangsgegevens wissen, voor elke module!"
 
-#: ../data/klavaro.glade.h:74
+#: ../data/klavaro.glade.h:73
 msgid "_Reset"
 msgstr "_Wissen"
 
-#: ../data/klavaro.glade.h:75
+#: ../data/klavaro.glade.h:74
 msgid "Top 10"
 msgstr "Top 10"
 
-#: ../data/klavaro.glade.h:76
+#: ../data/klavaro.glade.h:75
 msgid "Show extra information"
 msgstr "Extra informatie tonen"
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:76
 msgid "Hide extra information"
 msgstr "Extra informatie verbergen"
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:77
 msgid "Publish to the web your local scores."
 msgstr "Jouw lokale scores op het web publiceren."
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:78
 msgid "_Participate"
 msgstr "_Deelnemen"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:79
 msgid "Download from the web the most up to date ranking."
 msgstr "De laatste rangorde van het web downloaden."
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:80
 msgid "_Update"
 msgstr "_Verversen"
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:81
 msgid "Load other exercises/lessons"
 msgstr "Andere oefeningen/lessen openen."
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:82
 msgid "_Other texts"
 msgstr "_Andere teksten"
 
-#: ../data/klavaro.glade.h:84
+#: ../data/klavaro.glade.h:83
 msgid "Edit the character set to be used in this lesson."
 msgstr "De tekenset wijzigen die in deze les gebruikt wordt."
 
-#: ../data/klavaro.glade.h:85
+#: ../data/klavaro.glade.h:84
 msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "Dit is een speciale oefening, aangepast aan jouw foutenprofiel."
 
-#: ../data/klavaro.glade.h:86
+#: ../data/klavaro.glade.h:85
 #, fuzzy
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr "De tekenset wijzigen die in lessen 44 tot 50 gebruikt wordt."
 
-#: ../data/klavaro.glade.h:87 ../src/tutor.c:252
+#: ../data/klavaro.glade.h:86 ../src/tutor.c:252
 msgid "Drag and drop text here to practice with it."
 msgstr "Sleep een tekst hierheen om ermee te oefenen."
+
+#: ../data/klavaro.glade.h:87
+#, fuzzy
+msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
+msgstr "Klik hier om de oefening te herstarten."
 
 #: ../data/klavaro.glade.h:88
 msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
@@ -414,42 +415,38 @@ msgid "_Keyboard"
 msgstr "_Toetsenbord"
 
 #: ../data/klavaro.glade.h:91
-msgid "Select the font to be used in the exercise window."
-msgstr "Het lettertype kiezen dat gebruikt wordt in het oefeningenscherm."
+msgid "Font definition"
+msgstr "Lettertypedefinitie"
 
 #: ../data/klavaro.glade.h:92
-msgid "_Font"
-msgstr "_Lettertype"
-
-#: ../data/klavaro.glade.h:93
 msgid "Keep this checked if you want to get those nice beeps."
 msgstr "Houd deze ingeschakeld als je die piepjes wenst."
 
-#: ../data/klavaro.glade.h:94
+#: ../data/klavaro.glade.h:93
 msgid "_Beep"
 msgstr "_Piepjes"
 
-#: ../data/klavaro.glade.h:95
+#: ../data/klavaro.glade.h:94
 msgid "Co_urse information"
 msgstr "Les_informatie"
 
-#: ../data/klavaro.glade.h:96
+#: ../data/klavaro.glade.h:95
 msgid "Charts showing the learning progress along the exercises."
 msgstr "Grafieken die de leercurve tonen."
 
-#: ../data/klavaro.glade.h:97
+#: ../data/klavaro.glade.h:96
 msgid "_Progress"
 msgstr "_Voortgang"
 
-#: ../data/klavaro.glade.h:98
+#: ../data/klavaro.glade.h:97
 msgid "Return to the main menu."
 msgstr "Terug naar het hoofdmenu."
 
-#: ../data/klavaro.glade.h:99
+#: ../data/klavaro.glade.h:98
 msgid "Show local and external scores from other users."
 msgstr "Lokale en externe scores van andere gebruikers tonen."
 
-#: ../data/klavaro.glade.h:100
+#: ../data/klavaro.glade.h:99
 msgid "_Top 10"
 msgstr "_Top 10"
 
@@ -491,67 +488,67 @@ msgstr "Basiscursus"
 msgid "Adaptability"
 msgstr "Flexibiliteit"
 
-#: ../src/main.c:373 ../src/callbacks.c:1246 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1225 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Snelheid"
 
-#: ../src/main.c:376 ../src/callbacks.c:1269 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1248 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Vloeiendheid"
 
-#: ../src/callbacks.c:404 ../src/tutor.c:391
+#: ../src/callbacks.c:405 ../src/tutor.c:391
 msgid "Keys:"
 msgstr "Toetsen:"
 
-#: ../src/callbacks.c:794 ../src/callbacks.c:810
+#: ../src/callbacks.c:773 ../src/callbacks.c:789
 msgid "Connecting..."
 msgstr "Verbinden..."
 
-#: ../src/callbacks.c:1081
+#: ../src/callbacks.c:1060
 msgid "Overwrite user layout"
 msgstr "Zelfgemaakte indeling overschrijven"
 
-#: ../src/callbacks.c:1083
+#: ../src/callbacks.c:1062
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Dit zal een bestaande toetsenbordindeling OVERSCHRIJVEN."
 
-#: ../src/callbacks.c:1090
+#: ../src/callbacks.c:1069
 msgid "Remove user layout"
 msgstr "Zelfgemaakte indeling verwijderen"
 
-#: ../src/callbacks.c:1092
+#: ../src/callbacks.c:1071
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Dit zal een bestaande toetsenbordindeling VERWIJDEREN."
 
-#: ../src/callbacks.c:1099
+#: ../src/callbacks.c:1078
 msgid "Reset progress data"
 msgstr "Voortgangsgegevens wissen"
 
-#: ../src/callbacks.c:1100
+#: ../src/callbacks.c:1079
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr ""
 "Dit zal alle voortgangsgegevens die in grafieken worden weergegeven "
 "VERWIJDEREN."
 
-#: ../src/callbacks.c:1243 ../src/top10.c:87
+#: ../src/callbacks.c:1222 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Nauwkeurigheid"
 
-#: ../src/callbacks.c:1246 ../src/tutor.c:1163
+#: ../src/callbacks.c:1225 ../src/tutor.c:1163
 msgid "(WPM)"
 msgstr "(WPM)"
 
-#: ../src/callbacks.c:1257
+#: ../src/callbacks.c:1236
 msgid "Errors"
 msgstr "Fouten"
 
-#: ../src/callbacks.c:1260
+#: ../src/callbacks.c:1239
 msgid "Touch times (s)"
 msgstr "Aanslagtijden (s)"
 
-#: ../src/callbacks.c:1272 ../src/tutor.c:1190 ../src/top10.c:69
+#: ../src/callbacks.c:1251 ../src/tutor.c:1190 ../src/top10.c:69
 msgid "Score"
 msgstr "Score"
 
@@ -1254,6 +1251,12 @@ msgstr "Kan geen bestanden uploaden"
 #: ../src/top10.c:987
 msgid "Could not upload/download scores."
 msgstr "Kan de lokale scores niet uploaden/downloaden."
+
+#~ msgid "Select the font to be used in the exercise window."
+#~ msgstr "Het lettertype kiezen dat gebruikt wordt in het oefeningenscherm."
+
+#~ msgid "_Font"
+#~ msgstr "_Lettertype"
 
 #~ msgid "Klavaro"
 #~ msgstr "'Klavaro'"

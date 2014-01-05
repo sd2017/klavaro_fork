@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.0-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-05 12:05-0200\n"
+"POT-Creation-Date: 2014-01-05 15:22-0200\n"
 "PO-Revision-Date: 2011-04-24 19:21-0500\n"
 "Last-Translator: Jess Jessbody <jessbody@gmail.com>\n"
 "Language-Team: Urdu <jessbody@gmail.com>\n"
@@ -100,18 +100,14 @@ msgid "_Open"
 msgstr "_کھولو"
 
 #: ../data/klavaro.glade.h:17
-msgid "Font definition"
-msgstr "فونٹ تعریف"
-
-#: ../data/klavaro.glade.h:18
 msgid "Re_name:"
 msgstr "باز_نام کرو:"
 
-#: ../data/klavaro.glade.h:19
+#: ../data/klavaro.glade.h:18
 msgid "Rename the selected item."
 msgstr "منتخب شدہ مفردہ کو باز نام کرو۔"
 
-#: ../data/klavaro.glade.h:20
+#: ../data/klavaro.glade.h:19
 msgid ""
 "Read a text file and add a copy of it here. The file must be encoded in "
 "UTF-8."
@@ -119,51 +115,51 @@ msgstr ""
 "ٹیکسٹ ملف (فائل) پڑھو اور یہاں اس کی نقل جمع کرو۔ ملف کی تشفیر UTF-8 میں "
 "ہونا چاہیے۔"
 
-#: ../data/klavaro.glade.h:21
+#: ../data/klavaro.glade.h:20
 msgid "_Open text file"
 msgstr "_متن مِلف (فائل) کھولو"
 
-#: ../data/klavaro.glade.h:22
+#: ../data/klavaro.glade.h:21
 msgid "Paste text that was copied to the clipboard."
 msgstr "جو عبارت تختہ تراشہ پر نقل کی گئ تھی، وہ چسپاں کرو۔"
 
-#: ../data/klavaro.glade.h:23
+#: ../data/klavaro.glade.h:22
 msgid "_Paste from clipboard"
 msgstr "_تختہ تراشہ سے چسپاں کرو"
 
-#: ../data/klavaro.glade.h:24
+#: ../data/klavaro.glade.h:23
 msgid "Remove the selected item."
 msgstr "منتخب شدہ مفردہ کو ہٹاؤ۔"
 
-#: ../data/klavaro.glade.h:25
+#: ../data/klavaro.glade.h:24
 msgid "_Remove copied file"
 msgstr "_نقل شدہ مِلف (فائل) ہٹاؤ"
 
-#: ../data/klavaro.glade.h:26
+#: ../data/klavaro.glade.h:25
 msgid "Apply the selected item to create an exercise."
 msgstr "مشق  کی تخلیق کے لیے منتخب مفردہ کا اطلاق کرو۔"
 
-#: ../data/klavaro.glade.h:27
+#: ../data/klavaro.glade.h:26
 msgid "_Apply"
 msgstr "_اطلاق"
 
-#: ../data/klavaro.glade.h:28
+#: ../data/klavaro.glade.h:27
 msgid "Close this window."
 msgstr "یہ کھڑکی بند کرو۔"
 
-#: ../data/klavaro.glade.h:29
+#: ../data/klavaro.glade.h:28
 msgid "_Close"
 msgstr "_بند"
 
-#: ../data/klavaro.glade.h:30
+#: ../data/klavaro.glade.h:29
 msgid "Remove the selected custom layout."
 msgstr "منتخب شدہ من پسند خاکہ ہٹاؤ۔"
 
-#: ../data/klavaro.glade.h:31
+#: ../data/klavaro.glade.h:30
 msgid "_Remove"
 msgstr "_ہٹاؤ"
 
-#: ../data/klavaro.glade.h:32
+#: ../data/klavaro.glade.h:31
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
@@ -171,56 +167,56 @@ msgstr ""
 "کلیدوں پر شِفٹ (shift) کے اثر کی تدویم کرتا ہے۔ اونچے اور نچلے حروف کی کلیدوں "
 "کے درمیان ادلی بدلی کرتا ہے۔"
 
-#: ../data/klavaro.glade.h:33
+#: ../data/klavaro.glade.h:32
 msgid "SPACE BAR"
 msgstr "نوارِ فضا (اسپیس بار)"
 
-#: ../data/klavaro.glade.h:34 ../src/keyboard.c:1631
+#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "انگوٹھے"
 
-#: ../data/klavaro.glade.h:35
+#: ../data/klavaro.glade.h:34
 #, fuzzy
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: ../data/klavaro.glade.h:36
+#: ../data/klavaro.glade.h:35
 msgid "Caps"
 msgstr "Caps"
 
-#: ../data/klavaro.glade.h:37
+#: ../data/klavaro.glade.h:36
 msgid "S_ave as:"
 msgstr "_محفوظ بطور :"
 
-#: ../data/klavaro.glade.h:38
+#: ../data/klavaro.glade.h:37
 msgid "Show previous screen."
 msgstr "پچھلا تظاہرہ دکھاؤ۔"
 
-#: ../data/klavaro.glade.h:39
+#: ../data/klavaro.glade.h:38
 msgid "_Previous step"
 msgstr "_پچھلا قدم"
 
-#: ../data/klavaro.glade.h:40
+#: ../data/klavaro.glade.h:39
 msgid "Show next screen."
 msgstr "اگلا تظاہرہ دکھاؤ۔"
 
-#: ../data/klavaro.glade.h:41
+#: ../data/klavaro.glade.h:40
 msgid "_Next step"
 msgstr "_اگلا قدم"
 
-#: ../data/klavaro.glade.h:42
+#: ../data/klavaro.glade.h:41
 msgid "Return without any modification."
 msgstr "بغیر کسی تبدیلی کے واپسی۔"
 
-#: ../data/klavaro.glade.h:43
+#: ../data/klavaro.glade.h:42
 msgid "Save the current keyboard layout with the name specified above."
 msgstr "موجودہ کلیدی تختہ خاکہ کو اُوپر مخصوص کردہ نام سے محفوظ کرو۔"
 
-#: ../data/klavaro.glade.h:44
+#: ../data/klavaro.glade.h:43
 msgid "_Save and use"
 msgstr "_محفوظ اور استعمال"
 
-#: ../data/klavaro.glade.h:45
+#: ../data/klavaro.glade.h:44
 msgid ""
 "If you like those beautiful hands, click here to close this window keeping "
 "them."
@@ -228,56 +224,56 @@ msgstr ""
 "اگر آپ کو یہ خوبصورت ہاتھ یہاں پسند ہیں، تو کھڑکی بند کرنے سے پہلے یہاں کلک "
 "کرو۔"
 
-#: ../data/klavaro.glade.h:46
+#: ../data/klavaro.glade.h:45
 msgid "_Keep hands"
 msgstr "_ہاتھ رکھو"
 
-#: ../data/klavaro.glade.h:47
+#: ../data/klavaro.glade.h:46
 msgid "Klavaro - Main menu"
 msgstr "کلاوارو - لائحہ اول"
 
-#: ../data/klavaro.glade.h:48
+#: ../data/klavaro.glade.h:47
 msgid "Don't be shy about learning the basics!"
 msgstr "اساسیات سیکھنے میں شرماؤ مت!"
 
-#: ../data/klavaro.glade.h:49
+#: ../data/klavaro.glade.h:48
 msgid "Learn how to type correctly"
 msgstr "صحیح ٹائپ کس طرح کریں"
 
-#: ../data/klavaro.glade.h:50
+#: ../data/klavaro.glade.h:49
 msgid "Initial training for your fingers."
 msgstr "آپ کی انگلیوں کے لیے آغازی تربیت۔"
 
-#: ../data/klavaro.glade.h:51
+#: ../data/klavaro.glade.h:50
 msgid "First steps with initial training"
 msgstr "آغازی تربیت کے پہلے اقدام"
 
-#: ../data/klavaro.glade.h:52
+#: ../data/klavaro.glade.h:51
 msgid "Memorizing the keyboard practicing random keys exercises."
 msgstr "تصادفی کلید مشق سے کلیدی‌تختہ کی یاداشت۔"
 
-#: ../data/klavaro.glade.h:53
+#: ../data/klavaro.glade.h:52
 msgid "Practice with random keys"
 msgstr "تصادفی کلیدوں سے مشق"
 
 #. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:54
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "مشقِ تصادفی الفاظ سے اسراعِ لمس۔"
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:55
 msgid "Practice with random words"
 msgstr "تصادفی الفاظ سے مشق"
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:56
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "مکمل شذرہ (پیراگراف)  مشق سے استعداد بڑھاؤ۔"
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:57
 msgid "Practice with complete texts"
 msgstr "مکمل عبارتیں سے مشق"
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:58
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
@@ -285,119 +281,124 @@ msgstr ""
 "مطبقیہ 1 اور 2 کے لیے کلیدی تختہ خاکے۔ نیز سیال پن مقابلہ میں اطلاعاتی "
 "استعمال ہوتے ہیں۔"
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:59
 msgid "_Keyboard:"
 msgstr "_کلیدی تختہ:"
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:60
 msgid "Language for modules 3 and 4."
 msgstr "مطبقیہ 3 اور 4 کے لے زبان۔"
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:61
 msgid "_Language:"
 msgstr "_زبان:"
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:62
 msgid "Speech"
 msgstr "کلام"
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:63
 msgid "Little tip about this program."
 msgstr "اس پروگرام بارے چھوٹا سا ٹوٹکا۔"
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:64
 msgid "_Help"
 msgstr "_مدد"
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:65
 msgid "General information about the program."
 msgstr "اس پروگرام بارے جامع اطلاع۔"
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:66
 msgid "_About..."
 msgstr "_بارے-"
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:67
 msgid "Exit the application immediately."
 msgstr "اطلاقیہ سے فوراً خروج کرو۔"
 
-#: ../data/klavaro.glade.h:69
+#: ../data/klavaro.glade.h:68
 msgid "Klavaro - Progress"
 msgstr "کلاوارو - پیش‌رفت"
 
-#: ../data/klavaro.glade.h:70
+#: ../data/klavaro.glade.h:69
 msgid "_Lesson:"
 msgstr "_سبق:"
 
-#: ../data/klavaro.glade.h:71
+#: ../data/klavaro.glade.h:70
 msgid "Value"
 msgstr "قدر"
 
-#: ../data/klavaro.glade.h:72
+#: ../data/klavaro.glade.h:71
 msgid "Close this window, returning to the exercise."
 msgstr "کھڑکی بند کرو، اور مشق کی طرف واپسی۔"
 
-#: ../data/klavaro.glade.h:73
+#: ../data/klavaro.glade.h:72
 msgid "Clear all the progress data, for every module."
 msgstr "ہر مِطبقیہ کا تمام پیشرفت معطیات صاف کرو۔"
 
-#: ../data/klavaro.glade.h:74
+#: ../data/klavaro.glade.h:73
 msgid "_Reset"
 msgstr "_طاقمِ‌نو!"
 
-#: ../data/klavaro.glade.h:75
+#: ../data/klavaro.glade.h:74
 msgid "Top 10"
 msgstr "بالا 10"
 
-#: ../data/klavaro.glade.h:76
+#: ../data/klavaro.glade.h:75
 msgid "Show extra information"
 msgstr "اضافی اطلاعات دکھاؤ"
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:76
 msgid "Hide extra information"
 msgstr "اضافی اطلاعات چھپاؤ"
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:77
 msgid "Publish to the web your local scores."
 msgstr "اپنے مقامی اسکور ویب پر طبع کرو۔"
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:78
 msgid "_Participate"
 msgstr "_شمولیت"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:79
 msgid "Download from the web the most up to date ranking."
 msgstr "ویب سے تابہ امروز ترین رتبہ زیر اثقال کرو"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:80
 msgid "_Update"
 msgstr "_تجدید"
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:81
 msgid "Load other exercises/lessons"
 msgstr "دوسرے مشقیں/اسباق اثقال کرو"
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:82
 msgid "_Other texts"
 msgstr "_دوسری عبارتیں"
 
-#: ../data/klavaro.glade.h:84
+#: ../data/klavaro.glade.h:83
 msgid "Edit the character set to be used in this lesson."
 msgstr "اس سبق میں استعمال ہونے والے مجموعہ حروف کی تدوین کرو۔"
 
-#: ../data/klavaro.glade.h:85
+#: ../data/klavaro.glade.h:84
 msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "یہ مخصوص مشق ہے، تمہاری شرحِ اغلاط نمایہ کے موافق۔"
 
-#: ../data/klavaro.glade.h:86
+#: ../data/klavaro.glade.h:85
 #, fuzzy
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr "اسباق  44 سے 50 میں استعمال ہونے والے مجموعہ حروف کی تدوین کرو۔"
 
-#: ../data/klavaro.glade.h:87 ../src/tutor.c:252
+#: ../data/klavaro.glade.h:86 ../src/tutor.c:252
 msgid "Drag and drop text here to practice with it."
 msgstr "عبارت کی مشق کے لیے عبارت کو یہاں کھینچ اور گِراؤ ۔"
+
+#: ../data/klavaro.glade.h:87
+#, fuzzy
+msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
+msgstr "مشق کی شروعِ نو کے لیے یہاں دباؤ۔ گرم کلید: [Ctrl R]"
 
 #: ../data/klavaro.glade.h:88
 msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
@@ -412,42 +413,38 @@ msgid "_Keyboard"
 msgstr "_کلیدی تختہ"
 
 #: ../data/klavaro.glade.h:91
-msgid "Select the font to be used in the exercise window."
-msgstr "مشق کھڑکی میں استعمال ہونے والا فونٹ منتخب کرو۔"
+msgid "Font definition"
+msgstr "فونٹ تعریف"
 
 #: ../data/klavaro.glade.h:92
-msgid "_Font"
-msgstr "_فونٹ"
-
-#: ../data/klavaro.glade.h:93
 msgid "Keep this checked if you want to get those nice beeps."
 msgstr "اس کو نشان زدہ رکھو، اگر آپ وہ اچھی ٹوں ٹوں سننا چاہتے ہو۔"
 
-#: ../data/klavaro.glade.h:94
+#: ../data/klavaro.glade.h:93
 msgid "_Beep"
 msgstr "_ٹوں ٹوں"
 
-#: ../data/klavaro.glade.h:95
+#: ../data/klavaro.glade.h:94
 msgid "Co_urse information"
 msgstr "نصابی اطلاع"
 
-#: ../data/klavaro.glade.h:96
+#: ../data/klavaro.glade.h:95
 msgid "Charts showing the learning progress along the exercises."
 msgstr "مشقوں کے ساتھ سیکھنے کی پیش رفت دکھاتے ہوئے چارٹ۔"
 
-#: ../data/klavaro.glade.h:97
+#: ../data/klavaro.glade.h:96
 msgid "_Progress"
 msgstr "_پیش رفت"
 
-#: ../data/klavaro.glade.h:98
+#: ../data/klavaro.glade.h:97
 msgid "Return to the main menu."
 msgstr "لائحۂ اول کی طرف واپسی۔"
 
-#: ../data/klavaro.glade.h:99
+#: ../data/klavaro.glade.h:98
 msgid "Show local and external scores from other users."
 msgstr "مقامی اور بیرونی دوسرے صارفین کے اسکور دکھاؤ۔"
 
-#: ../data/klavaro.glade.h:100
+#: ../data/klavaro.glade.h:99
 msgid "_Top 10"
 msgstr "_بالا 10"
 
@@ -488,65 +485,65 @@ msgstr "اساسی نصاب"
 msgid "Adaptability"
 msgstr "ملائمیت"
 
-#: ../src/main.c:373 ../src/callbacks.c:1246 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1225 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "رفتار"
 
-#: ../src/main.c:376 ../src/callbacks.c:1269 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1248 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "اسیال پن"
 
-#: ../src/callbacks.c:404 ../src/tutor.c:391
+#: ../src/callbacks.c:405 ../src/tutor.c:391
 msgid "Keys:"
 msgstr "کلیدیں: "
 
-#: ../src/callbacks.c:794 ../src/callbacks.c:810
+#: ../src/callbacks.c:773 ../src/callbacks.c:789
 msgid "Connecting..."
 msgstr "واصلت_"
 
-#: ../src/callbacks.c:1081
+#: ../src/callbacks.c:1060
 msgid "Overwrite user layout"
 msgstr "صارفی خاکہ  (کو مٹا کر اس کے) اُوپر-لکھو"
 
-#: ../src/callbacks.c:1083
+#: ../src/callbacks.c:1062
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "یہ موجود کلیدی تختہ مٹا کر اوپر-لکھ دے گا۔"
 
-#: ../src/callbacks.c:1090
+#: ../src/callbacks.c:1069
 msgid "Remove user layout"
 msgstr "صارفی خاکہ ہٹاؤ"
 
-#: ../src/callbacks.c:1092
+#: ../src/callbacks.c:1071
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "یہ موجود کلیدی تختہ خاکہ کو ہٹا دے گا۔"
 
-#: ../src/callbacks.c:1099
+#: ../src/callbacks.c:1078
 msgid "Reset progress data"
 msgstr "پیش رفت معطیات کی طاقمِ نو"
 
-#: ../src/callbacks.c:1100
+#: ../src/callbacks.c:1079
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "یہ چارٹ میں دکھایا تمام پیش رفت معطیات حذف کر دے گا۔"
 
-#: ../src/callbacks.c:1243 ../src/top10.c:87
+#: ../src/callbacks.c:1222 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "درستی"
 
-#: ../src/callbacks.c:1246 ../src/tutor.c:1163
+#: ../src/callbacks.c:1225 ../src/tutor.c:1163
 msgid "(WPM)"
 msgstr "(WPM)"
 
-#: ../src/callbacks.c:1257
+#: ../src/callbacks.c:1236
 msgid "Errors"
 msgstr "غلطیاں"
 
-#: ../src/callbacks.c:1260
+#: ../src/callbacks.c:1239
 msgid "Touch times (s)"
 msgstr ""
 
-#: ../src/callbacks.c:1272 ../src/tutor.c:1190 ../src/top10.c:69
+#: ../src/callbacks.c:1251 ../src/tutor.c:1190 ../src/top10.c:69
 msgid "Score"
 msgstr "اسکور"
 
@@ -1246,6 +1243,12 @@ msgstr "ملفات (فائلیں) زَبر اثقال نہیں کی جا سکی�
 #: ../src/top10.c:987
 msgid "Could not upload/download scores."
 msgstr "سکور زِیر/زَبر اثقال نہیں کر سکی۔"
+
+#~ msgid "Select the font to be used in the exercise window."
+#~ msgstr "مشق کھڑکی میں استعمال ہونے والا فونٹ منتخب کرو۔"
+
+#~ msgid "_Font"
+#~ msgstr "_فونٹ"
 
 #~ msgid "Klavaro"
 #~ msgstr "کلاوارو"
