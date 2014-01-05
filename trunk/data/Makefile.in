@@ -364,7 +364,7 @@ top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 SUBDIRS = icons
 klavaro_data = \
-	klavaro.ui \
+	klavaro.glade \
 	klavaro_96x96.png \
 	beep.png \
 	fluid.png \
@@ -499,15 +499,13 @@ klavaro_data = \
 
 pkgdata_DATA = $(klavaro_data)
 @IS_WIN32_FALSE@EXTRA_DIST = $(klavaro_data) \
-@IS_WIN32_FALSE@	$(desktop_in_file) \
-@IS_WIN32_FALSE@	klavaro.ui
+@IS_WIN32_FALSE@	$(desktop_in_file)
 
-@IS_WIN32_TRUE@EXTRA_DIST = $(klavaro_data) \
-@IS_WIN32_TRUE@	klavaro.ui
-
+@IS_WIN32_TRUE@EXTRA_DIST = $(klavaro_data)
 @IS_WIN32_FALSE@desktopdir = $(prefix)/$(DATADIRNAME)/applications
 @IS_WIN32_FALSE@desktop_in_file = klavaro.desktop.in
 @IS_WIN32_FALSE@desktop_DATA = $(desktop_in_file:.desktop.in=.desktop)
+@IS_WIN32_FALSE@DISTCLEANFILES = klavaro.desktop
 all: all-recursive
 
 .SUFFIXES:
@@ -778,6 +776,7 @@ clean-generic:
 distclean-generic:
 	-test -z "$(CONFIG_CLEAN_FILES)" || rm -f $(CONFIG_CLEAN_FILES)
 	-test . = "$(srcdir)" || test -z "$(CONFIG_CLEAN_VPATH_FILES)" || rm -f $(CONFIG_CLEAN_VPATH_FILES)
+	-test -z "$(DISTCLEANFILES)" || rm -f $(DISTCLEANFILES)
 
 maintainer-clean-generic:
 	@echo "This command is intended for maintainers to use"

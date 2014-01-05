@@ -1,14 +1,18 @@
 2014-??-??  Felipe Castro (-) <fefcas@gmail.com>;
 
-	* Release ?.??
+	* Release 3.00
 	* Fixed:
 	- Typo: prefered --> preferred
 	- manpage: minus as hyphen corrected with escapes (\-)
 	* Added:
-	- Keywords in the .desktop file.
+	- Keywords in the klavaro.desktop file.
 	* Changed:
-	- GtkDatabox is incorporated, because its last release do not support
-	GTK3 yet.
+	- Migrated from GTK2 to GTK3.
+	- GtkDatabox is incorporated statically, because its last release does
+	not support GTK3 yet.
+	- Some translatable messages were reviewed.
+	- Default background color for the tutor practice text came back to
+	ice-white: colors are easier customizable in the preferences.ini file.
 
 2014-01-03  Felipe Castro (-) <fefcas@gmail.com>; gettextize (=)
 
@@ -45,7 +49,7 @@
 	- Turkish keyboard layouts.
 	* Changed:
 	- Updated the greek keyboard layout, the old one is renamed to qwerty_old.
-	- Default foreground color for the tutor practice text made more greenish.
+	- Default background color for the tutor practice text made more greenish.
 	- Updated autotools and gettext infrastructure.
 
 2013-08-01 Felipe Castro (-) <fefcas@gmail.com>

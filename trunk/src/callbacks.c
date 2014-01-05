@@ -202,6 +202,28 @@ on_button_info_return_clicked (GtkButton *but, gpointer user_data)
 /**********************************************************************
  * 3 - Tutor window
  **********************************************************************/
+#define CB_COLOR_TAG(TAG, FGCOLOR, BGCOLOR) \
+	if (main_preferences_exist ("colors", TAG "_fg"))\
+		color_fg = main_preferences_get_string ("colors", TAG "_fg");\
+	else\
+	{\
+		color_fg = g_strdup (FGCOLOR);\
+		main_preferences_set_string ("colors", TAG "_fg", color_fg);\
+	}\
+	if (main_preferences_exist ("colors", TAG "_bg"))\
+		color_bg = main_preferences_get_string ("colors", TAG "_bg");\
+	else\
+	{\
+		color_bg = g_strdup (BGCOLOR);\
+		main_preferences_set_string ("colors", TAG "_bg", color_bg);\
+	}\
+	gtk_text_buffer_create_tag (buf, TAG,\
+		       	"foreground", color_fg,\
+		       	"background", color_bg,\
+		       	"underline", PANGO_UNDERLINE_NONE, NULL);\
+	g_free (color_bg);\
+	g_free (color_fg);
+
 G_MODULE_EXPORT void
 on_text_tutor_realize (GtkWidget * widget, gpointer user_data)
 {
@@ -216,9 +238,11 @@ on_text_tutor_realize (GtkWidget * widget, gpointer user_data)
 	GtkWidget *wg;
 	GtkTextBuffer *buf;
 	PangoFontDescription *font_desc;
-	GdkColor color;
+	GdkRGBA color;
 
-	/* Set main color for tutor text (char_untouched)
+	buf = gtk_text_view_get_buffer (GTK_TEXT_VIEW (widget));
+
+	/* Set main color for tutor text (char_untouched & CIA)
 	 */
 	if (main_preferences_exist ("colors", "char_untouched_bg"))
 		color_main_bg = main_preferences_get_string ("colors", "char_untouched_bg");
@@ -228,11 +252,10 @@ on_text_tutor_realize (GtkWidget * widget, gpointer user_data)
 		color_main_fg = main_preferences_get_string ("colors", "char_untouched_fg");
 	else
 		color_main_fg = g_strdup (TUTOR_BLACK);
+
 	/*
 	 * Colors of text on the tutor window (note: ordering here matters, the first tag created is in the bottom!)
 	 */
-	buf = gtk_text_view_get_buffer (GTK_TEXT_VIEW (widget));
-
 	gtk_text_buffer_create_tag (buf, "char_keep_wrap",
 		       	"background", color_main_bg,
 		       	"foreground", color_main_fg,
@@ -243,90 +266,12 @@ on_text_tutor_realize (GtkWidget * widget, gpointer user_data)
 		       	"foreground", color_main_fg,
 		       	"underline", PANGO_UNDERLINE_NONE, NULL);
 
-	gtk_text_buffer_create_tag (buf, "char_untouched",
-		       	"background", color_main_bg,
-		       	"foreground", color_main_fg,
-		       	"underline", PANGO_UNDERLINE_NONE, NULL);
-
-	/* char_wrong */
-	if (main_preferences_exist ("colors", "char_wrong_bg"))
-		color_bg = main_preferences_get_string ("colors", "char_wrong_bg");
-	else
-		color_bg = g_strdup (TUTOR_RED_LITE);
-	if (main_preferences_exist ("colors", "char_wrong_fg"))
-		color_fg = main_preferences_get_string ("colors", "char_wrong_fg");
-	else
-		color_fg = g_strdup (TUTOR_RED);
-	gtk_text_buffer_create_tag (buf, "char_wrong",
-		       	"background", color_bg,
-		       	"foreground", color_fg,
-		       	"underline", PANGO_UNDERLINE_NONE, NULL);
-	g_free (color_bg);
-	g_free (color_fg);
-
-	/* char_correct */
-	if (main_preferences_exist ("colors", "char_correct_bg"))
-		color_bg = main_preferences_get_string ("colors", "char_correct_bg");
-	else
-		color_bg = g_strdup (TUTOR_CREAM);
-	if (main_preferences_exist ("colors", "char_correct_fg"))
-		color_fg = main_preferences_get_string ("colors", "char_correct_fg");
-	else
-		color_fg = g_strdup (TUTOR_GREEN);
-	gtk_text_buffer_create_tag (buf, "char_correct",
-		       	"background", color_bg,
-		       	"foreground", color_fg,
-		       	"underline", PANGO_UNDERLINE_NONE, NULL);
-	g_free (color_bg);
-	g_free (color_fg);
-
-	/* char_retouched */
-	if (main_preferences_exist ("colors", "char_retouched_bg"))
-		color_bg = main_preferences_get_string ("colors", "char_retouched_bg");
-	else
-		color_bg = g_strdup (TUTOR_GRAY);
-	if (main_preferences_exist ("colors", "char_retouched_fg"))
-		color_fg = main_preferences_get_string ("colors", "char_retouched_fg");
-	else
-		color_fg = g_strdup (TUTOR_BROWN);
-	gtk_text_buffer_create_tag (buf, "char_retouched",
-			    "background", color_bg,
-			    "foreground", color_fg,
-			    "underline", PANGO_UNDERLINE_NONE, NULL);
-	g_free (color_bg);
-	g_free (color_fg);
-
-	/* cursor_blink */
-	if (main_preferences_exist ("colors", "cursor_blink_bg"))
-		color_bg = main_preferences_get_string ("colors", "cursor_blink_bg");
-	else
-		color_bg = g_strdup (TUTOR_YELLOW);
-	if (main_preferences_exist ("colors", "cursor_blink_fg"))
-		color_fg = main_preferences_get_string ("colors", "cursor_blink_fg");
-	else
-		color_fg = g_strdup (TUTOR_BLACK);
-	gtk_text_buffer_create_tag (buf, "cursor_blink",
-			"background", color_bg,
-			"foreground", color_fg,
-			"underline", PANGO_UNDERLINE_NONE, NULL);
-	g_free (color_bg);
-	g_free (color_fg);
-
-	/* text_intro */
-	if (main_preferences_exist ("colors", "text_intro_bg"))
-		color_bg = main_preferences_get_string ("colors", "text_intro_bg");
-	else
-		color_bg = g_strdup (TUTOR_WHITE);
-	if (main_preferences_exist ("colors", "text_intro_fg"))
-		color_fg = main_preferences_get_string ("colors", "text_intro_fg");
-	else
-		color_fg = g_strdup (TUTOR_BLACK);
-	gtk_text_buffer_create_tag (buf, "text_intro",
-		       	"background", color_bg,
-		       	"foreground", color_fg,
-		       	"underline", PANGO_UNDERLINE_NONE, NULL);
-	g_free (color_bg);
-	g_free (color_fg);
+	CB_COLOR_TAG ("char_untouched",	TUTOR_BLACK,	TUTOR_CREAM);
+	CB_COLOR_TAG ("char_wrong", 	TUTOR_RED,	TUTOR_RED_LITE);
+	CB_COLOR_TAG ("char_correct",	TUTOR_GREEN,	TUTOR_CREAM);
+	CB_COLOR_TAG ("char_retouched",	TUTOR_BROWN,	TUTOR_GRAY);
+	CB_COLOR_TAG ("cursor_blink",	TUTOR_BLACK,	TUTOR_YELLOW);
+	CB_COLOR_TAG ("text_intro",	TUTOR_BLACK,	TUTOR_WHITE);
 
 	/* Tutor font */
 	tmp_font = main_preferences_get_string ("tutor", "lesson_font");
@@ -344,12 +289,12 @@ on_text_tutor_realize (GtkWidget * widget, gpointer user_data)
 	pango_font_description_free (font_desc);
 
 	/* Change default background color throughout the widget */
-	gdk_color_parse (color_main_bg, &color);
-	gtk_widget_modify_base (widget, GTK_STATE_INSENSITIVE, &color);
+	gdk_rgba_parse (&color, color_main_bg);
+	gtk_widget_override_background_color (widget, GTK_STATE_FLAG_INSENSITIVE, &color);
 
 	/* Change default text color throughout the widget */
-	gdk_color_parse (color_main_fg, &color);
-	gtk_widget_modify_text (widget, GTK_STATE_INSENSITIVE, &color);
+	gdk_rgba_parse (&color, color_main_fg);
+	gtk_widget_override_color (widget, GTK_STATE_FLAG_INSENSITIVE, &color);
 
 	/* Turns on/off the beeps according to last time
 	 */
@@ -361,15 +306,6 @@ on_text_tutor_realize (GtkWidget * widget, gpointer user_data)
 	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (wg), beep);
 	main_preferences_set_boolean ("tutor", "tutor_beep", beep);
 
-	/* Workaround to extend the editable lessons, from 50 to 60,
-	 * avoiding to change the translatable message in the tooltip.
-	 */
-	tmp = gtk_widget_get_tooltip_text (get_wg ("togglebutton_edit_basic_lesson"));
-	search = g_strstr_len (tmp, -1, "50");
-	if (search)
-		search[0] = '6';
-	gtk_widget_set_tooltip_text (get_wg ("togglebutton_edit_basic_lesson"), tmp);
-	g_free (tmp);
 
 	g_free (color_main_bg);
 	g_free (color_main_fg);

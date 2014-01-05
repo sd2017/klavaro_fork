@@ -1529,6 +1529,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                     <property name="can_focus">False</property>
                     <property name="yalign">0</property>
                     <property name="stock">gtk-go-up</property>
+                    <property name="icon-size">1</property>
                   </object>
                 </child>
               </object>
@@ -1574,6 +1575,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                     <property name="can_focus">False</property>
                     <property name="yalign">7.4505801528346183e-09</property>
                     <property name="stock">gtk-go-up</property>
+                    <property name="icon-size">1</property>
                   </object>
                 </child>
               </object>
@@ -1609,6 +1611,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="stock">gtk-ok</property>
+                    <property name="icon-size">1</property>
                   </object>
                 </child>
               </object>
@@ -3652,7 +3655,6 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                 <property name="border_width">8</property>
                 <property name="relief">none</property>
                 <property name="active">True</property>
-                <property name="draw_indicator">True</property>
                 <signal name="toggled" handler="on_togglebutton_toomuch_errors_toggled" swapped="no"/>
                 <child>
                   <object class="GtkImage" id="image25">
@@ -3675,10 +3677,9 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">False</property>
-                <property name="tooltip_text" translatable="yes">Edit the character set to be used in lessons 44 through 50.</property>
+                <property name="tooltip_text" translatable="yes">Edit the character set to be used in lessons after 43: they are customizable!</property>
                 <property name="border_width">8</property>
                 <property name="relief">none</property>
-                <property name="draw_indicator">True</property>
                 <signal name="toggled" handler="on_togglebutton_edit_basic_lesson_toggled" swapped="no"/>
                 <child>
                   <object class="GtkImage" id="image16">
@@ -3716,9 +3717,10 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                 <property name="visible">True</property>
                 <property name="sensitive">False</property>
                 <property name="can_focus">False</property>
+                <property name="hscroll_policy">natural</property>
                 <property name="pixels_above_lines">9</property>
                 <property name="pixels_below_lines">1</property>
-                <property name="pixels_inside_wrap">1</property>
+                <property name="pixels_inside_wrap">4</property>
                 <property name="editable">False</property>
                 <property name="wrap_mode">word</property>
                 <property name="left_margin">10</property>
@@ -3907,7 +3909,6 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                 <property name="tooltip_text" translatable="yes">Keep this checked if you want to get those nice beeps.</property>
                 <property name="relief">none</property>
                 <property name="active">True</property>
-                <property name="draw_indicator">True</property>
                 <signal name="toggled" handler="on_togglebutton_tutor_beep_toggled" swapped="no"/>
                 <child>
                   <object class="GtkHBox" id="hbox8">
