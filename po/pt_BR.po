@@ -1,14 +1,14 @@
 # Brazilian Portuguese translation of klavaro.
 # This file is distributed under the same license as the klavaro package.
-# Copyright (C) 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
-# Felipe Castro <fefcas@gmail.com>, 2008, 2009, 2010, 2011, 2012.
+# Copyright (C) 2008, 2009, 2010, 2011, 2012, 2014 Free Software Foundation, Inc.
+# Felipe Castro <fefcas@gmail.com>, 2008, 2009, 2010, 2011, 2012, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: klavaro-1.9.5-pre2\n"
+"Project-Id-Version: klavaro-3.00-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-05 15:22-0200\n"
-"PO-Revision-Date: 2012-06-03 11:46-0300\n"
+"POT-Creation-Date: 2014-01-07 07:13-0200\n"
+"PO-Revision-Date: 2014-01-06 22:33-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Poedit-Country: BRAZIL\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../data/klavaro.glade.h:1
 msgid "About 'Klavaro'"
@@ -170,7 +170,7 @@ msgstr ""
 msgid "SPACE BAR"
 msgstr "BARRA DE ESPAÇOS"
 
-#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1631
+#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1630
 msgid "thumbs"
 msgstr "polegares"
 
@@ -254,25 +254,24 @@ msgstr "Memorizando o teclado ao praticar exercícios com teclas aleatórias."
 msgid "Practice with random keys"
 msgstr "Pratique com teclas aleatórias"
 
-#. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:54
+#: ../data/klavaro.glade.h:53
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "Acelerando os toques ao praticar exercícios com palavras aleatórias."
 
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:54
 msgid "Practice with random words"
 msgstr "Pratique com palavras aleatórias"
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:55
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr ""
 "Tornando-se proficiente ao praticar exercícios com parágrafos completos."
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:56
 msgid "Practice with complete texts"
 msgstr "Pratique com textos completos"
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:57
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
@@ -280,177 +279,179 @@ msgstr ""
 "Arranjo de teclado para os módulos 1 e 2. Também é usado informativamente na "
 "competição de fluidez."
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:58
 msgid "_Keyboard:"
 msgstr "_Teclado:"
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:59
 msgid "Language for modules 3 and 4."
 msgstr "Idioma para os módulos 3 e 4."
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:60
 msgid "_Language:"
 msgstr "_Idioma:"
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:61
 msgid "Speech"
 msgstr "Fala"
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:62
 msgid "Little tip about this program."
 msgstr "Pequena dica sobre este programa."
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:63
 msgid "_Help"
 msgstr "_Ajuda"
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:64
 msgid "General information about the program."
 msgstr "Informação genérica sobre o programa."
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:65
 msgid "_About..."
 msgstr "_Sobre..."
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:66
 msgid "Exit the application immediately."
 msgstr "Sair do aplicativo imediatamente."
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:67
 msgid "Klavaro - Progress"
 msgstr "Klavaro - Progresso"
 
-#: ../data/klavaro.glade.h:69
+#: ../data/klavaro.glade.h:68
 msgid "_Lesson:"
 msgstr "_Lição:"
 
-#: ../data/klavaro.glade.h:70
+#: ../data/klavaro.glade.h:69
 msgid "Value"
 msgstr "Valor"
 
-#: ../data/klavaro.glade.h:71
+#: ../data/klavaro.glade.h:70
 msgid "Close this window, returning to the exercise."
 msgstr "Fechar esta janela, retornando para o exercício."
 
-#: ../data/klavaro.glade.h:72
+#: ../data/klavaro.glade.h:71
 msgid "Clear all the progress data, for every module."
 msgstr "Limpar todos os dados sobre progresso, de todos os módulos."
 
-#: ../data/klavaro.glade.h:73
+#: ../data/klavaro.glade.h:72
 msgid "_Reset"
 msgstr "_Zerar"
 
-#: ../data/klavaro.glade.h:74
+#: ../data/klavaro.glade.h:73
 msgid "Top 10"
 msgstr "Os 10 Mais"
 
-#: ../data/klavaro.glade.h:75
-msgid "Show extra information"
+#: ../data/klavaro.glade.h:74
+#, fuzzy
+msgid "Show extra information."
 msgstr "Mostrar informação extra"
 
-#: ../data/klavaro.glade.h:76
-msgid "Hide extra information"
+#: ../data/klavaro.glade.h:75
+#, fuzzy
+msgid "Hide extra information."
 msgstr "Esconder informação extra"
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:76
 msgid "Publish to the web your local scores."
 msgstr "Publicar na internete sua pontuação local."
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:77
 msgid "_Participate"
 msgstr "_Participar"
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:78
 msgid "Download from the web the most up to date ranking."
 msgstr "Baixar da internete a classificação mais atual."
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:79
 msgid "_Update"
 msgstr "_Atualizar"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:80
 msgid "Load other exercises/lessons"
 msgstr "Carregar outros exercícios/lições."
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:81
 msgid "_Other texts"
 msgstr "_Outros textos"
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:82
 msgid "Edit the character set to be used in this lesson."
 msgstr "Editar o conjunto de caracteres a serem usados nesta lição."
 
-#: ../data/klavaro.glade.h:84
+#: ../data/klavaro.glade.h:83
 msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "Este é um exercício específico, ajustado ao seu perfil de erros."
 
-#: ../data/klavaro.glade.h:85
-#, fuzzy
+#: ../data/klavaro.glade.h:84
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
-msgstr "Editar o conjunto de caracteres a serem usados nas lições de 44 a 50."
+msgstr ""
+"Editar o conjunto de caracteres a ser usado nas lições depois da 43: elas "
+"são personalizáveis!"
 
-#: ../data/klavaro.glade.h:86 ../src/tutor.c:252
+#: ../data/klavaro.glade.h:85 ../src/tutor.c:252
 msgid "Drag and drop text here to practice with it."
 msgstr "Arraste e solte texto aqui para praticar com ele."
 
-#: ../data/klavaro.glade.h:87
-#, fuzzy
+#: ../data/klavaro.glade.h:86
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
 msgstr "Pressione aqui para recomeçar o exercício. Atalho: [Ctrl-R]"
 
-#: ../data/klavaro.glade.h:88
+#: ../data/klavaro.glade.h:87
 msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
 msgstr "Pressione aqui para recomeçar o exercício. Atalho: [Ctrl-R]"
 
-#: ../data/klavaro.glade.h:89
+#: ../data/klavaro.glade.h:88
 msgid "Show the virtual keyboard and the relation between fingers and keys."
 msgstr "Mostrar o teclado virtual e a relação entre dedos e teclas."
 
-#: ../data/klavaro.glade.h:90
+#: ../data/klavaro.glade.h:89
 msgid "_Keyboard"
 msgstr "_Teclado"
 
-#: ../data/klavaro.glade.h:91
+#: ../data/klavaro.glade.h:90
 msgid "Font definition"
 msgstr "Definição da fonte"
 
-#: ../data/klavaro.glade.h:92
+#: ../data/klavaro.glade.h:91
 msgid "Keep this checked if you want to get those nice beeps."
 msgstr "Mantenha isto aqui ativado se quiser ouvir aqueles bipes legais."
 
-#: ../data/klavaro.glade.h:93
+#: ../data/klavaro.glade.h:92
 msgid "_Beep"
 msgstr "_Bipe"
 
-#: ../data/klavaro.glade.h:94
+#: ../data/klavaro.glade.h:93
 msgid "Co_urse information"
 msgstr "Informação sobre o c_urso"
 
-#: ../data/klavaro.glade.h:95
+#: ../data/klavaro.glade.h:94
 msgid "Charts showing the learning progress along the exercises."
 msgstr ""
 "Gráficos a mostrar o progresso no aprendizado, ao longo dos exercícios."
 
-#: ../data/klavaro.glade.h:96
+#: ../data/klavaro.glade.h:95
 msgid "_Progress"
 msgstr "_Progresso"
 
-#: ../data/klavaro.glade.h:97
+#: ../data/klavaro.glade.h:96
 msgid "Return to the main menu."
 msgstr "Retornar ao menu principal."
 
-#: ../data/klavaro.glade.h:98
+#: ../data/klavaro.glade.h:97
 msgid "Show local and external scores from other users."
 msgstr "Mostrar pontuação local e externa de outros usuários."
 
-#: ../data/klavaro.glade.h:99
+#: ../data/klavaro.glade.h:98
 msgid "_Top 10"
 msgstr "Os 10 _Mais"
 
 #: ../data/klavaro.desktop.in.h:2
 msgid "keyboard;typing;tutorial;"
-msgstr ""
+msgstr "teclado;digitação;tutorial;"
 
 #: ../src/main.c:243
 msgid "(Custom)"
@@ -471,26 +472,24 @@ msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] "Regime de ditado (depende deste sintetizador de fala: %s)"
 msgstr[1] "Regime de ditado (depende de um destes sintetizadores de fala: %s)"
 
-#. Set main labels (for translation)
-#.
-#: ../src/main.c:364 ../src/keyboard.c:1292
+#: ../src/main.c:365 ../src/keyboard.c:1291
 msgid "Introduction"
 msgstr "Introdução"
 
-#: ../src/main.c:367 ../src/top10.c:109
+#: ../src/main.c:368 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Curso básico"
 
-#: ../src/main.c:370 ../src/top10.c:112
+#: ../src/main.c:371 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Adaptabilidade"
 
-#: ../src/main.c:373 ../src/callbacks.c:1225 ../src/top10.c:89
+#: ../src/main.c:374 ../src/callbacks.c:1225 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Rapidez"
 
-#: ../src/main.c:376 ../src/callbacks.c:1248 ../src/top10.c:91
+#: ../src/main.c:377 ../src/callbacks.c:1248 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Fluidez"
@@ -531,7 +530,7 @@ msgstr "Isto irá APAGAR todos os dados de progresso dos gráficos."
 msgid "Accuracy"
 msgstr "Exatidão"
 
-#: ../src/callbacks.c:1225 ../src/tutor.c:1163
+#: ../src/callbacks.c:1225 ../src/tutor.c:1164
 msgid "(WPM)"
 msgstr "(PPM)"
 
@@ -543,12 +542,12 @@ msgstr "Erros"
 msgid "Touch times (s)"
 msgstr "Tempos de toque (s)"
 
-#: ../src/callbacks.c:1251 ../src/tutor.c:1190 ../src/top10.c:69
+#: ../src/callbacks.c:1251 ../src/tutor.c:1191 ../src/top10.c:69
 msgid "Score"
 msgstr "Pontuação"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1600
+#: ../src/translation.c:485 ../src/tutor.c:1601
 msgid "en"
 msgstr "pt"
 
@@ -664,8 +663,7 @@ msgstr ""
 "implicará mais em preocupação nenhuma: toda a sua atenção poderá se voltar "
 "ao significado do texto mesmo."
 
-#. English typo: minimun -> minimum
-#: ../src/translation.c:614
+#: ../src/translation.c:613
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -678,8 +676,7 @@ msgstr ""
 "corrigir os erros cometidos. Ou seja, só serão aceitos textos digitados sem "
 "nenhum erro."
 
-#. English typo: recomendations -> recommendations
-#: ../src/keyboard.c:1095
+#: ../src/keyboard.c:1094
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -689,7 +686,7 @@ msgstr ""
 "para se digitar com eficiência. Siga rigorosamente as recomendações dadas "
 "aqui e você aprenderá mais rapidamente."
 
-#: ../src/keyboard.c:1098
+#: ../src/keyboard.c:1097
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -697,7 +694,7 @@ msgstr ""
 "As pontas dos dedos indicadores descansam sobre cada uma das teclas com "
 "marquinha em alto relevo, no centro do teclado."
 
-#: ../src/keyboard.c:1101
+#: ../src/keyboard.c:1100
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -708,7 +705,7 @@ msgstr ""
 "mais olhar para o teclado para saber se seus dedos estão corretamente "
 "posicionados."
 
-#: ../src/keyboard.c:1105
+#: ../src/keyboard.c:1104
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -716,11 +713,11 @@ msgstr ""
 "As pontas dos outros dedos repousam naturalmente ao lado dos indicadores, "
 "sobre as teclas que ficam na mesma linha."
 
-#: ../src/keyboard.c:1108
+#: ../src/keyboard.c:1107
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "As laterais dos dedos polegares repousam sobre a barra de espaços."
 
-#: ../src/keyboard.c:1110
+#: ../src/keyboard.c:1109
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -730,7 +727,7 @@ msgstr ""
 "fora do teclado. Sem este tipo de apoio os braços ficariam cansados "
 "rapidamente."
 
-#: ../src/keyboard.c:1113
+#: ../src/keyboard.c:1112
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -744,7 +741,7 @@ msgstr ""
 "específica entre cada tecla e um determinado dedo. Este relacionamento será "
 "apreendido gradualmente ao longo do curso básico."
 
-#: ../src/keyboard.c:1119
+#: ../src/keyboard.c:1118
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -755,7 +752,7 @@ msgstr ""
 "responsável pela mesma deve se mover para alcançá-la, mantendo todos os "
 "outros sobre suas posições originais."
 
-#: ../src/keyboard.c:1123
+#: ../src/keyboard.c:1122
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -764,7 +761,7 @@ msgstr ""
 "relaxar mais a obediência à regra anterior, de modo a possibilitar uma maior "
 "velocidade para o pressionamento das teclas."
 
-#: ../src/keyboard.c:1126
+#: ../src/keyboard.c:1125
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -775,54 +772,52 @@ msgstr ""
 "requer força de vontade e paciência. Confiamos em você, esperamos que tenha "
 "sucesso!"
 
-#: ../src/keyboard.c:1137
+#: ../src/keyboard.c:1136
 #, c-format
 msgid "Step %i"
 msgstr "Passo %i"
 
-#. Recommendations
-#: ../src/keyboard.c:1141
+#: ../src/keyboard.c:1142
 msgid "To position the hands"
 msgstr "Para posicionar as mãos"
 
-#. Final words
-#: ../src/keyboard.c:1226
+#: ../src/keyboard.c:1227
 msgid "Go ahead!"
 msgstr "Vai em frente!"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1234
 msgid "Relation between fingers and keys"
 msgstr "Relação entre dedos e teclas"
 
-#: ../src/keyboard.c:1236
+#: ../src/keyboard.c:1235
 msgid "Click on any key to see which finger you must use:"
 msgstr "Clique em qualquer tecla para ver qual dedo você deve usar:"
 
-#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
+#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
 msgid "Keyboard"
 msgstr "Teclado"
 
-#: ../src/keyboard.c:1373
+#: ../src/keyboard.c:1372
 msgid "Create or modify a custom keyboard layout"
 msgstr "Crie ou modifique um arranjo de teclado personalizado"
 
-#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
+#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
 msgid "small finger"
 msgstr "dedo mindinho"
 
-#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
+#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
 msgid "ring finger"
 msgstr "dedo anular"
 
-#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
+#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
 msgid "middle finger"
 msgstr "dedo médio"
 
-#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
+#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
 msgid "index finger"
 msgstr "dedo indicador"
 
-#: ../src/keyboard.c:1729
+#: ../src/keyboard.c:1728
 msgid "Press and edit me"
 msgstr "Pressione-me e edite"
 
@@ -909,91 +904,88 @@ msgstr ""
 "obs.: o texto que você acabou de digitar não parece similar a textos comuns "
 "em português: não podemos incluir essa sessão na competição dos \"10 Mais\"."
 
-#. Begin the accuracy
-#: ../src/tutor.c:1090
+#: ../src/tutor.c:1091
 msgid "STATISTICS"
 msgstr "ESTATÍSTICAS"
 
-#: ../src/tutor.c:1091
+#: ../src/tutor.c:1092
 msgid "Elapsed time:"
 msgstr "Tempo decorrido:"
 
-#: ../src/tutor.c:1092
+#: ../src/tutor.c:1093
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "minuto e"
 msgstr[1] "minutos e"
 
-#: ../src/tutor.c:1093
+#: ../src/tutor.c:1094
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "segundo"
 msgstr[1] "segundos"
 
-#: ../src/tutor.c:1094
+#: ../src/tutor.c:1095
 msgid "Error ratio:"
 msgstr "Taxa de erros:"
 
-#: ../src/tutor.c:1094
+#: ../src/tutor.c:1095
 msgid "Accuracy:"
 msgstr "Exatidão:"
 
-#: ../src/tutor.c:1115 ../src/tutor.c:1140 ../src/tutor.c:1163
-#: ../src/tutor.c:1189
+#: ../src/tutor.c:1116 ../src/tutor.c:1141 ../src/tutor.c:1164
+#: ../src/tutor.c:1190
 msgid "Goal:"
 msgstr "Meta:"
 
-#: ../src/tutor.c:1122
+#: ../src/tutor.c:1123
 msgid "Characters per second:"
 msgstr "Caracteres por segundo:"
 
-#: ../src/tutor.c:1140
+#: ../src/tutor.c:1141
 msgid "(CPS)"
 msgstr "(CPS)"
 
-#: ../src/tutor.c:1145
+#: ../src/tutor.c:1146
 msgid "Words per minute:"
 msgstr "Palavras por minuto:"
 
-#: ../src/tutor.c:1170
+#: ../src/tutor.c:1171
 msgid "Fluidness:"
 msgstr "Fluidez:"
 
-#: ../src/tutor.c:1197
+#: ../src/tutor.c:1198
 msgid "Comments:"
 msgstr "Comentários:"
 
-#: ../src/tutor.c:1679
+#: ../src/tutor.c:1680
 msgid "space"
 msgstr "espaço"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1684
+#: ../src/tutor.c:1685
 msgid "wye"
 msgstr "ípsilon"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1688
+#: ../src/tutor.c:1689
 msgid "enter"
 msgstr "enter"
 
-#: ../src/tutor.c:1694
+#: ../src/tutor.c:1695
 msgid "apostrophe"
 msgstr "apóstrofo"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1698
+#: ../src/tutor.c:1699
 msgid "quote"
 msgstr "aspas"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1702
+#: ../src/tutor.c:1703
 msgid "ampersand"
 msgstr "ampersande"
 
-#. Error frequencies or touch times
-#.
-#: ../src/plot.c:308
+#: ../src/plot.c:305
 msgid "Character"
 msgstr "Caractere"
 
@@ -1251,23 +1243,23 @@ msgstr "Não é possível subir arquivos"
 msgid "Could not upload/download scores."
 msgstr "Não foi possível enviar/baixar a pontuação."
 
-#~ msgid "Select the font to be used in the exercise window."
-#~ msgstr "Selecionar a fonte a ser usada na janela de exercícios."
-
-#~ msgid "_Font"
-#~ msgstr "Fo_nte"
+#~ msgid "Country / Custom"
+#~ msgstr "País / Personalização"
 
 #~ msgid "Klavaro"
 #~ msgstr "Klavaro"
 
-#~ msgid "Country / Custom"
-#~ msgstr "País / Personalização"
+#~ msgid "Select the font to be used in the exercise window."
+#~ msgstr "Selecionar a fonte a ser usada na janela de exercícios."
 
 #~ msgid "Variant"
 #~ msgstr "Variante"
 
 #~ msgid "Your language here."
 #~ msgstr "Sua língua é aqui."
+
+#~ msgid "_Font"
+#~ msgstr "Fo_nte"
 
 #~ msgid "Default"
 #~ msgstr "Padrão"

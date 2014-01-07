@@ -1091,7 +1091,6 @@ keyb_intro_step (gint step)
 
 	if (intro01 == NULL)
 	{
-		/* English typo: recomendations -> recommendations */
 		intro01 = g_strdup (_("Correct positioning of the hands and fingers is very important to efficient typing. "
 	"You will learn faster and type better if you follow the next recommendations."));
 		intro02 = g_strdup (_(
@@ -1137,10 +1136,10 @@ keyb_intro_step (gint step)
 	intro00 = g_strdup_printf (_("Step %i"), step);
 	switch (step)
 	{
-	case 0: /* Recommendations */
-		gtk_label_set_text (tit, _("To position the hands"));
+	case 0:	/* Recommendations */
 		gtk_label_set_text (tx1, intro01);
 		gtk_label_set_text (tx2, "");
+		gtk_label_set_text (tit, _("To position the hands"));
         	gtk_text_buffer_set_text (buffer, intro01, -1);
 		gtk_widget_grab_focus (get_wg ("button_keyboard_next"));
 		keyb_set_sensitive (TRUE);
@@ -1223,9 +1222,9 @@ keyb_intro_step (gint step)
 		hints_demo_fingers (1000/5);
 		break;
 	case 6: /* Final words */
-		gtk_label_set_text (tit, _("Go ahead!"));
 		gtk_label_set_text (tx1, intro10);
 		gtk_label_set_text (tx2, "");
+		gtk_label_set_text (tit, _("Go ahead!"));
         	gtk_text_buffer_set_text (buffer, intro10, -1);
 		gtk_widget_grab_focus (get_wg ("button_keyboard_close"));
 		keyb_set_sensitive (TRUE);

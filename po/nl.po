@@ -1,17 +1,17 @@
 # Dutch translations for klavaro.
-# Copyright (C) 2012 Free Software Foundation, Inc.
+# Copyright (C) 2014 Free Software Foundation, Inc.
 # This file is distributed under the same license as the klavaro package.
 #
-# "Durstig nach einem Bio-Radler, donnerten sie alle die Treppe hinunter."
+# "Niet te verwarren met lekkernij."
 #
 # Dieter Vanderfaeillie <dieter.vanderfaeillie@gmail.com>, 2009.
-# Benno Schulenberg <benno@vertaalt.nl>, 2011, 2012.
+# Benno Schulenberg <benno@vertaalt.nl>, 2011, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: klavaro 1.9.5-pre2\n"
+"Project-Id-Version: klavaro 3.00-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-05 15:22-0200\n"
-"PO-Revision-Date: 2012-06-05 15:42+0200\n"
+"POT-Creation-Date: 2014-01-07 07:13-0200\n"
+"PO-Revision-Date: 2014-01-06 21:18+0100\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -173,7 +173,7 @@ msgstr ""
 msgid "SPACE BAR"
 msgstr "SPATIEBALK"
 
-#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1631
+#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1630
 msgid "thumbs"
 msgstr "duimen"
 
@@ -257,24 +257,23 @@ msgstr "Je het toetsenbord inprenten door te oefenen met willekeurige toetsen."
 msgid "Practice with random keys"
 msgstr "Oefen met willekeurige toetsen"
 
-#. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:54
+#: ../data/klavaro.glade.h:53
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "Je snelheid verhogen door te oefenen met willekeurige woorden."
 
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:54
 msgid "Practice with random words"
 msgstr "Oefen met willekeurige woorden"
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:55
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "Bekwaam worden door te oefenen met volledige alinea's."
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:56
 msgid "Practice with complete texts"
 msgstr "Oefen met complete teksten"
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:57
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
@@ -282,177 +281,181 @@ msgstr ""
 "Toetsenbordindeling voor modules 1 en 2; wordt ook informatief gebruikt in "
 "de vloeiendtypenwedstrijd."
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:58
 msgid "_Keyboard:"
 msgstr "Toetsen_bord:"
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:59
 msgid "Language for modules 3 and 4."
 msgstr "Taal voor modules 3 en 4."
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:60
 msgid "_Language:"
 msgstr "_Taal:"
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:61
 msgid "Speech"
 msgstr "Spraak"
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:62
 msgid "Little tip about this program."
 msgstr "Kleine toelichting bij dit programma."
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:63
 msgid "_Help"
 msgstr "_Hulp"
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:64
 msgid "General information about the program."
 msgstr "Algemene informatie over het programma."
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:65
 msgid "_About..."
 msgstr "_Info..."
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:66
 msgid "Exit the application immediately."
 msgstr "Het programma onmiddellijk afsluiten."
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:67
 msgid "Klavaro - Progress"
 msgstr "Klavaro - Voortgang"
 
-#: ../data/klavaro.glade.h:69
+#: ../data/klavaro.glade.h:68
 msgid "_Lesson:"
 msgstr "_Les:"
 
-#: ../data/klavaro.glade.h:70
+#: ../data/klavaro.glade.h:69
 msgid "Value"
 msgstr "Waarde"
 
-#: ../data/klavaro.glade.h:71
+#: ../data/klavaro.glade.h:70
 msgid "Close this window, returning to the exercise."
 msgstr "Dit venster sluiten; teruggaan naar de oefening."
 
-#: ../data/klavaro.glade.h:72
+#: ../data/klavaro.glade.h:71
 msgid "Clear all the progress data, for every module."
 msgstr "Alle voortgangsgegevens wissen, voor elke module!"
 
-#: ../data/klavaro.glade.h:73
+#: ../data/klavaro.glade.h:72
 msgid "_Reset"
 msgstr "_Wissen"
 
-#: ../data/klavaro.glade.h:74
+#: ../data/klavaro.glade.h:73
 msgid "Top 10"
 msgstr "Top 10"
 
-#: ../data/klavaro.glade.h:75
-msgid "Show extra information"
+#: ../data/klavaro.glade.h:74
+#, fuzzy
+msgid "Show extra information."
 msgstr "Extra informatie tonen"
 
-#: ../data/klavaro.glade.h:76
-msgid "Hide extra information"
+#: ../data/klavaro.glade.h:75
+#, fuzzy
+msgid "Hide extra information."
 msgstr "Extra informatie verbergen"
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:76
 msgid "Publish to the web your local scores."
 msgstr "Jouw lokale scores op het web publiceren."
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:77
 msgid "_Participate"
 msgstr "_Deelnemen"
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:78
 msgid "Download from the web the most up to date ranking."
 msgstr "De laatste rangorde van het web downloaden."
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:79
 msgid "_Update"
 msgstr "_Verversen"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:80
 msgid "Load other exercises/lessons"
 msgstr "Andere oefeningen/lessen openen."
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:81
 msgid "_Other texts"
 msgstr "_Andere teksten"
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:82
 msgid "Edit the character set to be used in this lesson."
 msgstr "De tekenset wijzigen die in deze les gebruikt wordt."
 
-#: ../data/klavaro.glade.h:84
+#: ../data/klavaro.glade.h:83
 msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "Dit is een speciale oefening, aangepast aan jouw foutenprofiel."
 
-#: ../data/klavaro.glade.h:85
-#, fuzzy
+#: ../data/klavaro.glade.h:84
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
-msgstr "De tekenset wijzigen die in lessen 44 tot 50 gebruikt wordt."
+msgstr ""
+"De tekenset wijzigen die in de lessen na les 43 gebruikt wordt: die zijn te "
+"veranderen!"
 
-#: ../data/klavaro.glade.h:86 ../src/tutor.c:252
+#: ../data/klavaro.glade.h:85 ../src/tutor.c:252
 msgid "Drag and drop text here to practice with it."
 msgstr "Sleep een tekst hierheen om ermee te oefenen."
 
-#: ../data/klavaro.glade.h:87
-#, fuzzy
+#: ../data/klavaro.glade.h:86
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
-msgstr "Klik hier om de oefening te herstarten."
+msgstr "Klik hier om de oefening te herstarten. Sneltoets: [Ctrl-R]"
+
+# XXX  kial du preskaŭ identaj mesaĝoj?
+#: ../data/klavaro.glade.h:87
+msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+msgstr "Klik hier om de oefening te herstarten. Sneltoets: [Ctrl-R]"
 
 #: ../data/klavaro.glade.h:88
-msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-msgstr "Klik hier om de oefening te herstarten."
-
-#: ../data/klavaro.glade.h:89
 msgid "Show the virtual keyboard and the relation between fingers and keys."
 msgstr ""
 "Een schematisch toetsenbord tonen met de relatie tussen vingers en toetsen."
 
-#: ../data/klavaro.glade.h:90
+#: ../data/klavaro.glade.h:89
 msgid "_Keyboard"
 msgstr "_Toetsenbord"
 
-#: ../data/klavaro.glade.h:91
+#: ../data/klavaro.glade.h:90
 msgid "Font definition"
 msgstr "Lettertypedefinitie"
 
-#: ../data/klavaro.glade.h:92
+#: ../data/klavaro.glade.h:91
 msgid "Keep this checked if you want to get those nice beeps."
 msgstr "Houd deze ingeschakeld als je die piepjes wenst."
 
-#: ../data/klavaro.glade.h:93
+#: ../data/klavaro.glade.h:92
 msgid "_Beep"
 msgstr "_Piepjes"
 
-#: ../data/klavaro.glade.h:94
+#: ../data/klavaro.glade.h:93
 msgid "Co_urse information"
 msgstr "Les_informatie"
 
-#: ../data/klavaro.glade.h:95
+#: ../data/klavaro.glade.h:94
 msgid "Charts showing the learning progress along the exercises."
 msgstr "Grafieken die de leercurve tonen."
 
-#: ../data/klavaro.glade.h:96
+#: ../data/klavaro.glade.h:95
 msgid "_Progress"
 msgstr "_Voortgang"
 
-#: ../data/klavaro.glade.h:97
+#: ../data/klavaro.glade.h:96
 msgid "Return to the main menu."
 msgstr "Terug naar het hoofdmenu."
 
-#: ../data/klavaro.glade.h:98
+#: ../data/klavaro.glade.h:97
 msgid "Show local and external scores from other users."
 msgstr "Lokale en externe scores van andere gebruikers tonen."
 
-#: ../data/klavaro.glade.h:99
+#: ../data/klavaro.glade.h:98
 msgid "_Top 10"
 msgstr "_Top 10"
 
+# XXX  kio estas tio ĉi??
 #: ../data/klavaro.desktop.in.h:2
 msgid "keyboard;typing;tutorial;"
-msgstr ""
+msgstr "toetsenbord;typen;leerboek;"
 
 #: ../src/main.c:243
 msgid "(Custom)"
@@ -474,26 +477,24 @@ msgstr[0] "Dicteermodus (maakt gebruik van deze spraaksynthesizer: %s)"
 msgstr[1] ""
 "Dicteermodus (maakt gebruik van één van deze spraaksynthesizers: %s)"
 
-#. Set main labels (for translation)
-#.
-#: ../src/main.c:364 ../src/keyboard.c:1292
+#: ../src/main.c:365 ../src/keyboard.c:1291
 msgid "Introduction"
 msgstr "Inleiding"
 
-#: ../src/main.c:367 ../src/top10.c:109
+#: ../src/main.c:368 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Basiscursus"
 
-#: ../src/main.c:370 ../src/top10.c:112
+#: ../src/main.c:371 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Flexibiliteit"
 
-#: ../src/main.c:373 ../src/callbacks.c:1225 ../src/top10.c:89
+#: ../src/main.c:374 ../src/callbacks.c:1225 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Snelheid"
 
-#: ../src/main.c:376 ../src/callbacks.c:1248 ../src/top10.c:91
+#: ../src/main.c:377 ../src/callbacks.c:1248 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Vloeiendheid"
@@ -536,7 +537,7 @@ msgstr ""
 msgid "Accuracy"
 msgstr "Nauwkeurigheid"
 
-#: ../src/callbacks.c:1225 ../src/tutor.c:1163
+#: ../src/callbacks.c:1225 ../src/tutor.c:1164
 msgid "(WPM)"
 msgstr "(WPM)"
 
@@ -548,12 +549,12 @@ msgstr "Fouten"
 msgid "Touch times (s)"
 msgstr "Aanslagtijden (s)"
 
-#: ../src/callbacks.c:1251 ../src/tutor.c:1190 ../src/top10.c:69
+#: ../src/callbacks.c:1251 ../src/tutor.c:1191 ../src/top10.c:69
 msgid "Score"
 msgstr "Score"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1600
+#: ../src/translation.c:485 ../src/tutor.c:1601
 msgid "en"
 msgstr "nl"
 
@@ -594,7 +595,7 @@ msgid ""
 "symbols."
 msgstr ""
 "Hier kun je oefenen en je inprenting van de toetsen verbeteren. Er zullen "
-"zinnen worden getoond met niet-bestaande woorden en enkele cijfers en "
+"zinnen worden getoond met niet-bestaande woorden plus enkele cijfers en "
 "symbolen."
 
 #: ../src/translation.c:586
@@ -669,8 +670,7 @@ msgstr ""
 "doel zal de vaardigheid van het typen automatisch worden en weinig aandacht "
 "vereisen. Dan zul je aandacht kunnen besteden aan de betekenis van de tekst."
 
-#. English typo: minimun -> minimum
-#: ../src/translation.c:614
+#: ../src/translation.c:613
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -682,8 +682,7 @@ msgstr ""
 "zul je de [Backspace]-toets moeten gebruiken om fouten te corrigeren. Met "
 "andere woorden: alleen foutloze inhoud wordt geaccepteerd."
 
-#. English typo: recomendations -> recommendations
-#: ../src/keyboard.c:1095
+#: ../src/keyboard.c:1094
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -691,9 +690,9 @@ msgid ""
 msgstr ""
 "Het correct positioneren van je handen en vingers is zeer belangrijk om "
 "efficiënt te kunnen typen. Je zult het sneller leren en beter typen als je "
-"de deze aanbevelingen opvolgt."
+"deze aanbevelingen opvolgt."
 
-#: ../src/keyboard.c:1098
+#: ../src/keyboard.c:1097
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -701,7 +700,7 @@ msgstr ""
 "De twee wijsvingertoppen moeten rusten op de twee toetsen die een kleine "
 "verhoogde markering hebben, in het midden van het toetsenbord."
 
-#: ../src/keyboard.c:1101
+#: ../src/keyboard.c:1100
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -712,7 +711,7 @@ msgstr ""
 "een klein beetje oefening, zul je niet naar het toetsenbord hoeven kijken om "
 "te weten of je vingers correct gepositioneerd zijn."
 
-#: ../src/keyboard.c:1105
+#: ../src/keyboard.c:1104
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -720,11 +719,11 @@ msgstr ""
 "De toppen van de andere vingers liggen natuurlijk naast die van de "
 "wijsvingers, op de toetsen van dezelfde rij van het toetsenbord."
 
-#: ../src/keyboard.c:1108
+#: ../src/keyboard.c:1107
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "De buitenranden van je duimen rusten op de spatiebalk."
 
-#: ../src/keyboard.c:1110
+#: ../src/keyboard.c:1109
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -733,7 +732,7 @@ msgstr ""
 "Het deel van de handen dicht bij de pols (de basis) rust op de tafel buiten "
 "het toetsenbord. Zonder deze ondersteuning zouden de armen snel moe worden."
 
-#: ../src/keyboard.c:1113
+#: ../src/keyboard.c:1112
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -747,7 +746,7 @@ msgstr ""
 "relatie tussen toetsen en vingers gebruikt. Deze relatie zal tijdens de "
 "basiscursus langzaam worden aangeleerd."
 
-#: ../src/keyboard.c:1119
+#: ../src/keyboard.c:1118
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -757,7 +756,7 @@ msgstr ""
 "belangrijk dat je alleen de vinger die de toets moet indrukken beweegt en "
 "alle andere vingers in de basispositie houdt."
 
-#: ../src/keyboard.c:1123
+#: ../src/keyboard.c:1122
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -765,7 +764,7 @@ msgstr ""
 "Na het je inprenten van deze relatie, kun je de voorgaande regel een beetje "
 "afzwakken, zodat je een grotere typsnelheid kunt behalen."
 
-#: ../src/keyboard.c:1126
+#: ../src/keyboard.c:1125
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -775,54 +774,52 @@ msgstr ""
 "moeite en geduld kosten om even goed te worden als een typist. Maar we "
 "vertrouwen erop dat je dit kunt en kijken uit naar je succes!"
 
-#: ../src/keyboard.c:1137
+#: ../src/keyboard.c:1136
 #, c-format
 msgid "Step %i"
 msgstr "Stap %i"
 
-#. Recommendations
-#: ../src/keyboard.c:1141
+#: ../src/keyboard.c:1142
 msgid "To position the hands"
 msgstr "Om je handen te positioneren"
 
-#. Final words
-#: ../src/keyboard.c:1226
+#: ../src/keyboard.c:1227
 msgid "Go ahead!"
 msgstr "Voorwaarts!"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1234
 msgid "Relation between fingers and keys"
 msgstr "Relatie tussen vingers en toetsen"
 
-#: ../src/keyboard.c:1236
+#: ../src/keyboard.c:1235
 msgid "Click on any key to see which finger you must use:"
 msgstr "Klik op een toets om te zien welke vinger je moet gebruiken:"
 
-#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
+#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
 msgid "Keyboard"
 msgstr "Toetsenbord"
 
-#: ../src/keyboard.c:1373
+#: ../src/keyboard.c:1372
 msgid "Create or modify a custom keyboard layout"
 msgstr "Een eigen toetsenbordindeling aanmaken of aanpassen"
 
-#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
+#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
 msgid "small finger"
 msgstr "pink"
 
-#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
+#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
 msgid "ring finger"
 msgstr "ringvinger"
 
-#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
+#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
 msgid "middle finger"
 msgstr "middelvinger"
 
-#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
+#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
 msgid "index finger"
 msgstr "wijsvinger"
 
-#: ../src/keyboard.c:1729
+#: ../src/keyboard.c:1728
 msgid "Press and edit me"
 msgstr "Druk en bewerk me"
 
@@ -909,91 +906,88 @@ msgstr ""
 "nu geselecteerd is: we kunnen het niet in rekening brengen voor de 'Top 10'-"
 "wedstrijd."
 
-#. Begin the accuracy
-#: ../src/tutor.c:1090
+#: ../src/tutor.c:1091
 msgid "STATISTICS"
 msgstr "STATISTIEKEN"
 
-#: ../src/tutor.c:1091
+#: ../src/tutor.c:1092
 msgid "Elapsed time:"
 msgstr "Verstreken tijd:"
 
-#: ../src/tutor.c:1092
+#: ../src/tutor.c:1093
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "minuut en"
 msgstr[1] "minuten en"
 
-#: ../src/tutor.c:1093
+#: ../src/tutor.c:1094
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "seconde"
 msgstr[1] "seconden"
 
-#: ../src/tutor.c:1094
+#: ../src/tutor.c:1095
 msgid "Error ratio:"
 msgstr "Foutenverhouding:"
 
-#: ../src/tutor.c:1094
+#: ../src/tutor.c:1095
 msgid "Accuracy:"
 msgstr "Nauwkeurigheid:"
 
-#: ../src/tutor.c:1115 ../src/tutor.c:1140 ../src/tutor.c:1163
-#: ../src/tutor.c:1189
+#: ../src/tutor.c:1116 ../src/tutor.c:1141 ../src/tutor.c:1164
+#: ../src/tutor.c:1190
 msgid "Goal:"
 msgstr "Doel:"
 
-#: ../src/tutor.c:1122
+#: ../src/tutor.c:1123
 msgid "Characters per second:"
 msgstr "Aanslagen per seconde:"
 
-#: ../src/tutor.c:1140
+#: ../src/tutor.c:1141
 msgid "(CPS)"
 msgstr "(TPS)"
 
-#: ../src/tutor.c:1145
+#: ../src/tutor.c:1146
 msgid "Words per minute:"
 msgstr "Woorden per minuut:"
 
-#: ../src/tutor.c:1170
+#: ../src/tutor.c:1171
 msgid "Fluidness:"
 msgstr "Vloeiendheid:"
 
-#: ../src/tutor.c:1197
+#: ../src/tutor.c:1198
 msgid "Comments:"
 msgstr "Commentaar:"
 
-#: ../src/tutor.c:1679
+#: ../src/tutor.c:1680
 msgid "space"
 msgstr "spatie"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1684
+#: ../src/tutor.c:1685
 msgid "wye"
 msgstr "i-grec"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1688
+#: ../src/tutor.c:1689
 msgid "enter"
 msgstr "Enter"
 
-#: ../src/tutor.c:1694
+#: ../src/tutor.c:1695
 msgid "apostrophe"
 msgstr "apostrof"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1698
+#: ../src/tutor.c:1699
 msgid "quote"
 msgstr "dubbel aanhalingsteken"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1702
+#: ../src/tutor.c:1703
 msgid "ampersand"
 msgstr "ampersand"
 
-#. Error frequencies or touch times
-#.
-#: ../src/plot.c:308
+#: ../src/plot.c:305
 msgid "Character"
 msgstr "Teken"
 
@@ -1041,6 +1035,7 @@ msgstr ""
 " Je doet het goed. Maar...\n"
 " Kun je je nauwkeurigheid op zijn minst 95% krijgen?\n"
 
+# XXX  THEN go to ANother
 #: ../src/adaptability.c:229
 #, c-format
 msgid ""
@@ -1050,7 +1045,7 @@ msgid ""
 msgstr ""
 " Je bent er bijna, maar je nauwkeurigheid is nog steeds onder de %.0f%%.\n"
 " Probeer het nog een paar keer opnieuw, of ga naar een ander soort oefening "
-"als je er genoeg van hebt. \n"
+"als je er genoeg van hebt.\n"
 
 #: ../src/adaptability.c:236
 #, c-format
@@ -1079,6 +1074,7 @@ msgstr ""
 " Heb geduld, probeer het elke dag opnieuw, rust uit en pieker niet:\n"
 " doorzetting en oefening zullen je snelheid verbeteren.\n"
 
+# XXX  can DO better; try TO REACH
 #: ../src/velocity.c:435
 msgid ""
 " Still away from the highway. You can make better...\n"
@@ -1142,7 +1138,7 @@ msgid ""
 " Dvorak mode dominated!\n"
 " Can you fly at 90 WPM?\n"
 msgstr ""
-" Dvorak-modus gedomineerd!\n"
+" Dvorak-modus onder de knie!\n"
 " Kun je vliegen met 90 WPM?\n"
 
 #: ../src/velocity.c:465
@@ -1150,7 +1146,7 @@ msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
 msgstr ""
-" Dvorak meester!\n"
+" Dvorak-meester!\n"
 " Ik heb geen woorden om mijn bewondering te uiten!\n"
 
 #: ../src/fluidness.c:545
@@ -1252,23 +1248,23 @@ msgstr "Kan geen bestanden uploaden"
 msgid "Could not upload/download scores."
 msgstr "Kan de lokale scores niet uploaden/downloaden."
 
-#~ msgid "Select the font to be used in the exercise window."
-#~ msgstr "Het lettertype kiezen dat gebruikt wordt in het oefeningenscherm."
-
-#~ msgid "_Font"
-#~ msgstr "_Lettertype"
+#~ msgid "Country / Custom"
+#~ msgstr "Kies hier je toetsenbordindeling."
 
 #~ msgid "Klavaro"
 #~ msgstr "'Klavaro'"
 
-#~ msgid "Country / Custom"
-#~ msgstr "Kies hier je toetsenbordindeling."
+#~ msgid "Select the font to be used in the exercise window."
+#~ msgstr "Het lettertype kiezen dat gebruikt wordt in het oefeningenscherm."
 
 #~ msgid "Variant"
 #~ msgstr "Kies hier je toetsenbordvariant"
 
 #~ msgid "Your language here."
 #~ msgstr "Kies hier je taal."
+
+#~ msgid "_Font"
+#~ msgstr "_Lettertype"
 
 #~ msgid "Default"
 #~ msgstr "Standaard"
@@ -1308,9 +1304,6 @@ msgstr "Kan de lokale scores niet uploaden/downloaden."
 
 #~ msgid "Choose or edit the keyboard layout used by you."
 #~ msgstr "Kies of verander de gekozen toetsenbordindeling."
-
-#~ msgid "Define"
-#~ msgstr "Bepaal"
 
 #~ msgid "Choose the language of this interface and of the whole course."
 #~ msgstr "Kies de taal van deze interface en van de gehele cursus."
@@ -1375,9 +1368,6 @@ msgstr "Kan de lokale scores niet uploaden/downloaden."
 
 #~ msgid "( layout saved as \".tmp\" )"
 #~ msgstr "( indeling is opgeslagen als \".tmp\" )"
-
-#~ msgid "+"
-#~ msgstr "+"
 
 #~ msgid "Close this window and return to the lesson. Hotkey: [Esc]"
 #~ msgstr "Sluit dit venster en ga terug naar de les. Sneltoets: [Esc]"
