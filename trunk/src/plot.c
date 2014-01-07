@@ -302,10 +302,10 @@ plot_draw_chart (gint field)
 	gtk_widget_hide (plot.table);
 
 	plot_type = field;
+	gtk_widget_set_tooltip_text (get_wg ("entry_stat_x"), _("Character"));
 
 	/* Error frequencies or touch times
 	 */
-	gtk_widget_set_tooltip_text (get_wg ("entry_stat_x"), _("Character"));
 	if (field == 6)
 	{
 		plot_error_frequencies ();

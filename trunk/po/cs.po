@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.4-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-05 15:22-0200\n"
+"POT-Creation-Date: 2014-01-07 07:13-0200\n"
 "PO-Revision-Date: 2012-01-16 09:35+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
@@ -167,7 +167,7 @@ msgstr "Zmáčknutí klávesy shift přepíná mezi psaním malých a velkých p
 msgid "SPACE BAR"
 msgstr "MEZERNÍK"
 
-#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1631
+#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1630
 msgid "thumbs"
 msgstr "palce"
 
@@ -251,24 +251,23 @@ msgstr "Zapamatujte si klávesnici procvičováním s náhodnými znaky."
 msgid "Practice with random keys"
 msgstr "Cvičení s náhodnými znaky"
 
-#. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:54
+#: ../data/klavaro.glade.h:53
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "Zvyšujte rychlost psaní procvičováním s náhodnými slovy."
 
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:54
 msgid "Practice with random words"
 msgstr "Cvičení s náhodnými slovy"
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:55
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "Staňte se dokonalými procvičováním celých odstavců."
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:56
 msgid "Practice with complete texts"
 msgstr "Procvičovat kompletní texty"
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:57
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
@@ -276,170 +275,172 @@ msgstr ""
 "Rozložení klávesnice pro moduly 1 a 2. Také se informativně používá při "
 "testu plynulosti."
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:58
 msgid "_Keyboard:"
 msgstr "_Klávesnice:"
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:59
 msgid "Language for modules 3 and 4."
 msgstr "Jazyk pro moduly 3 a 4."
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:60
 msgid "_Language:"
 msgstr "_Jazyk:"
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:61
 msgid "Speech"
 msgstr "Diktovat"
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:62
 msgid "Little tip about this program."
 msgstr "Malý návod k tomuto programu."
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:63
 msgid "_Help"
 msgstr "_Nápověda"
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:64
 msgid "General information about the program."
 msgstr "Obecné informace o této aplikaci."
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:65
 msgid "_About..."
 msgstr "O _aplikaci…"
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:66
 msgid "Exit the application immediately."
 msgstr "Ihned ukončit aplikaci."
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:67
 msgid "Klavaro - Progress"
 msgstr "Klavaro – pokrok"
 
-#: ../data/klavaro.glade.h:69
+#: ../data/klavaro.glade.h:68
 msgid "_Lesson:"
 msgstr "_Lekce:"
 
-#: ../data/klavaro.glade.h:70
+#: ../data/klavaro.glade.h:69
 msgid "Value"
 msgstr "Hodnota"
 
-#: ../data/klavaro.glade.h:71
+#: ../data/klavaro.glade.h:70
 msgid "Close this window, returning to the exercise."
 msgstr "Zavřít toto okno a vrátit se zpět ke cvičení."
 
-#: ../data/klavaro.glade.h:72
+#: ../data/klavaro.glade.h:71
 msgid "Clear all the progress data, for every module."
 msgstr "Smazat všechna data postupů ve všech modulech."
 
-#: ../data/klavaro.glade.h:73
+#: ../data/klavaro.glade.h:72
 msgid "_Reset"
 msgstr "Vy_nulovat"
 
-#: ../data/klavaro.glade.h:74
+#: ../data/klavaro.glade.h:73
 msgid "Top 10"
 msgstr "Top 10"
 
-#: ../data/klavaro.glade.h:75
-msgid "Show extra information"
+#: ../data/klavaro.glade.h:74
+#, fuzzy
+msgid "Show extra information."
 msgstr "Zobrazit doplňující informace"
 
-#: ../data/klavaro.glade.h:76
-msgid "Hide extra information"
+#: ../data/klavaro.glade.h:75
+#, fuzzy
+msgid "Hide extra information."
 msgstr "Skrýt doplňující informace"
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:76
 msgid "Publish to the web your local scores."
 msgstr "Publikovat vaše místní hodnocení na webu."
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:77
 msgid "_Participate"
 msgstr "Úča_stnit se"
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:78
 msgid "Download from the web the most up to date ranking."
 msgstr "Stáhnout z webu nejlepší hodnocení."
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:79
 msgid "_Update"
 msgstr "_Aktualizovat"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:80
 msgid "Load other exercises/lessons"
 msgstr "Načíst jiné cvičení/lekce"
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:81
 msgid "_Other texts"
 msgstr "_Další texty"
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:82
 msgid "Edit the character set to be used in this lesson."
 msgstr "Upravit znakovou sadu použitou v této lekci."
 
-#: ../data/klavaro.glade.h:84
+#: ../data/klavaro.glade.h:83
 msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "Toto je cvičení ušité na míru dle chyb, kterých se dopouštíte."
 
-#: ../data/klavaro.glade.h:85
+#: ../data/klavaro.glade.h:84
 #, fuzzy
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr "Upravit znakovou sadu použitou v lekcích 44 až 50."
 
-#: ../data/klavaro.glade.h:86 ../src/tutor.c:252
+#: ../data/klavaro.glade.h:85 ../src/tutor.c:252
 msgid "Drag and drop text here to practice with it."
 msgstr "Pro účely procvičení sem přetáhněte text."
 
-#: ../data/klavaro.glade.h:87
+#: ../data/klavaro.glade.h:86
 #, fuzzy
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
 msgstr "Přejete-li si restartovat cvičení, pak zde klikněte. Zkratka: [Ctrl-R]"
 
-#: ../data/klavaro.glade.h:88
+#: ../data/klavaro.glade.h:87
 msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
 msgstr "Přejete-li si restartovat cvičení, pak zde klikněte. Zkratka: [Ctrl-R]"
 
-#: ../data/klavaro.glade.h:89
+#: ../data/klavaro.glade.h:88
 msgid "Show the virtual keyboard and the relation between fingers and keys."
 msgstr "Zobrazit virtuální klávesnici a vztahy mezi prsty a klávesami."
 
-#: ../data/klavaro.glade.h:90
+#: ../data/klavaro.glade.h:89
 msgid "_Keyboard"
 msgstr "_Klávesnice"
 
-#: ../data/klavaro.glade.h:91
+#: ../data/klavaro.glade.h:90
 msgid "Font definition"
 msgstr "Definice písma"
 
-#: ../data/klavaro.glade.h:92
+#: ../data/klavaro.glade.h:91
 msgid "Keep this checked if you want to get those nice beeps."
 msgstr "Chcete-li slyšet pěkné pípání, nechte volbu zaškrtnutou."
 
-#: ../data/klavaro.glade.h:93
+#: ../data/klavaro.glade.h:92
 msgid "_Beep"
 msgstr "_Pípání"
 
-#: ../data/klavaro.glade.h:94
+#: ../data/klavaro.glade.h:93
 msgid "Co_urse information"
 msgstr "Informace o k_urzu"
 
-#: ../data/klavaro.glade.h:95
+#: ../data/klavaro.glade.h:94
 msgid "Charts showing the learning progress along the exercises."
 msgstr "Grafy znázorňují postup učení během jednotlivých cvičení."
 
-#: ../data/klavaro.glade.h:96
+#: ../data/klavaro.glade.h:95
 msgid "_Progress"
 msgstr "_Pokroky"
 
-#: ../data/klavaro.glade.h:97
+#: ../data/klavaro.glade.h:96
 msgid "Return to the main menu."
 msgstr "Vrátit se do hlavní nabídky."
 
-#: ../data/klavaro.glade.h:98
+#: ../data/klavaro.glade.h:97
 msgid "Show local and external scores from other users."
 msgstr "Zobrazit místní a externí hodnocení získaná od ostatních uživatelů."
 
-#: ../data/klavaro.glade.h:99
+#: ../data/klavaro.glade.h:98
 msgid "_Top 10"
 msgstr "_Top 10"
 
@@ -467,26 +468,24 @@ msgstr[0] "Režim diktování (závisí na tomto hlasovém syntetizéru: %s)"
 msgstr[1] "Režim diktování (závisí na těchto hlasových syntetizérech: %s)"
 msgstr[2] "Režim diktování (závisí na těchto hlasových syntetizérech: %s)"
 
-#. Set main labels (for translation)
-#.
-#: ../src/main.c:364 ../src/keyboard.c:1292
+#: ../src/main.c:365 ../src/keyboard.c:1291
 msgid "Introduction"
 msgstr "Úvod"
 
-#: ../src/main.c:367 ../src/top10.c:109
+#: ../src/main.c:368 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Základní kurz"
 
-#: ../src/main.c:370 ../src/top10.c:112
+#: ../src/main.c:371 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Přizpůsobivost"
 
-#: ../src/main.c:373 ../src/callbacks.c:1225 ../src/top10.c:89
+#: ../src/main.c:374 ../src/callbacks.c:1225 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Rychlost"
 
-#: ../src/main.c:376 ../src/callbacks.c:1248 ../src/top10.c:91
+#: ../src/main.c:377 ../src/callbacks.c:1248 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Plynulost"
@@ -527,7 +526,7 @@ msgstr "SMAŽE všechna data s postupme zobrazená v grafech."
 msgid "Accuracy"
 msgstr "Přesnost"
 
-#: ../src/callbacks.c:1225 ../src/tutor.c:1163
+#: ../src/callbacks.c:1225 ../src/tutor.c:1164
 msgid "(WPM)"
 msgstr "(slov/min)"
 
@@ -539,12 +538,12 @@ msgstr "Chyby"
 msgid "Touch times (s)"
 msgstr "Časy doteku (s)"
 
-#: ../src/callbacks.c:1251 ../src/tutor.c:1190 ../src/top10.c:69
+#: ../src/callbacks.c:1251 ../src/tutor.c:1191 ../src/top10.c:69
 msgid "Score"
 msgstr "Hodnocení"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1600
+#: ../src/translation.c:485 ../src/tutor.c:1601
 msgid "en"
 msgstr "cs"
 
@@ -659,8 +658,7 @@ msgstr ""
 "dosažení tohoto cíle, nebudete s psaním již více bojovat a budete schopni "
 "dávat pozor na skutečný smysl textu."
 
-#. English typo: minimun -> minimum
-#: ../src/translation.c:614
+#: ../src/translation.c:613
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -673,8 +671,7 @@ msgstr ""
 "Backspace. Jinými slovy, budou uznány pouze ty texty, které budou napsány "
 "bez chyb."
 
-#. English typo: recomendations -> recommendations
-#: ../src/keyboard.c:1095
+#: ../src/keyboard.c:1094
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -683,7 +680,7 @@ msgstr ""
 "Správné umístění rukou a prstů je pro úspěšné psaní velmi důležité. Proto se "
 "držte zde uvedených doporučení a vaše učení psaní bude rychlejší."
 
-#: ../src/keyboard.c:1098
+#: ../src/keyboard.c:1097
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -691,7 +688,7 @@ msgstr ""
 "Ukazováčky se umísťují na tlačítka zhruba uprostřed klávesnice označená "
 "malým výstupkem."
 
-#: ../src/keyboard.c:1101
+#: ../src/keyboard.c:1100
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -702,7 +699,7 @@ msgstr ""
 "se nebudete muset na klávesnici dívat, abyste se přesvědčili o správném "
 "umístění prstů."
 
-#: ../src/keyboard.c:1105
+#: ../src/keyboard.c:1104
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -710,11 +707,11 @@ msgstr ""
 "Další prsty jsou přirozeně umístěny na klávesách ve stejné řadě jako "
 "ukazováčky."
 
-#: ../src/keyboard.c:1108
+#: ../src/keyboard.c:1107
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "Konečky palců jsou umístěny na mezerníku."
 
-#: ../src/keyboard.c:1110
+#: ../src/keyboard.c:1109
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -723,7 +720,7 @@ msgstr ""
 "Část ruky blíže zápěstí se opírá o stůl, mimo klávesnici. Bez této opory se "
 "ruka brzy unaví."
 
-#: ../src/keyboard.c:1113
+#: ../src/keyboard.c:1112
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -737,7 +734,7 @@ msgstr ""
 "klávesou a daným prstem. Tyto vztahy si postupně osvojíte během základního "
 "kursu."
 
-#: ../src/keyboard.c:1119
+#: ../src/keyboard.c:1118
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -746,7 +743,7 @@ msgstr ""
 "Při učení se těmto vztahům je velmi důležité, abyste vždy přesouvali jen ten "
 "prst, který mačká klávesu a všechny ostatní prsty zůstávaly na svých místech."
 
-#: ../src/keyboard.c:1123
+#: ../src/keyboard.c:1122
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -754,7 +751,7 @@ msgstr ""
 "Po zapamatovaní těchto vztahů nemusíte brát předchozí pravidlo zcela "
 "doslovně, neboť tím zpravidla můžete dosáhnout větší rychlosti psaní."
 
-#: ../src/keyboard.c:1126
+#: ../src/keyboard.c:1125
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -764,54 +761,52 @@ msgstr ""
 "pamatujte: učení se psaní na klávesnici vyžaduje trpělivost! Máte plnou "
 "důvěru, tak ji nezklamte."
 
-#: ../src/keyboard.c:1137
+#: ../src/keyboard.c:1136
 #, c-format
 msgid "Step %i"
 msgstr "Krok %i"
 
-#. Recommendations
-#: ../src/keyboard.c:1141
+#: ../src/keyboard.c:1142
 msgid "To position the hands"
 msgstr "K umístění rukou"
 
-#. Final words
-#: ../src/keyboard.c:1226
+#: ../src/keyboard.c:1227
 msgid "Go ahead!"
 msgstr "Jen do toho!"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1234
 msgid "Relation between fingers and keys"
 msgstr "Vztahy mezi prsty a klávesami"
 
-#: ../src/keyboard.c:1236
+#: ../src/keyboard.c:1235
 msgid "Click on any key to see which finger you must use:"
 msgstr "Po kliknutím na daný znak uvidíte, který prst použít:"
 
-#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
+#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
 msgid "Keyboard"
 msgstr "Klávesnice"
 
-#: ../src/keyboard.c:1373
+#: ../src/keyboard.c:1372
 msgid "Create or modify a custom keyboard layout"
 msgstr "Vytvořit nebo upravit vlastní rozložení klávesnice"
 
-#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
+#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
 msgid "small finger"
 msgstr "malíček"
 
-#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
+#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
 msgid "ring finger"
 msgstr "prsteníček"
 
-#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
+#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
 msgid "middle finger"
 msgstr "prostředníček"
 
-#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
+#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
 msgid "index finger"
 msgstr "ukazováček"
 
-#: ../src/keyboard.c:1729
+#: ../src/keyboard.c:1728
 msgid "Press and edit me"
 msgstr "Zmáčkni a uprav klávesu"
 
@@ -897,93 +892,90 @@ msgstr ""
 "P.S.: text, který jste právě psali nevypadá jako běžné texty zvoleného "
 "jazyka: výsledek není možno porovnat s těmi nejlepšími v „Top 10“ "
 
-#. Begin the accuracy
-#: ../src/tutor.c:1090
+#: ../src/tutor.c:1091
 msgid "STATISTICS"
 msgstr "STATISTIKA"
 
-#: ../src/tutor.c:1091
+#: ../src/tutor.c:1092
 msgid "Elapsed time:"
 msgstr "Uplynulá doba:"
 
-#: ../src/tutor.c:1092
+#: ../src/tutor.c:1093
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "minut a"
 msgstr[1] "minut a"
 msgstr[2] "minut a"
 
-#: ../src/tutor.c:1093
+#: ../src/tutor.c:1094
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "sekund"
 msgstr[1] "sekund"
 msgstr[2] "sekund"
 
-#: ../src/tutor.c:1094
+#: ../src/tutor.c:1095
 msgid "Error ratio:"
 msgstr "Poměr chyb:"
 
-#: ../src/tutor.c:1094
+#: ../src/tutor.c:1095
 msgid "Accuracy:"
 msgstr "Přesnost:"
 
-#: ../src/tutor.c:1115 ../src/tutor.c:1140 ../src/tutor.c:1163
-#: ../src/tutor.c:1189
+#: ../src/tutor.c:1116 ../src/tutor.c:1141 ../src/tutor.c:1164
+#: ../src/tutor.c:1190
 msgid "Goal:"
 msgstr "Cíl:"
 
-#: ../src/tutor.c:1122
+#: ../src/tutor.c:1123
 msgid "Characters per second:"
 msgstr "Znaků za sekundu:"
 
-#: ../src/tutor.c:1140
+#: ../src/tutor.c:1141
 msgid "(CPS)"
 msgstr "(zn/s)"
 
-#: ../src/tutor.c:1145
+#: ../src/tutor.c:1146
 msgid "Words per minute:"
 msgstr "Slov za minutu:"
 
-#: ../src/tutor.c:1170
+#: ../src/tutor.c:1171
 msgid "Fluidness:"
 msgstr "Plynulost:"
 
-#: ../src/tutor.c:1197
+#: ../src/tutor.c:1198
 msgid "Comments:"
 msgstr "Komentáře:"
 
-#: ../src/tutor.c:1679
+#: ../src/tutor.c:1680
 msgid "space"
 msgstr "mezerník"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1684
+#: ../src/tutor.c:1685
 msgid "wye"
 msgstr "ypsilon"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1688
+#: ../src/tutor.c:1689
 msgid "enter"
 msgstr "enter"
 
-#: ../src/tutor.c:1694
+#: ../src/tutor.c:1695
 msgid "apostrophe"
 msgstr "apostrof"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1698
+#: ../src/tutor.c:1699
 msgid "quote"
 msgstr "uvozovky"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1702
+#: ../src/tutor.c:1703
 msgid "ampersand"
 msgstr "ampersand"
 
-#. Error frequencies or touch times
-#.
-#: ../src/plot.c:308
+#: ../src/plot.c:305
 msgid "Character"
 msgstr "Znak"
 

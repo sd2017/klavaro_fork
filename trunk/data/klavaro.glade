@@ -2264,7 +2264,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">False</property>
-                <property name="tooltip_text" translatable="yes" comments="English typo: touchs -&gt; touches">Accelerating the touches practicing random words exercises.</property>
+                <property name="tooltip_text" translatable="yes">Accelerating the touches practicing random words exercises.</property>
                 <accelerator key="3" signal="clicked"/>
                 <signal name="clicked" handler="on_button_velo_clicked" swapped="no"/>
                 <child>
@@ -3135,7 +3135,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
-                <property name="tooltip_text" translatable="yes">Show extra information</property>
+                <property name="tooltip_text" translatable="yes">Show extra information.</property>
                 <property name="relief">none</property>
                 <signal name="clicked" handler="on_button_top10_expand_clicked" swapped="no"/>
                 <child>
@@ -3157,7 +3157,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
               <object class="GtkButton" id="button_top10_noexpand">
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
-                <property name="tooltip_text" translatable="yes">Hide extra information</property>
+                <property name="tooltip_text" translatable="yes">Hide extra information.</property>
                 <property name="relief">none</property>
                 <signal name="clicked" handler="on_button_top10_noexpand_clicked" swapped="no"/>
                 <child>

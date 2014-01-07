@@ -610,7 +610,6 @@ trans_read_text (const gchar * file_end)
 "We do aim to develop the skill of typing, making it an automatic reflex akin to the acts of walking, talking, etc. "
 "After reaching this goal, the act of typing will become automatic and require little concentration. "
 "Then you will be able to pay attention to the real meaning of the text.");
-	/* English typo: minimun -> minimum */
 	gchar *fluid3 = _("These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed requirement. "
 "Here you will be required to use the backspace key to correct any mistakes. "

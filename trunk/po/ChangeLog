@@ -1,11 +1,5 @@
-2014-01-04  gettextize  <bug-gnu-gettext@gnu.org>
+2014-01-06  Felipe Castro  <fefcas@gmail.com>
 
-	* Makefile.in.in: Upgrade to gettext-0.18.3.
-
-2013-11-21  gettextize  <bug-gnu-gettext@gnu.org>
-
-	* Makefile.in.in: Upgrade to gettext-0.18.3.
-	* Rules-quot: Upgrade to gettext-0.18.3.
-	* en@boldquot.header: New file, from gettext-0.18.3.
-	* en@quot.header: New file, from gettext-0.18.3.
+	* Makefile.in.in: keep klavaro.pot in the distribution package, only
+	remove by "make maintainer-clean"
 

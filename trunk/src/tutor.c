@@ -1086,7 +1086,8 @@ tutor_calc_stats ()
 	wg = get_wg ("text_tutor");
 	buf = gtk_text_view_get_buffer (GTK_TEXT_VIEW (wg));
 
-	// Begin the accuracy
+	/* Begin the accuracy */
+	;
 	tmp_str = g_strconcat ("\n", _("STATISTICS"), "\n",
 			       _("Elapsed time:"), " %i ",
 			       dngettext (PACKAGE, "minute and", "minutes and", minutes),
@@ -1097,7 +1098,7 @@ tutor_calc_stats ()
 	g_free (tmp_str);
 	gtk_text_buffer_insert_at_cursor (buf, tmp_str2, strlen (tmp_str2));
 
-	// Paint the accuracy
+	/* Paint the accuracy */
 	g_free (tmp_str2);
 	tmp_str2 = g_strdup_printf ("%.1f%%", accuracy);
 	gtk_text_buffer_insert_at_cursor (buf, tmp_str2, strlen (tmp_str2));

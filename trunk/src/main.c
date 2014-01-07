@@ -361,6 +361,7 @@ main_window_init ()
 
 	/* Set main labels (for translation)
 	 */
+	tmp = NULL;
 	tmp = g_strdup_printf ("0 - %s", _("Introduction"));
 	gtk_label_set_text (GTK_LABEL (get_wg ("label_main_intro")), tmp);
 	g_free (tmp);

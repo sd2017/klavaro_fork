@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.0-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-05 15:22-0200\n"
+"POT-Creation-Date: 2014-01-07 07:13-0200\n"
 "PO-Revision-Date: 2011-03-31 14:17+0800\n"
 "Last-Translator: Yuwei Yu <acevery@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -161,7 +161,7 @@ msgstr "切换“Shift”效果，在按键的上、下两行的字母间切换�
 msgid "SPACE BAR"
 msgstr "空格键"
 
-#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1631
+#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1630
 msgid "thumbs"
 msgstr "拇指"
 
@@ -243,193 +243,194 @@ msgstr "用随机的按键训练记忆键盘。"
 msgid "Practice with random keys"
 msgstr "用随机的按键训练"
 
-#. English typo: touchs -> touches
-#: ../data/klavaro.glade.h:54
+#: ../data/klavaro.glade.h:53
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "用随机词来加速盲打。"
 
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:54
 msgid "Practice with random words"
 msgstr "用随机的词训练"
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:55
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "用完整的段落训练以达到专家水平。"
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:56
 msgid "Practice with complete texts"
 msgstr "用完整的文字练习"
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:57
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
 msgstr "用于模块1和2的键盘布局。也用于提供流畅比赛中的相应信息。"
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:58
 msgid "_Keyboard:"
 msgstr "键盘(_K)："
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:59
 msgid "Language for modules 3 and 4."
 msgstr "用于模块3和4的语言。"
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:60
 msgid "_Language:"
 msgstr "语言(_L)："
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:61
 msgid "Speech"
 msgstr "语音"
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:62
 msgid "Little tip about this program."
 msgstr "关于程序的小贴士。"
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:63
 msgid "_Help"
 msgstr "帮助(_H)"
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:64
 msgid "General information about the program."
 msgstr "关于程序的一般信息。"
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:65
 msgid "_About..."
 msgstr "关于(_A)..."
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:66
 msgid "Exit the application immediately."
 msgstr "马上结束程序。"
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:67
 msgid "Klavaro - Progress"
 msgstr "Klavaro - 进展"
 
-#: ../data/klavaro.glade.h:69
+#: ../data/klavaro.glade.h:68
 msgid "_Lesson:"
 msgstr "课程(_L)："
 
-#: ../data/klavaro.glade.h:70
+#: ../data/klavaro.glade.h:69
 msgid "Value"
 msgstr "值"
 
-#: ../data/klavaro.glade.h:71
+#: ../data/klavaro.glade.h:70
 msgid "Close this window, returning to the exercise."
 msgstr "关闭这个窗口，回到练习中。"
 
-#: ../data/klavaro.glade.h:72
+#: ../data/klavaro.glade.h:71
 msgid "Clear all the progress data, for every module."
 msgstr "清除所有练习数据，所有模块的。"
 
-#: ../data/klavaro.glade.h:73
+#: ../data/klavaro.glade.h:72
 msgid "_Reset"
 msgstr "重置(_R)"
 
-#: ../data/klavaro.glade.h:74
+#: ../data/klavaro.glade.h:73
 msgid "Top 10"
 msgstr "冠军榜"
 
-#: ../data/klavaro.glade.h:75
-msgid "Show extra information"
+#: ../data/klavaro.glade.h:74
+#, fuzzy
+msgid "Show extra information."
 msgstr "显示额外信息"
 
-#: ../data/klavaro.glade.h:76
-msgid "Hide extra information"
+#: ../data/klavaro.glade.h:75
+#, fuzzy
+msgid "Hide extra information."
 msgstr "隐藏额外信息"
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:76
 msgid "Publish to the web your local scores."
 msgstr "把你的本地分数发布到网络上。"
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:77
 msgid "_Participate"
 msgstr "参与(_P)"
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:78
 msgid "Download from the web the most up to date ranking."
 msgstr "从网络上下载最新的排名。"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:79
 msgid "_Update"
 msgstr "更新(_U)"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:80
 msgid "Load other exercises/lessons"
 msgstr "加载其他练习/课程"
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:81
 msgid "_Other texts"
 msgstr "其它文字"
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:82
 msgid "Edit the character set to be used in this lesson."
 msgstr "编辑本课中使用的字母集。"
 
-#: ../data/klavaro.glade.h:84
+#: ../data/klavaro.glade.h:83
 msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "这是一个专门的练习，根据你的错误资料而调整。"
 
-#: ../data/klavaro.glade.h:85
+#: ../data/klavaro.glade.h:84
 #, fuzzy
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr "编辑从44课到50课使用的字母集。"
 
-#: ../data/klavaro.glade.h:86 ../src/tutor.c:252
+#: ../data/klavaro.glade.h:85 ../src/tutor.c:252
 msgid "Drag and drop text here to practice with it."
 msgstr "把文字拖放到这里来练习。"
 
-#: ../data/klavaro.glade.h:87
+#: ../data/klavaro.glade.h:86
 #, fuzzy
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
 msgstr "点击这里而重新开始练习。热键: [Ctrl R]"
 
-#: ../data/klavaro.glade.h:88
+#: ../data/klavaro.glade.h:87
 msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
 msgstr "点击这里而重新开始练习。热键: [Ctrl R]"
 
-#: ../data/klavaro.glade.h:89
+#: ../data/klavaro.glade.h:88
 msgid "Show the virtual keyboard and the relation between fingers and keys."
 msgstr "显示虚拟键盘以及手指和按键的关系。"
 
-#: ../data/klavaro.glade.h:90
+#: ../data/klavaro.glade.h:89
 msgid "_Keyboard"
 msgstr "键盘(_K)"
 
-#: ../data/klavaro.glade.h:91
+#: ../data/klavaro.glade.h:90
 msgid "Font definition"
 msgstr "字体定义"
 
-#: ../data/klavaro.glade.h:92
+#: ../data/klavaro.glade.h:91
 msgid "Keep this checked if you want to get those nice beeps."
 msgstr "如果你想获得好的报错声就选择这个。"
 
-#: ../data/klavaro.glade.h:93
+#: ../data/klavaro.glade.h:92
 msgid "_Beep"
 msgstr "报错(_B)"
 
-#: ../data/klavaro.glade.h:94
+#: ../data/klavaro.glade.h:93
 msgid "Co_urse information"
 msgstr "课程信息(_u)"
 
-#: ../data/klavaro.glade.h:95
+#: ../data/klavaro.glade.h:94
 msgid "Charts showing the learning progress along the exercises."
 msgstr "展示学习进展的图表。"
 
-#: ../data/klavaro.glade.h:96
+#: ../data/klavaro.glade.h:95
 msgid "_Progress"
 msgstr "进展(_P)"
 
-#: ../data/klavaro.glade.h:97
+#: ../data/klavaro.glade.h:96
 msgid "Return to the main menu."
 msgstr "回到主菜单。"
 
-#: ../data/klavaro.glade.h:98
+#: ../data/klavaro.glade.h:97
 msgid "Show local and external scores from other users."
 msgstr "显示本地和外部其他用户的分数。"
 
-#: ../data/klavaro.glade.h:99
+#: ../data/klavaro.glade.h:98
 msgid "_Top 10"
 msgstr "冠军榜(_T)"
 
@@ -456,26 +457,24 @@ msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] "语音模式（取决于这个语音合成器： %s）"
 msgstr[1] "语音模式（取决于这些语音合成器： %s）"
 
-#. Set main labels (for translation)
-#.
-#: ../src/main.c:364 ../src/keyboard.c:1292
+#: ../src/main.c:365 ../src/keyboard.c:1291
 msgid "Introduction"
 msgstr "介绍"
 
-#: ../src/main.c:367 ../src/top10.c:109
+#: ../src/main.c:368 ../src/top10.c:109
 msgid "Basic course"
 msgstr "基础课程"
 
-#: ../src/main.c:370 ../src/top10.c:112
+#: ../src/main.c:371 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "适应性"
 
-#: ../src/main.c:373 ../src/callbacks.c:1225 ../src/top10.c:89
+#: ../src/main.c:374 ../src/callbacks.c:1225 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "速度"
 
-#: ../src/main.c:376 ../src/callbacks.c:1248 ../src/top10.c:91
+#: ../src/main.c:377 ../src/callbacks.c:1248 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "流畅性"
@@ -516,7 +515,7 @@ msgstr "这将会 删除 所有显示在图表的进展数据。"
 msgid "Accuracy"
 msgstr "精度"
 
-#: ../src/callbacks.c:1225 ../src/tutor.c:1163
+#: ../src/callbacks.c:1225 ../src/tutor.c:1164
 msgid "(WPM)"
 msgstr "(词每分钟)"
 
@@ -528,12 +527,12 @@ msgstr "错误"
 msgid "Touch times (s)"
 msgstr ""
 
-#: ../src/callbacks.c:1251 ../src/tutor.c:1190 ../src/top10.c:69
+#: ../src/callbacks.c:1251 ../src/tutor.c:1191 ../src/top10.c:69
 msgid "Score"
 msgstr "得分"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1600
+#: ../src/translation.c:485 ../src/tutor.c:1601
 msgid "en"
 msgstr "en"
 
@@ -638,8 +637,7 @@ msgstr ""
 "就会自然而然且不需要什么注意力。这时，你就可以轻松把注意力放到文字的意思上"
 "了。"
 
-#. English typo: minimun -> minimum
-#: ../src/translation.c:614
+#: ../src/translation.c:613
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -650,8 +648,7 @@ msgstr ""
 "放在了正确率和节奏上。这里，要求你使用退格键(Backspace)去修正错误。也就是说，"
 "只有完全正确的输入才会被接受。"
 
-#. English typo: recomendations -> recommendations
-#: ../src/keyboard.c:1095
+#: ../src/keyboard.c:1094
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -660,13 +657,13 @@ msgstr ""
 "    正确的摆放你的手和手指对于高效地打字是非常重要的。如果你遵循下面的建议，"
 "你将会打得更快更好。"
 
-#: ../src/keyboard.c:1098
+#: ../src/keyboard.c:1097
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
 msgstr "    食指的指尖放在键盘中央那两个有小凸点的键上。"
 
-#: ../src/keyboard.c:1101
+#: ../src/keyboard.c:1100
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -675,17 +672,17 @@ msgstr ""
 "    这两个凸点的是使你保持正确手指位置的“触点”。这样，通过一些感觉，你就不需"
 "要去看键盘来确定你的手指是否正确地摆放。"
 
-#: ../src/keyboard.c:1105
+#: ../src/keyboard.c:1104
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
 msgstr "    其它手指的指尖自然地摆在食指边上，放在键盘相同一行的其它键上。"
 
-#: ../src/keyboard.c:1108
+#: ../src/keyboard.c:1107
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "    大拇指的外沿放在空格键上。"
 
-#: ../src/keyboard.c:1110
+#: ../src/keyboard.c:1109
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -694,7 +691,7 @@ msgstr ""
 "    手最靠近手腕的部分放在键盘外的桌子上。失去这样的支持，手臂将很快就疲劳"
 "了。"
 
-#: ../src/keyboard.c:1113
+#: ../src/keyboard.c:1112
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -706,7 +703,7 @@ msgstr ""
 "有键。为了达到这个目标，需要在每一个按键和手指间建立一个专门的关系。这个关系"
 "将在你完成基础课程中逐步学会。"
 
-#: ../src/keyboard.c:1119
+#: ../src/keyboard.c:1118
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -715,7 +712,7 @@ msgstr ""
 "    当你学习手指和按钮的关系时，非常重要的一点是在保持其它手指在本位不动的情"
 "况下，仅仅移动击键的那个手指。"
 
-#: ../src/keyboard.c:1123
+#: ../src/keyboard.c:1122
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -723,7 +720,7 @@ msgstr ""
 "    在记下这一关系后，你可以稍微放松一点上面的规则，从而你可以获得更快的打字"
 "速度。"
 
-#: ../src/keyboard.c:1126
+#: ../src/keyboard.c:1125
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -732,54 +729,52 @@ msgstr ""
 "    你已经准备好开始基础课程的训练了。成为打字高手需要努力和耐心。我们相信你"
 "拥有这些并期待你的成功！"
 
-#: ../src/keyboard.c:1137
+#: ../src/keyboard.c:1136
 #, c-format
 msgid "Step %i"
 msgstr "步骤 %i"
 
-#. Recommendations
-#: ../src/keyboard.c:1141
+#: ../src/keyboard.c:1142
 msgid "To position the hands"
 msgstr "手的放法"
 
-#. Final words
-#: ../src/keyboard.c:1226
+#: ../src/keyboard.c:1227
 msgid "Go ahead!"
 msgstr "开始吧！"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1234
 msgid "Relation between fingers and keys"
 msgstr "手指和键的关系"
 
-#: ../src/keyboard.c:1236
+#: ../src/keyboard.c:1235
 msgid "Click on any key to see which finger you must use:"
 msgstr "点击任何键来看看你必须用哪一个手指:"
 
-#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
+#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
 msgid "Keyboard"
 msgstr "键盘"
 
-#: ../src/keyboard.c:1373
+#: ../src/keyboard.c:1372
 msgid "Create or modify a custom keyboard layout"
 msgstr "创建或修改一个定制的键盘布局"
 
-#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
+#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
 msgid "small finger"
 msgstr "小指"
 
-#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
+#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
 msgid "ring finger"
 msgstr "无名指"
 
-#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
+#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
 msgid "middle finger"
 msgstr "中指"
 
-#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
+#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
 msgid "index finger"
 msgstr "食指"
 
-#: ../src/keyboard.c:1729
+#: ../src/keyboard.c:1728
 msgid "Press and edit me"
 msgstr "按下并编辑我"
 
@@ -860,91 +855,88 @@ msgid ""
 msgstr ""
 "    注意：你刚刚打的好像和你当前选择的语言不同：我们不能将它记入冠军榜中。"
 
-#. Begin the accuracy
-#: ../src/tutor.c:1090
+#: ../src/tutor.c:1091
 msgid "STATISTICS"
 msgstr "统计"
 
-#: ../src/tutor.c:1091
+#: ../src/tutor.c:1092
 msgid "Elapsed time:"
 msgstr "使用时间："
 
-#: ../src/tutor.c:1092
+#: ../src/tutor.c:1093
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "分钟和"
 msgstr[1] "分钟和"
 
-#: ../src/tutor.c:1093
+#: ../src/tutor.c:1094
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "秒"
 msgstr[1] "秒"
 
-#: ../src/tutor.c:1094
+#: ../src/tutor.c:1095
 msgid "Error ratio:"
 msgstr "错误率："
 
-#: ../src/tutor.c:1094
+#: ../src/tutor.c:1095
 msgid "Accuracy:"
 msgstr "准确率："
 
-#: ../src/tutor.c:1115 ../src/tutor.c:1140 ../src/tutor.c:1163
-#: ../src/tutor.c:1189
+#: ../src/tutor.c:1116 ../src/tutor.c:1141 ../src/tutor.c:1164
+#: ../src/tutor.c:1190
 msgid "Goal:"
 msgstr "目标："
 
-#: ../src/tutor.c:1122
+#: ../src/tutor.c:1123
 msgid "Characters per second:"
 msgstr "字符数每秒："
 
-#: ../src/tutor.c:1140
+#: ../src/tutor.c:1141
 msgid "(CPS)"
 msgstr "(字每秒)"
 
-#: ../src/tutor.c:1145
+#: ../src/tutor.c:1146
 msgid "Words per minute:"
 msgstr "词每分钟："
 
-#: ../src/tutor.c:1170
+#: ../src/tutor.c:1171
 msgid "Fluidness:"
 msgstr "流畅性："
 
-#: ../src/tutor.c:1197
+#: ../src/tutor.c:1198
 msgid "Comments:"
 msgstr "评价："
 
-#: ../src/tutor.c:1679
+#: ../src/tutor.c:1680
 msgid "space"
 msgstr "空格"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1684
+#: ../src/tutor.c:1685
 msgid "wye"
 msgstr "Y"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1688
+#: ../src/tutor.c:1689
 msgid "enter"
 msgstr "回车"
 
-#: ../src/tutor.c:1694
+#: ../src/tutor.c:1695
 msgid "apostrophe"
 msgstr "单引号"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1698
+#: ../src/tutor.c:1699
 msgid "quote"
 msgstr "双引号"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1702
+#: ../src/tutor.c:1703
 msgid "ampersand"
 msgstr "＆"
 
-#. Error frequencies or touch times
-#.
-#: ../src/plot.c:308
+#: ../src/plot.c:305
 msgid "Character"
 msgstr ""
 
