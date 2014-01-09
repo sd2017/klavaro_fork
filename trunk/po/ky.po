@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-1.9.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-07 07:13-0200\n"
+"POT-Creation-Date: 2014-01-08 15:02-0200\n"
 "PO-Revision-Date: 2013-11-21 07:38+0600\n"
 "Last-Translator: Chyngyz Dzhumaliev <kyrgyzl10n@gmail.com>\n"
 "Language-Team: Kirghiz <i18n-team-ky-kyrgyz@lists.sourceforge.net>\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "About 'Klavaro'"
 msgstr "'Klavaro' жөнүндө"
 
-#: ../data/klavaro.glade.h:2 ../data/klavaro.desktop.in.h:1
+#: ../data/klavaro.glade.h:2
 msgid "Yet another touch typing tutor"
 msgstr "Дагы бир баскычтоп машыктыргычы"
 
@@ -145,68 +145,76 @@ msgid "_Close"
 msgstr "Жа_буу"
 
 #: ../data/klavaro.glade.h:29
+msgid "Country / Custom"
+msgstr "Өлкө / Башка"
+
+#: ../data/klavaro.glade.h:30
+msgid "Variant"
+msgstr "Вариант"
+
+#: ../data/klavaro.glade.h:31
 msgid "Remove the selected custom layout."
 msgstr "Тандалган жайылманы өчүрүү"
 
-#: ../data/klavaro.glade.h:30
+#: ../data/klavaro.glade.h:32
 msgid "_Remove"
 msgstr "Ө_чүрүү"
 
-#: ../data/klavaro.glade.h:31
+#: ../data/klavaro.glade.h:33
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
 msgstr "Shift клавишасы үстүңкү жана астыңкы символдордун ортосунан которот."
 
-#: ../data/klavaro.glade.h:32
+#: ../data/klavaro.glade.h:34
 msgid "SPACE BAR"
 msgstr "БОШТУК"
 
-#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:35 ../src/keyboard.c:1630
 msgid "thumbs"
 msgstr "баш бармак"
 
-#: ../data/klavaro.glade.h:34
+#: ../data/klavaro.glade.h:36
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: ../data/klavaro.glade.h:35
+#: ../data/klavaro.glade.h:37
 msgid "Caps"
 msgstr "Caps"
 
-#: ../data/klavaro.glade.h:36
+#: ../data/klavaro.glade.h:38
 msgid "S_ave as:"
 msgstr "Ат коюп с_актоо:"
 
-#: ../data/klavaro.glade.h:37
+#: ../data/klavaro.glade.h:39
 msgid "Show previous screen."
 msgstr "Мурунку экранды көрсөтүү"
 
-#: ../data/klavaro.glade.h:38
+#: ../data/klavaro.glade.h:40
 msgid "_Previous step"
 msgstr "_Мурунку кадам"
 
-#: ../data/klavaro.glade.h:39
+#: ../data/klavaro.glade.h:41
 msgid "Show next screen."
 msgstr "Кийинки экранды көрсөтүү"
 
-#: ../data/klavaro.glade.h:40
+#: ../data/klavaro.glade.h:42
 msgid "_Next step"
 msgstr "_Кийинки кадам"
 
-#: ../data/klavaro.glade.h:41
+#: ../data/klavaro.glade.h:43
 msgid "Return without any modification."
 msgstr "Эч нерсени өзгөртпөй кайтуу"
 
-#: ../data/klavaro.glade.h:42
+#: ../data/klavaro.glade.h:44
 msgid "Save the current keyboard layout with the name specified above."
 msgstr "Кезектеги ариптакта жайылмасын жогоруда көрсөтүлгөн аты менен сактоо"
 
-#: ../data/klavaro.glade.h:43
+#: ../data/klavaro.glade.h:45
 msgid "_Save and use"
 msgstr "_Сактап анан колдонуу"
 
-#: ../data/klavaro.glade.h:44
+#: ../data/klavaro.glade.h:46
 msgid ""
 "If you like those beautiful hands, click here to close this window keeping "
 "them."
@@ -214,332 +222,343 @@ msgstr ""
 "Эгер сизге тиги кооз колдор жагып калса, анда аларды калтырып бул жерди "
 "басып терезени жабыңыз."
 
-#: ../data/klavaro.glade.h:45
+#: ../data/klavaro.glade.h:47
 msgid "_Keep hands"
 msgstr "_Колдорду калтыруу"
 
-#: ../data/klavaro.glade.h:46
+#: ../data/klavaro.glade.h:48
 msgid "Klavaro - Main menu"
 msgstr "Klavaro - Башкы меню"
 
-#: ../data/klavaro.glade.h:47
+#: ../data/klavaro.glade.h:49
 msgid "Don't be shy about learning the basics!"
 msgstr "Негиздерди үйрөнүү жөнүндө уялбаңыз!"
 
-#: ../data/klavaro.glade.h:48
+#: ../data/klavaro.glade.h:50
 msgid "Learn how to type correctly"
 msgstr "Кантип туура тергенди үйрөнүңүз"
 
-#: ../data/klavaro.glade.h:49
+#: ../data/klavaro.glade.h:51
 msgid "Initial training for your fingers."
 msgstr "Сиздин бармактарыңыз үчүн баштапкы окуу"
 
-#: ../data/klavaro.glade.h:50
+#: ../data/klavaro.glade.h:52
 msgid "First steps with initial training"
 msgstr "Баштапкы окуунун биринчи кадамдары"
 
-#: ../data/klavaro.glade.h:51
+#: ../data/klavaro.glade.h:53
 msgid "Memorizing the keyboard practicing random keys exercises."
 msgstr "Туш келди баскычтар көнүгүүлөрүн аткарып ариптактаны эске тутуу"
 
-#: ../data/klavaro.glade.h:52
+#: ../data/klavaro.glade.h:54
 msgid "Practice with random keys"
 msgstr "Кокустук баскычтар менен көнүгүңүз"
 
-#: ../data/klavaro.glade.h:53
+#: ../data/klavaro.glade.h:55
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "Кокустук сөздөрдүн көнүгүүлөрүн аткарып терүүнү ылдамдатуу."
 
-#: ../data/klavaro.glade.h:54
+#: ../data/klavaro.glade.h:56
 msgid "Practice with random words"
 msgstr "Кокустук сөздөр менен көнүгүңүз"
 
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:57
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "Толук параграфтардын көнүгүүлөрүн аткарып чебер болуу"
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:58
 msgid "Practice with complete texts"
 msgstr "Толук тексттер менен көнүгүңүз"
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:59
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
 msgstr ""
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:60
 msgid "_Keyboard:"
 msgstr "_Ариптакта:"
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:61
 msgid "Language for modules 3 and 4."
 msgstr "3 жана 4 модуль үчүн тил."
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:62
 msgid "_Language:"
 msgstr "_Тили:"
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:63
 msgid "Speech"
 msgstr "Сүйлөө"
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:64
+msgid "Your language here."
+msgstr "Сиздин тилиңиз бул жерде"
+
+#: ../data/klavaro.glade.h:65
 msgid "Little tip about this program."
 msgstr "Бул программа жөнүндө кичинекей кеңеш"
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:66
 msgid "_Help"
 msgstr "_Жардам"
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:67
 msgid "General information about the program."
 msgstr "Программа жөнүндө жалпы маалымат"
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:68
 msgid "_About..."
 msgstr "_Программа жөнүндө..."
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:69
 msgid "Exit the application immediately."
 msgstr "Тиркемеден токтоосуз чыгуу"
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:70
 msgid "Klavaro - Progress"
 msgstr "Klavaro - Жетишкендик"
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:71
 msgid "_Lesson:"
 msgstr "_Сабак:"
 
-#: ../data/klavaro.glade.h:69
+#: ../data/klavaro.glade.h:72
 msgid "Value"
 msgstr "Мааниси"
 
-#: ../data/klavaro.glade.h:70
+#: ../data/klavaro.glade.h:73
 msgid "Close this window, returning to the exercise."
 msgstr "Терезени жабып көнүгүүгө кайтуу."
 
-#: ../data/klavaro.glade.h:71
+#: ../data/klavaro.glade.h:74
 msgid "Clear all the progress data, for every module."
 msgstr "Ар бир модуль үчүн бүт жетишкендик жөнүндө маалыматты тазалоо."
 
-#: ../data/klavaro.glade.h:72
+#: ../data/klavaro.glade.h:75
 msgid "_Reset"
 msgstr "_Түшүрүү"
 
-#: ../data/klavaro.glade.h:73
+#: ../data/klavaro.glade.h:76
 msgid "Top 10"
 msgstr "Төбөл 10"
 
-#: ../data/klavaro.glade.h:74
+#: ../data/klavaro.glade.h:77
 #, fuzzy
 msgid "Show extra information."
 msgstr "Кошумча маалыматты көрсөтүү"
 
-#: ../data/klavaro.glade.h:75
+#: ../data/klavaro.glade.h:78
 #, fuzzy
 msgid "Hide extra information."
 msgstr "Кошумча маалыматты жашыруу"
 
-#: ../data/klavaro.glade.h:76
+#: ../data/klavaro.glade.h:79
 msgid "Publish to the web your local scores."
 msgstr "Сиздин жердик упайларыңызды желеге жарыялоо."
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:80
 msgid "_Participate"
 msgstr "_Катышуу"
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:81
 msgid "Download from the web the most up to date ranking."
 msgstr "Желеден эң акыркы жаңыртылган рейтингди жүктөп алуу."
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:82
 msgid "_Update"
 msgstr "_Жаңылоо"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:83
 msgid "Load other exercises/lessons"
 msgstr "Башка көнүгүүлөрдү/сабактарды жүктөө"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:84
 msgid "_Other texts"
 msgstr "_Башка тексттер"
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:85
 msgid "Edit the character set to be used in this lesson."
 msgstr "Бул сабакта колдонулуучу символдордун топтомун ондоңуз."
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:86
 msgid "This is a specific exercise, adjusted to your error profile."
 msgstr ""
 
-#: ../data/klavaro.glade.h:84
+#: ../data/klavaro.glade.h:87
 #, fuzzy
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr ""
 "44 баштап 50 чейинки сабактарында колдонулуучу символдордун топтомун ондоо."
 
-#: ../data/klavaro.glade.h:85 ../src/tutor.c:252
+#: ../data/klavaro.glade.h:88 ../src/tutor.c:376
 msgid "Drag and drop text here to practice with it."
 msgstr "Текст менен көнүгүш үчүн, аны бул жерге көчүрүңүз."
 
-#: ../data/klavaro.glade.h:86
+#: ../data/klavaro.glade.h:89
 #, fuzzy
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
 msgstr "Көнүгүүнү кайта башташ үчүн бул жерди басыңыз. Ысык клавиша: [Ctrl R]"
 
-#: ../data/klavaro.glade.h:87
-msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-msgstr "Көнүгүүнү кайта башташ үчүн бул жерди басыңыз. Ысык клавиша: [Ctrl R]"
-
-#: ../data/klavaro.glade.h:88
+#: ../data/klavaro.glade.h:90
 msgid "Show the virtual keyboard and the relation between fingers and keys."
 msgstr ""
 "Манжалар менен баскычтардын ортосундагы мамилени виртуалдык ариптактадан "
 "көрсөтүү."
 
-#: ../data/klavaro.glade.h:89
+#: ../data/klavaro.glade.h:91
 msgid "_Keyboard"
 msgstr "_Ариптакта"
 
-#: ../data/klavaro.glade.h:90
+#: ../data/klavaro.glade.h:92
+msgid "Select the font to be used in the exercise window."
+msgstr "Көнүгүүнүн терезесинде колдонулуучу шрифтти тандоо."
+
+#: ../data/klavaro.glade.h:93
 msgid "Font definition"
 msgstr "Арипти аныктоо"
 
-#: ../data/klavaro.glade.h:91
+#: ../data/klavaro.glade.h:94
 msgid "Keep this checked if you want to get those nice beeps."
 msgstr ""
 "Эгер сиз ушу сонун сигналды уккуңуз келсе, муну басылган бойдон калтырыңыз."
 
-#: ../data/klavaro.glade.h:92
+#: ../data/klavaro.glade.h:95
 msgid "_Beep"
 msgstr "_Сигнал"
 
-#: ../data/klavaro.glade.h:93
+#: ../data/klavaro.glade.h:96
 msgid "Co_urse information"
 msgstr "Ку_рс жөнүндө маалымат"
 
-#: ../data/klavaro.glade.h:94
+#: ../data/klavaro.glade.h:97
 msgid "Charts showing the learning progress along the exercises."
 msgstr "Көнүгүүлөрдүн окуу жетишкендигин көрсөтүүчү графиктери."
 
-#: ../data/klavaro.glade.h:95
+#: ../data/klavaro.glade.h:98
 msgid "_Progress"
 msgstr "_Жетишкендик"
 
-#: ../data/klavaro.glade.h:96
+#: ../data/klavaro.glade.h:99
 msgid "Return to the main menu."
 msgstr "Башкы менюга кайтуу"
 
-#: ../data/klavaro.glade.h:97
+#: ../data/klavaro.glade.h:100
 msgid "Show local and external scores from other users."
 msgstr "Башка колдонуучулардын жердик жана тышкы упайларын көрсөтүү."
 
-#: ../data/klavaro.glade.h:98
+#: ../data/klavaro.glade.h:101
 msgid "_Top 10"
 msgstr "_Төбөл 10"
 
-#: ../data/klavaro.desktop.in.h:2
-msgid "keyboard;typing;tutorial;"
-msgstr ""
+#: ../data/klavaro.desktop.in.h:1
+#, fuzzy
+msgid "A very flexible and efficient touch typing tutor."
+msgstr "Дагы бир баскычтоп машыктыргычы"
 
-#: ../src/main.c:243
+#. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
+#: ../data/klavaro.desktop.in.h:3
+#, fuzzy
+msgid "keyboard;typing;tutor;CAI"
+msgstr "Ариптакта"
+
+#: ../src/main.c:242
 msgid "(Custom)"
 msgstr "(башка)"
 
-#: ../src/main.c:244
+#: ../src/main.c:243
 msgid "(Edit custom)"
 msgstr "(башканы оңдоо)"
 
-#: ../src/main.c:245
+#: ../src/main.c:244
 msgid "(Default)"
 msgstr "(жарыяланбаган)"
 
-#: ../src/main.c:322
+#: ../src/main.c:321
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] "Жат жазуу режими (төмөнкү үн синтезаторунан көз каранды болот: %s)"
 
-#: ../src/main.c:365 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1291
 msgid "Introduction"
 msgstr "Киришүү"
 
-#: ../src/main.c:368 ../src/top10.c:109
+#: ../src/main.c:367 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Негизги курс"
 
-#: ../src/main.c:371 ../src/top10.c:112
+#: ../src/main.c:370 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Көнгүчтүк"
 
-#: ../src/main.c:374 ../src/callbacks.c:1225 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1227 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Ылдамдык"
 
-#: ../src/main.c:377 ../src/callbacks.c:1248 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1250 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Жай-салмактуулук"
 
-#: ../src/callbacks.c:405 ../src/tutor.c:391
+#: ../src/callbacks.c:407 ../src/tutor.c:515
 msgid "Keys:"
 msgstr "Баскычтары:"
 
-#: ../src/callbacks.c:773 ../src/callbacks.c:789
+#: ../src/callbacks.c:775 ../src/callbacks.c:791
 msgid "Connecting..."
 msgstr "Туташтырылууда..."
 
-#: ../src/callbacks.c:1060
+#: ../src/callbacks.c:1062
 msgid "Overwrite user layout"
 msgstr "Колдонуучу жайылматүрүн кайтадан жаздыруу"
 
-#: ../src/callbacks.c:1062
+#: ../src/callbacks.c:1064
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Бул бар болгон ариптакта жайылмасынын ҮСТҮНӨН ЖАЗДЫРАТ."
 
-#: ../src/callbacks.c:1069
+#: ../src/callbacks.c:1071
 msgid "Remove user layout"
 msgstr "Колдонуучулук жайылмасын өчүрүү"
 
-#: ../src/callbacks.c:1071
+#: ../src/callbacks.c:1073
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Бул бар болгон ариптакта жайылмасын ӨЧҮРӨТ."
 
-#: ../src/callbacks.c:1078
+#: ../src/callbacks.c:1080
 msgid "Reset progress data"
 msgstr "Жетишкендик жөнүндө маалыматтарды түшүрүү"
 
-#: ../src/callbacks.c:1079
+#: ../src/callbacks.c:1081
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr ""
 "Графиктерде көрсөтүлгөн бүт жетишкендик жөнүндө маалыматтарды бул ӨЧҮРӨТ."
 
-#: ../src/callbacks.c:1222 ../src/top10.c:87
+#: ../src/callbacks.c:1224 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Тактык"
 
-#: ../src/callbacks.c:1225 ../src/tutor.c:1164
+#: ../src/callbacks.c:1227 ../src/tutor.c:1288
 msgid "(WPM)"
 msgstr "(МС)"
 
-#: ../src/callbacks.c:1236
+#: ../src/callbacks.c:1238
 msgid "Errors"
 msgstr "Каталар"
 
-#: ../src/callbacks.c:1239
+#: ../src/callbacks.c:1241
 msgid "Touch times (s)"
 msgstr "Терүү убагы (с)"
 
-#: ../src/callbacks.c:1251 ../src/tutor.c:1191 ../src/top10.c:69
+#: ../src/callbacks.c:1253 ../src/tutor.c:1315 ../src/top10.c:69
 msgid "Score"
 msgstr "Упай"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1601
+#: ../src/translation.c:485 ../src/tutor.c:1725
 msgid "en"
 msgstr "ky"
 
@@ -749,158 +768,158 @@ msgstr "сөөмөй"
 msgid "Press and edit me"
 msgstr "Мени басып ондоңуз"
 
-#: ../src/tutor.c:176
+#: ../src/tutor.c:300
 msgid "Lesson:"
 msgstr "Сабак:"
 
-#: ../src/tutor.c:186
+#: ../src/tutor.c:310
 msgid "Paragraphs:"
 msgstr "Параграф:"
 
-#: ../src/tutor.c:219
+#: ../src/tutor.c:343
 msgid "Klavaro - Basic Course"
 msgstr "Klavaro - Негизги курс"
 
-#: ../src/tutor.c:224
+#: ../src/tutor.c:348
 msgid "Klavaro - Adaptability"
 msgstr "Klavaro - Көнгүчтүк"
 
-#: ../src/tutor.c:227
+#: ../src/tutor.c:351
 msgid ""
 "Adaptability exercises: automating the fingers responses, typing over all "
 "the keyboard."
 msgstr ""
 
-#: ../src/tutor.c:232
+#: ../src/tutor.c:356
 msgid "Klavaro - Velocity"
 msgstr "Klavaro - Ылдамдык"
 
-#: ../src/tutor.c:233
+#: ../src/tutor.c:357
 msgid "Velocity exercises: accelerate typing real words."
 msgstr ""
 
-#: ../src/tutor.c:237
+#: ../src/tutor.c:361
 msgid "Klavaro - Fluidness"
 msgstr "Klavaro - Жай-салмактуулук"
 
-#: ../src/tutor.c:239
+#: ../src/tutor.c:363
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr ""
 
-#: ../src/tutor.c:301
+#: ../src/tutor.c:425
 msgid "End of exercise. Press [Enter] to start another."
 msgstr ""
 
-#: ../src/tutor.c:329
+#: ../src/tutor.c:453
 msgid "Learning the key positions."
 msgstr "Клавишанын орундарын үйрөнүү."
 
-#: ../src/tutor.c:332
+#: ../src/tutor.c:456
 msgid "Press any key to start the exercise. "
 msgstr "Көнүгүүнү башташ үчүн каалаган клавишаны басыңыз. "
 
-#: ../src/tutor.c:443 ../src/tutor.c:446
+#: ../src/tutor.c:567 ../src/tutor.c:570
 msgid "Start typing when you are ready. "
 msgstr "Сиз даяр болгондо терип баштаңыз. "
 
-#: ../src/tutor.c:444
+#: ../src/tutor.c:568
 msgid "Use backspace to correct errors."
 msgstr "Каталарды оңдоо үчүн backspace'ти колдонуңуз."
 
-#: ../src/tutor.c:888
+#: ../src/tutor.c:1012
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
 "(%i) must be greater than %i."
 msgstr ""
 
-#: ../src/tutor.c:1030
+#: ../src/tutor.c:1154
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr ""
 
-#: ../src/tutor.c:1042
+#: ../src/tutor.c:1166
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
 "contest."
 msgstr ""
 
-#: ../src/tutor.c:1091
+#: ../src/tutor.c:1215
 msgid "STATISTICS"
 msgstr "СТАТИСТИКА"
 
-#: ../src/tutor.c:1092
+#: ../src/tutor.c:1216
 msgid "Elapsed time:"
 msgstr "Коротулган убагы:"
 
-#: ../src/tutor.c:1093
+#: ../src/tutor.c:1217
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "мүнөт жана"
 
-#: ../src/tutor.c:1094
+#: ../src/tutor.c:1218
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "секунда"
 
-#: ../src/tutor.c:1095
+#: ../src/tutor.c:1219
 msgid "Error ratio:"
 msgstr "Катанын коэффициенти:"
 
-#: ../src/tutor.c:1095
+#: ../src/tutor.c:1219
 msgid "Accuracy:"
 msgstr "Тактык:"
 
-#: ../src/tutor.c:1116 ../src/tutor.c:1141 ../src/tutor.c:1164
-#: ../src/tutor.c:1190
+#: ../src/tutor.c:1240 ../src/tutor.c:1265 ../src/tutor.c:1288
+#: ../src/tutor.c:1314
 msgid "Goal:"
 msgstr "Максат:"
 
-#: ../src/tutor.c:1123
+#: ../src/tutor.c:1247
 msgid "Characters per second:"
 msgstr "Секундасына символ:"
 
-#: ../src/tutor.c:1141
+#: ../src/tutor.c:1265
 msgid "(CPS)"
 msgstr "(СБ)"
 
-#: ../src/tutor.c:1146
+#: ../src/tutor.c:1270
 msgid "Words per minute:"
 msgstr "Сөз саны (м.):"
 
-#: ../src/tutor.c:1171
+#: ../src/tutor.c:1295
 msgid "Fluidness:"
 msgstr "Жай-салмактуулук:"
 
-#: ../src/tutor.c:1198
+#: ../src/tutor.c:1322
 msgid "Comments:"
 msgstr "Комментарийлер:"
 
-#: ../src/tutor.c:1680
+#: ../src/tutor.c:1804
 msgid "space"
 msgstr "боштук"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1685
+#: ../src/tutor.c:1809
 msgid "wye"
 msgstr "жылдызча"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1689
+#: ../src/tutor.c:1813
 msgid "enter"
 msgstr "киргизүү"
 
-#: ../src/tutor.c:1695
+#: ../src/tutor.c:1819
 msgid "apostrophe"
 msgstr "апостроф"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1699
+#: ../src/tutor.c:1823
 msgid "quote"
 msgstr "тырмакча"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1703
+#: ../src/tutor.c:1827
 msgid "ampersand"
 msgstr "амперсанд"
 
@@ -912,11 +931,11 @@ msgstr "Символ"
 msgid "Date & Time"
 msgstr "Күн жана убакыт"
 
-#: ../src/basic.c:331
+#: ../src/basic.c:326
 msgid "Positions of keys seems to be learned!"
 msgstr "Клавишалардын орундары жатталгандай көрүнөт!"
 
-#: ../src/basic.c:332
+#: ../src/basic.c:327
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -924,33 +943,35 @@ msgid ""
 " There you will practice mainly the accuracy.\n"
 msgstr ""
 
-#: ../src/basic.c:338
+#: ../src/basic.c:333
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
 msgstr ""
 
-#: ../src/adaptability.c:221
+#: ../src/adaptability.c:213
+#, c-format
 msgid ""
-" Your accuracy rate is below 90%...\n"
+" Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
 
-#: ../src/adaptability.c:226
+#: ../src/adaptability.c:216
+#, c-format
 msgid ""
 " You are doing well. But...\n"
-" Could you make the accuracy reach 95%?\n"
+" Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
 
-#: ../src/adaptability.c:229
+#: ../src/adaptability.c:219
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
-" Try a few more times, or maybe you're getting upset, so go to other kind of "
-"exercise.\n"
+" Try a few more times, or maybe you're getting upset, so go to another kind "
+"of exercise.\n"
 msgstr ""
 
-#: ../src/adaptability.c:236
+#: ../src/adaptability.c:226
 #, c-format
 msgid ""
 " Very good!\n"
@@ -963,90 +984,98 @@ msgstr ""
 msgid "Pasted_or_dropped"
 msgstr "Коюлган_же_ташылган"
 
-#: ../src/velocity.c:431
+#: ../src/velocity.c:423
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
 " persistence and practice will improve your velocity.\n"
 msgstr ""
 
-#: ../src/velocity.c:435
+#: ../src/velocity.c:427
+#, c-format
 msgid ""
 " Still away from the highway. You can make better...\n"
-" Try at least 20 WPM.\n"
+" Try to reach at least %.0f WPM.\n"
 msgstr ""
 
-#: ../src/velocity.c:438
+#: ../src/velocity.c:430
+#, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
-" And don't forget the accuracy. Try to get 30 WPM.\n"
+" And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr ""
 
-#: ../src/velocity.c:442
+#: ../src/velocity.c:433
+#, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
-" Can you reach 40 WPM?\n"
+" Can you reach %.0f WPM?\n"
 msgstr ""
 
-#: ../src/velocity.c:445
+#: ../src/velocity.c:436
 #, c-format
 msgid ""
 " Very good. You are almost there.\n"
 " Can you finally reach %.0f WPM?\n"
 msgstr ""
 
-#: ../src/velocity.c:450
+#: ../src/velocity.c:439
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
 msgstr ""
 
+#: ../src/velocity.c:442
+#, c-format
+msgid ""
+" Fast! Are you a professional?\n"
+" So, try to get %.0f WPM!\n"
+msgstr ""
+
+#. Translators: Speed Racer is a reference to a Japanese anime franchise
+#. about automobile racing, also known as Mach GoGoGo.
+#: ../src/velocity.c:447
+#, c-format
+msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
+msgstr ""
+
+#. Translators: feel free to change the reference to that martial art, if you find another good analogy.
+#: ../src/velocity.c:451
+#, c-format
+msgid ""
+" Kunf-fu mastering!\n"
+" Can you fly at %.0f WPM?\n"
+msgstr ""
+
+#. Translators: Dvorak here means that infamous ergonomic keyboard layout.
 #: ../src/velocity.c:454
-msgid ""
-" Fast! Are you training for a competition?\n"
-" So, try to get 70 WPM!\n"
-msgstr ""
-
-#: ../src/velocity.c:457
-msgid ""
-" Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
-" Are you afraid of reaching 80 WPM?\n"
-msgstr ""
-
-#: ../src/velocity.c:461
-msgid ""
-" Dvorak mode dominated!\n"
-" Can you fly at 90 WPM?\n"
-msgstr ""
-
-#: ../src/velocity.c:465
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
 msgstr ""
 
-#: ../src/fluidness.c:545
+#: ../src/fluidness.c:538
 #, c-format
 msgid ""
 " You type accurately but not so fast.\n"
 " Can you reach %.0f WPM?\n"
 msgstr ""
 
-#: ../src/fluidness.c:548
+#: ../src/fluidness.c:541
 #, c-format
 msgid ""
 " Your rhythm is not so constant. Calm down.\n"
 " For now, try to make the fluidness greater than %i%%.\n"
 msgstr ""
 
-#: ../src/fluidness.c:551
+#: ../src/fluidness.c:544
 #, c-format
 msgid ""
 " You are almost getting there. Type more fluently.\n"
 " I want a fluidness greater than %.0f%%.\n"
 msgstr ""
 
-#: ../src/fluidness.c:554
+#: ../src/fluidness.c:547
 msgid ""
 " Congratulations!\n"
 " It seems to me that you are a professional.\n"
@@ -1054,7 +1083,7 @@ msgid ""
 " Hope you have enjoyed. Thanks and be happy!\n"
 msgstr ""
 
-#: ../src/fluidness.c:559
+#: ../src/fluidness.c:552
 msgid ""
 " How can you type so fast?\n"
 " You have exceeded all my expectations.\n"
@@ -1110,23 +1139,15 @@ msgstr "Файлдарды жүктөө оңунан чыккан жок"
 msgid "Could not upload/download scores."
 msgstr "Упайларды жүктөөгө/жүктөп алууга мүмкүн эмес."
 
-#~ msgid "Select the font to be used in the exercise window."
-#~ msgstr "Көнүгүүнүн терезесинде колдонулуучу шрифтти тандоо."
+#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+#~ msgstr ""
+#~ "Көнүгүүнү кайта башташ үчүн бул жерди басыңыз. Ысык клавиша: [Ctrl R]"
 
 #~ msgid "_Font"
 #~ msgstr "_Арип"
 
 #~ msgid "Klavaro"
 #~ msgstr "Klavaro"
-
-#~ msgid "Country / Custom"
-#~ msgstr "Өлкө / Башка"
-
-#~ msgid "Variant"
-#~ msgstr "Вариант"
-
-#~ msgid "Your language here."
-#~ msgstr "Сиздин тилиңиз бул жерде"
 
 #~ msgid "Default"
 #~ msgstr "Жарыяланбаган"

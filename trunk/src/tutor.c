@@ -53,6 +53,44 @@ struct
 	gint correcting;
 } tutor;
 
+struct
+{
+	struct
+	{
+		double accuracy;
+		double speed;
+	} basic;
+	struct
+	{
+		double accuracy;
+		double speed;
+		double accuracy_learning;
+		double accuracy_improving;
+		double accuracy_reaching;
+	} adapt;
+	struct
+	{
+		double accuracy;
+		double speed;
+		double speed_crawling;
+		double speed_stepping;
+		double speed_walking;
+		double speed_jogging;
+		double speed_running;
+		double speed_professional;
+		double speed_racer;
+		double speed_flying;
+	} velo;
+	struct
+	{
+		double accuracy;
+		double speed;
+		double fluidity;
+		double fluidity_stumbling;
+		double speed_flying;
+	} fluid;
+} goal;
+
 extern gchar *OTHER_DEFAULT;
 
 /*******************************************************************************
@@ -98,15 +136,89 @@ tutor_init_timers ()
 	tutor.tmr = g_timer_new ();
 }
 
+#define GOAL_GSET(MODULE, GOAL, DEFAULT_VAL) \
+	if (main_preferences_exist ("goals", #MODULE "_" #GOAL))\
+		goal.MODULE.GOAL = (gdouble) main_preferences_get_int ("goals", #MODULE "_" #GOAL);\
+	else\
+	{\
+		goal.MODULE.GOAL = DEFAULT_VAL;\
+		main_preferences_set_int ("goals", #MODULE "_" #GOAL, DEFAULT_VAL);\
+	}
+#define LEVEL_GSET(MODULE, GOAL, DEFAULT_VAL) \
+	if (main_preferences_exist ("levels", #MODULE "_" #GOAL))\
+		goal.MODULE.GOAL = (gdouble) main_preferences_get_int ("levels", #MODULE "_" #GOAL);\
+	else\
+	{\
+		goal.MODULE.GOAL = DEFAULT_VAL;\
+		main_preferences_set_int ("levels", #MODULE "_" #GOAL, DEFAULT_VAL);\
+	}
+void
+tutor_init_goals ()
+{
+	GOAL_GSET (basic, accuracy, 95);
+	GOAL_GSET (basic, speed, 10);
+	GOAL_GSET (adapt, accuracy, 98);
+	GOAL_GSET (adapt, speed, 10);
+	GOAL_GSET (velo, accuracy, 95);
+	GOAL_GSET (velo, speed, 50);
+	GOAL_GSET (fluid, accuracy, 97);
+	GOAL_GSET (fluid, speed, 50);
+	GOAL_GSET (fluid, fluidity, 70);
+
+	LEVEL_GSET (adapt, accuracy_learning, 50);
+	LEVEL_GSET (adapt, accuracy_improving, 90);
+	LEVEL_GSET (adapt, accuracy_reaching, 95);
+
+	LEVEL_GSET (velo, speed_crawling, 10);
+	LEVEL_GSET (velo, speed_stepping, 20);
+	LEVEL_GSET (velo, speed_walking, 30);
+	LEVEL_GSET (velo, speed_jogging, 40);
+	LEVEL_GSET (velo, speed_running, 60);
+	LEVEL_GSET (velo, speed_professional, 70);
+	LEVEL_GSET (velo, speed_racer, 80);
+	LEVEL_GSET (velo, speed_flying, 90);
+
+	LEVEL_GSET (fluid, fluidity_stumbling, 60);
+	LEVEL_GSET (fluid, speed_flying, 90);
+
+	/*
+	g_printf ("basic accur: %.0f\n", goal.basic.accuracy);
+	g_printf ("basic speed: %.0f\n", goal.basic.speed);
+	g_printf ("adapt accur: %.0f\n", goal.adapt.accuracy);
+	g_printf ("adapt speed: %.0f\n", goal.adapt.speed);
+	g_printf ("velo accur: %.0f\n", goal.velo.accuracy);
+	g_printf ("velo speed: %.0f\n", goal.velo.speed);
+	g_printf ("fluid accur: %.0f\n", goal.fluid.accuracy);
+	g_printf ("fluid speed: %.0f\n", goal.fluid.speed);
+	g_printf ("fluid fluidity: %.0f\n", goal.fluid.fluidity);
+
+	g_printf ("adapt learning: %.0f\n", goal.adapt.accuracy_learning);
+	g_printf ("adapt improving: %.0f\n", goal.adapt.accuracy_improving);
+	g_printf ("adapt reaching: %.0f\n", goal.adapt.accuracy_reaching);
+
+	g_printf ("velo crawling: %.0f\n", goal.velo.speed_crawling);
+	g_printf ("velo stepping: %.0f\n", goal.velo.speed_stepping);
+	g_printf ("velo walking: %.0f\n", goal.velo.speed_walking);
+	g_printf ("velo jogging: %.0f\n", goal.velo.speed_jogging);
+	g_printf ("velo running: %.0f\n", goal.velo.speed_running);
+	g_printf ("velo professional: %.0f\n", goal.velo.speed_professional);
+	g_printf ("velo racer: %.0f\n", goal.velo.speed_racer);
+	g_printf ("velo flying: %.0f\n", goal.velo.speed_flying);
+
+	g_printf ("fluid stumbling: %.0f\n", goal.fluid.fluidity_stumbling);
+	g_printf ("fluid flying: %.0f\n", goal.fluid.speed_flying);
+	 */
+}
+
 gdouble
 tutor_goal_accuracy ()
 {
 	switch (tutor.type)
 	{
-		case TT_BASIC: return 95.0;
-		case TT_ADAPT: return 98.0;
-		case TT_VELO: return 95.0;
-		case TT_FLUID: return 97.0;
+		case TT_BASIC: return goal.basic.accuracy;
+		case TT_ADAPT: return goal.adapt.accuracy;
+		case TT_VELO: return goal.velo.accuracy;
+		case TT_FLUID: return goal.fluid.accuracy;
 	}
 	return -1.0;
 }
@@ -116,10 +228,10 @@ tutor_goal_speed ()
 {
 	switch (tutor.type)
 	{
-		case TT_BASIC: return 10.0;
-		case TT_ADAPT: return 10.0;
-		case TT_VELO: return 50.0;
-		case TT_FLUID: return 50.0;
+		case TT_BASIC: return goal.basic.speed;
+		case TT_ADAPT: return goal.adapt.speed;
+		case TT_VELO: return goal.velo.speed;
+		case TT_FLUID: return goal.fluid.speed;
 	}
 	return -1.0;
 }
@@ -132,9 +244,21 @@ tutor_goal_fluidity ()
 		case TT_BASIC:
 		case TT_ADAPT:
 		case TT_VELO: return 0.0;
-		case TT_FLUID: return 70.0;
+		case TT_FLUID: return goal.fluid.fluidity;
 	}
 	return -1.0;
+}
+
+gdouble
+tutor_goal_level (guint n)
+{
+	switch (tutor.type)
+	{
+		case TT_ADAPT: if (n > 2) return -1.0; return (&goal.adapt.accuracy_learning) [n];
+		case TT_VELO: if (n > 7) return -2.0; return (&goal.velo.speed_crawling) [n];
+		case TT_FLUID: if (n > 1) return -3.0; return (&goal.fluid.fluidity_stumbling) [n];
+	}
+	return -4.0;
 }
 
 /**********************************************************************

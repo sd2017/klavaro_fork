@@ -45,6 +45,7 @@ klavaro_data = \
 	dvorak_tr_F.kbd \
 	dvorak_uk.kbd \
 	dvorak_us.kbd \
+	dvorak_us_prog.kbd \
 	jtsuken_kk.kbd \
 	jtsuken_ru.kbd \
 	jtsuken_ru_typewriter.kbd \

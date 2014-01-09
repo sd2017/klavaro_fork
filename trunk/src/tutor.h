@@ -71,11 +71,15 @@ gint tutor_get_correcting (void);
 
 void tutor_init_timers (void);
 
+void tutor_init_goals (void);
+
 gdouble tutor_goal_accuracy (void);
 
 gdouble tutor_goal_speed (void);
 
 gdouble tutor_goal_fluidity (void);
+
+gdouble tutor_goal_level (guint n);
 
 /*
  * Auxiliar functions

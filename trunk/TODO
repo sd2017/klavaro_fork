@@ -1,14 +1,13 @@
-_______________________________________________________________
+_______________________________________________________________________
 Simple list of things that could be done in future (long term) releases:
 
-- Possibility to change the goals for accuracy, speed, fluidness, at least from the preferences file.
-- Collect wrong words (or slow typed ones), and create special exercises with them (velocity module).
-- Print report after completion of a fluidity session.
 - Local network support for local scores (libavahi?); zeroconf allows sharing ranking data among users connected to the same network.
 
 __________________________________
 And suggestions that won't be done:
 
+- Collect wrong words (or slow typed ones), and create special exercises with them in the velocity module. (too much effort, don't think it is worth).
+- Print report after completion of a fluidity session. (printscreen should be enough)
 - Allow the user to delete his full name from the web, at Top 10 (or Top 200). No way to make this secure, the user should ask the maintainer to do that.
 - Get rid of the main menu window, moving all actions there to the tutor window (no reason to change the "game" style of the application).
 - Add some kind of lessons for the numeric pad (the user may create custom lessons for this).

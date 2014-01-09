@@ -418,51 +418,40 @@ velo_comment (gdouble accuracy, gdouble velocity)
 	 * Comments
 	 */
 	if (accuracy < tutor_goal_accuracy ())
-	{
-		/*
-		tmp_str = g_strdup_printf (_(" Your accuracy rate is not good enough.\n"
-				      " I only can rely on you if it is greater than %.0f%%.\n"
-				      " Please calm down and try it again.\n"), tutor_goal_accuracy ());
-		*/
 		tmp_str = g_strdup (":-(\n");
-	}
-	else if (velocity < 10)
-		tmp_str =
-			g_strdup (_(" You are just beginning.\n"
+	else if (velocity < tutor_goal_level(0))
+		tmp_str = g_strdup (_(" You are just beginning.\n"
 				" Be patient, try it again every day, rest and don't worry so much:\n"
 				" persistence and practice will improve your velocity.\n"));
-	else if (velocity < 20)
-		tmp_str = g_strdup (_(" Still away from the highway. You can make better...\n"
-					" Try at least 20 WPM.\n"));
-	else if (velocity < 30)
-		tmp_str = g_strdup (_(" You are doing well, but need to go faster.\n"
-				      " And don't forget the accuracy. Try to get 30 WPM.\n"));
-	else if (velocity < 40)
-		tmp_str =
-			g_strdup (_(" Fine. Now you need to start running.\n"
-						" Can you reach 40 WPM?\n"));
+	else if (velocity < tutor_goal_level(1))
+		tmp_str = g_strdup_printf (_(" Still away from the highway. You can make better...\n"
+					" Try to reach at least %.0f WPM.\n"), tutor_goal_level(1));
+	else if (velocity < tutor_goal_level(2))
+		tmp_str = g_strdup_printf (_(" You are doing well, but need to go faster.\n"
+				      " And don't forget the accuracy. Try to get %.0f WPM.\n"), tutor_goal_level(2));
+	else if (velocity < tutor_goal_level(3))
+		tmp_str = g_strdup_printf (_(" Fine. Now you need to start running.\n"
+						" Can you reach %.0f WPM?\n"), tutor_goal_level(3));
 	else if (velocity < tutor_goal_speed ())
 		tmp_str = g_strdup_printf (_(" Very good. You are almost there.\n "
-					"Can you finally reach %.0f WPM?\n"),
-					tutor_goal_speed ());
-	else if (velocity < 60)
-		tmp_str =
-			g_strdup (_(" Excellent. For this course, that is enough.\n"
-						" Try now the fluidness exercises, OK?\n"));
-	else if (velocity < 70)
-		tmp_str =
-			g_strdup (_(" Fast! Are you training for a competition?\n"
-						" So, try to get 70 WPM!\n"));
-	else if (velocity < 80)
-		tmp_str = g_strdup (_(" Top of \"qwerty\"."
-				      " Now it's time to change to the Dvorak mode.\n"
-				      " Are you afraid of reaching 80 WPM?\n"));
-	else if (velocity < 90)
-		tmp_str = g_strdup (_(" Dvorak mode dominated!\n Can you fly at 90 WPM?\n"));
+					"Can you finally reach %.0f WPM?\n"), tutor_goal_speed ());
+	else if (velocity < tutor_goal_level(4))
+		tmp_str = g_strdup (_(" Excellent. For this course, that is enough.\n"
+					" Try now the fluidness exercises, OK?\n"));
+	else if (velocity < tutor_goal_level(5))
+		tmp_str = g_strdup_printf (_(" Fast! Are you a professional?\n"
+						" So, try to get %.0f WPM!\n"), tutor_goal_level(5));
+	else if (velocity < tutor_goal_level(6))
+		/* Translators: Speed Racer is a reference to a Japanese anime franchise
+		   about automobile racing, also known as Mach GoGoGo. */
+		tmp_str = g_strdup_printf (_(" Ranking good, Speed Racer!"
+				      " Are you afraid of reaching %.0f WPM?\n"), tutor_goal_level(6));
+	else if (velocity < tutor_goal_level(7))
+		/* Translators: feel free to change the reference to that martial art, if you find another good analogy. */
+		tmp_str = g_strdup_printf (_(" Kunf-fu mastering!\n Can you fly at %.0f WPM?\n"), tutor_goal_level(7));
 	else
-		tmp_str =
-			g_strdup (_
-				  (" Dvorak master!\n"
+		/* Translators: Dvorak here means that infamous ergonomic keyboard layout. */
+		tmp_str = g_strdup (_(" Dvorak master!\n"
 				   " I have no words to express my admiration!\n"));
 
 	wg = get_wg ("text_tutor");

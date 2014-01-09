@@ -314,11 +314,6 @@ basic_comment (gdouble accuracy)
 	 * Comments
 	 */
 	if (accuracy < tutor_goal_accuracy ())
-		/*
-		tmp_str = g_strdup_printf (_(" You did not succeed.\n"
-					     " The accuracy must be above %.0f%%.\n"
-					     " Try again!\n"), tutor_goal_accuracy ());
-	        */
 		tmp_str = g_strdup (":-(\n");
 	else
 	{
