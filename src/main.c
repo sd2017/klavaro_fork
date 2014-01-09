@@ -219,7 +219,6 @@ main_initialize_global_variables ()
 	{
 		g_mkdir_with_parents (path.score, DIR_PERM);
 	}
-	//g_message (path.score);
 
 	/* Retrieve initial or saved preferences
 	 */

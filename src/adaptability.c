@@ -207,37 +207,27 @@ adapt_comment (gdouble accuracy)
 	/*
 	 * Comments
 	 */
-	if (accuracy < 50)
-	{
-		/*
-		tmp_str = g_strdup (_
-				  (" Your error rate is too high.\n"
-				   " Maybe you are not ready to practice this exercise.\n"
-				   " Did you accomplish most of the basic course lessons?\n"));
-		*/
+	if (accuracy < tutor_goal_level(0))
 		tmp_str = g_strdup (":-(\n");
-	}
-	else if (accuracy < 90)
-		tmp_str = g_strdup (_(" Your accuracy rate is below 90%...\n"
-				      " Could you please try again to improve it?\n"));
-	else if (accuracy < 95)
-		tmp_str =
-			g_strdup (_
-				  (" You are doing well. But...\n"
-				   " Could you make the accuracy reach 95%?\n"));
+	else if (accuracy < tutor_goal_level(1))
+		tmp_str = g_strdup_printf (_(" Your accuracy rate is below %.0f%%...\n"
+					" Could you please try again to improve it?\n"), tutor_goal_level(1));
+	else if (accuracy < tutor_goal_level(2))
+		tmp_str = g_strdup_printf (_(" You are doing well. But...\n"
+					" Could you make the accuracy reach %.0f%%?\n"), tutor_goal_level(2));
 	else if (accuracy < tutor_goal_accuracy ())
 		tmp_str = g_strdup_printf (_(" You are almost there,"
 				" but your accuracy rate is still below %.0f%%.\n"
 				" Try a few more times,"
-				" or maybe you're getting upset, so go to other kind of exercise.\n"),
-			       	tutor_goal_accuracy ());
+				" or maybe you're getting upset, so go to another kind of exercise.\n"),
+			      	tutor_goal_accuracy ());
 	else
 	{
 		tmp_str = g_strdup_printf (_(" Very good!\n"
-				      " You succeeded with an accuracy rate above %.0f%%.\n"
-				      " Now it is time to increase your velocity.\n"
-				      " Go to the 3rd exercise at the main menu.\n"),
-			       	tutor_goal_accuracy ());
+			      " You succeeded with an accuracy rate above %.0f%%.\n"
+			      " Now it is time to increase your velocity.\n"
+			      " Go to the 3rd exercise at the main menu.\n"),
+			      tutor_goal_accuracy ());
 
 		accur_terror_reset ();
 		/*

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.95\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-07 07:13-0200\n"
+"POT-Creation-Date: 2014-01-08 15:02-0200\n"
 "PO-Revision-Date: 2013-02-08 19:40+0200\n"
 "Last-Translator: Slav <>\n"
 "Language-Team: Bulgarian <>\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "About 'Klavaro'"
 msgstr "Относно 'Klavaro'"
 
-#: ../data/klavaro.glade.h:2 ../data/klavaro.desktop.in.h:1
+#: ../data/klavaro.glade.h:2
 msgid "Yet another touch typing tutor"
 msgstr "Поредният самоучител по машинопис"
 
@@ -151,69 +151,77 @@ msgid "_Close"
 msgstr "_Затваряне"
 
 #: ../data/klavaro.glade.h:29
+msgid "Country / Custom"
+msgstr "Страна / Зададена от потребителя"
+
+#: ../data/klavaro.glade.h:30
+msgid "Variant"
+msgstr "Вариант"
+
+#: ../data/klavaro.glade.h:31
 msgid "Remove the selected custom layout."
 msgstr "Премахване на избраната подредба, зададена от потребителя."
 
-#: ../data/klavaro.glade.h:30
+#: ../data/klavaro.glade.h:32
 msgid "_Remove"
 msgstr "_Премахване"
 
-#: ../data/klavaro.glade.h:31
+#: ../data/klavaro.glade.h:33
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
 msgstr ""
 "Включва капитализацията. Сменя главните и малките символи на клавишите."
 
-#: ../data/klavaro.glade.h:32
+#: ../data/klavaro.glade.h:34
 msgid "SPACE BAR"
 msgstr "ИНТЕРВАЛ"
 
-#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:35 ../src/keyboard.c:1630
 msgid "thumbs"
 msgstr "умалени изображения"
 
-#: ../data/klavaro.glade.h:34
+#: ../data/klavaro.glade.h:36
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: ../data/klavaro.glade.h:35
+#: ../data/klavaro.glade.h:37
 msgid "Caps"
 msgstr "Главни букви"
 
-#: ../data/klavaro.glade.h:36
+#: ../data/klavaro.glade.h:38
 msgid "S_ave as:"
 msgstr "Запомняне като:"
 
-#: ../data/klavaro.glade.h:37
+#: ../data/klavaro.glade.h:39
 msgid "Show previous screen."
 msgstr "Показване на предишния екран."
 
-#: ../data/klavaro.glade.h:38
+#: ../data/klavaro.glade.h:40
 msgid "_Previous step"
 msgstr "_Предишна стъпка"
 
-#: ../data/klavaro.glade.h:39
+#: ../data/klavaro.glade.h:41
 msgid "Show next screen."
 msgstr "Показване на следващия екран."
 
-#: ../data/klavaro.glade.h:40
+#: ../data/klavaro.glade.h:42
 msgid "_Next step"
 msgstr "_Следваща стъпка"
 
-#: ../data/klavaro.glade.h:41
+#: ../data/klavaro.glade.h:43
 msgid "Return without any modification."
 msgstr "Завръщане без запомняне на промените."
 
-#: ../data/klavaro.glade.h:42
+#: ../data/klavaro.glade.h:44
 msgid "Save the current keyboard layout with the name specified above."
 msgstr "Запомняне на текущата клавиатурна подредба с името, посочено горе."
 
-#: ../data/klavaro.glade.h:43
+#: ../data/klavaro.glade.h:45
 msgid "_Save and use"
 msgstr "_Запомни и използвай"
 
-#: ../data/klavaro.glade.h:44
+#: ../data/klavaro.glade.h:46
 msgid ""
 "If you like those beautiful hands, click here to close this window keeping "
 "them."
@@ -221,55 +229,55 @@ msgstr ""
 "Ако харесвате тези красиви ръце, натиснете тук, за да затворите прозореца, "
 "като ги запазите."
 
-#: ../data/klavaro.glade.h:45
+#: ../data/klavaro.glade.h:47
 msgid "_Keep hands"
 msgstr "_Запазване на ръцете"
 
-#: ../data/klavaro.glade.h:46
+#: ../data/klavaro.glade.h:48
 msgid "Klavaro - Main menu"
 msgstr "Klavaro - основно меню"
 
-#: ../data/klavaro.glade.h:47
+#: ../data/klavaro.glade.h:49
 msgid "Don't be shy about learning the basics!"
 msgstr "Не бъдете срамежливи, научете основното!"
 
-#: ../data/klavaro.glade.h:48
+#: ../data/klavaro.glade.h:50
 msgid "Learn how to type correctly"
 msgstr "Научете се да пишете правилно."
 
-#: ../data/klavaro.glade.h:49
+#: ../data/klavaro.glade.h:51
 msgid "Initial training for your fingers."
 msgstr "Начални упражнения за Вашите пръсти."
 
-#: ../data/klavaro.glade.h:50
+#: ../data/klavaro.glade.h:52
 msgid "First steps with initial training"
 msgstr "Първи стъпки с начални упражнения"
 
-#: ../data/klavaro.glade.h:51
+#: ../data/klavaro.glade.h:53
 msgid "Memorizing the keyboard practicing random keys exercises."
 msgstr "Запаветете клавиатурата, като се упражнявате с произволни клавиши."
 
-#: ../data/klavaro.glade.h:52
+#: ../data/klavaro.glade.h:54
 msgid "Practice with random keys"
 msgstr "Упражнявайте се с произволни клавиши"
 
-#: ../data/klavaro.glade.h:53
+#: ../data/klavaro.glade.h:55
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "По-бързо натискане на клавишите чрез упражнения с произволни думи"
 
-#: ../data/klavaro.glade.h:54
+#: ../data/klavaro.glade.h:56
 msgid "Practice with random words"
 msgstr "Упражнявайте се с произволни думи"
 
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:57
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "Станете професионалист, като се упражнявате с цели абзаци."
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:58
 msgid "Practice with complete texts"
 msgstr "Упражнявайте се с цели текстове"
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:59
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
@@ -277,114 +285,118 @@ msgstr ""
 "Клавиатурна подредба за модули 1 и 2. Използва се и информативно за "
 "състезанието по гладкост."
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:60
 msgid "_Keyboard:"
 msgstr "_Клавиатура:"
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:61
 msgid "Language for modules 3 and 4."
 msgstr "Език за модули 3 и 4."
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:62
 msgid "_Language:"
 msgstr "_Език:"
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:63
 msgid "Speech"
 msgstr "Реч"
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:64
+msgid "Your language here."
+msgstr "Тук е Вашият език."
+
+#: ../data/klavaro.glade.h:65
 msgid "Little tip about this program."
 msgstr "Малко помощ за тази програма."
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:66
 msgid "_Help"
 msgstr "_Помощ"
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:67
 msgid "General information about the program."
 msgstr "Обща информация за програмата."
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:68
 msgid "_About..."
 msgstr "_Относно..."
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:69
 msgid "Exit the application immediately."
 msgstr "Напускане на приложението веднага."
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:70
 msgid "Klavaro - Progress"
 msgstr "Klavaro - напредък"
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:71
 msgid "_Lesson:"
 msgstr "_Урок:"
 
-#: ../data/klavaro.glade.h:69
+#: ../data/klavaro.glade.h:72
 msgid "Value"
 msgstr "Стойност"
 
-#: ../data/klavaro.glade.h:70
+#: ../data/klavaro.glade.h:73
 msgid "Close this window, returning to the exercise."
 msgstr "Затворете този прозорец и се върнете към упражнението."
 
-#: ../data/klavaro.glade.h:71
+#: ../data/klavaro.glade.h:74
 msgid "Clear all the progress data, for every module."
 msgstr "Изтриване на цялата информация за текущия напредък, във всеки модул."
 
-#: ../data/klavaro.glade.h:72
+#: ../data/klavaro.glade.h:75
 msgid "_Reset"
 msgstr "_Отначало"
 
-#: ../data/klavaro.glade.h:73
+#: ../data/klavaro.glade.h:76
 msgid "Top 10"
 msgstr "Топ 10"
 
-#: ../data/klavaro.glade.h:74
+#: ../data/klavaro.glade.h:77
 #, fuzzy
 msgid "Show extra information."
 msgstr "Показване на допълнителна информация"
 
-#: ../data/klavaro.glade.h:75
+#: ../data/klavaro.glade.h:78
 #, fuzzy
 msgid "Hide extra information."
 msgstr "Скриване на допълнителната информация"
 
-#: ../data/klavaro.glade.h:76
+#: ../data/klavaro.glade.h:79
 msgid "Publish to the web your local scores."
 msgstr "Публикувайте в интернет резултатите си."
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:80
 msgid "_Participate"
 msgstr "_Участие"
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:81
 msgid "Download from the web the most up to date ranking."
 msgstr "Изтеглете от интернет най-актуалните класации."
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:82
 msgid "_Update"
 msgstr "_Обновяване"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:83
 msgid "Load other exercises/lessons"
 msgstr "Зареждане на други упражнения/уроци"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:84
 msgid "_Other texts"
 msgstr "_Други текстове"
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:85
 msgid "Edit the character set to be used in this lesson."
 msgstr ""
 "Редактиране на набора от символи, които ще се използват в текущия урок."
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:86
 msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "Това е специално упражнение, напаснато към грешките, които правите."
 
-#: ../data/klavaro.glade.h:84
+#: ../data/klavaro.glade.h:87
 #, fuzzy
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
@@ -392,165 +404,171 @@ msgstr ""
 "Редактиране на набора от символи, които ще се използват в уроците от 44 до "
 "50."
 
-#: ../data/klavaro.glade.h:85 ../src/tutor.c:252
+#: ../data/klavaro.glade.h:88 ../src/tutor.c:376
 msgid "Drag and drop text here to practice with it."
 msgstr "Изтеглете и пуснете текст тук, за да се упражнявате с него."
 
-#: ../data/klavaro.glade.h:86
+#: ../data/klavaro.glade.h:89
 #, fuzzy
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
 msgstr ""
 "Натиснете тук, за да започнете упражнението отначало. Бързи клавиши: [Ctrl R]"
 
-#: ../data/klavaro.glade.h:87
-msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-msgstr ""
-"Натиснете тук, за да започнете упражнението отначало. Бързи клавиши: [Ctrl R]"
-
-#: ../data/klavaro.glade.h:88
+#: ../data/klavaro.glade.h:90
 msgid "Show the virtual keyboard and the relation between fingers and keys."
 msgstr ""
 "Показване на виртуална клавиатура и връзката между пръстите и клавишите."
 
-#: ../data/klavaro.glade.h:89
+#: ../data/klavaro.glade.h:91
 msgid "_Keyboard"
 msgstr "_Клавиатура"
 
-#: ../data/klavaro.glade.h:90
+#: ../data/klavaro.glade.h:92
+msgid "Select the font to be used in the exercise window."
+msgstr "Изберете шрифт, който да се ползва в прозореца с упражненията."
+
+#: ../data/klavaro.glade.h:93
 msgid "Font definition"
 msgstr "Определяне на шрифта"
 
-#: ../data/klavaro.glade.h:91
+#: ../data/klavaro.glade.h:94
 msgid "Keep this checked if you want to get those nice beeps."
 msgstr "Отбележете тук, ако искате да слушате тези приятни сигнали."
 
-#: ../data/klavaro.glade.h:92
+#: ../data/klavaro.glade.h:95
 msgid "_Beep"
 msgstr "_Звук"
 
-#: ../data/klavaro.glade.h:93
+#: ../data/klavaro.glade.h:96
 msgid "Co_urse information"
 msgstr "Информация за курса"
 
-#: ../data/klavaro.glade.h:94
+#: ../data/klavaro.glade.h:97
 msgid "Charts showing the learning progress along the exercises."
 msgstr "Графики, показващи Вашия напредък с течение на упражненията."
 
-#: ../data/klavaro.glade.h:95
+#: ../data/klavaro.glade.h:98
 msgid "_Progress"
 msgstr "_Напредък"
 
-#: ../data/klavaro.glade.h:96
+#: ../data/klavaro.glade.h:99
 msgid "Return to the main menu."
 msgstr "Завръщане към главното меню."
 
-#: ../data/klavaro.glade.h:97
+#: ../data/klavaro.glade.h:100
 msgid "Show local and external scores from other users."
 msgstr "Показване на резултати от други потребители."
 
-#: ../data/klavaro.glade.h:98
+#: ../data/klavaro.glade.h:101
 msgid "_Top 10"
 msgstr "_Топ 10"
 
-#: ../data/klavaro.desktop.in.h:2
-msgid "keyboard;typing;tutorial;"
-msgstr ""
+#: ../data/klavaro.desktop.in.h:1
+#, fuzzy
+msgid "A very flexible and efficient touch typing tutor."
+msgstr "Поредният самоучител по машинопис"
 
-#: ../src/main.c:243
+#. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
+#: ../data/klavaro.desktop.in.h:3
+#, fuzzy
+msgid "keyboard;typing;tutor;CAI"
+msgstr "Клавиатура"
+
+#: ../src/main.c:242
 msgid "(Custom)"
 msgstr "(Задаване от потребителя)"
 
-#: ../src/main.c:244
+#: ../src/main.c:243
 msgid "(Edit custom)"
 msgstr "(Редактиране на зададената от потребителя)"
 
-#: ../src/main.c:245
+#: ../src/main.c:244
 msgid "(Default)"
 msgstr "(По подразбиране)"
 
-#: ../src/main.c:322
+#: ../src/main.c:321
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] "Режим на диктовка (зависи от този речев синтезатор: %s)"
 msgstr[1] "Режим на диктовка (зависи от един от тези речеви синтезатори: %s)"
 
-#: ../src/main.c:365 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1291
 msgid "Introduction"
 msgstr "Въведение"
 
-#: ../src/main.c:368 ../src/top10.c:109
+#: ../src/main.c:367 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Начален курс"
 
-#: ../src/main.c:371 ../src/top10.c:112
+#: ../src/main.c:370 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Адаптивност"
 
-#: ../src/main.c:374 ../src/callbacks.c:1225 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1227 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Бързина"
 
-#: ../src/main.c:377 ../src/callbacks.c:1248 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1250 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Гладкост"
 
-#: ../src/callbacks.c:405 ../src/tutor.c:391
+#: ../src/callbacks.c:407 ../src/tutor.c:515
 msgid "Keys:"
 msgstr "Клавиши:"
 
-#: ../src/callbacks.c:773 ../src/callbacks.c:789
+#: ../src/callbacks.c:775 ../src/callbacks.c:791
 msgid "Connecting..."
 msgstr "Свързване..."
 
-#: ../src/callbacks.c:1060
+#: ../src/callbacks.c:1062
 msgid "Overwrite user layout"
 msgstr "Пренаписване на потребителската подредба"
 
-#: ../src/callbacks.c:1062
+#: ../src/callbacks.c:1064
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Съществуваща клавиатурна подредба ще бъде ПРЕНАПИСАНА."
 
-#: ../src/callbacks.c:1069
+#: ../src/callbacks.c:1071
 msgid "Remove user layout"
 msgstr "Премахване на потребителската подредба"
 
-#: ../src/callbacks.c:1071
+#: ../src/callbacks.c:1073
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Съществуваща клавиатурна подредба ще бъде ПРЕМАХНАТА."
 
-#: ../src/callbacks.c:1078
+#: ../src/callbacks.c:1080
 msgid "Reset progress data"
 msgstr "Рестартиране на информазията за напредъка"
 
-#: ../src/callbacks.c:1079
+#: ../src/callbacks.c:1081
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "Информацията за напредъка, показана в графиките, ще бъде ИЗТРИТА."
 
-#: ../src/callbacks.c:1222 ../src/top10.c:87
+#: ../src/callbacks.c:1224 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Прецизност"
 
-#: ../src/callbacks.c:1225 ../src/tutor.c:1164
+#: ../src/callbacks.c:1227 ../src/tutor.c:1288
 msgid "(WPM)"
 msgstr "(Думи/мин)"
 
-#: ../src/callbacks.c:1236
+#: ../src/callbacks.c:1238
 msgid "Errors"
 msgstr "Грешки"
 
-#: ../src/callbacks.c:1239
+#: ../src/callbacks.c:1241
 msgid "Touch times (s)"
 msgstr "Брой натискания (s)"
 
-#: ../src/callbacks.c:1251 ../src/tutor.c:1191 ../src/top10.c:69
+#: ../src/callbacks.c:1253 ../src/tutor.c:1315 ../src/top10.c:69
 msgid "Score"
 msgstr "Резултат"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1601
+#: ../src/translation.c:485 ../src/tutor.c:1725
 msgid "en"
 msgstr "bg"
 
@@ -819,65 +837,65 @@ msgstr "показалец"
 msgid "Press and edit me"
 msgstr "Натисни и ме редактирай"
 
-#: ../src/tutor.c:176
+#: ../src/tutor.c:300
 msgid "Lesson:"
 msgstr "Урок:"
 
-#: ../src/tutor.c:186
+#: ../src/tutor.c:310
 msgid "Paragraphs:"
 msgstr "Абзаци:"
 
-#: ../src/tutor.c:219
+#: ../src/tutor.c:343
 msgid "Klavaro - Basic Course"
 msgstr "Klavaro - Начален Курс"
 
-#: ../src/tutor.c:224
+#: ../src/tutor.c:348
 msgid "Klavaro - Adaptability"
 msgstr "Klavaro - Адаптивност"
 
-#: ../src/tutor.c:227
+#: ../src/tutor.c:351
 msgid ""
 "Adaptability exercises: automating the fingers responses, typing over all "
 "the keyboard."
 msgstr "Упражнения за адаптивност:"
 
-#: ../src/tutor.c:232
+#: ../src/tutor.c:356
 msgid "Klavaro - Velocity"
 msgstr "Klavaro - Скорост"
 
-#: ../src/tutor.c:233
+#: ../src/tutor.c:357
 msgid "Velocity exercises: accelerate typing real words."
 msgstr "Упражнения за бързина: ускорете, като пишете истински думи."
 
-#: ../src/tutor.c:237
+#: ../src/tutor.c:361
 msgid "Klavaro - Fluidness"
 msgstr "Klavaro - Гладкост"
 
-#: ../src/tutor.c:239
+#: ../src/tutor.c:363
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr "Упражнения за гладкост: прецизност чрез писане на смислени абзаци."
 
-#: ../src/tutor.c:301
+#: ../src/tutor.c:425
 msgid "End of exercise. Press [Enter] to start another."
 msgstr "Край на упражнението. Натиснете [Нов ред], за да започнете друго."
 
-#: ../src/tutor.c:329
+#: ../src/tutor.c:453
 msgid "Learning the key positions."
 msgstr "Научаване на позициите на клавишите."
 
-#: ../src/tutor.c:332
+#: ../src/tutor.c:456
 msgid "Press any key to start the exercise. "
 msgstr "Натиснете някой клавиш, за да започнете упражнението."
 
-#: ../src/tutor.c:443 ../src/tutor.c:446
+#: ../src/tutor.c:567 ../src/tutor.c:570
 msgid "Start typing when you are ready. "
 msgstr "Започнете да пишете, когато сте готови."
 
-#: ../src/tutor.c:444
+#: ../src/tutor.c:568
 msgid "Use backspace to correct errors."
 msgstr "Използвайте изтриването, за да поправяте грешки."
 
-#: ../src/tutor.c:888
+#: ../src/tutor.c:1012
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
@@ -886,11 +904,11 @@ msgstr ""
 "ps.: вход за сесията недостъпен: изписаните символи (%i) трябва да е по-"
 "голям от %i."
 
-#: ../src/tutor.c:1030
+#: ../src/tutor.c:1154
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "ps.: влязохте в топ 10, страхотно!"
 
-#: ../src/tutor.c:1042
+#: ../src/tutor.c:1166
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
@@ -900,84 +918,84 @@ msgstr ""
 "обикновените текстове на езика, който сте избрали: не можем да го зачетем за "
 "състезанието за топ 10."
 
-#: ../src/tutor.c:1091
+#: ../src/tutor.c:1215
 msgid "STATISTICS"
 msgstr "СТАТИСТИКА"
 
-#: ../src/tutor.c:1092
+#: ../src/tutor.c:1216
 msgid "Elapsed time:"
 msgstr "Изминало време:"
 
-#: ../src/tutor.c:1093
+#: ../src/tutor.c:1217
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "минута и"
 msgstr[1] "минути и"
 
-#: ../src/tutor.c:1094
+#: ../src/tutor.c:1218
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "секунда"
 msgstr[1] "секунди"
 
-#: ../src/tutor.c:1095
+#: ../src/tutor.c:1219
 msgid "Error ratio:"
 msgstr "Честота на грешките:"
 
-#: ../src/tutor.c:1095
+#: ../src/tutor.c:1219
 msgid "Accuracy:"
 msgstr "Прецизност:"
 
-#: ../src/tutor.c:1116 ../src/tutor.c:1141 ../src/tutor.c:1164
-#: ../src/tutor.c:1190
+#: ../src/tutor.c:1240 ../src/tutor.c:1265 ../src/tutor.c:1288
+#: ../src/tutor.c:1314
 msgid "Goal:"
 msgstr "Цел:"
 
-#: ../src/tutor.c:1123
+#: ../src/tutor.c:1247
 msgid "Characters per second:"
 msgstr "Знака в секунда:"
 
-#: ../src/tutor.c:1141
+#: ../src/tutor.c:1265
 msgid "(CPS)"
 msgstr "(знака/мин)"
 
-#: ../src/tutor.c:1146
+#: ../src/tutor.c:1270
 msgid "Words per minute:"
 msgstr "Думи в минута:"
 
-#: ../src/tutor.c:1171
+#: ../src/tutor.c:1295
 msgid "Fluidness:"
 msgstr "Гладкост:"
 
-#: ../src/tutor.c:1198
+#: ../src/tutor.c:1322
 msgid "Comments:"
 msgstr "Коментари:"
 
-#: ../src/tutor.c:1680
+#: ../src/tutor.c:1804
 msgid "space"
 msgstr "интервал"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1685
+#: ../src/tutor.c:1809
 msgid "wye"
 msgstr "уай"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1689
+#: ../src/tutor.c:1813
 msgid "enter"
 msgstr "нов ред"
 
-#: ../src/tutor.c:1695
+#: ../src/tutor.c:1819
 msgid "apostrophe"
 msgstr "апостроф"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1699
+#: ../src/tutor.c:1823
 msgid "quote"
 msgstr "кавички"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1703
+#: ../src/tutor.c:1827
 msgid "ampersand"
 msgstr "знак И"
 
@@ -989,11 +1007,11 @@ msgstr "Символ"
 msgid "Date & Time"
 msgstr "Дата и час"
 
-#: ../src/basic.c:331
+#: ../src/basic.c:326
 msgid "Positions of keys seems to be learned!"
 msgstr "Позициите на клавишите явно са научени!"
 
-#: ../src/basic.c:332
+#: ../src/basic.c:327
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1005,7 +1023,7 @@ msgstr ""
 " Преминете към следващия тип упражнения: адаптивност.\n"
 " Там ще се упражнявате основно за прецизност.\n"
 
-#: ../src/basic.c:338
+#: ../src/basic.c:333
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
@@ -1013,34 +1031,36 @@ msgstr ""
 " Добре, хванахте му цаката!\n"
 " Отидете напред към следващия урок.\n"
 
-#: ../src/adaptability.c:221
+#: ../src/adaptability.c:213
+#, fuzzy, c-format
 msgid ""
-" Your accuracy rate is below 90%...\n"
+" Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
 " Прецизността Ви е под 90%...\n"
 " Бихте ли пробвали отново, за да я подобрите, моля?\n"
 
-#: ../src/adaptability.c:226
+#: ../src/adaptability.c:216
+#, fuzzy, c-format
 msgid ""
 " You are doing well. But...\n"
-" Could you make the accuracy reach 95%?\n"
+" Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
 " Справяте се добре. Но...\n"
 " Можете ли да постигнете прецизност от 95%?\n"
 
-#: ../src/adaptability.c:229
-#, c-format
+#: ../src/adaptability.c:219
+#, fuzzy, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
-" Try a few more times, or maybe you're getting upset, so go to other kind of "
-"exercise.\n"
+" Try a few more times, or maybe you're getting upset, so go to another kind "
+"of exercise.\n"
 msgstr ""
 " Почти сте готови, но прецизността Ви все още е под %.0f%%.\n"
 " Опитайте още няколко пъти, или, ако се разстройвате, пробвайте друго "
 "упражнение.\n"
 
-#: ../src/adaptability.c:236
+#: ../src/adaptability.c:226
 #, c-format
 msgid ""
 " Very good!\n"
@@ -1057,7 +1077,7 @@ msgstr ""
 msgid "Pasted_or_dropped"
 msgstr "Вмъкнато_или_пуснато"
 
-#: ../src/velocity.c:431
+#: ../src/velocity.c:423
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
@@ -1068,32 +1088,35 @@ msgstr ""
 "притеснявайте много:\n"
 " с постоянство и упражнения ще подобрите скоростта си.\n"
 
-#: ../src/velocity.c:435
+#: ../src/velocity.c:427
+#, fuzzy, c-format
 msgid ""
 " Still away from the highway. You can make better...\n"
-" Try at least 20 WPM.\n"
+" Try to reach at least %.0f WPM.\n"
 msgstr ""
 " Все още сте далеч от най-добрите постижения. Можете да се справите по-"
 "добре...\n"
 " Опитайте да постигнете поне 20 думи/мин.\n"
 
-#: ../src/velocity.c:438
+#: ../src/velocity.c:430
+#, fuzzy, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
-" And don't forget the accuracy. Try to get 30 WPM.\n"
+" And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr ""
 " Справяте се добре, но трябва да сте по-бързи.\n"
 " И не забравяйте прецизността. Опитайте да достигнете 30 думи/мин.\n"
 
-#: ../src/velocity.c:442
+#: ../src/velocity.c:433
+#, fuzzy, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
-" Can you reach 40 WPM?\n"
+" Can you reach %.0f WPM?\n"
 msgstr ""
 " Добре. Сега трябва да започнете да тичате.\n"
 " Можете ли да достигнете 40 думи/мин?\n"
 
-#: ../src/velocity.c:445
+#: ../src/velocity.c:436
 #, c-format
 msgid ""
 " Very good. You are almost there.\n"
@@ -1102,7 +1125,7 @@ msgstr ""
 " Много добре. Още малко и сте готови.\n"
 " Можете ли да достигнете %0f думи/мин?\n"
 
-#: ../src/velocity.c:450
+#: ../src/velocity.c:439
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
@@ -1110,31 +1133,34 @@ msgstr ""
 " Отлично. За този курс - стига толкова.\n"
 " Защо не пробвате курса по гладкост?\n"
 
-#: ../src/velocity.c:454
+#: ../src/velocity.c:442
+#, fuzzy, c-format
 msgid ""
-" Fast! Are you training for a competition?\n"
-" So, try to get 70 WPM!\n"
+" Fast! Are you a professional?\n"
+" So, try to get %.0f WPM!\n"
 msgstr ""
 " Бързо! За състезание ли тренирате?\n"
 " Тогава опитайте да достигнете 70 думи/мин!\n"
 
-#: ../src/velocity.c:457
-msgid ""
-" Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
-" Are you afraid of reaching 80 WPM?\n"
+#. Translators: Speed Racer is a reference to a Japanese anime franchise
+#. about automobile racing, also known as Mach GoGoGo.
+#: ../src/velocity.c:447
+#, c-format
+msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
 msgstr ""
-" Най-доброто за QWERTY. Време е да пробвате Dvorak стандарта.\n"
-" Страх ли Ви е да достигнете 80 думи/мин?\n"
 
-#: ../src/velocity.c:461
+#. Translators: feel free to change the reference to that martial art, if you find another good analogy.
+#: ../src/velocity.c:451
+#, fuzzy, c-format
 msgid ""
-" Dvorak mode dominated!\n"
-" Can you fly at 90 WPM?\n"
+" Kunf-fu mastering!\n"
+" Can you fly at %.0f WPM?\n"
 msgstr ""
 " Овладяхте Dvorak!\n"
 " Можете ли да достигнете 90 думи/мин?\n"
 
-#: ../src/velocity.c:465
+#. Translators: Dvorak here means that infamous ergonomic keyboard layout.
+#: ../src/velocity.c:454
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
@@ -1142,7 +1168,7 @@ msgstr ""
 " Майстор на Dvorak!\n"
 " Нямам думи!\n"
 
-#: ../src/fluidness.c:545
+#: ../src/fluidness.c:538
 #, c-format
 msgid ""
 " You type accurately but not so fast.\n"
@@ -1151,7 +1177,7 @@ msgstr ""
 " Пишете прецизно, но не много бързо.\n"
 " Можете ли да достигнете %0f думи/мин?\n"
 
-#: ../src/fluidness.c:548
+#: ../src/fluidness.c:541
 #, c-format
 msgid ""
 " Your rhythm is not so constant. Calm down.\n"
@@ -1160,7 +1186,7 @@ msgstr ""
 " Ритъмът Ви не е много постоянен. Успокойте се.\n"
 " Засега, опитайте да постигнете гладкост, по-голяма от %i%%.\n"
 
-#: ../src/fluidness.c:551
+#: ../src/fluidness.c:544
 #, c-format
 msgid ""
 " You are almost getting there. Type more fluently.\n"
@@ -1169,7 +1195,7 @@ msgstr ""
 " Почти готови сте. Пишете по-гладко.\n"
 " Искам гладкост, по-голяма от %.0f%%.\n"
 
-#: ../src/fluidness.c:554
+#: ../src/fluidness.c:547
 msgid ""
 " Congratulations!\n"
 " It seems to me that you are a professional.\n"
@@ -1181,7 +1207,7 @@ msgstr ""
 " Нямате вече нужда от тази програма.\n"
 " Дано Ви е харесала. Благодаря и всичко най-хобаво!\n"
 
-#: ../src/fluidness.c:559
+#: ../src/fluidness.c:552
 msgid ""
 " How can you type so fast?\n"
 " You have exceeded all my expectations.\n"
@@ -1241,23 +1267,23 @@ msgstr "Неуспешно качване на файлове"
 msgid "Could not upload/download scores."
 msgstr "Неуспешно качване/изтегляне на резултатите."
 
-#~ msgid "Select the font to be used in the exercise window."
-#~ msgstr "Изберете шрифт, който да се ползва в прозореца с упражненията."
+#~ msgid ""
+#~ " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
+#~ " Are you afraid of reaching 80 WPM?\n"
+#~ msgstr ""
+#~ " Най-доброто за QWERTY. Време е да пробвате Dvorak стандарта.\n"
+#~ " Страх ли Ви е да достигнете 80 думи/мин?\n"
+
+#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+#~ msgstr ""
+#~ "Натиснете тук, за да започнете упражнението отначало. Бързи клавиши: "
+#~ "[Ctrl R]"
 
 #~ msgid "_Font"
 #~ msgstr "_Шрифт"
 
 #~ msgid "Klavaro"
 #~ msgstr "Klavaro"
-
-#~ msgid "Country / Custom"
-#~ msgstr "Страна / Зададена от потребителя"
-
-#~ msgid "Variant"
-#~ msgstr "Вариант"
-
-#~ msgid "Your language here."
-#~ msgstr "Тук е Вашият език."
 
 #~ msgid "Default"
 #~ msgstr "По подразбиране"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.5-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-07 07:13-0200\n"
+"POT-Creation-Date: 2014-01-08 15:02-0200\n"
 "PO-Revision-Date: 2012-07-09 10:05+0530\n"
 "Last-Translator: Arjuna Rao Chavala <arjunaraoc@gmail.com>\n"
 "Language-Team: Telugu <Fedora-trans-te@redhat.com>\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "About 'Klavaro'"
 msgstr "అంజుత గురించి"
 
-#: ../data/klavaro.glade.h:2 ../data/klavaro.desktop.in.h:1
+#: ../data/klavaro.glade.h:2
 msgid "Yet another touch typing tutor"
 msgstr ""
 
@@ -161,430 +161,450 @@ msgstr "మూసివేయి"
 
 #: ../data/klavaro.glade.h:29
 #, fuzzy
+msgid "Country / Custom"
+msgstr "అనురూపిత ఇష్టాంశాలు (&B)"
+
+#: ../data/klavaro.glade.h:30
+msgid "Variant"
+msgstr ""
+
+#: ../data/klavaro.glade.h:31
+#, fuzzy
 msgid "Remove the selected custom layout."
 msgstr "ఎంచుకున్న అంశాన్ని తొలగించు"
 
-#: ../data/klavaro.glade.h:30
+#: ../data/klavaro.glade.h:32
 #, fuzzy
 msgid "_Remove"
 msgstr "తీసివేయి (_R)"
 
-#: ../data/klavaro.glade.h:31
+#: ../data/klavaro.glade.h:33
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
 msgstr ""
 
-#: ../data/klavaro.glade.h:32
+#: ../data/klavaro.glade.h:34
 #, fuzzy
 msgid "SPACE BAR"
 msgstr "స్థితి పట్టీ"
 
-#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:35 ../src/keyboard.c:1630
 msgid "thumbs"
-msgstr ""
-
-#: ../data/klavaro.glade.h:34
-#, fuzzy
-msgid "Ctrl"
-msgstr "Ctrl-C"
-
-#: ../data/klavaro.glade.h:35
-msgid "Caps"
 msgstr ""
 
 #: ../data/klavaro.glade.h:36
 #, fuzzy
+msgid "Ctrl"
+msgstr "Ctrl-C"
+
+#: ../data/klavaro.glade.h:37
+msgid "Caps"
+msgstr ""
+
+#: ../data/klavaro.glade.h:38
+#, fuzzy
 msgid "S_ave as:"
 msgstr "ఇలా భద్రపరుచు...(&S)"
 
-#: ../data/klavaro.glade.h:37
+#: ../data/klavaro.glade.h:39
 #, fuzzy
 msgid "Show previous screen."
 msgstr "స్ప్లాష్ తెర చూపవద్దు"
 
-#: ../data/klavaro.glade.h:38
+#: ../data/klavaro.glade.h:40
 #, fuzzy
 msgid "_Previous step"
 msgstr "ఒక అడుగు మీదకు"
 
-#: ../data/klavaro.glade.h:39
+#: ../data/klavaro.glade.h:41
 #, fuzzy
 msgid "Show next screen."
 msgstr "స్ప్లాష్ తెర చూపవద్దు"
 
-#: ../data/klavaro.glade.h:40
+#: ../data/klavaro.glade.h:42
 #, fuzzy
 msgid "_Next step"
 msgstr "ఒక అడుగు మీదకు"
 
-#: ../data/klavaro.glade.h:41
+#: ../data/klavaro.glade.h:43
 #, fuzzy
 msgid "Return without any modification."
 msgstr "డీవీడీ మెనూకు వెళ్ళు"
 
-#: ../data/klavaro.glade.h:42
+#: ../data/klavaro.glade.h:44
 msgid "Save the current keyboard layout with the name specified above."
 msgstr ""
 
-#: ../data/klavaro.glade.h:43
+#: ../data/klavaro.glade.h:45
 #, fuzzy
 msgid "_Save and use"
 msgstr "భద్రపరచి కొనసాగు"
 
-#: ../data/klavaro.glade.h:44
+#: ../data/klavaro.glade.h:46
 msgid ""
 "If you like those beautiful hands, click here to close this window keeping "
 "them."
 msgstr ""
 
-#: ../data/klavaro.glade.h:45
+#: ../data/klavaro.glade.h:47
 #, fuzzy
 msgid "_Keep hands"
 msgstr "లక్ష్య మార్గం ఉంచండి:"
 
-#: ../data/klavaro.glade.h:46
+#: ../data/klavaro.glade.h:48
 msgid "Klavaro - Main menu"
 msgstr "క్లావరో - ప్రధాన మెనూ"
 
-#: ../data/klavaro.glade.h:47
+#: ../data/klavaro.glade.h:49
 msgid "Don't be shy about learning the basics!"
 msgstr ""
 
-#: ../data/klavaro.glade.h:48
+#: ../data/klavaro.glade.h:50
 msgid "Learn how to type correctly"
 msgstr ""
 
-#: ../data/klavaro.glade.h:49
+#: ../data/klavaro.glade.h:51
 msgid "Initial training for your fingers."
 msgstr ""
 
-#: ../data/klavaro.glade.h:50
+#: ../data/klavaro.glade.h:52
 msgid "First steps with initial training"
 msgstr ""
 
-#: ../data/klavaro.glade.h:51
+#: ../data/klavaro.glade.h:53
 msgid "Memorizing the keyboard practicing random keys exercises."
 msgstr ""
 
-#: ../data/klavaro.glade.h:52
+#: ../data/klavaro.glade.h:54
 msgid "Practice with random keys"
 msgstr ""
 
-#: ../data/klavaro.glade.h:53
+#: ../data/klavaro.glade.h:55
 msgid "Accelerating the touches practicing random words exercises."
 msgstr ""
 
-#: ../data/klavaro.glade.h:54
+#: ../data/klavaro.glade.h:56
 msgid "Practice with random words"
 msgstr ""
 
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:57
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr ""
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:58
 msgid "Practice with complete texts"
 msgstr ""
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:59
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
 msgstr ""
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:60
 msgid "_Keyboard:"
 msgstr "కీబోర్డ్‍ :"
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:61
 #, fuzzy
 msgid "Language for modules 3 and 4."
 msgstr "మెనూలు మరియు విండోల కొరకు భాష:"
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:62
 msgid "_Language:"
 msgstr "భాష(_L)"
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:63
 msgid "Speech"
 msgstr "శబ్దం"
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:64
+#, fuzzy
+msgid "Your language here."
+msgstr "మాధ్యమాన్ని ఇక్కడ వదులు"
+
+#: ../data/klavaro.glade.h:65
 msgid "Little tip about this program."
 msgstr ""
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:66
 msgid "_Help"
 msgstr "సహాయం(_H)"
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:67
 msgid "General information about the program."
 msgstr ""
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:68
 msgid "_About..."
 msgstr "గురించి(_A)"
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:69
 #, fuzzy
 msgid "Exit the application immediately."
 msgstr "ఈ కార్యక్షేత్రం గురించి"
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:70
 #, fuzzy
 msgid "Klavaro - Progress"
 msgstr "పురోగమన నిర్థేశి"
 
-#: ../data/klavaro.glade.h:68
-msgid "_Lesson:"
-msgstr ""
-
-#: ../data/klavaro.glade.h:69
-#, fuzzy
-msgid "Value"
-msgstr "విలువ"
-
-#: ../data/klavaro.glade.h:70
-msgid "Close this window, returning to the exercise."
-msgstr ""
-
 #: ../data/klavaro.glade.h:71
-msgid "Clear all the progress data, for every module."
+msgid "_Lesson:"
 msgstr ""
 
 #: ../data/klavaro.glade.h:72
 #, fuzzy
+msgid "Value"
+msgstr "విలువ"
+
+#: ../data/klavaro.glade.h:73
+msgid "Close this window, returning to the exercise."
+msgstr ""
+
+#: ../data/klavaro.glade.h:74
+msgid "Clear all the progress data, for every module."
+msgstr ""
+
+#: ../data/klavaro.glade.h:75
+#, fuzzy
 msgid "_Reset"
 msgstr "మళ్ళీ అమర్చు"
 
-#: ../data/klavaro.glade.h:73
+#: ../data/klavaro.glade.h:76
 #, fuzzy
 msgid "Top 10"
 msgstr "10 MHz"
 
-#: ../data/klavaro.glade.h:74
+#: ../data/klavaro.glade.h:77
 #, fuzzy
 msgid "Show extra information."
 msgstr "లైసెన్స్ సమాచారాన్ని జోడించు:"
 
-#: ../data/klavaro.glade.h:75
+#: ../data/klavaro.glade.h:78
 #, fuzzy
 msgid "Hide extra information."
 msgstr "లైసెన్స్ సమాచారాన్ని జోడించు:"
 
-#: ../data/klavaro.glade.h:76
+#: ../data/klavaro.glade.h:79
 msgid "Publish to the web your local scores."
 msgstr ""
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:80
 msgid "_Participate"
 msgstr ""
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:81
 msgid "Download from the web the most up to date ranking."
 msgstr ""
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:82
 #, fuzzy
 msgid "_Update"
 msgstr "నవీకరించు (_U)"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:83
 msgid "Load other exercises/lessons"
 msgstr ""
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:84
 #, fuzzy
 msgid "_Other texts"
 msgstr "ఇతర కూర్పుల:"
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:85
 msgid "Edit the character set to be used in this lesson."
 msgstr ""
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:86
 msgid "This is a specific exercise, adjusted to your error profile."
 msgstr ""
 
-#: ../data/klavaro.glade.h:84
+#: ../data/klavaro.glade.h:87
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr ""
 
-#: ../data/klavaro.glade.h:85 ../src/tutor.c:252
+#: ../data/klavaro.glade.h:88 ../src/tutor.c:376
 msgid "Drag and drop text here to practice with it."
 msgstr ""
 
-#: ../data/klavaro.glade.h:86
+#: ../data/klavaro.glade.h:89
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
 msgstr ""
 
-#: ../data/klavaro.glade.h:87
-msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-msgstr ""
-
-#: ../data/klavaro.glade.h:88
+#: ../data/klavaro.glade.h:90
 msgid "Show the virtual keyboard and the relation between fingers and keys."
 msgstr ""
 
-#: ../data/klavaro.glade.h:89
+#: ../data/klavaro.glade.h:91
 #, fuzzy
 msgid "_Keyboard"
 msgstr "ఇంగ్లీష్/కీబోర్డ్‍"
 
-#: ../data/klavaro.glade.h:90
-#, fuzzy
-msgid "Font definition"
-msgstr "ఫాంటు రంగు"
-
-#: ../data/klavaro.glade.h:91
-msgid "Keep this checked if you want to get those nice beeps."
-msgstr ""
-
 #: ../data/klavaro.glade.h:92
-msgid "_Beep"
+msgid "Select the font to be used in the exercise window."
 msgstr ""
 
 #: ../data/klavaro.glade.h:93
 #, fuzzy
-msgid "Co_urse information"
-msgstr "లైసెన్స్ సమాచారాన్ని జోడించు:"
+msgid "Font definition"
+msgstr "ఫాంటు రంగు"
 
 #: ../data/klavaro.glade.h:94
-msgid "Charts showing the learning progress along the exercises."
+msgid "Keep this checked if you want to get those nice beeps."
 msgstr ""
 
 #: ../data/klavaro.glade.h:95
-#, fuzzy
-msgid "_Progress"
-msgstr "పురోగమనం"
+msgid "_Beep"
+msgstr ""
 
 #: ../data/klavaro.glade.h:96
 #, fuzzy
-msgid "Return to the main menu."
-msgstr "డీవీడీ మెనూకు వెళ్ళు"
+msgid "Co_urse information"
+msgstr "లైసెన్స్ సమాచారాన్ని జోడించు:"
 
 #: ../data/klavaro.glade.h:97
-msgid "Show local and external scores from other users."
+msgid "Charts showing the learning progress along the exercises."
 msgstr ""
 
 #: ../data/klavaro.glade.h:98
 #, fuzzy
+msgid "_Progress"
+msgstr "పురోగమనం"
+
+#: ../data/klavaro.glade.h:99
+#, fuzzy
+msgid "Return to the main menu."
+msgstr "డీవీడీ మెనూకు వెళ్ళు"
+
+#: ../data/klavaro.glade.h:100
+msgid "Show local and external scores from other users."
+msgstr ""
+
+#: ../data/klavaro.glade.h:101
+#, fuzzy
 msgid "_Top 10"
 msgstr "10 MHz"
 
-#: ../data/klavaro.desktop.in.h:2
-msgid "keyboard;typing;tutorial;"
+#: ../data/klavaro.desktop.in.h:1
+msgid "A very flexible and efficient touch typing tutor."
 msgstr ""
 
-#: ../src/main.c:243
+#. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
+#: ../data/klavaro.desktop.in.h:3
+#, fuzzy
+msgid "keyboard;typing;tutor;CAI"
+msgstr "ఇంగ్లీష్/కీబోర్డ్‍"
+
+#: ../src/main.c:242
 #, fuzzy
 msgid "(Custom)"
 msgstr "మలచిన"
 
-#: ../src/main.c:244
+#: ../src/main.c:243
 #, fuzzy
 msgid "(Edit custom)"
 msgstr "అనురూపిత ఇష్టాంశాలు (&B)"
 
-#: ../src/main.c:245
+#: ../src/main.c:244
 #, fuzzy
 msgid "(Default)"
 msgstr "అప్రమేయం"
 
-#: ../src/main.c:322
+#: ../src/main.c:321
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../src/main.c:365 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1291
 #, fuzzy
 msgid "Introduction"
 msgstr "ప్రవేశ పుట"
 
-#: ../src/main.c:368 ../src/top10.c:109
+#: ../src/main.c:367 ../src/top10.c:109
 #, fuzzy
 msgid "Basic course"
 msgstr "ప్రాథమిక సమాచారం"
 
-#: ../src/main.c:371 ../src/top10.c:112
+#: ../src/main.c:370 ../src/top10.c:112
 msgid "Adaptability"
 msgstr ""
 
-#: ../src/main.c:374 ../src/callbacks.c:1225 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1227 ../src/top10.c:89
 #: ../src/top10.c:115
 #, fuzzy
 msgid "Speed"
 msgstr "బంతి వేగం"
 
-#: ../src/main.c:377 ../src/callbacks.c:1248 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1250 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr ""
 
-#: ../src/callbacks.c:405 ../src/tutor.c:391
+#: ../src/callbacks.c:407 ../src/tutor.c:515
 #, fuzzy
 msgid "Keys:"
 msgstr "ఎంపికచేసిన కీలు(_K):"
 
-#: ../src/callbacks.c:773 ../src/callbacks.c:789
+#: ../src/callbacks.c:775 ../src/callbacks.c:791
 msgid "Connecting..."
 msgstr ""
 
-#: ../src/callbacks.c:1060
+#: ../src/callbacks.c:1062
 #, fuzzy
 msgid "Overwrite user layout"
 msgstr "(_L)డాక్ నమూనా లాక్ చేస్తారు"
 
-#: ../src/callbacks.c:1062
+#: ../src/callbacks.c:1064
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr ""
 
-#: ../src/callbacks.c:1069
+#: ../src/callbacks.c:1071
 #, fuzzy
 msgid "Remove user layout"
 msgstr "(_L)డాక్ నమూనా లాక్ చేస్తారు"
 
-#: ../src/callbacks.c:1071
+#: ../src/callbacks.c:1073
 msgid "This will REMOVE an existent keyboard layout."
 msgstr ""
 
-#: ../src/callbacks.c:1078
+#: ../src/callbacks.c:1080
 #, fuzzy
 msgid "Reset progress data"
 msgstr "డేటా పొందడాన్ని జోడించు"
 
-#: ../src/callbacks.c:1079
+#: ../src/callbacks.c:1081
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr ""
 
-#: ../src/callbacks.c:1222 ../src/top10.c:87
+#: ../src/callbacks.c:1224 ../src/top10.c:87
 msgid "Accuracy"
 msgstr ""
 
-#: ../src/callbacks.c:1225 ../src/tutor.c:1164
+#: ../src/callbacks.c:1227 ../src/tutor.c:1288
 msgid "(WPM)"
 msgstr ""
 
-#: ../src/callbacks.c:1236
+#: ../src/callbacks.c:1238
 #, fuzzy
 msgid "Errors"
 msgstr "దోషాలు"
 
-#: ../src/callbacks.c:1239
+#: ../src/callbacks.c:1241
 msgid "Touch times (s)"
 msgstr ""
 
-#: ../src/callbacks.c:1251 ../src/tutor.c:1191 ../src/top10.c:69
+#: ../src/callbacks.c:1253 ../src/tutor.c:1315 ../src/top10.c:69
 #, fuzzy
 msgid "Score"
 msgstr "స్కోరు"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1601
+#: ../src/translation.c:485 ../src/tutor.c:1725
 msgid "en"
 msgstr ""
 
@@ -795,171 +815,171 @@ msgstr "విషయసూచిక ఫైల్"
 msgid "Press and edit me"
 msgstr ""
 
-#: ../src/tutor.c:176
+#: ../src/tutor.c:300
 msgid "Lesson:"
 msgstr ""
 
-#: ../src/tutor.c:186
+#: ../src/tutor.c:310
 msgid "Paragraphs:"
 msgstr ""
 
-#: ../src/tutor.c:219
+#: ../src/tutor.c:343
 #, fuzzy
 msgid "Klavaro - Basic Course"
 msgstr "ప్రాథమిక ఆటో టూల్స్ ప్లగ్ఇన్ నిర్మించడానికి"
 
-#: ../src/tutor.c:224
+#: ../src/tutor.c:348
 msgid "Klavaro - Adaptability"
 msgstr ""
 
-#: ../src/tutor.c:227
+#: ../src/tutor.c:351
 msgid ""
 "Adaptability exercises: automating the fingers responses, typing over all "
 "the keyboard."
 msgstr ""
 
-#: ../src/tutor.c:232
+#: ../src/tutor.c:356
 msgid "Klavaro - Velocity"
 msgstr ""
 
-#: ../src/tutor.c:233
+#: ../src/tutor.c:357
 msgid "Velocity exercises: accelerate typing real words."
 msgstr ""
 
-#: ../src/tutor.c:237
+#: ../src/tutor.c:361
 msgid "Klavaro - Fluidness"
 msgstr ""
 
-#: ../src/tutor.c:239
+#: ../src/tutor.c:363
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr ""
 
-#: ../src/tutor.c:301
+#: ../src/tutor.c:425
 msgid "End of exercise. Press [Enter] to start another."
 msgstr ""
 
-#: ../src/tutor.c:329
+#: ../src/tutor.c:453
 #, fuzzy
 msgid "Learning the key positions."
 msgstr "ట్రిగ్గర్-కీ ఉపయోగించి ఒక స్నిప్పెట్ను ప్రవేశింపజేయుము"
 
-#: ../src/tutor.c:332
+#: ../src/tutor.c:456
 msgid "Press any key to start the exercise. "
 msgstr ""
 
-#: ../src/tutor.c:443 ../src/tutor.c:446
+#: ../src/tutor.c:567 ../src/tutor.c:570
 msgid "Start typing when you are ready. "
 msgstr ""
 
-#: ../src/tutor.c:444
+#: ../src/tutor.c:568
 msgid "Use backspace to correct errors."
 msgstr ""
 
-#: ../src/tutor.c:888
+#: ../src/tutor.c:1012
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
 "(%i) must be greater than %i."
 msgstr ""
 
-#: ../src/tutor.c:1030
+#: ../src/tutor.c:1154
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr ""
 
-#: ../src/tutor.c:1042
+#: ../src/tutor.c:1166
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
 "contest."
 msgstr ""
 
-#: ../src/tutor.c:1091
+#: ../src/tutor.c:1215
 #, fuzzy
 msgid "STATISTICS"
 msgstr "గణాంకాలు"
 
-#: ../src/tutor.c:1092
+#: ../src/tutor.c:1216
 #, fuzzy
 msgid "Elapsed time:"
 msgstr "మిగిలిన సమయం"
 
-#: ../src/tutor.c:1093
+#: ../src/tutor.c:1217
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "  నిముషము మరియు"
 msgstr[1] "  నిముషాలు  మరియు"
 
-#: ../src/tutor.c:1094
+#: ../src/tutor.c:1218
 #, fuzzy
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "రెండవ మార్గం:"
 msgstr[1] ""
 
-#: ../src/tutor.c:1095
+#: ../src/tutor.c:1219
 #, fuzzy
 msgid "Error ratio:"
 msgstr "రూప నిష్పత్తి (&A)"
 
-#: ../src/tutor.c:1095
+#: ../src/tutor.c:1219
 msgid "Accuracy:"
 msgstr ""
 
-#: ../src/tutor.c:1116 ../src/tutor.c:1141 ../src/tutor.c:1164
-#: ../src/tutor.c:1190
+#: ../src/tutor.c:1240 ../src/tutor.c:1265 ../src/tutor.c:1288
+#: ../src/tutor.c:1314
 msgid "Goal:"
 msgstr ""
 
-#: ../src/tutor.c:1123
+#: ../src/tutor.c:1247
 #, fuzzy
 msgid "Characters per second:"
 msgstr "సెకనుకు చట్రాలు"
 
-#: ../src/tutor.c:1141
+#: ../src/tutor.c:1265
 msgid "(CPS)"
 msgstr ""
 
-#: ../src/tutor.c:1146
+#: ../src/tutor.c:1270
 #, fuzzy
 msgid "Words per minute:"
 msgstr "బిట్స్ పర్ సాంపిల్"
 
-#: ../src/tutor.c:1171
+#: ../src/tutor.c:1295
 msgid "Fluidness:"
 msgstr ""
 
-#: ../src/tutor.c:1198
+#: ../src/tutor.c:1322
 #, fuzzy
 msgid "Comments:"
 msgstr "వ్యాఖ్యలు"
 
-#: ../src/tutor.c:1680
+#: ../src/tutor.c:1804
 #, fuzzy
 msgid "space"
 msgstr "(_W)ఖాళీ"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1685
+#: ../src/tutor.c:1809
 msgid "wye"
 msgstr ""
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1689
+#: ../src/tutor.c:1813
 #, fuzzy
 msgid "enter"
 msgstr "ఒక URL ను ఎంటర్ చెయ్యండి"
 
-#: ../src/tutor.c:1695
+#: ../src/tutor.c:1819
 msgid "apostrophe"
 msgstr ""
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1699
+#: ../src/tutor.c:1823
 msgid "quote"
 msgstr ""
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1703
+#: ../src/tutor.c:1827
 msgid "ampersand"
 msgstr ""
 
@@ -973,11 +993,11 @@ msgstr "అక్షరము"
 msgid "Date & Time"
 msgstr "రచయిత/తేది-సమయం"
 
-#: ../src/basic.c:331
+#: ../src/basic.c:326
 msgid "Positions of keys seems to be learned!"
 msgstr ""
 
-#: ../src/basic.c:332
+#: ../src/basic.c:327
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -985,33 +1005,35 @@ msgid ""
 " There you will practice mainly the accuracy.\n"
 msgstr ""
 
-#: ../src/basic.c:338
+#: ../src/basic.c:333
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
 msgstr ""
 
-#: ../src/adaptability.c:221
+#: ../src/adaptability.c:213
+#, c-format
 msgid ""
-" Your accuracy rate is below 90%...\n"
+" Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
 
-#: ../src/adaptability.c:226
+#: ../src/adaptability.c:216
+#, c-format
 msgid ""
 " You are doing well. But...\n"
-" Could you make the accuracy reach 95%?\n"
+" Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
 
-#: ../src/adaptability.c:229
+#: ../src/adaptability.c:219
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
-" Try a few more times, or maybe you're getting upset, so go to other kind of "
-"exercise.\n"
+" Try a few more times, or maybe you're getting upset, so go to another kind "
+"of exercise.\n"
 msgstr ""
 
-#: ../src/adaptability.c:236
+#: ../src/adaptability.c:226
 #, c-format
 msgid ""
 " Very good!\n"
@@ -1025,90 +1047,98 @@ msgstr ""
 msgid "Pasted_or_dropped"
 msgstr "<సంచయం కొరకు వొక లక్ష్యం యెంపికచేయి>"
 
-#: ../src/velocity.c:431
+#: ../src/velocity.c:423
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
 " persistence and practice will improve your velocity.\n"
 msgstr ""
 
-#: ../src/velocity.c:435
+#: ../src/velocity.c:427
+#, c-format
 msgid ""
 " Still away from the highway. You can make better...\n"
-" Try at least 20 WPM.\n"
+" Try to reach at least %.0f WPM.\n"
 msgstr ""
 
-#: ../src/velocity.c:438
+#: ../src/velocity.c:430
+#, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
-" And don't forget the accuracy. Try to get 30 WPM.\n"
+" And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr ""
 
-#: ../src/velocity.c:442
+#: ../src/velocity.c:433
+#, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
-" Can you reach 40 WPM?\n"
+" Can you reach %.0f WPM?\n"
 msgstr ""
 
-#: ../src/velocity.c:445
+#: ../src/velocity.c:436
 #, c-format
 msgid ""
 " Very good. You are almost there.\n"
 " Can you finally reach %.0f WPM?\n"
 msgstr ""
 
-#: ../src/velocity.c:450
+#: ../src/velocity.c:439
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
 msgstr ""
 
+#: ../src/velocity.c:442
+#, c-format
+msgid ""
+" Fast! Are you a professional?\n"
+" So, try to get %.0f WPM!\n"
+msgstr ""
+
+#. Translators: Speed Racer is a reference to a Japanese anime franchise
+#. about automobile racing, also known as Mach GoGoGo.
+#: ../src/velocity.c:447
+#, c-format
+msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
+msgstr ""
+
+#. Translators: feel free to change the reference to that martial art, if you find another good analogy.
+#: ../src/velocity.c:451
+#, c-format
+msgid ""
+" Kunf-fu mastering!\n"
+" Can you fly at %.0f WPM?\n"
+msgstr ""
+
+#. Translators: Dvorak here means that infamous ergonomic keyboard layout.
 #: ../src/velocity.c:454
-msgid ""
-" Fast! Are you training for a competition?\n"
-" So, try to get 70 WPM!\n"
-msgstr ""
-
-#: ../src/velocity.c:457
-msgid ""
-" Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
-" Are you afraid of reaching 80 WPM?\n"
-msgstr ""
-
-#: ../src/velocity.c:461
-msgid ""
-" Dvorak mode dominated!\n"
-" Can you fly at 90 WPM?\n"
-msgstr ""
-
-#: ../src/velocity.c:465
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
 msgstr ""
 
-#: ../src/fluidness.c:545
+#: ../src/fluidness.c:538
 #, c-format
 msgid ""
 " You type accurately but not so fast.\n"
 " Can you reach %.0f WPM?\n"
 msgstr ""
 
-#: ../src/fluidness.c:548
+#: ../src/fluidness.c:541
 #, c-format
 msgid ""
 " Your rhythm is not so constant. Calm down.\n"
 " For now, try to make the fluidness greater than %i%%.\n"
 msgstr ""
 
-#: ../src/fluidness.c:551
+#: ../src/fluidness.c:544
 #, c-format
 msgid ""
 " You are almost getting there. Type more fluently.\n"
 " I want a fluidness greater than %.0f%%.\n"
 msgstr ""
 
-#: ../src/fluidness.c:554
+#: ../src/fluidness.c:547
 msgid ""
 " Congratulations!\n"
 " It seems to me that you are a professional.\n"
@@ -1116,7 +1146,7 @@ msgid ""
 " Hope you have enjoyed. Thanks and be happy!\n"
 msgstr ""
 
-#: ../src/fluidness.c:559
+#: ../src/fluidness.c:552
 msgid ""
 " How can you type so fast?\n"
 " You have exceeded all my expectations.\n"
@@ -1182,14 +1212,6 @@ msgstr ""
 
 #~ msgid "Klavaro"
 #~ msgstr "క్లావరో"
-
-#, fuzzy
-#~ msgid "Country / Custom"
-#~ msgstr "అనురూపిత ఇష్టాంశాలు (&B)"
-
-#, fuzzy
-#~ msgid "Your language here."
-#~ msgstr "మాధ్యమాన్ని ఇక్కడ వదులు"
 
 #, fuzzy
 #~ msgid "Default"

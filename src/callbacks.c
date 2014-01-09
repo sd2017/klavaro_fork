@@ -310,6 +310,8 @@ on_text_tutor_realize (GtkWidget * widget, gpointer user_data)
 
 	g_free (color_main_bg);
 	g_free (color_main_fg);
+
+	tutor_init_goals ();
 }
 
 static void
@@ -535,7 +537,6 @@ on_button_tutor_back_clicked (GtkButton *button, gpointer user_data)
 	gtk_widget_hide (get_wg ("window_top10"));
 	gtk_widget_hide (get_wg ("window_stat"));
 	gtk_widget_hide (get_wg ("filechooser_tutor"));
-	gtk_widget_hide (get_wg ("fontselectiondialog_tutor"));
 	gtk_widget_show (get_wg ("window_main"));
 }
 

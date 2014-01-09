@@ -1260,6 +1260,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
               <object class="GtkComboBoxText" id="combobox_keyboard_country">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="tooltip_text" translatable="yes">Country / Custom</property>
                 <property name="entry_text_column">0</property>
                 <property name="id_column">1</property>
                 <signal name="changed" handler="on_combobox_keyboard_country_changed" swapped="no"/>
@@ -1274,6 +1275,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
               <object class="GtkComboBoxText" id="combobox_keyboard_variant">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="tooltip_text" translatable="yes">Variant</property>
                 <property name="entry_text_column">0</property>
                 <property name="id_column">1</property>
                 <signal name="changed" handler="on_combobox_keyboard_variant_changed" swapped="no"/>
@@ -2476,6 +2478,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
               <object class="GtkComboBoxText" id="combobox_language">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="tooltip_text" translatable="yes">Your language here.</property>
                 <property name="entry_text_column">0</property>
                 <property name="id_column">1</property>
                 <signal name="changed" handler="on_combobox_language_changed" swapped="no"/>
@@ -2489,6 +2492,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
               <object class="GtkComboBoxText" id="combobox_kbd_country">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="tooltip_text" translatable="yes">Country / Custom</property>
                 <property name="entry_text_column">0</property>
                 <property name="id_column">1</property>
                 <signal name="changed" handler="on_combobox_kbd_country_changed" swapped="no"/>
@@ -2504,6 +2508,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
               <object class="GtkComboBoxText" id="combobox_kbd_variant">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="tooltip_text" translatable="yes">Variant</property>
                 <property name="entry_text_column">0</property>
                 <property name="id_column">1</property>
                 <signal name="changed" handler="on_combobox_kbd_variant_changed" swapped="no"/>
@@ -3691,7 +3696,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                   <object class="GtkButton" id="button_tutor_restart">
                     <property name="can_focus">False</property>
                     <property name="receives_default">False</property>
-                    <property name="tooltip_text" translatable="yes">Press here to restart the exercise. Hotkey: [Ctrl R]</property>
+                    <property name="tooltip_text" translatable="yes">Press here to restart the exercise. Hotkey: [Ctrl-R]</property>
                     <property name="border_width">4</property>
                     <property name="relief">none</property>
                     <property name="focus_on_click">False</property>
@@ -3769,7 +3774,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pro
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
-                <property name="tooltip_text" translatable="yes">Font definition</property>
+                <property name="tooltip_text" translatable="yes">Select the font to be used in the exercise window.</property>
                 <property name="relief">none</property>
                 <property name="font">Monospace 12</property>
                 <property name="preview_text">EĤOŜANĜO ĈIUĴAŬDE eĥoŝanĝo ĉiuĵaŭde</property>

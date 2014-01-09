@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.1.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-07 07:13-0200\n"
+"POT-Creation-Date: 2014-01-08 15:02-0200\n"
 "PO-Revision-Date: 2008-10-15 05:42-0300\n"
 "Last-Translator: Dave Pawson <_dave_._pawson_@gmail.com>\n"
 "Language-Team: en_GB <GB@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "About 'Klavaro'"
 msgstr "About 'Klavaro'"
 
-#: ../data/klavaro.glade.h:2 ../data/klavaro.desktop.in.h:1
+#: ../data/klavaro.glade.h:2
 msgid "Yet another touch typing tutor"
 msgstr ""
 
@@ -148,430 +148,448 @@ msgid "_Close"
 msgstr "Close"
 
 #: ../data/klavaro.glade.h:29
+msgid "Country / Custom"
+msgstr ""
+
+#: ../data/klavaro.glade.h:30
+msgid "Variant"
+msgstr ""
+
+#: ../data/klavaro.glade.h:31
 #, fuzzy
 msgid "Remove the selected custom layout."
 msgstr "Remove selected item "
 
-#: ../data/klavaro.glade.h:30
+#: ../data/klavaro.glade.h:32
 #, fuzzy
 msgid "_Remove"
 msgstr "Remove"
 
-#: ../data/klavaro.glade.h:31
+#: ../data/klavaro.glade.h:33
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
 msgstr "Alternates between upper and lower"
 
-#: ../data/klavaro.glade.h:32
+#: ../data/klavaro.glade.h:34
 msgid "SPACE BAR"
 msgstr "SPACE BAR"
 
-#: ../data/klavaro.glade.h:33 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:35 ../src/keyboard.c:1630
 msgid "thumbs"
 msgstr "thumbs"
 
-#: ../data/klavaro.glade.h:34
+#: ../data/klavaro.glade.h:36
 msgid "Ctrl"
 msgstr "Control"
 
-#: ../data/klavaro.glade.h:35
+#: ../data/klavaro.glade.h:37
 msgid "Caps"
 msgstr "Caps"
 
-#: ../data/klavaro.glade.h:36
+#: ../data/klavaro.glade.h:38
 #, fuzzy
 msgid "S_ave as:"
 msgstr "Save"
 
-#: ../data/klavaro.glade.h:37
+#: ../data/klavaro.glade.h:39
 msgid "Show previous screen."
 msgstr ""
 
-#: ../data/klavaro.glade.h:38
+#: ../data/klavaro.glade.h:40
 msgid "_Previous step"
 msgstr ""
 
-#: ../data/klavaro.glade.h:39
+#: ../data/klavaro.glade.h:41
 msgid "Show next screen."
 msgstr ""
 
-#: ../data/klavaro.glade.h:40
+#: ../data/klavaro.glade.h:42
 msgid "_Next step"
 msgstr ""
 
-#: ../data/klavaro.glade.h:41
+#: ../data/klavaro.glade.h:43
 #, fuzzy
 msgid "Return without any modification."
 msgstr "Escape (no changes)"
 
-#: ../data/klavaro.glade.h:42
+#: ../data/klavaro.glade.h:44
 msgid "Save the current keyboard layout with the name specified above."
 msgstr "Save the layout"
 
-#: ../data/klavaro.glade.h:43
+#: ../data/klavaro.glade.h:45
 #, fuzzy
 msgid "_Save and use"
 msgstr "Save"
 
-#: ../data/klavaro.glade.h:44
+#: ../data/klavaro.glade.h:46
 #, fuzzy
 msgid ""
 "If you like those beautiful hands, click here to close this window keeping "
 "them."
 msgstr "Click to keep the hands"
 
-#: ../data/klavaro.glade.h:45
+#: ../data/klavaro.glade.h:47
 #, fuzzy
 msgid "_Keep hands"
 msgstr "Keep hands"
 
-#: ../data/klavaro.glade.h:46
+#: ../data/klavaro.glade.h:48
 msgid "Klavaro - Main menu"
 msgstr "Klavaro -Main menu"
 
-#: ../data/klavaro.glade.h:47
+#: ../data/klavaro.glade.h:49
 msgid "Don't be shy about learning the basics!"
 msgstr "Don't be shy about learning the basics!"
 
-#: ../data/klavaro.glade.h:48
+#: ../data/klavaro.glade.h:50
 #, fuzzy
 msgid "Learn how to type correctly"
 msgstr "How to type correctly"
 
-#: ../data/klavaro.glade.h:49
+#: ../data/klavaro.glade.h:51
 msgid "Initial training for your fingers."
 msgstr "Initial training"
 
-#: ../data/klavaro.glade.h:50
+#: ../data/klavaro.glade.h:52
 #, fuzzy
 msgid "First steps with initial training"
 msgstr "Initial training"
 
-#: ../data/klavaro.glade.h:51
+#: ../data/klavaro.glade.h:53
 msgid "Memorizing the keyboard practicing random keys exercises."
 msgstr "Memorizing the keyboard practicing random keys exercises."
 
-#: ../data/klavaro.glade.h:52
+#: ../data/klavaro.glade.h:54
 #, fuzzy
 msgid "Practice with random keys"
 msgstr "Entire texts"
 
-#: ../data/klavaro.glade.h:53
+#: ../data/klavaro.glade.h:55
 #, fuzzy
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "Random word practice"
 
-#: ../data/klavaro.glade.h:54
+#: ../data/klavaro.glade.h:56
 #, fuzzy
 msgid "Practice with random words"
 msgstr "Entire texts"
 
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:57
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "Complete paragraph practice"
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:58
 #, fuzzy
 msgid "Practice with complete texts"
 msgstr "Entire texts"
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:59
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
 msgstr ""
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:60
 #, fuzzy
 msgid "_Keyboard:"
 msgstr "Keyboard"
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:61
 msgid "Language for modules 3 and 4."
 msgstr ""
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:62
 #, fuzzy
 msgid "_Language:"
 msgstr "Select language"
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:63
 msgid "Speech"
 msgstr ""
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:64
+msgid "Your language here."
+msgstr ""
+
+#: ../data/klavaro.glade.h:65
 msgid "Little tip about this program."
 msgstr "Tips about Klavaro"
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:66
 #, fuzzy
 msgid "_Help"
 msgstr "Help"
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:67
 #, fuzzy
 msgid "General information about the program."
 msgstr "Tips about Klavaro"
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:68
 #, fuzzy
 msgid "_About..."
 msgstr "About..."
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:69
 #, fuzzy
 msgid "Exit the application immediately."
 msgstr "Quit. C-Q"
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:70
 msgid "Klavaro - Progress"
 msgstr "Progress"
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:71
 #, fuzzy
 msgid "_Lesson:"
 msgstr "Lesson"
 
-#: ../data/klavaro.glade.h:69
+#: ../data/klavaro.glade.h:72
 msgid "Value"
 msgstr ""
 
-#: ../data/klavaro.glade.h:70
+#: ../data/klavaro.glade.h:73
 #, fuzzy
 msgid "Close this window, returning to the exercise."
 msgstr "Close this window, return to exercises [Esc]"
 
-#: ../data/klavaro.glade.h:71
+#: ../data/klavaro.glade.h:74
 msgid "Clear all the progress data, for every module."
 msgstr ""
 
-#: ../data/klavaro.glade.h:72
+#: ../data/klavaro.glade.h:75
 #, fuzzy
 msgid "_Reset"
 msgstr "Reset!"
 
-#: ../data/klavaro.glade.h:73
+#: ../data/klavaro.glade.h:76
 msgid "Top 10"
 msgstr "Top 10"
 
-#: ../data/klavaro.glade.h:74
+#: ../data/klavaro.glade.h:77
 #, fuzzy
 msgid "Show extra information."
 msgstr "Show more information"
 
-#: ../data/klavaro.glade.h:75
+#: ../data/klavaro.glade.h:78
 #, fuzzy
 msgid "Hide extra information."
 msgstr "Show more information"
 
-#: ../data/klavaro.glade.h:76
+#: ../data/klavaro.glade.h:79
 msgid "Publish to the web your local scores."
 msgstr "Publish to the web your local scores."
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:80
 #, fuzzy
 msgid "_Participate"
 msgstr "Participate"
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:81
 msgid "Download from the web the most up to date ranking."
 msgstr ""
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:82
 #, fuzzy
 msgid "_Update"
 msgstr "Update"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:83
 #, fuzzy
 msgid "Load other exercises/lessons"
 msgstr "Load other exercise. [Ctrl-O]"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:84
 #, fuzzy
 msgid "_Other texts"
 msgstr "Entire texts"
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:85
 msgid "Edit the character set to be used in this lesson."
 msgstr "Edit the character set to be used in this lesson."
 
-#: ../data/klavaro.glade.h:83
+#: ../data/klavaro.glade.h:86
 msgid "This is a specific exercise, adjusted to your error profile."
 msgstr ""
 
-#: ../data/klavaro.glade.h:84
+#: ../data/klavaro.glade.h:87
 #, fuzzy
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr "Edit the character set to be used in this lesson."
 
-#: ../data/klavaro.glade.h:85 ../src/tutor.c:252
+#: ../data/klavaro.glade.h:88 ../src/tutor.c:376
 msgid "Drag and drop text here to practice with it."
 msgstr "Drag and drop text here to practice with it."
 
-#: ../data/klavaro.glade.h:86
+#: ../data/klavaro.glade.h:89
 #, fuzzy
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
 msgstr "Press  to restart the exercise.  [Ctrl R]"
 
-#: ../data/klavaro.glade.h:87
-msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-msgstr "Press  to restart the exercise.  [Ctrl R]"
-
-#: ../data/klavaro.glade.h:88
+#: ../data/klavaro.glade.h:90
 msgid "Show the virtual keyboard and the relation between fingers and keys."
 msgstr "Show the  relation between fingers and keys."
 
-#: ../data/klavaro.glade.h:89
+#: ../data/klavaro.glade.h:91
 #, fuzzy
 msgid "_Keyboard"
 msgstr "Keyboard"
 
-#: ../data/klavaro.glade.h:90
+#: ../data/klavaro.glade.h:92
+msgid "Select the font to be used in the exercise window."
+msgstr "Select the font to be used"
+
+#: ../data/klavaro.glade.h:93
 msgid "Font definition"
 msgstr "Font definition"
 
-#: ../data/klavaro.glade.h:91
+#: ../data/klavaro.glade.h:94
 #, fuzzy
 msgid "Keep this checked if you want to get those nice beeps."
 msgstr "Keep this checked if you want sound. Hotkey: [Ctrl S]"
 
-#: ../data/klavaro.glade.h:92
+#: ../data/klavaro.glade.h:95
 #, fuzzy
 msgid "_Beep"
 msgstr "Help"
 
-#: ../data/klavaro.glade.h:93
+#: ../data/klavaro.glade.h:96
 #, fuzzy
 msgid "Co_urse information"
 msgstr "Show more information"
 
-#: ../data/klavaro.glade.h:94
+#: ../data/klavaro.glade.h:97
 msgid "Charts showing the learning progress along the exercises."
 msgstr "Charts showing the learning progress along the exercises."
 
-#: ../data/klavaro.glade.h:95
+#: ../data/klavaro.glade.h:98
 #, fuzzy
 msgid "_Progress"
 msgstr "Progress"
 
-#: ../data/klavaro.glade.h:96
+#: ../data/klavaro.glade.h:99
 #, fuzzy
 msgid "Return to the main menu."
 msgstr "Main menu [Ctrl-Q]"
 
-#: ../data/klavaro.glade.h:97
+#: ../data/klavaro.glade.h:100
 msgid "Show local and external scores from other users."
 msgstr "Show  scores from other users."
 
-#: ../data/klavaro.glade.h:98
+#: ../data/klavaro.glade.h:101
 #, fuzzy
 msgid "_Top 10"
 msgstr "Top 10"
 
-#: ../data/klavaro.desktop.in.h:2
-msgid "keyboard;typing;tutorial;"
+#: ../data/klavaro.desktop.in.h:1
+msgid "A very flexible and efficient touch typing tutor."
 msgstr ""
 
-#: ../src/main.c:243
+#. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
+#: ../data/klavaro.desktop.in.h:3
+#, fuzzy
+msgid "keyboard;typing;tutor;CAI"
+msgstr "Keyboard"
+
+#: ../src/main.c:242
 msgid "(Custom)"
 msgstr ""
 
-#: ../src/main.c:244
+#: ../src/main.c:243
 msgid "(Edit custom)"
 msgstr ""
 
-#: ../src/main.c:245
+#: ../src/main.c:244
 #, fuzzy
 msgid "(Default)"
 msgstr "Default"
 
-#: ../src/main.c:322
+#: ../src/main.c:321
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../src/main.c:365 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1291
 msgid "Introduction"
 msgstr "Introduction"
 
-#: ../src/main.c:368 ../src/top10.c:109
+#: ../src/main.c:367 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Basics"
 
-#: ../src/main.c:371 ../src/top10.c:112
+#: ../src/main.c:370 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Adaptability"
 
-#: ../src/main.c:374 ../src/callbacks.c:1225 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1227 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr ""
 
-#: ../src/main.c:377 ../src/callbacks.c:1248 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1250 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr ""
 
-#: ../src/callbacks.c:405 ../src/tutor.c:391
+#: ../src/callbacks.c:407 ../src/tutor.c:515
 #, fuzzy
 msgid "Keys:"
 msgstr "Keys: %s"
 
-#: ../src/callbacks.c:773 ../src/callbacks.c:789
+#: ../src/callbacks.c:775 ../src/callbacks.c:791
 msgid "Connecting..."
 msgstr ""
 
-#: ../src/callbacks.c:1060
+#: ../src/callbacks.c:1062
 msgid "Overwrite user layout"
 msgstr "Overwrite user layout"
 
-#: ../src/callbacks.c:1062
+#: ../src/callbacks.c:1064
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "This will OVERWRITE an existing keyboard layout."
 
-#: ../src/callbacks.c:1069
+#: ../src/callbacks.c:1071
 msgid "Remove user layout"
 msgstr "Remove user layout"
 
-#: ../src/callbacks.c:1071
+#: ../src/callbacks.c:1073
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "This will REMOVE an existing keyboard layout."
 
-#: ../src/callbacks.c:1078
+#: ../src/callbacks.c:1080
 msgid "Reset progress data"
 msgstr ""
 
-#: ../src/callbacks.c:1079
+#: ../src/callbacks.c:1081
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr ""
 
-#: ../src/callbacks.c:1222 ../src/top10.c:87
+#: ../src/callbacks.c:1224 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Accuracy"
 
-#: ../src/callbacks.c:1225 ../src/tutor.c:1164
+#: ../src/callbacks.c:1227 ../src/tutor.c:1288
 msgid "(WPM)"
 msgstr "(WPM)"
 
-#: ../src/callbacks.c:1236
+#: ../src/callbacks.c:1238
 msgid "Errors"
 msgstr ""
 
-#: ../src/callbacks.c:1239
+#: ../src/callbacks.c:1241
 msgid "Touch times (s)"
 msgstr ""
 
-#: ../src/callbacks.c:1251 ../src/tutor.c:1191 ../src/top10.c:69
+#: ../src/callbacks.c:1253 ../src/tutor.c:1315 ../src/top10.c:69
 msgid "Score"
 msgstr "Score"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1601
+#: ../src/translation.c:485 ../src/tutor.c:1725
 msgid "en"
 msgstr "en"
 
@@ -812,66 +830,66 @@ msgstr "index finger"
 msgid "Press and edit me"
 msgstr "Press a key"
 
-#: ../src/tutor.c:176
+#: ../src/tutor.c:300
 msgid "Lesson:"
 msgstr "Lesson"
 
-#: ../src/tutor.c:186
+#: ../src/tutor.c:310
 msgid "Paragraphs:"
 msgstr "Paragraphs"
 
-#: ../src/tutor.c:219
+#: ../src/tutor.c:343
 msgid "Klavaro - Basic Course"
 msgstr "Klavaro - Basic Course"
 
-#: ../src/tutor.c:224
+#: ../src/tutor.c:348
 msgid "Klavaro - Adaptability"
 msgstr "Klavaro - Adaptability"
 
-#: ../src/tutor.c:227
+#: ../src/tutor.c:351
 msgid ""
 "Adaptability exercises: automating the fingers responses, typing over all "
 "the keyboard."
 msgstr "Adaptability. Automating finger responses"
 
-#: ../src/tutor.c:232
+#: ../src/tutor.c:356
 msgid "Klavaro - Velocity"
 msgstr "Klavaro - Velocity"
 
-#: ../src/tutor.c:233
+#: ../src/tutor.c:357
 msgid "Velocity exercises: accelerate typing real words."
 msgstr "Speed exercises: accelerate typing real words."
 
-#: ../src/tutor.c:237
+#: ../src/tutor.c:361
 msgid "Klavaro - Fluidness"
 msgstr "Klavaro - Fluidity"
 
-#: ../src/tutor.c:239
+#: ../src/tutor.c:363
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
 msgstr "Accuracy typing with  sensible paragraphs."
 
-#: ../src/tutor.c:301
+#: ../src/tutor.c:425
 #, fuzzy
 msgid "End of exercise. Press [Enter] to start another."
 msgstr "End of exercise. Press [Enter] to start another."
 
-#: ../src/tutor.c:329
+#: ../src/tutor.c:453
 msgid "Learning the key positions."
 msgstr "Learning the key positions."
 
-#: ../src/tutor.c:332
+#: ../src/tutor.c:456
 msgid "Press any key to start the exercise. "
 msgstr "Press any key to start the exercise."
 
-#: ../src/tutor.c:443 ../src/tutor.c:446
+#: ../src/tutor.c:567 ../src/tutor.c:570
 msgid "Start typing when you are ready. "
 msgstr "Start typing when you are ready."
 
-#: ../src/tutor.c:444
+#: ../src/tutor.c:568
 msgid "Use backspace to correct errors."
 msgstr ""
 
-#: ../src/tutor.c:888
+#: ../src/tutor.c:1012
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
@@ -879,95 +897,95 @@ msgid ""
 msgstr ""
 "No logging for this session. Typed characters (%i) must be more than %i."
 
-#: ../src/tutor.c:1030
+#: ../src/tutor.c:1154
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "You have entered the Top 10 list, Well done!"
 
-#: ../src/tutor.c:1042
+#: ../src/tutor.c:1166
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
 "contest."
 msgstr "Your text is not like ordinary text. We can't count it in the Top 10."
 
-#: ../src/tutor.c:1091
+#: ../src/tutor.c:1215
 msgid "STATISTICS"
 msgstr "Statistics"
 
-#: ../src/tutor.c:1092
+#: ../src/tutor.c:1216
 msgid "Elapsed time:"
 msgstr "Elapsed time"
 
-#: ../src/tutor.c:1093
+#: ../src/tutor.c:1217
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "minute and"
 msgstr[1] "minutes and"
 
-#: ../src/tutor.c:1094
+#: ../src/tutor.c:1218
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "second"
 msgstr[1] "seconds"
 
-#: ../src/tutor.c:1095
+#: ../src/tutor.c:1219
 msgid "Error ratio:"
 msgstr ""
 
-#: ../src/tutor.c:1095
+#: ../src/tutor.c:1219
 msgid "Accuracy:"
 msgstr "Accuracy:"
 
-#: ../src/tutor.c:1116 ../src/tutor.c:1141 ../src/tutor.c:1164
-#: ../src/tutor.c:1190
+#: ../src/tutor.c:1240 ../src/tutor.c:1265 ../src/tutor.c:1288
+#: ../src/tutor.c:1314
 msgid "Goal:"
 msgstr "Goal:"
 
-#: ../src/tutor.c:1123
+#: ../src/tutor.c:1247
 msgid "Characters per second:"
 msgstr "Characters per second:"
 
-#: ../src/tutor.c:1141
+#: ../src/tutor.c:1265
 msgid "(CPS)"
 msgstr "(CPS)"
 
-#: ../src/tutor.c:1146
+#: ../src/tutor.c:1270
 msgid "Words per minute:"
 msgstr "Words per minute:"
 
-#: ../src/tutor.c:1171
+#: ../src/tutor.c:1295
 msgid "Fluidness:"
 msgstr "Fluidity:"
 
-#: ../src/tutor.c:1198
+#: ../src/tutor.c:1322
 msgid "Comments:"
 msgstr "Comments:"
 
-#: ../src/tutor.c:1680
+#: ../src/tutor.c:1804
 msgid "space"
 msgstr ""
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1685
+#: ../src/tutor.c:1809
 msgid "wye"
 msgstr ""
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1689
+#: ../src/tutor.c:1813
 msgid "enter"
 msgstr ""
 
-#: ../src/tutor.c:1695
+#: ../src/tutor.c:1819
 msgid "apostrophe"
 msgstr ""
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1699
+#: ../src/tutor.c:1823
 msgid "quote"
 msgstr ""
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1703
+#: ../src/tutor.c:1827
 msgid "ampersand"
 msgstr ""
 
@@ -979,11 +997,11 @@ msgstr ""
 msgid "Date & Time"
 msgstr ""
 
-#: ../src/basic.c:331
+#: ../src/basic.c:326
 msgid "Positions of keys seems to be learned!"
 msgstr "Positions of keys seems to be learned!"
 
-#: ../src/basic.c:332
+#: ../src/basic.c:327
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -995,7 +1013,7 @@ msgstr ""
 " Go to the next type of exercise: adaptability.\n"
 " There you will practice mainly the accuracy.\n"
 
-#: ../src/basic.c:338
+#: ../src/basic.c:333
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
@@ -1003,33 +1021,35 @@ msgstr ""
 " Now you've got it!\n"
 " On to the next lesson.\n"
 
-#: ../src/adaptability.c:221
+#: ../src/adaptability.c:213
+#, fuzzy, c-format
 msgid ""
-" Your accuracy rate is below 90%...\n"
+" Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
 "Your accuracy rate is below 90%...\n"
 " Could you please try again to improve it?\n"
 
-#: ../src/adaptability.c:226
+#: ../src/adaptability.c:216
+#, fuzzy, c-format
 msgid ""
 " You are doing well. But...\n"
-" Could you make the accuracy reach 95%?\n"
+" Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
 " Doing well but...\n"
 " Could you improve accuracy?\n"
 
-#: ../src/adaptability.c:229
+#: ../src/adaptability.c:219
 #, fuzzy, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
-" Try a few more times, or maybe you're getting upset, so go to other kind of "
-"exercise.\n"
+" Try a few more times, or maybe you're getting upset, so go to another kind "
+"of exercise.\n"
 msgstr ""
 " Almost there, but accuracy is less than 98%.\n"
 " Try a few more times.\n"
 
-#: ../src/adaptability.c:236
+#: ../src/adaptability.c:226
 #, fuzzy, c-format
 msgid ""
 " Very good!\n"
@@ -1046,7 +1066,7 @@ msgstr ""
 msgid "Pasted_or_dropped"
 msgstr "Pasted or dropped"
 
-#: ../src/velocity.c:431
+#: ../src/velocity.c:423
 msgid ""
 " You are just beginning.\n"
 " Be patient, try it again every day, rest and don't worry so much:\n"
@@ -1056,25 +1076,28 @@ msgstr ""
 " Be patient, try it again every day, rest and don't worry so much:\n"
 " persistence and practice will improve your velocity.\n"
 
-#: ../src/velocity.c:435
+#: ../src/velocity.c:427
+#, fuzzy, c-format
 msgid ""
 " Still away from the highway. You can make better...\n"
-" Try at least 20 WPM.\n"
+" Try to reach at least %.0f WPM.\n"
 msgstr " You can improve. Try for more than 20 WPM.\n"
 
-#: ../src/velocity.c:438
+#: ../src/velocity.c:430
+#, fuzzy, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
-" And don't forget the accuracy. Try to get 30 WPM.\n"
+" And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr "Doing well! Try faster, but don't forget accuracy.\n"
 
-#: ../src/velocity.c:442
+#: ../src/velocity.c:433
+#, fuzzy, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
-" Can you reach 40 WPM?\n"
+" Can you reach %.0f WPM?\n"
 msgstr " Fine. Now try to reach 40 WPM.\n"
 
-#: ../src/velocity.c:445
+#: ../src/velocity.c:436
 #, fuzzy, c-format
 msgid ""
 " Very good. You are almost there.\n"
@@ -1083,31 +1106,36 @@ msgstr ""
 " Very good. Almost there\n"
 ". Try for 50 WPM.\n"
 
-#: ../src/velocity.c:450
+#: ../src/velocity.c:439
 msgid ""
 " Excellent. For this course, that is enough.\n"
 " Try now the fluidness exercises, OK?\n"
 msgstr " Excellent. Now try the fluidity exercises.\n"
 
-#: ../src/velocity.c:454
+#: ../src/velocity.c:442
+#, fuzzy, c-format
 msgid ""
-" Fast! Are you training for a competition?\n"
-" So, try to get 70 WPM!\n"
+" Fast! Are you a professional?\n"
+" So, try to get %.0f WPM!\n"
 msgstr " Fast! Now try for 70 WPM.\n"
 
-#: ../src/velocity.c:457
-msgid ""
-" Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
-" Are you afraid of reaching 80 WPM?\n"
-msgstr " Top of the 'qwerty'. Now try the Dvorak mode.\n"
+#. Translators: Speed Racer is a reference to a Japanese anime franchise
+#. about automobile racing, also known as Mach GoGoGo.
+#: ../src/velocity.c:447
+#, c-format
+msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
+msgstr ""
 
-#: ../src/velocity.c:461
+#. Translators: feel free to change the reference to that martial art, if you find another good analogy.
+#: ../src/velocity.c:451
+#, fuzzy, c-format
 msgid ""
-" Dvorak mode dominated!\n"
-" Can you fly at 90 WPM?\n"
+" Kunf-fu mastering!\n"
+" Can you fly at %.0f WPM?\n"
 msgstr " You're good with Dvorak! Can you reach 90 WPM?\n"
 
-#: ../src/velocity.c:465
+#. Translators: Dvorak here means that infamous ergonomic keyboard layout.
+#: ../src/velocity.c:454
 msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
@@ -1115,28 +1143,28 @@ msgstr ""
 " A Dvorak master!\n"
 " I have no words to express my admiration.\n"
 
-#: ../src/fluidness.c:545
+#: ../src/fluidness.c:538
 #, fuzzy, c-format
 msgid ""
 " You type accurately but not so fast.\n"
 " Can you reach %.0f WPM?\n"
 msgstr " Accurate, could you reach 50 WPM?\n"
 
-#: ../src/fluidness.c:548
+#: ../src/fluidness.c:541
 #, fuzzy, c-format
 msgid ""
 " Your rhythm is not so constant. Calm down.\n"
 " For now, try to make the fluidness greater than %i%%.\n"
 msgstr " Try for a constant rhythm, fluidity greater than 70%.\n"
 
-#: ../src/fluidness.c:551
+#: ../src/fluidness.c:544
 #, fuzzy, c-format
 msgid ""
 " You are almost getting there. Type more fluently.\n"
 " I want a fluidness greater than %.0f%%.\n"
 msgstr " Almost there, try for fluidity greater than 80%.\n"
 
-#: ../src/fluidness.c:554
+#: ../src/fluidness.c:547
 msgid ""
 " Congratulations!\n"
 " It seems to me that you are a professional.\n"
@@ -1144,7 +1172,7 @@ msgid ""
 " Hope you have enjoyed. Thanks and be happy!\n"
 msgstr " You seem like a professional! Hope you enjoyed Klavaro.\n"
 
-#: ../src/fluidness.c:559
+#: ../src/fluidness.c:552
 msgid ""
 " How can you type so fast?\n"
 " You have exceeded all my expectations.\n"
@@ -1203,8 +1231,13 @@ msgstr "Not able to upload files"
 msgid "Could not upload/download scores."
 msgstr "Could not upload/download scores."
 
-#~ msgid "Select the font to be used in the exercise window."
-#~ msgstr "Select the font to be used"
+#~ msgid ""
+#~ " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
+#~ " Are you afraid of reaching 80 WPM?\n"
+#~ msgstr " Top of the 'qwerty'. Now try the Dvorak mode.\n"
+
+#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+#~ msgstr "Press  to restart the exercise.  [Ctrl R]"
 
 #, fuzzy
 #~ msgid "Klavaro"

@@ -1,36 +1,39 @@
-2014-??-??  Felipe Castro (-) <fefcas@gmail.com>;
+2014-01-??  Felipe Castro (-) <fefcas@gmail.com>;
 
 	* Release 3.00
 	* Fixed:
 	- Typo: prefered --> preferred
-	- manpage: minus as hyphen corrected with escapes (\-)
+	- Manpage: minus as hyphen corrected with escapes (\-)
 	* Added:
 	- Keywords in the klavaro.desktop file.
+	- Goals for touch typing skill are now configurable through the
+	  prefences.ini file.
+	- Programmer Dvorak keyboard layout added (dvorak_us_prog.kbd).
 	* Changed:
 	- Migrated from GTK2 to GTK3.
 	- GtkDatabox is incorporated statically, because its last release does
-	not support GTK3 yet.
+	  not support GTK3 yet.
 	- FontSelectionDialog is deprecated, so using now a FontButton.
 	- Some translatable messages were reviewed.
 	- Default background color for the tutor practice text came back to
-	ice-white: colors are easier customizable in the preferences.ini file.
+	  ice-white: colors are easier customizable in the preferences.ini file.
 	* Updated translations:
-	- Dutch.
-	- Esperanto.
-	- Portuguese (Brazilian).
-	- Ukrainian.
-	- Vietnamese.
+	? Dutch.
+	? Esperanto.
+	? Portuguese (Brazilian).
+	? Ukrainian.
+	? Vietnamese.
 
 2014-01-03  Felipe Castro (-) <fefcas@gmail.com>; gettextize (=)
 
 	* Release 2.01
 	* Fixed:
 	- Icon indication in the .desktop file now gives only the relative
-	name (klavaro), not the complete absolute path: more general.
+	  name (klavaro), not the complete absolute path: more general.
 	- Italian translation, _Next <==> _Previous (by hand, waiting update
-	from the Translation Project)
+	  from the Translation Project)
 	- Symbols '-' and '\' at middle of words are avoided now; and '´' is
-	avoided at end of words (adapt module).
+	  avoided at end of words (adapt module).
 	- It was aborting in Windows systems where LANG=en_US.
 	* Changed:
 	= Makefile.am (ACLOCAL_AMFLAGS): New variable.

@@ -522,7 +522,6 @@ fluid_copy_text_file (gchar * file_name)
  * Put on the screen the final comments
  */
 #define FLUID_1 60
-#define FLUID_2 (tutor_goal_fluidity ())
 void
 fluid_comment (gdouble accuracy, gdouble velocity, gdouble fluidness)
 {
@@ -534,23 +533,17 @@ fluid_comment (gdouble accuracy, gdouble velocity, gdouble fluidness)
 	 * Comments
 	 */
 	if (accuracy < tutor_goal_accuracy ())
-	{
-		/*
-		tmp_str = g_strdup_printf (_(" Your accuracy rate is not good enough.\n"
-				   " I want it greater than %.0f%%.\n"), tutor_goal_accuracy ());
-		*/
 		tmp_str = g_strdup (":-(\n");
-	}
 	else if (velocity < tutor_goal_speed ())
 		tmp_str = g_strdup_printf (_(" You type accurately but not so fast.\n"
 				   " Can you reach %.0f WPM?\n"), tutor_goal_speed ());
-	else if (fluidness < FLUID_1)
+	else if (fluidness < tutor_goal_level (0))
 		tmp_str = g_strdup_printf (_(" Your rhythm is not so constant. Calm down.\n"
-				      " For now, try to make the fluidness greater than %i%%.\n"), FLUID_1);
-	else if (fluidness < FLUID_2)
+				      " For now, try to make the fluidness greater than %i%%.\n"), (gint) tutor_goal_level(0));
+	else if (fluidness < tutor_goal_fluidity ())
 		tmp_str = g_strdup_printf (_(" You are almost getting there. Type more fluently.\n"
-				      " I want a fluidness greater than %.0f%%.\n"), FLUID_2);
-	else if (velocity < 90)
+				      " I want a fluidness greater than %.0f%%.\n"), tutor_goal_fluidity ());
+	else if (velocity < tutor_goal_level (1))
 		tmp_str = g_strdup (_(" Congratulations!\n"
 				      " It seems to me that you are a professional.\n"
 				      " You don't need this program (me) anymore.\n"
