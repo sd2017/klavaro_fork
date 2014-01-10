@@ -19,10 +19,10 @@
 	  ice-white: colors are easier customizable in the preferences.ini file.
 	* Updated translations:
 	? Dutch.
-	? Esperanto.
-	? Portuguese (Brazilian).
-	? Ukrainian.
-	? Vietnamese.
+	- Esperanto.
+	- Portuguese (Brazilian).
+	- Ukrainian.
+	- Vietnamese.
 
 2014-01-03  Felipe Castro (-) <fefcas@gmail.com>; gettextize (=)
 

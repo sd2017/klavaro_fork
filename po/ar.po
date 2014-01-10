@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.3.0\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-08 15:02-0200\n"
+"POT-Creation-Date: 2014-01-09 18:32-0200\n"
 "PO-Revision-Date: 2009-10-20 13:59+0300\n"
 "Last-Translator: Usama Akkad <uakkad@gmail.com>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -496,12 +496,12 @@ msgstr "درس ابتدائي"
 msgid "Adaptability"
 msgstr "التكيف"
 
-#: ../src/main.c:373 ../src/callbacks.c:1227 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1226 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "السرعة"
 
-#: ../src/main.c:376 ../src/callbacks.c:1250 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1249 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "الانسيابية"
@@ -510,51 +510,51 @@ msgstr "الانسيابية"
 msgid "Keys:"
 msgstr "المفاتيح:"
 
-#: ../src/callbacks.c:775 ../src/callbacks.c:791
+#: ../src/callbacks.c:774 ../src/callbacks.c:790
 msgid "Connecting..."
 msgstr "الاتصال..."
 
-#: ../src/callbacks.c:1062
+#: ../src/callbacks.c:1061
 msgid "Overwrite user layout"
 msgstr "غير خريطة المستخدم"
 
-#: ../src/callbacks.c:1064
+#: ../src/callbacks.c:1063
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "سيغير هذا خريطة مفاتيح سابقة."
 
-#: ../src/callbacks.c:1071
+#: ../src/callbacks.c:1070
 msgid "Remove user layout"
 msgstr "أزل خريطة المستخدم"
 
-#: ../src/callbacks.c:1073
+#: ../src/callbacks.c:1072
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "سيزيل هذا خريطة مفاتيح مسبقة"
 
-#: ../src/callbacks.c:1080
+#: ../src/callbacks.c:1079
 msgid "Reset progress data"
 msgstr "صفر بيانات التقدم"
 
-#: ../src/callbacks.c:1081
+#: ../src/callbacks.c:1080
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "سيحذف هذا كل بيانات التقدم المعروضة في المخططات."
 
-#: ../src/callbacks.c:1224 ../src/top10.c:87
+#: ../src/callbacks.c:1223 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "الدقة"
 
-#: ../src/callbacks.c:1227 ../src/tutor.c:1288
+#: ../src/callbacks.c:1226 ../src/tutor.c:1288
 msgid "(WPM)"
 msgstr "(ك.د)"
 
-#: ../src/callbacks.c:1238
+#: ../src/callbacks.c:1237
 msgid "Errors"
 msgstr "الأخطاء"
 
-#: ../src/callbacks.c:1241
+#: ../src/callbacks.c:1240
 msgid "Touch times (s)"
 msgstr ""
 
-#: ../src/callbacks.c:1253 ../src/tutor.c:1315 ../src/top10.c:69
+#: ../src/callbacks.c:1252 ../src/tutor.c:1315 ../src/top10.c:69
 msgid "Score"
 msgstr "المعدل"
 

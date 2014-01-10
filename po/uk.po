@@ -5,10 +5,10 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2010, 2011, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: klavaro 3.00-pre1\n"
+"Project-Id-Version: klavaro 3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-08 15:02-0200\n"
-"PO-Revision-Date: 2014-01-06 12:19+0200\n"
+"POT-Creation-Date: 2014-01-09 18:32-0200\n"
+"PO-Revision-Date: 2014-01-10 08:42+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
@@ -363,14 +363,12 @@ msgid "Top 10"
 msgstr "Найкраща десятка"
 
 #: ../data/klavaro.glade.h:77
-#, fuzzy
 msgid "Show extra information."
-msgstr "Показати додаткові відомості"
+msgstr "Показати додаткові відомості."
 
 #: ../data/klavaro.glade.h:78
-#, fuzzy
 msgid "Hide extra information."
-msgstr "Приховати додаткові відомості"
+msgstr "Приховати додаткові відомості."
 
 #: ../data/klavaro.glade.h:79
 msgid "Publish to the web your local scores."
@@ -469,16 +467,14 @@ msgid "_Top 10"
 msgstr "_Найкраща десятка"
 
 #: ../data/klavaro.desktop.in.h:1
-#, fuzzy
 msgid "A very flexible and efficient touch typing tutor."
-msgstr "Ще одна програма для навчання набору наосліп"
+msgstr "Дуже гнучка та ефективна програма для навчання набору наосліп"
 
 #. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
 #: ../data/klavaro.desktop.in.h:3
-#, fuzzy
 msgid "keyboard;typing;tutor;CAI"
 msgstr ""
-"клавіатура;друк;швидкісний;набір;навчання;уроки;keyboard;typing;tutorial;"
+"клавіатура;друк;швидкісний;набір;навчання;уроки;keyboard;typing;tutor;CAI"
 
 #: ../src/main.c:242
 msgid "(Custom)"
@@ -513,12 +509,12 @@ msgstr "Основний курс"
 msgid "Adaptability"
 msgstr "Пристосування"
 
-#: ../src/main.c:373 ../src/callbacks.c:1227 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1226 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Швидкість"
 
-#: ../src/main.c:376 ../src/callbacks.c:1250 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1249 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Плавність"
@@ -527,54 +523,54 @@ msgstr "Плавність"
 msgid "Keys:"
 msgstr "Клавіші:"
 
-#: ../src/callbacks.c:775 ../src/callbacks.c:791
+#: ../src/callbacks.c:774 ../src/callbacks.c:790
 msgid "Connecting..."
 msgstr "З'єднання…"
 
-#: ../src/callbacks.c:1062
+#: ../src/callbacks.c:1061
 msgid "Overwrite user layout"
 msgstr "Перезаписати розкладку користувача"
 
-#: ../src/callbacks.c:1064
+#: ../src/callbacks.c:1063
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr ""
 "У результаті виконання цієї дії буде перезаписано існуючу розкладку "
 "клавіатури."
 
-#: ../src/callbacks.c:1071
+#: ../src/callbacks.c:1070
 msgid "Remove user layout"
 msgstr "Вилучення розкладки користувача"
 
-#: ../src/callbacks.c:1073
+#: ../src/callbacks.c:1072
 msgid "This will REMOVE an existent keyboard layout."
 msgstr ""
 "У результаті виконання цієї дії буде вилучено існуючу розкладку клавіатури."
 
-#: ../src/callbacks.c:1080
+#: ../src/callbacks.c:1079
 msgid "Reset progress data"
 msgstr "Вилучення даних щодо поступу"
 
-#: ../src/callbacks.c:1081
+#: ../src/callbacks.c:1080
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "Буде вилучено всі дані щодо поступу, показані на діаграмах."
 
-#: ../src/callbacks.c:1224 ../src/top10.c:87
+#: ../src/callbacks.c:1223 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Точність"
 
-#: ../src/callbacks.c:1227 ../src/tutor.c:1288
+#: ../src/callbacks.c:1226 ../src/tutor.c:1288
 msgid "(WPM)"
 msgstr "(сл./хв.)"
 
-#: ../src/callbacks.c:1238
+#: ../src/callbacks.c:1237
 msgid "Errors"
 msgstr "Помилки"
 
-#: ../src/callbacks.c:1241
+#: ../src/callbacks.c:1240
 msgid "Touch times (s)"
 msgstr "Тривалість натискання (у с)"
 
-#: ../src/callbacks.c:1253 ../src/tutor.c:1315 ../src/top10.c:69
+#: ../src/callbacks.c:1252 ../src/tutor.c:1315 ../src/top10.c:69
 msgid "Score"
 msgstr "Результат"
 
@@ -1051,25 +1047,25 @@ msgstr ""
 " Перейдіть до наступного уроку.\n"
 
 #: ../src/adaptability.c:213
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
-" Рівень вашої точності є нижчим за 90%…\n"
+" Рівень вашої точності є нижчим за %.0f%%…\n"
 " Будь ласка, повторіть спробу, щоб покращити його?\n"
 
 #: ../src/adaptability.c:216
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
 " Непогано, але…\n"
-" Можливо, вам вдасться підвищити рівень точності до 95%?\n"
+" Можливо, вам вдасться підвищити рівень точності до %.0f%%?\n"
 
 #: ../src/adaptability.c:219
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
 " Try a few more times, or maybe you're getting upset, so go to another kind "
@@ -1109,32 +1105,32 @@ msgstr ""
 " наполегливість і постійні вправи поступово збільшать вашу швидкість.\n"
 
 #: ../src/velocity.c:427
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
 " До ідеалу все ще далеко. Ви можете друкувати набагато краще…\n"
-" Спробуйте досягти результату у принаймні 20 слів на хвилину.\n"
+" Спробуйте досягти результату у принаймні %.0f слів на хвилину.\n"
 
 #: ../src/velocity.c:430
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr ""
 " Непогано, але можна і краще.\n"
-" Не забувайте про точність. Спробуйте досягти результату у 30 слів на "
+" Не забувайте про точність. Спробуйте досягти результату у %.0f слів на "
 "хвилину.\n"
 
 #: ../src/velocity.c:433
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach %.0f WPM?\n"
 msgstr ""
 " Добре. А тепер ще швидше!\n"
-" Можете набирати зі швидкістю у 40 слів на хвилину?\n"
+" Можете набирати зі швидкістю у %.0f слів на хвилину?\n"
 
 #: ../src/velocity.c:436
 #, c-format
@@ -1154,13 +1150,13 @@ msgstr ""
 " Перейдемо до вправи «Плавність», гаразд?\n"
 
 #: ../src/velocity.c:442
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fast! Are you a professional?\n"
 " So, try to get %.0f WPM!\n"
 msgstr ""
 " Швидко! Тренуєтеся до участі у змаганнях?\n"
-" Гаразд, спробуйте досягти результату у 70 слів на хвилину!\n"
+" Гаразд, спробуйте досягти результату у %.0f слів на хвилину!\n"
 
 #. Translators: Speed Racer is a reference to a Japanese anime franchise
 #. about automobile racing, also known as Mach GoGoGo.
@@ -1168,16 +1164,18 @@ msgstr ""
 #, c-format
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
 msgstr ""
+" Непогано, Швидкі Пальці! Не злякаєтеся набирати зі швидкістю %.0f слів на "
+"хвилину?\n"
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Kunf-fu mastering!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
-" Режим Дворака підкорено!\n"
-" Можете пришвидшитися до 90 слів на хвилину?\n"
+" Чудова майстерність!\n"
+" Можете пришвидшитися до %.0f слів на хвилину?\n"
 
 #. Translators: Dvorak here means that infamous ergonomic keyboard layout.
 #: ../src/velocity.c:454
@@ -1287,6 +1285,9 @@ msgstr "Не вдалося вивантажити файли"
 msgid "Could not upload/download scores."
 msgstr "Не вдалося вивантажити або звантажити результати."
 
+#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+#~ msgstr "Натисніть тут, щоб почати вправу з початку. Скорочення: Ctrl+R"
+
 #~ msgid ""
 #~ " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 #~ " Are you afraid of reaching 80 WPM?\n"
@@ -1294,13 +1295,6 @@ msgstr "Не вдалося вивантажити або звантажити �
 #~ " Максимум для розкладки «qwerty». Час перейти до режиму розкладки "
 #~ "Дворака.\n"
 #~ " Не страшно буде набирати зі швидкістю у 80 слів на хвилину?\n"
-
-#, fuzzy
-#~ msgid "keyboard;CAI"
-#~ msgstr "Клавіатура"
-
-#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-#~ msgstr "Натисніть тут, щоб почати вправу з початку. Скорочення: Ctrl+R"
 
 #~ msgid "Klavaro"
 #~ msgstr "Klavaro"

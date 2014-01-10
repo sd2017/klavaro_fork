@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: klavaro-3.00-pre1\n"
+"Project-Id-Version: klavaro-3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-08 15:02-0200\n"
-"PO-Revision-Date: 2014-01-06 22:33-0300\n"
+"POT-Creation-Date: 2014-01-09 18:32-0200\n"
+"PO-Revision-Date: 2014-01-09 20:43-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: ../data/klavaro.glade.h:1
 msgid "About 'Klavaro'"
-msgstr "Sobre 'Klavaro'"
+msgstr "Sobre o 'Klavaro'"
 
 #: ../data/klavaro.glade.h:2
 msgid "Yet another touch typing tutor"
-msgstr "Tutorial para digitação gratuito"
+msgstr "Mais um tutorial para digitação"
 
 #: ../data/klavaro.glade.h:3
 msgid "Remember always: someone loves you!"
@@ -356,14 +356,12 @@ msgid "Top 10"
 msgstr "Os 10 Mais"
 
 #: ../data/klavaro.glade.h:77
-#, fuzzy
 msgid "Show extra information."
-msgstr "Mostrar informação extra"
+msgstr "Mostrar informação extra."
 
 #: ../data/klavaro.glade.h:78
-#, fuzzy
 msgid "Hide extra information."
-msgstr "Esconder informação extra"
+msgstr "Esconder informação extra."
 
 #: ../data/klavaro.glade.h:79
 msgid "Publish to the web your local scores."
@@ -462,15 +460,13 @@ msgid "_Top 10"
 msgstr "Os 10 _Mais"
 
 #: ../data/klavaro.desktop.in.h:1
-#, fuzzy
 msgid "A very flexible and efficient touch typing tutor."
-msgstr "Tutorial para digitação gratuito"
+msgstr "Tutorial para digitação muito flexível e eficiente."
 
 #. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
 #: ../data/klavaro.desktop.in.h:3
-#, fuzzy
 msgid "keyboard;typing;tutor;CAI"
-msgstr "teclado;digitação;tutorial;"
+msgstr "teclado;digitação;tutorial;CAI;aprendizado"
 
 #: ../src/main.c:242
 msgid "(Custom)"
@@ -503,12 +499,12 @@ msgstr "Curso básico"
 msgid "Adaptability"
 msgstr "Adaptabilidade"
 
-#: ../src/main.c:373 ../src/callbacks.c:1227 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1226 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Rapidez"
 
-#: ../src/main.c:376 ../src/callbacks.c:1250 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1249 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Fluidez"
@@ -517,51 +513,51 @@ msgstr "Fluidez"
 msgid "Keys:"
 msgstr "Teclas:"
 
-#: ../src/callbacks.c:775 ../src/callbacks.c:791
+#: ../src/callbacks.c:774 ../src/callbacks.c:790
 msgid "Connecting..."
 msgstr "Conectando..."
 
-#: ../src/callbacks.c:1062
+#: ../src/callbacks.c:1061
 msgid "Overwrite user layout"
 msgstr "Sobreescrever o arranjo do usuário"
 
-#: ../src/callbacks.c:1064
+#: ../src/callbacks.c:1063
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Atenção! Isso irá SOBREESCREVER um arranjo de teclado existente."
 
-#: ../src/callbacks.c:1071
+#: ../src/callbacks.c:1070
 msgid "Remove user layout"
 msgstr "Remover arranjo do usuário"
 
-#: ../src/callbacks.c:1073
+#: ../src/callbacks.c:1072
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Isso irá REMOVER um arranjo de teclado existente."
 
-#: ../src/callbacks.c:1080
+#: ../src/callbacks.c:1079
 msgid "Reset progress data"
 msgstr "Zerar dados de progresso"
 
-#: ../src/callbacks.c:1081
+#: ../src/callbacks.c:1080
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "Isto irá APAGAR todos os dados de progresso dos gráficos."
 
-#: ../src/callbacks.c:1224 ../src/top10.c:87
+#: ../src/callbacks.c:1223 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Exatidão"
 
-#: ../src/callbacks.c:1227 ../src/tutor.c:1288
+#: ../src/callbacks.c:1226 ../src/tutor.c:1288
 msgid "(WPM)"
 msgstr "(PPM)"
 
-#: ../src/callbacks.c:1238
+#: ../src/callbacks.c:1237
 msgid "Errors"
 msgstr "Erros"
 
-#: ../src/callbacks.c:1241
+#: ../src/callbacks.c:1240
 msgid "Touch times (s)"
 msgstr "Tempos de toque (s)"
 
-#: ../src/callbacks.c:1253 ../src/tutor.c:1315 ../src/top10.c:69
+#: ../src/callbacks.c:1252 ../src/tutor.c:1315 ../src/top10.c:69
 msgid "Score"
 msgstr "Pontuação"
 
@@ -921,7 +917,8 @@ msgid ""
 "contest."
 msgstr ""
 "obs.: o texto que você acabou de digitar não parece similar a textos comuns "
-"em português: não podemos incluir essa sessão na competição dos \"10 Mais\"."
+"do idioma selecionado atualmente: não podemos incluir essa sessão na "
+"competição dos \"10 Mais\"."
 
 #: ../src/tutor.c:1215
 msgid "STATISTICS"
@@ -1037,25 +1034,25 @@ msgstr ""
 " Passe para a próxima lição.\n"
 
 #: ../src/adaptability.c:213
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
-" Sua taxa de acertos está abaixo de 90%...\n"
+" Sua taxa de acertos está abaixo de %.0f%%...\n"
 " Você poderia novamente tentar melhorá-la?\n"
 
 #: ../src/adaptability.c:216
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
 " Você está indo bem. Mas... \n"
-" Poderia fazer a exatidão alcançar 95 %?\n"
+" Poderia fazer a exatidão alcançar %.0f%%?\n"
 
 #: ../src/adaptability.c:219
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
 " Try a few more times, or maybe you're getting upset, so go to another kind "
@@ -1063,7 +1060,7 @@ msgid ""
 msgstr ""
 " Você está quase lá, mas sua taxa de acertos ainda está abaixo de %.0f%%.\n"
 " Tente algumas vezes mais, ou talvez você esteja se cansando: neste caso, vá "
-"para outro tipo de exercício.\n"
+"para algum outro tipo de exercício.\n"
 
 #: ../src/adaptability.c:226
 #, c-format
@@ -1093,31 +1090,31 @@ msgstr ""
 " persistência e prática farão sua velocidade aumentar.\n"
 
 #: ../src/velocity.c:427
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
-" Ainda longe da estrada. Você pode fazer melhor...\n"
-" Tente ao menos 20 PPM.\n"
+" Ainda longe da rodovia. Você pode fazer melhor...\n"
+" Tente ao menos %.0f PPM.\n"
 
 #: ../src/velocity.c:430
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr ""
 " Você está se saindo bem, mas precisa ir mais rápido.\n"
-" E não se esqueça da exatidão. Tente obter 30 PPM.\n"
+" E não se esqueça da exatidão. Tente obter %.0f PPM.\n"
 
 #: ../src/velocity.c:433
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach %.0f WPM?\n"
 msgstr ""
-" Bem. Agora você precisa começar a correr.\n"
-" Você pode alcançar 40 PPM?\n"
+" Bom. Agora você precisa começar a correr.\n"
+" Você pode alcançar %.0f PPM?\n"
 
 #: ../src/velocity.c:436
 #, c-format
@@ -1137,13 +1134,13 @@ msgstr ""
 " Tente agora os exercícios de fluidez, certo?\n"
 
 #: ../src/velocity.c:442
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fast! Are you a professional?\n"
 " So, try to get %.0f WPM!\n"
 msgstr ""
-" Que rápido! Você está treinando para uma competição?\n"
-" Então, tente chegar aos 70 PPM!\n"
+" Que rápido! Você é profissional?\n"
+" Então, tente chegar aos %.0f PPM!\n"
 
 #. Translators: Speed Racer is a reference to a Japanese anime franchise
 #. about automobile racing, also known as Mach GoGoGo.
@@ -1151,16 +1148,17 @@ msgstr ""
 #, c-format
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
 msgstr ""
+"Boa classificação, Speed Racer! Você não teria medo de atingir %.0f PPM?\n"
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Kunf-fu mastering!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
-" Dvorak está dominado!\n"
-" Você pode voar a 90 PPM?\n"
+" Mestre do Kung-Fu!\n"
+" Você poderia voar a %.0f PPM?\n"
 
 #. Translators: Dvorak here means that infamous ergonomic keyboard layout.
 #: ../src/velocity.c:454
@@ -1168,7 +1166,7 @@ msgid ""
 " Dvorak master!\n"
 " I have no words to express my admiration!\n"
 msgstr ""
-" Mestre no Dvorak!\n"
+" Mestre do teclado Dvorak!\n"
 " Eu não tenho palavras para expressar minha admiração!\n"
 
 #: ../src/fluidness.c:538
@@ -1270,19 +1268,15 @@ msgstr "Não é possível subir arquivos"
 msgid "Could not upload/download scores."
 msgstr "Não foi possível enviar/baixar a pontuação."
 
+#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+#~ msgstr "Pressione aqui para recomeçar o exercício. Atalho: [Ctrl-R]"
+
 #~ msgid ""
 #~ " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 #~ " Are you afraid of reaching 80 WPM?\n"
 #~ msgstr ""
 #~ " Ápice do \"qwerty\". Agora é hora de mudar para o modo Dvorak.\n"
 #~ " Você tem medo de alcançar 80 PPM?\n"
-
-#, fuzzy
-#~ msgid "keyboard;CAI"
-#~ msgstr "Teclado"
-
-#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-#~ msgstr "Pressione aqui para recomeçar o exercício. Atalho: [Ctrl-R]"
 
 #~ msgid "Klavaro"
 #~ msgstr "Klavaro"

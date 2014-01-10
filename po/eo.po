@@ -4,10 +4,10 @@
 # Felipe Castro <fefcas@gmail.com>, 2008, 2009, 2010, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: klavaro-3.00-pre1\n"
+"Project-Id-Version: klavaro-3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-08 15:02-0200\n"
-"PO-Revision-Date: 2014-01-06 23:10-0300\n"
+"POT-Creation-Date: 2014-01-09 18:32-0200\n"
+"PO-Revision-Date: 2014-01-09 20:33-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
 "Language: eo\n"
@@ -353,14 +353,12 @@ msgid "Top 10"
 msgstr "10 Plej"
 
 #: ../data/klavaro.glade.h:77
-#, fuzzy
 msgid "Show extra information."
-msgstr "Montri kromajn informojn"
+msgstr "Montri kromajn informojn."
 
 #: ../data/klavaro.glade.h:78
-#, fuzzy
 msgid "Hide extra information."
-msgstr "Kaŝi kromajn informojn"
+msgstr "Kaŝi kromajn informojn."
 
 #: ../data/klavaro.glade.h:79
 msgid "Publish to the web your local scores."
@@ -458,15 +456,13 @@ msgid "_Top 10"
 msgstr "_10 Plej"
 
 #: ../data/klavaro.desktop.in.h:1
-#, fuzzy
 msgid "A very flexible and efficient touch typing tutor."
-msgstr "Simple plia instruilo por tajpado"
+msgstr "Tre fleksebla kaj efika instruilo por tajpado."
 
 #. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
 #: ../data/klavaro.desktop.in.h:3
-#, fuzzy
 msgid "keyboard;typing;tutor;CAI"
-msgstr "klavaro;tajpado;instruilo;gvidilo;"
+msgstr "tajpado;instruilo;gvidilo;ekzercilo"
 
 #: ../src/main.c:242
 msgid "(Custom)"
@@ -499,12 +495,12 @@ msgstr "Baza kurso"
 msgid "Adaptability"
 msgstr "Adapteco"
 
-#: ../src/main.c:373 ../src/callbacks.c:1227 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1226 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Rapideco"
 
-#: ../src/main.c:376 ../src/callbacks.c:1250 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1249 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Flueco"
@@ -513,51 +509,51 @@ msgstr "Flueco"
 msgid "Keys:"
 msgstr "Klavoj:"
 
-#: ../src/callbacks.c:775 ../src/callbacks.c:791
+#: ../src/callbacks.c:774 ../src/callbacks.c:790
 msgid "Connecting..."
 msgstr "Konektado..."
 
-#: ../src/callbacks.c:1062
+#: ../src/callbacks.c:1061
 msgid "Overwrite user layout"
 msgstr "Anstataŭigi aranĝon jam difinitan"
 
-#: ../src/callbacks.c:1064
+#: ../src/callbacks.c:1063
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Tio ĉi ANSTATAŬIGOS jam ekzistantan klavar-aranĝon."
 
-#: ../src/callbacks.c:1071
+#: ../src/callbacks.c:1070
 msgid "Remove user layout"
 msgstr "Forigi jam difinitan aranĝon"
 
-#: ../src/callbacks.c:1073
+#: ../src/callbacks.c:1072
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Tio ĉi FORIGOS jam ekzistantan klavar-aranĝon."
 
-#: ../src/callbacks.c:1080
+#: ../src/callbacks.c:1079
 msgid "Reset progress data"
 msgstr "Reekigi progres-datumaron"
 
-#: ../src/callbacks.c:1081
+#: ../src/callbacks.c:1080
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "Tio FORIGOS la tutan progres-datumaron montratan en la grafikaĵoj."
 
-#: ../src/callbacks.c:1224 ../src/top10.c:87
+#: ../src/callbacks.c:1223 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Korekteco"
 
-#: ../src/callbacks.c:1227 ../src/tutor.c:1288
+#: ../src/callbacks.c:1226 ../src/tutor.c:1288
 msgid "(WPM)"
 msgstr "(VPM)"
 
-#: ../src/callbacks.c:1238
+#: ../src/callbacks.c:1237
 msgid "Errors"
 msgstr "Eraroj"
 
-#: ../src/callbacks.c:1241
+#: ../src/callbacks.c:1240
 msgid "Touch times (s)"
 msgstr "Tuŝ-tempoj (s)"
 
-#: ../src/callbacks.c:1253 ../src/tutor.c:1315 ../src/top10.c:69
+#: ../src/callbacks.c:1252 ../src/tutor.c:1315 ../src/top10.c:69
 msgid "Score"
 msgstr "Poentaro"
 
@@ -1025,32 +1021,32 @@ msgstr ""
 " Iru al la sekva leciono.\n"
 
 #: ../src/adaptability.c:213
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
-" Via korekteco estas pli malalta ol 90%...\n"
-" Ĉu vi povus provi refoje plibonigi ĝin?\n"
+" Via korekteco estas pli malalta ol %.0f%%...\n"
+" Ĉu vi provu plibonigi ĝin refoje?\n"
 
 #: ../src/adaptability.c:216
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
-" Vi iras bone. Sed...\n"
-" Ĉu vi povus plialtigi la korektecon al 95%?\n"
+" Vi bone progresas. Tamen...\n"
+" Ĉu vi povos plialtigi la korektecon al %.0f%%?\n"
 
 #: ../src/adaptability.c:219
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
 " Try a few more times, or maybe you're getting upset, so go to another kind "
 "of exercise.\n"
 msgstr ""
 " Vi preskaŭ sukcesas, sed via korekteco ankoraŭ estas malpli ol %.0f%%.\n"
-" Reprovu iomete plifoje, aŭ eble vi ekenuas, do iru al alia tipo de "
+" Reprovu iom plifoje, aŭ eble vi ekenuas, do iru al iu alia tipo de "
 "ekzerco.\n"
 
 #: ../src/adaptability.c:226
@@ -1081,31 +1077,31 @@ msgstr ""
 " persistemo kaj praktikado plibonigos vian rapidecon.\n"
 
 #: ../src/velocity.c:427
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
-" Ankoraŭ for de la vojo. Vi povas plenumi plibone...\n"
-" Provu trafi almenaŭ 20 VPM.\n"
+" Ankoraŭ for de la ŝoseo. Vi povas pli bone efektivigi...\n"
+" Provu trafi almenaŭ %.0f VPM.\n"
 
 #: ../src/velocity.c:430
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr ""
-" Vi iras bone, tamen vi bezonas iri pli rapide.\n"
-" Kaj ne forgesu kontroli la korektecon. Provu sukcesi je 30 VPM.\n"
+" Vi bone progresas, tamen vi bezonas iri pli rapide.\n"
+" Kaj ne forgesu kontroli la korektecon. Provu sukcesi je %.0f VPM.\n"
 
 #: ../src/velocity.c:433
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach %.0f WPM?\n"
 msgstr ""
 " Bonete. Nun vi devas komenci kuri.\n"
-" Ĉu vi povas trafi 40 VPM?\n"
+" Ĉu vi povas trafi %.0f VPM?\n"
 
 #: ../src/velocity.c:436
 #, c-format
@@ -1125,30 +1121,30 @@ msgstr ""
 " Provu nun la fluecajn ekzercojn, ĉu bone?\n"
 
 #: ../src/velocity.c:442
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fast! Are you a professional?\n"
 " So, try to get %.0f WPM!\n"
 msgstr ""
-" Kiel rapide! Ĉu vi trejnas por konkuro?\n"
-" Do, provu trafi 70 VPM!\n"
+" Kiel rapide! Ĉu vi estas profesiulo?\n"
+" Do, provu trafi %.0f VPM!\n"
 
 #. Translators: Speed Racer is a reference to a Japanese anime franchise
 #. about automobile racing, also known as Mach GoGoGo.
 #: ../src/velocity.c:447
 #, c-format
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
-msgstr ""
+msgstr "Bona rangiĝo, Speed Racer! Ĉu vi timas atingi %.0f VPM?\n"
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Kunf-fu mastering!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
-" Dvorako estas regita de vi!\n"
-" Ĉu vi povas flugi je 90 VPM?\n"
+" Uŝua majstro!\n"
+" Ĉu vi povas flugi je %.0f VPM?\n"
 
 #. Translators: Dvorak here means that infamous ergonomic keyboard layout.
 #: ../src/velocity.c:454
@@ -1258,6 +1254,9 @@ msgstr "Ne eblas alŝuti dosierojn"
 msgid "Could not upload/download scores."
 msgstr "Ne eblis alŝuti/elŝuti la poentaron."
 
+#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+#~ msgstr "Premu tion ĉi por rekomenci la ekzercon. Klavkomando: [Ctrl R]"
+
 #~ msgid ""
 #~ " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 #~ " Are you afraid of reaching 80 WPM?\n"
@@ -1265,13 +1264,6 @@ msgstr "Ne eblis alŝuti/elŝuti la poentaron."
 #~ " Plejsupro por la tajpistoj de \"QWERTY\". Nun estas tempo por ŝanĝi al "
 #~ "la Dvoraka modo.\n"
 #~ " Ĉu vi timas trafi 80 VPM?\n"
-
-#, fuzzy
-#~ msgid "keyboard;CAI"
-#~ msgstr "Klavaro"
-
-#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-#~ msgstr "Premu tion ĉi por rekomenci la ekzercon. Klavkomando: [Ctrl R]"
 
 #~ msgid "Klavaro"
 #~ msgstr "'Klavaro'"

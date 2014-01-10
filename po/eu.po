@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-1.9.5-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-08 15:02-0200\n"
+"POT-Creation-Date: 2014-01-09 18:32-0200\n"
 "PO-Revision-Date: 2012-09-18 23:44+0200\n"
 "Last-Translator: Gorka Azkarate <gorkaazkarate@gmail.com>\n"
 "Language-Team: Basque <translation-team-eu@lists.sourceforge.net>\n"
@@ -505,12 +505,12 @@ msgstr "Oinarrizko ikastaroa"
 msgid "Adaptability"
 msgstr "Moldagarritasuna"
 
-#: ../src/main.c:373 ../src/callbacks.c:1227 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1226 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Lastertasuna"
 
-#: ../src/main.c:376 ../src/callbacks.c:1250 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1249 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Jariakortasuna"
@@ -519,53 +519,53 @@ msgstr "Jariakortasuna"
 msgid "Keys:"
 msgstr "Giltzak:"
 
-#: ../src/callbacks.c:775 ../src/callbacks.c:791
+#: ../src/callbacks.c:774 ../src/callbacks.c:790
 msgid "Connecting..."
 msgstr "Konektatzen..."
 
-#: ../src/callbacks.c:1062
+#: ../src/callbacks.c:1061
 msgid "Overwrite user layout"
 msgstr "Gainidatzi erabiltzailearen diseinua"
 
-#: ../src/callbacks.c:1064
+#: ../src/callbacks.c:1063
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Honek GAINIDATZI egingo du dagoen giltzadiaren diseinua."
 
-#: ../src/callbacks.c:1071
+#: ../src/callbacks.c:1070
 msgid "Remove user layout"
 msgstr "Ezabatu erabiltzailearen diseinua"
 
-#: ../src/callbacks.c:1073
+#: ../src/callbacks.c:1072
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Honek EZABATU egingo du dagoen giltzadiaren diseinua."
 
-#: ../src/callbacks.c:1080
+#: ../src/callbacks.c:1079
 msgid "Reset progress data"
 msgstr "Berrezarri aurrerapenei buruzko datuak"
 
-#: ../src/callbacks.c:1081
+#: ../src/callbacks.c:1080
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr ""
 "Honek EZABATU egingo ditu grafikoetan erakusten diren aurrerapenei buruzko "
 "datu guztiak."
 
-#: ../src/callbacks.c:1224 ../src/top10.c:87
+#: ../src/callbacks.c:1223 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Zehaztasuna"
 
-#: ../src/callbacks.c:1227 ../src/tutor.c:1288
+#: ../src/callbacks.c:1226 ../src/tutor.c:1288
 msgid "(WPM)"
 msgstr "(hitzak minutuko)"
 
-#: ../src/callbacks.c:1238
+#: ../src/callbacks.c:1237
 msgid "Errors"
 msgstr "Akatsak"
 
-#: ../src/callbacks.c:1241
+#: ../src/callbacks.c:1240
 msgid "Touch times (s)"
 msgstr "Ukitze denborak (s)"
 
-#: ../src/callbacks.c:1253 ../src/tutor.c:1315 ../src/top10.c:69
+#: ../src/callbacks.c:1252 ../src/tutor.c:1315 ../src/top10.c:69
 msgid "Score"
 msgstr "Lortutako puntuazioa"
 

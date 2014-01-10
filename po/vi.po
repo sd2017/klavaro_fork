@@ -1,15 +1,15 @@
-# Klavaro translation for Vietnamese
-# Bản dịch tiếng việt dành cho gói klavaro
+# Klavaro translation for Vietnamese.
+# Bản dịch tiếng việt dành cho gói klavaro.
 # Copyright (C) 2005-2014 Felipe Castro <fefcas@gmail.com> at http://klavaro.sourceforge.net/
 # This file is distributed under the same license as the klavaro package.
 # Trần Ngọc Quân <vnwildman@gmail.com>, 2008-2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: klavaro-3.00-pre1\n"
+"Project-Id-Version: klavaro 3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-08 15:02-0200\n"
-"PO-Revision-Date: 2014-01-07 08:32+0700\n"
+"POT-Creation-Date: 2014-01-09 18:32-0200\n"
+"PO-Revision-Date: 2014-01-10 07:44+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <translation-team-vi@lists.sourceforge.net>\n"
 "Language: vi\n"
@@ -42,7 +42,7 @@ msgstr "Chú ý!"
 
 #: ../data/klavaro.glade.h:6
 msgid "Do you confirm?"
-msgstr "Bạn có khẳng định không?"
+msgstr "Bạn có thực sự muốn làm thế không?"
 
 #: ../data/klavaro.glade.h:7
 msgid "_No"
@@ -169,7 +169,9 @@ msgstr "_Xóa bỏ"
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
-msgstr "Nhấn thả phím shift. Chuyển đổi giữa gõ chữ hoa và chữ thường."
+msgstr ""
+"Bật/tắt hiệu ứng phím shift trên các phím. Để chuyển đổi giữa gõ chữ hoa và "
+"chữ thường."
 
 #: ../data/klavaro.glade.h:34
 msgid "SPACE BAR"
@@ -193,15 +195,15 @@ msgstr "_Ghi lại bằng tên mới:"
 
 #: ../data/klavaro.glade.h:39
 msgid "Show previous screen."
-msgstr "Hiển thị màn hình trước."
+msgstr "Hiển thị màn hình kế trước."
 
 #: ../data/klavaro.glade.h:40
 msgid "_Previous step"
-msgstr "Kết quả t_rước"
+msgstr "Bước t_rước"
 
 #: ../data/klavaro.glade.h:41
 msgid "Show next screen."
-msgstr "Hiển thị màn hình tiếp."
+msgstr "Hiển thị màn hình kế tiếp."
 
 #: ../data/klavaro.glade.h:42
 msgid "_Next step"
@@ -217,7 +219,7 @@ msgstr "Lưu lại giao diện bàn phím hiện hành với tên được chỉ
 
 #: ../data/klavaro.glade.h:45
 msgid "_Save and use"
-msgstr "_Lưu lại và sử dụng"
+msgstr "_Lưu lại và dùng"
 
 #: ../data/klavaro.glade.h:46
 msgid ""
@@ -323,7 +325,7 @@ msgstr "Thoát khỏi ứng dụng ngay lập tức."
 
 #: ../data/klavaro.glade.h:70
 msgid "Klavaro - Progress"
-msgstr "Klavaro - Sự tiến triển"
+msgstr "Klavaro - Tiến triển"
 
 #: ../data/klavaro.glade.h:71
 msgid "_Lesson:"
@@ -350,14 +352,12 @@ msgid "Top 10"
 msgstr "Top 10"
 
 #: ../data/klavaro.glade.h:77
-#, fuzzy
 msgid "Show extra information."
-msgstr "Hiển thị thông tin phụ"
+msgstr "Hiển thị thông tin phụ."
 
 #: ../data/klavaro.glade.h:78
-#, fuzzy
 msgid "Hide extra information."
-msgstr "Ẩn thông tin mở rộng"
+msgstr "Ẩn thông tin phụ."
 
 #: ../data/klavaro.glade.h:79
 msgid "Publish to the web your local scores."
@@ -377,7 +377,7 @@ msgstr "_Cập nhật"
 
 #: ../data/klavaro.glade.h:83
 msgid "Load other exercises/lessons"
-msgstr "Tải bài tập/bài học khác"
+msgstr "Tải bài tập hoặc bài học khác"
 
 #: ../data/klavaro.glade.h:84
 msgid "_Other texts"
@@ -420,7 +420,7 @@ msgstr "Chọn phông chữ sử dụng trong cửa sổ bài tập."
 
 #: ../data/klavaro.glade.h:93
 msgid "Font definition"
-msgstr "Xác định phông chữ"
+msgstr "Chọn phông chữ"
 
 #: ../data/klavaro.glade.h:94
 msgid "Keep this checked if you want to get those nice beeps."
@@ -441,7 +441,7 @@ msgstr ""
 
 #: ../data/klavaro.glade.h:98
 msgid "_Progress"
-msgstr "_Tiến trình"
+msgstr "_Tiến triển"
 
 #: ../data/klavaro.glade.h:99
 msgid "Return to the main menu."
@@ -456,17 +456,17 @@ msgid "_Top 10"
 msgstr "_Top 10"
 
 #: ../data/klavaro.desktop.in.h:1
-#, fuzzy
 msgid "A very flexible and efficient touch typing tutor."
-msgstr "Đây là một chương trình học gõ bàn phím máy tính khác dành cho bạn"
+msgstr ""
+"Đây là một chương trình dạy cách gõ bàn phím máy tính rất mềm dẻo và hiệu "
+"quả."
 
 #. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
 #: ../data/klavaro.desktop.in.h:3
-#, fuzzy
 msgid "keyboard;typing;tutor;CAI"
 msgstr ""
 "bàn phím;bàn;phím;ban phim;ban;phim;luyện gõ;luyện;luyen;gõ;go;dạy;keyboard;"
-"typing;tutorial;"
+"typing;tutorial;CAI;"
 
 #: ../src/main.c:242
 msgid "(Custom)"
@@ -498,12 +498,12 @@ msgstr "Phần học cơ bản"
 msgid "Adaptability"
 msgstr "Mô phỏng đoạn văn"
 
-#: ../src/main.c:373 ../src/callbacks.c:1227 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1226 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Tốc độ"
 
-#: ../src/main.c:376 ../src/callbacks.c:1250 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1249 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Trôi chảy"
@@ -512,51 +512,51 @@ msgstr "Trôi chảy"
 msgid "Keys:"
 msgstr "Phím:"
 
-#: ../src/callbacks.c:775 ../src/callbacks.c:791
+#: ../src/callbacks.c:774 ../src/callbacks.c:790
 msgid "Connecting..."
 msgstr "Đang kết nối..."
 
-#: ../src/callbacks.c:1062
+#: ../src/callbacks.c:1061
 msgid "Overwrite user layout"
 msgstr "Ghi đè giao diện người dùng"
 
-#: ../src/callbacks.c:1064
+#: ../src/callbacks.c:1063
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Điều này sẽ GHI ĐÈ lên một giao diện bàn phím có sẵn."
 
-#: ../src/callbacks.c:1071
+#: ../src/callbacks.c:1070
 msgid "Remove user layout"
 msgstr "Gỡ bỏ giao diện người dùng"
 
-#: ../src/callbacks.c:1073
+#: ../src/callbacks.c:1072
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Việc làm này sẽ XÓA BỎ giao diện bàn phím có sẵn."
 
-#: ../src/callbacks.c:1080
+#: ../src/callbacks.c:1079
 msgid "Reset progress data"
 msgstr "Đặt lại dữ liệu lưu tiến trình"
 
-#: ../src/callbacks.c:1081
+#: ../src/callbacks.c:1080
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "Việc làm này sẽ XÓA tất cả dữ liệu được hiển thị đồ thị."
 
-#: ../src/callbacks.c:1224 ../src/top10.c:87
+#: ../src/callbacks.c:1223 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Độ chính xác"
 
-#: ../src/callbacks.c:1227 ../src/tutor.c:1288
+#: ../src/callbacks.c:1226 ../src/tutor.c:1288
 msgid "(WPM)"
 msgstr "(WPM từ trên phút)"
 
-#: ../src/callbacks.c:1238
+#: ../src/callbacks.c:1237
 msgid "Errors"
 msgstr "Lỗi"
 
-#: ../src/callbacks.c:1241
+#: ../src/callbacks.c:1240
 msgid "Touch times (s)"
 msgstr "Thời gian gõ (giây)"
 
-#: ../src/callbacks.c:1253 ../src/tutor.c:1315 ../src/top10.c:69
+#: ../src/callbacks.c:1252 ../src/tutor.c:1315 ../src/top10.c:69
 msgid "Score"
 msgstr "Điểm số"
 
@@ -637,8 +637,8 @@ msgid ""
 "above and add files containing those texts."
 msgstr ""
 "Ngôn ngữ mặc định là cái dùng trong giao diện thực tế. Nhưng bạn có thể chọn "
-"một đoạn văn bản khác với mà bạn muốn sử dụng. Nhấn chuột vào tùy chọn “Cái "
-"khác” ở trên và thêm tập tin chứa văn bản vào."
+"một đoạn văn bản khác với mà bạn muốn sử dụng. Nhấn chuột vào tùy chọn “Văn "
+"bản khác” ở trên và thêm tập tin chứa văn bản vào."
 
 #: ../src/translation.c:601
 msgid ""
@@ -655,7 +655,7 @@ msgid ""
 "entering. The previous exercises were aimed at getting you to type without "
 "interpreting and analyzing the content."
 msgstr ""
-"Chúng ta bây giờ đã hoàn thành các câu, và đoạn văn đã làm nên tư duy lô "
+"Chúng ta bây giờ đã hoàn thành các câu, và đoạn văn đã làm nên tư duy lô-"
 "gíc. Điều này có thể làm bạn bối rối trong khi gõ nếu bạn muốn hiểu mình "
 "đang gõ cái gì. Bài học tiếp theo có mục đích nhắm vào là giúp bạn gõ mà "
 "không cần dịch hay phân tích nội dung."
@@ -685,8 +685,8 @@ msgid ""
 msgstr ""
 "Bài luyện này dài hơn. Mỗi bài gồm có ba đoạn văn và trọng tâm là sự chính "
 "xác và nhịp gõ không yêu cầu phải gõ nhanh. Tại đây bạn sẽ được yêu cầu sử "
-"dụng phím xóa lùi backspace để sửa lỗi gõ sai. Hay nói cách khác, chỉ khi "
-"nhập vào đúng mà không có lỗi nào mới được chấp nhận."
+"dụng phím xóa lùi backspace để sửa những chữ gõ sai. Hay nói cách khác, chỉ "
+"khi nhập vào đúng mà không có lỗi nào mới được chấp nhận."
 
 #: ../src/keyboard.c:1094
 msgid ""
@@ -1022,32 +1022,32 @@ msgstr ""
 " Tiến tới bài kế tiếp.\n"
 
 #: ../src/adaptability.c:213
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
-" Tỷ lệ gõ chính xác của bạn dưới 90%...\n"
-" Xin hãy cố gắng thử lại để phát triển thêm\n"
+" Tỷ lệ gõ chính xác của bạn dưới %.0f%%...\n"
+" Xin hãy cố gắng thử lại để nâng cao tốc độ!\n"
 
 #: ../src/adaptability.c:216
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
 " Bạn làm rất tốt. Nhưng...\n"
-" Bạn có thể gõ chính xác trong tầm ít nhất 95 %?\n"
+" Bạn có thể gõ chính xác trong tầm ít nhất %.0f%%?\n"
 
 #: ../src/adaptability.c:219
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
 " Try a few more times, or maybe you're getting upset, so go to another kind "
 "of exercise.\n"
 msgstr ""
 " Bạn đã gần hoàn thành, nhưng độ chính xác thì vẫn dưới %.0f%%.\n"
-" Hãy thử thêm vài lần nữa, hay có thể bạn đang lúng túng, do đó hãy chọn một "
+" Hãy thử thêm vài lần nữa hoặc có thể bạn đang lúng túng, do đó hãy chọn một "
 "dạng bài tập khác.\n"
 
 #: ../src/adaptability.c:226
@@ -1079,31 +1079,31 @@ msgstr ""
 " Bền chí và rèn luyện sẽ nâng cao tốc độ của bạn.\n"
 
 #: ../src/velocity.c:427
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
 " Vẫn còn cách xa với việc gõ tốc độ cao. Bạn có thể làm tốt hơn thế...\n"
-" Cố gắng ít nhất phải đạt 20 WPM.\n"
+" Cố gắng ít nhất phải đạt tốc độ %.0f WPM.\n"
 
 #: ../src/velocity.c:430
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr ""
 " Bạn làm tốt đấy, nhưng cần phải nhanh hơn.\n"
-" Và đừng quên sự chính xác. Cố gắng đạt được 30 WPM.\n"
+" Và đừng quên gõ chính xác. Cố gắng đạt được %.0f WPM.\n"
 
 #: ../src/velocity.c:433
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach %.0f WPM?\n"
 msgstr ""
 " Tốt. Bây giờ bạn cần phải bắt đầu.\n"
-" Bạn có thể đạt tới tầm 40 WPM?\n"
+" Bạn có thể đạt tới tầm %.0f WPM?\n"
 
 #: ../src/velocity.c:436
 #, c-format
@@ -1123,30 +1123,30 @@ msgstr ""
 " Thử học bài luyện gõ trôi chảy, đồng ý chứ?\n"
 
 #: ../src/velocity.c:442
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fast! Are you a professional?\n"
 " So, try to get %.0f WPM!\n"
 msgstr ""
-" Nhanh thật! Bạn luyện để thi đấu phải không?\n"
-" Vậy hãy cố gắng đạt mức 70 WPM!\n"
+" Nhanh thật! Bạn là chuyên gia à?\n"
+" Vậy hãy cố gắng đạt mức %.0f WPM!\n"
 
 #. Translators: Speed Racer is a reference to a Japanese anime franchise
 #. about automobile racing, also known as Mach GoGoGo.
 #: ../src/velocity.c:447
 #, c-format
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
-msgstr ""
+msgstr " Xếp hạng tốt đấy, Tay đua tốc độ! Bạn có ngại tốc độ %.0f WPM?\n"
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Kunf-fu mastering!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
-" Dùng kiểu bàn phím Dvorak sẽ tốt hơn!\n"
-" Bạn có thể đạt 90 WPM?\n"
+" Kunf-fu siêu hạng!\n"
+" Bạn có thể đạt %.0f WPM?\n"
 
 #. Translators: Dvorak here means that infamous ergonomic keyboard layout.
 #: ../src/velocity.c:454
@@ -1257,6 +1257,9 @@ msgstr "Không thể tải lên các tập tin"
 msgid "Could not upload/download scores."
 msgstr "Không thể tải lên/xuống bảng điểm."
 
+#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
+#~ msgstr "Bấm vào đây để đặt lại bài tập. Phím nóng: [Ctrl R]"
+
 #~ msgid ""
 #~ " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 #~ " Are you afraid of reaching 80 WPM?\n"
@@ -1264,13 +1267,6 @@ msgstr "Không thể tải lên/xuống bảng điểm."
 #~ " 10 người giỏi nhất \"qwerty\". Giờ là lúc chuyển sang kiểu bàn phím "
 #~ "Dvorak.\n"
 #~ " Bạn có tin là mình có thể gõ với tốc độ 80 từ một phút?\n"
-
-#, fuzzy
-#~ msgid "keyboard;CAI"
-#~ msgstr "Bàn phím"
-
-#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-#~ msgstr "Bấm vào đây để đặt lại bài tập. Phím nóng: [Ctrl R]"
 
 #~ msgid "Klavaro"
 #~ msgstr "Klavaro"
