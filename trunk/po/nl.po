@@ -8,10 +8,10 @@
 # Benno Schulenberg <benno@vertaalt.nl>, 2011, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: klavaro 3.00-pre1\n"
+"Project-Id-Version: klavaro 3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-09 18:32-0200\n"
-"PO-Revision-Date: 2014-01-06 21:18+0100\n"
+"POT-Creation-Date: 2014-01-13 21:25-0200\n"
+"PO-Revision-Date: 2014-01-10 17:48+0100\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -358,14 +358,12 @@ msgid "Top 10"
 msgstr "Top 10"
 
 #: ../data/klavaro.glade.h:77
-#, fuzzy
 msgid "Show extra information."
-msgstr "Extra informatie tonen"
+msgstr "Extra informatie tonen."
 
 #: ../data/klavaro.glade.h:78
-#, fuzzy
 msgid "Hide extra information."
-msgstr "Extra informatie verbergen"
+msgstr "Extra informatie verbergen."
 
 #: ../data/klavaro.glade.h:79
 msgid "Publish to the web your local scores."
@@ -464,16 +462,13 @@ msgid "_Top 10"
 msgstr "_Top 10"
 
 #: ../data/klavaro.desktop.in.h:1
-#, fuzzy
 msgid "A very flexible and efficient touch typing tutor."
-msgstr "voor het leren van blind typen"
+msgstr "Een zeer flexibel en efficiënt typelesprogramma."
 
-# XXX  kio estas tio ĉi??
 #. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
 #: ../data/klavaro.desktop.in.h:3
-#, fuzzy
 msgid "keyboard;typing;tutor;CAI"
-msgstr "toetsenbord;typen;leerboek;"
+msgstr "toetsenbord;typen;blindtypen;typeles;lesprogramma;CAI"
 
 #: ../src/main.c:242
 msgid "(Custom)"
@@ -1038,26 +1033,25 @@ msgstr ""
 " Ga naar de volgende les.\n"
 
 #: ../src/adaptability.c:213
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
-" Je nauwkeurigheid is minder dan 90%...\n"
+" Je nauwkeurigheid is minder dan %.0f%%...\n"
 " Wil je het opnieuw proberen om het te verbeteren?\n"
 
 #: ../src/adaptability.c:216
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
 " Je doet het goed. Maar...\n"
-" Kun je je nauwkeurigheid op zijn minst 95% krijgen?\n"
+" Kun je je nauwkeurigheid op zijn minst %.0f%% krijgen?\n"
 
-# XXX  THEN go to ANother
 #: ../src/adaptability.c:219
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
 " Try a few more times, or maybe you're getting upset, so go to another kind "
@@ -1094,33 +1088,33 @@ msgstr ""
 " Heb geduld, probeer het elke dag opnieuw, rust uit en pieker niet:\n"
 " doorzetting en oefening zullen je snelheid verbeteren.\n"
 
-# XXX  can DO better; try TO REACH
+# XXX  can DO better
 #: ../src/velocity.c:427
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
 " Je bent nog ver weg van de snelweg. Je kunt beter...\n"
-" Probeer ten minste 20 WPM te halen.\n"
+" Probeer ten minste %.0f WPM te halen.\n"
 
 #: ../src/velocity.c:430
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr ""
 " Je doet het goed, maar je moet sneller gaan.\n"
-" En verlies de nauwkeurigheid niet uit het oog. Ga voor de 30 WPM.\n"
+" En verlies de nauwkeurigheid niet uit het oog. Ga voor de %.0f WPM.\n"
 
 #: ../src/velocity.c:433
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach %.0f WPM?\n"
 msgstr ""
 " Je kunt nu beginnen met rennen.\n"
-" Kun je de 40 WPM halen?\n"
+" Kun je de %.0f WPM halen?\n"
 
 #: ../src/velocity.c:436
 #, c-format
@@ -1140,13 +1134,13 @@ msgstr ""
 " Probeer nu de oefeningen op vloeiendheid, OK?\n"
 
 #: ../src/velocity.c:442
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fast! Are you a professional?\n"
 " So, try to get %.0f WPM!\n"
 msgstr ""
 " Snel! Train je voor een wedstrijd?\n"
-" Zo ja, probeer de 70 WPM te halen!\n"
+" Zo ja, probeer de %.0f WPM te halen!\n"
 
 #. Translators: Speed Racer is a reference to a Japanese anime franchise
 #. about automobile racing, also known as Mach GoGoGo.
@@ -1154,16 +1148,18 @@ msgstr ""
 #, c-format
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
 msgstr ""
+" Je scoort goed, racemonster! En... ben je bang om de %.0f WPM te halen?\n"
 
+# XXX  ouch: Kung-fu
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Kunf-fu mastering!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
-" Dvorak-modus onder de knie!\n"
-" Kun je vliegen met 90 WPM?\n"
+" Je hebt het onder de knie!\n"
+" Kun je ook vliegen met %.0f WPM?\n"
 
 #. Translators: Dvorak here means that infamous ergonomic keyboard layout.
 #: ../src/velocity.c:454
@@ -1280,14 +1276,6 @@ msgstr "Kan de lokale scores niet uploaden/downloaden."
 #~ " De top van \"qwerty\". Nu is het tijd om om te schakelen naar de Dvorak-"
 #~ "modus.\n"
 #~ " Ben je bang om de 80 WPM te halen?\n"
-
-#, fuzzy
-#~ msgid "keyboard;CAI"
-#~ msgstr "Toetsenbord"
-
-# XXX  kial du preskaŭ identaj mesaĝoj?
-#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-#~ msgstr "Klik hier om de oefening te herstarten. Sneltoets: [Ctrl-R]"
 
 #~ msgid "Klavaro"
 #~ msgstr "'Klavaro'"
