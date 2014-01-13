@@ -1,15 +1,15 @@
 # Hungarian translation of klavaro
-# Copyright (C) 2006, 2009, 2011, 2012 Free Software Foundation, Inc.
+# Copyright (C) 2006, 2009, 2011, 2012, 2014 Free Software Foundation, Inc.
 # This file is distributed under the same license as the klavaro package.
 #
 # Gergely Máté <_gerymate_@gmail.com>, 2006, 2008.
-# Gabor Kelemen <kelemeng@gnome.hu>, 2009, 2011, 2012.
+# Gabor Kelemen <kelemeng@gnome.hu>, 2009, 2011, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: klavaro 1.9.4-pre2\n"
+"Project-Id-Version: klavaro 3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-09 18:32-0200\n"
-"PO-Revision-Date: 2012-01-18 16:30+0100\n"
+"POT-Creation-Date: 2014-01-13 21:25-0200\n"
+"PO-Revision-Date: 2014-01-12 05:59+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
 "Language: hu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.4\n"
 
 #: ../data/klavaro.glade.h:1
 msgid "About 'Klavaro'"
@@ -354,14 +354,12 @@ msgid "Top 10"
 msgstr "Top 10"
 
 #: ../data/klavaro.glade.h:77
-#, fuzzy
 msgid "Show extra information."
-msgstr "További információk megjelenítése"
+msgstr "További információk megjelenítése."
 
 #: ../data/klavaro.glade.h:78
-#, fuzzy
 msgid "Hide extra information."
-msgstr "További információk elrejtése"
+msgstr "További információk elrejtése."
 
 #: ../data/klavaro.glade.h:79
 msgid "Publish to the web your local scores."
@@ -396,17 +394,15 @@ msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "Ez egy egyedi gyakorlat, a hibaprofilodhoz igazítva."
 
 #: ../data/klavaro.glade.h:87
-#, fuzzy
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
-msgstr "A 44-50 leckékben használandó karakterkészlet szerkesztése."
+msgstr "A 43. utáni leckékben használandó karakterkészlet szerkesztése."
 
 #: ../data/klavaro.glade.h:88 ../src/tutor.c:376
 msgid "Drag and drop text here to practice with it."
 msgstr "Húzza ide a szöveget a gyakorlás megkezdéséhez vele."
 
 #: ../data/klavaro.glade.h:89
-#, fuzzy
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
 msgstr "Kattints ide a gyakorlat újrakezdéséhez. Gyorsbillentyű: [Ctrl-R]"
 
@@ -459,15 +455,13 @@ msgid "_Top 10"
 msgstr "_Top 10"
 
 #: ../data/klavaro.desktop.in.h:1
-#, fuzzy
 msgid "A very flexible and efficient touch typing tutor."
-msgstr "Ingyenes és szabad gépírásoktató program"
+msgstr "Nagyon rugalmas és hatékony gépírásoktató program"
 
 #. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
 #: ../data/klavaro.desktop.in.h:3
-#, fuzzy
 msgid "keyboard;typing;tutor;CAI"
-msgstr "Billentyűzet"
+msgstr "billentyűzet;gépelés;oktató;gépírás;CAI"
 
 #: ../src/main.c:242
 msgid "(Custom)"
@@ -886,7 +880,7 @@ msgstr "Ha felkészültél, kezdj gépelni."
 
 #: ../src/tutor.c:568
 msgid "Use backspace to correct errors."
-msgstr ""
+msgstr "A Backspace használatával javíthatók a hibák."
 
 #: ../src/tutor.c:1012
 #, c-format
@@ -1026,32 +1020,32 @@ msgstr ""
 
 # konyvjelzo
 #: ../src/adaptability.c:213
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
-" A pontosságod 90% alatt volt…\n"
+" A pontosságod %.0f%% alatt volt…\n"
 " Megpróbálnád ismét, hogy jobban menjen?\n"
 
 #: ../src/adaptability.c:216
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
 " Jól csinálod. Csak…\n"
-" El tudnád érni a 95%-os pontosságot?\n"
+" El tudnád érni a %.0f%%-os pontosságot?\n"
 
 #: ../src/adaptability.c:219
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
 " Try a few more times, or maybe you're getting upset, so go to another kind "
 "of exercise.\n"
 msgstr ""
 " Már majdnem kész vagy, de még mindig nem vagy %.0f%%-ban pontos.\n"
-" Próbáld még párszor, vagy ha kezd bosszantani, csinálj inkább más "
+" Próbáld még párszor, vagy ha kezd bosszantani, csinálj inkább más típusú "
 "gyakorlatokat.\n"
 
 #: ../src/adaptability.c:226
@@ -1082,31 +1076,31 @@ msgstr ""
 " a kitartó gyakorlás gyorsít a tempódon.\n"
 
 #: ../src/velocity.c:427
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
 " Messze vagy még a sztrádától. Ennél gyorsabban is megy neked!\n"
-" Próbálj legalább 20 szót gépelni percenként.\n"
+" Próbálj legalább %.0f szót gépelni percenként.\n"
 
 #: ../src/velocity.c:430
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr ""
 " Jól csinálod, de gyorsabban kellene.\n"
-" Ne feledd a pontosságot sem. Próbálj 30 szót gépelni percenként.\n"
+" Ne feledd a pontosságot sem. Próbálj %.0f szót gépelni percenként.\n"
 
 #: ../src/velocity.c:433
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach %.0f WPM?\n"
 msgstr ""
 " Remek. Most kezdhetsz száguldani.\n"
-" Le tudsz gépelni 40 szót percenként?\n"
+" Le tudsz gépelni %.0f szót percenként?\n"
 
 #: ../src/velocity.c:436
 #, c-format
@@ -1126,30 +1120,30 @@ msgstr ""
 " Próbáld ki a folytonossági gyakorlatokat, rendben?\n"
 
 #: ../src/velocity.c:442
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fast! Are you a professional?\n"
 " So, try to get %.0f WPM!\n"
 msgstr ""
 " Gyors! Versenyre készülsz?\n"
-" Akkor próbálj 70 szót percenként!\n"
+" Akkor próbálj %.0f szót percenként!\n"
 
 #. Translators: Speed Racer is a reference to a Japanese anime franchise
 #. about automobile racing, also known as Mach GoGoGo.
 #: ../src/velocity.c:447
 #, c-format
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
-msgstr ""
+msgstr " Jól állsz, bajnok! Nem félsz, hogy eléred a percenként %.0f szót?\n"
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Kunf-fu mastering!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
-" A Dvorak mód elintézve!\n"
-" Tudsz percenként 90 szóval haladni?\n"
+" Mint a Forma-1!\n"
+" Tudsz percenként %.0f szóval haladni?\n"
 
 #. Translators: Dvorak here means that infamous ergonomic keyboard layout.
 #: ../src/velocity.c:454
@@ -1259,21 +1253,18 @@ msgstr "A fájlokat nem lehet feltölteni"
 msgid "Could not upload/download scores."
 msgstr "A pontszámok feltöltése/letöltése sikertelen."
 
+#~ msgid "Klavaro"
+#~ msgstr "Klavaro"
+
+#~ msgid "_Font"
+#~ msgstr "_Betűkészlet"
+
+#~ msgid "Default"
+#~ msgstr "Alapértelmezett"
+
 #~ msgid ""
 #~ " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 #~ " Are you afraid of reaching 80 WPM?\n"
 #~ msgstr ""
 #~ " Ez rekord a „qwerty” billentyűzeten. Itt az ideje Dvorak módra váltani.\n"
 #~ " Nem félsz, hogy eléred a percenként 80 szót?\n"
-
-#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-#~ msgstr "Kattints ide a gyakorlat újrakezdéséhez. Gyorsbillentyű: [Ctrl-R]"
-
-#~ msgid "_Font"
-#~ msgstr "_Betűkészlet"
-
-#~ msgid "Klavaro"
-#~ msgstr "Klavaro"
-
-#~ msgid "Default"
-#~ msgstr "Alapértelmezett"

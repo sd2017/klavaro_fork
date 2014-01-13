@@ -4,11 +4,6 @@
 	* Fixed:
 	- Typo: prefered --> preferred
 	- Manpage: minus as hyphen corrected with escapes (\-)
-	* Added:
-	- Keywords in the klavaro.desktop file.
-	- Goals for touch typing skill are now configurable through the
-	  prefences.ini file.
-	- Programmer Dvorak keyboard layout added (dvorak_us_prog.kbd).
 	* Changed:
 	- Migrated from GTK2 to GTK3.
 	- GtkDatabox is incorporated statically, because its last release does
@@ -17,12 +12,21 @@
 	- Some translatable messages were reviewed.
 	- Default background color for the tutor practice text came back to
 	  ice-white: colors are easier customizable in the preferences.ini file.
+	* Added:
+	- Keywords in the klavaro.desktop file.
+	- Goals for touch typing skill are now configurable through the
+	  prefences.ini file.
+	- Programmer Dvorak keyboard layout added (dvorak_us_prog.kbd).
 	* Updated translations:
-	? Dutch.
+	- Basque.
+	- Dutch.
 	- Esperanto.
+	- Hungarian.
 	- Portuguese (Brazilian).
 	- Ukrainian.
 	- Vietnamese.
+	* Added translations:
+	- Finnish (parcial).
 
 2014-01-03  Felipe Castro (-) <fefcas@gmail.com>; gettextize (=)
 

@@ -1,6 +1,9 @@
 _______________________________________________________________________
 Simple list of things that could be done in future (long term) releases:
 
+- "make better" --> "do better"
+- "Kunf-Fu" --> "Kung-fu"
+- "mastering" --> "mastery"
 - Local network support for local scores (libavahi?); zeroconf allows sharing ranking data among users connected to the same network.
 
 __________________________________

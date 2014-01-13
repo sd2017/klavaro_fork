@@ -1,21 +1,20 @@
 # KLAVARO. MEKANOGRAFIA IKASTEKO TUTOREA.
-# Copyright (C) 2012
 # This file is distributed under the same license as the klavaro package.
-# Gorka Azkarate <gorkaazkarate@euskalerria.org>, 2012.
+# Gorka Azkarate Zubiaur <gorkaazkarate@gmail.com>, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: klavaro-1.9.5-pre2\n"
+"Project-Id-Version: klavaro-3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-09 18:32-0200\n"
-"PO-Revision-Date: 2012-09-18 23:44+0200\n"
-"Last-Translator: Gorka Azkarate <gorkaazkarate@gmail.com>\n"
-"Language-Team: Basque <translation-team-eu@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2014-01-13 21:25-0200\n"
+"PO-Revision-Date: 2014-01-12 14:13+0200\n"
+"Last-Translator: Gorka Azkarate Zubiaur <gorkaazkarate@gmail.com>\n"
+"Language-Team:  Basque <translation-team-eu@lists.sourceforge.net>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.0\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #: ../data/klavaro.glade.h:1
 msgid "About 'Klavaro'"
@@ -356,14 +355,12 @@ msgid "Top 10"
 msgstr "Top 10 (Hamar onenak)"
 
 #: ../data/klavaro.glade.h:77
-#, fuzzy
 msgid "Show extra information."
-msgstr "Erakutsi aparteko informazioa"
+msgstr "Erakutsi aparteko informazioa."
 
 #: ../data/klavaro.glade.h:78
-#, fuzzy
 msgid "Hide extra information."
-msgstr "Ezkutatu aparteko informazioa"
+msgstr "Ezkutatu aparteko informazioa."
 
 #: ../data/klavaro.glade.h:79
 msgid "Publish to the web your local scores."
@@ -399,17 +396,17 @@ msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "Ariketa hau berariaz zure akats profilerako prestatu den ariketa da."
 
 #: ../data/klavaro.glade.h:87
-#, fuzzy
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
-msgstr "Editatu 44 ikasgaitik 50 ikasgaira erabiliko den karaktere multzoa."
+msgstr ""
+"Editatu 43 ikasgaitik aurrera erabiliko den karaktere multzoa: karaktereak "
+"pertsonalizatu egin daitezke!"
 
 #: ../data/klavaro.glade.h:88 ../src/tutor.c:376
 msgid "Drag and drop text here to practice with it."
 msgstr "Herrestan eraman testua eta askatu hemen testuarekin praktikatzeko."
 
 #: ../data/klavaro.glade.h:89
-#, fuzzy
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
 msgstr "Sakatu hementxe ariketa berriro hasteko. Laster-tekla: [Ktrl R]"
 
@@ -464,15 +461,13 @@ msgid "_Top 10"
 msgstr " _Top 10 (Hamar onenak)"
 
 #: ../data/klavaro.desktop.in.h:1
-#, fuzzy
 msgid "A very flexible and efficient touch typing tutor."
-msgstr "Oraindik ere, beste ukitze-mekanografia tutore bat"
+msgstr "Ukitze-mekanografia ikasteko oso tutorial malgu eta eraginkorra."
 
 #. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
 #: ../data/klavaro.desktop.in.h:3
-#, fuzzy
 msgid "keyboard;typing;tutor;CAI"
-msgstr "Giltzadia"
+msgstr "giltzadia;mekanografiatzen;CAI"
 
 #: ../src/main.c:242
 msgid "(Custom)"
@@ -1055,34 +1050,33 @@ msgstr ""
 " Zoaz hurrengo ikasgaira.\n"
 
 #: ../src/adaptability.c:213
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
-" Zure zehaztasun indizea %90 azpitik dago...\n"
-" Saiatuko zara, mesedez, hori hobetzen?\n"
+" Zure zehaztasun indizea  %.0f%% azpitik dago...\n"
+" Saiatuko zara, mesedez, hori hobetzeko?\n"
 
 #: ../src/adaptability.c:216
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
 " Ondo ari zara. Baina...\n"
-" Saiatuko zara zehaztasun indizea %95 mugaraino hobetzen?\n"
+" Saiatuko zara zehaztasun indizea %.0f%% mugaraino hobetzen?\n"
 
 #: ../src/adaptability.c:219
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
 " Try a few more times, or maybe you're getting upset, so go to another kind "
 "of exercise.\n"
 msgstr ""
-" Hortxe-hortxe zaude, baina zure zehaztasun indizea oraindik %.0f%% "
-"azpitik.\n"
-" Egin itzazu saio berri bakar batzuk edo agian nekaturik zaude... Behar bada "
-"hobe duzu beste ariketa mota batera jotzea.\n"
+" Hortxe-hortxe zaude baina zure zehaztasun indizea oraindik %.0f%% azpitik.\n"
+" Egin itzazu saio berri bakar batzuk edo agian asper-asper eginda zaude... "
+"Behar bada hobe duzu beste ariketa mota batera jotzea.\n"
 
 #: ../src/adaptability.c:226
 #, c-format
@@ -1113,31 +1107,31 @@ msgstr ""
 " praktikak eta jarraikitasunak zure lastertasunean nabarituko dira.\n"
 
 #: ../src/velocity.c:427
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Still away from the highway. You can make better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
-" Oraindik ez gara autobidean sartu. Hobeto egin dezakezu...\n"
-" Saia zaitez gutxienez 20 hitz minutuko lortzen.\n"
+" Oraindik ez gara autopistan sartu. Hobeto egin dezakezu...\n"
+" Saia zaitez gutxienez %.0f hitz minutuko lortzen.\n"
 
 #: ../src/velocity.c:430
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr ""
-" Ondo ari zara baina azkarrago beharko duzu.\n"
-" Eta ez ahaztu zehaztasuna. Saia zaitez 30 hitz minutuko lortzen.\n"
+" Ondo ari zara baina azkarrago beharko zenuke.\n"
+" Eta ez ahaztu zehaztasuna. Saia zaitez %.0f hitz minutuko lortzen.\n"
 
 #: ../src/velocity.c:433
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach %.0f WPM?\n"
 msgstr ""
 " Ongi. Orain korrika egiten hasi beharko.\n"
-" Irits zintezke 40 hitz minutuko lastertasuneraino?\n"
+" Irits zintezke %.0f hitz minutuko lastertasuneraino?\n"
 
 #: ../src/velocity.c:436
 #, c-format
@@ -1146,7 +1140,7 @@ msgid ""
 " Can you finally reach %.0f WPM?\n"
 msgstr ""
 " Oso ongi. Hortxe-hortxe zaude.\n"
-" Azkenik, irits zaitezke %.0f hitz minutuko lastertasuna lortzeraino?\n"
+" Azkenik, irits zintezke %.0f hitz minutuko lastertasuna lortzeraino?\n"
 
 #: ../src/velocity.c:439
 msgid ""
@@ -1157,13 +1151,13 @@ msgstr ""
 " Saiatuko zara orain jariakortasun ariketekin?\n"
 
 #: ../src/velocity.c:442
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fast! Are you a professional?\n"
 " So, try to get %.0f WPM!\n"
 msgstr ""
-" Azkar! Lehiaketa baterako prestatzen ari zara ala?\n"
-" Bada, saia zaitez 70 hitz minutuko lortzen!\n"
+" Azkar! Honetan profesionala zara?\n"
+" Bada, saia zaitez %.0f hitz minutuko lortzen!\n"
 
 #. Translators: Speed Racer is a reference to a Japanese anime franchise
 #. about automobile racing, also known as Mach GoGoGo.
@@ -1171,16 +1165,18 @@ msgstr ""
 #, c-format
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
 msgstr ""
+"Estatistika onak, Speedy Gonzales! Ez zara ausartuko %.0f hiz minutuko "
+"lortzen saiatzen?\n"
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Kunf-fu mastering!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
-" Dvorak moduan bikain ibili zara!\n"
-" Gora egin dezakezu 90 hitz minutuko mugaraino?\n"
+" Shaolin botereak!\n"
+" Gorago egin dezakezu %.0f hitz minutuko mugaraino?\n"
 
 #. Translators: Dvorak here means that infamous ergonomic keyboard layout.
 #: ../src/velocity.c:454
@@ -1293,6 +1289,15 @@ msgstr "Ezin izan da fitxategirik kargatu"
 msgid "Could not upload/download scores."
 msgstr "Ezin izan da lortutako emaitzarik kargatu/deskargatu"
 
+#~ msgid "Klavaro"
+#~ msgstr "Klavaro"
+
+#~ msgid "_Font"
+#~ msgstr "Letra-_tipoa"
+
+#~ msgid "Default"
+#~ msgstr "Lehenetsia"
+
 #~ msgid ""
 #~ " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 #~ " Are you afraid of reaching 80 WPM?\n"
@@ -1300,15 +1305,3 @@ msgstr "Ezin izan da lortutako emaitzarik kargatu/deskargatu"
 #~ " \"qwerty\" giltzadiko onenak. Orain, bada garaia Dvorak modura "
 #~ "aldatzeko.\n"
 #~ " Kezkatuta zaude 80 hitz minutuko mugarekin?\n"
-
-#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-#~ msgstr "Sakatu hementxe ariketa berriro hasteko. Laster-tekla: [Ktrl R]"
-
-#~ msgid "_Font"
-#~ msgstr "Letra-_tipoa"
-
-#~ msgid "Klavaro"
-#~ msgstr "Klavaro"
-
-#~ msgid "Default"
-#~ msgstr "Lehenetsia"
