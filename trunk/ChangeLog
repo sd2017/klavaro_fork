@@ -19,6 +19,7 @@
 	- Programmer Dvorak keyboard layout added (dvorak_us_prog.kbd).
 	* Updated translations:
 	- Basque.
+	- Danish.
 	- Dutch.
 	- Esperanto.
 	- Hungarian.
@@ -26,7 +27,7 @@
 	- Ukrainian.
 	- Vietnamese.
 	* Added translations:
-	- Finnish (parcial).
+	- Finnish (partial).
 
 2014-01-03  Felipe Castro (-) <fefcas@gmail.com>; gettextize (=)
 
