@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-08 15:54-0200\n"
+"POT-Creation-Date: 2014-01-23 22:07-0200\n"
 "PO-Revision-Date: 2014-01-18 03:07+0200\n"
 "Last-Translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>\n"
 "Language-Team: Greek <team@lists.gnome.gr>\n"
@@ -57,19 +57,36 @@ msgstr "Βοήθεια;"
 
 #: ../data/klavaro.glade.h:10
 msgid "This is a tip. Now you press this button to return to the main menu."
-msgstr "Αυτή είναι μια συμβουλή. Τώρα πατήστε αυτό το κουμπί για να επιστρέψετε στο κύριο μενού."
+msgstr ""
+"Αυτή είναι μια συμβουλή. Τώρα πατήστε αυτό το κουμπί για να επιστρέψετε στο "
+"κύριο μενού."
 
 #: ../data/klavaro.glade.h:11
 msgid "B_ack to menu"
 msgstr "_Πίσω στο μενού"
 
 #: ../data/klavaro.glade.h:12
-msgid "The main menu of the application is very straightforward. Just select the type of exercise you wish to take. Do not worry about clicking any button on the screen. The buttons will never hurt you!"
-msgstr "Το κύριο μενού της εφαρμογής είναι πολύ απλό. Απλά επιλέξτε τον τύπο της άσκησης που θέλετε να κάνετε. Μην ανησυχείτε για το αν θα πατήσετε οποιοδήποτε κουμπί στην οθόνη. Τα κουμπιά ποτέ δεν θα σας βλάψουν!"
+msgid ""
+"The main menu of the application is very straightforward. Just select the "
+"type of exercise you wish to take. Do not worry about clicking any button on "
+"the screen. The buttons will never hurt you!"
+msgstr ""
+"Το κύριο μενού της εφαρμογής είναι πολύ απλό. Απλά επιλέξτε τον τύπο της "
+"άσκησης που θέλετε να κάνετε. Μην ανησυχείτε για το αν θα πατήσετε "
+"οποιοδήποτε κουμπί στην οθόνη. Τα κουμπιά ποτέ δεν θα σας βλάψουν!"
 
 #: ../data/klavaro.glade.h:13
-msgid "Also the controls have tips which will appear if you hover over them with your mouse. These tips can come in very handy. To see how these tips work, position your mouse over the button below, and without clicking, wait for the tip to appear..."
-msgstr "Επίσης τα χειριστήρια έχουν συμβουλές που εμφανίζονται όταν σταθείτε πάνω τους με το ποντίκι. Αυτές οι συμβουλές μπορούν να είναι πολύ βολικές. Για να δείτε πως λειτουργούν αυτές οι συμβουλές, τοποθετήστε το δείκτη του ποντικιού σας πάνω από ένα κουμπί παρακάτω και χωρίς να κάνετε κλικ περιμένετε λίγο ώσπου να εμφανιστεί η συμβουλή..."
+msgid ""
+"Also the controls have tips which will appear if you hover over them with "
+"your mouse. These tips can come in very handy. To see how these tips work, "
+"position your mouse over the button below, and without clicking, wait for "
+"the tip to appear..."
+msgstr ""
+"Επίσης τα χειριστήρια έχουν συμβουλές που εμφανίζονται όταν σταθείτε πάνω "
+"τους με το ποντίκι. Αυτές οι συμβουλές μπορούν να είναι πολύ βολικές. Για να "
+"δείτε πως λειτουργούν αυτές οι συμβουλές, τοποθετήστε το δείκτη του "
+"ποντικιού σας πάνω από ένα κουμπί παρακάτω και χωρίς να κάνετε κλικ "
+"περιμένετε λίγο ώσπου να εμφανιστεί η συμβουλή..."
 
 #: ../data/klavaro.glade.h:14
 msgid "Klavaro - Select file"
@@ -92,8 +109,12 @@ msgid "Rename the selected item."
 msgstr "Μετονομασία του επιλεγμένου αντικειμένου."
 
 #: ../data/klavaro.glade.h:19
-msgid "Read a text file and add a copy of it here. The file must be encoded in UTF-8."
-msgstr "Διάβασμα ενός αρχείου κειμένου και προσθήκη αντιγράφου του εδώ. Το αρχείο πρέπει να είναι κωδικοποιημένο σε UTF-8."
+msgid ""
+"Read a text file and add a copy of it here. The file must be encoded in "
+"UTF-8."
+msgstr ""
+"Διάβασμα ενός αρχείου κειμένου και προσθήκη αντιγράφου του εδώ. Το αρχείο "
+"πρέπει να είναι κωδικοποιημένο σε UTF-8."
 
 #: ../data/klavaro.glade.h:20
 msgid "_Open text file"
@@ -148,8 +169,12 @@ msgid "_Remove"
 msgstr "_Κατάργηση"
 
 #: ../data/klavaro.glade.h:33
-msgid "Toggles the shift effect on the keys. Alternates between the upper and lower characters of the keys."
-msgstr "Εναλλάσσει την επίδραση του shift στα πλήκτρα. Εναλλάσσει μεταξύ κεφαλαίων και πεζών χαρακτήρων των πλήκτρων."
+msgid ""
+"Toggles the shift effect on the keys. Alternates between the upper and lower "
+"characters of the keys."
+msgstr ""
+"Εναλλάσσει την επίδραση του shift στα πλήκτρα. Εναλλάσσει μεταξύ κεφαλαίων "
+"και πεζών χαρακτήρων των πλήκτρων."
 
 #: ../data/klavaro.glade.h:34
 msgid "SPACE BAR"
@@ -193,15 +218,21 @@ msgstr "Επιστροφή χωρίς καμία τροποποίηση."
 
 #: ../data/klavaro.glade.h:44
 msgid "Save the current keyboard layout with the name specified above."
-msgstr "Αποθήκευση της τρέχουσας διάταξης πληκτρολογίου με το όνομα που καθορίζεται παραπάνω."
+msgstr ""
+"Αποθήκευση της τρέχουσας διάταξης πληκτρολογίου με το όνομα που καθορίζεται "
+"παραπάνω."
 
 #: ../data/klavaro.glade.h:45
 msgid "_Save and use"
 msgstr "_Αποθήκευση και χρήση"
 
 #: ../data/klavaro.glade.h:46
-msgid "If you like those beautiful hands, click here to close this window keeping them."
-msgstr "Αν σας αρέσουν αυτά τα υπέροχα χέρια, κάντε κλικ εδώ για να κλείσετε αυτό το παράθυρο κρατώντας τα χέρια."
+msgid ""
+"If you like those beautiful hands, click here to close this window keeping "
+"them."
+msgstr ""
+"Αν σας αρέσουν αυτά τα υπέροχα χέρια, κάντε κλικ εδώ για να κλείσετε αυτό το "
+"παράθυρο κρατώντας τα χέρια."
 
 #: ../data/klavaro.glade.h:47
 msgid "_Keep hands"
@@ -252,8 +283,12 @@ msgid "Practice with complete texts"
 msgstr "Εξάσκηση με πλήρη κείμενα"
 
 #: ../data/klavaro.glade.h:59
-msgid "Keyboard layout for modules 1 and 2. Also used informatively in the fluidness contest."
-msgstr "Διάταξη πληκτρολογίου για τις μονάδες 1 και 2. Επίσης χρησιμοποιείται για τον διαγωνισμό ρευστότητας."
+msgid ""
+"Keyboard layout for modules 1 and 2. Also used informatively in the "
+"fluidness contest."
+msgstr ""
+"Διάταξη πληκτρολογίου για τις μονάδες 1 και 2. Επίσης χρησιμοποιείται για "
+"τον διαγωνισμό ρευστότητας."
 
 #: ../data/klavaro.glade.h:60
 msgid "_Keyboard:"
@@ -357,15 +392,21 @@ msgstr "_Άλλα κείμενα"
 
 #: ../data/klavaro.glade.h:85
 msgid "Edit the character set to be used in this lesson."
-msgstr "Επεξεργασία του συνόλου χαρακτήρων που θα χρησιμοποιηθούν σε αυτό το μάθημα."
+msgstr ""
+"Επεξεργασία του συνόλου χαρακτήρων που θα χρησιμοποιηθούν σε αυτό το μάθημα."
 
 #: ../data/klavaro.glade.h:86
 msgid "This is a specific exercise, adjusted to your error profile."
-msgstr "Αυτή είναι μία συγκεκριμένη άσκηση που προσαρμόστηκε στο προφίλ των λαθών σας."
+msgstr ""
+"Αυτή είναι μία συγκεκριμένη άσκηση που προσαρμόστηκε στο προφίλ των λαθών "
+"σας."
 
 #: ../data/klavaro.glade.h:87
-msgid "Edit the character set to be used in lessons after 43: they are customizable!"
-msgstr "Επεξεργασία του συνόλου χαρακτήρων που θα χρησιμοποιηθούν στα μαθήματα μετά το 43: είναι προσαρμόσιμα!"
+msgid ""
+"Edit the character set to be used in lessons after 43: they are customizable!"
+msgstr ""
+"Επεξεργασία του συνόλου χαρακτήρων που θα χρησιμοποιηθούν στα μαθήματα μετά "
+"το 43: είναι προσαρμόσιμα!"
 
 #: ../data/klavaro.glade.h:88 ../src/tutor.c:376
 msgid "Drag and drop text here to practice with it."
@@ -373,11 +414,14 @@ msgstr "Σύρετε και αφήστε κείμενο εδώ για να εξ�
 
 #: ../data/klavaro.glade.h:89
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
-msgstr "Πατήστε εδώ για να επανεκκινήσετε την άσκηση. Πλήκτρο συντόμευσης [Ctrl-R]"
+msgstr ""
+"Πατήστε εδώ για να επανεκκινήσετε την άσκηση. Πλήκτρο συντόμευσης [Ctrl-R]"
 
 #: ../data/klavaro.glade.h:90
 msgid "Show the virtual keyboard and the relation between fingers and keys."
-msgstr "Εμφάνιση του εικονικού πληκτρολογίου και της σχέσης μεταξύ δακτύλων και των πλήκτρων."
+msgstr ""
+"Εμφάνιση του εικονικού πληκτρολογίου και της σχέσης μεταξύ δακτύλων και των "
+"πλήκτρων."
 
 #: ../data/klavaro.glade.h:91
 msgid "_Keyboard"
@@ -385,7 +429,8 @@ msgstr "_Πληκτρολόγιο"
 
 #: ../data/klavaro.glade.h:92
 msgid "Select the font to be used in the exercise window."
-msgstr "Επιλογή της γραμματοσειράς που θα χρησιμοποιηθεί στο παράθυρο της άσκησης."
+msgstr ""
+"Επιλογή της γραμματοσειράς που θα χρησιμοποιηθεί στο παράθυρο της άσκησης."
 
 #: ../data/klavaro.glade.h:93
 msgid "Font definition"
@@ -405,7 +450,8 @@ msgstr "Πληροφορίες _μαθήματος"
 
 #: ../data/klavaro.glade.h:97
 msgid "Charts showing the learning progress along the exercises."
-msgstr "Διαγράμματα που δείχνουν την πρόοδο εκμάθησης κατά την εξέλιξη των ασκήσεων."
+msgstr ""
+"Διαγράμματα που δείχνουν την πρόοδο εκμάθησης κατά την εξέλιξη των ασκήσεων."
 
 #: ../data/klavaro.glade.h:98
 msgid "_Progress"
@@ -425,7 +471,8 @@ msgstr "_Κορυφαία 10"
 
 #: ../data/klavaro.desktop.in.h:1
 msgid "A very flexible and efficient touch typing tutor."
-msgstr "Ένα πολύ ευέλικτο και αποτελεσματικό εκπαιδευτικό λογισμικό δακτυλογραφίας"
+msgstr ""
+"Ένα πολύ ευέλικτο και αποτελεσματικό εκπαιδευτικό λογισμικό δακτυλογραφίας"
 
 #. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
 #: ../data/klavaro.desktop.in.h:3
@@ -449,7 +496,9 @@ msgstr "(Προκαθορισμένο)"
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] "Κατάσταση υπαγόρευσης (εξαρτάται από τον συνθετητή ομιλίας: %s)"
-msgstr[1] "Κατάσταση υπαγόρευσης (εξαρτάται από ένα από αυτούς τους συνθετητές ομιλίας: %s)"
+msgstr[1] ""
+"Κατάσταση υπαγόρευσης (εξαρτάται από ένα από αυτούς τους συνθετητές ομιλίας: "
+"%s)"
 
 #: ../src/main.c:364 ../src/keyboard.c:1291
 msgid "Introduction"
@@ -503,7 +552,8 @@ msgstr "Κατάργηση των δεδομένων προόδου"
 
 #: ../src/callbacks.c:1080
 msgid "This will DELETE all the progress data shown in the charts."
-msgstr "Αυτό τα ΔΙΑΓΡΑΨΕΙ όλα τα δεδομένα προόδου που εμφανίζονται στα διαγράμματα."
+msgstr ""
+"Αυτό τα ΔΙΑΓΡΑΨΕΙ όλα τα δεδομένα προόδου που εμφανίζονται στα διαγράμματα."
 
 #: ../src/callbacks.c:1223 ../src/top10.c:87
 msgid "Accuracy"
@@ -531,92 +581,229 @@ msgid "en"
 msgstr "el"
 
 #: ../src/translation.c:572
-msgid "The basic course focuses on having you read the characters presented to you on screen and typing the corresponding keys. Remember to keep your hands correctly oriented on the home row of the keyboard at all times (see introduction on main menu)."
-msgstr "Η βασική σειρά μαθημάτων εστιάζει στο να σας βάλει να διαβάζετε τους χαρακτήρες που σας παρουσιάζονται στην οθόνη και να πληκτρολογείτε τα αντίστοιχα πλήκτρα. Να θυμάστε να κρατάτε πάντα τα χέρια σας σωστά τοποθετημένα στην βασική γραμμή του πληκτρολογίου (δείτε την εισαγωγή στο κύριο μενού)."
+msgid ""
+"The basic course focuses on having you read the characters presented to you "
+"on screen and typing the corresponding keys. Remember to keep your hands "
+"correctly oriented on the home row of the keyboard at all times (see "
+"introduction on main menu)."
+msgstr ""
+"Η βασική σειρά μαθημάτων εστιάζει στο να σας βάλει να διαβάζετε τους "
+"χαρακτήρες που σας παρουσιάζονται στην οθόνη και να πληκτρολογείτε τα "
+"αντίστοιχα πλήκτρα. Να θυμάστε να κρατάτε πάντα τα χέρια σας σωστά "
+"τοποθετημένα στην βασική γραμμή του πληκτρολογίου (δείτε την εισαγωγή στο "
+"κύριο μενού)."
 
 #: ../src/translation.c:576
-msgid "The key set used in each series will be shown in the above message line. The [Space], [Shift] and [Enter] keys may not show up there but are used very often."
-msgstr "Στην επάνω  γραμμή μηνύματος θα εμφανίζεται το σύνολο των πλήκτρων που χρησιμοποιούνται σε κάθε ομάδα. Τα πλήκτρα [Διάστημα], [Shift] και [Enter] μπορεί να μην εμφανίζονται αλλά χρησιμοποιούνται πολύ συχνά."
+msgid ""
+"The key set used in each series will be shown in the above message line. The "
+"[Space], [Shift] and [Enter] keys may not show up there but are used very "
+"often."
+msgstr ""
+"Στην επάνω  γραμμή μηνύματος θα εμφανίζεται το σύνολο των πλήκτρων που "
+"χρησιμοποιούνται σε κάθε ομάδα. Τα πλήκτρα [Διάστημα], [Shift] και [Enter] "
+"μπορεί να μην εμφανίζονται αλλά χρησιμοποιούνται πολύ συχνά."
 
 #: ../src/translation.c:579
-msgid "The message line below follows and echoes your key presses. If required, it changes and displays instructions for actions required from you."
-msgstr "Στην κάτω γραμμή μηνύματος εμφανίζονται τα πατήματα των πλήκτρων σας. Επίσης, αν απαιτείται, προβάλλονται οδηγίες για ενέργειες που χρειάζονται από εσάς."
+msgid ""
+"The message line below follows and echoes your key presses. If required, it "
+"changes and displays instructions for actions required from you."
+msgstr ""
+"Στην κάτω γραμμή μηνύματος εμφανίζονται τα πατήματα των πλήκτρων σας. "
+"Επίσης, αν απαιτείται, προβάλλονται οδηγίες για ενέργειες που χρειάζονται "
+"από εσάς."
 
 #: ../src/translation.c:583
-msgid "Here you may practice and improve your memorization of all keys. There will be sentences presented with nonsense words which mix some numbers and symbols."
-msgstr "Εδώ μπορείτε να εξασκηθείτε και να βελτιωθείτε στην απομνημόνευση όλων των πλήκτρων. Θα παρουσιαστούν προτάσεις με λέξεις χωρίς νόημα που αναμιγνύουν μερικούς αριθμούς και σύμβολα."
+msgid ""
+"Here you may practice and improve your memorization of all keys. There will "
+"be sentences presented with nonsense words which mix some numbers and "
+"symbols."
+msgstr ""
+"Εδώ μπορείτε να εξασκηθείτε και να βελτιωθείτε στην απομνημόνευση όλων των "
+"πλήκτρων. Θα παρουσιαστούν προτάσεις με λέξεις χωρίς νόημα που αναμιγνύουν "
+"μερικούς αριθμούς και σύμβολα."
 
 #: ../src/translation.c:586
-msgid "In order to keep the lesson contents language and keyboard independent, accented letter combinations will probably not appear. For real word sentences, please use the fourth option of the main menu (about fluidness)."
-msgstr "Για να διατηρηθούν τα περιεχόμενα του μαθήματος ανεξάρτητα από τη γλώσσα και το πληκτρολόγιο, οι συνδυασμοί τονισμένων χαρακτήρων πιθανά δεν θα εμφανίζονται. Για προτάσεις του πραγματικού κόσμου, παρακαλούμε χρησιμοποιήστε την τέταρτη επιλογή του κυρίως μενού (σχετικά με την ρευστότητα)."
+msgid ""
+"In order to keep the lesson contents language and keyboard independent, "
+"accented letter combinations will probably not appear. For real word "
+"sentences, please use the fourth option of the main menu (about fluidness)."
+msgstr ""
+"Για να διατηρηθούν τα περιεχόμενα του μαθήματος ανεξάρτητα από τη γλώσσα και "
+"το πληκτρολόγιο, οι συνδυασμοί τονισμένων χαρακτήρων πιθανά δεν θα "
+"εμφανίζονται. Για προτάσεις του πραγματικού κόσμου, παρακαλούμε "
+"χρησιμοποιήστε την τέταρτη επιλογή του κυρίως μενού (σχετικά με την "
+"ρευστότητα)."
 
 #: ../src/translation.c:590
-msgid "After each exercise there will be a brief statistics panel reviewing your performance along with some relevant comments."
-msgstr "Μετά από κάθε άσκηση θα υπάρχει ένας σύντομος πίνακας στατιστικών με κριτική της απόδοσης σας μαζί με κάποια σχετικά σχόλια."
+msgid ""
+"After each exercise there will be a brief statistics panel reviewing your "
+"performance along with some relevant comments."
+msgstr ""
+"Μετά από κάθε άσκηση θα υπάρχει ένας σύντομος πίνακας στατιστικών με κριτική "
+"της απόδοσης σας μαζί με κάποια σχετικά σχόλια."
 
 #: ../src/translation.c:594
-msgid "This exercise is very similar to the second one, for adaptability. The difference is that here you'll type real words."
-msgstr "Αυτή η άσκηση είναι πολύ όμοια με την δεύτερη, για προσαρμοστικότητα. Η διαφορά είναι ότι εδώ θα πληκτρολογείτε πραγματικές λέξεις."
+msgid ""
+"This exercise is very similar to the second one, for adaptability. The "
+"difference is that here you'll type real words."
+msgstr ""
+"Αυτή η άσκηση είναι πολύ όμοια με την δεύτερη, για προσαρμοστικότητα. Η "
+"διαφορά είναι ότι εδώ θα πληκτρολογείτε πραγματικές λέξεις."
 
 #: ../src/translation.c:597
-msgid "The default language is the actual one of the interface. But you may select any other texts with words you would like to use. Press the 'Other' option above and add files containing those texts."
-msgstr "Η προκαθορισμένη γλώσσα είναι η γλώσσα της διεπαφής. Αλλά μπορείτε να επιλέξετε οποιαδήποτε άλλα κείμενα με λέξεις που θέλετε να χρησιμοποιηθούν. Πατήστε την επιλογή 'Άλλα' πάνω και προσθέστε τα αρχεία που περιέχουν αυτά τα κείμενα."
+msgid ""
+"The default language is the actual one of the interface. But you may select "
+"any other texts with words you would like to use. Press the 'Other' option "
+"above and add files containing those texts."
+msgstr ""
+"Η προκαθορισμένη γλώσσα είναι η γλώσσα της διεπαφής. Αλλά μπορείτε να "
+"επιλέξετε οποιαδήποτε άλλα κείμενα με λέξεις που θέλετε να χρησιμοποιηθούν. "
+"Πατήστε την επιλογή 'Άλλα' πάνω και προσθέστε τα αρχεία που περιέχουν αυτά "
+"τα κείμενα."
 
 #: ../src/translation.c:601
-msgid "With this exercise the focus is on speed. So, you are supposed to type really fast and I will only flatter you when you deserve it!"
-msgstr "Με αυτή την άσκηση η εστίαση είναι στην ταχύτητα. Έτσι, θα προσπαθήσετε να πληκτρολογείτε πραγματικά γρήγορα και θα επαινείστε όταν το αξίζετε!"
+msgid ""
+"With this exercise the focus is on speed. So, you are supposed to type "
+"really fast and I will only flatter you when you deserve it!"
+msgstr ""
+"Με αυτή την άσκηση η εστίαση είναι στην ταχύτητα. Έτσι, θα προσπαθήσετε να "
+"πληκτρολογείτε πραγματικά γρήγορα και θα επαινείστε όταν το αξίζετε!"
 
 #: ../src/translation.c:605
-msgid "We will now use complete sentences and paragraphs which make logical sense. This may distract you while you type if you try to understand what you are entering. The previous exercises were aimed at getting you to type without interpreting and analyzing the content."
-msgstr "Τώρα θα χρησιμοποιηθούν ολόκληρες προτάσεις και παράγραφοι που έχουν λογικό νόημα. Αυτό μπορεί να σας αποσπάσει την προσοχή καθώς πληκτρολογείτε, αν προσπαθήσετε να καταλάβετε τι εισάγετε. Οι προηγούμενες ασκήσεις στόχευαν στο να σας κάνουν να πληκτρολογείτε χωρίς να μεταφράζετε και να αναλύετε το περιεχόμενο."
+msgid ""
+"We will now use complete sentences and paragraphs which make logical sense. "
+"This may distract you while you type if you try to understand what you are "
+"entering. The previous exercises were aimed at getting you to type without "
+"interpreting and analyzing the content."
+msgstr ""
+"Τώρα θα χρησιμοποιηθούν ολόκληρες προτάσεις και παράγραφοι που έχουν λογικό "
+"νόημα. Αυτό μπορεί να σας αποσπάσει την προσοχή καθώς πληκτρολογείτε, αν "
+"προσπαθήσετε να καταλάβετε τι εισάγετε. Οι προηγούμενες ασκήσεις στόχευαν "
+"στο να σας κάνουν να πληκτρολογείτε χωρίς να μεταφράζετε και να αναλύετε το "
+"περιεχόμενο."
 
 #: ../src/translation.c:609
-msgid "We do not mean to imply that the typists must behave like a robot, without understanding what they type. We do aim to develop the skill of typing, making it an automatic reflex akin to the acts of walking, talking, etc. After reaching this goal, the act of typing will become automatic and require little concentration. Then you will be able to pay attention to the real meaning of the text."
-msgstr "Δεν εννοούμε ότι οι δακτυλογράφοι πρέπει να συμπεριφέρονται σαν ρομπότ, χωρίς κατανόηση του τι πληκτρολογούν. Στοχεύουμε να αναπτύξουμε την ικανότητα της πληκτρολόγησης δημιουργώντας ένα αυτόματο ανακλαστικό παρόμοιο με τη βάδιση, ομιλία κλπ. Μετά την επίτευξη αυτού του στόχου, η δράση της πληκτρολόγησης θα γίνει αυτόματη και θα χρειάζεται λίγη συγκέντρωση. Τότε θα μπορείτε να δώσετε σημασία στο πραγματικό νόημα του κειμένου."
+msgid ""
+"We do not mean to imply that the typists must behave like a robot, without "
+"understanding what they type. We do aim to develop the skill of typing, "
+"making it an automatic reflex akin to the acts of walking, talking, etc. "
+"After reaching this goal, the act of typing will become automatic and "
+"require little concentration. Then you will be able to pay attention to the "
+"real meaning of the text."
+msgstr ""
+"Δεν εννοούμε ότι οι δακτυλογράφοι πρέπει να συμπεριφέρονται σαν ρομπότ, "
+"χωρίς κατανόηση του τι πληκτρολογούν. Στοχεύουμε να αναπτύξουμε την "
+"ικανότητα της πληκτρολόγησης δημιουργώντας ένα αυτόματο ανακλαστικό παρόμοιο "
+"με τη βάδιση, ομιλία κλπ. Μετά την επίτευξη αυτού του στόχου, η δράση της "
+"πληκτρολόγησης θα γίνει αυτόματη και θα χρειάζεται λίγη συγκέντρωση. Τότε θα "
+"μπορείτε να δώσετε σημασία στο πραγματικό νόημα του κειμένου."
 
 #: ../src/translation.c:613
-msgid "These exercises are longer. Each exercise consists of three paragraphs and the emphasis is placed on correctness and rhythm, with a minimum speed requirement. Here you will be required to use the backspace key to correct any mistakes. In other words, only input without error will be accepted."
-msgstr "Αυτές οι ασκήσεις είναι μεγαλύτερες. Κάθε άσκηση αποτελείται από τρεις παραγράφους και η έμφαση είναι στην ακρίβεια και στον ρυθμό, με ελάχιστη απαίτηση ταχύτητας. Εδώ θα χρειαστεί να χρησιμοποιήσετε το πλήκτρο backspace για να διορθώσετε οποιαδήποτε λάθη. Με άλλα λόγια, θα είναι αποδεκτή μόνο είσοδος χωρίς σφάλματα."
+msgid ""
+"These exercises are longer. Each exercise consists of three paragraphs and "
+"the emphasis is placed on correctness and rhythm, with a minimum speed "
+"requirement. Here you will be required to use the backspace key to correct "
+"any mistakes. In other words, only input without error will be accepted."
+msgstr ""
+"Αυτές οι ασκήσεις είναι μεγαλύτερες. Κάθε άσκηση αποτελείται από τρεις "
+"παραγράφους και η έμφαση είναι στην ακρίβεια και στον ρυθμό, με ελάχιστη "
+"απαίτηση ταχύτητας. Εδώ θα χρειαστεί να χρησιμοποιήσετε το πλήκτρο backspace "
+"για να διορθώσετε οποιαδήποτε λάθη. Με άλλα λόγια, θα είναι αποδεκτή μόνο "
+"είσοδος χωρίς σφάλματα."
 
 #: ../src/keyboard.c:1094
-msgid "Correct positioning of the hands and fingers is very important to efficient typing. You will learn faster and type better if you follow the next recommendations."
-msgstr "Η σωστή τοποθέτηση των χεριών και των δακτύλων είναι πολύ σημαντική για αποτελεσματική πληκτρολόγηση. Θα μάθετε γρηγορότερα και θα πληκτρολογείτε καλύτερα αν ακολουθήσετε τις ακόλουθες συστάσεις."
+msgid ""
+"Correct positioning of the hands and fingers is very important to efficient "
+"typing. You will learn faster and type better if you follow the next "
+"recommendations."
+msgstr ""
+"Η σωστή τοποθέτηση των χεριών και των δακτύλων είναι πολύ σημαντική για "
+"αποτελεσματική πληκτρολόγηση. Θα μάθετε γρηγορότερα και θα πληκτρολογείτε "
+"καλύτερα αν ακολουθήσετε τις ακόλουθες συστάσεις."
 
 #: ../src/keyboard.c:1097
-msgid "The index-finger tips rest over each of the two keys which have a small raised mark, in the center of the keyboard."
-msgstr "Οι άκρες των δεικτών στέκονται στο κέντρο του πληκτρολογίου, πάνω από τα δύο πλήκτρα που έχουν ένα μικρό εξόγκωμα,"
+msgid ""
+"The index-finger tips rest over each of the two keys which have a small "
+"raised mark, in the center of the keyboard."
+msgstr ""
+"Οι άκρες των δεικτών στέκονται στο κέντρο του πληκτρολογίου, πάνω από τα δύο "
+"πλήκτρα που έχουν ένα μικρό εξόγκωμα,"
 
 #: ../src/keyboard.c:1100
-msgid "These marks function as 'tactile hooks' for your fingers to remain at the correct position. This way, with a little experience, you will not need to look at the keyboard to see if your fingers are properly positioned."
-msgstr "Αυτά τα εξογκώματα λειτουργούν ως αναγνώριση αφής ώστε τα δάχτυλα σας να παραμένουν στην σωστή θέση. Έτσι δεν θα χρειάζεται να κοιτάζετε στο πληκτρολόγιο για να δείτε αν τα δάχτυλα σας είναι τοποθετημένα σωστά."
+msgid ""
+"These marks function as 'tactile hooks' for your fingers to remain at the "
+"correct position. This way, with a little experience, you will not need to "
+"look at the keyboard to see if your fingers are properly positioned."
+msgstr ""
+"Αυτά τα εξογκώματα λειτουργούν ως αναγνώριση αφής ώστε τα δάχτυλα σας να "
+"παραμένουν στην σωστή θέση. Έτσι δεν θα χρειάζεται να κοιτάζετε στο "
+"πληκτρολόγιο για να δείτε αν τα δάχτυλα σας είναι τοποθετημένα σωστά."
 
 #: ../src/keyboard.c:1104
-msgid "The tips of the other fingers lie naturally beside the index ones, over the keys on the same row of the keyboard."
-msgstr "Οι άκρες των υπόλοιπων δακτύλων τοποθετούνται δίπλα στους δείκτες, πάνω στα πλήκτρα της ίδιας σειράς του πληκτρολογίου."
+msgid ""
+"The tips of the other fingers lie naturally beside the index ones, over the "
+"keys on the same row of the keyboard."
+msgstr ""
+"Οι άκρες των υπόλοιπων δακτύλων τοποθετούνται δίπλα στους δείκτες, πάνω στα "
+"πλήκτρα της ίδιας σειράς του πληκτρολογίου."
 
 #: ../src/keyboard.c:1107
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "Τα εξωτερικά άκρα των αντιχείρων σας στέκονται πάνω από το διάστημα."
 
 #: ../src/keyboard.c:1109
-msgid "The part of the hands closest to the wrist (the base) rest over the table, outside the keyboard. Without this kind of support the arms would quickly tire."
-msgstr "Το τμήμα του χεριού που είναι πλησιέστερα στον καρπό (η βάση) βρίσκεται πάνω από το τραπέζι, εκτός πληκτρολογίου. Χωρίς αυτό το είδος υποστήριξης τα χέρια θα κουράζονταν γρήγορα."
+msgid ""
+"The part of the hands closest to the wrist (the base) rest over the table, "
+"outside the keyboard. Without this kind of support the arms would quickly "
+"tire."
+msgstr ""
+"Το τμήμα του χεριού που είναι πλησιέστερα στον καρπό (η βάση) βρίσκεται πάνω "
+"από το τραπέζι, εκτός πληκτρολογίου. Χωρίς αυτό το είδος υποστήριξης τα "
+"χέρια θα κουράζονταν γρήγορα."
 
 #: ../src/keyboard.c:1112
-msgid "This is referred to as the home position for the hands. From it the fingers move all over the keyboard, reaching all the keys as naturally and quickly as possible. To reach this goal one uses a specific relation between each key and finger. This relation will be learned gradually as you complete the basic course."
-msgstr "Αυτή είναι η λεγόμενη αρχική θέση των χεριών. Από αυτή τα δάχτυλα κινούνται σε όλο το πληκτρολόγιο, φτάνοντας όλα τα πλήκτρα όσο πιο απλά και γρήγορα είναι δυνατό. Για να επιτευχθεί αυτός ο στόχος κάποιος πρέπει να χρησιμοποιήσει ειδική σχέση μεταξύ κάθε πλήκτρου και δαχτύλου. Αυτή η σχέση θα επιτευχθεί σταδιακά καθώς θα ολοκληρώνετε την βασική σειρά μαθημάτων."
+msgid ""
+"This is referred to as the home position for the hands. From it the fingers "
+"move all over the keyboard, reaching all the keys as naturally and quickly "
+"as possible. To reach this goal one uses a specific relation between each "
+"key and finger. This relation will be learned gradually as you complete the "
+"basic course."
+msgstr ""
+"Αυτή είναι η λεγόμενη αρχική θέση των χεριών. Από αυτή τα δάχτυλα κινούνται "
+"σε όλο το πληκτρολόγιο, φτάνοντας όλα τα πλήκτρα όσο πιο απλά και γρήγορα "
+"είναι δυνατό. Για να επιτευχθεί αυτός ο στόχος κάποιος πρέπει να "
+"χρησιμοποιήσει ειδική σχέση μεταξύ κάθε πλήκτρου και δαχτύλου. Αυτή η σχέση "
+"θα επιτευχθεί σταδιακά καθώς θα ολοκληρώνετε την βασική σειρά μαθημάτων."
 
 #: ../src/keyboard.c:1118
-msgid "When learning the relation between fingers and keys, it is very important that you only move the finger which must press the key and allow all other fingers to remain in the home position."
-msgstr "Όταν μαθαίνετε την σχέση μεταξύ των δαχτύλων και των πλήκτρων, είναι πολύ σημαντικό να κινείτε μόνο το δάχτυλο που πρέπει να πατήσει το πλήκτρο, και να αφήνετε όλα τα άλλα δάχτυλα να παραμένουν στην αρχική τους θέση."
+msgid ""
+"When learning the relation between fingers and keys, it is very important "
+"that you only move the finger which must press the key and allow all other "
+"fingers to remain in the home position."
+msgstr ""
+"Όταν μαθαίνετε την σχέση μεταξύ των δαχτύλων και των πλήκτρων, είναι πολύ "
+"σημαντικό να κινείτε μόνο το δάχτυλο που πρέπει να πατήσει το πλήκτρο, και "
+"να αφήνετε όλα τα άλλα δάχτυλα να παραμένουν στην αρχική τους θέση."
 
 #: ../src/keyboard.c:1122
-msgid "After memorizing this relationship, you can relax the previous rule some, so that you can attain greater speed while typing."
-msgstr "Μετά την απομνημόνευση αυτής της σχέσης, μπορείτε κάπως να χαλαρώσετε τον προηγούμενο κανόνα, έτσι ώστε να επιτύχετε μεγαλύτερη ταχύτητα κατά την πληκτρολόγηση."
+msgid ""
+"After memorizing this relationship, you can relax the previous rule some, so "
+"that you can attain greater speed while typing."
+msgstr ""
+"Μετά την απομνημόνευση αυτής της σχέσης, μπορείτε κάπως να χαλαρώσετε τον "
+"προηγούμενο κανόνα, έτσι ώστε να επιτύχετε μεγαλύτερη ταχύτητα κατά την "
+"πληκτρολόγηση."
 
 #: ../src/keyboard.c:1125
-msgid "You should be prepared to start training with the basic course. It will take effort and patience to be successful as a typist. We trust you have these and look forward to your success!"
-msgstr "Πρέπει να είστε προετοιμασμένοι να ξεκινήσετε την εκπαίδευση με την βασική σειρά μαθημάτων. Θα χρειαστεί προσπάθεια και υπομονή ώστε να γίνετε επιτυχημένοι ως δακτυλογράφοι. Είμαστε σίγουροι ότι έχετε αυτές τις ικανότητες και περιμένουμε με αγωνία την επιτυχία σας!"
+msgid ""
+"You should be prepared to start training with the basic course. It will take "
+"effort and patience to be successful as a typist. We trust you have these "
+"and look forward to your success!"
+msgstr ""
+"Πρέπει να είστε προετοιμασμένοι να ξεκινήσετε την εκπαίδευση με την βασική "
+"σειρά μαθημάτων. Θα χρειαστεί προσπάθεια και υπομονή ώστε να γίνετε "
+"επιτυχημένοι ως δακτυλογράφοι. Είμαστε σίγουροι ότι έχετε αυτές τις "
+"ικανότητες και περιμένουμε με αγωνία την επιτυχία σας!"
 
 #: ../src/keyboard.c:1136
 #, c-format
@@ -637,7 +824,9 @@ msgstr "Σχέση δακτύλων και πλήκτρων"
 
 #: ../src/keyboard.c:1235
 msgid "Click on any key to see which finger you must use:"
-msgstr "Για να δείτε ποιο δάχτυλο πρέπει να χρησιμοποιήσετε κάντε κλικ σε κάποιο πλήκτρο:"
+msgstr ""
+"Για να δείτε ποιο δάχτυλο πρέπει να χρησιμοποιήσετε κάντε κλικ σε κάποιο "
+"πλήκτρο:"
 
 #: ../src/keyboard.c:1291 ../src/keyboard.c:1325
 msgid "Keyboard"
@@ -684,8 +873,12 @@ msgid "Klavaro - Adaptability"
 msgstr "Klavaro - Προσαρμοστικότητα"
 
 #: ../src/tutor.c:351
-msgid "Adaptability exercises: automating the fingers responses, typing over all the keyboard."
-msgstr "Ασκήσεις προσαρμοστικότητας: αυτοματοποίηση της ανταπόκρισης των δαχτύλων, πληκτρολόγηση σε όλο το πληκτρολόγιο."
+msgid ""
+"Adaptability exercises: automating the fingers responses, typing over all "
+"the keyboard."
+msgstr ""
+"Ασκήσεις προσαρμοστικότητας: αυτοματοποίηση της ανταπόκρισης των δαχτύλων, "
+"πληκτρολόγηση σε όλο το πληκτρολόγιο."
 
 #: ../src/tutor.c:356
 msgid "Klavaro - Velocity"
@@ -701,7 +894,8 @@ msgstr "Klavaro - Ρευστότητα"
 
 #: ../src/tutor.c:363
 msgid "Fluidness exercises: accuracy typing good sense paragraphs."
-msgstr "Ασκήσεις ρευστότητας: πληκτρολόγηση ακριβείας με παραγράφους που έχουν νόημα."
+msgstr ""
+"Ασκήσεις ρευστότητας: πληκτρολόγηση ακριβείας με παραγράφους που έχουν νόημα."
 
 #: ../src/tutor.c:425
 msgid "End of exercise. Press [Enter] to start another."
@@ -725,16 +919,26 @@ msgstr "Χρησιμοποιήστε το backspace για να διορθώσε
 
 #: ../src/tutor.c:1012
 #, c-format
-msgid "ps.: logging not performed for this session: the number of typed characters (%i) must be greater than %i."
-msgstr "ΥΓ.: η καταγραφή δεν λειτουργεί για αυτή την σύνοδο: ο αριθμός των πληκτρολογημένων χαρακτήρων (%i) πρέπει να είναι μεγαλύτερος από %i."
+msgid ""
+"ps.: logging not performed for this session: the number of typed characters "
+"(%i) must be greater than %i."
+msgstr ""
+"ΥΓ.: η καταγραφή δεν λειτουργεί για αυτή την σύνοδο: ο αριθμός των "
+"πληκτρολογημένων χαρακτήρων (%i) πρέπει να είναι μεγαλύτερος από %i."
 
 #: ../src/tutor.c:1154
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "ΥΓ.: μπράβο, μπήκατε στην λίστα Κορυφαία 10!"
 
 #: ../src/tutor.c:1166
-msgid "ps.: the text you just typed doesn't seem to be similar to ordinary texts in the language currently selected: we can't account for it in the 'Top 10' contest."
-msgstr "ΥΓ.: το κείμενο που μόλις πληκτρολογήσατε δεν μοιάζει να είναι παρόμοιο με συνηθισμένα κείμενα στην τρέχουσα επιλεγμένη γλώσσα: δεν μπορούμε να το λογαριάσουμε στον διαγωνισμό 'Κορυφαία 10'."
+msgid ""
+"ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
+"the language currently selected: we can't account for it in the 'Top 10' "
+"contest."
+msgstr ""
+"ΥΓ.: το κείμενο που μόλις πληκτρολογήσατε δεν μοιάζει να είναι παρόμοιο με "
+"συνηθισμένα κείμενα στην τρέχουσα επιλεγμένη γλώσσα: δεν μπορούμε να το "
+"λογαριάσουμε στον διαγωνισμό 'Κορυφαία 10'."
 
 #: ../src/tutor.c:1215
 msgid "STATISTICS"
@@ -872,10 +1076,12 @@ msgstr ""
 #, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
-" Try a few more times, or maybe you're getting upset, so go to another kind of exercise.\n"
+" Try a few more times, or maybe you're getting upset, so go to another kind "
+"of exercise.\n"
 msgstr ""
 "Σχεδόν τα καταφέρατε, αλλά η ακρίβεια σας είναι ακόμη κάτω από %.0f%%.\n"
-"Δοκιμάστε μερικές φορές ακόμη ή ίσως να αισθάνεστε αναστατωμένος, οπότε πηγαίνετε σε άλλο είδος άσκησης.\n"
+"Δοκιμάστε μερικές φορές ακόμη ή ίσως να αισθάνεστε αναστατωμένος, οπότε "
+"πηγαίνετε σε άλλο είδος άσκησης.\n"
 
 #: ../src/adaptability.c:226
 #, c-format
@@ -901,16 +1107,18 @@ msgid ""
 " persistence and practice will improve your velocity.\n"
 msgstr ""
 "Μόλις τώρα ξεκινάτε.\n"
-"Να έχετε  υπομονή, να δοκιμάζεται κάθε μέρα, να χαλαρώνετε και να μην ανησυχείτε τόσο πολύ:\n"
+"Να έχετε  υπομονή, να δοκιμάζεται κάθε μέρα, να χαλαρώνετε και να μην "
+"ανησυχείτε τόσο πολύ:\n"
 "η επιμονή και η εξάσκηση θα βελτιώσουν την ταχύτητα σας.\n"
 
 #: ../src/velocity.c:427
-#, c-format
+#, fuzzy, c-format
 msgid ""
-" Still away from the highway. You can make better...\n"
+" Still away from the highway. You can do better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
-"Ακόμη είστε μακρυά από τον αυτοκινητόδρομο. Μπορείτε να τα καταφέρετε καλύτερα...\n"
+"Ακόμη είστε μακρυά από τον αυτοκινητόδρομο. Μπορείτε να τα καταφέρετε "
+"καλύτερα...\n"
 "Δοκιμάστε τουλάχιστον %.0f ΛΑΛ.\n"
 
 #: ../src/velocity.c:430
@@ -962,13 +1170,14 @@ msgstr ""
 #: ../src/velocity.c:447
 #, c-format
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
-msgstr "Κατατάχτηκες καλά, δρομέα ταχύτητας! Φοβάσαι να φτάσεις τις %.0f ΛΑΛ;\n"
+msgstr ""
+"Κατατάχτηκες καλά, δρομέα ταχύτητας! Φοβάσαι να φτάσεις τις %.0f ΛΑΛ;\n"
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, c-format
+#, fuzzy, c-format
 msgid ""
-" Kunf-fu mastering!\n"
+" Kung-fu mastery!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
 "Δάσκαλος του κουγκ-φου!\n"

@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-13 21:25-0200\n"
+"POT-Creation-Date: 2014-01-23 22:07-0200\n"
 "PO-Revision-Date: 2014-01-14 16:07+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -1092,9 +1092,9 @@ msgstr ""
 " ihærdighed og øvelse vil øge din hastighed.\n"
 
 #: ../src/velocity.c:427
-#, c-format
+#, fuzzy, c-format
 msgid ""
-" Still away from the highway. You can make better...\n"
+" Still away from the highway. You can do better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
 " Stadig langt fra hovedvejen. Du kan gøre det bedre ...\n"
@@ -1153,9 +1153,9 @@ msgstr " Godt niveau, Superkører! Er du bange for at nå %.0f OPM?\n"
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, c-format
+#, fuzzy, c-format
 msgid ""
-" Kunf-fu mastering!\n"
+" Kung-fu mastery!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
 " Kung-fu-mester!\n"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-13 21:25-0200\n"
+"POT-Creation-Date: 2014-01-23 22:07-0200\n"
 "PO-Revision-Date: 2014-01-10 07:44+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <translation-team-vi@lists.sourceforge.net>\n"
@@ -1079,9 +1079,9 @@ msgstr ""
 " Bền chí và rèn luyện sẽ nâng cao tốc độ của bạn.\n"
 
 #: ../src/velocity.c:427
-#, c-format
+#, fuzzy, c-format
 msgid ""
-" Still away from the highway. You can make better...\n"
+" Still away from the highway. You can do better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
 " Vẫn còn cách xa với việc gõ tốc độ cao. Bạn có thể làm tốt hơn thế...\n"
@@ -1140,9 +1140,9 @@ msgstr " Xếp hạng tốt đấy, Tay đua tốc độ! Bạn có ngại tốc
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, c-format
+#, fuzzy, c-format
 msgid ""
-" Kunf-fu mastering!\n"
+" Kung-fu mastery!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
 " Kunf-fu siêu hạng!\n"

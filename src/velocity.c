@@ -424,7 +424,7 @@ velo_comment (gdouble accuracy, gdouble velocity)
 				" Be patient, try it again every day, rest and don't worry so much:\n"
 				" persistence and practice will improve your velocity.\n"));
 	else if (velocity < tutor_goal_level(1))
-		tmp_str = g_strdup_printf (_(" Still away from the highway. You can make better...\n"
+		tmp_str = g_strdup_printf (_(" Still away from the highway. You can do better...\n"
 					" Try to reach at least %.0f WPM.\n"), tutor_goal_level(1));
 	else if (velocity < tutor_goal_level(2))
 		tmp_str = g_strdup_printf (_(" You are doing well, but need to go faster.\n"
@@ -448,7 +448,7 @@ velo_comment (gdouble accuracy, gdouble velocity)
 				      " Are you afraid of reaching %.0f WPM?\n"), tutor_goal_level(6));
 	else if (velocity < tutor_goal_level(7))
 		/* Translators: feel free to change the reference to that martial art, if you find another good analogy. */
-		tmp_str = g_strdup_printf (_(" Kunf-fu mastering!\n Can you fly at %.0f WPM?\n"), tutor_goal_level(7));
+		tmp_str = g_strdup_printf (_(" Kung-fu mastery!\n Can you fly at %.0f WPM?\n"), tutor_goal_level(7));
 	else
 		/* Translators: Dvorak here means that infamous ergonomic keyboard layout. */
 		tmp_str = g_strdup (_(" Dvorak master!\n"
