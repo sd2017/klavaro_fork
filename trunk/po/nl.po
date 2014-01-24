@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-13 21:25-0200\n"
+"POT-Creation-Date: 2014-01-23 22:07-0200\n"
 "PO-Revision-Date: 2014-01-10 17:48+0100\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -1090,9 +1090,9 @@ msgstr ""
 
 # XXX  can DO better
 #: ../src/velocity.c:427
-#, c-format
+#, fuzzy, c-format
 msgid ""
-" Still away from the highway. You can make better...\n"
+" Still away from the highway. You can do better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
 " Je bent nog ver weg van de snelweg. Je kunt beter...\n"
@@ -1153,9 +1153,9 @@ msgstr ""
 # XXX  ouch: Kung-fu
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, c-format
+#, fuzzy, c-format
 msgid ""
-" Kunf-fu mastering!\n"
+" Kung-fu mastery!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
 " Je hebt het onder de knie!\n"

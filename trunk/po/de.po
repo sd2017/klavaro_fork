@@ -2,14 +2,13 @@
 # This file is distributed under the same license as the klavaro package.
 # Copyright (C) 2008-2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the klavaro package.
-# Hermann J. Beckers <hj.beckers@onlinehome.de>, 2008, 2009, 2010, 2012.
-# Hermann J. Beckers, 2009.
+# Hermann J. Beckers <hj.beckers@onlinehome.de>, 2008, 2009, 2010, 2012, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: klavaro 1.9.5-pre2\n"
+"Project-Id-Version: klavaro 3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-13 21:25-0200\n"
-"PO-Revision-Date: 2012-06-03 20:09+0200\n"
+"POT-Creation-Date: 2014-01-23 22:07-0200\n"
+"PO-Revision-Date: 2014-01-09 22:41+0100\n"
 "Last-Translator: Hermann J. Beckers <hj.beckers@onlinehome.de>\n"
 "Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
 "Language: de\n"
@@ -20,7 +19,7 @@ msgstr ""
 "X-Poedit-Country: GERMANY\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/klavaro.glade.h:1
 msgid "About 'Klavaro'"
@@ -304,9 +303,8 @@ msgid "_Language:"
 msgstr "Sprache:"
 
 #: ../data/klavaro.glade.h:63
-#, fuzzy
 msgid "Speech"
-msgstr "Geschwindigkeit"
+msgstr ""
 
 #: ../data/klavaro.glade.h:64
 msgid "Your language here."
@@ -361,14 +359,12 @@ msgid "Top 10"
 msgstr "Top 10"
 
 #: ../data/klavaro.glade.h:77
-#, fuzzy
 msgid "Show extra information."
-msgstr "Zusätzliche Informationen zeigen"
+msgstr "Zusätzliche Informationen zeigen."
 
 #: ../data/klavaro.glade.h:78
-#, fuzzy
 msgid "Hide extra information."
-msgstr "Zusätzliche Informationen ausblenden"
+msgstr "Zusätzliche Informationen ausblenden."
 
 #: ../data/klavaro.glade.h:79
 msgid "Publish to the web your local scores."
@@ -404,19 +400,17 @@ msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "Dies ist eine speziell auf Ihr Fehlerprofil angepaßte Übung."
 
 #: ../data/klavaro.glade.h:87
-#, fuzzy
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
 msgstr ""
-"Bearbeiten Sie den Zeichensatz, der in den Übungen 44 bis 50 benutzt werden "
-"soll."
+"Bearbeiten Sie den Zeichensatz, der in den Übungen 43 ff. benutzt werden "
+"soll; sie sind anpassbar!"
 
 #: ../data/klavaro.glade.h:88 ../src/tutor.c:376
 msgid "Drag and drop text here to practice with it."
 msgstr "Verschieben Sie Text hierhin, um damit zu üben."
 
 #: ../data/klavaro.glade.h:89
-#, fuzzy
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
 msgstr "Taste zum Neustart der Übung drücken. Tastenkürzel: [Strg-R]"
 
@@ -472,15 +466,14 @@ msgid "_Top 10"
 msgstr "_Top 10"
 
 #: ../data/klavaro.desktop.in.h:1
-#, fuzzy
 msgid "A very flexible and efficient touch typing tutor."
-msgstr "Ein weiteres Programm zum Erlernen des Tastschreibens"
+msgstr ""
+"Ein sehr flexibles und effizientes Programm zum Erlernen des Tastschreibens."
 
 #. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
 #: ../data/klavaro.desktop.in.h:3
-#, fuzzy
 msgid "keyboard;typing;tutor;CAI"
-msgstr "Tastatur"
+msgstr "keyboard;typing;tutor;CAI"
 
 #: ../src/main.c:242
 msgid "(Custom)"
@@ -1049,25 +1042,25 @@ msgstr ""
 " Gehen Sie zur nächsten Lektion.\n"
 
 #: ../src/adaptability.c:213
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
-" Ihre Genauigkeit liegt unter 90 % ...\n"
+" Ihre Genauigkeitsrate liegt unter %.0f%% ...\n"
 " Würden Sie es zur Verbesserung erneut versuchen?\n"
 
 #: ../src/adaptability.c:216
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
 " Sie machen es gut. Aber ...\n"
-" Können Sie eine Genauigkeit von mindestens 95 % erreichen?\n"
+" Können Sie eine Genauigkeit von mindestens %.0f%% erreichen?\n"
 
 #: ../src/adaptability.c:219
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
 " Try a few more times, or maybe you're getting upset, so go to another kind "
@@ -1109,30 +1102,30 @@ msgstr ""
 #: ../src/velocity.c:427
 #, fuzzy, c-format
 msgid ""
-" Still away from the highway. You can make better...\n"
+" Still away from the highway. You can do better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
 " Noch von der Schnellstraße entfernt. Sie können es besser ...\n"
-" Versuchen Sie zumindest 20 WPM.\n"
+" Versuchen Sie zumindest %.0f WPM zu erreichen.\n"
 
 #: ../src/velocity.c:430
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr ""
 " Sie sind gut, aber müssen noch schneller werden.\n"
-" Und vergessen Sie die Genauigkeit nicht. Versuchen Sie 30 WPM zu "
+" Und vergessen Sie die Genauigkeit nicht. Versuchen Sie %.0f WPM zu "
 "erreichen.\n"
 
 #: ../src/velocity.c:433
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach %.0f WPM?\n"
 msgstr ""
 " Schön. Nun können Sie das Laufen versuchen.\n"
-" Können Sie 40 WPM erreichen?\n"
+" Können Sie %.0f WPM erreichen?\n"
 
 #: ../src/velocity.c:436
 #, c-format
@@ -1152,13 +1145,13 @@ msgstr ""
 " Versuchen Sie nun die Schreibflüssigkeitsübungen, OK?\n"
 
 #: ../src/velocity.c:442
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fast! Are you a professional?\n"
 " So, try to get %.0f WPM!\n"
 msgstr ""
 " Schnell! Trainieren Sie für einen Wettbewerb?\n"
-" Dann sollten Sie 70 WPM erreichen!\n"
+" Dann sollten Sie %.0f WPM erreichen!\n"
 
 #. Translators: Speed Racer is a reference to a Japanese anime franchise
 #. about automobile racing, also known as Mach GoGoGo.
@@ -1167,11 +1160,13 @@ msgstr ""
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
 msgstr ""
 
+# Is there a spelling error?
+# kun_f_ -> kun_g_-fu
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
 #, fuzzy, c-format
 msgid ""
-" Kunf-fu mastering!\n"
+" Kung-fu mastery!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
 " Dvorak-Modus dominiert!\n"
@@ -1285,6 +1280,15 @@ msgstr "Konnte Dateien nicht übertragen."
 msgid "Could not upload/download scores."
 msgstr "Konnte lokale Ergebnisse nicht übertragen."
 
+#~ msgid "Klavaro"
+#~ msgstr "Klavaro"
+
+#~ msgid "_Font"
+#~ msgstr "Schri_ftart"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
 #~ msgid ""
 #~ " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 #~ " Are you afraid of reaching 80 WPM?\n"
@@ -1292,18 +1296,6 @@ msgstr "Konnte lokale Ergebnisse nicht übertragen."
 #~ " Spitze von  \"qwerty\". Nun ist es Zeit, auf den Dvorak-Modus zu "
 #~ "wechseln.\n"
 #~ " Haben Sie Angst, 80 WPM zu erreichen?\n"
-
-#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-#~ msgstr "Taste zum Neustart der Übung drücken. Tastenkürzel: [Strg-R]"
-
-#~ msgid "_Font"
-#~ msgstr "Schri_ftart"
-
-#~ msgid "Klavaro"
-#~ msgstr "Klavaro"
-
-#~ msgid "Default"
-#~ msgstr "Standard"
 
 #~ msgid "No valid host"
 #~ msgstr "Kein gültiger Server"
