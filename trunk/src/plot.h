@@ -14,6 +14,7 @@
  * Number of points for charts
  */
 #define DATA_POINTS 50
+#define MAX_Y_LABELS 13
 
 #define PLOT_GREEN "#ddffee"
 #define PLOT_GREEN_2 "#66aa88"

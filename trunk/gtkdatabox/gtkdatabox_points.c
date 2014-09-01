@@ -44,7 +44,7 @@ struct _GtkDataboxPointsPrivate
 static void
 points_finalize (GObject * object)
 {
-   GtkDataboxPoints *points = GTK_DATABOX_POINTS (object);
+   /*GtkDataboxPoints *points = GTK_DATABOX_POINTS (object);*/
 
    g_free (GTK_DATABOX_POINTS_GET_PRIVATE(object)->xpixels);
    g_free (GTK_DATABOX_POINTS_GET_PRIVATE(object)->ypixels);

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.95\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-01-08 15:02-0200\n"
+"POT-Creation-Date: 2014-07-11 15:37-0300\n"
 "PO-Revision-Date: 2013-02-08 19:40+0200\n"
 "Last-Translator: Slav <>\n"
 "Language-Team: Bulgarian <>\n"
@@ -505,12 +505,12 @@ msgstr "Начален курс"
 msgid "Adaptability"
 msgstr "Адаптивност"
 
-#: ../src/main.c:373 ../src/callbacks.c:1227 ../src/top10.c:89
+#: ../src/main.c:373 ../src/callbacks.c:1226 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Бързина"
 
-#: ../src/main.c:376 ../src/callbacks.c:1250 ../src/top10.c:91
+#: ../src/main.c:376 ../src/callbacks.c:1249 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Гладкост"
@@ -519,51 +519,51 @@ msgstr "Гладкост"
 msgid "Keys:"
 msgstr "Клавиши:"
 
-#: ../src/callbacks.c:775 ../src/callbacks.c:791
+#: ../src/callbacks.c:774 ../src/callbacks.c:790
 msgid "Connecting..."
 msgstr "Свързване..."
 
-#: ../src/callbacks.c:1062
+#: ../src/callbacks.c:1061
 msgid "Overwrite user layout"
 msgstr "Пренаписване на потребителската подредба"
 
-#: ../src/callbacks.c:1064
+#: ../src/callbacks.c:1063
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Съществуваща клавиатурна подредба ще бъде ПРЕНАПИСАНА."
 
-#: ../src/callbacks.c:1071
+#: ../src/callbacks.c:1070
 msgid "Remove user layout"
 msgstr "Премахване на потребителската подредба"
 
-#: ../src/callbacks.c:1073
+#: ../src/callbacks.c:1072
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Съществуваща клавиатурна подредба ще бъде ПРЕМАХНАТА."
 
-#: ../src/callbacks.c:1080
+#: ../src/callbacks.c:1079
 msgid "Reset progress data"
 msgstr "Рестартиране на информазията за напредъка"
 
-#: ../src/callbacks.c:1081
+#: ../src/callbacks.c:1080
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "Информацията за напредъка, показана в графиките, ще бъде ИЗТРИТА."
 
-#: ../src/callbacks.c:1224 ../src/top10.c:87
+#: ../src/callbacks.c:1223 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Прецизност"
 
-#: ../src/callbacks.c:1227 ../src/tutor.c:1288
+#: ../src/callbacks.c:1226 ../src/tutor.c:1288
 msgid "(WPM)"
 msgstr "(Думи/мин)"
 
-#: ../src/callbacks.c:1238
+#: ../src/callbacks.c:1237
 msgid "Errors"
 msgstr "Грешки"
 
-#: ../src/callbacks.c:1241
+#: ../src/callbacks.c:1240
 msgid "Touch times (s)"
 msgstr "Брой натискания (s)"
 
-#: ../src/callbacks.c:1253 ../src/tutor.c:1315 ../src/top10.c:69
+#: ../src/callbacks.c:1252 ../src/tutor.c:1315 ../src/top10.c:69
 msgid "Score"
 msgstr "Резултат"
 
@@ -1091,7 +1091,7 @@ msgstr ""
 #: ../src/velocity.c:427
 #, fuzzy, c-format
 msgid ""
-" Still away from the highway. You can make better...\n"
+" Still away from the highway. You can do better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
 " Все още сте далеч от най-добрите постижения. Можете да се справите по-"
@@ -1153,7 +1153,7 @@ msgstr ""
 #: ../src/velocity.c:451
 #, fuzzy, c-format
 msgid ""
-" Kunf-fu mastering!\n"
+" Kung-fu mastery!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
 " Овладяхте Dvorak!\n"

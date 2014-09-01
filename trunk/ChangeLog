@@ -1,9 +1,24 @@
 2014-0?-??  Felipe Castro (-) <fefcas@gmail.com>;
 
 	* Release 3.01
+	* Added:
+	- AppData file, with description and screenshot links for software
+	centers;
+	- AppIcons with resolutions 64x64 and 96x96;
+	* Fixed:
+	- querty_ca_quebec.kbd not presenting isolated acute anymore, using
+	now the letter "é".
+	- Reactivated the spin button to select the basic lesson on progress
+	charts.
+	- Returned -1 value for pointer in gtk_databox_get_graphs().
+	* Changed:
+	- Reset button put a bit aside from the Close button, in the progress
+	charts.
 	* Fixed messages:
 	- Typo: Kunf-fu mastering --> Kung-fu mastery
 	- Idiom: make better --> do better
+	* Added translations:
+	? Slovenian.
 	* Updated translations:
 	- Czech.
 	- Galician.

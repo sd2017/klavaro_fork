@@ -45,8 +45,8 @@ bars_finalize (GObject * object)
 {
    GtkDataboxBars *bars = GTK_DATABOX_BARS (object);
 
-   g_free (GTK_DATABOX_BARS_GET_PRIVATE(bars)->xpixels);
-   g_free (GTK_DATABOX_BARS_GET_PRIVATE(bars)->ypixels);
+   g_free (GTK_DATABOX_BARS_GET_PRIVATE ( bars ) ->xpixels);
+   g_free (GTK_DATABOX_BARS_GET_PRIVATE ( bars ) ->ypixels);
 
    /* Chain up to the parent class */
    G_OBJECT_CLASS (gtk_databox_bars_parent_class)->finalize (object);
