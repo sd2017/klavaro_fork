@@ -45,7 +45,9 @@ struct _GtkDataboxOffsetBarsPrivate
 static void
 bars_finalize (GObject * object)
 {
+   /*
    GtkDataboxOffsetBars *bars = GTK_DATABOX_OFFSET_BARS (object);
+   */
 
    g_free (GTK_DATABOX_OFFSET_BARS_GET_PRIVATE(object)->xpixels);
    g_free (GTK_DATABOX_OFFSET_BARS_GET_PRIVATE(object)->y1pixels);

@@ -41,7 +41,7 @@
 static struct
 {
 	GtkWidget *databox;
-	GtkWidget *table;
+	GtkWidget *gtkgrid;
 
 	struct
 	{
@@ -68,6 +68,7 @@ static struct
 	} goal;
 	GtkDataboxGraph *line_goal;
 	GtkDataboxGraph *grid;
+	GtkWidget * label_y[MAX_Y_LABELS];
 
 	struct
 	{
@@ -87,7 +88,7 @@ gint nchars[DATA_POINTS+1];
 gchar lesson[DATA_POINTS+1][299];
 gchar language[DATA_POINTS+1][80];
 glong n_points;
-gint plot_type;
+gint plot_type; /* used to communicate the plotting type, for updating the cursor marker, etc */
 
 /*******************************************************************************
  * Interface functions
@@ -100,6 +101,7 @@ plot_get_databox ()
 
 /*******************************************************************************
  * Private functions
+
 static void
 plot_clip_data (gint i)
 {
@@ -182,7 +184,7 @@ plot_error_frequencies ()
 
 	/* Redraw the plot
 	 */
-	gtk_widget_show_all (plot.table);
+	gtk_widget_show_all (plot.gtkgrid);
 }
 
 static void
@@ -247,7 +249,7 @@ plot_touch_times ()
 
 	/* Redraw the plot
 	 */
-	gtk_widget_show_all (plot.table);
+	gtk_widget_show_all (plot.gtkgrid);
 }
 
 /*******************************************************************************
@@ -270,9 +272,19 @@ plot_initialize ()
 
 	/* Data Box
 	 */
-	gtk_databox_create_box_with_scrollbars_and_rulers (&plot.databox, &plot.table, FALSE, FALSE, FALSE, FALSE);
-	gtk_container_add (GTK_CONTAINER (get_wg ("frame_stat")), plot.table);
+	gtk_databox_create_box_with_scrollbars_and_rulers (&plot.databox, &plot.gtkgrid, FALSE, FALSE, FALSE, FALSE);
+	gtk_container_add (GTK_CONTAINER (get_wg ("frame_stat")), plot.gtkgrid);
 	g_signal_connect (G_OBJECT (plot.databox), "motion_notify_event", G_CALLBACK (on_databox_hovered), NULL);
+
+	/* Y labels
+	 */
+	for (i = 0; i < MAX_Y_LABELS; i++)
+	{
+		plot.label_y[i] = gtk_label_new ("???");
+		gtk_misc_set_alignment (GTK_MISC (plot.label_y[i]), 1.0, i / (float) (MAX_Y_LABELS - 1));
+		gtk_box_pack_start (GTK_BOX (get_wg ("box_grid_label_y")), plot.label_y[i], TRUE, TRUE, 0);
+		gtk_widget_show (plot.label_y[i]);
+	}
 
 	plot_draw_chart (1);
 }
@@ -299,13 +311,13 @@ plot_draw_chart (gint field)
 	 */
 	n_points = 0;
 	gtk_databox_graph_remove_all (box);
-	gtk_widget_hide (plot.table);
+	gtk_widget_hide (plot.gtkgrid);
 
 	plot_type = field;
-	gtk_widget_set_tooltip_text (get_wg ("entry_stat_x"), _("Character"));
 
 	/* Error frequencies or touch times
 	 */
+	gtk_widget_set_tooltip_text (get_wg ("entry_stat_x"), _("Character"));
 	if (field == 6)
 	{
 		plot_error_frequencies ();
@@ -495,6 +507,8 @@ plot_draw_chart (gint field)
 		setlocale (LC_NUMERIC, tmp_locale);
 	g_free (tmp_locale);
 
+	/* Set apropriate background
+	 */
 	if (i == 0)
 	{
 		g_message ("no valid data to plot.");
@@ -584,19 +598,25 @@ plot_draw_chart (gint field)
 	plot.line_goal = gtk_databox_lines_new (2, plot.goal.x, plot.goal.y, &color3, 1);
 	gtk_databox_graph_add (box, plot.line_goal);
 
-	/* Grid */
+	/* Grid and y labels */
 	gdk_rgba_parse (&color, "#dddddd");
 	if (field == 1)
+	{
 		plot.grid = gtk_databox_grid_new (3, 3, &color, 1);
+	}
 	else if (field == 2)
+	{
 		plot.grid = gtk_databox_grid_new (11, 3, &color, 1);
+	}
 	else
+	{
 		plot.grid = gtk_databox_grid_new (9, 3, &color, 1);
+	}
 	gtk_databox_graph_add (GTK_DATABOX (plot.databox), plot.grid);
 
 	/* Redraw the plot
 	 */
-	gtk_widget_show_all (plot.table);
+	gtk_widget_show_all (plot.gtkgrid);
 }
 
 void

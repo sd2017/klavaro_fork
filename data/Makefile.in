@@ -152,8 +152,9 @@ am__uninstall_files_from_dir = { \
     || { echo " ( cd '$$dir' && rm -f" $$files ")"; \
          $(am__cd) "$$dir" && rm -f $$files; }; \
   }
-am__installdirs = "$(DESTDIR)$(desktopdir)" "$(DESTDIR)$(pkgdatadir)"
-DATA = $(desktop_DATA) $(pkgdata_DATA)
+am__installdirs = "$(DESTDIR)$(appdatadir)" "$(DESTDIR)$(desktopdir)" \
+	"$(DESTDIR)$(pkgdatadir)"
+DATA = $(appdata_DATA) $(desktop_DATA) $(pkgdata_DATA)
 RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\
   distclean-recursive maintainer-clean-recursive
 am__recursive_targets = \
@@ -365,7 +366,7 @@ top_srcdir = @top_srcdir@
 SUBDIRS = icons
 klavaro_data = \
 	klavaro.glade \
-	klavaro_96x96.png \
+	klavaro_icon.png \
 	beep.png \
 	fluid.png \
 	go_www.png \
@@ -500,13 +501,19 @@ klavaro_data = \
 
 pkgdata_DATA = $(klavaro_data)
 @IS_WIN32_FALSE@EXTRA_DIST = $(klavaro_data) \
-@IS_WIN32_FALSE@	$(desktop_in_file)
+@IS_WIN32_FALSE@	     $(desktop_in_file) \
+@IS_WIN32_FALSE@	     $(appdata_in_files)
 
 @IS_WIN32_TRUE@EXTRA_DIST = $(klavaro_data)
 @IS_WIN32_FALSE@desktopdir = $(prefix)/$(DATADIRNAME)/applications
 @IS_WIN32_FALSE@desktop_in_file = klavaro.desktop.in
 @IS_WIN32_FALSE@desktop_DATA = $(desktop_in_file:.desktop.in=.desktop)
-@IS_WIN32_FALSE@DISTCLEANFILES = klavaro.desktop
+@IS_WIN32_FALSE@appdatadir = $(prefix)/$(DATADIRNAME)/appdata
+@IS_WIN32_FALSE@appdata_in_files = klavaro.appdata.xml.in
+@IS_WIN32_FALSE@appdata_DATA = $(appdata_in_files:.xml.in=.xml)
+@IS_WIN32_FALSE@DISTCLEANFILES = $(desktop_DATA) \
+@IS_WIN32_FALSE@                 $(appdata_DATA)
+
 all: all-recursive
 
 .SUFFIXES:
@@ -546,6 +553,27 @@ mostlyclean-libtool:
 
 clean-libtool:
 	-rm -rf .libs _libs
+install-appdataDATA: $(appdata_DATA)
+	@$(NORMAL_INSTALL)
+	@list='$(appdata_DATA)'; test -n "$(appdatadir)" || list=; \
+	if test -n "$$list"; then \
+	  echo " $(MKDIR_P) '$(DESTDIR)$(appdatadir)'"; \
+	  $(MKDIR_P) "$(DESTDIR)$(appdatadir)" || exit 1; \
+	fi; \
+	for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  echo "$$d$$p"; \
+	done | $(am__base_list) | \
+	while read files; do \
+	  echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(appdatadir)'"; \
+	  $(INSTALL_DATA) $$files "$(DESTDIR)$(appdatadir)" || exit $$?; \
+	done
+
+uninstall-appdataDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(appdata_DATA)'; test -n "$(appdatadir)" || list=; \
+	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
+	dir='$(DESTDIR)$(appdatadir)'; $(am__uninstall_files_from_dir)
 install-desktopDATA: $(desktop_DATA)
 	@$(NORMAL_INSTALL)
 	@list='$(desktop_DATA)'; test -n "$(desktopdir)" || list=; \
@@ -748,7 +776,7 @@ check: check-recursive
 all-am: Makefile $(DATA)
 installdirs: installdirs-recursive
 installdirs-am:
-	for dir in "$(DESTDIR)$(desktopdir)" "$(DESTDIR)$(pkgdatadir)"; do \
+	for dir in "$(DESTDIR)$(appdatadir)" "$(DESTDIR)$(desktopdir)" "$(DESTDIR)$(pkgdatadir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
 install: install-recursive
@@ -802,7 +830,8 @@ info: info-recursive
 
 info-am:
 
-install-data-am: install-desktopDATA install-pkgdataDATA
+install-data-am: install-appdataDATA install-desktopDATA \
+	install-pkgdataDATA
 
 install-dvi: install-dvi-recursive
 
@@ -846,7 +875,8 @@ ps: ps-recursive
 
 ps-am:
 
-uninstall-am: uninstall-desktopDATA uninstall-pkgdataDATA
+uninstall-am: uninstall-appdataDATA uninstall-desktopDATA \
+	uninstall-pkgdataDATA
 
 .MAKE: $(am__recursive_targets) install-am install-strip
 
@@ -854,18 +884,20 @@ uninstall-am: uninstall-desktopDATA uninstall-pkgdataDATA
 	check-am clean clean-generic clean-libtool cscopelist-am ctags \
 	ctags-am distclean distclean-generic distclean-libtool \
 	distclean-tags distdir dvi dvi-am html html-am info info-am \
-	install install-am install-data install-data-am \
-	install-desktopDATA install-dvi install-dvi-am install-exec \
-	install-exec-am install-html install-html-am install-info \
-	install-info-am install-man install-pdf install-pdf-am \
-	install-pkgdataDATA install-ps install-ps-am install-strip \
-	installcheck installcheck-am installdirs installdirs-am \
-	maintainer-clean maintainer-clean-generic mostlyclean \
-	mostlyclean-generic mostlyclean-libtool pdf pdf-am ps ps-am \
-	tags tags-am uninstall uninstall-am uninstall-desktopDATA \
+	install install-am install-appdataDATA install-data \
+	install-data-am install-desktopDATA install-dvi install-dvi-am \
+	install-exec install-exec-am install-html install-html-am \
+	install-info install-info-am install-man install-pdf \
+	install-pdf-am install-pkgdataDATA install-ps install-ps-am \
+	install-strip installcheck installcheck-am installdirs \
+	installdirs-am maintainer-clean maintainer-clean-generic \
+	mostlyclean mostlyclean-generic mostlyclean-libtool pdf pdf-am \
+	ps ps-am tags tags-am uninstall uninstall-am \
+	uninstall-appdataDATA uninstall-desktopDATA \
 	uninstall-pkgdataDATA
 
 @IS_WIN32_FALSE@@INTLTOOL_DESKTOP_RULE@
+@IS_WIN32_FALSE@@INTLTOOL_XML_RULE@
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

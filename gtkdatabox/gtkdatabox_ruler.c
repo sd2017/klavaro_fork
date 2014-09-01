@@ -650,7 +650,7 @@ gtk_databox_ruler_set_orientation (GtkDataboxRuler * ruler,
 
     widget = GTK_WIDGET (ruler);
 
-    // get the padding
+    /* get the padding */
 	GtkRequisition gtkRequisition;
     GtkStyleContext *context= gtk_widget_get_style_context (widget);
     GtkBorder padding;
@@ -768,7 +768,7 @@ gtk_databox_ruler_set_text_orientation (GtkDataboxRuler * ruler,
 
     widget = GTK_WIDGET (ruler);
 
-    // get the padding
+    /* get the padding */
     context= gtk_widget_get_style_context (widget);
     gtk_style_context_get_padding (context, gtk_widget_get_state_flags (widget), &padding);
     gtk_databox_ruler_get_preferred_height (widget, &minimal_height, &natural_height);

@@ -4,7 +4,7 @@ SUBDIRS = icons
 
 klavaro_data = \
 	klavaro.glade \
-	klavaro_96x96.png \
+	klavaro_icon.png \
 	beep.png \
 	fluid.png \
 	go_www.png \
@@ -142,11 +142,18 @@ pkgdata_DATA = $(klavaro_data)
 if IS_WIN32
 EXTRA_DIST = $(klavaro_data)
 else
+@INTLTOOL_DESKTOP_RULE@
 desktopdir = $(prefix)/$(DATADIRNAME)/applications
 desktop_in_file = klavaro.desktop.in
 desktop_DATA = $(desktop_in_file:.desktop.in=.desktop)
-@INTLTOOL_DESKTOP_RULE@
-DISTCLEANFILES = klavaro.desktop
+@INTLTOOL_XML_RULE@
+appdatadir = $(prefix)/$(DATADIRNAME)/appdata
+appdata_in_files = klavaro.appdata.xml.in
+appdata_DATA = $(appdata_in_files:.xml.in=.xml)
+DISTCLEANFILES = $(desktop_DATA) \
+                 $(appdata_DATA)
 EXTRA_DIST = $(klavaro_data) \
-	$(desktop_in_file)
+	     $(desktop_in_file) \
+	     $(appdata_in_files)
+
 endif
