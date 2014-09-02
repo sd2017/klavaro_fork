@@ -10,7 +10,8 @@
 	now the letter "é".
 	- Reactivated the spin button to select the basic lesson on progress
 	charts.
-	- Returned -1 value for pointer in gtk_databox_get_graphs().
+	- Return of value -1 for pointer in gtk_databox_get_graphs(), now
+	returning NULL.
 	* Changed:
 	- Reset button put a bit aside from the Close button, in the progress
 	charts.
