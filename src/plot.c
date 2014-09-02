@@ -281,9 +281,11 @@ plot_initialize ()
 	for (i = 0; i < MAX_Y_LABELS; i++)
 	{
 		plot.label_y[i] = gtk_label_new ("???");
-		gtk_misc_set_alignment (GTK_MISC (plot.label_y[i]), 1.0, i / (float) (MAX_Y_LABELS - 1));
 		gtk_box_pack_start (GTK_BOX (get_wg ("box_grid_label_y")), plot.label_y[i], TRUE, TRUE, 0);
+		/*
+		gtk_misc_set_alignment (GTK_MISC (plot.label_y[i]), 1.0, i / (float) (MAX_Y_LABELS - 1));
 		gtk_widget_show (plot.label_y[i]);
+		*/
 	}
 
 	plot_draw_chart (1);
@@ -313,11 +315,13 @@ plot_draw_chart (gint field)
 	gtk_databox_graph_remove_all (box);
 	gtk_widget_hide (plot.gtkgrid);
 
+	/* Set plot type for external reference */
 	plot_type = field;
 
 	/* Error frequencies or touch times
 	 */
 	gtk_widget_set_tooltip_text (get_wg ("entry_stat_x"), _("Character"));
+	gtk_widget_hide (get_wg ("box_grid_label_y"));
 	if (field == 6)
 	{
 		plot_error_frequencies ();
@@ -329,6 +333,7 @@ plot_draw_chart (gint field)
 		return;
 	}
 	gtk_widget_set_tooltip_text (get_wg ("entry_stat_x"), _("Date & Time"));
+	gtk_widget_show (get_wg ("box_grid_label_y"));
 
 	/* Auxiliar variable to track the lesson to be plot
 	 */
@@ -600,17 +605,45 @@ plot_draw_chart (gint field)
 
 	/* Grid and y labels */
 	gdk_rgba_parse (&color, "#dddddd");
-	if (field == 1)
+	if (field == 1) /* Correctness (%) */
 	{
 		plot.grid = gtk_databox_grid_new (3, 3, &color, 1);
+		for (i = 0; i < 5; i++)
+		{
+			g_sprintf (tmp_str, "%u", 100 - 10*i);
+			gtk_label_set_text (GTK_LABEL (plot.label_y[i]), tmp_str);
+			gtk_misc_set_alignment (GTK_MISC (plot.label_y[i]), 1.0, i / 4.0);
+			gtk_widget_show (plot.label_y[i]);
+		}
+		for (; i < MAX_Y_LABELS; i++)
+			gtk_widget_hide (plot.label_y[i]);
 	}
-	else if (field == 2)
+	else if (field == 2) /* Speed (WPM) */
 	{
 		plot.grid = gtk_databox_grid_new (11, 3, &color, 1);
+		for (i = 0; i < 13; i++)
+		{
+			g_sprintf (tmp_str, "%u", 120 - 10*i);
+			gtk_label_set_text (GTK_LABEL (plot.label_y[i]), tmp_str);
+			gtk_misc_set_alignment (GTK_MISC (plot.label_y[i]), 1.0, i / 12.0);
+			gtk_widget_show (plot.label_y[i]);
+		}
 	}
 	else
 	{
 		plot.grid = gtk_databox_grid_new (9, 3, &color, 1);
+		for (i = 0; i < 11; i++)
+		{
+			if (field == 3)
+				g_sprintf (tmp_str, "%u", 100 - 10*i);
+			else
+				g_sprintf (tmp_str, "%u", 10 - i);
+			gtk_label_set_text (GTK_LABEL (plot.label_y[i]), tmp_str);
+			gtk_misc_set_alignment (GTK_MISC (plot.label_y[i]), 1.0, i / 10.0);
+			gtk_widget_show (plot.label_y[i]);
+		}
+		for (; i < MAX_Y_LABELS; i++)
+			gtk_widget_hide (plot.label_y[i]);
 	}
 	gtk_databox_graph_add (GTK_DATABOX (plot.databox), plot.grid);
 
