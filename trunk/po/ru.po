@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.5-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-02 15:28-0300\n"
+"POT-Creation-Date: 2014-09-03 14:56-0300\n"
 "PO-Revision-Date: 2012-11-12 22:13+0300\n"
 "Last-Translator: Pavel Maryanov <acid@jack.kiev.ua>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
@@ -285,7 +285,7 @@ msgstr ""
 msgid "SPACE BAR"
 msgstr "[ПРОБЕЛ]"
 
-#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "большие пальцы"
 
@@ -490,7 +490,7 @@ msgstr[0] "Режим диктовки (зависит от этого синт�
 msgstr[1] "Режим диктовки (зависит от этих синтезаторов речи: %s)"
 msgstr[2] "Режим диктовки (зависит от этих синтезаторов речи: %s)"
 
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "Введение"
 
@@ -694,7 +694,7 @@ msgstr ""
 "скорости. Здесь необходимо будет исправлять ошибки с помощью клавиши "
 "[BACKSPACE]. Иными словами, засчитываться будет только текст без ошибок."
 
-#: ../src/keyboard.c:1094
+#: ../src/keyboard.c:1095
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -704,7 +704,7 @@ msgstr ""
 "научитесь печатать быстрее и точнее, если будете придерживаться следующих "
 "рекомендаций."
 
-#: ../src/keyboard.c:1097
+#: ../src/keyboard.c:1098
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -712,7 +712,7 @@ msgstr ""
 "Указательные пальцы должны касаться двух клавиш с небольшими выпуклостями в "
 "центре клавиатуры."
 
-#: ../src/keyboard.c:1100
+#: ../src/keyboard.c:1101
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -722,7 +722,7 @@ msgstr ""
 "правильном положении. Таким образом, со временем вам не придется смотреть на "
 "клавиатуру, чтобы проверить правильность расположения своих пальцев."
 
-#: ../src/keyboard.c:1104
+#: ../src/keyboard.c:1105
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -730,11 +730,11 @@ msgstr ""
 "Кончики остальных пальцев должны свободно лежать на клавишах в одном ряду "
 "слева и справа от клавиш с метками."
 
-#: ../src/keyboard.c:1107
+#: ../src/keyboard.c:1108
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "Большие пальцы обеих рук должны находиться над пробелом."
 
-#: ../src/keyboard.c:1109
+#: ../src/keyboard.c:1110
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -743,7 +743,7 @@ msgstr ""
 "Часть руки ближе к кисти (запястье) должна находиться над столом за "
 "пределами клавиатуры. Без такой поддержки руки будут быстро уставать."
 
-#: ../src/keyboard.c:1112
+#: ../src/keyboard.c:1113
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -756,7 +756,7 @@ msgstr ""
 "Для этого за каждым пальцем закрепляются свои клавиши. Вы будете изучать эту "
 "связь постепенно по мере прохождения курса обучения."
 
-#: ../src/keyboard.c:1118
+#: ../src/keyboard.c:1119
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -766,7 +766,7 @@ msgstr ""
 "клавиши перемещался только один палец, а остальные пальцы оставались в "
 "исходном положении."
 
-#: ../src/keyboard.c:1122
+#: ../src/keyboard.c:1123
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -774,7 +774,7 @@ msgstr ""
 "После запоминания этой связи можно немного отдохнуть от предыдущего правила, "
 "чтобы можно было повысить скорость набора."
 
-#: ../src/keyboard.c:1125
+#: ../src/keyboard.c:1126
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -783,52 +783,52 @@ msgstr ""
 "Теперь вы готовы к изучению базового курса. Вам потребуется запастись "
 "терпением и приложить немного усилий. Надеемся, что вы справитесь. Удачи!"
 
-#: ../src/keyboard.c:1136
+#: ../src/keyboard.c:1137
 #, c-format
 msgid "Step %i"
 msgstr "Шаг %i"
 
-#: ../src/keyboard.c:1142
+#: ../src/keyboard.c:1143
 msgid "To position the hands"
 msgstr "Положение рук"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1228
 msgid "Go ahead!"
 msgstr "Переходите к следующему упражнению"
 
-#: ../src/keyboard.c:1234
+#: ../src/keyboard.c:1235
 msgid "Relation between fingers and keys"
 msgstr "Связь пальцев и клавиш"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1236
 msgid "Click on any key to see which finger you must use:"
 msgstr "Нажмите любую клавишу, чтобы увидеть соответствующий ей палец:"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
 msgid "Keyboard"
 msgstr "Клавиатура"
 
-#: ../src/keyboard.c:1372
+#: ../src/keyboard.c:1373
 msgid "Create or modify a custom keyboard layout"
 msgstr "Создание или изменение собственной раскладки"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
 msgid "small finger"
 msgstr "мизинец"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
 msgid "ring finger"
 msgstr "безымянный палец"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
 msgid "middle finger"
 msgstr "средний палец"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
 msgid "index finger"
 msgstr "указательный палец"
 
-#: ../src/keyboard.c:1728
+#: ../src/keyboard.c:1729
 msgid "Press and edit me"
 msgstr "Нажми и отредактируй меня"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-1.9.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-02 15:28-0300\n"
+"POT-Creation-Date: 2014-09-03 14:56-0300\n"
 "PO-Revision-Date: 2013-11-21 07:38+0600\n"
 "Last-Translator: Chyngyz Dzhumaliev <kyrgyzl10n@gmail.com>\n"
 "Language-Team: Kirghiz <i18n-team-ky-kyrgyz@lists.sourceforge.net>\n"
@@ -281,7 +281,7 @@ msgstr "Shift клавишасы үстүңкү жана астыңкы симв
 msgid "SPACE BAR"
 msgstr "БОШТУК"
 
-#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "баш бармак"
 
@@ -482,7 +482,7 @@ msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] "Жат жазуу режими (төмөнкү үн синтезаторунан көз каранды болот: %s)"
 
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "Киришүү"
 
@@ -648,7 +648,7 @@ msgid ""
 "any mistakes. In other words, only input without error will be accepted."
 msgstr ""
 
-#: ../src/keyboard.c:1094
+#: ../src/keyboard.c:1095
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -658,37 +658,37 @@ msgstr ""
 "зарыл. Эгер кийинки сунуштардын жолун жолдосоңуз, батыраак жана жакшыраак "
 "басканды үйрөнүп аласыз."
 
-#: ../src/keyboard.c:1097
+#: ../src/keyboard.c:1098
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
 msgstr ""
 
-#: ../src/keyboard.c:1100
+#: ../src/keyboard.c:1101
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
 "look at the keyboard to see if your fingers are properly positioned."
 msgstr ""
 
-#: ../src/keyboard.c:1104
+#: ../src/keyboard.c:1105
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
 msgstr ""
 
-#: ../src/keyboard.c:1107
+#: ../src/keyboard.c:1108
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr ""
 
-#: ../src/keyboard.c:1109
+#: ../src/keyboard.c:1110
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
 "tire."
 msgstr ""
 
-#: ../src/keyboard.c:1112
+#: ../src/keyboard.c:1113
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -697,74 +697,74 @@ msgid ""
 "basic course."
 msgstr ""
 
-#: ../src/keyboard.c:1118
+#: ../src/keyboard.c:1119
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
 "fingers to remain in the home position."
 msgstr ""
 
-#: ../src/keyboard.c:1122
+#: ../src/keyboard.c:1123
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
 msgstr ""
 
-#: ../src/keyboard.c:1125
+#: ../src/keyboard.c:1126
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
 "and look forward to your success!"
 msgstr ""
 
-#: ../src/keyboard.c:1136
+#: ../src/keyboard.c:1137
 #, c-format
 msgid "Step %i"
 msgstr "%i кадам"
 
-#: ../src/keyboard.c:1142
+#: ../src/keyboard.c:1143
 msgid "To position the hands"
 msgstr "Колдорду жайлаштыруу"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1228
 msgid "Go ahead!"
 msgstr "Алга!"
 
-#: ../src/keyboard.c:1234
+#: ../src/keyboard.c:1235
 msgid "Relation between fingers and keys"
 msgstr "Бармак жана клавишанын катышы"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1236
 msgid "Click on any key to see which finger you must use:"
 msgstr ""
 "Кайсы бармакты сизге колдонуш керегин көрүш үчүн каалаган клавишаны басып "
 "көрүңүз:"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
 msgid "Keyboard"
 msgstr "Ариптакта"
 
-#: ../src/keyboard.c:1372
+#: ../src/keyboard.c:1373
 msgid "Create or modify a custom keyboard layout"
 msgstr "Тапшырылма ариптакта жайылмасын жаратуу же өзгөртүү"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
 msgid "small finger"
 msgstr "чыпалак"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
 msgid "ring finger"
 msgstr "аты жок"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
 msgid "middle finger"
 msgstr "ортон"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
 msgid "index finger"
 msgstr "сөөмөй"
 
-#: ../src/keyboard.c:1728
+#: ../src/keyboard.c:1729
 msgid "Press and edit me"
 msgstr "Мени басып ондоңуз"
 

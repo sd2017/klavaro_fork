@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.4-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-02 15:28-0300\n"
+"POT-Creation-Date: 2014-09-03 14:56-0300\n"
 "PO-Revision-Date: 2012-05-10 18:46-0500\n"
 "Last-Translator: Francisco Javier P.L. <chilicuil@ubuntu.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
@@ -285,7 +285,7 @@ msgstr "Alternar entre mayúsculas y minúsculas."
 msgid "SPACE BAR"
 msgstr "BARRA ESPACIADORA"
 
-#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "pulgares"
 
@@ -490,7 +490,7 @@ msgstr[0] "El modo dictado (depende del sintetizador de voz: % s)"
 msgstr[1] ""
 "El modo dictado (depende de uno de estos sintetizadores de voz: % s)"
 
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "Introducción"
 
@@ -692,7 +692,7 @@ msgstr ""
 "mínimas. Se pedirá que use la tecla de retroceso para corregir los errores. "
 "Dicho de otro modo, solo se aceptará texto sin ningún error."
 
-#: ../src/keyboard.c:1094
+#: ../src/keyboard.c:1095
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -702,7 +702,7 @@ msgstr ""
 "escribir eficientemente. Si sigue estas recomendaciones aprenderá antes y "
 "escribirá mejor."
 
-#: ../src/keyboard.c:1097
+#: ../src/keyboard.c:1098
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -710,7 +710,7 @@ msgstr ""
 "La punta de los dedos índice debe descansar sobre las dos teclas con una "
 "pequeña marca sobresaliente, en el centro del teclado."
 
-#: ../src/keyboard.c:1100
+#: ../src/keyboard.c:1101
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -720,7 +720,7 @@ msgstr ""
 "en el lugar correcto. Así, con algo de experiencia, no necesitará mirar el "
 "teclado para saber si sus dedos están en el lugar correcto."
 
-#: ../src/keyboard.c:1104
+#: ../src/keyboard.c:1105
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -728,11 +728,11 @@ msgstr ""
 "La punta de los otros dedos descansa junto a los índices, sobre las teclas "
 "de la misma fila del teclado."
 
-#: ../src/keyboard.c:1107
+#: ../src/keyboard.c:1108
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "El lado exterior de los pulgares descansa sobre la barra espaciadora."
 
-#: ../src/keyboard.c:1109
+#: ../src/keyboard.c:1110
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -741,7 +741,7 @@ msgstr ""
 "La base de la mano (la parte más cercana a la muñeca) descansa sobre la "
 "mesa, fuera del teclado. Sin este apoyo los brazos se cansarían enseguida."
 
-#: ../src/keyboard.c:1112
+#: ../src/keyboard.c:1113
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -754,7 +754,7 @@ msgstr ""
 "como sea posible. Cada dedo se corresponde con unas teclas específicas; "
 "usted aprenderá esa relación según vaya completando el curso básico."
 
-#: ../src/keyboard.c:1118
+#: ../src/keyboard.c:1119
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -763,7 +763,7 @@ msgstr ""
 "Para aprender la relación entre dedos y teclas, es muy importante que sólo "
 "mueva el dedo que debe pulsar la tecla y deje el resto en su posición guía."
 
-#: ../src/keyboard.c:1122
+#: ../src/keyboard.c:1123
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -771,7 +771,7 @@ msgstr ""
 "Cuando memorice esta relación, puede relajar un poco su cumplimiento para "
 "conseguir mayor velocidad de escritura."
 
-#: ../src/keyboard.c:1125
+#: ../src/keyboard.c:1126
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -781,52 +781,52 @@ msgstr ""
 "un buen mecanógrafo requiere esfuerzo y paciencia. Confiamos en que los "
 "tendrá, y le deseamos mucho éxito."
 
-#: ../src/keyboard.c:1136
+#: ../src/keyboard.c:1137
 #, c-format
 msgid "Step %i"
 msgstr "Paso %i"
 
-#: ../src/keyboard.c:1142
+#: ../src/keyboard.c:1143
 msgid "To position the hands"
 msgstr "Cómo poner las manos"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1228
 msgid "Go ahead!"
 msgstr "¡Adelante!"
 
-#: ../src/keyboard.c:1234
+#: ../src/keyboard.c:1235
 msgid "Relation between fingers and keys"
 msgstr "Relación entre dedos y teclas"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1236
 msgid "Click on any key to see which finger you must use:"
 msgstr "Pulse cualquier tecla para ver qué dedo usar:"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
 msgid "Keyboard"
 msgstr "Teclado"
 
-#: ../src/keyboard.c:1372
+#: ../src/keyboard.c:1373
 msgid "Create or modify a custom keyboard layout"
 msgstr "Crear o modificar una distribución de teclado personalizada"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
 msgid "small finger"
 msgstr "dedo meñique"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
 msgid "ring finger"
 msgstr "dedo anular"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
 msgid "middle finger"
 msgstr "dedo de enmedio"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
 msgid "index finger"
 msgstr "dedo índice"
 
-#: ../src/keyboard.c:1728
+#: ../src/keyboard.c:1729
 msgid "Press and edit me"
 msgstr "Pulse y edíteme"
 

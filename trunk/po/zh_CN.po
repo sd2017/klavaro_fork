@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.0-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-02 15:28-0300\n"
+"POT-Creation-Date: 2014-09-03 14:56-0300\n"
 "PO-Revision-Date: 2011-03-31 14:17+0800\n"
 "Last-Translator: Yuwei Yu <acevery@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -276,7 +276,7 @@ msgstr "切换“Shift”效果，在按键的上、下两行的字母间切换�
 msgid "SPACE BAR"
 msgstr "空格键"
 
-#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "拇指"
 
@@ -476,7 +476,7 @@ msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] "语音模式（取决于这个语音合成器： %s）"
 msgstr[1] "语音模式（取决于这些语音合成器： %s）"
 
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "介绍"
 
@@ -667,7 +667,7 @@ msgstr ""
 "放在了正确率和节奏上。这里，要求你使用退格键(Backspace)去修正错误。也就是说，"
 "只有完全正确的输入才会被接受。"
 
-#: ../src/keyboard.c:1094
+#: ../src/keyboard.c:1095
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -676,13 +676,13 @@ msgstr ""
 "    正确的摆放你的手和手指对于高效地打字是非常重要的。如果你遵循下面的建议，"
 "你将会打得更快更好。"
 
-#: ../src/keyboard.c:1097
+#: ../src/keyboard.c:1098
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
 msgstr "    食指的指尖放在键盘中央那两个有小凸点的键上。"
 
-#: ../src/keyboard.c:1100
+#: ../src/keyboard.c:1101
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -691,17 +691,17 @@ msgstr ""
 "    这两个凸点的是使你保持正确手指位置的“触点”。这样，通过一些感觉，你就不需"
 "要去看键盘来确定你的手指是否正确地摆放。"
 
-#: ../src/keyboard.c:1104
+#: ../src/keyboard.c:1105
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
 msgstr "    其它手指的指尖自然地摆在食指边上，放在键盘相同一行的其它键上。"
 
-#: ../src/keyboard.c:1107
+#: ../src/keyboard.c:1108
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "    大拇指的外沿放在空格键上。"
 
-#: ../src/keyboard.c:1109
+#: ../src/keyboard.c:1110
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -710,7 +710,7 @@ msgstr ""
 "    手最靠近手腕的部分放在键盘外的桌子上。失去这样的支持，手臂将很快就疲劳"
 "了。"
 
-#: ../src/keyboard.c:1112
+#: ../src/keyboard.c:1113
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -722,7 +722,7 @@ msgstr ""
 "有键。为了达到这个目标，需要在每一个按键和手指间建立一个专门的关系。这个关系"
 "将在你完成基础课程中逐步学会。"
 
-#: ../src/keyboard.c:1118
+#: ../src/keyboard.c:1119
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -731,7 +731,7 @@ msgstr ""
 "    当你学习手指和按钮的关系时，非常重要的一点是在保持其它手指在本位不动的情"
 "况下，仅仅移动击键的那个手指。"
 
-#: ../src/keyboard.c:1122
+#: ../src/keyboard.c:1123
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -739,7 +739,7 @@ msgstr ""
 "    在记下这一关系后，你可以稍微放松一点上面的规则，从而你可以获得更快的打字"
 "速度。"
 
-#: ../src/keyboard.c:1125
+#: ../src/keyboard.c:1126
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -748,52 +748,52 @@ msgstr ""
 "    你已经准备好开始基础课程的训练了。成为打字高手需要努力和耐心。我们相信你"
 "拥有这些并期待你的成功！"
 
-#: ../src/keyboard.c:1136
+#: ../src/keyboard.c:1137
 #, c-format
 msgid "Step %i"
 msgstr "步骤 %i"
 
-#: ../src/keyboard.c:1142
+#: ../src/keyboard.c:1143
 msgid "To position the hands"
 msgstr "手的放法"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1228
 msgid "Go ahead!"
 msgstr "开始吧！"
 
-#: ../src/keyboard.c:1234
+#: ../src/keyboard.c:1235
 msgid "Relation between fingers and keys"
 msgstr "手指和键的关系"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1236
 msgid "Click on any key to see which finger you must use:"
 msgstr "点击任何键来看看你必须用哪一个手指:"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
 msgid "Keyboard"
 msgstr "键盘"
 
-#: ../src/keyboard.c:1372
+#: ../src/keyboard.c:1373
 msgid "Create or modify a custom keyboard layout"
 msgstr "创建或修改一个定制的键盘布局"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
 msgid "small finger"
 msgstr "小指"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
 msgid "ring finger"
 msgstr "无名指"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
 msgid "middle finger"
 msgstr "中指"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
 msgid "index finger"
 msgstr "食指"
 
-#: ../src/keyboard.c:1728
+#: ../src/keyboard.c:1729
 msgid "Press and edit me"
 msgstr "按下并编辑我"
 

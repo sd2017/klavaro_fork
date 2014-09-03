@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.7.1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-02 15:28-0300\n"
+"POT-Creation-Date: 2014-09-03 14:56-0300\n"
 "PO-Revision-Date: 2011-01-09 22:58+0100\n"
 "Last-Translator: Tomasz Wojtyś <tsr84@o2.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
@@ -280,7 +280,7 @@ msgstr ""
 msgid "SPACE BAR"
 msgstr "SPACJA"
 
-#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "kciuki"
 
@@ -486,7 +486,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "Wstęp"
 
@@ -690,7 +690,7 @@ msgstr ""
 "błędów. Innymi słowy, jedynie bezbłędnie napisany tekst zostanie "
 "zaakceptowany."
 
-#: ../src/keyboard.c:1094
+#: ../src/keyboard.c:1095
 #, fuzzy
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
@@ -701,7 +701,7 @@ msgstr ""
 "bezwzrokowego. Przestrzegaj ściśle poniższych wskazówek a twoja nauka będzie "
 "przebiegać szybciej."
 
-#: ../src/keyboard.c:1097
+#: ../src/keyboard.c:1098
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -709,7 +709,7 @@ msgstr ""
 "Palce wskazujące spoczywają nad dwoma klawiszami, które mają na sobie małe "
 "wypustki."
 
-#: ../src/keyboard.c:1100
+#: ../src/keyboard.c:1101
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -719,7 +719,7 @@ msgstr ""
 "nim, czując wypustki pod palcami wskazującymi, można bez patrzenia na "
 "klawiaturę mieć pewność, że palce są prawidłowo ułożone."
 
-#: ../src/keyboard.c:1104
+#: ../src/keyboard.c:1105
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -727,11 +727,11 @@ msgstr ""
 "Opuszki pozostałych palców naturalnie leżą obok palców wskazujących na "
 "klawiszach z tego samego rzędu."
 
-#: ../src/keyboard.c:1107
+#: ../src/keyboard.c:1108
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "Zewnętrzne górne części kciuków spoczywają na spacji."
 
-#: ../src/keyboard.c:1109
+#: ../src/keyboard.c:1110
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -740,7 +740,7 @@ msgstr ""
 "Wewnętrzne części dłoni najbliżej nadgarstka (baza) opierają się na stole, "
 "poza klawiaturą. Bez takiego podparcia ręce bardzo szybko się męczą."
 
-#: ../src/keyboard.c:1112
+#: ../src/keyboard.c:1113
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -754,7 +754,7 @@ msgstr ""
 "dokładnie jednemu palcu, którym może być wciskany. Tych zależności będziesz "
 "się stopniowo uczył podczas kursu podstawowego."
 
-#: ../src/keyboard.c:1118
+#: ../src/keyboard.c:1119
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -765,7 +765,7 @@ msgstr ""
 "odpowiadający mu palec jest przesuwany, a reszta spoczywa nieruchomo. Po "
 "wciśnięciu palec wraca do układu podstawowego."
 
-#: ../src/keyboard.c:1122
+#: ../src/keyboard.c:1123
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -773,7 +773,7 @@ msgstr ""
 "Po opanowaniu danego klawisza możesz stosować powyższą zasadę mniej ściśle, "
 "aby skrócić czas pomiędzy wciśnięciami i rozwinąć prędkość pisania."
 
-#: ../src/keyboard.c:1125
+#: ../src/keyboard.c:1126
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -783,52 +783,52 @@ msgstr ""
 "zawsze pamiętaj: nauka pisania bezwzrokowego wymaga determinacji i "
 "cierpliwości! Wierzymy w Ciebie, nie zawiedź nas, dobrze?"
 
-#: ../src/keyboard.c:1136
+#: ../src/keyboard.c:1137
 #, c-format
 msgid "Step %i"
 msgstr "Krok %i"
 
-#: ../src/keyboard.c:1142
+#: ../src/keyboard.c:1143
 msgid "To position the hands"
 msgstr "Ułożenie rąk"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1228
 msgid "Go ahead!"
 msgstr "Idź dalej!"
 
-#: ../src/keyboard.c:1234
+#: ../src/keyboard.c:1235
 msgid "Relation between fingers and keys"
 msgstr "Powiązania klawiszy z palcami"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1236
 msgid "Click on any key to see which finger you must use:"
 msgstr "Kliknij na dowolnym klawiszu aby zobaczyć którego palca użyć:"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
 msgid "Keyboard"
 msgstr "Klawiatura"
 
-#: ../src/keyboard.c:1372
+#: ../src/keyboard.c:1373
 msgid "Create or modify a custom keyboard layout"
 msgstr "Utwórz lub zmień własny układ klawiatury"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
 msgid "small finger"
 msgstr "mały palec"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
 msgid "ring finger"
 msgstr "palec serdeczny"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
 msgid "middle finger"
 msgstr "palec środkowy"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
 msgid "index finger"
 msgstr "palec wskazujący"
 
-#: ../src/keyboard.c:1728
+#: ../src/keyboard.c:1729
 msgid "Press and edit me"
 msgstr "Naciśnij dowolny klawisz"
 

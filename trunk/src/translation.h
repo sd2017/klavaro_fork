@@ -47,6 +47,7 @@
 "Português (pt_BR) [qwerty_br_abnt2]\n" \
 "Русский (ru) [jtsuken_ru]\n" \
 "Suomen kieli (fi) [querty_se]\n"\
+"Slovenščina (sl) [qwertz_sl]\n" \
 "Svenska (sv) [qwerty_se]\n" \
 "తెలుగు (te) [qwerty_us]\n" \
 "Українська (uk) [jtsuken_ua]\n" \

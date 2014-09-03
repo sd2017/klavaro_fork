@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.1.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-02 15:28-0300\n"
+"POT-Creation-Date: 2014-09-03 14:56-0300\n"
 "PO-Revision-Date: 2008-11-05 16:51+0600\n"
 "Last-Translator: Md. Rezwan Shahid <rafi6047@yahoo.com>\n"
 "Language-Team: Bangla/Bengali <l10n@ankur.org.bd>\n"
@@ -308,7 +308,7 @@ msgstr ""
 msgid "SPACE BAR"
 msgstr "স্পেসবার"
 
-#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "বুড়ো আঙ্গুল"
 
@@ -530,7 +530,7 @@ msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "পরিচিতি"
 
@@ -731,7 +731,7 @@ msgstr ""
 "ভূল সঠিক করতে আপনি অবশ্যই ব্যাকস্পেস কী ব্যবহার করবেন। অন্যভাবে বলা যায়, শুধুমাত্র "
 "ত্রুটিহীন টেক্সট গ্রহন করা হবে।"
 
-#: ../src/keyboard.c:1094
+#: ../src/keyboard.c:1095
 #, fuzzy
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
@@ -741,13 +741,13 @@ msgstr ""
 "সুদক্ষভঅবে টাইপ করার জন্য হাত এবং আঙ্গুলসমূহের সঠিক অবস্থান অত্যন্ত জরুরী। পরামর্শসমূহ "
 "অনুসরণ করুন এবং আপনি দ্রুত শিখতে পারবেন।"
 
-#: ../src/keyboard.c:1097
+#: ../src/keyboard.c:1098
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
 msgstr ""
 
-#: ../src/keyboard.c:1100
+#: ../src/keyboard.c:1101
 #, fuzzy
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
@@ -759,19 +759,19 @@ msgstr ""
 "আপনার আর কি-বোর্ড দেখার প্রয়োজন হবে না। এর ফলে প্রতিবার কী তে স্পর্শ করার পর "
 "আপনার হাত স্বাভাবিকভাবে সঠিক অবস্থানে চলে আসবে।"
 
-#: ../src/keyboard.c:1104
+#: ../src/keyboard.c:1105
 #, fuzzy
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
 msgstr "৩)  অন্য আঙ্গুলসমূহ তর্জনীর পাশের একই লাইনে সন্নিহিত কীসমূহের উপরে থাকবে।"
 
-#: ../src/keyboard.c:1107
+#: ../src/keyboard.c:1108
 #, fuzzy
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "২)  উভয় বৃদ্ধাঙ্গুলের পার্শ্ব স্পেসবারের উপরে থাকবে।"
 
-#: ../src/keyboard.c:1109
+#: ../src/keyboard.c:1110
 #, fuzzy
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
@@ -781,7 +781,7 @@ msgstr ""
 "৪)  কব্জির কাছের হাতের অংশ (ভিত্তি) কি-বোর্ডের বাইরে, টেবিলের উপরে থাকে। এই "
 "ধরণের সমর্থন ছাড়া বাহুগুলো অতি দ্রুত ক্লান্ত হয়ে পরবে।"
 
-#: ../src/keyboard.c:1112
+#: ../src/keyboard.c:1113
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -794,7 +794,7 @@ msgstr ""
 "এর সাথে আঙ্গুলের একটি সুনির্দিস্ট সম্পর্ক স্থাপন করতে হবে। এই সম্পর্কগুলো প্রারম্ভিক "
 "কোর্সে শেখানো হবে।"
 
-#: ../src/keyboard.c:1118
+#: ../src/keyboard.c:1119
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -804,7 +804,7 @@ msgstr ""
 "কী চাপতে আপনার নির্দিষ্ট আঙ্গুলটি নড়ে এবং যতদূর সম্ভব অন্যান্য আঙ্গুল গুলো তাদের আসল "
 "অবস্থানে থাকে।"
 
-#: ../src/keyboard.c:1122
+#: ../src/keyboard.c:1123
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -812,7 +812,7 @@ msgstr ""
 "এই সম্পর্ক মুখস্ত করার পরে, আপনি পূর্ববর্তী নিয়মটি হালকাভাবে নিতে পারবেন, যাতে করে "
 "গতি এবং দ্রুততা বৃদ্ধি করা সম্ভব হয়।"
 
-#: ../src/keyboard.c:1125
+#: ../src/keyboard.c:1126
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -822,26 +822,26 @@ msgstr ""
 "স্পর্শ-টাইপ এর জন্য ইচ্ছা এবং ধৈর্য্য প্রয়োজন! আমরা আপনাকে বিশ্বাস করি, আমদেরকে হতাশ "
 "করবেন না, তাই না?"
 
-#: ../src/keyboard.c:1136
+#: ../src/keyboard.c:1137
 #, c-format
 msgid "Step %i"
 msgstr ""
 
-#: ../src/keyboard.c:1142
+#: ../src/keyboard.c:1143
 #, fuzzy
 msgid "To position the hands"
 msgstr "হাতের অবস্থান ঠিক করতে:"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1228
 msgid "Go ahead!"
 msgstr ""
 
-#: ../src/keyboard.c:1234
+#: ../src/keyboard.c:1235
 #, fuzzy
 msgid "Relation between fingers and keys"
 msgstr "আঙ্গুল ও কী এর মধ্যে সম্পর্ক প্রদর্শন করুন"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1236
 #, fuzzy
 msgid "Click on any key to see which finger you must use:"
 msgstr ""
@@ -849,32 +849,32 @@ msgstr ""
 "তা দেখার জন্য\n"
 "উপরের যেকোনোটিটে ক্লিক করুন"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
 msgid "Keyboard"
 msgstr "কিবোর্ড"
 
-#: ../src/keyboard.c:1372
+#: ../src/keyboard.c:1373
 #, fuzzy
 msgid "Create or modify a custom keyboard layout"
 msgstr "নতুন কিবোর্ড লেআউটের জন্য একটি নাম লিখুন"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
 msgid "small finger"
 msgstr "কনিষ্ঠা"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
 msgid "ring finger"
 msgstr "অনামিকা"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
 msgid "middle finger"
 msgstr "মধ্যমা"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
 msgid "index finger"
 msgstr "তর্জনী"
 
-#: ../src/keyboard.c:1728
+#: ../src/keyboard.c:1729
 #, fuzzy
 msgid "Press and edit me"
 msgstr "একটি কী চাপুন"

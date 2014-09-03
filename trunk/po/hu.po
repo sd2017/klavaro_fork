@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-02 15:28-0300\n"
+"POT-Creation-Date: 2014-09-03 14:56-0300\n"
 "PO-Revision-Date: 2014-01-12 05:59+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
@@ -281,7 +281,7 @@ msgstr ""
 msgid "SPACE BAR"
 msgstr "SZÓKÖZ"
 
-#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "hüvelykujjak"
 
@@ -482,7 +482,7 @@ msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] "Diktálás mód (ettől a beszédszintetizátortól függ: %s)"
 msgstr[1] "Diktálás mód (ezektől a beszédszintetizátoroktól függ: %s)"
 
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "Bevezetés"
 
@@ -683,7 +683,7 @@ msgstr ""
 "Ha hibázol, azt ki kell javítanod a Backspace billentyűvel. Más szóval, csak "
 "a hibátlan szöveg lesz elfogadva."
 
-#: ../src/keyboard.c:1094
+#: ../src/keyboard.c:1095
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -693,7 +693,7 @@ msgstr ""
 "betartod az itteni ajánlásokat, gyorsabban fogsz tanulni és jobban gépelsz "
 "majd."
 
-#: ../src/keyboard.c:1097
+#: ../src/keyboard.c:1098
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -701,7 +701,7 @@ msgstr ""
 "A mutatóujjak hegyei a két, kiemelt jelölést tartalmazó billentyű fölött "
 "vannak, a billentyűzet közepén."
 
-#: ../src/keyboard.c:1100
+#: ../src/keyboard.c:1101
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -711,17 +711,17 @@ msgstr ""
 "helyen maradjanak. Emiatt némi gyakorlás után nem kell többé a "
 "billentyűzetre pillantanod, hogy jó helyen van-e a kezed."
 
-#: ../src/keyboard.c:1104
+#: ../src/keyboard.c:1105
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
 msgstr "A többi ujj lazán a mutatóujjak mellett fekszik, ugyanabban a sorban."
 
-#: ../src/keyboard.c:1107
+#: ../src/keyboard.c:1108
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "A hüvelykujjak külső szélei a szóköz billentyű fölött pihennek."
 
-#: ../src/keyboard.c:1109
+#: ../src/keyboard.c:1110
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -730,7 +730,7 @@ msgstr ""
 "A kezek csuklóhoz legközelebbi részei az asztalra vannak támasztva, a "
 "billentyűzeten kívül. Ezen támasz nélkül a karok hamar elfáradnak."
 
-#: ../src/keyboard.c:1112
+#: ../src/keyboard.c:1113
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -744,7 +744,7 @@ msgstr ""
 "ujjak és billentyűk kapcsolatát a kezdő tanfolyamban fogod lépésről lépésre "
 "megtanulni."
 
-#: ../src/keyboard.c:1118
+#: ../src/keyboard.c:1119
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -754,7 +754,7 @@ msgstr ""
 "odafigyelned, hogy csak a megfelelő ujjad mozduljon a leütendő billentyű "
 "felé, és a többi a helyén maradjon."
 
-#: ../src/keyboard.c:1122
+#: ../src/keyboard.c:1123
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -762,7 +762,7 @@ msgstr ""
 "Ha már megtanultad, hogy melyik billentyűt melyik ujjaddal üsd le, az előző "
 "szabályt veheted lazábban, hogy a leütések gyorsabbakká válhassanak."
 
-#: ../src/keyboard.c:1125
+#: ../src/keyboard.c:1126
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -772,52 +772,52 @@ msgstr ""
 "eszedbe: megtanulni gépelni elszántságot és türelmet kíván! Bízunk benned, "
 "reméljük sikerrel jársz!"
 
-#: ../src/keyboard.c:1136
+#: ../src/keyboard.c:1137
 #, c-format
 msgid "Step %i"
 msgstr "%i. lépés"
 
-#: ../src/keyboard.c:1142
+#: ../src/keyboard.c:1143
 msgid "To position the hands"
 msgstr "A kezek tartása"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1228
 msgid "Go ahead!"
 msgstr "Kezdjük!"
 
-#: ../src/keyboard.c:1234
+#: ../src/keyboard.c:1235
 msgid "Relation between fingers and keys"
 msgstr "Az ujjak és a billentyűk közti kapcsolat"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1236
 msgid "Click on any key to see which finger you must use:"
 msgstr "Kattints a billentyűkre, hogy lásd, melyik ujjad kell használnod:"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
 msgid "Keyboard"
 msgstr "Billentyűzet"
 
-#: ../src/keyboard.c:1372
+#: ../src/keyboard.c:1373
 msgid "Create or modify a custom keyboard layout"
 msgstr "Egyéni billentyűzetkiosztás létrehozása vagy módosítása"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
 msgid "small finger"
 msgstr "kisujj"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
 msgid "ring finger"
 msgstr "gyűrűsujj"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
 msgid "middle finger"
 msgstr "középső ujj"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
 msgid "index finger"
 msgstr "mutatóujj"
 
-#: ../src/keyboard.c:1728
+#: ../src/keyboard.c:1729
 msgid "Press and edit me"
 msgstr "Nyomd meg a szerkesztéshez"
 
@@ -1078,7 +1078,7 @@ msgstr ""
 " a kitartó gyakorlás gyorsít a tempódon.\n"
 
 #: ../src/velocity.c:427
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Still away from the highway. You can do better...\n"
 " Try to reach at least %.0f WPM.\n"
@@ -1139,7 +1139,7 @@ msgstr " Jól állsz, bajnok! Nem félsz, hogy eléred a percenként %.0f szót?
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Kung-fu mastery!\n"
 " Can you fly at %.0f WPM?\n"

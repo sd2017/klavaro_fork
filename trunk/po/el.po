@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-02 15:28-0300\n"
+"POT-Creation-Date: 2014-09-03 14:56-0300\n"
 "PO-Revision-Date: 2014-01-18 03:07+0200\n"
 "Last-Translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>\n"
 "Language-Team: Greek <team@lists.gnome.gr>\n"
@@ -295,7 +295,7 @@ msgstr ""
 msgid "SPACE BAR"
 msgstr "ΔΙΑΣΤΗΜΑ"
 
-#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "αντίχειρες"
 
@@ -500,7 +500,7 @@ msgstr[1] ""
 "Κατάσταση υπαγόρευσης (εξαρτάται από ένα από αυτούς τους συνθετητές ομιλίας: "
 "%s)"
 
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "Εισαγωγή"
 
@@ -711,7 +711,7 @@ msgstr ""
 "για να διορθώσετε οποιαδήποτε λάθη. Με άλλα λόγια, θα είναι αποδεκτή μόνο "
 "είσοδος χωρίς σφάλματα."
 
-#: ../src/keyboard.c:1094
+#: ../src/keyboard.c:1095
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -721,7 +721,7 @@ msgstr ""
 "αποτελεσματική πληκτρολόγηση. Θα μάθετε γρηγορότερα και θα πληκτρολογείτε "
 "καλύτερα αν ακολουθήσετε τις ακόλουθες συστάσεις."
 
-#: ../src/keyboard.c:1097
+#: ../src/keyboard.c:1098
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -729,7 +729,7 @@ msgstr ""
 "Οι άκρες των δεικτών στέκονται στο κέντρο του πληκτρολογίου, πάνω από τα δύο "
 "πλήκτρα που έχουν ένα μικρό εξόγκωμα,"
 
-#: ../src/keyboard.c:1100
+#: ../src/keyboard.c:1101
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -739,7 +739,7 @@ msgstr ""
 "παραμένουν στην σωστή θέση. Έτσι δεν θα χρειάζεται να κοιτάζετε στο "
 "πληκτρολόγιο για να δείτε αν τα δάχτυλα σας είναι τοποθετημένα σωστά."
 
-#: ../src/keyboard.c:1104
+#: ../src/keyboard.c:1105
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -747,11 +747,11 @@ msgstr ""
 "Οι άκρες των υπόλοιπων δακτύλων τοποθετούνται δίπλα στους δείκτες, πάνω στα "
 "πλήκτρα της ίδιας σειράς του πληκτρολογίου."
 
-#: ../src/keyboard.c:1107
+#: ../src/keyboard.c:1108
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "Τα εξωτερικά άκρα των αντιχείρων σας στέκονται πάνω από το διάστημα."
 
-#: ../src/keyboard.c:1109
+#: ../src/keyboard.c:1110
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -761,7 +761,7 @@ msgstr ""
 "από το τραπέζι, εκτός πληκτρολογίου. Χωρίς αυτό το είδος υποστήριξης τα "
 "χέρια θα κουράζονταν γρήγορα."
 
-#: ../src/keyboard.c:1112
+#: ../src/keyboard.c:1113
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -775,7 +775,7 @@ msgstr ""
 "χρησιμοποιήσει ειδική σχέση μεταξύ κάθε πλήκτρου και δαχτύλου. Αυτή η σχέση "
 "θα επιτευχθεί σταδιακά καθώς θα ολοκληρώνετε την βασική σειρά μαθημάτων."
 
-#: ../src/keyboard.c:1118
+#: ../src/keyboard.c:1119
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -785,7 +785,7 @@ msgstr ""
 "σημαντικό να κινείτε μόνο το δάχτυλο που πρέπει να πατήσει το πλήκτρο, και "
 "να αφήνετε όλα τα άλλα δάχτυλα να παραμένουν στην αρχική τους θέση."
 
-#: ../src/keyboard.c:1122
+#: ../src/keyboard.c:1123
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -794,7 +794,7 @@ msgstr ""
 "προηγούμενο κανόνα, έτσι ώστε να επιτύχετε μεγαλύτερη ταχύτητα κατά την "
 "πληκτρολόγηση."
 
-#: ../src/keyboard.c:1125
+#: ../src/keyboard.c:1126
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -805,54 +805,54 @@ msgstr ""
 "επιτυχημένοι ως δακτυλογράφοι. Είμαστε σίγουροι ότι έχετε αυτές τις "
 "ικανότητες και περιμένουμε με αγωνία την επιτυχία σας!"
 
-#: ../src/keyboard.c:1136
+#: ../src/keyboard.c:1137
 #, c-format
 msgid "Step %i"
 msgstr "Βήμα %i"
 
-#: ../src/keyboard.c:1142
+#: ../src/keyboard.c:1143
 msgid "To position the hands"
 msgstr "Η θέση των χεριών"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1228
 msgid "Go ahead!"
 msgstr "Προχωρήστε!"
 
-#: ../src/keyboard.c:1234
+#: ../src/keyboard.c:1235
 msgid "Relation between fingers and keys"
 msgstr "Σχέση δακτύλων και πλήκτρων"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1236
 msgid "Click on any key to see which finger you must use:"
 msgstr ""
 "Για να δείτε ποιο δάχτυλο πρέπει να χρησιμοποιήσετε κάντε κλικ σε κάποιο "
 "πλήκτρο:"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
 msgid "Keyboard"
 msgstr "Πληκτρολόγιο"
 
-#: ../src/keyboard.c:1372
+#: ../src/keyboard.c:1373
 msgid "Create or modify a custom keyboard layout"
 msgstr "Δημιουργήστε ή τροποποιήστε μία προσαρμοσμένη διάταξη πληκτρολογίου"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
 msgid "small finger"
 msgstr "μικρό δάχτυλο"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
 msgid "ring finger"
 msgstr "παράμεσος"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
 msgid "middle finger"
 msgstr "μέσος"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
 msgid "index finger"
 msgstr "δείκτης"
 
-#: ../src/keyboard.c:1728
+#: ../src/keyboard.c:1729
 msgid "Press and edit me"
 msgstr "Πάτα και επεξεργάσου με"
 
@@ -1114,7 +1114,7 @@ msgstr ""
 "η επιμονή και η εξάσκηση θα βελτιώσουν την ταχύτητα σας.\n"
 
 #: ../src/velocity.c:427
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Still away from the highway. You can do better...\n"
 " Try to reach at least %.0f WPM.\n"
@@ -1177,7 +1177,7 @@ msgstr ""
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Kung-fu mastery!\n"
 " Can you fly at %.0f WPM?\n"
