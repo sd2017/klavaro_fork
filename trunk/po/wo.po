@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.4\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-07-11 15:37-0300\n"
+"POT-Creation-Date: 2014-09-02 15:28-0300\n"
 "PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Dominique Rochefort <dominique@orisma.ca>\n"
 "Language-Team: Wolof <wo@li.org>\n"
@@ -31,38 +31,151 @@ msgid "Remember always: someone loves you!"
 msgstr "Fàttaliku-léen bés bu nekk ne am na ku leen bëgg!"
 
 #: ../data/klavaro.glade.h:4
-msgid "Change language"
-msgstr "Soppi lammiñ"
+msgid "Klavaro - Progress"
+msgstr "Klavaro - Jéego yi"
 
 #: ../data/klavaro.glade.h:5
-msgid "Attention!"
-msgstr "Moytul!"
+msgid "_Lesson:"
+msgstr "Saar"
 
 #: ../data/klavaro.glade.h:6
-msgid "Do you confirm?"
-msgstr "Ndax woor na la?"
+msgid "Value"
+msgstr "Dayo"
 
 #: ../data/klavaro.glade.h:7
-msgid "_No"
-msgstr "Déedéed"
+msgid "Close this window, returning to the exercise."
+msgstr "Tëj palanteer bii, dellusi ci jéemantu bi."
 
 #: ../data/klavaro.glade.h:8
-msgid "_Yes"
-msgstr "Waaw"
+msgid "_Close"
+msgstr "Tëj"
 
 #: ../data/klavaro.glade.h:9
-msgid "Help?"
-msgstr "Ndimbal?"
+msgid "Clear all the progress data, for every module."
+msgstr "Far xibaar yi aju ci fi nu tollu, ci modil yépp."
 
 #: ../data/klavaro.glade.h:10
-msgid "This is a tip. Now you press this button to return to the main menu."
-msgstr "Lii ab xelal la. Bës leen ci butoŋ bi ngir dellusi ci njël lu mag li. "
+msgid "_Reset"
+msgstr "_Suqaliwaat"
 
 #: ../data/klavaro.glade.h:11
+msgid "Load other exercises/lessons"
+msgstr "Ubbi yeneeni jéemantu/saar/ Gàttal :  [Ctrl-O]"
+
+#: ../data/klavaro.glade.h:12
+msgid "_Other texts"
+msgstr "Yeneeni mbind"
+
+#: ../data/klavaro.glade.h:13
+msgid "Edit the character set to be used in this lesson."
+msgstr "Soppiléen njabootu araf yi ñu war a jëfandikoo ci saar wii."
+
+#: ../data/klavaro.glade.h:14
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr ""
+"Lii jéemantu bu beru la, dañu koo méngaleek njuumte yi ngay faral di def."
+
+#: ../data/klavaro.glade.h:15
+#, fuzzy
+msgid ""
+"Edit the character set to be used in lessons after 43: they are customizable!"
+msgstr "Soppiléen njabootu araf yi ñu war a jëfandikoo ci saar 44 ba 50."
+
+#: ../data/klavaro.glade.h:16 ../src/tutor.c:376
+msgid "Drag and drop text here to practice with it."
+msgstr "Diriléen te teg mbind wi fii ngir tàggat sa bopp ci tàppe."
+
+#: ../data/klavaro.glade.h:17
+#, fuzzy
+msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
+msgstr "Bësal fii ngir tàmbaliwaat jéemantu bi. Gàttal :  [Ctrl R]"
+
+#: ../data/klavaro.glade.h:18
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr "Wonem arafukaay bi ñu nataal ak ni baaraam yeek butoŋ yi ànde"
+
+#: ../data/klavaro.glade.h:19
+msgid "_Keyboard"
+msgstr "Arafukaay"
+
+#: ../data/klavaro.glade.h:20
+msgid "Select the font to be used in the exercise window."
+msgstr ""
+" Fal-léen njabootu araf yi ngéen di jëfandikoo ci palanteeru jéemantu yii"
+
+#: ../data/klavaro.glade.h:21
+msgid "Font definition"
+msgstr "Tànnum njabootu  araf"
+
+#: ../data/klavaro.glade.h:22
+msgid "Keep this checked if you want to get those nice beeps."
+msgstr "Danu koo war a bàyyi cig pal su ngeen bëgge dégg dégtu yu neex yii."
+
+#: ../data/klavaro.glade.h:23
+msgid "_Beep"
+msgstr "Bip "
+
+#: ../data/klavaro.glade.h:24
+msgid "Co_urse information"
+msgstr "Xibaar ci saar wi"
+
+#: ../data/klavaro.glade.h:25
+msgid "Charts showing the learning progress along the exercises."
+msgstr "Nataal wuy wone ni nuy jëme kanam ci saa su nuy  jéemantu."
+
+#: ../data/klavaro.glade.h:26
+msgid "_Progress"
+msgstr "_Jéego yi"
+
+#: ../data/klavaro.glade.h:27
+msgid "Exit the application immediately."
+msgstr "Génnal leegi ci jefekaay bii: Gàttal : [Ctrl-Q]"
+
+#: ../data/klavaro.glade.h:28
+msgid "Return to the main menu."
+msgstr "Dellusi ci jël lu mag li"
+
+#: ../data/klavaro.glade.h:29
 msgid "B_ack to menu"
 msgstr "Dellusi ci njël li"
 
-#: ../data/klavaro.glade.h:12
+#: ../data/klavaro.glade.h:30
+msgid "Show local and external scores from other users."
+msgstr "Wone manoore biir ak biti yu yeneeni jëfandikookat."
+
+#: ../data/klavaro.glade.h:31
+msgid "_Top 10"
+msgstr "_Top 10"
+
+#: ../data/klavaro.glade.h:32
+msgid "Change language"
+msgstr "Soppi lammiñ"
+
+#: ../data/klavaro.glade.h:33
+msgid "Attention!"
+msgstr "Moytul!"
+
+#: ../data/klavaro.glade.h:34
+msgid "Do you confirm?"
+msgstr "Ndax woor na la?"
+
+#: ../data/klavaro.glade.h:35
+msgid "_No"
+msgstr "Déedéed"
+
+#: ../data/klavaro.glade.h:36
+msgid "_Yes"
+msgstr "Waaw"
+
+#: ../data/klavaro.glade.h:37
+msgid "Help?"
+msgstr "Ndimbal?"
+
+#: ../data/klavaro.glade.h:38
+msgid "This is a tip. Now you press this button to return to the main menu."
+msgstr "Lii ab xelal la. Bës leen ci butoŋ bi ngir dellusi ci njël lu mag li. "
+
+#: ../data/klavaro.glade.h:39
 msgid ""
 "The main menu of the application is very straightforward. Just select the "
 "type of exercise you wish to take. Do not worry about clicking any button on "
@@ -71,7 +184,7 @@ msgstr ""
 "Jël lu mag li ñeel xeltéef bi lu yomb la. Fal leen rekk xeetu jéemantu bi "
 "ngeen fas yéenée def. Buléen ragal a cuq butoŋ yi, duñu leen ngaañ"
 
-#: ../data/klavaro.glade.h:13
+#: ../data/klavaro.glade.h:40
 msgid ""
 "Also the controls have tips which will appear if you hover over them with "
 "your mouse. These tips can come in very handy. To see how these tips work, "
@@ -81,27 +194,27 @@ msgstr ""
 "Te itam, butoŋ bu nekk dafa am waxtaanu ndimbal mu koy mottali. Ngir wone "
 "ko, tegal jinax ji ci kow butoŋ bi bañ a cuq te xaar tuuti..."
 
-#: ../data/klavaro.glade.h:14
+#: ../data/klavaro.glade.h:41
 msgid "Klavaro - Select file"
 msgstr "Klavaro - Tànnum dencukaay"
 
-#: ../data/klavaro.glade.h:15
+#: ../data/klavaro.glade.h:42
 msgid "_Cancel"
 msgstr "Neenal"
 
-#: ../data/klavaro.glade.h:16
+#: ../data/klavaro.glade.h:43
 msgid "_Open"
 msgstr "Ubbi"
 
-#: ../data/klavaro.glade.h:17
+#: ../data/klavaro.glade.h:44
 msgid "Re_name:"
 msgstr "Sàkkalaat tur:"
 
-#: ../data/klavaro.glade.h:18
+#: ../data/klavaro.glade.h:45
 msgid "Rename the selected item."
 msgstr "Sàkkalaat tur mbir mi  faluwoon"
 
-#: ../data/klavaro.glade.h:19
+#: ../data/klavaro.glade.h:46
 msgid ""
 "Read a text file and add a copy of it here. The file must be encoded in "
 "UTF-8."
@@ -109,113 +222,109 @@ msgstr ""
 "Njàng ab dencukaayu mbind te roof fii ab duppit. Dencukaay bi dafa war a "
 "nekk lu nu fas ci UTF-8"
 
-#: ../data/klavaro.glade.h:20
+#: ../data/klavaro.glade.h:47
 msgid "_Open text file"
 msgstr "Ubbi dencukaayu mbind yi"
 
-#: ../data/klavaro.glade.h:21
+#: ../data/klavaro.glade.h:48
 msgid "Paste text that was copied to the clipboard."
 msgstr "Taf mbind wi ñu duppiwoon ci dencandikaay bi."
 
-#: ../data/klavaro.glade.h:22
+#: ../data/klavaro.glade.h:49
 msgid "_Paste from clipboard"
 msgstr "Taf bu dale ca dencandikaay ba"
 
-#: ../data/klavaro.glade.h:23
+#: ../data/klavaro.glade.h:50
 msgid "Remove the selected item."
 msgstr "Màbb mbir mi falu."
 
-#: ../data/klavaro.glade.h:24
+#: ../data/klavaro.glade.h:51
 msgid "_Remove copied file"
 msgstr "_Màbb duppi dencukaay bi"
 
-#: ../data/klavaro.glade.h:25
+#: ../data/klavaro.glade.h:52
 msgid "Apply the selected item to create an exercise."
 msgstr "Jëfe mbir mi falu ngir sos ab jéemantu"
 
-#: ../data/klavaro.glade.h:26
+#: ../data/klavaro.glade.h:53
 msgid "_Apply"
 msgstr "Jëfe"
 
-#: ../data/klavaro.glade.h:27
+#: ../data/klavaro.glade.h:54
 msgid "Close this window."
 msgstr "Tëj palanteer bii."
 
-#: ../data/klavaro.glade.h:28
-msgid "_Close"
-msgstr "Tëj"
-
-#: ../data/klavaro.glade.h:29
+#: ../data/klavaro.glade.h:55
 msgid "Country / Custom"
 msgstr "Réew / solal"
 
-#: ../data/klavaro.glade.h:30
+#: ../data/klavaro.glade.h:56
 msgid "Variant"
 msgstr "Xeet"
 
-#: ../data/klavaro.glade.h:31
+#: ../data/klavaro.glade.h:57
 msgid "Remove the selected custom layout."
 msgstr "Màbb tëralinu solal wi nu faloon"
 
-#: ../data/klavaro.glade.h:32
+#: ../data/klavaro.glade.h:58
 msgid "_Remove"
 msgstr "_Màbb"
 
-#: ../data/klavaro.glade.h:33
+#: ../data/klavaro.glade.h:59
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
 msgstr "Jaabante diggante arafu mage yi ak yu ndaw yi ci butoŋ yi"
 
-#: ../data/klavaro.glade.h:34
+#: ../data/klavaro.glade.h:60
 msgid "SPACE BAR"
 msgstr "Bànqaasu teqale"
 
-#: ../data/klavaro.glade.h:35 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
 msgid "thumbs"
 msgstr "Puus"
 
-#: ../data/klavaro.glade.h:36
+#: ../data/klavaro.glade.h:62
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: ../data/klavaro.glade.h:37
+#: ../data/klavaro.glade.h:63
 msgid "Caps"
 msgstr "Xomb. Rajj"
 
-#: ../data/klavaro.glade.h:38
+#: ../data/klavaro.glade.h:64
 msgid "S_ave as:"
 msgstr "aar ci"
 
-#: ../data/klavaro.glade.h:39
+#: ../data/klavaro.glade.h:65
 msgid "Show previous screen."
 msgstr "Wone seetukaay bi jiitu"
 
-#: ../data/klavaro.glade.h:40
+#: ../data/klavaro.glade.h:66
 msgid "_Previous step"
 msgstr "Tollu tollu bi jiitu"
 
-#: ../data/klavaro.glade.h:41
+#: ../data/klavaro.glade.h:67
 msgid "Show next screen."
 msgstr "Wone seetukaay bi ci topp"
 
-#: ../data/klavaro.glade.h:42
+#: ../data/klavaro.glade.h:68
 msgid "_Next step"
 msgstr "Bi ci topp"
 
-#: ../data/klavaro.glade.h:43
+#: ../data/klavaro.glade.h:69
 msgid "Return without any modification."
 msgstr "Dellusi te bañ a jefe benn coppite"
 
-#: ../data/klavaro.glade.h:44
+#: ../data/klavaro.glade.h:70
 msgid "Save the current keyboard layout with the name specified above."
 msgstr "Aar tabalu arafukaay bi ñu tollu ak tur wi ñu wone ci kow."
 
-#: ../data/klavaro.glade.h:45
+#: ../data/klavaro.glade.h:71
 msgid "_Save and use"
 msgstr "Aar te jëfandikoo"
 
-#: ../data/klavaro.glade.h:46
+#: ../data/klavaro.glade.h:72
 msgid ""
 "If you like those beautiful hands, click here to close this window keeping "
 "them."
@@ -223,56 +332,56 @@ msgstr ""
 "Su ngéen soppee loxo yu jekk yii, cuq leen fii ngir tëj palanteer bi te "
 "dencaale leen."
 
-#: ../data/klavaro.glade.h:47
+#: ../data/klavaro.glade.h:73
 msgid "_Keep hands"
 msgstr "Denc loxo yi"
 
-#: ../data/klavaro.glade.h:48
+#: ../data/klavaro.glade.h:74
 msgid "Klavaro - Main menu"
 msgstr "Klavaro - Njël lu mag"
 
-#: ../data/klavaro.glade.h:49
+#: ../data/klavaro.glade.h:75
 msgid "Don't be shy about learning the basics!"
 msgstr "Bu leen am xel ñaar ci jàng cosaan yi"
 
-#: ../data/klavaro.glade.h:50
+#: ../data/klavaro.glade.h:76
 msgid "Learn how to type correctly"
 msgstr "Nan la ñuy tàppee mu aw yoon"
 
-#: ../data/klavaro.glade.h:51
+#: ../data/klavaro.glade.h:77
 msgid "Initial training for your fingers."
 msgstr "Tàggatum baaraam gi jëkk."
 
-#: ../data/klavaro.glade.h:52
+#: ../data/klavaro.glade.h:78
 msgid "First steps with initial training"
 msgstr "Jéego bi jëkk: tàggatum ndoorte"
 
-#: ../data/klavaro.glade.h:53
+#: ../data/klavaro.glade.h:79
 msgid "Memorizing the keyboard practicing random keys exercises."
 msgstr "Mokkal arafukaay gi wéeru ci ndimbalu butoŋ bu mu mën di doon."
 
-#: ../data/klavaro.glade.h:54
+#: ../data/klavaro.glade.h:80
 msgid "Practice with random keys"
 msgstr "Tàggat ak ay butoŋ yu mu mën di doon"
 
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:81
 msgid "Accelerating the touches practicing random words exercises."
 msgstr ""
 "Gaawalug mbind mi ak ay jéemantu yu sukkandiku ci baat yu mu mën di nekk"
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:82
 msgid "Practice with random words"
 msgstr "Tàggat ak ay baat yu mu mën di doon"
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:83
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr " Nekksiléen ku xaran ak jéemantu yi sukkandiku ci xise yu mët sëkk,."
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:84
 msgid "Practice with complete texts"
 msgstr "Tàggat ak ay mbind yu mët sëkk"
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:85
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
@@ -280,180 +389,71 @@ msgstr ""
 "Xamle arafukaay ci modil 1 ak 2. Ba tey itam moom lañuy jëfandikoo ci saaru "
 "rattaxal yi."
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:86
 msgid "_Keyboard:"
 msgstr "Arafukaay"
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:87
 msgid "Language for modules 3 and 4."
 msgstr "Lammiñ ngir sumb 3 ak 4"
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:88
 msgid "_Language:"
 msgstr "Làmmiñ"
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:89
 msgid "Speech"
 msgstr "Fitté"
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:90
 msgid "Your language here."
 msgstr "Sa lammiñ."
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:91
 msgid "Little tip about this program."
 msgstr "Pexe su ndaw ngir porogaraam bii."
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:92
 msgid "_Help"
 msgstr "Ndimbal"
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:93
 msgid "General information about the program."
 msgstr "Xibaar yu ëmb lépp te aju ci xeltéef gii."
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:94
 msgid "_About..."
 msgstr "Ci mbiri..."
 
-#: ../data/klavaro.glade.h:69
-msgid "Exit the application immediately."
-msgstr "Génnal leegi ci jefekaay bii: Gàttal : [Ctrl-Q]"
-
-#: ../data/klavaro.glade.h:70
-msgid "Klavaro - Progress"
-msgstr "Klavaro - Jéego yi"
-
-#: ../data/klavaro.glade.h:71
-msgid "_Lesson:"
-msgstr "Saar"
-
-#: ../data/klavaro.glade.h:72
-msgid "Value"
-msgstr "Dayo"
-
-#: ../data/klavaro.glade.h:73
-msgid "Close this window, returning to the exercise."
-msgstr "Tëj palanteer bii, dellusi ci jéemantu bi."
-
-#: ../data/klavaro.glade.h:74
-msgid "Clear all the progress data, for every module."
-msgstr "Far xibaar yi aju ci fi nu tollu, ci modil yépp."
-
-#: ../data/klavaro.glade.h:75
-msgid "_Reset"
-msgstr "_Suqaliwaat"
-
-#: ../data/klavaro.glade.h:76
+#: ../data/klavaro.glade.h:95
 msgid "Top 10"
 msgstr "Top 10"
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:96
 #, fuzzy
 msgid "Show extra information."
 msgstr "Wone xibaar yi yokku"
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:97
 #, fuzzy
 msgid "Hide extra information."
 msgstr "Nëbb xibaar yi yokku"
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:98
 msgid "Publish to the web your local scores."
 msgstr "Yéene say manoore ci internet"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:99
 msgid "_Participate"
 msgstr "Bokk"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:100
 msgid "Download from the web the most up to date ranking."
 msgstr "Yebléen ci internet ndenc yi gën a ànd ak jamono."
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:101
 msgid "_Update"
 msgstr "_Yeesal"
-
-#: ../data/klavaro.glade.h:83
-msgid "Load other exercises/lessons"
-msgstr "Ubbi yeneeni jéemantu/saar/ Gàttal :  [Ctrl-O]"
-
-#: ../data/klavaro.glade.h:84
-msgid "_Other texts"
-msgstr "Yeneeni mbind"
-
-#: ../data/klavaro.glade.h:85
-msgid "Edit the character set to be used in this lesson."
-msgstr "Soppiléen njabootu araf yi ñu war a jëfandikoo ci saar wii."
-
-#: ../data/klavaro.glade.h:86
-msgid "This is a specific exercise, adjusted to your error profile."
-msgstr ""
-"Lii jéemantu bu beru la, dañu koo méngaleek njuumte yi ngay faral di def."
-
-#: ../data/klavaro.glade.h:87
-#, fuzzy
-msgid ""
-"Edit the character set to be used in lessons after 43: they are customizable!"
-msgstr "Soppiléen njabootu araf yi ñu war a jëfandikoo ci saar 44 ba 50."
-
-#: ../data/klavaro.glade.h:88 ../src/tutor.c:376
-msgid "Drag and drop text here to practice with it."
-msgstr "Diriléen te teg mbind wi fii ngir tàggat sa bopp ci tàppe."
-
-#: ../data/klavaro.glade.h:89
-#, fuzzy
-msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
-msgstr "Bësal fii ngir tàmbaliwaat jéemantu bi. Gàttal :  [Ctrl R]"
-
-#: ../data/klavaro.glade.h:90
-msgid "Show the virtual keyboard and the relation between fingers and keys."
-msgstr "Wonem arafukaay bi ñu nataal ak ni baaraam yeek butoŋ yi ànde"
-
-#: ../data/klavaro.glade.h:91
-msgid "_Keyboard"
-msgstr "Arafukaay"
-
-#: ../data/klavaro.glade.h:92
-msgid "Select the font to be used in the exercise window."
-msgstr ""
-" Fal-léen njabootu araf yi ngéen di jëfandikoo ci palanteeru jéemantu yii"
-
-#: ../data/klavaro.glade.h:93
-msgid "Font definition"
-msgstr "Tànnum njabootu  araf"
-
-#: ../data/klavaro.glade.h:94
-msgid "Keep this checked if you want to get those nice beeps."
-msgstr "Danu koo war a bàyyi cig pal su ngeen bëgge dégg dégtu yu neex yii."
-
-#: ../data/klavaro.glade.h:95
-msgid "_Beep"
-msgstr "Bip "
-
-#: ../data/klavaro.glade.h:96
-msgid "Co_urse information"
-msgstr "Xibaar ci saar wi"
-
-#: ../data/klavaro.glade.h:97
-msgid "Charts showing the learning progress along the exercises."
-msgstr "Nataal wuy wone ni nuy jëme kanam ci saa su nuy  jéemantu."
-
-#: ../data/klavaro.glade.h:98
-msgid "_Progress"
-msgstr "_Jéego yi"
-
-#: ../data/klavaro.glade.h:99
-msgid "Return to the main menu."
-msgstr "Dellusi ci jël lu mag li"
-
-#: ../data/klavaro.glade.h:100
-msgid "Show local and external scores from other users."
-msgstr "Wone manoore biir ak biti yu yeneeni jëfandikookat."
-
-#: ../data/klavaro.glade.h:101
-msgid "_Top 10"
-msgstr "_Top 10"
 
 #: ../data/klavaro.desktop.in.h:1
 #, fuzzy
@@ -988,11 +988,13 @@ msgstr "këmbu cofu"
 msgid "ampersand"
 msgstr "'ak' móoluwaay"
 
-#: ../src/plot.c:305
+#. Error frequencies or touch times
+#.
+#: ../src/plot.c:323
 msgid "Character"
 msgstr ""
 
-#: ../src/plot.c:319
+#: ../src/plot.c:335
 msgid "Date & Time"
 msgstr "Bés ak waxtu"
 

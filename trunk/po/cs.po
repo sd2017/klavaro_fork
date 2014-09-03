@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-07-11 15:37-0300\n"
+"POT-Creation-Date: 2014-09-02 15:28-0300\n"
 "PO-Revision-Date: 2014-03-09 13:20+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
@@ -32,39 +32,150 @@ msgid "Remember always: someone loves you!"
 msgstr "Nezapomeňte: někdo vás určitě má rád!"
 
 #: ../data/klavaro.glade.h:4
+msgid "Klavaro - Progress"
+msgstr "Klavaro – pokrok"
+
+#: ../data/klavaro.glade.h:5
+msgid "_Lesson:"
+msgstr "_Lekce:"
+
+#: ../data/klavaro.glade.h:6
+msgid "Value"
+msgstr "Hodnota"
+
+#: ../data/klavaro.glade.h:7
+msgid "Close this window, returning to the exercise."
+msgstr "Zavřít toto okno a vrátit se zpět ke cvičení."
+
+#: ../data/klavaro.glade.h:8
+msgid "_Close"
+msgstr "_Zavřít"
+
+#: ../data/klavaro.glade.h:9
+msgid "Clear all the progress data, for every module."
+msgstr "Smazat všechna data postupů ve všech modulech."
+
+#: ../data/klavaro.glade.h:10
+msgid "_Reset"
+msgstr "Vy_nulovat"
+
+#: ../data/klavaro.glade.h:11
+msgid "Load other exercises/lessons"
+msgstr "Načíst jiné cvičení/lekce"
+
+#: ../data/klavaro.glade.h:12
+msgid "_Other texts"
+msgstr "_Další texty"
+
+#: ../data/klavaro.glade.h:13
+msgid "Edit the character set to be used in this lesson."
+msgstr "Upravit znakovou sadu použitou v této lekci."
+
+#: ../data/klavaro.glade.h:14
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr "Toto je cvičení ušité na míru dle chyb, kterých se dopouštíte."
+
+#: ../data/klavaro.glade.h:15
+msgid ""
+"Edit the character set to be used in lessons after 43: they are customizable!"
+msgstr ""
+"Upravit znakovou sadu použitou v lekcích 43 a dále: ty jsou uživatelsky "
+"definovatelné!"
+
+#: ../data/klavaro.glade.h:16 ../src/tutor.c:376
+msgid "Drag and drop text here to practice with it."
+msgstr "Pro účely procvičení sem přetáhněte text."
+
+#: ../data/klavaro.glade.h:17
+msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
+msgstr "Přejete-li si restartovat cvičení, pak zde klikněte. Zkratka: [Ctrl+R]"
+
+#: ../data/klavaro.glade.h:18
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr "Zobrazit virtuální klávesnici a vztahy mezi prsty a klávesami."
+
+#: ../data/klavaro.glade.h:19
+msgid "_Keyboard"
+msgstr "_Klávesnice"
+
+#: ../data/klavaro.glade.h:20
+msgid "Select the font to be used in the exercise window."
+msgstr "Vybrat písmo, které bude použito v okně se cvičením."
+
+#: ../data/klavaro.glade.h:21
+msgid "Font definition"
+msgstr "Definice písma"
+
+#: ../data/klavaro.glade.h:22
+msgid "Keep this checked if you want to get those nice beeps."
+msgstr "Chcete-li slyšet pěkné pípání, nechte volbu zaškrtnutou."
+
+#: ../data/klavaro.glade.h:23
+msgid "_Beep"
+msgstr "_Pípání"
+
+#: ../data/klavaro.glade.h:24
+msgid "Co_urse information"
+msgstr "Informace o k_urzu"
+
+#: ../data/klavaro.glade.h:25
+msgid "Charts showing the learning progress along the exercises."
+msgstr "Grafy znázorňují postup učení během jednotlivých cvičení."
+
+#: ../data/klavaro.glade.h:26
+msgid "_Progress"
+msgstr "_Pokroky"
+
+#: ../data/klavaro.glade.h:27
+msgid "Exit the application immediately."
+msgstr "Ihned ukončit aplikaci."
+
+#: ../data/klavaro.glade.h:28
+msgid "Return to the main menu."
+msgstr "Vrátit se do hlavní nabídky."
+
+#: ../data/klavaro.glade.h:29
+msgid "B_ack to menu"
+msgstr "Z_pět do nabídky"
+
+#: ../data/klavaro.glade.h:30
+msgid "Show local and external scores from other users."
+msgstr "Zobrazit místní a externí hodnocení získaná od ostatních uživatelů."
+
+#: ../data/klavaro.glade.h:31
+msgid "_Top 10"
+msgstr "_Top 10"
+
+#: ../data/klavaro.glade.h:32
 msgid "Change language"
 msgstr "Změnit jazyk"
 
-#: ../data/klavaro.glade.h:5
+#: ../data/klavaro.glade.h:33
 msgid "Attention!"
 msgstr "Upozornění!"
 
-#: ../data/klavaro.glade.h:6
+#: ../data/klavaro.glade.h:34
 msgid "Do you confirm?"
 msgstr "Souhlasíte?"
 
-#: ../data/klavaro.glade.h:7
+#: ../data/klavaro.glade.h:35
 msgid "_No"
 msgstr "_Ne"
 
-#: ../data/klavaro.glade.h:8
+#: ../data/klavaro.glade.h:36
 msgid "_Yes"
 msgstr "_Ano"
 
-#: ../data/klavaro.glade.h:9
+#: ../data/klavaro.glade.h:37
 msgid "Help?"
 msgstr "Nápověda?"
 
-#: ../data/klavaro.glade.h:10
+#: ../data/klavaro.glade.h:38
 msgid "This is a tip. Now you press this button to return to the main menu."
 msgstr ""
 "Tady je nápověda. Pro návrat do hlavní nabídky zmáčkněte toto tlačítko."
 
-#: ../data/klavaro.glade.h:11
-msgid "B_ack to menu"
-msgstr "Z_pět do nabídky"
-
-#: ../data/klavaro.glade.h:12
+#: ../data/klavaro.glade.h:39
 msgid ""
 "The main menu of the application is very straightforward. Just select the "
 "type of exercise you wish to take. Do not worry about clicking any button on "
@@ -74,7 +185,7 @@ msgstr ""
 "které chcete absolvovat. Nebojte se kliknout na kterékoliv tlačítko. "
 "Tlačítka vám neublíží!"
 
-#: ../data/klavaro.glade.h:13
+#: ../data/klavaro.glade.h:40
 msgid ""
 "Also the controls have tips which will appear if you hover over them with "
 "your mouse. These tips can come in very handy. To see how these tips work, "
@@ -85,27 +196,27 @@ msgstr ""
 "každým ovládacím prvkem. Mnohdy mohou být užitečné. Chcete-li tyto tipy "
 "zobrazit, ukažte myší na dané tlačítko, bez kliknutí, a chvilku posečkejte…"
 
-#: ../data/klavaro.glade.h:14
+#: ../data/klavaro.glade.h:41
 msgid "Klavaro - Select file"
 msgstr "Klavaro – volba souboru"
 
-#: ../data/klavaro.glade.h:15
+#: ../data/klavaro.glade.h:42
 msgid "_Cancel"
 msgstr "_Zrušit"
 
-#: ../data/klavaro.glade.h:16
+#: ../data/klavaro.glade.h:43
 msgid "_Open"
 msgstr "_Otevřít"
 
-#: ../data/klavaro.glade.h:17
+#: ../data/klavaro.glade.h:44
 msgid "Re_name:"
 msgstr "Přejme_novat:"
 
-#: ../data/klavaro.glade.h:18
+#: ../data/klavaro.glade.h:45
 msgid "Rename the selected item."
 msgstr "Přejmenovat vybrané položky."
 
-#: ../data/klavaro.glade.h:19
+#: ../data/klavaro.glade.h:46
 msgid ""
 "Read a text file and add a copy of it here. The file must be encoded in "
 "UTF-8."
@@ -113,113 +224,109 @@ msgstr ""
 "Načíst textový soubor a přidat zde jeho kopii. Soubor musí být kódován "
 "pomocí UTF-8."
 
-#: ../data/klavaro.glade.h:20
+#: ../data/klavaro.glade.h:47
 msgid "_Open text file"
 msgstr "_Otevřít textový soubor"
 
-#: ../data/klavaro.glade.h:21
+#: ../data/klavaro.glade.h:48
 msgid "Paste text that was copied to the clipboard."
 msgstr "Vložit zkopírovaný text ze schránky."
 
-#: ../data/klavaro.glade.h:22
+#: ../data/klavaro.glade.h:49
 msgid "_Paste from clipboard"
 msgstr "_Vložit ze schránky"
 
-#: ../data/klavaro.glade.h:23
+#: ../data/klavaro.glade.h:50
 msgid "Remove the selected item."
 msgstr "Odstranit vybrané položky."
 
-#: ../data/klavaro.glade.h:24
+#: ../data/klavaro.glade.h:51
 msgid "_Remove copied file"
 msgstr "Odst_ranit zkopírovaný soubor"
 
-#: ../data/klavaro.glade.h:25
+#: ../data/klavaro.glade.h:52
 msgid "Apply the selected item to create an exercise."
 msgstr "Použít vybrané položky pro vytvoření cvičení."
 
-#: ../data/klavaro.glade.h:26
+#: ../data/klavaro.glade.h:53
 msgid "_Apply"
 msgstr "_Použít"
 
-#: ../data/klavaro.glade.h:27
+#: ../data/klavaro.glade.h:54
 msgid "Close this window."
 msgstr "Zavřít toto okno."
 
-#: ../data/klavaro.glade.h:28
-msgid "_Close"
-msgstr "_Zavřít"
-
-#: ../data/klavaro.glade.h:29
+#: ../data/klavaro.glade.h:55
 msgid "Country / Custom"
 msgstr "Země / vlastní"
 
-#: ../data/klavaro.glade.h:30
+#: ../data/klavaro.glade.h:56
 msgid "Variant"
 msgstr "Varianta"
 
-#: ../data/klavaro.glade.h:31
+#: ../data/klavaro.glade.h:57
 msgid "Remove the selected custom layout."
 msgstr "Odstranit vybraná vlastní rozložení."
 
-#: ../data/klavaro.glade.h:32
+#: ../data/klavaro.glade.h:58
 msgid "_Remove"
 msgstr "Odst_ranit"
 
-#: ../data/klavaro.glade.h:33
+#: ../data/klavaro.glade.h:59
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
 msgstr "Zmáčknutí klávesy shift přepíná mezi psaním malých a velkých písmen."
 
-#: ../data/klavaro.glade.h:34
+#: ../data/klavaro.glade.h:60
 msgid "SPACE BAR"
 msgstr "MEZERNÍK"
 
-#: ../data/klavaro.glade.h:35 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
 msgid "thumbs"
 msgstr "palce"
 
-#: ../data/klavaro.glade.h:36
+#: ../data/klavaro.glade.h:62
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: ../data/klavaro.glade.h:37
+#: ../data/klavaro.glade.h:63
 msgid "Caps"
 msgstr "Caps"
 
-#: ../data/klavaro.glade.h:38
+#: ../data/klavaro.glade.h:64
 msgid "S_ave as:"
 msgstr "Uložit j_ako:"
 
-#: ../data/klavaro.glade.h:39
+#: ../data/klavaro.glade.h:65
 msgid "Show previous screen."
 msgstr "Zobrazit předchozí obrazovku."
 
-#: ../data/klavaro.glade.h:40
+#: ../data/klavaro.glade.h:66
 msgid "_Previous step"
 msgstr "_Předchozí krok"
 
-#: ../data/klavaro.glade.h:41
+#: ../data/klavaro.glade.h:67
 msgid "Show next screen."
 msgstr "Zobrazit následující obrazovku."
 
-#: ../data/klavaro.glade.h:42
+#: ../data/klavaro.glade.h:68
 msgid "_Next step"
 msgstr "_Následující krok"
 
-#: ../data/klavaro.glade.h:43
+#: ../data/klavaro.glade.h:69
 msgid "Return without any modification."
 msgstr "Vrátit se zpět bez jakýchkoliv změn."
 
-#: ../data/klavaro.glade.h:44
+#: ../data/klavaro.glade.h:70
 msgid "Save the current keyboard layout with the name specified above."
 msgstr "Uložit současné rozložení klávesnice pod názvem zadaným výše."
 
-#: ../data/klavaro.glade.h:45
+#: ../data/klavaro.glade.h:71
 msgid "_Save and use"
 msgstr "_Uložit a použít"
 
-#: ../data/klavaro.glade.h:46
+#: ../data/klavaro.glade.h:72
 msgid ""
 "If you like those beautiful hands, click here to close this window keeping "
 "them."
@@ -227,55 +334,55 @@ msgstr ""
 "Pokud se vám líbí tyto překrásné ruce, klikněte zde a zůstanou zobrazeny se "
 "v malém okně."
 
-#: ../data/klavaro.glade.h:47
+#: ../data/klavaro.glade.h:73
 msgid "_Keep hands"
 msgstr "_Ponechat ruce"
 
-#: ../data/klavaro.glade.h:48
+#: ../data/klavaro.glade.h:74
 msgid "Klavaro - Main menu"
 msgstr "Klavaro – hlavní nabídka"
 
-#: ../data/klavaro.glade.h:49
+#: ../data/klavaro.glade.h:75
 msgid "Don't be shy about learning the basics!"
 msgstr "Nepodceňujte výuku základů!"
 
-#: ../data/klavaro.glade.h:50
+#: ../data/klavaro.glade.h:76
 msgid "Learn how to type correctly"
 msgstr "Naučte se správně psát"
 
-#: ../data/klavaro.glade.h:51
+#: ../data/klavaro.glade.h:77
 msgid "Initial training for your fingers."
 msgstr "Počáteční trénink pro vaše prsty."
 
-#: ../data/klavaro.glade.h:52
+#: ../data/klavaro.glade.h:78
 msgid "First steps with initial training"
 msgstr "První kroky v počátečním tréninku"
 
-#: ../data/klavaro.glade.h:53
+#: ../data/klavaro.glade.h:79
 msgid "Memorizing the keyboard practicing random keys exercises."
 msgstr "Zapamatujte si klávesnici procvičováním s náhodnými znaky."
 
-#: ../data/klavaro.glade.h:54
+#: ../data/klavaro.glade.h:80
 msgid "Practice with random keys"
 msgstr "Cvičení s náhodnými znaky"
 
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:81
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "Zvyšujte rychlost psaní procvičováním s náhodnými slovy."
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:82
 msgid "Practice with random words"
 msgstr "Cvičení s náhodnými slovy"
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:83
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "Staňte se dokonalými procvičováním celých odstavců."
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:84
 msgid "Practice with complete texts"
 msgstr "Procvičovat kompletní texty"
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:85
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
@@ -283,176 +390,69 @@ msgstr ""
 "Rozložení klávesnice pro moduly 1 a 2. Také se informativně používá při "
 "testu plynulosti."
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:86
 msgid "_Keyboard:"
 msgstr "_Klávesnice:"
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:87
 msgid "Language for modules 3 and 4."
 msgstr "Jazyk pro moduly 3 a 4."
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:88
 msgid "_Language:"
 msgstr "_Jazyk:"
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:89
 msgid "Speech"
 msgstr "Diktovat"
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:90
 msgid "Your language here."
 msgstr "Váš jazyk."
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:91
 msgid "Little tip about this program."
 msgstr "Malý návod k tomuto programu."
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:92
 msgid "_Help"
 msgstr "_Nápověda"
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:93
 msgid "General information about the program."
 msgstr "Obecné informace o této aplikaci."
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:94
 msgid "_About..."
 msgstr "O _aplikaci…"
 
-#: ../data/klavaro.glade.h:69
-msgid "Exit the application immediately."
-msgstr "Ihned ukončit aplikaci."
-
-#: ../data/klavaro.glade.h:70
-msgid "Klavaro - Progress"
-msgstr "Klavaro – pokrok"
-
-#: ../data/klavaro.glade.h:71
-msgid "_Lesson:"
-msgstr "_Lekce:"
-
-#: ../data/klavaro.glade.h:72
-msgid "Value"
-msgstr "Hodnota"
-
-#: ../data/klavaro.glade.h:73
-msgid "Close this window, returning to the exercise."
-msgstr "Zavřít toto okno a vrátit se zpět ke cvičení."
-
-#: ../data/klavaro.glade.h:74
-msgid "Clear all the progress data, for every module."
-msgstr "Smazat všechna data postupů ve všech modulech."
-
-#: ../data/klavaro.glade.h:75
-msgid "_Reset"
-msgstr "Vy_nulovat"
-
-#: ../data/klavaro.glade.h:76
+#: ../data/klavaro.glade.h:95
 msgid "Top 10"
 msgstr "Top 10"
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:96
 msgid "Show extra information."
 msgstr "Zobrazit doplňující informace."
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:97
 msgid "Hide extra information."
 msgstr "Skrýt doplňující informace."
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:98
 msgid "Publish to the web your local scores."
 msgstr "Publikovat vaše místní hodnocení na webu."
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:99
 msgid "_Participate"
 msgstr "Úča_stnit se"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:100
 msgid "Download from the web the most up to date ranking."
 msgstr "Stáhnout z webu nejlepší hodnocení."
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:101
 msgid "_Update"
 msgstr "_Aktualizovat"
-
-#: ../data/klavaro.glade.h:83
-msgid "Load other exercises/lessons"
-msgstr "Načíst jiné cvičení/lekce"
-
-#: ../data/klavaro.glade.h:84
-msgid "_Other texts"
-msgstr "_Další texty"
-
-#: ../data/klavaro.glade.h:85
-msgid "Edit the character set to be used in this lesson."
-msgstr "Upravit znakovou sadu použitou v této lekci."
-
-#: ../data/klavaro.glade.h:86
-msgid "This is a specific exercise, adjusted to your error profile."
-msgstr "Toto je cvičení ušité na míru dle chyb, kterých se dopouštíte."
-
-#: ../data/klavaro.glade.h:87
-msgid ""
-"Edit the character set to be used in lessons after 43: they are customizable!"
-msgstr ""
-"Upravit znakovou sadu použitou v lekcích 43 a dále: ty jsou uživatelsky "
-"definovatelné!"
-
-#: ../data/klavaro.glade.h:88 ../src/tutor.c:376
-msgid "Drag and drop text here to practice with it."
-msgstr "Pro účely procvičení sem přetáhněte text."
-
-#: ../data/klavaro.glade.h:89
-msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
-msgstr "Přejete-li si restartovat cvičení, pak zde klikněte. Zkratka: [Ctrl+R]"
-
-#: ../data/klavaro.glade.h:90
-msgid "Show the virtual keyboard and the relation between fingers and keys."
-msgstr "Zobrazit virtuální klávesnici a vztahy mezi prsty a klávesami."
-
-#: ../data/klavaro.glade.h:91
-msgid "_Keyboard"
-msgstr "_Klávesnice"
-
-#: ../data/klavaro.glade.h:92
-msgid "Select the font to be used in the exercise window."
-msgstr "Vybrat písmo, které bude použito v okně se cvičením."
-
-#: ../data/klavaro.glade.h:93
-msgid "Font definition"
-msgstr "Definice písma"
-
-#: ../data/klavaro.glade.h:94
-msgid "Keep this checked if you want to get those nice beeps."
-msgstr "Chcete-li slyšet pěkné pípání, nechte volbu zaškrtnutou."
-
-#: ../data/klavaro.glade.h:95
-msgid "_Beep"
-msgstr "_Pípání"
-
-#: ../data/klavaro.glade.h:96
-msgid "Co_urse information"
-msgstr "Informace o k_urzu"
-
-#: ../data/klavaro.glade.h:97
-msgid "Charts showing the learning progress along the exercises."
-msgstr "Grafy znázorňují postup učení během jednotlivých cvičení."
-
-#: ../data/klavaro.glade.h:98
-msgid "_Progress"
-msgstr "_Pokroky"
-
-#: ../data/klavaro.glade.h:99
-msgid "Return to the main menu."
-msgstr "Vrátit se do hlavní nabídky."
-
-#: ../data/klavaro.glade.h:100
-msgid "Show local and external scores from other users."
-msgstr "Zobrazit místní a externí hodnocení získaná od ostatních uživatelů."
-
-#: ../data/klavaro.glade.h:101
-msgid "_Top 10"
-msgstr "_Top 10"
 
 #: ../data/klavaro.desktop.in.h:1
 msgid "A very flexible and efficient touch typing tutor."
@@ -990,11 +990,13 @@ msgstr "uvozovky"
 msgid "ampersand"
 msgstr "ampersand"
 
-#: ../src/plot.c:305
+#. Error frequencies or touch times
+#.
+#: ../src/plot.c:323
 msgid "Character"
 msgstr "Znak"
 
-#: ../src/plot.c:319
+#: ../src/plot.c:335
 msgid "Date & Time"
 msgstr "Datum a čas"
 

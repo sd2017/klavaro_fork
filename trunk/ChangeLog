@@ -15,6 +15,9 @@
 	* Changed:
 	- Reset button put a bit aside from the Close button, in the progress
 	charts.
+	- New phrases for C.paragraphs (default English), avoiding political
+	subjects.
+	- Some new phrases for pt_br.paragraphs.
 	* Fixed messages:
 	- Typo: Kunf-fu mastering --> Kung-fu mastery
 	- Idiom: make better --> do better
