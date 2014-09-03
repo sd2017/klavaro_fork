@@ -71,12 +71,12 @@ trans_code_to_country (gchar *code)
 		{"pk","پاکستان"},
 		{"pt","Portugal"},
 		{"ru","Россия"},
+		{"sl","Slovenija"},
 		{"se","Sverige"},
 		{"tr","Türkiye"},
 		{"ua","Україна"}, /* 30 */
 		{"uk","United Kingdom"},
 		{"us","USA"},
-		{"",""},
 		{"",""},
 		{"",""},
 		{"",""},

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.3.0\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-02 15:28-0300\n"
+"POT-Creation-Date: 2014-09-03 14:56-0300\n"
 "PO-Revision-Date: 2009-10-20 13:59+0300\n"
 "Last-Translator: Usama Akkad <uakkad@gmail.com>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -276,7 +276,7 @@ msgstr "بدل تأثير Shift على المفاتيح. يبدل بين الع�
 msgid "SPACE BAR"
 msgstr "زر المسافة"
 
-#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "مصغرات"
 
@@ -484,7 +484,7 @@ msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
 
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "مقدمة"
 
@@ -676,7 +676,7 @@ msgstr ""
 "الإيقاع, بأقل سرعة. هنا سيطلب منك استخدام زر المسح للخلف لتصحيح أي خطأ. "
 "بمعنى آخر, فقط الإدخال دون أخطاء سيقبل."
 
-#: ../src/keyboard.c:1094
+#: ../src/keyboard.c:1095
 #, fuzzy
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
@@ -686,7 +686,7 @@ msgstr ""
 "التموضع الصحيح لليدين و الأصابع مهم جدا للطباعة الفعالة. ستتعلم أسرع و تطبع "
 "أحسن إذا اتبعت التوصيات التالية."
 
-#: ../src/keyboard.c:1097
+#: ../src/keyboard.c:1098
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -694,7 +694,7 @@ msgstr ""
 "رأسي اصبع السبابة تقعان على كل من المفتاحين اللذان يحملان نتوئين صغيرين, في "
 "وسط لوحة المفاتيح."
 
-#: ../src/keyboard.c:1100
+#: ../src/keyboard.c:1101
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -704,7 +704,7 @@ msgstr ""
 "الطريقة, بخبرة بسيطة, لن تحتاج للنظر للوحة المفاتيح للتحقق من أن اصابعك "
 "متوضعة بشكل صحيح."
 
-#: ../src/keyboard.c:1104
+#: ../src/keyboard.c:1105
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -712,11 +712,11 @@ msgstr ""
 "رؤوس الأصابع الأخرى تقف طبيعيا بجانب السبابة, فوق الأحرف التي على نفس الصف "
 "في لوحة المفاتيح."
 
-#: ../src/keyboard.c:1107
+#: ../src/keyboard.c:1108
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "الحواف الخارجية للإبهام تنام على شريط المسافة."
 
-#: ../src/keyboard.c:1109
+#: ../src/keyboard.c:1110
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -725,7 +725,7 @@ msgstr ""
 "الجزء من اليدين الأقرب للمعصم يوضع على الطاولة, خارج لوحة المفاتيح. دون هكذا "
 "تموضع سيتعب الذراعان بسرعة.."
 
-#: ../src/keyboard.c:1112
+#: ../src/keyboard.c:1113
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -737,7 +737,7 @@ msgstr ""
 "لجميع المفاتيح بسرعة و بطبيعية قدر الإمكان. للوصول لهذا الهدف هناك علاقة بين "
 "كل اصبع و مفتاح. هذه العلاقة ستتعلم تدريجيا مع تعلمك للدرس الابتدائي."
 
-#: ../src/keyboard.c:1118
+#: ../src/keyboard.c:1119
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -746,7 +746,7 @@ msgstr ""
 "عند تعلمك للعلاقة بين الأصابع و المفاتيح, من المهم جدا أن تحرك فقط الأصبع "
 "الذي عليه ضغط المفتاح و إبقاء الأصابع الأخرى في منزلها الأساسي."
 
-#: ../src/keyboard.c:1122
+#: ../src/keyboard.c:1123
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -754,7 +754,7 @@ msgstr ""
 "بعد حفظ هذه العلاقة, يمكنك ان تتحرر من القاعدة السابقة قليلا, لتحصل على سرعة "
 "أكبر أثناء الطباعة."
 
-#: ../src/keyboard.c:1125
+#: ../src/keyboard.c:1126
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -763,52 +763,52 @@ msgstr ""
 "يجب أن تكون جاهزا للبدأ بالتمرين مع الدرس الأساسي. سيأخذ منك صبرا و مجهودا "
 "لتكون ناجحا كطابع. نثق بأنك تمتلك ذلك و نتطلع لنجاحك!"
 
-#: ../src/keyboard.c:1136
+#: ../src/keyboard.c:1137
 #, c-format
 msgid "Step %i"
 msgstr "الخطوة %i"
 
-#: ../src/keyboard.c:1142
+#: ../src/keyboard.c:1143
 msgid "To position the hands"
 msgstr "لتموضع اليدين"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1228
 msgid "Go ahead!"
 msgstr "انطلق!"
 
-#: ../src/keyboard.c:1234
+#: ../src/keyboard.c:1235
 msgid "Relation between fingers and keys"
 msgstr "العلاقة بين الأصابع و المفاتيح"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1236
 msgid "Click on any key to see which finger you must use:"
 msgstr "انقر على أي مفتاح لمعرفة اي اصبع عليك استخدامه:"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
 msgid "Keyboard"
 msgstr "لوحة المفاتيح"
 
-#: ../src/keyboard.c:1372
+#: ../src/keyboard.c:1373
 msgid "Create or modify a custom keyboard layout"
 msgstr "أنشأ او عدل خريطة لوحة مفاتيح مخصصة"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
 msgid "small finger"
 msgstr "الخنصر"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
 msgid "ring finger"
 msgstr "البنصر"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
 msgid "middle finger"
 msgstr "الوسطى"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
 msgid "index finger"
 msgstr "السبابة"
 
-#: ../src/keyboard.c:1728
+#: ../src/keyboard.c:1729
 msgid "Press and edit me"
 msgstr "اضغط و حررني"
 

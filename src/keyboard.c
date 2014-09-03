@@ -76,7 +76,8 @@ const gunichar vowels[] = {
 	L'\0'
 };
 
-// Diacritic chars must never appear one after another
+/* Diacritic chars should never appear one after another
+ */
 const gunichar diacritics[] = {
 	// Urdu diacritics
 	(gunichar) 0x0640,

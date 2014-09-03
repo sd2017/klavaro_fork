@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.1.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-02 15:28-0300\n"
+"POT-Creation-Date: 2014-09-03 14:56-0300\n"
 "PO-Revision-Date: 2008-10-15 05:42-0300\n"
 "Last-Translator: Dave Pawson <_dave_._pawson_@gmail.com>\n"
 "Language-Team: en_GB <GB@li.org>\n"
@@ -295,7 +295,7 @@ msgstr "Alternates between upper and lower"
 msgid "SPACE BAR"
 msgstr "SPACE BAR"
 
-#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "thumbs"
 
@@ -513,7 +513,7 @@ msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "Introduction"
 
@@ -679,7 +679,7 @@ msgid ""
 "any mistakes. In other words, only input without error will be accepted."
 msgstr ""
 
-#: ../src/keyboard.c:1094
+#: ../src/keyboard.c:1095
 #, fuzzy
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
@@ -689,13 +689,13 @@ msgstr ""
 "Correctly positioning of hands is very important for efficient typing. "
 "Follow the recommendations and you will learn faster."
 
-#: ../src/keyboard.c:1097
+#: ../src/keyboard.c:1098
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
 msgstr ""
 
-#: ../src/keyboard.c:1100
+#: ../src/keyboard.c:1101
 #, fuzzy
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
@@ -707,7 +707,7 @@ msgstr ""
 "to look at the keyboard any more to know where you are. Your hands will "
 "eventually return to this position naturally after each keystroke."
 
-#: ../src/keyboard.c:1104
+#: ../src/keyboard.c:1105
 #, fuzzy
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
@@ -716,12 +716,12 @@ msgstr ""
 "3)  The tips of the other fingers lie naturally beside the index fingers, "
 "over the adjacent keys on the same line."
 
-#: ../src/keyboard.c:1107
+#: ../src/keyboard.c:1108
 #, fuzzy
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "(2  The sides of both thumbs rest over the space bar."
 
-#: ../src/keyboard.c:1109
+#: ../src/keyboard.c:1110
 #, fuzzy
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
@@ -732,7 +732,7 @@ msgstr ""
 "desk, in front of the keyboard. Without this kind of support the arms would "
 "become tired quickly."
 
-#: ../src/keyboard.c:1112
+#: ../src/keyboard.c:1113
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -745,7 +745,7 @@ msgstr ""
 "possible. To attain this goal one uses a specific relation between each key "
 "and some finger. This relation will be learned gradually in the basic course."
 
-#: ../src/keyboard.c:1118
+#: ../src/keyboard.c:1119
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -756,7 +756,7 @@ msgstr ""
 "toward it, keeping the other fingers over their original position as much as "
 "possible."
 
-#: ../src/keyboard.c:1122
+#: ../src/keyboard.c:1123
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -765,7 +765,7 @@ msgstr ""
 "use, you can take the previous rule less strictly, so that it becomes "
 "possible to develop more speed and fluidity."
 
-#: ../src/keyboard.c:1125
+#: ../src/keyboard.c:1126
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -775,57 +775,57 @@ msgstr ""
 "remember, touch-typing requires will and patience! We trust you, do not "
 "disappoint us, right?"
 
-#: ../src/keyboard.c:1136
+#: ../src/keyboard.c:1137
 #, c-format
 msgid "Step %i"
 msgstr ""
 
-#: ../src/keyboard.c:1142
+#: ../src/keyboard.c:1143
 msgid "To position the hands"
 msgstr ""
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1228
 msgid "Go ahead!"
 msgstr ""
 
-#: ../src/keyboard.c:1234
+#: ../src/keyboard.c:1235
 #, fuzzy
 msgid "Relation between fingers and keys"
 msgstr "Relation between the fingers and the keys"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1236
 #, fuzzy
 msgid "Click on any key to see which finger you must use:"
 msgstr ""
 "Click any key\n"
 "to see which finger to use"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
 msgid "Keyboard"
 msgstr "Keyboard"
 
-#: ../src/keyboard.c:1372
+#: ../src/keyboard.c:1373
 #, fuzzy
 msgid "Create or modify a custom keyboard layout"
 msgstr "Name the layout"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
 msgid "small finger"
 msgstr "small finger"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
 msgid "ring finger"
 msgstr "ring finger"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
 msgid "middle finger"
 msgstr "middle finger"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
 msgid "index finger"
 msgstr "index finger"
 
-#: ../src/keyboard.c:1728
+#: ../src/keyboard.c:1729
 #, fuzzy
 msgid "Press and edit me"
 msgstr "Press a key"
@@ -1079,7 +1079,7 @@ msgstr ""
 " persistence and practice will improve your velocity.\n"
 
 #: ../src/velocity.c:427
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Still away from the highway. You can do better...\n"
 " Try to reach at least %.0f WPM.\n"

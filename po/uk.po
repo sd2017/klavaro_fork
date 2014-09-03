@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-02 15:28-0300\n"
+"POT-Creation-Date: 2014-09-03 14:56-0300\n"
 "PO-Revision-Date: 2014-01-10 08:42+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
@@ -288,7 +288,7 @@ msgstr ""
 msgid "SPACE BAR"
 msgstr "Пробіл"
 
-#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1631
 msgid "thumbs"
 msgstr "великі пальці"
 
@@ -497,7 +497,7 @@ msgstr[1] "Режим диктанту (залежить від таких си�
 msgstr[2] "Режим диктанту (залежить від таких систем синтезу мовлення: %s)"
 msgstr[3] "Режим диктанту (залежить від такої системи синтезу мовлення: %s)"
 
-#: ../src/main.c:364 ../src/keyboard.c:1291
+#: ../src/main.c:364 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "Вступ"
 
@@ -705,7 +705,7 @@ msgstr ""
 "виправленням можливих помилок. Іншими словами, прийнятним буде лише текст, у "
 "якому немає друкарських помилок."
 
-#: ../src/keyboard.c:1094
+#: ../src/keyboard.c:1095
 msgid ""
 "Correct positioning of the hands and fingers is very important to efficient "
 "typing. You will learn faster and type better if you follow the next "
@@ -715,7 +715,7 @@ msgstr ""
 "Ви зможете швидше навчитися і краще друкувати, якщо виконуватимете наведені "
 "нижче настанови."
 
-#: ../src/keyboard.c:1097
+#: ../src/keyboard.c:1098
 msgid ""
 "The index-finger tips rest over each of the two keys which have a small "
 "raised mark, in the center of the keyboard."
@@ -723,7 +723,7 @@ msgstr ""
 "Кінчики вказівних пальців слід розташувати над двома клавішами з виступами у "
 "центрі клавіатури."
 
-#: ../src/keyboard.c:1100
+#: ../src/keyboard.c:1101
 msgid ""
 "These marks function as 'tactile hooks' for your fingers to remain at the "
 "correct position. This way, with a little experience, you will not need to "
@@ -734,7 +734,7 @@ msgstr ""
 "тренування, вам не потрібно буде дивитися на клавіатуру, щоб правильно "
 "розташувати ваші пальці над клавішами."
 
-#: ../src/keyboard.c:1104
+#: ../src/keyboard.c:1105
 msgid ""
 "The tips of the other fingers lie naturally beside the index ones, over the "
 "keys on the same row of the keyboard."
@@ -742,11 +742,11 @@ msgstr ""
 "Кінчики інших пальців слід розташувати у ненапруженому стані поряд з "
 "кінчиками вказівних пальців, над клавішами того самого ряду на клавіатурі."
 
-#: ../src/keyboard.c:1107
+#: ../src/keyboard.c:1108
 msgid "The outside edges of your thumbs rest over the space bar."
 msgstr "Зовнішні краї ваших великих пальців розташовуються на клавіші пробілу."
 
-#: ../src/keyboard.c:1109
+#: ../src/keyboard.c:1110
 msgid ""
 "The part of the hands closest to the wrist (the base) rest over the table, "
 "outside the keyboard. Without this kind of support the arms would quickly "
@@ -755,7 +755,7 @@ msgstr ""
 "Частини п’ясті руки, розташовані поряд з зап’ястком, слід покласти на стіл "
 "поза поверхнею клавіатури. Без такої опори руки швидко втомлюватимуться."
 
-#: ../src/keyboard.c:1112
+#: ../src/keyboard.c:1113
 msgid ""
 "This is referred to as the home position for the hands. From it the fingers "
 "move all over the keyboard, reaching all the keys as naturally and quickly "
@@ -768,7 +768,7 @@ msgstr ""
 "цього, слід пов’язати кожну з клавіш з певним пальцем руки. Таку прив’язку "
 "слід вивчати поступово протягом основного курсу."
 
-#: ../src/keyboard.c:1118
+#: ../src/keyboard.c:1119
 msgid ""
 "When learning the relation between fingers and keys, it is very important "
 "that you only move the finger which must press the key and allow all other "
@@ -778,7 +778,7 @@ msgstr ""
 "лише той палець, який має натиснути клавішу, залишаючи всі інші пальці у "
 "основній позиції."
 
-#: ../src/keyboard.c:1122
+#: ../src/keyboard.c:1123
 msgid ""
 "After memorizing this relationship, you can relax the previous rule some, so "
 "that you can attain greater speed while typing."
@@ -786,7 +786,7 @@ msgstr ""
 "Коли зв’язок буде вивчено, ви можете дещо послабити вимогу цього правила "
 "так, щоб друк з найвищою швидкістю був для вас якомога комфортнішим."
 
-#: ../src/keyboard.c:1125
+#: ../src/keyboard.c:1126
 msgid ""
 "You should be prepared to start training with the basic course. It will take "
 "effort and patience to be successful as a typist. We trust you have these "
@@ -797,53 +797,53 @@ msgstr ""
 "сподіваємося на ваші здібності і зичимо вам якнайшвидше досягти бажаних "
 "результатів!"
 
-#: ../src/keyboard.c:1136
+#: ../src/keyboard.c:1137
 #, c-format
 msgid "Step %i"
 msgstr "Крок %i"
 
-#: ../src/keyboard.c:1142
+#: ../src/keyboard.c:1143
 msgid "To position the hands"
 msgstr "Розташування рук"
 
-#: ../src/keyboard.c:1227
+#: ../src/keyboard.c:1228
 msgid "Go ahead!"
 msgstr "Поїхали!"
 
-#: ../src/keyboard.c:1234
+#: ../src/keyboard.c:1235
 msgid "Relation between fingers and keys"
 msgstr "Зв’язок між пальцями і клавішами"
 
-#: ../src/keyboard.c:1235
+#: ../src/keyboard.c:1236
 msgid "Click on any key to see which finger you must use:"
 msgstr ""
 "Натисніть будь-яку клавішу, що дізнатися, яким пальцем слід її натискати:"
 
-#: ../src/keyboard.c:1291 ../src/keyboard.c:1325
+#: ../src/keyboard.c:1292 ../src/keyboard.c:1326
 msgid "Keyboard"
 msgstr "Клавіатура"
 
-#: ../src/keyboard.c:1372
+#: ../src/keyboard.c:1373
 msgid "Create or modify a custom keyboard layout"
 msgstr "Створіть або змініть розкладку клавіатури"
 
-#: ../src/keyboard.c:1618 ../src/keyboard.c:1642
+#: ../src/keyboard.c:1619 ../src/keyboard.c:1643
 msgid "small finger"
 msgstr "малий палець"
 
-#: ../src/keyboard.c:1621 ../src/keyboard.c:1639
+#: ../src/keyboard.c:1622 ../src/keyboard.c:1640
 msgid "ring finger"
 msgstr "безіменний палець"
 
-#: ../src/keyboard.c:1624 ../src/keyboard.c:1636
+#: ../src/keyboard.c:1625 ../src/keyboard.c:1637
 msgid "middle finger"
 msgstr "середній палець"
 
-#: ../src/keyboard.c:1627 ../src/keyboard.c:1633
+#: ../src/keyboard.c:1628 ../src/keyboard.c:1634
 msgid "index finger"
 msgstr "вказівний палець"
 
-#: ../src/keyboard.c:1728
+#: ../src/keyboard.c:1729
 msgid "Press and edit me"
 msgstr "Натисніть і змініть"
 
@@ -1107,7 +1107,7 @@ msgstr ""
 " наполегливість і постійні вправи поступово збільшать вашу швидкість.\n"
 
 #: ../src/velocity.c:427
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Still away from the highway. You can do better...\n"
 " Try to reach at least %.0f WPM.\n"
@@ -1171,7 +1171,7 @@ msgstr ""
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Kung-fu mastery!\n"
 " Can you fly at %.0f WPM?\n"
