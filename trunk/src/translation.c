@@ -63,7 +63,8 @@ trans_code_to_country (gchar *code)
 		{"gr","Ελλάδα"},
 		{"il","ישראל"},
 		{"hu","Magyarország"},
-		{"it","Italia"}, /* 20 */
+		{"in","Bhārat Gaṇarājya"}, /* 20 */
+		{"it","Italia"},
 		{"jp","日本 (Nippon)"},
 		{"kk","Қазақстан"},
 		{"no","Norge"},
@@ -72,12 +73,11 @@ trans_code_to_country (gchar *code)
 		{"pt","Portugal"},
 		{"ru","Россия"},
 		{"sl","Slovenija"},
-		{"se","Sverige"},
+		{"se","Sverige"}, /* 30 */
 		{"tr","Türkiye"},
-		{"ua","Україна"}, /* 30 */
+		{"ua","Україна"},
 		{"uk","United Kingdom"},
 		{"us","USA"},
-		{"",""},
 		{"",""},
 		{"",""},
 		{"",""},
