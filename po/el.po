@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-07-11 15:37-0300\n"
+"POT-Creation-Date: 2014-09-02 15:28-0300\n"
 "PO-Revision-Date: 2014-01-18 03:07+0200\n"
 "Last-Translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>\n"
 "Language-Team: Greek <team@lists.gnome.gr>\n"
@@ -32,40 +32,159 @@ msgid "Remember always: someone loves you!"
 msgstr "Να θυμάστε πάντα: κάποιος σας αγαπάει!"
 
 #: ../data/klavaro.glade.h:4
+msgid "Klavaro - Progress"
+msgstr "Klavaro - Πρόοδος"
+
+#: ../data/klavaro.glade.h:5
+msgid "_Lesson:"
+msgstr "_Μάθημα:"
+
+#: ../data/klavaro.glade.h:6
+msgid "Value"
+msgstr "Αξία"
+
+#: ../data/klavaro.glade.h:7
+msgid "Close this window, returning to the exercise."
+msgstr "Κλείσιμο αυτού του παραθύρου, επιστροφή στην άσκηση."
+
+#: ../data/klavaro.glade.h:8
+msgid "_Close"
+msgstr "_Κλείσιμο"
+
+#: ../data/klavaro.glade.h:9
+msgid "Clear all the progress data, for every module."
+msgstr "Καθαρισμός όλων των δεδομένων προόδου, για κάθε μονάδα."
+
+#: ../data/klavaro.glade.h:10
+msgid "_Reset"
+msgstr "_Κατάργηση"
+
+#: ../data/klavaro.glade.h:11
+msgid "Load other exercises/lessons"
+msgstr "Φόρτωση άλλων ασκήσεων/μαθημάτων"
+
+#: ../data/klavaro.glade.h:12
+msgid "_Other texts"
+msgstr "_Άλλα κείμενα"
+
+#: ../data/klavaro.glade.h:13
+msgid "Edit the character set to be used in this lesson."
+msgstr ""
+"Επεξεργασία του συνόλου χαρακτήρων που θα χρησιμοποιηθούν σε αυτό το μάθημα."
+
+#: ../data/klavaro.glade.h:14
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr ""
+"Αυτή είναι μία συγκεκριμένη άσκηση που προσαρμόστηκε στο προφίλ των λαθών "
+"σας."
+
+#: ../data/klavaro.glade.h:15
+msgid ""
+"Edit the character set to be used in lessons after 43: they are customizable!"
+msgstr ""
+"Επεξεργασία του συνόλου χαρακτήρων που θα χρησιμοποιηθούν στα μαθήματα μετά "
+"το 43: είναι προσαρμόσιμα!"
+
+#: ../data/klavaro.glade.h:16 ../src/tutor.c:376
+msgid "Drag and drop text here to practice with it."
+msgstr "Σύρετε και αφήστε κείμενο εδώ για να εξασκηθείτε με αυτό."
+
+#: ../data/klavaro.glade.h:17
+msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
+msgstr ""
+"Πατήστε εδώ για να επανεκκινήσετε την άσκηση. Πλήκτρο συντόμευσης [Ctrl-R]"
+
+#: ../data/klavaro.glade.h:18
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr ""
+"Εμφάνιση του εικονικού πληκτρολογίου και της σχέσης μεταξύ δακτύλων και των "
+"πλήκτρων."
+
+#: ../data/klavaro.glade.h:19
+msgid "_Keyboard"
+msgstr "_Πληκτρολόγιο"
+
+#: ../data/klavaro.glade.h:20
+msgid "Select the font to be used in the exercise window."
+msgstr ""
+"Επιλογή της γραμματοσειράς που θα χρησιμοποιηθεί στο παράθυρο της άσκησης."
+
+#: ../data/klavaro.glade.h:21
+msgid "Font definition"
+msgstr "Ορισμός γραμματοσειράς"
+
+#: ../data/klavaro.glade.h:22
+msgid "Keep this checked if you want to get those nice beeps."
+msgstr "Κρατήστε αυτό επιλεγμένο αν θέλετε να έχετε αυτά τα ωραία μπιπ."
+
+#: ../data/klavaro.glade.h:23
+msgid "_Beep"
+msgstr "_Μπιπ"
+
+#: ../data/klavaro.glade.h:24
+msgid "Co_urse information"
+msgstr "Πληροφορίες _μαθήματος"
+
+#: ../data/klavaro.glade.h:25
+msgid "Charts showing the learning progress along the exercises."
+msgstr ""
+"Διαγράμματα που δείχνουν την πρόοδο εκμάθησης κατά την εξέλιξη των ασκήσεων."
+
+#: ../data/klavaro.glade.h:26
+msgid "_Progress"
+msgstr "_Πρόοδος"
+
+#: ../data/klavaro.glade.h:27
+msgid "Exit the application immediately."
+msgstr "Έξοδος από την εφαρμογή άμεσα."
+
+#: ../data/klavaro.glade.h:28
+msgid "Return to the main menu."
+msgstr "Επιστροφή στο κύριο μενού."
+
+#: ../data/klavaro.glade.h:29
+msgid "B_ack to menu"
+msgstr "_Πίσω στο μενού"
+
+#: ../data/klavaro.glade.h:30
+msgid "Show local and external scores from other users."
+msgstr "Εμφάνιση τοπικών και εξωτερικών βαθμολογιών από άλλους χρήστες."
+
+#: ../data/klavaro.glade.h:31
+msgid "_Top 10"
+msgstr "_Κορυφαία 10"
+
+#: ../data/klavaro.glade.h:32
 msgid "Change language"
 msgstr "Αλλαγή γλώσσας"
 
-#: ../data/klavaro.glade.h:5
+#: ../data/klavaro.glade.h:33
 msgid "Attention!"
 msgstr "Προσοχή!"
 
-#: ../data/klavaro.glade.h:6
+#: ../data/klavaro.glade.h:34
 msgid "Do you confirm?"
 msgstr "Το επιβεβαιώνετε;"
 
-#: ../data/klavaro.glade.h:7
+#: ../data/klavaro.glade.h:35
 msgid "_No"
 msgstr "_Όχι"
 
-#: ../data/klavaro.glade.h:8
+#: ../data/klavaro.glade.h:36
 msgid "_Yes"
 msgstr "_Ναι"
 
-#: ../data/klavaro.glade.h:9
+#: ../data/klavaro.glade.h:37
 msgid "Help?"
 msgstr "Βοήθεια;"
 
-#: ../data/klavaro.glade.h:10
+#: ../data/klavaro.glade.h:38
 msgid "This is a tip. Now you press this button to return to the main menu."
 msgstr ""
 "Αυτή είναι μια συμβουλή. Τώρα πατήστε αυτό το κουμπί για να επιστρέψετε στο "
 "κύριο μενού."
 
-#: ../data/klavaro.glade.h:11
-msgid "B_ack to menu"
-msgstr "_Πίσω στο μενού"
-
-#: ../data/klavaro.glade.h:12
+#: ../data/klavaro.glade.h:39
 msgid ""
 "The main menu of the application is very straightforward. Just select the "
 "type of exercise you wish to take. Do not worry about clicking any button on "
@@ -75,7 +194,7 @@ msgstr ""
 "άσκησης που θέλετε να κάνετε. Μην ανησυχείτε για το αν θα πατήσετε "
 "οποιοδήποτε κουμπί στην οθόνη. Τα κουμπιά ποτέ δεν θα σας βλάψουν!"
 
-#: ../data/klavaro.glade.h:13
+#: ../data/klavaro.glade.h:40
 msgid ""
 "Also the controls have tips which will appear if you hover over them with "
 "your mouse. These tips can come in very handy. To see how these tips work, "
@@ -88,27 +207,27 @@ msgstr ""
 "ποντικιού σας πάνω από ένα κουμπί παρακάτω και χωρίς να κάνετε κλικ "
 "περιμένετε λίγο ώσπου να εμφανιστεί η συμβουλή..."
 
-#: ../data/klavaro.glade.h:14
+#: ../data/klavaro.glade.h:41
 msgid "Klavaro - Select file"
 msgstr "Klavaro - Επιλογή αρχείου"
 
-#: ../data/klavaro.glade.h:15
+#: ../data/klavaro.glade.h:42
 msgid "_Cancel"
 msgstr "_Άκυρο"
 
-#: ../data/klavaro.glade.h:16
+#: ../data/klavaro.glade.h:43
 msgid "_Open"
 msgstr "_Άνοιγμα"
 
-#: ../data/klavaro.glade.h:17
+#: ../data/klavaro.glade.h:44
 msgid "Re_name:"
 msgstr "_Μετονομασία:"
 
-#: ../data/klavaro.glade.h:18
+#: ../data/klavaro.glade.h:45
 msgid "Rename the selected item."
 msgstr "Μετονομασία του επιλεγμένου αντικειμένου."
 
-#: ../data/klavaro.glade.h:19
+#: ../data/klavaro.glade.h:46
 msgid ""
 "Read a text file and add a copy of it here. The file must be encoded in "
 "UTF-8."
@@ -116,59 +235,55 @@ msgstr ""
 "Διάβασμα ενός αρχείου κειμένου και προσθήκη αντιγράφου του εδώ. Το αρχείο "
 "πρέπει να είναι κωδικοποιημένο σε UTF-8."
 
-#: ../data/klavaro.glade.h:20
+#: ../data/klavaro.glade.h:47
 msgid "_Open text file"
 msgstr "_Άνοιγμα αρχείου κειμένου"
 
-#: ../data/klavaro.glade.h:21
+#: ../data/klavaro.glade.h:48
 msgid "Paste text that was copied to the clipboard."
 msgstr "Επικόλληση κειμένου που είχε αντιγραφεί στο πρόχειρο."
 
-#: ../data/klavaro.glade.h:22
+#: ../data/klavaro.glade.h:49
 msgid "_Paste from clipboard"
 msgstr "_Επικόλληση από το πρόχειρο"
 
-#: ../data/klavaro.glade.h:23
+#: ../data/klavaro.glade.h:50
 msgid "Remove the selected item."
 msgstr "Κατάργηση του επιλεγμένου αντικειμένου."
 
-#: ../data/klavaro.glade.h:24
+#: ../data/klavaro.glade.h:51
 msgid "_Remove copied file"
 msgstr "_Κατάργηση αντιγραμμένου αρχείου"
 
-#: ../data/klavaro.glade.h:25
+#: ../data/klavaro.glade.h:52
 msgid "Apply the selected item to create an exercise."
 msgstr "Εφαρμογή του επιλεγμένου αντικειμένου για τη δημιουργία μια άσκησης."
 
-#: ../data/klavaro.glade.h:26
+#: ../data/klavaro.glade.h:53
 msgid "_Apply"
 msgstr "_Εφαρμογή"
 
-#: ../data/klavaro.glade.h:27
+#: ../data/klavaro.glade.h:54
 msgid "Close this window."
 msgstr "Κλείσιμο αυτού του παραθύρου."
 
-#: ../data/klavaro.glade.h:28
-msgid "_Close"
-msgstr "_Κλείσιμο"
-
-#: ../data/klavaro.glade.h:29
+#: ../data/klavaro.glade.h:55
 msgid "Country / Custom"
 msgstr "Χώρα / Προσαρμογή"
 
-#: ../data/klavaro.glade.h:30
+#: ../data/klavaro.glade.h:56
 msgid "Variant"
 msgstr "Παραλλαγή"
 
-#: ../data/klavaro.glade.h:31
+#: ../data/klavaro.glade.h:57
 msgid "Remove the selected custom layout."
 msgstr "Κατάργηση της επιλεγμένης προσαρμοσμένης διάταξης."
 
-#: ../data/klavaro.glade.h:32
+#: ../data/klavaro.glade.h:58
 msgid "_Remove"
 msgstr "_Κατάργηση"
 
-#: ../data/klavaro.glade.h:33
+#: ../data/klavaro.glade.h:59
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
@@ -176,57 +291,57 @@ msgstr ""
 "Εναλλάσσει την επίδραση του shift στα πλήκτρα. Εναλλάσσει μεταξύ κεφαλαίων "
 "και πεζών χαρακτήρων των πλήκτρων."
 
-#: ../data/klavaro.glade.h:34
+#: ../data/klavaro.glade.h:60
 msgid "SPACE BAR"
 msgstr "ΔΙΑΣΤΗΜΑ"
 
-#: ../data/klavaro.glade.h:35 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
 msgid "thumbs"
 msgstr "αντίχειρες"
 
-#: ../data/klavaro.glade.h:36
+#: ../data/klavaro.glade.h:62
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: ../data/klavaro.glade.h:37
+#: ../data/klavaro.glade.h:63
 msgid "Caps"
 msgstr "Κεφαλαία"
 
-#: ../data/klavaro.glade.h:38
+#: ../data/klavaro.glade.h:64
 msgid "S_ave as:"
 msgstr "_Αποθήκευση ως:"
 
-#: ../data/klavaro.glade.h:39
+#: ../data/klavaro.glade.h:65
 msgid "Show previous screen."
 msgstr "Εμφάνιση προηγούμενης οθόνης."
 
-#: ../data/klavaro.glade.h:40
+#: ../data/klavaro.glade.h:66
 msgid "_Previous step"
 msgstr "_Προηγούμενο βήμα"
 
-#: ../data/klavaro.glade.h:41
+#: ../data/klavaro.glade.h:67
 msgid "Show next screen."
 msgstr "Εμφάνιση επόμενης οθόνης."
 
-#: ../data/klavaro.glade.h:42
+#: ../data/klavaro.glade.h:68
 msgid "_Next step"
 msgstr "_Επόμενο βήμα"
 
-#: ../data/klavaro.glade.h:43
+#: ../data/klavaro.glade.h:69
 msgid "Return without any modification."
 msgstr "Επιστροφή χωρίς καμία τροποποίηση."
 
-#: ../data/klavaro.glade.h:44
+#: ../data/klavaro.glade.h:70
 msgid "Save the current keyboard layout with the name specified above."
 msgstr ""
 "Αποθήκευση της τρέχουσας διάταξης πληκτρολογίου με το όνομα που καθορίζεται "
 "παραπάνω."
 
-#: ../data/klavaro.glade.h:45
+#: ../data/klavaro.glade.h:71
 msgid "_Save and use"
 msgstr "_Αποθήκευση και χρήση"
 
-#: ../data/klavaro.glade.h:46
+#: ../data/klavaro.glade.h:72
 msgid ""
 "If you like those beautiful hands, click here to close this window keeping "
 "them."
@@ -234,55 +349,55 @@ msgstr ""
 "Αν σας αρέσουν αυτά τα υπέροχα χέρια, κάντε κλικ εδώ για να κλείσετε αυτό το "
 "παράθυρο κρατώντας τα χέρια."
 
-#: ../data/klavaro.glade.h:47
+#: ../data/klavaro.glade.h:73
 msgid "_Keep hands"
 msgstr "_Διατήρηση χεριών"
 
-#: ../data/klavaro.glade.h:48
+#: ../data/klavaro.glade.h:74
 msgid "Klavaro - Main menu"
 msgstr "Klavaro - Κύριο μενού"
 
-#: ../data/klavaro.glade.h:49
+#: ../data/klavaro.glade.h:75
 msgid "Don't be shy about learning the basics!"
 msgstr "Μην είστε ντροπαλοί στο να μάθετε τα βασικά!"
 
-#: ../data/klavaro.glade.h:50
+#: ../data/klavaro.glade.h:76
 msgid "Learn how to type correctly"
 msgstr "Μάθετε πως να πληκτρολογείτε σωστά"
 
-#: ../data/klavaro.glade.h:51
+#: ../data/klavaro.glade.h:77
 msgid "Initial training for your fingers."
 msgstr "Αρχική εκπαίδευση για τα δάχτυλα σας."
 
-#: ../data/klavaro.glade.h:52
+#: ../data/klavaro.glade.h:78
 msgid "First steps with initial training"
 msgstr "Πρώτα βήματα με την αρχική εκπαίδευση"
 
-#: ../data/klavaro.glade.h:53
+#: ../data/klavaro.glade.h:79
 msgid "Memorizing the keyboard practicing random keys exercises."
 msgstr "Απομνημόνευση του πληκτρολογίου με ασκήσεις τυχαίων πλήκτρων."
 
-#: ../data/klavaro.glade.h:54
+#: ../data/klavaro.glade.h:80
 msgid "Practice with random keys"
 msgstr "Εξάσκηση με τυχαία πλήκτρα"
 
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:81
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "Επιτάχυνση των πατημάτων με ασκήσεις τυχαίων λέξεων."
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:82
 msgid "Practice with random words"
 msgstr "Εξάσκηση με τυχαίες λέξεις"
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:83
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "Βελτίωση με εξάσκηση σε ασκήσεις ολόκληρων παραγράφων."
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:84
 msgid "Practice with complete texts"
 msgstr "Εξάσκηση με πλήρη κείμενα"
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:85
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
@@ -290,184 +405,69 @@ msgstr ""
 "Διάταξη πληκτρολογίου για τις μονάδες 1 και 2. Επίσης χρησιμοποιείται για "
 "τον διαγωνισμό ρευστότητας."
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:86
 msgid "_Keyboard:"
 msgstr "_Πληκτρολόγιο:"
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:87
 msgid "Language for modules 3 and 4."
 msgstr "Γλώσσα για τις μονάδες 3 και 4."
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:88
 msgid "_Language:"
 msgstr "_Γλώσσα:"
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:89
 msgid "Speech"
 msgstr "Ομιλία"
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:90
 msgid "Your language here."
 msgstr "Η γλώσσα σας εδώ"
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:91
 msgid "Little tip about this program."
 msgstr "Μικρή συμβουλή σχετικά με αυτό το πρόγραμμα."
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:92
 msgid "_Help"
 msgstr "_Βοήθεια"
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:93
 msgid "General information about the program."
 msgstr "Γενικές πληροφορίες σχετικά με το πρόγραμμα."
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:94
 msgid "_About..."
 msgstr "_Σχετικά..."
 
-#: ../data/klavaro.glade.h:69
-msgid "Exit the application immediately."
-msgstr "Έξοδος από την εφαρμογή άμεσα."
-
-#: ../data/klavaro.glade.h:70
-msgid "Klavaro - Progress"
-msgstr "Klavaro - Πρόοδος"
-
-#: ../data/klavaro.glade.h:71
-msgid "_Lesson:"
-msgstr "_Μάθημα:"
-
-#: ../data/klavaro.glade.h:72
-msgid "Value"
-msgstr "Αξία"
-
-#: ../data/klavaro.glade.h:73
-msgid "Close this window, returning to the exercise."
-msgstr "Κλείσιμο αυτού του παραθύρου, επιστροφή στην άσκηση."
-
-#: ../data/klavaro.glade.h:74
-msgid "Clear all the progress data, for every module."
-msgstr "Καθαρισμός όλων των δεδομένων προόδου, για κάθε μονάδα."
-
-#: ../data/klavaro.glade.h:75
-msgid "_Reset"
-msgstr "_Κατάργηση"
-
-#: ../data/klavaro.glade.h:76
+#: ../data/klavaro.glade.h:95
 msgid "Top 10"
 msgstr "Κορυφαία 10"
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:96
 msgid "Show extra information."
 msgstr "Εμφάνιση πρόσθετων πληροφοριών."
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:97
 msgid "Hide extra information."
 msgstr "Απόκρυψη πρόσθετων πληροφοριών."
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:98
 msgid "Publish to the web your local scores."
 msgstr "Δημοσίευση των τοπικών βαθμολογιών σας στον ιστό."
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:99
 msgid "_Participate"
 msgstr "_Συμμετοχή"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:100
 msgid "Download from the web the most up to date ranking."
 msgstr "Κατέβασμα από τον ιστό της πιο ενημερωμένης κατάταξης."
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:101
 msgid "_Update"
 msgstr "_Ενημέρωση"
-
-#: ../data/klavaro.glade.h:83
-msgid "Load other exercises/lessons"
-msgstr "Φόρτωση άλλων ασκήσεων/μαθημάτων"
-
-#: ../data/klavaro.glade.h:84
-msgid "_Other texts"
-msgstr "_Άλλα κείμενα"
-
-#: ../data/klavaro.glade.h:85
-msgid "Edit the character set to be used in this lesson."
-msgstr ""
-"Επεξεργασία του συνόλου χαρακτήρων που θα χρησιμοποιηθούν σε αυτό το μάθημα."
-
-#: ../data/klavaro.glade.h:86
-msgid "This is a specific exercise, adjusted to your error profile."
-msgstr ""
-"Αυτή είναι μία συγκεκριμένη άσκηση που προσαρμόστηκε στο προφίλ των λαθών "
-"σας."
-
-#: ../data/klavaro.glade.h:87
-msgid ""
-"Edit the character set to be used in lessons after 43: they are customizable!"
-msgstr ""
-"Επεξεργασία του συνόλου χαρακτήρων που θα χρησιμοποιηθούν στα μαθήματα μετά "
-"το 43: είναι προσαρμόσιμα!"
-
-#: ../data/klavaro.glade.h:88 ../src/tutor.c:376
-msgid "Drag and drop text here to practice with it."
-msgstr "Σύρετε και αφήστε κείμενο εδώ για να εξασκηθείτε με αυτό."
-
-#: ../data/klavaro.glade.h:89
-msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
-msgstr ""
-"Πατήστε εδώ για να επανεκκινήσετε την άσκηση. Πλήκτρο συντόμευσης [Ctrl-R]"
-
-#: ../data/klavaro.glade.h:90
-msgid "Show the virtual keyboard and the relation between fingers and keys."
-msgstr ""
-"Εμφάνιση του εικονικού πληκτρολογίου και της σχέσης μεταξύ δακτύλων και των "
-"πλήκτρων."
-
-#: ../data/klavaro.glade.h:91
-msgid "_Keyboard"
-msgstr "_Πληκτρολόγιο"
-
-#: ../data/klavaro.glade.h:92
-msgid "Select the font to be used in the exercise window."
-msgstr ""
-"Επιλογή της γραμματοσειράς που θα χρησιμοποιηθεί στο παράθυρο της άσκησης."
-
-#: ../data/klavaro.glade.h:93
-msgid "Font definition"
-msgstr "Ορισμός γραμματοσειράς"
-
-#: ../data/klavaro.glade.h:94
-msgid "Keep this checked if you want to get those nice beeps."
-msgstr "Κρατήστε αυτό επιλεγμένο αν θέλετε να έχετε αυτά τα ωραία μπιπ."
-
-#: ../data/klavaro.glade.h:95
-msgid "_Beep"
-msgstr "_Μπιπ"
-
-#: ../data/klavaro.glade.h:96
-msgid "Co_urse information"
-msgstr "Πληροφορίες _μαθήματος"
-
-#: ../data/klavaro.glade.h:97
-msgid "Charts showing the learning progress along the exercises."
-msgstr ""
-"Διαγράμματα που δείχνουν την πρόοδο εκμάθησης κατά την εξέλιξη των ασκήσεων."
-
-#: ../data/klavaro.glade.h:98
-msgid "_Progress"
-msgstr "_Πρόοδος"
-
-#: ../data/klavaro.glade.h:99
-msgid "Return to the main menu."
-msgstr "Επιστροφή στο κύριο μενού."
-
-#: ../data/klavaro.glade.h:100
-msgid "Show local and external scores from other users."
-msgstr "Εμφάνιση τοπικών και εξωτερικών βαθμολογιών από άλλους χρήστες."
-
-#: ../data/klavaro.glade.h:101
-msgid "_Top 10"
-msgstr "_Κορυφαία 10"
 
 #: ../data/klavaro.desktop.in.h:1
 msgid "A very flexible and efficient touch typing tutor."
@@ -1022,11 +1022,13 @@ msgstr "εισαγωγικό"
 msgid "ampersand"
 msgstr "συμπλεκτικό σύμβολο (&)"
 
-#: ../src/plot.c:305
+#. Error frequencies or touch times
+#.
+#: ../src/plot.c:323
 msgid "Character"
 msgstr "Χαρακτήρας"
 
-#: ../src/plot.c:319
+#: ../src/plot.c:335
 msgid "Date & Time"
 msgstr "Ημερομηνία και ώρα"
 

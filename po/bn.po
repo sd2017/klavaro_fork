@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.1.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-07-11 15:37-0300\n"
+"POT-Creation-Date: 2014-09-02 15:28-0300\n"
 "PO-Revision-Date: 2008-11-05 16:51+0600\n"
 "Last-Translator: Md. Rezwan Shahid <rafi6047@yahoo.com>\n"
 "Language-Team: Bangla/Bengali <l10n@ankur.org.bd>\n"
@@ -32,40 +32,165 @@ msgid "Remember always: someone loves you!"
 msgstr "সবসময় মনে রাখবেন: কেউ একজন আপনাকে ভালবাসে!"
 
 #: ../data/klavaro.glade.h:4
+msgid "Klavaro - Progress"
+msgstr "ক্লাভারো - অগ্রগতি"
+
+#: ../data/klavaro.glade.h:5
+#, fuzzy
+msgid "_Lesson:"
+msgstr "শিক্ষা"
+
+#: ../data/klavaro.glade.h:6
+msgid "Value"
+msgstr ""
+
+#: ../data/klavaro.glade.h:7
+#, fuzzy
+msgid "Close this window, returning to the exercise."
+msgstr "এই উইন্ডোটি বন্ধ করুন, অনুশীলনে ফিরে যান। শর্টকাট: [Esc]"
+
+#: ../data/klavaro.glade.h:8
+#, fuzzy
+msgid "_Close"
+msgstr "বন্ধ করুন"
+
+#: ../data/klavaro.glade.h:9
+msgid "Clear all the progress data, for every module."
+msgstr ""
+
+#: ../data/klavaro.glade.h:10
+#, fuzzy
+msgid "_Reset"
+msgstr "রিসেট!"
+
+#: ../data/klavaro.glade.h:11
+#, fuzzy
+msgid "Load other exercises/lessons"
+msgstr "অন্যান্য "
+
+#: ../data/klavaro.glade.h:12
+#, fuzzy
+msgid "_Other texts"
+msgstr "পূর্ণ টেক্সট"
+
+#: ../data/klavaro.glade.h:13
+msgid "Edit the character set to be used in this lesson."
+msgstr "শিক্ষায় ব্যবহৃতব্য ক্যারেকটার সেটটি পরিবর্তন করুন।"
+
+#: ../data/klavaro.glade.h:14
+msgid "This is a specific exercise, adjusted to your error profile."
+msgstr ""
+
+#: ../data/klavaro.glade.h:15
+#, fuzzy
+msgid ""
+"Edit the character set to be used in lessons after 43: they are customizable!"
+msgstr "শিক্ষায় ব্যবহৃতব্য ক্যারেকটার সেটটি পরিবর্তন করুন।"
+
+#: ../data/klavaro.glade.h:16 ../src/tutor.c:376
+msgid "Drag and drop text here to practice with it."
+msgstr "এখানে টেক্সট টেনে এনে অনুশীলন করুন।"
+
+#: ../data/klavaro.glade.h:17
+#, fuzzy
+msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
+msgstr "অনুশীলন নতুন করে শুরু করতে চাইলে এখানে ক্লিক করুন। শর্টকাট: [Ctrl R]"
+
+#: ../data/klavaro.glade.h:18
+msgid "Show the virtual keyboard and the relation between fingers and keys."
+msgstr "ভার্চুয়াল কীবোর্ড প্রদর্শন করুন এবং আঙ্গুল ও কী এর মধ্যে সম্পর্ক প্রদর্শন করুন"
+
+#: ../data/klavaro.glade.h:19
+#, fuzzy
+msgid "_Keyboard"
+msgstr "কিবোর্ড"
+
+#: ../data/klavaro.glade.h:20
+msgid "Select the font to be used in the exercise window."
+msgstr "অনুশীলনে ব্যবহৃতব্য ফন্টটি নির্বাচন করুন।"
+
+#: ../data/klavaro.glade.h:21
+msgid "Font definition"
+msgstr "ফন্ট ডেফিনিশন"
+
+#: ../data/klavaro.glade.h:22
+#, fuzzy
+msgid "Keep this checked if you want to get those nice beeps."
+msgstr "আপনি যদি শব্দ কার্যকর রাখতে চান তাহলে এখানে টিক দিন। শর্টকাট: [Ctrl S]"
+
+#: ../data/klavaro.glade.h:23
+#, fuzzy
+msgid "_Beep"
+msgstr "সহায়িকা"
+
+#: ../data/klavaro.glade.h:24
+#, fuzzy
+msgid "Co_urse information"
+msgstr "তথ্য বাড়ান"
+
+#: ../data/klavaro.glade.h:25
+msgid "Charts showing the learning progress along the exercises."
+msgstr "অনুশীলনের সাথে শিক্ষার অগ্রগতি প্রদর্শনকারী চার্ট।"
+
+#: ../data/klavaro.glade.h:26
+#, fuzzy
+msgid "_Progress"
+msgstr "অগ্রগতি"
+
+#: ../data/klavaro.glade.h:27
+#, fuzzy
+msgid "Exit the application immediately."
+msgstr "এই মূহুর্তে অ্যাপ্লিকেশন থেকে বের হয়ে যান। শর্টকাট: [Ctrl-Q]"
+
+#: ../data/klavaro.glade.h:28
+#, fuzzy
+msgid "Return to the main menu."
+msgstr "প্রধান মেন্যুতে ফিরে যান। শর্টকাট: [Ctrl-Q]"
+
+#: ../data/klavaro.glade.h:29
+msgid "B_ack to menu"
+msgstr ""
+
+#: ../data/klavaro.glade.h:30
+msgid "Show local and external scores from other users."
+msgstr "অন্যান্য ব্যবহারকারীদের স্থানীয় এবং বহি:স্থ স্কোর প্রদর্শন করুন।"
+
+#: ../data/klavaro.glade.h:31
+#, fuzzy
+msgid "_Top 10"
+msgstr "সেরা ১০"
+
+#: ../data/klavaro.glade.h:32
 msgid "Change language"
 msgstr "ভাযা পরিবর্তন করুন"
 
-#: ../data/klavaro.glade.h:5
+#: ../data/klavaro.glade.h:33
 msgid "Attention!"
 msgstr "সাবধান!"
 
-#: ../data/klavaro.glade.h:6
+#: ../data/klavaro.glade.h:34
 msgid "Do you confirm?"
 msgstr "আপনি কি নিশ্চিত করছেন?"
 
-#: ../data/klavaro.glade.h:7
+#: ../data/klavaro.glade.h:35
 #, fuzzy
 msgid "_No"
 msgstr "না"
 
-#: ../data/klavaro.glade.h:8
+#: ../data/klavaro.glade.h:36
 #, fuzzy
 msgid "_Yes"
 msgstr "হাঁ"
 
-#: ../data/klavaro.glade.h:9
+#: ../data/klavaro.glade.h:37
 msgid "Help?"
 msgstr "সাহায্য?"
 
-#: ../data/klavaro.glade.h:10
+#: ../data/klavaro.glade.h:38
 msgid "This is a tip. Now you press this button to return to the main menu."
 msgstr "এটি একটি টিপ। এখন প্রধান মেন্যুতে ফিরে যেতে এখানে চাপুন।"
 
-#: ../data/klavaro.glade.h:11
-msgid "B_ack to menu"
-msgstr ""
-
-#: ../data/klavaro.glade.h:12
+#: ../data/klavaro.glade.h:39
 #, fuzzy
 msgid ""
 "The main menu of the application is very straightforward. Just select the "
@@ -75,7 +200,7 @@ msgstr ""
 "এটি অ্যাপ্লিকেশনটির প্রধান মেন্যু এবং এটি খুব সহজ। আপনি কি ধরণের অনুশীলন করতে চান "
 "সেটি নির্বাচন করুন। কোনো বোতামে ক্লিক করতে ভয় পাবেন না: এগুলো আপনাকে আঘাত করবেনা!"
 
-#: ../data/klavaro.glade.h:13
+#: ../data/klavaro.glade.h:40
 msgid ""
 "Also the controls have tips which will appear if you hover over them with "
 "your mouse. These tips can come in very handy. To see how these tips work, "
@@ -87,30 +212,30 @@ msgstr ""
 "না করে, মাউসটি নিচের বোতামের উপর ধরে রাখুন এবং, নির্দেশনা না দেখানো পর্যন্ত "
 "কিছুক্ষন অপেক্ষা করুন..."
 
-#: ../data/klavaro.glade.h:14
+#: ../data/klavaro.glade.h:41
 msgid "Klavaro - Select file"
 msgstr "ক্লাভারো - ফাইল নির্বাচন করুন"
 
-#: ../data/klavaro.glade.h:15
+#: ../data/klavaro.glade.h:42
 #, fuzzy
 msgid "_Cancel"
 msgstr "বাতিল"
 
-#: ../data/klavaro.glade.h:16
+#: ../data/klavaro.glade.h:43
 msgid "_Open"
 msgstr ""
 
-#: ../data/klavaro.glade.h:17
+#: ../data/klavaro.glade.h:44
 #, fuzzy
 msgid "Re_name:"
 msgstr "মুছে ফেলুন"
 
-#: ../data/klavaro.glade.h:18
+#: ../data/klavaro.glade.h:45
 #, fuzzy
 msgid "Rename the selected item."
 msgstr "উপরের লিস্ট থেকে নির্বাচিত আইটেম মুছে ফেলুন।"
 
-#: ../data/klavaro.glade.h:19
+#: ../data/klavaro.glade.h:46
 msgid ""
 "Read a text file and add a copy of it here. The file must be encoded in "
 "UTF-8."
@@ -118,65 +243,60 @@ msgstr ""
 "একটি টেক্সট ফাইল পড়ুন এবং এর একটি কপি এখানে যোগ করুন। ফাইলটি অবশ্যই UTF-8 এ "
 "এনকোড করা থাকতে হবে।"
 
-#: ../data/klavaro.glade.h:20
+#: ../data/klavaro.glade.h:47
 msgid "_Open text file"
 msgstr ""
 
-#: ../data/klavaro.glade.h:21
+#: ../data/klavaro.glade.h:48
 #, fuzzy
 msgid "Paste text that was copied to the clipboard."
 msgstr "ক্লিপবোর্ডে কপি করা টেক্ট এখানে পেস্ট করুন। শর্টকাট: [Ctrl-V]"
 
-#: ../data/klavaro.glade.h:22
+#: ../data/klavaro.glade.h:49
 msgid "_Paste from clipboard"
 msgstr ""
 
-#: ../data/klavaro.glade.h:23
+#: ../data/klavaro.glade.h:50
 #, fuzzy
 msgid "Remove the selected item."
 msgstr "উপরের লিস্ট থেকে নির্বাচিত আইটেম মুছে ফেলুন।"
 
-#: ../data/klavaro.glade.h:24
+#: ../data/klavaro.glade.h:51
 #, fuzzy
 msgid "_Remove copied file"
 msgstr "নির্বাচিতগুলো মুছে ফেলুন"
 
-#: ../data/klavaro.glade.h:25
+#: ../data/klavaro.glade.h:52
 msgid "Apply the selected item to create an exercise."
 msgstr "নতুন অনুশীলন তৈরি করতে নির্বাচিত আইটেম গুলো কার্যকর করুন।"
 
-#: ../data/klavaro.glade.h:26
+#: ../data/klavaro.glade.h:53
 msgid "_Apply"
 msgstr ""
 
-#: ../data/klavaro.glade.h:27
+#: ../data/klavaro.glade.h:54
 msgid "Close this window."
 msgstr "এই উইন্ডো বন্ধ করুন।"
 
-#: ../data/klavaro.glade.h:28
-#, fuzzy
-msgid "_Close"
-msgstr "বন্ধ করুন"
-
-#: ../data/klavaro.glade.h:29
+#: ../data/klavaro.glade.h:55
 msgid "Country / Custom"
 msgstr ""
 
-#: ../data/klavaro.glade.h:30
+#: ../data/klavaro.glade.h:56
 msgid "Variant"
 msgstr ""
 
-#: ../data/klavaro.glade.h:31
+#: ../data/klavaro.glade.h:57
 #, fuzzy
 msgid "Remove the selected custom layout."
 msgstr "উপরের লিস্ট থেকে নির্বাচিত আইটেম মুছে ফেলুন।"
 
-#: ../data/klavaro.glade.h:32
+#: ../data/klavaro.glade.h:58
 #, fuzzy
 msgid "_Remove"
 msgstr "মুছে ফেলুন"
 
-#: ../data/klavaro.glade.h:33
+#: ../data/klavaro.glade.h:59
 msgid ""
 "Toggles the shift effect on the keys. Alternates between the upper and lower "
 "characters of the keys."
@@ -184,58 +304,58 @@ msgstr ""
 "কী-এর shift প্রভাব পরিবর্তন করে। কী-এর উপর এবং নিম্ন বর্নমালার  মধ্যে অন্ত:পরিবর্তন "
 "করে।"
 
-#: ../data/klavaro.glade.h:34
+#: ../data/klavaro.glade.h:60
 msgid "SPACE BAR"
 msgstr "স্পেসবার"
 
-#: ../data/klavaro.glade.h:35 ../src/keyboard.c:1630
+#: ../data/klavaro.glade.h:61 ../src/keyboard.c:1630
 msgid "thumbs"
 msgstr "বুড়ো আঙ্গুল"
 
-#: ../data/klavaro.glade.h:36
+#: ../data/klavaro.glade.h:62
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: ../data/klavaro.glade.h:37
+#: ../data/klavaro.glade.h:63
 msgid "Caps"
 msgstr "ক্যাপস্"
 
-#: ../data/klavaro.glade.h:38
+#: ../data/klavaro.glade.h:64
 #, fuzzy
 msgid "S_ave as:"
 msgstr "সংরক্ষণ করুন"
 
-#: ../data/klavaro.glade.h:39
+#: ../data/klavaro.glade.h:65
 msgid "Show previous screen."
 msgstr ""
 
-#: ../data/klavaro.glade.h:40
+#: ../data/klavaro.glade.h:66
 msgid "_Previous step"
 msgstr ""
 
-#: ../data/klavaro.glade.h:41
+#: ../data/klavaro.glade.h:67
 msgid "Show next screen."
 msgstr ""
 
-#: ../data/klavaro.glade.h:42
+#: ../data/klavaro.glade.h:68
 msgid "_Next step"
 msgstr ""
 
-#: ../data/klavaro.glade.h:43
+#: ../data/klavaro.glade.h:69
 #, fuzzy
 msgid "Return without any modification."
 msgstr "কোনো পরিবর্তন না করে ফিরে যান। শর্টকাট: [Esc]"
 
-#: ../data/klavaro.glade.h:44
+#: ../data/klavaro.glade.h:70
 msgid "Save the current keyboard layout with the name specified above."
 msgstr "এই কিবোর্ড লেআউটটি উপরে উল্লিখিত নামে সংরক্ষণ করুন"
 
-#: ../data/klavaro.glade.h:45
+#: ../data/klavaro.glade.h:71
 #, fuzzy
 msgid "_Save and use"
 msgstr "সংরক্ষণ করুন"
 
-#: ../data/klavaro.glade.h:46
+#: ../data/klavaro.glade.h:72
 #, fuzzy
 msgid ""
 "If you like those beautiful hands, click here to close this window keeping "
@@ -244,260 +364,140 @@ msgstr ""
 "আপনি যদি এই সুন্দর হাতগুলো পাশে রাখতে চান, তাহলে এই উইন্ডো বন্ধ করার পূর্বে এখানে "
 "ক্লিক করুন।"
 
-#: ../data/klavaro.glade.h:47
+#: ../data/klavaro.glade.h:73
 #, fuzzy
 msgid "_Keep hands"
 msgstr "হাতটি রাখুন"
 
-#: ../data/klavaro.glade.h:48
+#: ../data/klavaro.glade.h:74
 msgid "Klavaro - Main menu"
 msgstr "ক্লাভারো - প্রধান মেনু"
 
-#: ../data/klavaro.glade.h:49
+#: ../data/klavaro.glade.h:75
 msgid "Don't be shy about learning the basics!"
 msgstr "শুরু থেকে শিখতে লজ্জা পাবেন না!"
 
-#: ../data/klavaro.glade.h:50
+#: ../data/klavaro.glade.h:76
 #, fuzzy
 msgid "Learn how to type correctly"
 msgstr "কিভাবে সঠিক টাইপ করা যায়"
 
-#: ../data/klavaro.glade.h:51
+#: ../data/klavaro.glade.h:77
 msgid "Initial training for your fingers."
 msgstr "আপনার আঙ্গুলের জন্য প্রারম্ভিক প্রশিক্ষণ"
 
-#: ../data/klavaro.glade.h:52
+#: ../data/klavaro.glade.h:78
 #, fuzzy
 msgid "First steps with initial training"
 msgstr "প্রারম্ভিক অনুশীলন"
 
-#: ../data/klavaro.glade.h:53
+#: ../data/klavaro.glade.h:79
 msgid "Memorizing the keyboard practicing random keys exercises."
 msgstr "এলোমেলো কী (key) অনুশীলনের মাধ্যমে কীবোর্ড মনে রাখা।"
 
-#: ../data/klavaro.glade.h:54
+#: ../data/klavaro.glade.h:80
 #, fuzzy
 msgid "Practice with random keys"
 msgstr "পূর্ণ টেক্সট"
 
-#: ../data/klavaro.glade.h:55
+#: ../data/klavaro.glade.h:81
 #, fuzzy
 msgid "Accelerating the touches practicing random words exercises."
 msgstr "এলোমেলো শব্দ অনুশীলনের মাধ্যমে হাতের গতি বাড়ানো।"
 
-#: ../data/klavaro.glade.h:56
+#: ../data/klavaro.glade.h:82
 #, fuzzy
 msgid "Practice with random words"
 msgstr "পূর্ণ টেক্সট"
 
-#: ../data/klavaro.glade.h:57
+#: ../data/klavaro.glade.h:83
 msgid "Becoming proficient practicing complete paragraphs exercises."
 msgstr "পূর্ণ প্যারাগ্রাফ অনুশীলন করে দক্ষ হয়ে উঠুন।"
 
-#: ../data/klavaro.glade.h:58
+#: ../data/klavaro.glade.h:84
 #, fuzzy
 msgid "Practice with complete texts"
 msgstr "পূর্ণ টেক্সট"
 
-#: ../data/klavaro.glade.h:59
+#: ../data/klavaro.glade.h:85
 msgid ""
 "Keyboard layout for modules 1 and 2. Also used informatively in the "
 "fluidness contest."
 msgstr ""
 
-#: ../data/klavaro.glade.h:60
+#: ../data/klavaro.glade.h:86
 #, fuzzy
 msgid "_Keyboard:"
 msgstr "কিবোর্ড"
 
-#: ../data/klavaro.glade.h:61
+#: ../data/klavaro.glade.h:87
 msgid "Language for modules 3 and 4."
 msgstr ""
 
-#: ../data/klavaro.glade.h:62
+#: ../data/klavaro.glade.h:88
 #, fuzzy
 msgid "_Language:"
 msgstr "ভা‌ষা"
 
-#: ../data/klavaro.glade.h:63
+#: ../data/klavaro.glade.h:89
 msgid "Speech"
 msgstr ""
 
-#: ../data/klavaro.glade.h:64
+#: ../data/klavaro.glade.h:90
 msgid "Your language here."
 msgstr ""
 
-#: ../data/klavaro.glade.h:65
+#: ../data/klavaro.glade.h:91
 msgid "Little tip about this program."
 msgstr "এই অ্যাপ্লিকেশন সম্পর্কিত কিছু টিপ।"
 
-#: ../data/klavaro.glade.h:66
+#: ../data/klavaro.glade.h:92
 #, fuzzy
 msgid "_Help"
 msgstr "সহায়িকা"
 
-#: ../data/klavaro.glade.h:67
+#: ../data/klavaro.glade.h:93
 #, fuzzy
 msgid "General information about the program."
 msgstr "এই অ্যাপ্লিকেশন সম্পর্কিত কিছু টিপ।"
 
-#: ../data/klavaro.glade.h:68
+#: ../data/klavaro.glade.h:94
 #, fuzzy
 msgid "_About..."
 msgstr "ফ্লাভারো সম্পর্কিত..."
 
-#: ../data/klavaro.glade.h:69
-#, fuzzy
-msgid "Exit the application immediately."
-msgstr "এই মূহুর্তে অ্যাপ্লিকেশন থেকে বের হয়ে যান। শর্টকাট: [Ctrl-Q]"
-
-#: ../data/klavaro.glade.h:70
-msgid "Klavaro - Progress"
-msgstr "ক্লাভারো - অগ্রগতি"
-
-#: ../data/klavaro.glade.h:71
-#, fuzzy
-msgid "_Lesson:"
-msgstr "শিক্ষা"
-
-#: ../data/klavaro.glade.h:72
-msgid "Value"
-msgstr ""
-
-#: ../data/klavaro.glade.h:73
-#, fuzzy
-msgid "Close this window, returning to the exercise."
-msgstr "এই উইন্ডোটি বন্ধ করুন, অনুশীলনে ফিরে যান। শর্টকাট: [Esc]"
-
-#: ../data/klavaro.glade.h:74
-msgid "Clear all the progress data, for every module."
-msgstr ""
-
-#: ../data/klavaro.glade.h:75
-#, fuzzy
-msgid "_Reset"
-msgstr "রিসেট!"
-
-#: ../data/klavaro.glade.h:76
+#: ../data/klavaro.glade.h:95
 msgid "Top 10"
 msgstr "সেরা ১০"
 
-#: ../data/klavaro.glade.h:77
+#: ../data/klavaro.glade.h:96
 #, fuzzy
 msgid "Show extra information."
 msgstr "তথ্য বাড়ান"
 
-#: ../data/klavaro.glade.h:78
+#: ../data/klavaro.glade.h:97
 #, fuzzy
 msgid "Hide extra information."
 msgstr "তথ্য বাড়ান"
 
-#: ../data/klavaro.glade.h:79
+#: ../data/klavaro.glade.h:98
 #, fuzzy
 msgid "Publish to the web your local scores."
 msgstr "আপনার স্থানীয় স্কোর কনফিগার করা হোস্টের কাছে পাবলিশ করুন।"
 
-#: ../data/klavaro.glade.h:80
+#: ../data/klavaro.glade.h:99
 #, fuzzy
 msgid "_Participate"
 msgstr "অংশগ্রহন করুন"
 
-#: ../data/klavaro.glade.h:81
+#: ../data/klavaro.glade.h:100
 msgid "Download from the web the most up to date ranking."
 msgstr ""
 
-#: ../data/klavaro.glade.h:82
+#: ../data/klavaro.glade.h:101
 #, fuzzy
 msgid "_Update"
 msgstr "আপডেট"
-
-#: ../data/klavaro.glade.h:83
-#, fuzzy
-msgid "Load other exercises/lessons"
-msgstr "অন্যান্য "
-
-#: ../data/klavaro.glade.h:84
-#, fuzzy
-msgid "_Other texts"
-msgstr "পূর্ণ টেক্সট"
-
-#: ../data/klavaro.glade.h:85
-msgid "Edit the character set to be used in this lesson."
-msgstr "শিক্ষায় ব্যবহৃতব্য ক্যারেকটার সেটটি পরিবর্তন করুন।"
-
-#: ../data/klavaro.glade.h:86
-msgid "This is a specific exercise, adjusted to your error profile."
-msgstr ""
-
-#: ../data/klavaro.glade.h:87
-#, fuzzy
-msgid ""
-"Edit the character set to be used in lessons after 43: they are customizable!"
-msgstr "শিক্ষায় ব্যবহৃতব্য ক্যারেকটার সেটটি পরিবর্তন করুন।"
-
-#: ../data/klavaro.glade.h:88 ../src/tutor.c:376
-msgid "Drag and drop text here to practice with it."
-msgstr "এখানে টেক্সট টেনে এনে অনুশীলন করুন।"
-
-#: ../data/klavaro.glade.h:89
-#, fuzzy
-msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
-msgstr "অনুশীলন নতুন করে শুরু করতে চাইলে এখানে ক্লিক করুন। শর্টকাট: [Ctrl R]"
-
-#: ../data/klavaro.glade.h:90
-msgid "Show the virtual keyboard and the relation between fingers and keys."
-msgstr "ভার্চুয়াল কীবোর্ড প্রদর্শন করুন এবং আঙ্গুল ও কী এর মধ্যে সম্পর্ক প্রদর্শন করুন"
-
-#: ../data/klavaro.glade.h:91
-#, fuzzy
-msgid "_Keyboard"
-msgstr "কিবোর্ড"
-
-#: ../data/klavaro.glade.h:92
-msgid "Select the font to be used in the exercise window."
-msgstr "অনুশীলনে ব্যবহৃতব্য ফন্টটি নির্বাচন করুন।"
-
-#: ../data/klavaro.glade.h:93
-msgid "Font definition"
-msgstr "ফন্ট ডেফিনিশন"
-
-#: ../data/klavaro.glade.h:94
-#, fuzzy
-msgid "Keep this checked if you want to get those nice beeps."
-msgstr "আপনি যদি শব্দ কার্যকর রাখতে চান তাহলে এখানে টিক দিন। শর্টকাট: [Ctrl S]"
-
-#: ../data/klavaro.glade.h:95
-#, fuzzy
-msgid "_Beep"
-msgstr "সহায়িকা"
-
-#: ../data/klavaro.glade.h:96
-#, fuzzy
-msgid "Co_urse information"
-msgstr "তথ্য বাড়ান"
-
-#: ../data/klavaro.glade.h:97
-msgid "Charts showing the learning progress along the exercises."
-msgstr "অনুশীলনের সাথে শিক্ষার অগ্রগতি প্রদর্শনকারী চার্ট।"
-
-#: ../data/klavaro.glade.h:98
-#, fuzzy
-msgid "_Progress"
-msgstr "অগ্রগতি"
-
-#: ../data/klavaro.glade.h:99
-#, fuzzy
-msgid "Return to the main menu."
-msgstr "প্রধান মেন্যুতে ফিরে যান। শর্টকাট: [Ctrl-Q]"
-
-#: ../data/klavaro.glade.h:100
-msgid "Show local and external scores from other users."
-msgstr "অন্যান্য ব্যবহারকারীদের স্থানীয় এবং বহি:স্থ স্কোর প্রদর্শন করুন।"
-
-#: ../data/klavaro.glade.h:101
-#, fuzzy
-msgid "_Top 10"
-msgstr "সেরা ১০"
 
 #: ../data/klavaro.desktop.in.h:1
 #, fuzzy
@@ -1043,11 +1043,13 @@ msgstr ""
 msgid "ampersand"
 msgstr ""
 
-#: ../src/plot.c:305
+#. Error frequencies or touch times
+#.
+#: ../src/plot.c:323
 msgid "Character"
 msgstr ""
 
-#: ../src/plot.c:319
+#: ../src/plot.c:335
 msgid "Date & Time"
 msgstr ""
 
