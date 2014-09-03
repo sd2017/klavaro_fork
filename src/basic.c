@@ -48,8 +48,11 @@ basic_get_lesson ()
 void
 basic_set_lesson (gint lesson)
 {
-	basic.lesson = lesson;
-	main_preferences_set_int ("tutor", "basic_lesson", lesson);
+	if (lesson >= 0)
+	{
+		basic.lesson = lesson;
+		main_preferences_set_int ("tutor", "basic_lesson", lesson);
+	}
 }
 
 gunichar *

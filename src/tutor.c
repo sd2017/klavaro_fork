@@ -674,6 +674,14 @@ tutor_process_touch (gunichar user_chr)
 			tutor.query = QUERY_INTRO;
 			tutor_process_touch (L'\0');
 		}
+		else if (user_chr == (gunichar) 8 && tutor.type == TT_BASIC)
+		{
+			basic_set_lesson (basic_get_lesson () - 1);
+			basic_init_char_set ();
+			basic_set_lesson_increased (FALSE);
+			tutor.query = QUERY_INTRO;
+			tutor_process_touch (L'\0');
+		}
 		else
 		{
 			tutor_beep ();

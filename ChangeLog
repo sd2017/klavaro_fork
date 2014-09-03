@@ -18,6 +18,7 @@
 	- New phrases for C.paragraphs (default English), avoiding political
 	subjects.
 	- Some new phrases for pt_br.paragraphs.
+	- Backspace allows to repeat accomplished lesson in basic module.
 	* Fixed messages:
 	- Typo: Kunf-fu mastering --> Kung-fu mastery
 	- Idiom: make better --> do better
