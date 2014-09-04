@@ -63,7 +63,7 @@ trans_code_to_country (gchar *code)
 		{"gr","Ελλάδα"},
 		{"il","ישראל"},
 		{"hu","Magyarország"},
-		{"in","Bhārat Gaṇarājya"}, /* 20 */
+		{"in","India"}, /* 20 */
 		{"it","Italia"},
 		{"jp","日本 (Nippon)"},
 		{"kk","Қазақстан"},
@@ -401,10 +401,16 @@ trans_set_combo_language ()
 		g_free (langcode);
 	}
 	if (i_env == -1)
-		g_error ("set_combo_language() ==> the locale \"%s\" is not available!", tmp_code);
+	{
+		g_warning ("set_combo_language() ==> the locale \"%s\" is not available!", tmp_code);
+		g_message ("Using \"C\" as language code.");
+		g_free (tmp_code);
+		tmp_code = g_strdup ("C");
+		main_preferences_set_string ("interface", "language", "C");
+		gtk_combo_box_set_active (cmb, 8);
+	}
 	else
 		gtk_combo_box_set_active (cmb, i_env);
-
 
 	callbacks_shield_set (FALSE);
 

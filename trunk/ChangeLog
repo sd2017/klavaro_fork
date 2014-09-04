@@ -12,7 +12,7 @@
 	charts.
 	- Return of value -1 for pointer in gtk_databox_get_graphs(), now
 	returning NULL.
-	- Indian keyboard support (Windows issue).
+	- Windows issue when selecting default language (e.g. with en_IN).
 	* Changed:
 	- Reset button put a bit aside from the Close button, in the progress
 	charts.
