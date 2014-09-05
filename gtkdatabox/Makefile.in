@@ -14,8 +14,6 @@
 
 @SET_MAKE@
 
-# $Id: Makefile.am 4 2008-06-22 09:19:11Z rbock $
-
 VPATH = @srcdir@
 am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'
 am__make_running_with_option = \
@@ -127,22 +125,22 @@ am__uninstall_files_from_dir = { \
   }
 am__installdirs = "$(DESTDIR)$(libdir)"
 LTLIBRARIES = $(lib_LTLIBRARIES)
-libgtkdatabox_la_LIBADD =
-am_libgtkdatabox_la_OBJECTS = gtkdatabox.lo gtkdatabox_marshal.lo \
+libgtkdataboks_la_LIBADD =
+am_libgtkdataboks_la_OBJECTS = gtkdatabox.lo gtkdatabox_marshal.lo \
 	gtkdatabox_scale.lo gtkdatabox_graph.lo \
 	gtkdatabox_xyc_graph.lo gtkdatabox_xyyc_graph.lo \
 	gtkdatabox_points.lo gtkdatabox_lines.lo gtkdatabox_bars.lo \
 	gtkdatabox_offset_bars.lo gtkdatabox_regions.lo \
 	gtkdatabox_markers.lo gtkdatabox_cross_simple.lo \
 	gtkdatabox_grid.lo gtkdatabox_ruler.lo
-libgtkdatabox_la_OBJECTS = $(am_libgtkdatabox_la_OBJECTS)
+libgtkdataboks_la_OBJECTS = $(am_libgtkdataboks_la_OBJECTS)
 AM_V_lt = $(am__v_lt_@AM_V@)
 am__v_lt_ = $(am__v_lt_@AM_DEFAULT_V@)
 am__v_lt_0 = --silent
 am__v_lt_1 = 
-libgtkdatabox_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
+libgtkdataboks_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
-	$(AM_CFLAGS) $(CFLAGS) $(libgtkdatabox_la_LDFLAGS) $(LDFLAGS) \
+	$(AM_CFLAGS) $(CFLAGS) $(libgtkdataboks_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
@@ -178,8 +176,8 @@ AM_V_CCLD = $(am__v_CCLD_@AM_V@)
 am__v_CCLD_ = $(am__v_CCLD_@AM_DEFAULT_V@)
 am__v_CCLD_0 = @echo "  CCLD    " $@;
 am__v_CCLD_1 = 
-SOURCES = $(libgtkdatabox_la_SOURCES)
-DIST_SOURCES = $(libgtkdatabox_la_SOURCES)
+SOURCES = $(libgtkdataboks_la_SOURCES)
+DIST_SOURCES = $(libgtkdataboks_la_SOURCES)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
     n|no|NO) false;; \
@@ -359,8 +357,8 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-lib_LTLIBRARIES = libgtkdatabox.la
-libgtkdatabox_la_SOURCES = \
+lib_LTLIBRARIES = libgtkdataboks.la
+libgtkdataboks_la_SOURCES = \
 			gtkdatabox.c\
 			gtkdatabox_marshal.c\
 			gtkdatabox_scale.c\
@@ -393,7 +391,7 @@ libgtkdatabox_la_SOURCES = \
 			gtkdatabox_grid.h\
 			gtkdatabox_ruler.h
 
-libgtkdatabox_la_LDFLAGS = \
+libgtkdataboks_la_LDFLAGS = \
 			-no-undefined\
 			@GTK_LIBS@
 
@@ -488,8 +486,8 @@ clean-libLTLIBRARIES:
 	  rm -f $${locs}; \
 	}
 
-libgtkdatabox.la: $(libgtkdatabox_la_OBJECTS) $(libgtkdatabox_la_DEPENDENCIES) $(EXTRA_libgtkdatabox_la_DEPENDENCIES) 
-	$(AM_V_CCLD)$(libgtkdatabox_la_LINK) -rpath $(libdir) $(libgtkdatabox_la_OBJECTS) $(libgtkdatabox_la_LIBADD) $(LIBS)
+libgtkdataboks.la: $(libgtkdataboks_la_OBJECTS) $(libgtkdataboks_la_DEPENDENCIES) $(EXTRA_libgtkdataboks_la_DEPENDENCIES) 
+	$(AM_V_CCLD)$(libgtkdataboks_la_LINK) -rpath $(libdir) $(libgtkdataboks_la_OBJECTS) $(libgtkdataboks_la_LIBADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)

@@ -665,7 +665,10 @@ plot_pointer_update (gdouble x)
 	box = GTK_DATABOX (plot.databox);
 
 	gtk_window_get_size (get_win ("window_stat"), &width, NULL);
-	width -= 22;
+	if (plot_type > 4)
+		width -= 25;
+	else
+		width -= 50;
 
 	n = rintf (x / width * (DATA_POINTS + 2)) - 1; // Round integer from float
 	if (n == n_prev)

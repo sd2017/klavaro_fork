@@ -29,7 +29,7 @@ AM_LDFLAGS = -static
 
 klavaro_LDADD = @GTK_LIBS@ \
 		-lgmodule-2.0 \
-	       	$(top_srcdir)/gtkdatabox/libgtkdatabox.la
+	       	$(top_srcdir)/gtkdatabox/libgtkdataboks.la
 
 if IS_POSIX
 AM_CFLAGS += -export-dynamic
