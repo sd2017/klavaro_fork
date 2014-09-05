@@ -1,7 +1,5 @@
-# $Id: Makefile.am 4 2008-06-22 09:19:11Z rbock $
-
-lib_LTLIBRARIES		= libgtkdatabox.la
-libgtkdatabox_la_SOURCES= \
+lib_LTLIBRARIES		= libgtkdataboks.la
+libgtkdataboks_la_SOURCES= \
 			gtkdatabox.c\
 			gtkdatabox_marshal.c\
 			gtkdatabox_scale.c\
@@ -34,7 +32,7 @@ libgtkdatabox_la_SOURCES= \
 			gtkdatabox_grid.h\
 			gtkdatabox_ruler.h
 
-libgtkdatabox_la_LDFLAGS= \
+libgtkdataboks_la_LDFLAGS= \
 			-no-undefined\
 			@GTK_LIBS@
 #		        -version-info $(LT_CURRENT)

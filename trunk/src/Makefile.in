@@ -109,7 +109,7 @@ am_klavaro_OBJECTS = main.$(OBJEXT) auxiliar.$(OBJEXT) \
 	fluidness.$(OBJEXT) accuracy.$(OBJEXT) top10.$(OBJEXT)
 klavaro_OBJECTS = $(am_klavaro_OBJECTS)
 am__DEPENDENCIES_1 =
-klavaro_DEPENDENCIES = $(top_srcdir)/gtkdatabox/libgtkdatabox.la \
+klavaro_DEPENDENCIES = $(top_srcdir)/gtkdatabox/libgtkdataboks.la \
 	$(am__DEPENDENCIES_1)
 AM_V_lt = $(am__v_lt_@AM_V@)
 am__v_lt_ = $(am__v_lt_@AM_DEFAULT_V@)
@@ -354,7 +354,7 @@ AM_CFLAGS = -Wextra -I$(top_srcdir)/gtkdatabox $(am__append_1) \
 	$(am__append_3)
 AM_LDFLAGS = -static
 klavaro_LDADD = @GTK_LIBS@ -lgmodule-2.0 \
-	$(top_srcdir)/gtkdatabox/libgtkdatabox.la $(am__append_2)
+	$(top_srcdir)/gtkdatabox/libgtkdataboks.la $(am__append_2)
 all: all-am
 
 .SUFFIXES:
