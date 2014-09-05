@@ -64,18 +64,19 @@ cursor_advance (gint n)
 
 	/* Get new position for the iter new_start */
 	if (n > 0)
-		for (i = 0; i < n && gtk_text_iter_forward_cursor_position (&new_start); i++);
+		for (i = 0; i < n && gtk_text_iter_forward_char (&new_start); i++);
 	else
-		for (i = 0; i > n && gtk_text_iter_backward_cursor_position (&new_start); i--);
+		for (i = 0; i > n && gtk_text_iter_backward_char (&new_start); i--);
 
 	/* Move cursor blinking */
-	end = new_start;
-	gtk_text_iter_forward_char (&end);
-	gtk_text_buffer_apply_tag_by_name (buf, "cursor_blink", &new_start, &end);
-
 	end = old_start;
 	gtk_text_iter_forward_char (&end);
 	gtk_text_buffer_remove_tag_by_name (buf, "cursor_blink", &old_start, &end);
+	gtk_text_buffer_remove_tag_by_name (buf, "cursor_unblink", &old_start, &end);
+
+	end = new_start;
+	gtk_text_iter_forward_char (&end);
+	gtk_text_buffer_apply_tag_by_name (buf, "cursor_blink", &new_start, &end);
 
 	/* Move cursor */
 	gtk_text_buffer_place_cursor (buf, &new_start);
@@ -98,7 +99,7 @@ cursor_advance (gint n)
 
 
 /*******************************************************************************
- * Paint the background of current char (at cursor) with color
+ * Paint the current char (at cursor) with color defined by a tag name
  */
 void
 cursor_paint_char (gchar * color_tag_name)
@@ -222,9 +223,15 @@ cursor_switch_on ()
 	gtk_text_buffer_get_iter_at_mark (buf, &end, gtk_text_buffer_get_insert (buf));
 	gtk_text_iter_forward_char (&end);
 	if (tutor_get_correcting ())
+	{
 		gtk_text_buffer_remove_tag_by_name (buf, "cursor_blink", &start, &end);
+		gtk_text_buffer_apply_tag_by_name (buf, "cursor_unblink", &start, &end);
+	}
 	else
+	{
+		gtk_text_buffer_remove_tag_by_name (buf, "cursor_unblink", &start, &end);
 		gtk_text_buffer_apply_tag_by_name (buf, "cursor_blink", &start, &end);
+	}
 }
 
 /**********************************************************************
@@ -245,7 +252,13 @@ cursor_switch_off ()
 	gtk_text_buffer_get_iter_at_mark (buf, &end, gtk_text_buffer_get_insert (buf));
 	gtk_text_iter_forward_char (&end);
 	if (tutor_get_correcting ())
+	{
+		gtk_text_buffer_remove_tag_by_name (buf, "cursor_unblink", &start, &end);
 		gtk_text_buffer_apply_tag_by_name (buf, "cursor_blink", &start, &end);
+	}
 	else
+	{
 		gtk_text_buffer_remove_tag_by_name (buf, "cursor_blink", &start, &end);
+		gtk_text_buffer_apply_tag_by_name (buf, "cursor_unblink", &start, &end);
+	}
 }

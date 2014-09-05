@@ -10,10 +10,6 @@
 /*  along with this program.  If not, see <http://www.gnu.org/licenses/>.    */
 /*****************************************************************************/
 
-/*
- * Klavaro is a touch typing tutor and exercise program.
- * Copyright (C) 2007 - Felipe E. F. de Castro
- */
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>

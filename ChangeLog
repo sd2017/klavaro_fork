@@ -7,8 +7,10 @@
 	- AppIcons with resolutions 64x64 and 96x96.
 	- Gurmukhi Jhelum keyboard for Punjabi language.
 	* Fixed:
-	- querty_ca_quebec.kbd not presenting isolated acute anymore, using
-	now the letter "é".
+	- Punjabi characters now are managed correctly.
+	- Maybe the annoying wrapping bug has also been fixed (Hallelujah!).
+	- Layout querty_ca_quebec.kbd not presenting isolated acute anymore,
+	using now the letter "é".
 	- Reactivated the spin button to select the basic lesson on progress
 	charts.
 	- Return of value -1 for pointer in gtk_databox_get_graphs(), now

@@ -271,6 +271,7 @@ on_text_tutor_realize (GtkWidget * widget, gpointer user_data)
 	CB_COLOR_TAG ("char_correct",	TUTOR_GREEN,	TUTOR_CREAM);
 	CB_COLOR_TAG ("char_retouched",	TUTOR_BROWN,	TUTOR_GRAY);
 	CB_COLOR_TAG ("cursor_blink",	TUTOR_BLACK,	TUTOR_YELLOW);
+	CB_COLOR_TAG ("cursor_unblink",	TUTOR_BLACK,	TUTOR_CREAM);
 	CB_COLOR_TAG ("text_intro",	TUTOR_BLACK,	TUTOR_WHITE);
 
 	/* Tutor font */
@@ -286,7 +287,7 @@ on_text_tutor_realize (GtkWidget * widget, gpointer user_data)
 	/* Change default font throughout the widget */
 	font_desc = pango_font_description_from_string (tmp_font);
 	g_free (tmp_font);
-	gtk_widget_modify_font (widget, font_desc);
+	gtk_widget_override_font (widget, font_desc);
 	pango_font_description_free (font_desc);
 
 	/* Change default background color throughout the widget */
@@ -769,7 +770,7 @@ on_button_top10_publish_clicked (GtkButton * button, gpointer user_data)
 
 	main_preferences_save ();
 	wg = get_wg ("image_top10_publish");
-	gtk_image_set_from_stock (GTK_IMAGE (wg), "gtk-yes", GTK_ICON_SIZE_BUTTON);
+	gtk_image_set_from_icon_name (GTK_IMAGE (wg), "gtk-yes", GTK_ICON_SIZE_BUTTON);
 
 	top10_message (_("Connecting..."));
 
@@ -785,7 +786,7 @@ on_button_top10_update_clicked (GtkButton * button, gpointer user_data)
 
 	main_preferences_save ();
 	wg = get_wg ("image_top10_update");
-	gtk_image_set_from_stock (GTK_IMAGE (wg), "gtk-yes", GTK_ICON_SIZE_BUTTON);
+	gtk_image_set_from_icon_name (GTK_IMAGE (wg), "gtk-yes", GTK_ICON_SIZE_BUTTON);
 
 	top10_message (_("Connecting..."));
 
