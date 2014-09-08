@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-03 14:56-0300\n"
+"POT-Creation-Date: 2014-09-08 09:02-0300\n"
 "PO-Revision-Date: 2014-06-27 22:30+0200\n"
 "Last-Translator: Igor ĐUKANOVIĆ <igor.mat@uni-mb.si>\n"
 "Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
@@ -460,19 +460,19 @@ msgstr "Zelo prilagodljiv in učinkovit program za učenje tipkanja."
 msgid "keyboard;typing;tutor;CAI"
 msgstr "tipkovnica, tipkanje, tutor, računalniško podprto učenje"
 
-#: ../src/main.c:242
+#: ../src/main.c:238
 msgid "(Custom)"
 msgstr "(Običajno)"
 
-#: ../src/main.c:243
+#: ../src/main.c:239
 msgid "(Edit custom)"
 msgstr "(Uredi \"običajno\")"
 
-#: ../src/main.c:244
+#: ../src/main.c:240
 msgid "(Default)"
 msgstr "(privzeto)"
 
-#: ../src/main.c:321
+#: ../src/main.c:317
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
@@ -484,86 +484,86 @@ msgstr[2] ""
 msgstr[3] ""
 "Način za narek (odvisen od enega od naslednjih generatorjev zvoka: %s)"
 
-#: ../src/main.c:364 ../src/keyboard.c:1292
+#: ../src/main.c:360 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "Uvod"
 
-#: ../src/main.c:367 ../src/top10.c:109
+#: ../src/main.c:363 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Osnovni tečaj"
 
-#: ../src/main.c:370 ../src/top10.c:112
+#: ../src/main.c:366 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Prilagodljivost"
 
-#: ../src/main.c:373 ../src/callbacks.c:1226 ../src/top10.c:89
+#: ../src/main.c:369 ../src/callbacks.c:1227 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Hitrost"
 
-#: ../src/main.c:376 ../src/callbacks.c:1249 ../src/top10.c:91
+#: ../src/main.c:372 ../src/callbacks.c:1250 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Fluidity (tekoče tipkanje)"
 
-#: ../src/callbacks.c:407 ../src/tutor.c:515
+#: ../src/callbacks.c:408 ../src/tutor.c:515
 msgid "Keys:"
 msgstr "Tipke:"
 
-#: ../src/callbacks.c:774 ../src/callbacks.c:790
+#: ../src/callbacks.c:775 ../src/callbacks.c:791
 msgid "Connecting..."
 msgstr "Povezujem..."
 
-#: ../src/callbacks.c:1061
+#: ../src/callbacks.c:1062
 msgid "Overwrite user layout"
 msgstr "Prepiši (svojo razporeditev)"
 
-#: ../src/callbacks.c:1063
+#: ../src/callbacks.c:1064
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Tole po PREPISALO obstoječo razporeditev tipkovnice."
 
-#: ../src/callbacks.c:1070
+#: ../src/callbacks.c:1071
 msgid "Remove user layout"
 msgstr "Odstrani (svojo razporeditev)"
 
-#: ../src/callbacks.c:1072
+#: ../src/callbacks.c:1073
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Tole po IZBRISALO obstoječo razporeditev tipkovnice."
 
-#: ../src/callbacks.c:1079
+#: ../src/callbacks.c:1080
 msgid "Reset progress data"
 msgstr "Resetiraj statistike o napredku."
 
-#: ../src/callbacks.c:1080
+#: ../src/callbacks.c:1081
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "Tole bo IZBRISALO vse podatke o napredku iz preglednic."
 
-#: ../src/callbacks.c:1223 ../src/top10.c:87
+#: ../src/callbacks.c:1224 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Natančnost"
 
-#: ../src/callbacks.c:1226 ../src/tutor.c:1288
+#: ../src/callbacks.c:1227 ../src/tutor.c:1296
 msgid "(WPM)"
 msgstr "(B/M)"
 
-#: ../src/callbacks.c:1237
+#: ../src/callbacks.c:1238
 msgid "Errors"
 msgstr "Napak"
 
-#: ../src/callbacks.c:1240
+#: ../src/callbacks.c:1241
 msgid "Touch times (s)"
 msgstr "Štev. dotikov (s?)"
 
-#: ../src/callbacks.c:1252 ../src/tutor.c:1315 ../src/top10.c:69
+#: ../src/callbacks.c:1253 ../src/tutor.c:1323 ../src/top10.c:69
 msgid "Score"
 msgstr "Rezultat"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1725
+#: ../src/translation.c:491 ../src/tutor.c:1733
 msgid "en"
 msgstr "sl"
 
-#: ../src/translation.c:572
+#: ../src/translation.c:578
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -574,7 +574,7 @@ msgstr ""
 "ustrezne tipke.  Ne pozabite vseskozi pravilno držati roke na tipkovnici "
 "(glej uvod iz glavnega menija)."
 
-#: ../src/translation.c:576
+#: ../src/translation.c:582
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -584,7 +584,7 @@ msgstr ""
 "sporočilno vrstico.   Razen morda presledka ter tipk za velike črke "
 "([Shift])) ter za novo vrstico([Enter])."
 
-#: ../src/translation.c:579
+#: ../src/translation.c:585
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -592,7 +592,7 @@ msgstr ""
 "Sporočilo v spodnji vrstici sledi tvojemu tipkanju in ga ponovi. Če je "
 "potrebno, se spremeni in ti prikaže ustrezna navodila."
 
-#: ../src/translation.c:583
+#: ../src/translation.c:589
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -601,7 +601,7 @@ msgstr ""
 "Tukaj lahko vadite in izboljšate poznavanje tipkovnice.  Pretipkati bo treba "
 "stavke iz neobstoječih besed sestavljenih iz črk, številk in simbolov."
 
-#: ../src/translation.c:586
+#: ../src/translation.c:592
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -611,7 +611,7 @@ msgstr ""
 "verjetno ne bodo prikazane. Za stavke iz pravih besed, prosimo, uporabite "
 "četrto opcijo glavnega menija (Fluidity - tekoče tipkanje...)."
 
-#: ../src/translation.c:590
+#: ../src/translation.c:596
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -619,7 +619,7 @@ msgstr ""
 "Po vsaki vaji se bodo pojavile kratke statistike o tvojem tipkanju skupaj z "
 "nekaj koristnimi komentarji."
 
-#: ../src/translation.c:594
+#: ../src/translation.c:600
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -627,7 +627,7 @@ msgstr ""
 "Tale vaja je zelo podobna drugi (za prilagodljivost). Razlika je, da boš "
 "tukaj tipkal resnične besede."
 
-#: ../src/translation.c:597
+#: ../src/translation.c:603
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -637,7 +637,7 @@ msgstr ""
 "Seveda si lahko izbereš tekste z besedami, ki bi jih rad tipkal.  Zgoraj "
 "pritisni na opcijo \"Druga besedila\" in dodaj datoteke s takšnimi besedili."
 
-#: ../src/translation.c:601
+#: ../src/translation.c:607
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -645,7 +645,7 @@ msgstr ""
 "V tej vaji je poudarek na hitrosti.  Tipkaj zelo hitro, a pohvalil te bom "
 "le, če si boš res zaslužil."
 
-#: ../src/translation.c:605
+#: ../src/translation.c:611
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -657,7 +657,7 @@ msgstr ""
 "bil, da zmoreš pretipkavati brez poskušanja razumevanja in analiziranja "
 "vsebine."
 
-#: ../src/translation.c:609
+#: ../src/translation.c:615
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -672,7 +672,7 @@ msgstr ""
 "tega cilja tipkanje postane avtomatično in zahteva le malo koncentracije.  "
 "Takrat boš brez težav lahko dodatno še sledil pomenu besedila."
 
-#: ../src/translation.c:613
+#: ../src/translation.c:619
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -886,7 +886,7 @@ msgstr "Ko boš pripravljen, začni tipkati."
 msgid "Use backspace to correct errors."
 msgstr "Uprabi vračalko (tipko \"Backspace\"), da popraviš napako."
 
-#: ../src/tutor.c:1012
+#: ../src/tutor.c:1020
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
@@ -895,11 +895,11 @@ msgstr ""
 "P.S.  Tale vaja ne šteje. Število udarcev (natipkanih znakov) (%i) mora biti "
 "večje od %i."
 
-#: ../src/tutor.c:1154
+#: ../src/tutor.c:1162
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "P.S. Prišel si na seznam \"Najboljših 10\".  Odlično!"
 
-#: ../src/tutor.c:1166
+#: ../src/tutor.c:1174
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
@@ -909,15 +909,15 @@ msgstr ""
 "besedilom v izbranem jeziku.  Zato nisi upravičen do mesta med \"Najboljših "
 "10\"."
 
-#: ../src/tutor.c:1215
+#: ../src/tutor.c:1223
 msgid "STATISTICS"
 msgstr "STATISTIKE"
 
-#: ../src/tutor.c:1216
+#: ../src/tutor.c:1224
 msgid "Elapsed time:"
 msgstr "Porabljen čas:"
 
-#: ../src/tutor.c:1217
+#: ../src/tutor.c:1225
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "minuta in"
@@ -925,7 +925,7 @@ msgstr[1] "minuti in"
 msgstr[2] "minute in"
 msgstr[3] "minut in"
 
-#: ../src/tutor.c:1218
+#: ../src/tutor.c:1226
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "sekunda"
@@ -933,64 +933,64 @@ msgstr[1] "sekundi"
 msgstr[2] "sekunde"
 msgstr[3] "sekund"
 
-#: ../src/tutor.c:1219
+#: ../src/tutor.c:1227
 msgid "Error ratio:"
 msgstr "Delež napak:"
 
-#: ../src/tutor.c:1219
+#: ../src/tutor.c:1227
 msgid "Accuracy:"
 msgstr "Natančnost:"
 
-#: ../src/tutor.c:1240 ../src/tutor.c:1265 ../src/tutor.c:1288
-#: ../src/tutor.c:1314
+#: ../src/tutor.c:1248 ../src/tutor.c:1273 ../src/tutor.c:1296
+#: ../src/tutor.c:1322
 msgid "Goal:"
 msgstr "Cilj:"
 
-#: ../src/tutor.c:1247
+#: ../src/tutor.c:1255
 msgid "Characters per second:"
 msgstr "Udarcev na sekundo:"
 
-#: ../src/tutor.c:1265
+#: ../src/tutor.c:1273
 msgid "(CPS)"
 msgstr "(U/S)"
 
-#: ../src/tutor.c:1270
+#: ../src/tutor.c:1278
 msgid "Words per minute:"
 msgstr "Besed na minuto:"
 
-#: ../src/tutor.c:1295
+#: ../src/tutor.c:1303
 msgid "Fluidness:"
 msgstr "Tekoče tipkanje:"
 
-#: ../src/tutor.c:1322
+#: ../src/tutor.c:1330
 msgid "Comments:"
 msgstr "Komentarji:"
 
-#: ../src/tutor.c:1804
+#: ../src/tutor.c:1812
 msgid "space"
 msgstr "presledek"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1809
+#: ../src/tutor.c:1817
 msgid "wye"
 msgstr "wye"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1813
+#: ../src/tutor.c:1821
 msgid "enter"
 msgstr "\"enter\" (nova vrstica)"
 
-#: ../src/tutor.c:1819
+#: ../src/tutor.c:1827
 msgid "apostrophe"
 msgstr "opuščaj"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1823
+#: ../src/tutor.c:1831
 msgid "quote"
 msgstr "narekovaj"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1827
+#: ../src/tutor.c:1835
 msgid "ampersand"
 msgstr "znak \"&\" (?)"
 
@@ -1004,11 +1004,11 @@ msgstr "znak"
 msgid "Date & Time"
 msgstr "Datum in čas"
 
-#: ../src/basic.c:326
+#: ../src/basic.c:329
 msgid "Positions of keys seems to be learned!"
 msgstr "Kaže, da si se naučil(a) pozicije tipk."
 
-#: ../src/basic.c:327
+#: ../src/basic.c:330
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1020,7 +1020,7 @@ msgstr ""
 " Idi na naslednjo vrsto vaj - prilagodljivost.\n"
 " Tam boš vadil(a) predvsem natančnost.\n"
 
-#: ../src/basic.c:333
+#: ../src/basic.c:336
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

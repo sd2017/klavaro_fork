@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro-3.00-pre2\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-03 14:56-0300\n"
+"POT-Creation-Date: 2014-09-08 09:02-0300\n"
 "PO-Revision-Date: 2014-01-18 03:07+0200\n"
 "Last-Translator: Vangelis Skarmoutsos <skarmoutsosv@gmail.com>\n"
 "Language-Team: Greek <team@lists.gnome.gr>\n"
@@ -479,19 +479,19 @@ msgstr ""
 msgid "keyboard;typing;tutor;CAI"
 msgstr "πληκτρολόγιο;πληκτρολόγηση;εκπαίδευση;keyboard;typing;tutor;CAI"
 
-#: ../src/main.c:242
+#: ../src/main.c:238
 msgid "(Custom)"
 msgstr "(Προσαρμογή)"
 
-#: ../src/main.c:243
+#: ../src/main.c:239
 msgid "(Edit custom)"
 msgstr "(Επεξεργασία προσαρμογής)"
 
-#: ../src/main.c:244
+#: ../src/main.c:240
 msgid "(Default)"
 msgstr "(Προκαθορισμένο)"
 
-#: ../src/main.c:321
+#: ../src/main.c:317
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
@@ -500,87 +500,87 @@ msgstr[1] ""
 "Κατάσταση υπαγόρευσης (εξαρτάται από ένα από αυτούς τους συνθετητές ομιλίας: "
 "%s)"
 
-#: ../src/main.c:364 ../src/keyboard.c:1292
+#: ../src/main.c:360 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "Εισαγωγή"
 
-#: ../src/main.c:367 ../src/top10.c:109
+#: ../src/main.c:363 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Βασική σειρά μαθημάτων"
 
-#: ../src/main.c:370 ../src/top10.c:112
+#: ../src/main.c:366 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Προσαρμοστικότητα"
 
-#: ../src/main.c:373 ../src/callbacks.c:1226 ../src/top10.c:89
+#: ../src/main.c:369 ../src/callbacks.c:1227 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Ταχύτητα"
 
-#: ../src/main.c:376 ../src/callbacks.c:1249 ../src/top10.c:91
+#: ../src/main.c:372 ../src/callbacks.c:1250 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Ρευστότητα"
 
-#: ../src/callbacks.c:407 ../src/tutor.c:515
+#: ../src/callbacks.c:408 ../src/tutor.c:515
 msgid "Keys:"
 msgstr "Πλήκτρα:"
 
-#: ../src/callbacks.c:774 ../src/callbacks.c:790
+#: ../src/callbacks.c:775 ../src/callbacks.c:791
 msgid "Connecting..."
 msgstr "Σύνδεση..."
 
-#: ../src/callbacks.c:1061
+#: ../src/callbacks.c:1062
 msgid "Overwrite user layout"
 msgstr "Επικάλυψη διάταξης χρήστη"
 
-#: ../src/callbacks.c:1063
+#: ../src/callbacks.c:1064
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Αυτό θα ΕΠΙΚΑΛΥΨΕΙ την υπάρχουσα διάταξη πληκτρολογίου."
 
-#: ../src/callbacks.c:1070
+#: ../src/callbacks.c:1071
 msgid "Remove user layout"
 msgstr "Κατάργηση διάταξης χρήστη"
 
-#: ../src/callbacks.c:1072
+#: ../src/callbacks.c:1073
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Αυτό θα ΚΑΤΑΡΓΗΣΕΙ την υπάρχουσα διάταξη πληκτρολογίου."
 
-#: ../src/callbacks.c:1079
+#: ../src/callbacks.c:1080
 msgid "Reset progress data"
 msgstr "Κατάργηση των δεδομένων προόδου"
 
-#: ../src/callbacks.c:1080
+#: ../src/callbacks.c:1081
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr ""
 "Αυτό τα ΔΙΑΓΡΑΨΕΙ όλα τα δεδομένα προόδου που εμφανίζονται στα διαγράμματα."
 
-#: ../src/callbacks.c:1223 ../src/top10.c:87
+#: ../src/callbacks.c:1224 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Ακρίβεια"
 
-#: ../src/callbacks.c:1226 ../src/tutor.c:1288
+#: ../src/callbacks.c:1227 ../src/tutor.c:1296
 msgid "(WPM)"
 msgstr "(ΛΑΛ)"
 
-#: ../src/callbacks.c:1237
+#: ../src/callbacks.c:1238
 msgid "Errors"
 msgstr "Σφάλματα"
 
-#: ../src/callbacks.c:1240
+#: ../src/callbacks.c:1241
 msgid "Touch times (s)"
 msgstr "Αριθμός πατημάτων"
 
-#: ../src/callbacks.c:1252 ../src/tutor.c:1315 ../src/top10.c:69
+#: ../src/callbacks.c:1253 ../src/tutor.c:1323 ../src/top10.c:69
 msgid "Score"
 msgstr "Βαθμολογία"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1725
+#: ../src/translation.c:491 ../src/tutor.c:1733
 msgid "en"
 msgstr "el"
 
-#: ../src/translation.c:572
+#: ../src/translation.c:578
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -593,7 +593,7 @@ msgstr ""
 "τοποθετημένα στην βασική γραμμή του πληκτρολογίου (δείτε την εισαγωγή στο "
 "κύριο μενού)."
 
-#: ../src/translation.c:576
+#: ../src/translation.c:582
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -603,7 +603,7 @@ msgstr ""
 "χρησιμοποιούνται σε κάθε ομάδα. Τα πλήκτρα [Διάστημα], [Shift] και [Enter] "
 "μπορεί να μην εμφανίζονται αλλά χρησιμοποιούνται πολύ συχνά."
 
-#: ../src/translation.c:579
+#: ../src/translation.c:585
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -612,7 +612,7 @@ msgstr ""
 "Επίσης, αν απαιτείται, προβάλλονται οδηγίες για ενέργειες που χρειάζονται "
 "από εσάς."
 
-#: ../src/translation.c:583
+#: ../src/translation.c:589
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -622,7 +622,7 @@ msgstr ""
 "πλήκτρων. Θα παρουσιαστούν προτάσεις με λέξεις χωρίς νόημα που αναμιγνύουν "
 "μερικούς αριθμούς και σύμβολα."
 
-#: ../src/translation.c:586
+#: ../src/translation.c:592
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -634,7 +634,7 @@ msgstr ""
 "χρησιμοποιήστε την τέταρτη επιλογή του κυρίως μενού (σχετικά με την "
 "ρευστότητα)."
 
-#: ../src/translation.c:590
+#: ../src/translation.c:596
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -642,7 +642,7 @@ msgstr ""
 "Μετά από κάθε άσκηση θα υπάρχει ένας σύντομος πίνακας στατιστικών με κριτική "
 "της απόδοσης σας μαζί με κάποια σχετικά σχόλια."
 
-#: ../src/translation.c:594
+#: ../src/translation.c:600
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -650,7 +650,7 @@ msgstr ""
 "Αυτή η άσκηση είναι πολύ όμοια με την δεύτερη, για προσαρμοστικότητα. Η "
 "διαφορά είναι ότι εδώ θα πληκτρολογείτε πραγματικές λέξεις."
 
-#: ../src/translation.c:597
+#: ../src/translation.c:603
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -661,7 +661,7 @@ msgstr ""
 "Πατήστε την επιλογή 'Άλλα' πάνω και προσθέστε τα αρχεία που περιέχουν αυτά "
 "τα κείμενα."
 
-#: ../src/translation.c:601
+#: ../src/translation.c:607
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -669,7 +669,7 @@ msgstr ""
 "Με αυτή την άσκηση η εστίαση είναι στην ταχύτητα. Έτσι, θα προσπαθήσετε να "
 "πληκτρολογείτε πραγματικά γρήγορα και θα επαινείστε όταν το αξίζετε!"
 
-#: ../src/translation.c:605
+#: ../src/translation.c:611
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -682,7 +682,7 @@ msgstr ""
 "στο να σας κάνουν να πληκτρολογείτε χωρίς να μεταφράζετε και να αναλύετε το "
 "περιεχόμενο."
 
-#: ../src/translation.c:609
+#: ../src/translation.c:615
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -698,7 +698,7 @@ msgstr ""
 "πληκτρολόγησης θα γίνει αυτόματη και θα χρειάζεται λίγη συγκέντρωση. Τότε θα "
 "μπορείτε να δώσετε σημασία στο πραγματικό νόημα του κειμένου."
 
-#: ../src/translation.c:613
+#: ../src/translation.c:619
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -917,7 +917,7 @@ msgstr "Πληκτρολογήστε όταν είστε έτοιμοι."
 msgid "Use backspace to correct errors."
 msgstr "Χρησιμοποιήστε το backspace για να διορθώσετε τα λάθη."
 
-#: ../src/tutor.c:1012
+#: ../src/tutor.c:1020
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
@@ -926,11 +926,11 @@ msgstr ""
 "ΥΓ.: η καταγραφή δεν λειτουργεί για αυτή την σύνοδο: ο αριθμός των "
 "πληκτρολογημένων χαρακτήρων (%i) πρέπει να είναι μεγαλύτερος από %i."
 
-#: ../src/tutor.c:1154
+#: ../src/tutor.c:1162
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "ΥΓ.: μπράβο, μπήκατε στην λίστα Κορυφαία 10!"
 
-#: ../src/tutor.c:1166
+#: ../src/tutor.c:1174
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
@@ -940,85 +940,85 @@ msgstr ""
 "συνηθισμένα κείμενα στην τρέχουσα επιλεγμένη γλώσσα: δεν μπορούμε να το "
 "λογαριάσουμε στον διαγωνισμό 'Κορυφαία 10'."
 
-#: ../src/tutor.c:1215
+#: ../src/tutor.c:1223
 msgid "STATISTICS"
 msgstr "ΣΤΑΤΙΣΤΙΚΑ"
 
-#: ../src/tutor.c:1216
+#: ../src/tutor.c:1224
 msgid "Elapsed time:"
 msgstr "Χρόνος που πέρασε:"
 
-#: ../src/tutor.c:1217
+#: ../src/tutor.c:1225
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "λεπτό και"
 msgstr[1] "λεπτά και"
 
-#: ../src/tutor.c:1218
+#: ../src/tutor.c:1226
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "δευτερόλεπτο"
 msgstr[1] "δευτερόλεπτα"
 
-#: ../src/tutor.c:1219
+#: ../src/tutor.c:1227
 msgid "Error ratio:"
 msgstr "Αναλογία λαθών:"
 
-#: ../src/tutor.c:1219
+#: ../src/tutor.c:1227
 msgid "Accuracy:"
 msgstr "Ακρίβεια:"
 
-#: ../src/tutor.c:1240 ../src/tutor.c:1265 ../src/tutor.c:1288
-#: ../src/tutor.c:1314
+#: ../src/tutor.c:1248 ../src/tutor.c:1273 ../src/tutor.c:1296
+#: ../src/tutor.c:1322
 msgid "Goal:"
 msgstr "Στόχος:"
 
-#: ../src/tutor.c:1247
+#: ../src/tutor.c:1255
 msgid "Characters per second:"
 msgstr "Χαρακτήρες ανά δευτερόλεπτο:"
 
-#: ../src/tutor.c:1265
+#: ../src/tutor.c:1273
 msgid "(CPS)"
 msgstr "(ΧΑΔ)"
 
-#: ../src/tutor.c:1270
+#: ../src/tutor.c:1278
 msgid "Words per minute:"
 msgstr "Λέξεις ανά λεπτό:"
 
-#: ../src/tutor.c:1295
+#: ../src/tutor.c:1303
 msgid "Fluidness:"
 msgstr "Ρευστότητα:"
 
-#: ../src/tutor.c:1322
+#: ../src/tutor.c:1330
 msgid "Comments:"
 msgstr "Σχόλια:"
 
-#: ../src/tutor.c:1804
+#: ../src/tutor.c:1812
 msgid "space"
 msgstr "διάστημα"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1809
+#: ../src/tutor.c:1817
 msgid "wye"
 msgstr "ύψιλον"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1813
+#: ../src/tutor.c:1821
 msgid "enter"
 msgstr "enter"
 
-#: ../src/tutor.c:1819
+#: ../src/tutor.c:1827
 msgid "apostrophe"
 msgstr "απόστροφος"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1823
+#: ../src/tutor.c:1831
 #, fuzzy
 msgid "quote"
 msgstr "εισαγωγικό"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1827
+#: ../src/tutor.c:1835
 msgid "ampersand"
 msgstr "συμπλεκτικό σύμβολο (&)"
 
@@ -1032,11 +1032,11 @@ msgstr "Χαρακτήρας"
 msgid "Date & Time"
 msgstr "Ημερομηνία και ώρα"
 
-#: ../src/basic.c:326
+#: ../src/basic.c:329
 msgid "Positions of keys seems to be learned!"
 msgstr "Θέσεις πλήκτρων που μάλλον μάθατε!"
 
-#: ../src/basic.c:327
+#: ../src/basic.c:330
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1048,7 +1048,7 @@ msgstr ""
 "Πηγαίνετε στον επόμενο τύπο άσκησης: προσαρμοστικότητα.\n"
 "Εκεί θα εξασκηθείτε κυρίως στην ακρίβεια.\n"
 
-#: ../src/basic.c:333
+#: ../src/basic.c:336
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"

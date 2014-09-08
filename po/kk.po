@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klavaro 1.9.7\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-03 14:56-0300\n"
+"POT-Creation-Date: 2014-09-08 09:02-0300\n"
 "PO-Revision-Date: 2013-12-20 08:38+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <(nothing)>\n"
@@ -462,104 +462,104 @@ msgstr "Тағы да бір теруді үйретуші"
 msgid "keyboard;typing;tutor;CAI"
 msgstr "Пернетақта"
 
-#: ../src/main.c:242
+#: ../src/main.c:238
 msgid "(Custom)"
 msgstr "(Таңдауыңызша)"
 
-#: ../src/main.c:243
+#: ../src/main.c:239
 msgid "(Edit custom)"
 msgstr "(Таңдауыңызшаны түзету)"
 
-#: ../src/main.c:244
+#: ../src/main.c:240
 msgid "(Default)"
 msgstr "(Бастапқы)"
 
-#: ../src/main.c:321
+#: ../src/main.c:317
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
 msgstr[0] "Сөйлеу режимі (сөйлеу синтезаторына байланысты: %s)"
 
-#: ../src/main.c:364 ../src/keyboard.c:1292
+#: ../src/main.c:360 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "Мазмұны"
 
-#: ../src/main.c:367 ../src/top10.c:109
+#: ../src/main.c:363 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Бастапқы сабақ"
 
-#: ../src/main.c:370 ../src/top10.c:112
+#: ../src/main.c:366 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Бейімделу"
 
-#: ../src/main.c:373 ../src/callbacks.c:1226 ../src/top10.c:89
+#: ../src/main.c:369 ../src/callbacks.c:1227 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Жылдамдық"
 
-#: ../src/main.c:376 ../src/callbacks.c:1249 ../src/top10.c:91
+#: ../src/main.c:372 ../src/callbacks.c:1250 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Жаттықтық"
 
-#: ../src/callbacks.c:407 ../src/tutor.c:515
+#: ../src/callbacks.c:408 ../src/tutor.c:515
 msgid "Keys:"
 msgstr "Пернелер:"
 
-#: ../src/callbacks.c:774 ../src/callbacks.c:790
+#: ../src/callbacks.c:775 ../src/callbacks.c:791
 msgid "Connecting..."
 msgstr "Байланыс орнату..."
 
-#: ../src/callbacks.c:1061
+#: ../src/callbacks.c:1062
 msgid "Overwrite user layout"
 msgstr "Пайдаланушы жаймасын алмастыру"
 
-#: ../src/callbacks.c:1063
+#: ../src/callbacks.c:1064
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "Бұл бар болып тұрған пернетақта жаймасын АЛМАСТЫРАДЫ."
 
-#: ../src/callbacks.c:1070
+#: ../src/callbacks.c:1071
 msgid "Remove user layout"
 msgstr "Пайдаланушы жаймасын өшіру"
 
-#: ../src/callbacks.c:1072
+#: ../src/callbacks.c:1073
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "Бұл бар болып тұрған пернетақта жаймасын ӨШІРЕДІ."
 
-#: ../src/callbacks.c:1079
+#: ../src/callbacks.c:1080
 msgid "Reset progress data"
 msgstr "Үрдіс ақпаратын өшіру"
 
-#: ../src/callbacks.c:1080
+#: ../src/callbacks.c:1081
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "Бұл бар графиктердің барлық ақпаратын ӨШІРЕДІ."
 
-#: ../src/callbacks.c:1223 ../src/top10.c:87
+#: ../src/callbacks.c:1224 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Дәлдік"
 
-#: ../src/callbacks.c:1226 ../src/tutor.c:1288
+#: ../src/callbacks.c:1227 ../src/tutor.c:1296
 msgid "(WPM)"
 msgstr "(Сөз/мин)"
 
-#: ../src/callbacks.c:1237
+#: ../src/callbacks.c:1238
 msgid "Errors"
 msgstr "Қателер"
 
-#: ../src/callbacks.c:1240
+#: ../src/callbacks.c:1241
 msgid "Touch times (s)"
 msgstr "Тию саны"
 
-#: ../src/callbacks.c:1252 ../src/tutor.c:1315 ../src/top10.c:69
+#: ../src/callbacks.c:1253 ../src/tutor.c:1323 ../src/top10.c:69
 msgid "Score"
 msgstr "Нәтиже"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1725
+#: ../src/translation.c:491 ../src/tutor.c:1733
 msgid "en"
 msgstr "kk"
 
-#: ../src/translation.c:572
+#: ../src/translation.c:578
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -570,7 +570,7 @@ msgstr ""
 "үйрену үшін арналған. Есте сақтаңыз - әр уақытта қолдарыңызды сәйкес "
 "пернелерге дұрыс ұстаныз (басты мәзір мазмұнынан қара)."
 
-#: ../src/translation.c:576
+#: ../src/translation.c:582
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -580,7 +580,7 @@ msgstr ""
 "көрсетіледі. [Space], [Shift] және [Enter]  пернелері көрсетілмесе де, олар "
 "өте жиі қолданылады."
 
-#: ../src/translation.c:579
+#: ../src/translation.c:585
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -588,7 +588,7 @@ msgstr ""
 "Төмендегі хабарлау бөлігі терген перненің соңынан жүреді. Егер қажет болса, "
 "сізге қажетті өзгерістерді хабарлап, көрсетіп отырады."
 
-#: ../src/translation.c:583
+#: ../src/translation.c:589
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -597,7 +597,7 @@ msgstr ""
 "Мұнда барлық батырмамен машықтануға болады. Сан мен таңбалар араласқан "
 "кездейсоқ сөйлемдер де болады."
 
-#: ../src/translation.c:586
+#: ../src/translation.c:592
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -607,7 +607,7 @@ msgstr ""
 "болатын әріптер жиындары кездеспеуі мүмкін. Нақты сөйлемдер үшін басты "
 "мәзірдегі төртінші бөлікті таңдауды өтінеміз (жаттықтық жөнінде)."
 
-#: ../src/translation.c:590
+#: ../src/translation.c:596
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -615,7 +615,7 @@ msgstr ""
 "Әрбір жаттығудан кейін қосымша нұсқаулық пен сіз меңгерген қысқаша "
 "статистика көрсетіледі."
 
-#: ../src/translation.c:594
+#: ../src/translation.c:600
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -623,7 +623,7 @@ msgstr ""
 "Бұл жаттығу үйренуде екіншіге ұқсас болып келеді. Айырмашылығы - бұл жерде "
 "сіз нақты сөздерді тересіз."
 
-#: ../src/translation.c:597
+#: ../src/translation.c:603
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -633,7 +633,7 @@ msgstr ""
 "мәтіндерді таңдауға болады. Жоғарыдағы 'Басқа' батырмасына шертіп, қажетті "
 "мәтіндік файлды қоса аласыз."
 
-#: ../src/translation.c:601
+#: ../src/translation.c:607
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -641,7 +641,7 @@ msgstr ""
 "Бұл жаттығу теру жылдамдығына арналған. Сонымен, сізге енді шынымен тез теру "
 "керек болады, оған жарасаңыз, мен сіз үшін қуанышты боламын!"
 
-#: ../src/translation.c:605
+#: ../src/translation.c:611
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -653,7 +653,7 @@ msgstr ""
 "мүмкін. Алдыңғы сабақтың мақсаты сізге мәтінді түсінбей-ақ және ойланбай "
 "теру болған."
 
-#: ../src/translation.c:609
+#: ../src/translation.c:615
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -668,7 +668,7 @@ msgstr ""
 "автоматты болып, аз көңіл бөлуді сұрайды. Содан кейін ғана мәтіннің "
 "мазмұнына назар аудара аласыз."
 
-#: ../src/translation.c:613
+#: ../src/translation.c:619
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -875,7 +875,7 @@ msgstr "Дайын болғаннан кейін теруді бастаңыз."
 msgid "Use backspace to correct errors."
 msgstr "Қателерді түзету үшін backspace қолданыңыз."
 
-#: ../src/tutor.c:1012
+#: ../src/tutor.c:1020
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
@@ -884,11 +884,11 @@ msgstr ""
 "ps.: бұл сессияға қайта кіруге болмайды: (%i) терілген символдың саны %i "
 "мәнінен үлкен болу керек."
 
-#: ../src/tutor.c:1154
+#: ../src/tutor.c:1162
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "ps.: Сіз Бірінші 10 қатарына ендіңіз, Бәрекелді!"
 
-#: ../src/tutor.c:1166
+#: ../src/tutor.c:1174
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
@@ -897,82 +897,82 @@ msgstr ""
 "ps.: жаңа ғана терілген мәтін берілген тілдегі шын мәтінге ұқсамайтын "
 "секілді: біздің 'Бірінші 10' қатарына кіре алмайсыз."
 
-#: ../src/tutor.c:1215
+#: ../src/tutor.c:1223
 msgid "STATISTICS"
 msgstr "СТАТИСТИКА"
 
-#: ../src/tutor.c:1216
+#: ../src/tutor.c:1224
 msgid "Elapsed time:"
 msgstr "Кеткен уақыт:"
 
-#: ../src/tutor.c:1217
+#: ../src/tutor.c:1225
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "минут және"
 
-#: ../src/tutor.c:1218
+#: ../src/tutor.c:1226
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "секунд"
 
-#: ../src/tutor.c:1219
+#: ../src/tutor.c:1227
 msgid "Error ratio:"
 msgstr "Қателер:"
 
-#: ../src/tutor.c:1219
+#: ../src/tutor.c:1227
 msgid "Accuracy:"
 msgstr "Тиянақтылық:"
 
-#: ../src/tutor.c:1240 ../src/tutor.c:1265 ../src/tutor.c:1288
-#: ../src/tutor.c:1314
+#: ../src/tutor.c:1248 ../src/tutor.c:1273 ../src/tutor.c:1296
+#: ../src/tutor.c:1322
 msgid "Goal:"
 msgstr "Мақсаты:"
 
-#: ../src/tutor.c:1247
+#: ../src/tutor.c:1255
 msgid "Characters per second:"
 msgstr "Секундына таңба:"
 
-#: ../src/tutor.c:1265
+#: ../src/tutor.c:1273
 msgid "(CPS)"
 msgstr "(Таңба/сек)"
 
-#: ../src/tutor.c:1270
+#: ../src/tutor.c:1278
 msgid "Words per minute:"
 msgstr "Минутына сөз:"
 
-#: ../src/tutor.c:1295
+#: ../src/tutor.c:1303
 msgid "Fluidness:"
 msgstr "Жаттықтылық:"
 
-#: ../src/tutor.c:1322
+#: ../src/tutor.c:1330
 msgid "Comments:"
 msgstr "Пікірлер:"
 
-#: ../src/tutor.c:1804
+#: ../src/tutor.c:1812
 msgid "space"
 msgstr "бос аралық"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1809
+#: ../src/tutor.c:1817
 msgid "wye"
 msgstr "игрек"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1813
+#: ../src/tutor.c:1821
 msgid "enter"
 msgstr "enter"
 
-#: ../src/tutor.c:1819
+#: ../src/tutor.c:1827
 msgid "apostrophe"
 msgstr "апостроф"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1823
+#: ../src/tutor.c:1831
 msgid "quote"
 msgstr "тырнақша"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1827
+#: ../src/tutor.c:1835
 msgid "ampersand"
 msgstr "амперсанд"
 
@@ -986,11 +986,11 @@ msgstr "Таңба"
 msgid "Date & Time"
 msgstr "Күні және уақыты"
 
-#: ../src/basic.c:326
+#: ../src/basic.c:329
 msgid "Positions of keys seems to be learned!"
 msgstr "Пернелер позициясын жаттауыңыз керек!"
 
-#: ../src/basic.c:327
+#: ../src/basic.c:330
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1002,7 +1002,7 @@ msgstr ""
 " Енді келесі бейімделу сабағына көшіңіз.\n"
 " Бұл сізге ұқыпты теруге үйретеді.\n"
 
-#: ../src/basic.c:333
+#: ../src/basic.c:336
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
