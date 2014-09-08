@@ -4,13 +4,14 @@
 # Alexander Kazancev <_kazancas_@gmail.com>, 2006 - 2008.
 # Pavel Maryanov <acid@jack.kiev.ua>, 2010, 2012.
 # AlexL <loginov.alex.valer@gmail.com>, 2012.
+# Yuri Kozlov <yuray@komyakino.ru>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: klavaro 1.9.5-pre2\n"
+"Project-Id-Version: klavaro 3.01-pre1\n"
 "Report-Msgid-Bugs-To: <translation-team-eo@lists.sourceforge.net>\n"
-"POT-Creation-Date: 2014-09-03 14:56-0300\n"
-"PO-Revision-Date: 2012-11-12 22:13+0300\n"
-"Last-Translator: Pavel Maryanov <acid@jack.kiev.ua>\n"
+"POT-Creation-Date: 2014-09-08 09:02-0300\n"
+"PO-Revision-Date: 2014-09-06 11:09+0400\n"
+"Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/klavaro.glade.h:1
 msgid "About 'Klavaro'"
@@ -76,19 +78,19 @@ msgid "This is a specific exercise, adjusted to your error profile."
 msgstr "Это специальное упражнение, основанное на вашем профиле ошибок"
 
 #: ../data/klavaro.glade.h:15
-#, fuzzy
 msgid ""
 "Edit the character set to be used in lessons after 43: they are customizable!"
-msgstr "Редактировать набор символов для использования в уроках с 44 по 50"
+msgstr ""
+"Редактировать набор символов для использования в уроках, начиная с 43: их "
+"можно настраивать!"
 
 #: ../data/klavaro.glade.h:16 ../src/tutor.c:376
 msgid "Drag and drop text here to practice with it."
 msgstr "Перетащите сюда текст, чтобы попрактиковаться с ним"
 
 #: ../data/klavaro.glade.h:17
-#, fuzzy
 msgid "Press here to restart the exercise. Hotkey: [Ctrl-R]"
-msgstr "Нажмите здесь для перезапуска упражнения. Быстрый вызов: [CTRL+R]"
+msgstr "Нажмите здесь для перезапуска упражнения. Быстрый вызов: [CTRL-R]"
 
 #: ../data/klavaro.glade.h:18
 msgid "Show the virtual keyboard and the relation between fingers and keys."
@@ -434,18 +436,16 @@ msgid "Top 10"
 msgstr "Десятка лучших"
 
 #: ../data/klavaro.glade.h:96
-#, fuzzy
 msgid "Show extra information."
-msgstr "Показать доп. сведения"
+msgstr "Показать доп. сведения."
 
 #: ../data/klavaro.glade.h:97
-#, fuzzy
 msgid "Hide extra information."
-msgstr "Скрыть доп. сведения"
+msgstr "Скрыть доп. сведения."
 
 #: ../data/klavaro.glade.h:98
 msgid "Publish to the web your local scores."
-msgstr "Опубликовать свой результат в Интернете"
+msgstr "Опубликовать свой результат в Интернете."
 
 #: ../data/klavaro.glade.h:99
 msgid "_Participate"
@@ -460,29 +460,27 @@ msgid "_Update"
 msgstr "_Обновить"
 
 #: ../data/klavaro.desktop.in.h:1
-#, fuzzy
 msgid "A very flexible and efficient touch typing tutor."
-msgstr "Ещё один клавиатурный тренажёр"
+msgstr "Легко приспособляемый и эффективный клавиатурный тренажёр."
 
 #. Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
 #: ../data/klavaro.desktop.in.h:3
-#, fuzzy
 msgid "keyboard;typing;tutor;CAI"
-msgstr "Клавиатура"
+msgstr "клавиатура;набор;тренажёр"
 
-#: ../src/main.c:242
+#: ../src/main.c:238
 msgid "(Custom)"
 msgstr "(другая)"
 
-#: ../src/main.c:243
+#: ../src/main.c:239
 msgid "(Edit custom)"
 msgstr "(изменить другую)"
 
-#: ../src/main.c:244
+#: ../src/main.c:240
 msgid "(Default)"
 msgstr "(по умолчанию)"
 
-#: ../src/main.c:321
+#: ../src/main.c:317
 #, c-format
 msgid "Dictation mode (depends on this speech synthesizer: %s)"
 msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
@@ -490,86 +488,86 @@ msgstr[0] "Режим диктовки (зависит от этого синт�
 msgstr[1] "Режим диктовки (зависит от этих синтезаторов речи: %s)"
 msgstr[2] "Режим диктовки (зависит от этих синтезаторов речи: %s)"
 
-#: ../src/main.c:364 ../src/keyboard.c:1292
+#: ../src/main.c:360 ../src/keyboard.c:1292
 msgid "Introduction"
 msgstr "Введение"
 
-#: ../src/main.c:367 ../src/top10.c:109
+#: ../src/main.c:363 ../src/top10.c:109
 msgid "Basic course"
 msgstr "Начальный курс"
 
-#: ../src/main.c:370 ../src/top10.c:112
+#: ../src/main.c:366 ../src/top10.c:112
 msgid "Adaptability"
 msgstr "Адаптивность"
 
-#: ../src/main.c:373 ../src/callbacks.c:1226 ../src/top10.c:89
+#: ../src/main.c:369 ../src/callbacks.c:1227 ../src/top10.c:89
 #: ../src/top10.c:115
 msgid "Speed"
 msgstr "Скорость"
 
-#: ../src/main.c:376 ../src/callbacks.c:1249 ../src/top10.c:91
+#: ../src/main.c:372 ../src/callbacks.c:1250 ../src/top10.c:91
 #: ../src/top10.c:118
 msgid "Fluidity"
 msgstr "Плавность"
 
-#: ../src/callbacks.c:407 ../src/tutor.c:515
+#: ../src/callbacks.c:408 ../src/tutor.c:515
 msgid "Keys:"
 msgstr "Клавиши:"
 
-#: ../src/callbacks.c:774 ../src/callbacks.c:790
+#: ../src/callbacks.c:775 ../src/callbacks.c:791
 msgid "Connecting..."
 msgstr "Подключение..."
 
-#: ../src/callbacks.c:1061
+#: ../src/callbacks.c:1062
 msgid "Overwrite user layout"
 msgstr "Перезаписать раскладку пользователя"
 
-#: ../src/callbacks.c:1063
+#: ../src/callbacks.c:1064
 msgid "This will OVERWRITE an existent keyboard layout."
 msgstr "При этом существующая раскладка будет ПЕРЕЗАПИСАНА"
 
-#: ../src/callbacks.c:1070
+#: ../src/callbacks.c:1071
 msgid "Remove user layout"
 msgstr "Удалить раскладку пользователя"
 
-#: ../src/callbacks.c:1072
+#: ../src/callbacks.c:1073
 msgid "This will REMOVE an existent keyboard layout."
 msgstr "При этом существующая раскладка будет УДАЛЕНА"
 
-#: ../src/callbacks.c:1079
+#: ../src/callbacks.c:1080
 msgid "Reset progress data"
 msgstr "Сброс данных статистики"
 
-#: ../src/callbacks.c:1080
+#: ../src/callbacks.c:1081
 msgid "This will DELETE all the progress data shown in the charts."
 msgstr "При этом все данные, показанные на диаграммах, будут УНИЧТОЖЕНЫ"
 
-#: ../src/callbacks.c:1223 ../src/top10.c:87
+#: ../src/callbacks.c:1224 ../src/top10.c:87
 msgid "Accuracy"
 msgstr "Точность"
 
-#: ../src/callbacks.c:1226 ../src/tutor.c:1288
+#: ../src/callbacks.c:1227 ../src/tutor.c:1296
 msgid "(WPM)"
 msgstr "(слов/мин)"
 
-#: ../src/callbacks.c:1237
+#: ../src/callbacks.c:1238
 msgid "Errors"
 msgstr "Ошибки"
 
-#: ../src/callbacks.c:1240
+#: ../src/callbacks.c:1241
 msgid "Touch times (s)"
 msgstr "Время нажатия"
 
-#: ../src/callbacks.c:1252 ../src/tutor.c:1315 ../src/top10.c:69
+#: ../src/callbacks.c:1253 ../src/tutor.c:1323 ../src/top10.c:69
 msgid "Score"
 msgstr "Очки"
 
 #. Translators: your language code (first 2 letters of your po-file)
-#: ../src/translation.c:485 ../src/tutor.c:1725
+#: ../src/translation.c:491 ../src/tutor.c:1733
 msgid "en"
-msgstr "ru"
+msgstr "en"
 
-#: ../src/translation.c:572
+#: ../src/translation.c:578
 msgid ""
 "The basic course focuses on having you read the characters presented to you "
 "on screen and typing the corresponding keys. Remember to keep your hands "
@@ -577,10 +575,10 @@ msgid ""
 "introduction on main menu)."
 msgstr ""
 "В начальном курс нужно читать символы, которые появляются в этом окне, и "
-"нажмать соответствующие клавиши. Не забывайте правильно держать руки на "
+"нажимать соответствующие клавиши. Не забывайте правильно держать руки на "
 "внутреннем ряду клавиатуры (см. введение в главном меню)."
 
-#: ../src/translation.c:576
+#: ../src/translation.c:582
 msgid ""
 "The key set used in each series will be shown in the above message line. The "
 "[Space], [Shift] and [Enter] keys may not show up there but are used very "
@@ -590,7 +588,7 @@ msgstr ""
 "сеансе. Клавиши [ПРОБЕЛ], [SHIFT] и [ВВОД] могут не отображаться в этой "
 "строке, поскольку они используются очень часто."
 
-#: ../src/translation.c:579
+#: ../src/translation.c:585
 msgid ""
 "The message line below follows and echoes your key presses. If required, it "
 "changes and displays instructions for actions required from you."
@@ -599,7 +597,7 @@ msgstr ""
 "строки будет изменяться, показывая инструкции, которых вам следует "
 "придерживаться."
 
-#: ../src/translation.c:583
+#: ../src/translation.c:589
 msgid ""
 "Here you may practice and improve your memorization of all keys. There will "
 "be sentences presented with nonsense words which mix some numbers and "
@@ -609,7 +607,7 @@ msgstr ""
 "клавиш. В упражнении будут представлены предложения из бессмысленных слов, "
 "представляющих собой смесь из букв и цифр."
 
-#: ../src/translation.c:586
+#: ../src/translation.c:592
 msgid ""
 "In order to keep the lesson contents language and keyboard independent, "
 "accented letter combinations will probably not appear. For real word "
@@ -620,7 +618,7 @@ msgstr ""
 "предложений из реальных слов используйте четвертый пункт главного меню "
 "(плавность)."
 
-#: ../src/translation.c:590
+#: ../src/translation.c:596
 msgid ""
 "After each exercise there will be a brief statistics panel reviewing your "
 "performance along with some relevant comments."
@@ -628,7 +626,7 @@ msgstr ""
 "В конце каждого упражнения будет показана краткая статистика относительно "
 "вашей производительности с соответствующими комментариями."
 
-#: ../src/translation.c:594
+#: ../src/translation.c:600
 msgid ""
 "This exercise is very similar to the second one, for adaptability. The "
 "difference is that here you'll type real words."
@@ -636,7 +634,7 @@ msgstr ""
 "Это упражнение очень похоже на второе (адаптация). Разница заключается в "
 "том, что здесь вы будете набирать реальные слова."
 
-#: ../src/translation.c:597
+#: ../src/translation.c:603
 msgid ""
 "The default language is the actual one of the interface. But you may select "
 "any other texts with words you would like to use. Press the 'Other' option "
@@ -646,7 +644,7 @@ msgstr ""
 "другой текст с интересующими вас словами. Нажмите кнопку «Другой текст» "
 "вверху и добавьте файлы с нужным текстом."
 
-#: ../src/translation.c:601
+#: ../src/translation.c:607
 msgid ""
 "With this exercise the focus is on speed. So, you are supposed to type "
 "really fast and I will only flatter you when you deserve it!"
@@ -654,7 +652,7 @@ msgstr ""
 "В этом упражнении упор делается на скорость. Поэтому, чтобы заслужить "
 "похвалу, текст нужно набирать как можно быстрее."
 
-#: ../src/translation.c:605
+#: ../src/translation.c:611
 msgid ""
 "We will now use complete sentences and paragraphs which make logical sense. "
 "This may distract you while you type if you try to understand what you are "
@@ -666,7 +664,7 @@ msgstr ""
 "отвлекать вас во время набора. В предыдущих упражнениях упор делался на "
 "набор текста без интерпретации и анализа его содержания."
 
-#: ../src/translation.c:609
+#: ../src/translation.c:615
 msgid ""
 "We do not mean to imply that the typists must behave like a robot, without "
 "understanding what they type. We do aim to develop the skill of typing, "
@@ -677,12 +675,12 @@ msgid ""
 msgstr ""
 "Это не означает, что печатающий должен вести себя как робот, не понимая "
 "смысла вводимого текста. Целью данной программы является развитие навыков "
-"набора текста на уровне рефлексов, такх как, например, ходьба, речь и т. п. "
+"набора текста на уровне рефлексов, так как, например, ходьба, речь и т. п. "
 "После достижения этой цели набор текста будет выполняться автоматически с "
 "минимальной концентрацией. Тогда вы сможете обратить внимание на реальный "
 "смысл текста."
 
-#: ../src/translation.c:613
+#: ../src/translation.c:619
 msgid ""
 "These exercises are longer. Each exercise consists of three paragraphs and "
 "the emphasis is placed on correctness and rhythm, with a minimum speed "
@@ -894,7 +892,7 @@ msgstr "Начинайте печатать, когда будете готов�
 msgid "Use backspace to correct errors."
 msgstr "Используйте [BACKSPACE] для коррекции ошибок."
 
-#: ../src/tutor.c:1012
+#: ../src/tutor.c:1020
 #, c-format
 msgid ""
 "ps.: logging not performed for this session: the number of typed characters "
@@ -903,11 +901,11 @@ msgstr ""
 "Для этого урока статистика не записывается: количество набранных символов "
 "(%i) должно быть больше %i."
 
-#: ../src/tutor.c:1154
+#: ../src/tutor.c:1162
 msgid "ps.: you have entered the Top 10 list, great!"
 msgstr "Вы попали в десятку лучших!"
 
-#: ../src/tutor.c:1166
+#: ../src/tutor.c:1174
 msgid ""
 "ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
 "the language currently selected: we can't account for it in the 'Top 10' "
@@ -916,86 +914,86 @@ msgstr ""
 "Набранный вами текст не был похож на обычный текст для выбранного языка: он "
 "не подходит для участия в соревновании."
 
-#: ../src/tutor.c:1215
+#: ../src/tutor.c:1223
 msgid "STATISTICS"
 msgstr "СТАТИСТИКА"
 
-#: ../src/tutor.c:1216
+#: ../src/tutor.c:1224
 msgid "Elapsed time:"
 msgstr "Затраченное время:"
 
-#: ../src/tutor.c:1217
+#: ../src/tutor.c:1225
 msgid "minute and"
 msgid_plural "minutes and"
 msgstr[0] "минута и"
 msgstr[1] "минуты и"
 msgstr[2] "минут и"
 
-#: ../src/tutor.c:1218
+#: ../src/tutor.c:1226
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "секунда"
 msgstr[1] "секунды"
 msgstr[2] "секунд"
 
-#: ../src/tutor.c:1219
+#: ../src/tutor.c:1227
 msgid "Error ratio:"
 msgstr "Процент ошибок:"
 
-#: ../src/tutor.c:1219
+#: ../src/tutor.c:1227
 msgid "Accuracy:"
 msgstr "Точность:"
 
-#: ../src/tutor.c:1240 ../src/tutor.c:1265 ../src/tutor.c:1288
-#: ../src/tutor.c:1314
+#: ../src/tutor.c:1248 ../src/tutor.c:1273 ../src/tutor.c:1296
+#: ../src/tutor.c:1322
 msgid "Goal:"
 msgstr "Цель:"
 
-#: ../src/tutor.c:1247
+#: ../src/tutor.c:1255
 msgid "Characters per second:"
 msgstr "Знаков в секунду:"
 
-#: ../src/tutor.c:1265
+#: ../src/tutor.c:1273
 msgid "(CPS)"
 msgstr "(знак/с)"
 
-#: ../src/tutor.c:1270
+#: ../src/tutor.c:1278
 msgid "Words per minute:"
 msgstr "Слов в минуту:"
 
-#: ../src/tutor.c:1295
+#: ../src/tutor.c:1303
 msgid "Fluidness:"
 msgstr "Плавность:"
 
-#: ../src/tutor.c:1322
+#: ../src/tutor.c:1330
 msgid "Comments:"
 msgstr "Примечания:"
 
-#: ../src/tutor.c:1804
+#: ../src/tutor.c:1812
 msgid "space"
 msgstr "пробел"
 
 #. Translators: the name of letter Y
-#: ../src/tutor.c:1809
+#: ../src/tutor.c:1817
 msgid "wye"
 msgstr "звездочка"
 
 #. Translators: the name of the Return key
-#: ../src/tutor.c:1813
+#: ../src/tutor.c:1821
 msgid "enter"
 msgstr "ввод"
 
-#: ../src/tutor.c:1819
+#: ../src/tutor.c:1827
 msgid "apostrophe"
 msgstr "апостроф"
 
 #. Translators: double quote symbol: "
-#: ../src/tutor.c:1823
+#: ../src/tutor.c:1831
 msgid "quote"
 msgstr "кавычки"
 
 #. Translators: ampersand symbol: &
-#: ../src/tutor.c:1827
+#: ../src/tutor.c:1835
 msgid "ampersand"
 msgstr "амперсанд"
 
@@ -1009,11 +1007,11 @@ msgstr "Символ"
 msgid "Date & Time"
 msgstr "Дата и время"
 
-#: ../src/basic.c:326
+#: ../src/basic.c:329
 msgid "Positions of keys seems to be learned!"
 msgstr "Необходимо выучить расположение клавиш."
 
-#: ../src/basic.c:327
+#: ../src/basic.c:330
 msgid ""
 " Congratulations!\n"
 " You have accomplished the entire basic course.\n"
@@ -1025,7 +1023,7 @@ msgstr ""
 " Переходите к следующему упражнению — на адаптивность.\n"
 " В нём вы научитесь набирать более точно.\n"
 
-#: ../src/basic.c:333
+#: ../src/basic.c:336
 msgid ""
 " All right, now you got it!\n"
 " Go to the next lesson.\n"
@@ -1034,33 +1032,33 @@ msgstr ""
 " Переходите  к следующему уроку.\n"
 
 #: ../src/adaptability.c:213
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Your accuracy rate is below %.0f%%...\n"
 " Could you please try again to improve it?\n"
 msgstr ""
-" Ваш уровень точности ниже 90%...\n"
+" Ваш уровень точности ниже %.0f%%…\n"
 " Не хотите попробовать снова и улучшить его?\n"
 
 #: ../src/adaptability.c:216
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well. But...\n"
 " Could you make the accuracy reach %.0f%%?\n"
 msgstr ""
-" Вы всё делаете хорошо. Но...\n"
-" Попробуете повысить точность до 95%?\n"
+" Вы всё делаете хорошо. Но…\n"
+" Попробуете повысить точность до %.0f%%?\n"
 
 #: ../src/adaptability.c:219
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are almost there, but your accuracy rate is still below %.0f%%.\n"
 " Try a few more times, or maybe you're getting upset, so go to another kind "
 "of exercise.\n"
 msgstr ""
 " Вы почти справились, но ваша точность всё ещё ниже %.0f%%.\n"
-" Попробуйте ещё раз или, если вы нервничаете, переходите к следующему "
-"упражнению.\n"
+" Попробуйте ещё раз или, если вы нервничаете, возьмитесь за другое "
+"упражнение.\n"
 
 #: ../src/adaptability.c:226
 #, c-format
@@ -1091,32 +1089,32 @@ msgstr ""
 " терпение и труд всё перетрут.\n"
 
 #: ../src/velocity.c:427
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Still away from the highway. You can do better...\n"
 " Try to reach at least %.0f WPM.\n"
 msgstr ""
-" Не стоит так торопиться. Вы способны на большее...\n"
-" Придерживайтесь скорости в 20 слов в минуту.\n"
+" Не стоит так торопиться. Вы способны на большее…\n"
+" Придерживайтесь скорости %.0f слов в минуту.\n"
 
 #: ../src/velocity.c:430
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " You are doing well, but need to go faster.\n"
 " And don't forget the accuracy. Try to get %.0f WPM.\n"
 msgstr ""
 " Вы всё делаете хорошо, но надо бы чуть быстрее.\n"
 " Однако не забывайте о точности.\n"
-" Попробуйте достичь скорости в 30 слов в минуту.\n"
+" Попробуйте достичь скорости %.0f слов в минуту.\n"
 
 #: ../src/velocity.c:433
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fine. Now you need to start running.\n"
 " Can you reach %.0f WPM?\n"
 msgstr ""
 " Прекрасно. Наконец-то вы зашевелились.\n"
-" Как насчёт 40 слов в минуту?\n"
+" Как насчёт %.0f слов в минуту?\n"
 
 #: ../src/velocity.c:436
 #, c-format
@@ -1136,13 +1134,13 @@ msgstr ""
 " Теперь пора переходить к упражнениям на плавность.\n"
 
 #: ../src/velocity.c:442
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Fast! Are you a professional?\n"
 " So, try to get %.0f WPM!\n"
 msgstr ""
 " А вы шустрец! Куда-то спешите?\n"
-" Тогда разгоняйтесь до 70 слов в минуту!\n"
+" Тогда разгоняйтесь до %.0f слов в минуту!\n"
 
 #. Translators: Speed Racer is a reference to a Japanese anime franchise
 #. about automobile racing, also known as Mach GoGoGo.
@@ -1150,16 +1148,17 @@ msgstr ""
 #, c-format
 msgid " Ranking good, Speed Racer! Are you afraid of reaching %.0f WPM?\n"
 msgstr ""
+" Призовые места, Спиди-гонщик! Не боитесь достичь %.0f слов в минуту?\n"
 
 #. Translators: feel free to change the reference to that martial art, if you find another good analogy.
 #: ../src/velocity.c:451
-#, fuzzy, c-format
+#, c-format
 msgid ""
 " Kung-fu mastery!\n"
 " Can you fly at %.0f WPM?\n"
 msgstr ""
-" Режим Дворак оправдал себя!\n"
-" Пора взлетать до 90 слов в минуту\n"
+" Мастер кунг-фу!\n"
+" Пора взлетать до %.0f слов в минуту?\n"
 
 #. Translators: Dvorak here means that infamous ergonomic keyboard layout.
 #: ../src/velocity.c:454
@@ -1269,24 +1268,21 @@ msgstr "Не удаётся отправить файлы"
 msgid "Could not upload/download scores."
 msgstr "Не удаётся отправить/загрузить очки"
 
+#~ msgid "Klavaro"
+#~ msgstr "Klavaro"
+
+#~ msgid "_Font"
+#~ msgstr "_Шрифт"
+
+#~ msgid "Default"
+#~ msgstr "По умолчанию"
+
 #~ msgid ""
 #~ " Top of \"qwerty\". Now it's time to change to the Dvorak mode.\n"
 #~ " Are you afraid of reaching 80 WPM?\n"
 #~ msgstr ""
 #~ " Это предел для «qwerty». Пора переходить в режим Дворак.\n"
 #~ " Разгонитесь до 80 слов в минуту?\n"
-
-#~ msgid "Press here to restart the exercise. Hotkey: [Ctrl R]"
-#~ msgstr "Нажмите здесь для перезапуска упражнения. Быстрый вызов: [CTRL+R]"
-
-#~ msgid "_Font"
-#~ msgstr "_Шрифт"
-
-#~ msgid "Klavaro"
-#~ msgstr "Klavaro"
-
-#~ msgid "Default"
-#~ msgstr "По умолчанию"
 
 #~ msgid ""
 #~ "1\n"

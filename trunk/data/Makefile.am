@@ -47,6 +47,7 @@ klavaro_data = \
 	dvorak_us.kbd \
 	dvorak_us_prog.kbd \
 	gurmukhi_in_jhelum.kbd \
+	gurmukhi_in_jhelumShift.kbd \
 	jtsuken_kk.kbd \
 	jtsuken_ru.kbd \
 	jtsuken_ru_typewriter.kbd \
