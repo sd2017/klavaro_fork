@@ -224,7 +224,9 @@ trans_lang_has_stopmark ()
 
 	hlp = main_preferences_get_string ("interface", "language");
 	stopmark = g_str_has_prefix (hlp, "ur") ||
-		   g_str_has_prefix (hlp, "bn");
+		   g_str_has_prefix (hlp, "ar") ||
+		   g_str_has_prefix (hlp, "bn") ||
+		   g_str_has_prefix (hlp, "pa");
 	g_free (hlp);
 
 	return (!stopmark);

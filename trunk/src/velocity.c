@@ -273,7 +273,7 @@ velo_filter_utf8 (gchar * text)
 
 		/* Test alphabetic char to form a word
 		 */
-		if (g_unichar_isalpha (uch))
+		if (g_unichar_isalpha (uch) || g_unichar_ismark (uch))
 		{
 			flt.i += g_unichar_to_utf8 (uch, &flt.txt[flt.i]);
 			is_searching_word = FALSE;

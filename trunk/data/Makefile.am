@@ -126,6 +126,8 @@ klavaro_data = \
 	nb.paragraphs \
 	nl.words \
 	nl.paragraphs \
+	pa.words \
+	pa.paragraphs \
 	pl.words \
 	pl.paragraphs \
 	pt_BR.words \
