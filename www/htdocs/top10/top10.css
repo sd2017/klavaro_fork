@@ -1,0 +1,65 @@
+body {background:#ffe;}
+h3 {color:#048;text-align:center}
+img {border-style:none}
+img.sfnet {border:thin solid #6af}
+div.enkadre {
+	background-color:#eed;
+	float:left;
+	border:medium double gray;
+	padding:1em;
+	text-align:center;
+}
+div.menuo {
+	line-height:3.5ex;
+	font-size:120%;
+	font-family:monospace;
+	text-align:left;
+}
+div.menuo a {
+	background-color:#ffe;
+	border:thin solid #6af;
+	padding:0.3ex;
+	text-decoration:none;
+}
+div.menuo a:hover {
+	background-color:#afb;
+}
+
+div.logo {text-align:center;}
+
+div.top10 {
+	position:absolute;
+	left:20em;
+	top:9px;
+	z-index:10;
+}
+table {
+	background-color:#999;
+	font-family:monospace;
+	font-size:120%;
+}
+
+th {
+	background-color:#eed;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+span.lingvo {
+	background-color:#afb;
+	border:thin solid #6af;
+	padding:0.3ex;
+}
+
+tr.unua {background-color:#fff8a0;}
+tr.dua  {background-color:#eee;}
+tr.tria {background-color:#eec;}
+
+tr {
+	background-color:#f8fff0;
+}
+
+td {
+	padding:3px;
+	margin:3px;
+}

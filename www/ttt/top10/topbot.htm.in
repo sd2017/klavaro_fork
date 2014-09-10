@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="LINGVO" lang="LINGVO">
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="icon" type="image/ico" href="http://klavaro.sourceforge.net/favicon.ico" />
+  <link rel="shortcut icon" type="image/png" href="http://klavaro.sourceforge.net/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="http://klavaro.sourceforge.net/top10/top10.css" />
+  <title>Klavaro - Top200</title>
+ </head>
+ <body> 
+  <div class="enkadre">
+   <div class="menuo">
+   include(`../xx/top10_lingvoj.htm')
+   </div>
+   <hr />
+   <div class="logo">
+    <a href="http://klavaro.sourceforge.net/index.html"><img src="http://klavaro.sourceforge.net/images/hands.png" alt="Klavaro Logo" /></a>
+   </div>
+   <p>
+   <a href="http://sourceforge.net/projects/klavaro"><img class="sfnet" src="http://sflogo.sourceforge.net/sflogo.php?group_id=135657&amp;type=2" width="125" height="37" alt="SourceForge.net Logo" /></a>    
+   </p>
+   <p>
+   <a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance#"><img src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="XHTML 1.0 Strict" height="31" width="88" /></a><br />
+   </p>
+  </div>
+  <div class="top10">
+   <table>
+    <tr>
+     <th colspan="4">
+      <h3>Klavaro ++ 200 <span class="lingvo">(LINGVO)</span></h3>
+     </th>
+    </tr>
+RANGO   
+   </table>
+   <br />
+  </div>
+ </body>
+</html>

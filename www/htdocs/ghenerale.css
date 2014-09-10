@@ -1,0 +1,45 @@
+body {background:#EED;}
+h1 {color:#036;text-align:center}
+h2 {color:#063}
+h3 {color:#630}
+img {border-style:none;}
+img.sfnet {border:thin solid gray;}
+table {background:#CCC}
+table.pofile {background:#EED;border:thin solid}
+table.pofile th {background:#FFE;border:thin solid;padding:5px}
+table.pofile td {background:white;border:thin solid;padding:5px}
+div.enkadre {
+	background-color:#DDC;
+	border:thick double #AAA;
+	min-height:300ex;
+}
+div.enhavo {
+	background-color:#FFE;
+	position:absolute;
+	left:200px;
+	right:200px;
+	border-left:thick double #AAA;
+	border-right:thick double #AAA;
+	border-bottom:thick double #AAA;
+	padding:10px;
+	text-align:justify;
+	overflow:auto;
+}
+div.chefmenuo {
+	position:absolute;
+	top:9ex;
+	left:10px;
+	padding:10px;
+	width:170px;
+	overflow:auto;
+}
+div.krommenuo {
+	position:absolute;
+	top:9ex;
+	right:10px;
+	padding:10px;
+	width:170px;
+	overflow:hidden;
+       	text-align:center;
+	overflow:auto;
+}

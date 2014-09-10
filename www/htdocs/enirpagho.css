@@ -1,0 +1,25 @@
+body {background:#EED;}
+h1 {color:#036;text-align:center}
+img {border-style:none}
+div.centre {
+	background-color:#CCC;
+	position:absolute;
+	left:8cm;
+	border:medium double gray;
+}
+div.maldekstre {
+	background-color:#FFE;
+	float:left;
+	border-right:thin solid gray;
+	margin-right:1px;
+	padding:1em;
+	height:60ex;
+}
+div.dekstre {
+	text-align:center;
+	background-color:#DDC;
+	float:right;
+	border-left:thin solid gray;
+	padding:1em;
+	height:60ex;
+}
