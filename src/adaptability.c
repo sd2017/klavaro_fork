@@ -80,6 +80,8 @@ adapt_draw_random_pattern ()
 		}
 		if (g_str_has_prefix (hlp, "ur"))
 			text[tidx++] = URDU_STOP;
+		if (g_str_has_prefix (hlp, "pa"))
+			text[tidx++] = DEVANAGARI_STOP;
 		else if (trans_lang_has_stopmark ())
 			text[tidx++] = L'.';
 		text[tidx++] = L'\n';

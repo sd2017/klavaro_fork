@@ -18,6 +18,7 @@
 #define UPSYM ((gunichar) 182)
 #define URDU_COMMA ((gunichar) 0x060C)
 #define URDU_STOP ((gunichar) 0x06D4)
+#define DEVANAGARI_STOP ((gunichar) 0x0964)
 
 /* Pretty colors
  */
