@@ -301,8 +301,8 @@ trans_init_language_env ()
 		/* 
 		 * Read the current locale
 		 */
-		i = 0;
 #ifdef G_OS_UNIX
+		i = 0;
 		while ((tmp_code = g_strdup (g_get_language_names ()[i])))
 		{
 			if (tmp_code[0] == 'C')
@@ -349,12 +349,15 @@ trans_init_language_env ()
 	 */
 	if (lang_ok == FALSE)
 	{
+		g_message ("as your locale (%s) isn't available, "
+			       "we are using \"C\"", tmp_code);
 		g_free (tmp_code);
 		tmp_code = g_strdup ("C");
-		g_message ("as your preferred locale isn't available, "
-			       "we are using this neutral one: \"%s\"", tmp_code);
 	}
 
+#ifdef G_OS_WIN32
+	g_setenv ("LANGUAGE", tmp_code, TRUE);
+#endif
 	main_preferences_set_string ("interface", "language", tmp_code);
 	g_free (tmp_code);
 }

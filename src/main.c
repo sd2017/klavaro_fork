@@ -426,6 +426,7 @@ main (int argc, char *argv[])
 		{"version", 'v', 0, G_OPTION_ARG_NONE, &show_version, "Versio", NULL},
 		{NULL}
 	};
+	GError *gerr;
 
 	/* Localization
 	 */
@@ -441,7 +442,8 @@ main (int argc, char *argv[])
 	g_option_context_set_translation_domain (opct, GETTEXT_PACKAGE);
 	g_option_context_add_main_entries (opct, option, GETTEXT_PACKAGE);
 	g_option_context_add_group (opct, gtk_get_option_group (TRUE));
-	g_option_context_parse (opct, &argc, &argv, NULL);
+	g_setenv ("NO_AT_BRIDGE", "1", FALSE); /* to eliminate annoying accessibility bus warning */
+	g_option_context_parse (opct, &argc, &argv, &gerr);
 
 	if (show_version)
 	{
