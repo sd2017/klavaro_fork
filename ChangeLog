@@ -1,13 +1,15 @@
-2014-??-??  Felipe Castro (-) <fefcas@gmail.com>;
+2015-??-??  Felipe Castro (-) <fefcas@gmail.com>;
 
 	* Release 3.02
 	* Added:
 	* Fixed:
+	- Using portable GTK function to access Klavaros's Top 10 URL.
 	* Changed:
 	- pa.paragraphs updated.
 	* Updated translations:
 	- Swedish.
 	- Polish.
+	- Czech.
 
 
 
