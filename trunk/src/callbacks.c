@@ -742,29 +742,9 @@ on_button_top10_go_www_clicked         (GtkButton       *button,
                                         gpointer         user_data)
 {
 	gchar *url;
-	gchar *cmd;
-	
 	url = gtk_widget_get_tooltip_text (get_wg ("button_top10_go_www"));
-	if (g_file_test ("/usr/bin/x-www-browser", G_FILE_TEST_IS_EXECUTABLE))
-		cmd = g_strdup_printf ("x-www-browser '%s' &", url);
-	else if (g_file_test ("/usr/bin/gnome-www-browser", G_FILE_TEST_IS_EXECUTABLE))
-		cmd = g_strdup_printf ("gnome-www-browser '%s' &", url);
-	else if (g_file_test ("/usr/bin/konqueror", G_FILE_TEST_IS_EXECUTABLE))
-		cmd = g_strdup_printf ("konqueror '%s' &", url);
-	else if (g_file_test ("/usr/bin/firefox", G_FILE_TEST_IS_EXECUTABLE))
-		cmd = g_strdup_printf ("firefox '%s' &", url);
-	else if (g_file_test ("/usr/bin/epiphany", G_FILE_TEST_IS_EXECUTABLE))
-		cmd = g_strdup_printf ("epiphany '%s' &", url);
-	else if (g_file_test ("/usr/bin/galeon", G_FILE_TEST_IS_EXECUTABLE))
-		cmd = g_strdup_printf ("galeon '%s' &", url);
-	else
-		cmd = g_strdup_printf ("sensible-browser '%s' &", url);
-
-	top10_message (cmd);
-	g_printf ("Performing:\n %s\n", cmd);
-	system (cmd);
+	gtk_show_uri (NULL, url, GDK_CURRENT_TIME, NULL);
 	g_free (url);
-	g_free (cmd);
 }
 
 G_MODULE_EXPORT void
