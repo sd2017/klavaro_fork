@@ -2,6 +2,7 @@
 
 	* Release 3.02
 	* Added:
+	? Link-button for Greek manual.
 	* Fixed:
 	- Using portable GTK function to access Klavaros's Top 10 URL.
 	* Changed:
@@ -10,6 +11,7 @@
 	- Swedish.
 	- Polish.
 	- Czech.
+	- Italian.
 
 
 
