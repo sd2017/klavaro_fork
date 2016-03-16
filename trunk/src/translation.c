@@ -35,7 +35,7 @@ static Lang_Name_Code *lang;
 static gint lang_num = 0;
 
 /**********************************************************************
- * Get country name from its "ISO code" (some are just languages...)
+ * Get country name from its "ISO code" (eo and xx are just languages...)
  */
 const gchar *
 trans_code_to_country (gchar *code)
@@ -45,6 +45,7 @@ trans_code_to_country (gchar *code)
 	gchar *dummy = NULL;
 	static gchar map[COUNTRY_N][2][64] = {
 		{"xx","Esperantio"},
+		{"ad","Andorra"},
 		{"ar","العالم العربي"},
 		{"be","België"},
 		{"bg","България"},
@@ -52,8 +53,8 @@ trans_code_to_country (gchar *code)
 		{"ca","Canada"},
 		{"ch","Schweiz / Suisse"},
 		{"cn","中华人民共和国"},
-		{"cz","Česká republika"},
-		{"dk","Danmark"}, /* 10 */
+		{"cz","Česká republika"}, /* 10 */
+		{"dk","Danmark"},
 		{"de","Deutschland"},
 		{"eo","Esperantujo"},
 		{"es","España"},
@@ -62,8 +63,9 @@ trans_code_to_country (gchar *code)
 		{"fr","France"},
 		{"gr","Ελλάδα"},
 		{"il","ישראל"},
+		{"hr","Hrvatska"}, /* 20 */
 		{"hu","Magyarország"},
-		{"in","India"}, /* 20 */
+		{"in","India"},
 		{"it","Italia"},
 		{"jp","日本 (Nippon)"},
 		{"kk","Қазақстан"},
@@ -71,14 +73,13 @@ trans_code_to_country (gchar *code)
 		{"pl","Polska"},
 		{"pk","پاکستان"},
 		{"pt","Portugal"},
-		{"ru","Россия"},
+		{"ru","Россия"}, /* 30 */
 		{"sl","Slovenija"},
-		{"se","Sverige"}, /* 30 */
+		{"se","Sverige"},
 		{"tr","Türkiye"},
 		{"ua","Україна"},
 		{"uk","United Kingdom"},
 		{"us","USA"},
-		{"",""},
 		{"",""},
 		{"",""},
 		{"",""},

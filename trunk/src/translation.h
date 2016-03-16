@@ -27,6 +27,7 @@
 "български език (bg) [dvorak_bg]\n" \
 " বাংলা (bn) [qwerty_us]\n" \
 "Bokmål (nb) [qwerty_no]\n" \
+"Català (ca) [qwerty_es]\n" \
 "Čeština (cs) [qwertz_cz]\n" \
 "Dansk (da) [qwerty_dk]\n" \
 "Deutsch (de) [qwertz_de]\n" \
@@ -38,10 +39,11 @@
 "Euskara (eu) [qwerty_es]\n" \
 "Français (fr) [azerty_fr]\n" \
 "Galego (gl) [qwerty_es]\n" \
-"Magyar (hu) [qwertz_hu]\n" \
+"Hrvatski (hr) [qwertz_hr]\n" \
 "Italiano (it) [qwerty_it]\n" \
 "Қазақ (kk) [jtsuken_kk]\n" \
 "Кыргызча (ky) [jtsuken_ru]\n" \
+"Magyar (hu) [qwertz_hu]\n" \
 "Nederlands (nl) [qwerty_us]\n" \
 "Punjabi (pa) [gumurkhi_in_jehlum]\n" \
 "Polski (pl) [qwerty_pl_us]\n" \
