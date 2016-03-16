@@ -84,6 +84,7 @@ klavaro_data = \
 	qwertz_ch_de.kbd \
 	qwertz_cz.kbd \
 	qwertz_de.kbd \
+	qwertz_hr.kbd \
 	qwertz_hu.kbd \
 	qwertz_pl.kbd \
 	qwertz_sl.kbd \
@@ -96,6 +97,8 @@ klavaro_data = \
 	bg.paragraphs \
 	bn.words \
 	bn.paragraphs \
+	ca.words \
+	ca.paragraphs \
 	cs.words \
 	cs.paragraphs \
 	da.words \
@@ -116,6 +119,8 @@ klavaro_data = \
 	fr.paragraphs \
 	gl.words \
 	gl.paragraphs \
+	hr.words \
+	hr.paragraphs \
 	hu.words \
 	hu.paragraphs \
 	it.words \

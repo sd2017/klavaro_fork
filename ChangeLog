@@ -1,14 +1,13 @@
-2015-??-??  Felipe Castro (-) <fefcas@gmail.com>;
+2016-03-1?  Felipe Castro (-) <fefcas@gmail.com>;
 
 	* Release 3.02
-	* Added:
-	? Link-button for Greek manual.
 	* Fixed:
 	- Using portable GTK function to access Klavaros's Top 10 URL.
 	* Changed:
 	- pa.paragraphs updated.
 	* Added translations:
 	? Catalan.
+	- Croatian.
 	* Updated translations:
 	- Swedish.
 	- Polish.
@@ -16,8 +15,6 @@
 	- Italian.
 	- Galician.
 	- French.
-
-
 
 2014-09-10  Felipe Castro (-) <fefcas@gmail.com>;
 
