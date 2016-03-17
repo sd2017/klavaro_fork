@@ -13,7 +13,7 @@ div.maldekstre {
 	border-right:thin solid gray;
 	margin-right:1px;
 	padding:1em;
-	height:60ex;
+	height:65em;
 }
 div.dekstre {
 	text-align:center;
@@ -21,5 +21,5 @@ div.dekstre {
 	float:right;
 	border-left:thin solid gray;
 	padding:1em;
-	height:60ex;
+	height:65em;
 }
