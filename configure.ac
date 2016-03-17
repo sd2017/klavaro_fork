@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([klavaro],[3.01],[fefcas@gmail.com])
+AC_INIT([klavaro],[3.02],[fefcas@gmail.com])
 AC_CONFIG_SRCDIR([config.h.in])
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([-Wall])
@@ -14,6 +14,8 @@ AC_SEARCH_LIBS([strerror],[cposix])
 AC_PROG_CC
 AC_PROG_INSTALL
 AC_PROG_MAKE_SET
+AC_PROG_CXX
+AC_PROG_RANLIB
 dnl For Windows, comment out this one (then do an "autoreconf"):
 IT_PROG_INTLTOOL
 
@@ -22,7 +24,6 @@ AC_CHECK_HEADERS([locale.h stdlib.h string.h unistd.h curl/curl.h])
 dnl When GtkDataBox-GTK3 is available, check for it also:
 dnl AC_CHECK_HEADERS([locale.h stdlib.h string.h unistd.h curl/curl.h gtkdatabox.h])
 
-dnl m4_define([gtk_required_version], [2.16.0])
 m4_define([gtk_required_version], [3.8.0])
 m4_define([pango_required_version], [1.16.0])
 m4_define([cairo_required_version], [1.4.0])
@@ -42,7 +43,7 @@ dnl When GtkDataBox-GTK3 is available, check for it:
 dnl AC_CHECK_LIB([gtkdatabox], [gtk_databox_new])
 
 AC_FUNC_STRTOD
-AC_CHECK_FUNCS([memmove memset rint setlocale sqrt strcasecmp strchr strdup strerror strrchr strstr strtoul])
+AC_CHECK_FUNCS([floor pow memmove memset rint setlocale sqrt strcasecmp strchr strdup strerror strrchr strstr strtoul])
 
 GETTEXT_PACKAGE=klavaro
 AC_SUBST(GETTEXT_PACKAGE)
