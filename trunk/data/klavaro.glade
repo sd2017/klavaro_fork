@@ -714,12 +714,12 @@ Author: Felipe Castro
                         <property name="icon_size">1</property>
                       </object>
                     </child>
-                    <accelerator key="r" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
                     <accelerator key="R" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
+                    <accelerator key="r" signal="clicked" modifiers="GDK_CONTROL_MASK"/>
                   </object>
                 </child>
-                <accelerator key="R" signal="grab_focus" modifiers="GDK_CONTROL_MASK"/>
                 <accelerator key="r" signal="grab_focus" modifiers="GDK_CONTROL_MASK"/>
+                <accelerator key="R" signal="grab_focus" modifiers="GDK_CONTROL_MASK"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -1110,7 +1110,6 @@ Author: Felipe Castro
   <object class="GtkWindow" id="dialog_confirm">
     <property name="can_focus">False</property>
     <property name="title" translatable="yes">Change language</property>
-    <property name="resizable">False</property>
     <property name="modal">True</property>
     <property name="window_position">mouse</property>
     <property name="destroy_with_parent">True</property>
@@ -2543,8 +2542,8 @@ Author: Felipe Castro
                     </child>
                   </object>
                 </child>
-                <accelerator key="Left" signal="clicked" modifiers="GDK_SHIFT_MASK"/>
                 <accelerator key="Left" signal="clicked"/>
+                <accelerator key="Left" signal="clicked" modifiers="GDK_SHIFT_MASK"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -2602,8 +2601,8 @@ Author: Felipe Castro
                     </child>
                   </object>
                 </child>
-                <accelerator key="Right" signal="clicked" modifiers="GDK_SHIFT_MASK"/>
                 <accelerator key="Right" signal="clicked"/>
+                <accelerator key="Right" signal="clicked" modifiers="GDK_SHIFT_MASK"/>
               </object>
               <packing>
                 <property name="expand">False</property>

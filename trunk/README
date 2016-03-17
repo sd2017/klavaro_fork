@@ -4,7 +4,9 @@ have some tip showing what they will do.
 
 If you have to compile, please read the INSTALL file.
 And also, specific libs you have to install (on Debian): 
-- libgtk3.0-dev
+- libgtk-3-dev
+- libcurl4-dev
+- intltool
 
 See also the web site:
 http://klavaro.sourceforge.net

@@ -817,7 +817,7 @@ top10_global_update (gpointer data)
 		       _("Are you sure you have it installed in your system?"), NULL);
 		top10_message (tmp);
 		g_free (tmp);
-		gtk_image_set_from_stock (img, "gtk-goto-bottom", GTK_ICON_SIZE_BUTTON);
+		gtk_image_set_from_icon_name (img, "go-bottom", GTK_ICON_SIZE_BUTTON);
 		return FALSE;
 	}
 
@@ -829,7 +829,7 @@ top10_global_update (gpointer data)
 	if (! (curl = curl_easy_init ()) )
 	{
 		g_message ("Not able to initialize 'curl'");
-		gtk_image_set_from_stock (img, "gtk-goto-bottom", GTK_ICON_SIZE_BUTTON);
+		gtk_image_set_from_icon_name (img, "go-bottom", GTK_ICON_SIZE_BUTTON);
 		g_free (host);
 		return FALSE;
 	}
@@ -859,7 +859,7 @@ top10_global_update (gpointer data)
 	if (fail)
 	{
 		top10_message (_("Could not download file from the host server."));
-		gtk_image_set_from_stock (img, "gtk-goto-bottom", GTK_ICON_SIZE_BUTTON);
+		gtk_image_set_from_icon_name (img, "go-bottom", GTK_ICON_SIZE_BUTTON);
 		g_free (ksc);
 		g_free (tmp);
 		return FALSE;
@@ -868,7 +868,7 @@ top10_global_update (gpointer data)
 	if (!g_file_test (tmp, G_FILE_TEST_IS_REGULAR))
 		g_message ("No file downloaded from the host server.");
 
-	gtk_image_set_from_stock (img, "gtk-goto-bottom", GTK_ICON_SIZE_BUTTON);
+	gtk_image_set_from_icon_name (img, "go-bottom", GTK_ICON_SIZE_BUTTON);
 	g_free (tmp);
 	g_free (ksc);
 
@@ -907,14 +907,14 @@ top10_global_publish (gpointer data)
 		       _("Are you sure you have it installed in your system?"), NULL);
 		top10_message (tmp);
 		g_free (tmp);
-		gtk_image_set_from_stock (img, "gtk-goto-top", GTK_ICON_SIZE_BUTTON);
+		gtk_image_set_from_icon_name (img, "go-top", GTK_ICON_SIZE_BUTTON);
 		return FALSE;
 	}
 
 	if (! (curl = curl_easy_init ()))
 	{
 		g_message ("Not able to initialize curl session");
-		gtk_image_set_from_stock (img, "gtk-goto-top", GTK_ICON_SIZE_BUTTON);
+		gtk_image_set_from_icon_name (img, "go-top", GTK_ICON_SIZE_BUTTON);
 		return FALSE;
 	}
 
@@ -981,7 +981,7 @@ top10_global_publish (gpointer data)
 	g_free (path);
 	g_free (url);
 
-	gtk_image_set_from_stock (img, "gtk-goto-top", GTK_ICON_SIZE_BUTTON);
+	gtk_image_set_from_icon_name (img, "go-top", GTK_ICON_SIZE_BUTTON);
 
 	if (!success)
 		top10_message (_("Could not upload/download scores."));

@@ -282,10 +282,6 @@ plot_initialize ()
 	{
 		plot.label_y[i] = gtk_label_new ("???");
 		gtk_box_pack_start (GTK_BOX (get_wg ("box_grid_label_y")), plot.label_y[i], TRUE, TRUE, 0);
-		/*
-		gtk_misc_set_alignment (GTK_MISC (plot.label_y[i]), 1.0, i / (float) (MAX_Y_LABELS - 1));
-		gtk_widget_show (plot.label_y[i]);
-		*/
 	}
 
 	plot_draw_chart (1);
