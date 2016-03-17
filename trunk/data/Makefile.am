@@ -107,6 +107,8 @@ klavaro_data = \
 	de.paragraphs \
 	el.words \
 	el.paragraphs \
+	fi.words \
+	fi.paragraphs \
 	en_GB.words \
 	en_GB.paragraphs \
 	eo.words \
