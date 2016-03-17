@@ -27,84 +27,6 @@ Author: Felipe Castro
   <!-- interface-name Klavaro -->
   <!-- interface-copyright Felipe Castro -->
   <!-- interface-authors Felipe Castro -->
-  <object class="GtkAboutDialog" id="aboutdialog_klavaro">
-    <property name="can_focus">False</property>
-    <property name="border_width">5</property>
-    <property name="title" translatable="yes">About 'Klavaro'</property>
-    <property name="window_position">center</property>
-    <property name="destroy_with_parent">True</property>
-    <property name="type_hint">dialog</property>
-    <property name="deletable">False</property>
-    <property name="program_name">Klavaro</property>
-    <property name="copyright">Copyright (C) Free Software Foundation 2008-2014</property>
-    <property name="comments" translatable="yes">Yet another touch typing tutor</property>
-    <property name="website">http://klavaro.sourceforge.net/</property>
-    <property name="website_label">klavaro.sf.net</property>
-    <property name="authors">- Felipe Castro - &lt;fefcas@gmail.com&gt;
-- Petr Machata</property>
-    <property name="documenters">- Felipe Castro</property>
-    <property name="translator_credits">- &lt;a href="http://translationproject.org/domain/klavaro.html"&gt;The Translation Project&lt;/a&gt;
-- Ankur ICT Developement Foundation, Bangladesh.
-- Martin Šín
-- Dieter Vanderfaeillie
-- Richard van Schaik
-- Dave Pawson (Great Britain)
-- Gregory Palmer
-- Felipe Castro
-- Fabrice Haberer-Proust
-- Lionel Dupuys
-- Sébastien Wilmet
-- Hermann J. Beckers
-- Matthias Mailänder
-- Gergely Máté
-- Robert Stefaniuk
-- Александр Казанцев (Alexandr Kazancev)
-- Ibon Castilla
-- Juan Macedo
-- David Prieto
-- Nils Pettersson
-- Jess Body
-- Trần Ngọc Quân</property>
-    <property name="artists">- David Prieto
-- Szczepan Marchewka</property>
-    <property name="logo">klavaro_icon.png</property>
-    <property name="license_type">gpl-3-0</property>
-    <signal name="close" handler="on_aboutdialog_klavaro_close" swapped="no"/>
-    <signal name="response" handler="on_aboutdialog_klavaro_response" swapped="no"/>
-    <child internal-child="vbox">
-      <object class="GtkBox" id="dialog-vbox2">
-        <property name="visible">True</property>
-        <property name="can_focus">False</property>
-        <property name="orientation">vertical</property>
-        <property name="spacing">2</property>
-        <child internal-child="action_area">
-          <object class="GtkButtonBox" id="dialog-action_area2">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="layout_style">center</property>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="pack_type">end</property>
-            <property name="position">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkLabel" id="label22">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="label" translatable="yes">Remember always: someone loves you!</property>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">False</property>
-            <property name="position">3</property>
-          </packing>
-        </child>
-      </object>
-    </child>
-  </object>
   <object class="GtkAdjustment" id="adjustment1">
     <property name="lower">0.97999999999999998</property>
     <property name="upper">60</property>
@@ -1397,162 +1319,6 @@ Author: Felipe Castro
         </child>
       </object>
     </child>
-  </object>
-  <object class="GtkDialog" id="dialog_info">
-    <property name="can_focus">False</property>
-    <property name="border_width">4</property>
-    <property name="title" translatable="yes">Help?</property>
-    <property name="resizable">False</property>
-    <property name="window_position">center-on-parent</property>
-    <property name="destroy_with_parent">True</property>
-    <property name="type_hint">dialog</property>
-    <property name="skip_taskbar_hint">True</property>
-    <property name="deletable">False</property>
-    <child internal-child="vbox">
-      <object class="GtkBox" id="dialog-vbox6">
-        <property name="visible">True</property>
-        <property name="can_focus">False</property>
-        <property name="spacing">4</property>
-        <child internal-child="action_area">
-          <object class="GtkButtonBox" id="dialog-action_area6">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="layout_style">end</property>
-            <child>
-              <object class="GtkButton" id="button_info_return">
-                <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="has_focus">True</property>
-                <property name="receives_default">False</property>
-                <property name="tooltip_text" translatable="yes">This is a tip. Now you press this button to return to the main menu.</property>
-                <signal name="clicked" handler="on_button_info_return_clicked" swapped="no"/>
-                <child>
-                  <object class="GtkAlignment" id="alignment28">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="xscale">0</property>
-                    <property name="yscale">0</property>
-                    <child>
-                      <object class="GtkHBox" id="hbox90">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="spacing">2</property>
-                        <child>
-                          <object class="GtkImage" id="image29">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="stock">gtk-go-back</property>
-                            <property name="icon_size">2</property>
-                          </object>
-                          <packing>
-                            <property name="expand">False</property>
-                            <property name="fill">False</property>
-                            <property name="position">0</property>
-                          </packing>
-                        </child>
-                        <child>
-                          <object class="GtkLabel" id="label153">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">B_ack to menu</property>
-                            <property name="use_underline">True</property>
-                            <property name="wrap_mode">char</property>
-                            <property name="mnemonic_widget">button_info_return</property>
-                          </object>
-                          <packing>
-                            <property name="expand">False</property>
-                            <property name="fill">False</property>
-                            <property name="position">1</property>
-                          </packing>
-                        </child>
-                      </object>
-                    </child>
-                  </object>
-                </child>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">False</property>
-                <property name="position">0</property>
-              </packing>
-            </child>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">False</property>
-            <property name="pack_type">end</property>
-            <property name="position">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkViewport" id="viewport1">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="border_width">5</property>
-            <property name="resize_mode">queue</property>
-            <child>
-              <object class="GtkAlignment" id="alignment15">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="top_padding">10</property>
-                <property name="bottom_padding">15</property>
-                <property name="left_padding">10</property>
-                <property name="right_padding">15</property>
-                <child>
-                  <object class="GtkVBox" id="vbox3">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <child>
-                      <object class="GtkLabel" id="label_info1">
-                        <property name="width_request">380</property>
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="xalign">0</property>
-                        <property name="yalign">0</property>
-                        <property name="ypad">4</property>
-                        <property name="label" translatable="yes">The main menu of the application is very straightforward. Just select the type of exercise you wish to take. Do not worry about clicking any button on the screen. The buttons will never hurt you!</property>
-                        <property name="justify">fill</property>
-                        <property name="wrap">True</property>
-                      </object>
-                      <packing>
-                        <property name="expand">False</property>
-                        <property name="fill">False</property>
-                        <property name="position">0</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkLabel" id="label_info2">
-                        <property name="width_request">380</property>
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="xalign">0</property>
-                        <property name="yalign">0</property>
-                        <property name="label" translatable="yes">Also the controls have tips which will appear if you hover over them with your mouse. These tips can come in very handy. To see how these tips work, position your mouse over the button below, and without clicking, wait for the tip to appear...</property>
-                        <property name="justify">fill</property>
-                        <property name="wrap">True</property>
-                      </object>
-                      <packing>
-                        <property name="expand">False</property>
-                        <property name="fill">False</property>
-                        <property name="position">1</property>
-                      </packing>
-                    </child>
-                  </object>
-                </child>
-              </object>
-            </child>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">False</property>
-            <property name="position">1</property>
-          </packing>
-        </child>
-      </object>
-    </child>
-    <action-widgets>
-      <action-widget response="-7">button_info_return</action-widget>
-    </action-widgets>
   </object>
   <object class="GtkFileChooserDialog" id="filechooser_tutor">
     <property name="can_focus">False</property>
@@ -3782,6 +3548,249 @@ Author: Felipe Castro
         </child>
       </object>
     </child>
+  </object>
+  <object class="GtkAboutDialog" id="aboutdialog_klavaro">
+    <property name="can_focus">False</property>
+    <property name="border_width">5</property>
+    <property name="title" translatable="yes">About 'Klavaro'</property>
+    <property name="window_position">center</property>
+    <property name="destroy_with_parent">True</property>
+    <property name="type_hint">dialog</property>
+    <property name="deletable">False</property>
+    <property name="transient_for">window_main</property>
+    <property name="program_name">Klavaro</property>
+    <property name="copyright">Copyright (C) Free Software Foundation 2008-2014</property>
+    <property name="comments" translatable="yes">Yet another touch typing tutor</property>
+    <property name="website">http://klavaro.sourceforge.net/</property>
+    <property name="website_label">klavaro.sf.net</property>
+    <property name="authors">- Felipe Castro - &lt;fefcas@gmail.com&gt;
+- Petr Machata</property>
+    <property name="documenters">- Felipe Castro</property>
+    <property name="translator_credits">- &lt;a href="http://translationproject.org/domain/klavaro.html"&gt;The Translation Project&lt;/a&gt;
+- Ankur ICT Developement Foundation, Bangladesh.
+- Martin Šín
+- Dieter Vanderfaeillie
+- Richard van Schaik
+- Dave Pawson (Great Britain)
+- Gregory Palmer
+- Felipe Castro
+- Fabrice Haberer-Proust
+- Lionel Dupuys
+- Sébastien Wilmet
+- Hermann J. Beckers
+- Matthias Mailänder
+- Gergely Máté
+- Robert Stefaniuk
+- Александр Казанцев (Alexandr Kazancev)
+- Ibon Castilla
+- Juan Macedo
+- David Prieto
+- Nils Pettersson
+- Jess Body
+- Trần Ngọc Quân</property>
+    <property name="artists">- David Prieto
+- Szczepan Marchewka</property>
+    <property name="logo">klavaro_icon.png</property>
+    <property name="license_type">gpl-3-0</property>
+    <signal name="close" handler="on_aboutdialog_klavaro_close" swapped="no"/>
+    <signal name="response" handler="on_aboutdialog_klavaro_response" swapped="no"/>
+    <child internal-child="vbox">
+      <object class="GtkBox" id="dialog-vbox2">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="orientation">vertical</property>
+        <property name="spacing">2</property>
+        <child internal-child="action_area">
+          <object class="GtkButtonBox" id="dialog-action_area2">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="layout_style">center</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="pack_type">end</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label22">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Remember always: someone loves you!</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">3</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkDialog" id="dialog_info">
+    <property name="can_focus">False</property>
+    <property name="border_width">4</property>
+    <property name="title" translatable="yes">Help?</property>
+    <property name="window_position">center-on-parent</property>
+    <property name="destroy_with_parent">True</property>
+    <property name="type_hint">notification</property>
+    <property name="skip_taskbar_hint">True</property>
+    <property name="deletable">False</property>
+    <property name="transient_for">window_main</property>
+    <child internal-child="vbox">
+      <object class="GtkBox" id="dialog-vbox6">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="spacing">4</property>
+        <child internal-child="action_area">
+          <object class="GtkButtonBox" id="dialog-action_area6">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="layout_style">end</property>
+            <child>
+              <object class="GtkButton" id="button_info_return">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="has_focus">True</property>
+                <property name="receives_default">False</property>
+                <property name="tooltip_text" translatable="yes">This is a tip. Now you press this button to return to the main menu.</property>
+                <signal name="clicked" handler="on_button_info_return_clicked" swapped="no"/>
+                <child>
+                  <object class="GtkAlignment" id="alignment28">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="xscale">0</property>
+                    <property name="yscale">0</property>
+                    <child>
+                      <object class="GtkHBox" id="hbox90">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="spacing">2</property>
+                        <child>
+                          <object class="GtkImage" id="image29">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="stock">gtk-go-back</property>
+                            <property name="icon_size">2</property>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">False</property>
+                            <property name="position">0</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkLabel" id="label153">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="label" translatable="yes">B_ack to menu</property>
+                            <property name="use_underline">True</property>
+                            <property name="wrap_mode">char</property>
+                            <property name="mnemonic_widget">button_info_return</property>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">False</property>
+                            <property name="position">1</property>
+                          </packing>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="pack_type">end</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkViewport" id="viewport1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">start</property>
+            <property name="border_width">5</property>
+            <property name="resize_mode">queue</property>
+            <child>
+              <object class="GtkAlignment" id="alignment15">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="halign">start</property>
+                <property name="margin_top">6</property>
+                <property name="top_padding">10</property>
+                <property name="bottom_padding">15</property>
+                <property name="left_padding">10</property>
+                <property name="right_padding">15</property>
+                <child>
+                  <object class="GtkVBox" id="vbox3">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="halign">start</property>
+                    <child>
+                      <object class="GtkLabel" id="label_info1">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="halign">start</property>
+                        <property name="xalign">0</property>
+                        <property name="yalign">0</property>
+                        <property name="ypad">5</property>
+                        <property name="label" translatable="yes">The main menu of the application is very straightforward. Just select the type of exercise you wish to take. Do not worry about clicking any button on the screen. The buttons will never hurt you!</property>
+                        <property name="justify">fill</property>
+                        <property name="wrap">True</property>
+                        <property name="width_chars">40</property>
+                        <property name="max_width_chars">80</property>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">False</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="label_info2">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="halign">start</property>
+                        <property name="xalign">0</property>
+                        <property name="yalign">0</property>
+                        <property name="label" translatable="yes">Also the controls have tips which will appear if you hover over them with your mouse. These tips can come in very handy. To see how these tips work, position your mouse over the button below, and without clicking, wait for the tip to appear...</property>
+                        <property name="justify">fill</property>
+                        <property name="wrap">True</property>
+                        <property name="width_chars">40</property>
+                        <property name="max_width_chars">80</property>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">False</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <action-widgets>
+      <action-widget response="-7">button_info_return</action-widget>
+    </action-widgets>
   </object>
   <object class="GtkWindow" id="window_top10">
     <property name="width_request">400</property>
