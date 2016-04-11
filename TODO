@@ -1,7 +1,9 @@
 ____________________________________________________________
 Simple list of things that could be done in future releases:
 
+- Add instructions for typing with the shift keys (in the introduction).
 - Explain what are the blank lessons after 43, in basic module.
+- In fluidity, manage Ctrl+h to work as Backspace (delete 1 char) and Ctrl+w as Ctrl+Backspace (clean up all errors).
 
 ____________________________________________
 And suggestions that probably won't be done:
